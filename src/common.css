@@ -1972,8 +1972,3 @@ width: var(--media-width-large);
 max-width: 100%;
 height: auto;
 }
-
-body {
-outline: 6px solid magenta;
-outline-offset: -6px;
-}
