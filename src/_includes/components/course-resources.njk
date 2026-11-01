@@ -1,0 +1,8 @@
+{% if site.courseResources | length %}
+{% include "components/space-medium.njk" %}
+<nav class="course-resources" aria-label="{{ site.shortName | escape }} course resources">
+<div class="button-grid">
+{% for resource in site.courseResources %}<a class="button button-green{% if not loop.first %} button-outline{% endif %}" href="{{ resource.url | url }}">{{ site.shortName | escape }} {{ resource.label | escape }}</a>{% endfor %}
+</div>
+</nav>
+{% endif %}

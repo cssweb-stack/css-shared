@@ -1,0 +1,9 @@
+{
+  "name": "@cssweb/shared",
+  "version": "0.1.0",
+  "private": true,
+  "description": "College of Social Sciences shared website templates, styles and assets",
+  "scripts": {
+    "check": "node scripts/check-shared.mjs"
+  }
+}

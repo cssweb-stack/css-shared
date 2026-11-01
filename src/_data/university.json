@@ -1,0 +1,202 @@
+{
+  "logo": {
+    "src": "/_media/branding/uh-manoa-logo-white.svg",
+    "alt": "University of Hawaiʻi at Mānoa",
+    "url": "https://manoa.hawaii.edu/"
+  },
+  "navigation": [
+    {
+      "label": "A-Z Index",
+      "url": "https://manoa.hawaii.edu/a-z/"
+    },
+    {
+      "label": "Directory",
+      "url": "https://manoa.hawaii.edu/directory/"
+    },
+    {
+      "label": "Students",
+      "url": "https://manoa.hawaii.edu/students/"
+    },
+    {
+      "label": "Faculty and Staff",
+      "url": "https://manoa.hawaii.edu/faculty-staff/"
+    },
+    {
+      "label": "Parents",
+      "url": "https://manoa.hawaii.edu/admissions/parents.html"
+    },
+    {
+      "label": "Alumni",
+      "url": "https://uhalumni.org/manoa/"
+    },
+    {
+      "label": "MyUH",
+      "url": "https://myuh.hawaii.edu/"
+    },
+    {
+      "label": "Support UH",
+      "url": "https://www.uhfoundation.org/give"
+    }
+  ],
+  "footerColumns": [
+    [
+      {
+        "label": "Emergency Information",
+        "url": "https://manoa.hawaii.edu/emergency/"
+      },
+      {
+        "label": "Campus Safety",
+        "url": "https://manoa.hawaii.edu/dps/"
+      },
+      {
+        "label": "Title IX",
+        "url": "https://manoa.hawaii.edu/titleix/"
+      },
+      {
+        "label": "UH News & Media",
+        "url": "https://www.hawaii.edu/news/tag/uh-manoa/"
+      },
+      {
+        "label": "Press Releases",
+        "url": "https://manoa.hawaii.edu/news/"
+      },
+      {
+        "label": "Events",
+        "url": "https://www.hawaii.edu/calendar/manoa/"
+      },
+      {
+        "label": "Work at UH",
+        "url": "https://www.schooljobs.com/careers/hawaiiedu"
+      }
+    ],
+    [
+      {
+        "label": "Accessibility at UH",
+        "url": "https://www.hawaii.edu/access/"
+      },
+      {
+        "label": "Accessibility Statement",
+        "url": "https://hawaii.edu/accessibility-statement/"
+      },
+      {
+        "label": "Campus Maps",
+        "url": "https://map.hawaii.edu/manoa/"
+      },
+      {
+        "label": "Visiting the Campus",
+        "url": "https://manoa.hawaii.edu/about/visit/"
+      },
+      {
+        "label": "Emergency Information",
+        "url": "https://manoa.hawaii.edu/emergency/"
+      },
+      {
+        "label": "Press Releases",
+        "url": "https://manoa.hawaii.edu/news/"
+      },
+      {
+        "label": "Events",
+        "url": "https://www.hawaii.edu/calendar/manoa/"
+      },
+      {
+        "label": "Work at UH",
+        "url": "https://www.schooljobs.com/careers/hawaiiedu"
+      },
+      {
+        "label": "Privacy Statement",
+        "url": "https://manoa.hawaii.edu/privacy/"
+      },
+      {
+        "label": "Site Feedback",
+        "url": "https://manoa.hawaii.edu/feedback/"
+      }
+    ]
+  ],
+  "interpretationHeading": "Free Interpretation Services",
+  "languages": [
+    {
+      "label": "English",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfSnMk8idA89NkyRsDU1NCwCvMdU2GEKHtZgr3mM3cPb7sEqA/viewform",
+      "lang": "en"
+    },
+    {
+      "label": "Gagana Samoa",
+      "url": "https://forms.gle/4aYsHbupLPDdUHZx6",
+      "lang": "sm"
+    },
+    {
+      "label": "Kapasen Chuuk",
+      "url": "https://forms.gle/LA4PYNN8JEJK72rT7",
+      "lang": "chk"
+    },
+    {
+      "label": "Lea faka-Tonga - Tongan",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLScueAEFsbkHW0kOngVJfKcNkniQyhBU2kZMJLqzyPgF5rYiJA/viewform",
+      "lang": "to"
+    },
+    {
+      "label": "Tiếng Việt",
+      "url": "https://forms.gle/T6hGSaQfKs1Ner2u6",
+      "lang": "vi"
+    },
+    {
+      "label": "ภาษาไทย",
+      "url": "https://forms.gle/gpqqQ6ar8KSuzeDk7",
+      "lang": "th"
+    },
+    {
+      "label": "Ilokano",
+      "url": "https://forms.gle/N2woHbhFDo6DEfVR7",
+      "lang": "ilo"
+    },
+    {
+      "label": "Tagalog",
+      "url": "https://forms.gle/VALL9LCawBB4xQVt7",
+      "lang": "tl"
+    },
+    {
+      "label": "Cebuano",
+      "url": "https://forms.gle/Frf9qDhzNERzFcpW8",
+      "lang": "ceb"
+    },
+    {
+      "label": "Kajin Majôl",
+      "url": "https://forms.gle/DnRMQ4w2m89muGkv9",
+      "lang": "mh"
+    },
+    {
+      "label": "简体中文",
+      "url": "https://forms.gle/DMytNWbMRuesyc6B8",
+      "lang": "zh-Hans"
+    },
+    {
+      "label": "繁體中文",
+      "url": "https://forms.gle/MBRdutXBXeKJemQ17",
+      "lang": "zh-Hant"
+    },
+    {
+      "label": "日本語",
+      "url": "https://forms.gle/SNyGGZ6TvyMFAhNp7",
+      "lang": "ja"
+    },
+    {
+      "label": "한국어",
+      "url": "https://forms.gle/JJsfXi98CH9S8crF6",
+      "lang": "ko"
+    },
+    {
+      "label": "Español",
+      "url": "https://forms.gle/Ee5sgabh5QyRzdsE8",
+      "lang": "es"
+    },
+    {
+      "label": "ʻŌlelo Hawaiʻi",
+      "url": "https://forms.gle/LkWFEhqoY8Ly5ySHA",
+      "lang": "haw"
+    }
+  ],
+  "copyrightYear": 2026,
+  "equalOpportunityUrl": "https://www.hawaii.edu/offices/eeo/policies/",
+  "usagePolicyUrl": "https://www.hawaii.edu/policy/docs/temp/ep2.210.pdf",
+  "universityUrl": "https://www.hawaii.edu/"
+}
