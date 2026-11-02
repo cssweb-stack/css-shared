@@ -138,8 +138,6 @@ reinforce their edges so they remain visible on dark colors. */
 --photo-mat-small: 3px;
 --photo-mat-medium: 6px;
 --photo-mat-large: 9px;
-/* Academic photos: set padding to 0 to remove the teal mat. */
---academic-photo-frame-padding: var(--photo-mat-large);
 /* Academic row bottom gap; independent of callout spacing. */
 --academic-photo-row-space-after: 2.25rem;
 /* Academic row dividers: none = off; block = on for every row. */
@@ -1812,11 +1810,17 @@ padding: var(--photo-mat-medium);
 padding: var(--photo-mat-large);
 }
 
-/* Academic photo rows keep the shared media grid and photo finish. */
+/* Academic photos retain the shared pinline without a mat or shadow. */
 .academic-photo-frame {
-padding: var(--academic-photo-frame-padding);
-background-color: var(--color-teal);
+padding: 0;
+background-color: transparent;
+box-shadow: none;
 margin-inline: 0;
+}
+/* Paragraphs leading directly into a row or its existing course-list wrapper. */
+.site-main p:has(+ .academic-photo-row),
+.site-main p:has(+ .course-list > .academic-photo-row:first-child) {
+margin-bottom: var(--academic-photo-row-space-after);
 }
 .academic-photo-row {
 position: relative;
