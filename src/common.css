@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 /* Global design tokens */
 :root {
@@ -104,7 +104,7 @@
 
 /* Content heading scale: desktop defaults; smaller screens below. */
 --heading-1-size: 2rem;
---heading-2-size: 1.5rem;
+--heading-2-size: 1.375rem;
 --paragraph-after: 1rem;
 --list-item-after: 0.5rem;
 --heading-1-after: var(--paragraph-after);
@@ -131,6 +131,7 @@ The image path is relative to common.css, so it also works under /geo/. */
 reinforce their edges so they remain visible on dark colors. */
 --tile-pattern-filter: invert(1) drop-shadow(.4px 0 0 var(--light)) drop-shadow(-.4px 0 0 var(--light));
 --tagline-color: var(--color-blue);
+--font-weight-subfooter: 300;
 --font-weight-base: 400;
 --font-weight-semibold: 600;
 --font-weight-bold: 700;
@@ -181,7 +182,7 @@ line-height: inherit;
 }
 h2 {
 font-size: var(--heading-2-size);
-font-weight: var(--font-weight-semibold);
+font-weight: var(--font-weight-bold);
 line-height: inherit;
 }
 p,
@@ -199,11 +200,14 @@ margin-top: 0;
 margin-bottom: var(--heading-2-after);
 }
 .site-main h3 {
-font-size: 1.125rem;
-font-weight: var(--font-weight-semibold);
+font-size: 1.25rem;
+font-weight: var(--font-weight-bold);
 line-height: inherit;
 margin-top: 1.5rem;
 margin-bottom: var(--paragraph-after);
+}
+.site-main h4 {
+font-size: 1.125rem;
 }
 .site-main h4,
 .site-main h5,
@@ -241,13 +245,11 @@ Compact component titles retain their own sizes in their component sections. */
 @media (min-width: 576px) and (max-width: 1199.98px) {
 :root {
 --heading-1-size: 1.875rem;
---heading-2-size: 1.4375rem;
 }
 }
 @media (max-width: 575.98px) {
 :root {
 --heading-1-size: 1.75rem;
---heading-2-size: 1.375rem;
 }
 }
 
@@ -291,7 +293,7 @@ margin-block: 1.5rem;
 /* Page introductions */
 .site-main .page-intro {
 font-size: 1.125rem;
-font-weight: var(--font-weight-base);
+font-weight: var(--font-weight-semibold);
 line-height: inherit;
 margin-top: 0;
 margin-bottom: var(--paragraph-after);

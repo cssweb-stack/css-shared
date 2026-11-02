@@ -725,10 +725,11 @@ width: 100%;
 .subfooter p {
 color: var(--light);
 font-size: 0.875rem;
-font-weight: var(--font-weight-base);
+font-weight: var(--font-weight-subfooter);
 }
 
 .subfooter a {
+vertical-align: baseline;
 color: var(--light);
 text-decoration: underline;
 }
