@@ -89,13 +89,13 @@
 
 --brand-toggle-border-color: color-mix(in srgb, var(--light) 50%, transparent);
 
---interpretation-band-opacity: 15%;
+--interpretation-band-opacity: 25%;
 
---interpretation-heading-opacity: 10%;
+--interpretation-heading-opacity: 15%;
 
---interpretation-band-color: color-mix(in srgb, var(--dark-gray) var(--interpretation-band-opacity), transparent);
+--interpretation-band-color: color-mix(in srgb, var(--shadow-base) var(--interpretation-band-opacity), transparent);
 
---interpretation-heading-color: color-mix(in srgb, var(--dark-gray) var(--interpretation-heading-opacity), transparent);
+--interpretation-heading-color: color-mix(in srgb, var(--shadow-base) var(--interpretation-heading-opacity), transparent);
 
 /* Shared photo and colored tile finish. */
 --frame-border: 1px solid var(--nav-divider);

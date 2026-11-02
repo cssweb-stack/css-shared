@@ -707,7 +707,7 @@ padding-block: 0.3rem;
 }
 
 .subfooter-inner {
-padding-block: 1rem;
+padding-block: calc(1rem - 3px);
 }
 
 .subfooter-text {
@@ -732,10 +732,6 @@ font-weight: var(--font-weight-subfooter);
 vertical-align: baseline;
 color: var(--light);
 text-decoration: underline;
-}
-
-.subfooter a:hover,
-.subfooter a:focus-visible {
 text-decoration-thickness: 1px;
 text-underline-offset: 3px;
 }
