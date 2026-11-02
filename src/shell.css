@@ -1,3 +1,12 @@
+/* One thin underline treatment for the unit name, UH navigation, and footer links. Hover changes the line visibility without resetting its thickness or offset. */
+
+.unit-name-link,
+.uh-brand .nav-link,
+.site-footer a {
+text-decoration-thickness: 1px;
+text-underline-offset: 5px;
+}
+
 /* Shared site shell: university branding, unit header/search, navigation, footer and subfooter.
 Load after Bootstrap and common.css, before geo.css.
 Shared color and font variables are supplied by common.css. */
@@ -57,9 +66,7 @@ margin-left: 0;
 .uh-brand .nav-link {
 color: var(--light);
 font-weight: var(--font-weight-base);
-text-decoration: none;
-text-decoration-thickness: 1px;
-text-underline-offset: 5px;
+text-decoration-line: none;
 white-space: nowrap;
 min-height: 44px;
 display: inline-flex;
@@ -69,7 +76,7 @@ align-items: center;
 .uh-brand .nav-link:hover,
 .uh-brand .nav-link:focus-visible {
 color: var(--light);
-text-decoration: underline;
+text-decoration-line: underline;
 }
 
 .uh-brand .navbar-toggler {
@@ -139,7 +146,7 @@ border-bottom: 1px solid var(--border-gray);
 
 .unit-name-link {
 color: var(--text);
-text-decoration: none;
+text-decoration-line: none;
 font-size: clamp(1.5rem, 2.5vw, 2rem);
 font-weight: var(--font-weight-semibold);
 }
@@ -148,8 +155,6 @@ font-weight: var(--font-weight-semibold);
 .unit-name-link:focus-visible {
 color: var(--text);
 text-decoration-line: underline;
-text-decoration-thickness: 1px;
-text-underline-offset: 5px;
 }
 
 /* Unit bar layout and search controls */
@@ -413,15 +418,13 @@ padding-block: 0.375rem;
 line-height: 1.5;
 overflow-wrap: anywhere;
 color: var(--light);
-text-decoration: none;
+text-decoration-line: none;
 }
 
 .site-footer a:hover,
 .site-footer a:focus-visible {
 color: var(--light);
-text-decoration: underline;
-text-decoration-thickness: 1px;
-text-underline-offset: 3px;
+text-decoration-line: underline;
 }
 
 .site-footer ul {
@@ -552,7 +555,6 @@ justify-content: center;
 gap: 0.5rem;
 min-height: 44px;
 padding: 0.375rem 0;
-text-underline-offset: 3px;
 }
 
 .footer-department-webmaster svg {
@@ -678,7 +680,7 @@ color: var(--light);
 .site-footer .footer-languages a:hover,
 .site-footer .footer-languages a:focus-visible {
 color: var(--light);
-text-decoration: underline;
+text-decoration-line: underline;
 }
 
 .site-footer .footer-languages a:focus-visible {
@@ -731,9 +733,7 @@ font-weight: var(--font-weight-subfooter);
 .subfooter a {
 vertical-align: baseline;
 color: var(--light);
-text-decoration: underline;
-text-decoration-thickness: 1px;
-text-underline-offset: 3px;
+text-decoration-line: underline;
 }
 
 /* Long unit names and menu labels wrap within the common shell. */
