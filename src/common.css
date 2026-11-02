@@ -296,9 +296,9 @@ font-size: 1.14rem;
 font-weight: var(--font-weight-base);
 line-height: inherit;
 margin-top: 0;
-padding-bottom: var(--separator-medium);
+padding-bottom: var(--separator-large);
 border-bottom: var(--divider-thickness) solid red;
-margin-bottom: var(--separator-medium);
+margin-bottom: var(--separator-large);
 }
 
 /* Intro catchphrase: a subtitle paragraph beneath the H1, not a heading. */
