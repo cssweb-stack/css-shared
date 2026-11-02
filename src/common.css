@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 /* Global design tokens */
 :root {
@@ -105,14 +105,14 @@
 /* Content heading scale: desktop defaults; smaller screens below. */
 --heading-1-size: 2rem;
 --heading-2-size: 1.5rem;
---heading-1-leading: 1.2;
---heading-2-leading: 1.333;
 --paragraph-after: 1rem;
 --list-item-after: 0.5rem;
 --heading-1-after: var(--paragraph-after);
---heading-2-after: 1rem;
+--heading-2-after: var(--paragraph-after);
 
 --bs-body-font-family: 'Inter', sans-serif;
+--bs-body-line-height: 1.5;
+--bs-body-font-weight: var(--font-weight-base);
 --bs-body-color: var(--text);
 --bs-body-bg: var(--light);
 /* Shared contour background controls for home program, funding, and degree boxes. Opacity: 0 to 1.
@@ -131,7 +131,9 @@ The image path is relative to common.css, so it also works under /geo/. */
 reinforce their edges so they remain visible on dark colors. */
 --tile-pattern-filter: invert(1) drop-shadow(.4px 0 0 var(--light)) drop-shadow(-.4px 0 0 var(--light));
 --tagline-color: var(--color-blue);
---font-weight-strong: 600;
+--font-weight-base: 400;
+--font-weight-semibold: 600;
+--font-weight-bold: 700;
 --photo-mat-small: 3px;
 --photo-mat-medium: 6px;
 --photo-mat-large: 9px;
@@ -154,7 +156,7 @@ reinforce their edges so they remain visible on dark colors. */
 --button-padding-y: 0.75rem;
 --button-padding-x: 1.5rem;
 --button-radius: 0.375rem;
---button-weight: 600;
+--button-weight: var(--font-weight-semibold);
 --card-border: var(--frame-border);
 --card-radius: 0.25rem;
 --card-shadow: var(--frame-shadow);
@@ -163,6 +165,8 @@ reinforce their edges so they remain visible on dark colors. */
 /* Typography and main content */
 body {
 font-family: 'Inter', sans-serif;
+font-weight: var(--font-weight-base);
+line-height: var(--bs-body-line-height);
 color: var(--text);
 }
 .site-main {
@@ -172,19 +176,19 @@ min-height: 40vh;
 }
 h1 {
 font-size: var(--heading-1-size);
-font-weight: 600;
-line-height: var(--heading-1-leading);
+font-weight: var(--font-weight-semibold);
+line-height: inherit;
 }
 h2 {
 font-size: var(--heading-2-size);
-font-weight: 600;
-line-height: var(--heading-2-leading);
+font-weight: var(--font-weight-semibold);
+line-height: inherit;
 }
 p,
 .site-main li {
 font-size: 1rem;
-font-weight: 400;
-line-height: 1.75;
+font-weight: var(--font-weight-base);
+line-height: inherit;
 }
 .site-main h1 {
 margin-top: 0;
@@ -196,10 +200,17 @@ margin-bottom: var(--heading-2-after);
 }
 .site-main h3 {
 font-size: 1.125rem;
-font-weight: 600;
-line-height: 1.5;
+font-weight: var(--font-weight-semibold);
+line-height: inherit;
 margin-top: 1.5rem;
-margin-bottom: .75rem;
+margin-bottom: var(--paragraph-after);
+}
+.site-main h4,
+.site-main h5,
+.site-main h6 {
+font-weight: var(--font-weight-semibold);
+line-height: inherit;
+margin-bottom: var(--paragraph-after);
 }
 /* One baseline gap for paragraphs and top-level lists. */
 .site-main p {
@@ -231,18 +242,12 @@ Compact component titles retain their own sizes in their component sections. */
 :root {
 --heading-1-size: 1.875rem;
 --heading-2-size: 1.4375rem;
---heading-1-leading: 1.25;
---heading-2-leading: 1.35;
---heading-2-after: 0.9375rem;
 }
 }
 @media (max-width: 575.98px) {
 :root {
 --heading-1-size: 1.75rem;
 --heading-2-size: 1.375rem;
---heading-1-leading: 1.25;
---heading-2-leading: 1.4;
---heading-2-after: 0.875rem;
 }
 }
 
@@ -286,8 +291,8 @@ margin-block: 1.5rem;
 /* Page introductions */
 .site-main .page-intro {
 font-size: 1.125rem;
-font-weight: 400;
-line-height: 1.7;
+font-weight: var(--font-weight-base);
+line-height: inherit;
 margin-top: 0;
 margin-bottom: var(--paragraph-after);
 }
@@ -295,9 +300,9 @@ margin-bottom: var(--paragraph-after);
 /* Intro catchphrase: a subtitle paragraph beneath the H1, not a heading. */
 .site-main p.intro-highlight {
 font-size: 1.25rem;
-font-weight: 400;
+font-weight: var(--font-weight-base);
 font-style: normal;
-line-height: 1.5;
+line-height: inherit;
 color: var(--color-blue);
 margin: 0 0 var(--paragraph-after);
 }
@@ -405,7 +410,7 @@ padding: var(--hero-location-padding-y) var(--hero-location-padding-x);
 background: color-mix(in srgb, var(--shadow-base) calc(var(--hero-location-bg-opacity) * 100%), transparent);
 color: var(--light);
 font-size: var(--hero-location-font-size);
-font-weight: 400;
+font-weight: var(--font-weight-base);
 line-height: 1.4;
 text-align: right;
 border-radius: 0 0 0 var(--hero-location-corner-radius);
@@ -440,7 +445,7 @@ font-size: 0.75rem;
 line-height: 1.6;
 }
 .hero-attribution-label {
-font-weight: 600;
+font-weight: var(--font-weight-semibold);
 }
 .hero-attribution a {
 color: var(--hero-credit-link-color);
@@ -508,7 +513,7 @@ background-color: var(--light);
 display: inline-flex;
 align-items: baseline;
 gap: 0.5rem;
-font-weight: 400;
+font-weight: var(--font-weight-base);
 text-decoration: none;
 }
 .action-link::before {
@@ -584,7 +589,7 @@ opacity: 1;
 .site-main .media-title {
 margin: 0 0 0.875rem;
 font-size: 1.125rem;
-font-weight: 600;
+font-weight: var(--font-weight-semibold);
 line-height: 1.4;
 }
 .site-main .media-content p {
@@ -606,7 +611,7 @@ align-items: flex-start;
 .site-main .course-subheading {
 margin: 1.25rem 0 0.5rem;
 font-size: 1rem;
-font-weight: 600;
+font-weight: var(--font-weight-semibold);
 line-height: 1.5;
 }
 .site-main .compact-rows .media-content ul {
@@ -679,7 +684,7 @@ min-width: 0;
 .site-main .advisor h3 {
 margin: 0 0 0.375rem;
 font-size: 1.125rem;
-font-weight: 500;
+font-weight: var(--font-weight-semibold);
 line-height: 1.4;
 }
 .site-main .advisor p {
@@ -688,7 +693,7 @@ line-height: 1.5;
 overflow-wrap: anywhere;
 }
 .site-main .advisor-name {
-font-weight: 400;
+font-weight: var(--font-weight-base);
 }
 .advisor-email a {
 display: inline-flex;
@@ -746,7 +751,7 @@ border-bottom: 1px solid var(--news-border-color);
 .site-main .news-post-author {
 margin: 0 0 0.25rem;
 font-size: 0.9375rem;
-font-weight: 600;
+font-weight: var(--font-weight-semibold);
 line-height: 1.45;
 }
 .news-post-author a {
@@ -846,7 +851,7 @@ padding: 0.75rem 0 0;
 .site-main .news-link-preview-title {
 margin: 0 0 0.5rem;
 font-size: 0.875rem;
-font-weight: 600;
+font-weight: var(--font-weight-semibold);
 line-height: 1.5;
 }
 .site-main .news-link-preview-domain,
@@ -927,10 +932,10 @@ min-width: 0;
 margin: 0;
 }
 .site-main .student-name {
-font-weight: 600;
+font-weight: var(--font-weight-semibold);
 }
 .site-main .student-program {
-font-weight: 500;
+font-weight: var(--font-weight-semibold);
 color: var(--text);
 }
 .student-meta {
@@ -1004,7 +1009,7 @@ line-height: 1.5;
 }
 .site-main .profile-titles .profile-role {
 margin-top: 0.25rem;
-font-weight: 600;
+font-weight: var(--font-weight-semibold);
 }
 .profile-contact {
 margin-bottom: 0;
@@ -1170,12 +1175,12 @@ margin: 0;
 /* Degree tiles */
 .degree-tile-symbol {
 font-size: 3rem;
-font-weight: 600;
+font-weight: var(--font-weight-semibold);
 line-height: 1.1;
 }
 .degree-tile-label {
 font-size: 0.875rem;
-font-weight: 400;
+font-weight: var(--font-weight-base);
 }
 .degree-tile-icon {
 display: inline-flex;
@@ -1210,7 +1215,7 @@ text-align: center;
 .site-main .funding-tile h2 {
 font-size: 1.375rem;
 line-height: 1.3;
-font-weight: 600;
+font-weight: var(--font-weight-semibold);
 margin: 0;
 color: inherit;
 }
@@ -1224,7 +1229,7 @@ padding-bottom: 0;
 .funding-item h3,
 .funding-subheading {
 font-size: 1.125rem;
-font-weight: 600;
+font-weight: var(--font-weight-semibold);
 line-height: 1.4;
 margin: 0 0 0.75rem;
 }
@@ -1302,19 +1307,19 @@ stroke-linejoin: round;
 }
 .lecture-month {
 font-size: 0.875rem;
-font-weight: 500;
+font-weight: var(--font-weight-semibold);
 line-height: 1.2;
 letter-spacing: 0.08em;
 text-transform: uppercase;
 }
 .lecture-day {
 font-size: 2.5rem;
-font-weight: 600;
+font-weight: var(--font-weight-semibold);
 line-height: 1;
 }
 .lecture-weekday {
 font-size: 0.75rem;
-font-weight: 400;
+font-weight: var(--font-weight-base);
 line-height: 1.4;
 }
 .lecture-information {
@@ -1326,12 +1331,12 @@ overflow-wrap: anywhere;
 .site-main .lecture-title {
 margin: 0 0 0.75rem;
 font-size: 1.25rem;
-font-weight: 600;
+font-weight: var(--font-weight-semibold);
 line-height: 1.4;
 }
 .site-main .lecture-speaker {
 margin: 0 0 0.125rem;
-font-weight: 500;
+font-weight: var(--font-weight-semibold);
 }
 .site-main .lecture-affiliation {
 margin: 0;
@@ -1432,7 +1437,7 @@ margin-top: 2rem;
 }
 .person-name {
 font-size: 1.125rem;
-font-weight: 600;
+font-weight: var(--font-weight-semibold);
 }
 .site-main p.message-text {
 margin-bottom: 0.75rem;
@@ -1443,7 +1448,7 @@ font-size: 0.98rem;
 }
 .minor-note-icon {
 margin-right: 0.45rem;
-font-weight: 700;
+font-weight: var(--font-weight-bold);
 }
 
 /* Shared decorative contour background */
@@ -1559,7 +1564,7 @@ fill: currentColor;
 }
 .program-tile-title {
 font-size: clamp(2rem, 25cqi, 6rem);
-font-weight: 600;
+font-weight: var(--font-weight-semibold);
 line-height: 1.1;
 color: inherit;
 white-space: nowrap;
@@ -1569,7 +1574,7 @@ display: block;
 min-height: 2.8em;
 margin-top: 5cqi;
 font-size: clamp(.75rem, 7.5cqi, 1.75rem);
-font-weight: 600;
+font-weight: var(--font-weight-semibold);
 line-height: 1.4;
 color: inherit;
 }
@@ -1638,7 +1643,7 @@ transform: none;
 /* Shared component controls. Sizes and custom gaps use multiples of three. */
 strong,
 b {
-font-weight: var(--font-weight-strong);
+font-weight: var(--font-weight-bold);
 }
 .site-main p.intro-highlight {
 color: var(--tagline-color);
@@ -1649,12 +1654,12 @@ color: var(--link-color);
 .credits,
 .text-accent {
 color: var(--accent-color);
-font-weight: 400;
+font-weight: var(--font-weight-base);
 }
 .text-note {
 color: var(--note-color);
 font-size: 0.875rem;
-font-weight: 400;
+font-weight: var(--font-weight-base);
 }
 
 /* Independent decorative dividers. No section/paragraph selector draws them. */
