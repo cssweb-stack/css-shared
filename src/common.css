@@ -1655,20 +1655,18 @@ display: inline-flex;
 align-items: baseline;
 gap: 0.5rem;
 font-weight: var(--font-weight-base);
-text-decoration: none;
+text-decoration: underline;
+text-underline-offset: 3px;
 }
 .action-link::before {
 content: "›";
 color: var(--uh-green);
 font-size: 1.5em;
 line-height: 1;
+text-decoration: none;
 }
-.action-link-text {
-text-decoration: underline;
-text-underline-offset: 3px;
-}
-.action-link:hover .action-link-text,
-.action-link:focus-visible .action-link-text {
+.action-link:hover,
+.action-link:focus-visible {
 text-decoration-thickness: 2px;
 }
 
