@@ -120,7 +120,7 @@ Size accepts cover, contain, percentages, or pixel values.
 The image path is relative to common.css, so it also works under /geo/. */
 --tile-pattern-image: url("_media/other/contour-lines.svg");
 --tile-pattern-opacity: .2;
-/* Smaller BAM icon and lecture date boxes: adjust opacity here (0 to 1). */
+/* Smaller icon and event date boxes: adjust opacity here (0 to 1). */
 --tile-compact-pattern-opacity: .14;
 --tile-pattern-size: 200% auto;
 --tile-pattern-position: center;
@@ -1288,79 +1288,6 @@ width: 100%;
 }
 }
 
-/* Lecture series */
-.site-main .lecture-details p {
-margin: 0 0 0.375rem;
-}
-.site-main .lecture-details p:last-child {
-margin-bottom: 0;
-}
-.date-tile {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 0.125rem;
-color: var(--light);
-text-align: center;
-}
-.date-tile-icon {
-width: 1.25rem;
-height: 1.25rem;
-margin-bottom: 0.25rem;
-fill: none;
-stroke: currentColor;
-stroke-width: 1.7;
-stroke-linecap: round;
-stroke-linejoin: round;
-}
-.lecture-month {
-font-size: 0.875rem;
-font-weight: var(--font-weight-semibold);
-line-height: 1.2;
-letter-spacing: 0.08em;
-text-transform: uppercase;
-}
-.lecture-day {
-font-size: 2.5rem;
-font-weight: var(--font-weight-semibold);
-line-height: 1;
-}
-.lecture-weekday {
-font-size: 0.75rem;
-font-weight: var(--font-weight-base);
-line-height: 1.4;
-}
-.lecture-information {
-flex: 1 1 auto;
-min-width: 0;
-padding-top: 0.125rem;
-overflow-wrap: anywhere;
-}
-.site-main .lecture-title {
-margin: 0 0 0.75rem;
-font-size: 1.25rem;
-font-weight: var(--font-weight-semibold);
-line-height: 1.4;
-}
-.site-main .lecture-speaker {
-margin: 0 0 0.125rem;
-font-weight: var(--font-weight-semibold);
-}
-.site-main .lecture-affiliation {
-margin: 0;
-}
-@media (max-width: 767.98px) {
-
-.lecture-information {
-width: 100%;
-}
-
-.site-main .lecture-title {
-font-size: 1.125rem;
-}
-}
-
 /* Contact page */
 .contact-location-photo,
 .contact-profile-photo {
@@ -1454,7 +1381,8 @@ font-weight: var(--font-weight-semibold);
 
 /* Small boxes share the contour treatment with quieter opacity. */
 .icon-tile,
-.date-tile {
+.date-tile,
+.event-date-box {
 position: relative;
 isolation: isolate;
 overflow: hidden;
@@ -1682,14 +1610,16 @@ background-color: currentColor;
 mask: url("assets/icons/info-circle.svg") center / contain no-repeat;
 }
 
-.action-link {
+.action-link,
+.event-date {
 display: inline-flex;
 align-items: baseline;
 gap: 0.5rem;
 font-weight: var(--font-weight-base);
 text-decoration: none;
 }
-.action-link::before {
+.action-link::before,
+.action-chevron::before {
 content: "›";
 color: var(--uh-green);
 font-size: 1.5em;
@@ -1786,7 +1716,7 @@ width: 100%;
 max-width: 100%;
 }
 img.media-visual,
-.media-visual > img:not(.color-box-icon) {
+.media-visual > img:not(.color-box-icon, .event-calendar-icon) {
 display: block;
 width: 100%;
 max-width: 100%;
@@ -1934,12 +1864,66 @@ gap: 0.5rem;
 padding: 1.5rem;
 }
 .date-tile {
+gap: 0.125rem;
+color: var(--light);
+text-align: center;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 padding: 0.75rem;
 }
+/* College-wide event listings. */
+.event-date-box {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 0.125rem;
+padding: 0.75rem;
+color: var(--light);
+text-align: center;
+}
+.event-calendar-icon {
+width: 1.25rem;
+height: 1.25rem;
+margin-bottom: 0.25rem;
+object-fit: contain;
+}
+.event-compact-date {
+font-size: 0.875rem;
+font-weight: var(--font-weight-semibold);
+line-height: 1.2;
+letter-spacing: 0.08em;
+white-space: nowrap;
+}
+.event-content {
+min-width: 0;
+padding-top: 0.125rem;
+overflow-wrap: anywhere;
+}
+.site-main .event-title {
+margin: 0 0 0.75rem;
+font-size: 1.25rem;
+font-weight: var(--font-weight-semibold);
+line-height: 1.4;
+}
+.site-main .event-speaker {
+margin: 0 0 0.125rem;
+font-weight: var(--font-weight-semibold);
+}
+.site-main .event-affiliation {
+margin: 0;
+}
+.site-main .event-date {
+margin: 0.75rem 0 0;
+}
+@media (max-width: 767.98px) {
+.site-main .event-title {
+font-size: 1.125rem;
+}
+}
+
 .funding-tile {
 padding: 1.5rem;
 }
