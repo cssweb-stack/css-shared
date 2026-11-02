@@ -1619,7 +1619,6 @@ color: var(--tagline-color);
 .site-main a:not(.btn):not(.button):not(.program-tile) {
 color: var(--link-color);
 }
-.site-main .credits,
 .site-main .text-accent {
 color: var(--accent-color);
 font-weight: var(--font-weight-base);
@@ -1628,6 +1627,16 @@ font-weight: var(--font-weight-base);
 color: var(--note-color);
 font-size: 0.875rem;
 font-weight: var(--font-weight-base);
+}
+/* Information notes retain their larger copy, inherited color and icon spacing. */
+.site-main .text-note--info {
+color: inherit;
+font-size: 0.98rem;
+margin-top: 1rem;
+}
+.site-main .text-note-icon {
+margin-right: 0.45rem;
+font-weight: 700;
 }
 
 .action-link {
@@ -1655,14 +1664,7 @@ text-decoration-thickness: 2px;
 .site-main p.message-text {
 margin-bottom: 0.75rem;
 }
-.site-main .minor-note {
-margin-top: 1rem;
-font-size: 0.98rem;
-}
-.site-main .minor-note-icon {
-margin-right: 0.45rem;
-font-weight: var(--font-weight-bold);
-}
+
 
 /* Independent decorative dividers. No section/paragraph selector draws them. */
 .divider,
