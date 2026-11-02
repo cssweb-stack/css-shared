@@ -613,7 +613,7 @@ margin: 0;
 .course-resources {
 padding: 1.5rem;
 background: var(--light-gray);
-border-radius: 2rem;
+border-radius: var(--callout-radius);
 }
 .button-grid {
 width: 100%;
