@@ -18,14 +18,14 @@
 {% include "components/unit-name.njk" %}
 {% include "components/unit-nav.njk" %}
 </header>
-{% include "components/hero.njk" %}
+{% if site.hero.enabled != false %}{% include "components/hero.njk" %}{% endif %}
 <main id="main-content" class="site-main">
 <div class="container main-content">
 {% if not hidePageTitle %}<h1>{{ title | default(site.name) | escape }}</h1>{% endif %}
 {{ content | safe }}
 </div>
 </main>
-{% include "components/hero-attribution.njk" %}
+{% if site.hero.enabled != false %}{% include "components/hero-attribution.njk" %}{% endif %}
 {% include "components/footer.njk" %}
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
 <script src="{{ "/assets/site.js" | url }}" defer></script>
