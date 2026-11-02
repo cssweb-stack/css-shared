@@ -292,8 +292,8 @@ margin-block: 1.5rem;
 
 /* Page introductions */
 .site-main .page-intro {
-font-size: 1.125rem;
-font-weight: var(--font-weight-semibold);
+font-size: 1.14rem;
+font-weight: var(--font-weight-base);
 line-height: inherit;
 margin-top: 0;
 margin-bottom: var(--paragraph-after);
