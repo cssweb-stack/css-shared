@@ -1655,8 +1655,7 @@ display: inline-flex;
 align-items: baseline;
 gap: 0.5rem;
 font-weight: var(--font-weight-base);
-text-decoration: underline;
-text-underline-offset: 3px;
+text-decoration: none;
 }
 .action-link::before {
 content: "›";
@@ -1665,8 +1664,13 @@ font-size: 1.5em;
 line-height: 1;
 text-decoration: none;
 }
-.action-link:hover,
-.action-link:focus-visible {
+/* Keep decoration on the text so it cannot propagate to the chevron. */
+.action-link > span {
+text-decoration: underline;
+text-underline-offset: 3px;
+}
+.action-link:hover > span,
+.action-link:focus-visible > span {
 text-decoration-thickness: 2px;
 }
 
