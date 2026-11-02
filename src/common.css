@@ -297,7 +297,7 @@ font-weight: var(--font-weight-base);
 line-height: inherit;
 margin-top: 0;
 padding-bottom: var(--separator-medium);
-border-bottom: var(--divider-thickness) solid var(--divider-color);
+border-bottom: var(--divider-thickness) solid red;
 margin-bottom: var(--separator-medium);
 }
 
