@@ -1,6 +1,0 @@
-{% macro miniCallout(icon, color="gold") %}
-<aside class="mini-callout mini-callout-{{ color }}">
-<span class="mini-callout-icon" aria-hidden="true">{% include "icons/" + icon + ".svg" %}</span>
-<div class="mini-callout-text">{{ caller() }}</div>
-</aside>
-{% endmacro %}
