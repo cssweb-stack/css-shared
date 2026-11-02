@@ -138,6 +138,12 @@ reinforce their edges so they remain visible on dark colors. */
 --photo-mat-small: 3px;
 --photo-mat-medium: 6px;
 --photo-mat-large: 9px;
+/* Academic photos: set padding to 0 to remove the teal mat. */
+--academic-photo-frame-padding: var(--photo-mat-large);
+/* Academic row bottom gap; independent of callout spacing. */
+--academic-photo-row-space-after: 2.25rem;
+/* Academic row dividers: none = off; block = on for every row. */
+--academic-photo-row-dividers: none;
 --media-width-small: 7rem;
 --media-width-medium: 10.125rem;
 --media-width-large: 13.25rem;
@@ -542,9 +548,6 @@ gap: 0.75rem 2rem;
 }
 .site-main .certificate-actions p {
 margin: 0;
-}
-.certificate-section {
-margin-top: 2.75rem;
 }
 
 /* Course and area listings */
@@ -1807,6 +1810,31 @@ padding: var(--photo-mat-medium);
 }
 .photo-frame-large {
 padding: var(--photo-mat-large);
+}
+
+/* Academic photo rows keep the shared media grid and photo finish. */
+.academic-photo-frame {
+padding: var(--academic-photo-frame-padding);
+background-color: var(--color-teal);
+margin-inline: 0;
+}
+.academic-photo-row {
+position: relative;
+margin: 0 0 var(--academic-photo-row-space-after);
+}
+/* The divider occupies the existing gap, never an extra grid row or spacer. */
+.academic-photo-row::after {
+content: "";
+display: var(--academic-photo-row-dividers);
+position: absolute;
+inset-inline: 0;
+bottom: calc(var(--academic-photo-row-space-after) / -2);
+border-top: var(--divider-thickness) solid var(--divider-color);
+pointer-events: none;
+}
+/* Optional per-row hook, independent of the global divider switch. */
+.academic-photo-row[data-divider]::after {
+display: block;
 }
 
 /* Tiles share one finish, contour layer and palette. */
