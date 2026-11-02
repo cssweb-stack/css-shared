@@ -1,0 +1,3 @@
+{% macro button(label, href, color="blue", icon="", arrow=false, treatment="filled") %}
+<a class="button button-{{ color }} button-{{ treatment }}{% if arrow %} button-arrow{% endif %}" href="{{ href | url }}">{% if icon %}<span class="button-icon" aria-hidden="true">{% include "icons/" + icon + ".svg" %}</span>{% endif %}<span>{{ label | escape }}</span>{% if arrow %}<span class="button-arrow-icon" aria-hidden="true">→</span>{% endif %}</a>
+{% endmacro %}

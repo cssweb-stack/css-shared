@@ -1,0 +1,20 @@
+{% if advising.people | length %}
+{% include "components/divider-medium.njk" %}
+<section class="advising" aria-labelledby="undergraduate-advising-heading">
+<h2 id="undergraduate-advising-heading">{{ site.shortName | escape }} {{ advising.heading | default('Undergraduate Advising') | escape }}</h2>
+{% if advising.intro %}<p class="advising-intro">{{ advising.intro | escape }}</p>{% endif %}
+<div class="advising-grid">
+{% for advisor in advising.people %}
+<div class="advisor">
+{% if advisor.photo %}<img class="photo-frame photo-frame-large advisor-photo" src="{{ advisor.photo | url }}" alt="{{ advisor.name | escape }}" width="112" height="112" loading="lazy" decoding="async">{% endif %}
+<div class="advisor-details">
+{% if advisor.title %}<h3>{{ advisor.title | escape }}</h3>{% endif %}
+<p class="advisor-name">{% if advisor.url %}<a href="{{ advisor.url | url }}">{{ advisor.name | escape }}</a>{% else %}{{ advisor.name | escape }}{% endif %}</p>
+{% if advisor.email %}<p class="advisor-email"><a href="mailto:{{ advisor.email | escape }}"><span aria-hidden="true">{% include "icons/envelope.svg" %}</span><span>{{ advisor.email | escape }}</span></a></p>{% endif %}
+</div>
+</div>
+{% endfor %}
+</div>
+</section>
+{% include "components/divider-medium.njk" %}
+{% endif %}
