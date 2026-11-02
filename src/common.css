@@ -7,7 +7,7 @@
 --color-blue: #354d67;
 --color-purple: #655b7a;
 --color-bronze: #755322;
---text: #222222;
+--text: var(--dark-gray);
 --light: #ffffff;
 --light-gray: #f7f7f7;
 --dark-gray: #2d2d2d;
@@ -50,7 +50,7 @@ reinforce their edges so they remain visible on dark colors. */
 --color-gold: #b58a24;
 --color-brown: #835044;
 --color-pink: #943c70;
---color-black: #222222;
+--color-black: var(--dark-gray);
 --link-color: #0a58ca;
 --note-color: #555555;
 --accent-color: #b35c00;
@@ -1518,7 +1518,7 @@ width: 100%;
 max-width: none;
 }
 .unit-home a:focus-visible {
-outline: 3px solid #222;
+outline: 3px solid var(--text);
 outline-offset: 4px;
 }
 .home-video-grid {
@@ -1530,7 +1530,7 @@ gap: 1.5rem;
 aspect-ratio: 16 / 9;
 overflow: hidden;
 border-radius: .75rem;
-background: #222;
+background: var(--color-black);
 }
 .home-video iframe {
 display: block;
@@ -1776,7 +1776,7 @@ box-shadow: var(--frame-shadow);
 .tile-bronze { --tile-color: var(--color-bronze); }
 .tile-brown { --tile-color: var(--color-brown); }
 .tile-green { --tile-color: var(--color-green); }
-.tile-gold { --tile-color: var(--color-gold); --tile-text: #222; }
+.tile-gold { --tile-color: var(--color-gold); --tile-text: var(--text); }
 .tile-pink { --tile-color: var(--color-pink); }
 .tile-black { --tile-color: var(--color-black); }
 .icon-tile {
