@@ -290,13 +290,15 @@ margin-bottom: 1.5rem;
 margin-block: 1.5rem;
 }
 
-/* Page introductions */
+/* Page introductions include one divider with medium spacing on each side. */
 .site-main .page-intro {
 font-size: 1.14rem;
 font-weight: var(--font-weight-base);
 line-height: inherit;
 margin-top: 0;
-margin-bottom: var(--paragraph-after);
+padding-bottom: var(--separator-medium);
+border-bottom: var(--divider-thickness) solid var(--divider-color);
+margin-bottom: var(--separator-medium);
 }
 
 /* Intro catchphrase: a subtitle paragraph beneath the H1, not a heading. */
@@ -1641,7 +1643,7 @@ margin-bottom: 0.75rem;
 }
 
 
-/* Independent decorative dividers. No section/paragraph selector draws them. */
+/* Standalone decorative dividers and spacers. */
 .divider,
 .space {
 --separator-space: var(--separator-medium);
