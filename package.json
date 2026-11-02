@@ -4,6 +4,7 @@
   "private": true,
   "description": "College of Social Sciences shared website templates, styles and assets",
   "scripts": {
-    "check": "node scripts/check-shared.mjs"
+    "check": "node scripts/check-shared.mjs",
+    "clean:ds-store": "node scripts/clean-ds-store.mjs"
   }
 }

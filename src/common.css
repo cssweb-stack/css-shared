@@ -1623,20 +1623,31 @@ color: var(--link-color);
 color: var(--accent-color);
 font-weight: var(--font-weight-base);
 }
-.site-main .text-note {
+.site-main span.text-note {
 color: var(--note-color);
-font-size: 0.875rem;
-font-weight: var(--font-weight-base);
+font-size: inherit;
+font-weight: 300;
 }
-/* Information notes retain their larger copy, inherited color and icon spacing. */
-.site-main .text-note--info {
+/* Decorative icon occupies its own gutter; wrapped text stays aligned. */
+.site-main p.info-note {
+position: relative;
+padding-inline-start: calc(1em + 0.45rem);
 color: inherit;
 font-size: 0.98rem;
+font-weight: var(--font-weight-base);
+line-height: 1.75;
 margin-top: 1rem;
 }
-.site-main .text-note-icon {
-margin-right: 0.45rem;
-font-weight: 700;
+.site-main p.info-note::before {
+content: "";
+position: absolute;
+inset-inline-start: 0;
+top: 0.375em;
+width: 1em;
+height: 1em;
+background-color: currentColor;
+-webkit-mask: url("assets/icons/info-circle.svg") center / contain no-repeat;
+mask: url("assets/icons/info-circle.svg") center / contain no-repeat;
 }
 
 .action-link {

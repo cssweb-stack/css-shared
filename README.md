@@ -16,6 +16,8 @@ Edit shared website files in `src`. Each unit build loads these files before Ele
 
 Run `npm run check` to check basic package structure and JSON. GitHub runs the same check on pushes and pull requests. These basic checks do not replace visual or accessibility review.
 
+Run `npm run clean:ds-store` manually to remove `.DS_Store` files within this repository and directories made empty by their removal. It preserves previously empty directories, skips symlinks, Git metadata, and nested repositories, and never removes the repository root. This cleanup does not run during builds or synchronization.
+
 A local GEO clone expects this repository beside it at `../css-shared`. Set SHARED_SOURCE to a different path when necessary. GitHub Actions checks out the repository into the unit workspace automatically.
 
 Only reviewed changes belong on main because connected unit builds consume it. Commit changes through GitHub Desktop or GitHub's editor; there is no generated manifest to update after editing a footer, stylesheet or SVG. Newly added shared source files are discovered automatically.
