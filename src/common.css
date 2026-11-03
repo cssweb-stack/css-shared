@@ -1745,6 +1745,14 @@ gap: var(--grid-five-gap);
 .grid-five > * {
 min-width: 0;
 }
+.grid-three > * > img.grid-photo {
+display: block;
+width: 100%;
+max-width: 100%;
+height: auto;
+aspect-ratio: 3 / 2;
+object-fit: cover;
+}
 @media (max-width: 991.98px) {
 .grid-three {
 grid-template-columns: minmax(0, 1fr);
