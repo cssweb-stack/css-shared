@@ -166,6 +166,21 @@ reinforce their edges so they remain visible on dark colors. */
 }
 
 /* Typography and main content */
+/* All text uses at least 1.5 line height, including Bootstrap's compact defaults. */
+.h1, .h2, .h3, .h4, .h5, .h6,
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6,
+sub, sup, .figure-img, .navbar-toggler, .badge,
+.form-floating > .form-control,
+.form-floating > .form-control-plaintext,
+.form-floating > .form-select {
+line-height: 1.5;
+}
+/* Match the importance of Bootstrap's line-height utilities. */
+.lh-1, .lh-sm {
+line-height: 1.5 !important;
+}
+
+
 body {
 font-family: 'Inter', sans-serif;
 font-weight: var(--font-weight-base);
@@ -421,7 +436,7 @@ background: color-mix(in srgb, var(--shadow-base) calc(var(--hero-location-bg-op
 color: var(--light);
 font-size: var(--hero-location-font-size);
 font-weight: var(--font-weight-base);
-line-height: 1.4;
+line-height: 1.5;
 text-align: right;
 border-radius: 0 0 0 var(--hero-location-corner-radius);
 }
@@ -604,7 +619,7 @@ opacity: 1;
 margin: 0 0 0.875rem;
 font-size: 1.125rem;
 font-weight: var(--font-weight-semibold);
-line-height: 1.4;
+line-height: 1.5;
 }
 .site-main .media-content p {
 margin: 0 0 0.875rem;
@@ -767,7 +782,7 @@ border-bottom: 1px solid var(--news-border-color);
 margin: 0 0 0.25rem;
 font-size: 0.9375rem;
 font-weight: var(--font-weight-semibold);
-line-height: 1.45;
+line-height: 1.5;
 }
 .news-post-author a {
 color: var(--text);
@@ -1225,7 +1240,7 @@ margin: 0;
 .degree-tile-symbol {
 font-size: 3rem;
 font-weight: var(--font-weight-semibold);
-line-height: 1.1;
+line-height: 1.5;
 }
 .degree-tile-label {
 font-size: 0.875rem;
@@ -1268,7 +1283,7 @@ text-align: center;
 }
 .site-main .funding-tile h2 {
 font-size: 1.375rem;
-line-height: 1.3;
+line-height: 1.5;
 font-weight: var(--font-weight-semibold);
 margin: 0;
 color: inherit;
@@ -1504,7 +1519,7 @@ fill: currentColor;
 .program-tile-title {
 font-size: clamp(2rem, 25cqi, 6rem);
 font-weight: var(--font-weight-semibold);
-line-height: 1.1;
+line-height: 1.5;
 color: inherit;
 white-space: nowrap;
 }
@@ -1514,7 +1529,7 @@ min-height: 2.8em;
 margin-top: 5cqi;
 font-size: clamp(.75rem, 7.5cqi, 1.75rem);
 font-weight: var(--font-weight-semibold);
-line-height: 1.4;
+line-height: 1.5;
 color: inherit;
 }
 .program-tile:hover {
@@ -1635,7 +1650,7 @@ text-decoration: none;
 content: "›";
 color: var(--uh-green);
 font-size: 1.5em;
-line-height: 1;
+line-height: 1.5;
 text-decoration: none;
 }
 /* Keep decoration on the text so it cannot propagate to the chevron. */
@@ -1723,6 +1738,10 @@ min-width: 0;
 /* Keep right-column headings flush with the top of the photo or icon box. */
 .media-row > :nth-child(2) {
 padding-top: 0;
+}
+/* Align visible capital letters, preserving spacing between wrapped heading lines. */
+.media-row > :nth-child(2) > :is(h1, h2, h3, h4, h5, h6):first-child {
+text-box: trim-start cap alphabetic;
 }
 .media-visual {
 display: block;
@@ -1938,7 +1957,7 @@ object-fit: contain;
 .event-compact-date {
 font-size: 0.875rem;
 font-weight: var(--font-weight-semibold);
-line-height: 1.2;
+line-height: 1.5;
 letter-spacing: 0.08em;
 white-space: nowrap;
 }
@@ -1950,7 +1969,7 @@ overflow-wrap: anywhere;
 margin: 0 0 0.75rem;
 font-size: 1.25rem;
 font-weight: var(--font-weight-semibold);
-line-height: 1.4;
+line-height: 1.5;
 }
 .site-main .event-speaker {
 margin: 0 0 0.125rem;
@@ -2078,7 +2097,7 @@ justify-content: space-between;
 .button-arrow > :last-child {
 flex-shrink: 0;
 font-size: 1.5rem;
-line-height: 1;
+line-height: 1.5;
 }
 .button-grid {
 gap: var(--grid-column-gap);
