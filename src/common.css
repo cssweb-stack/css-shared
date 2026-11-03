@@ -524,6 +524,15 @@ margin: 0 0 1rem;
 margin-bottom: 0;
 }
 
+/* Academic At a Glance lists keep standard bullets and bottom-only gaps. */
+.callout-at-a-glance > ul {
+list-style-type: disc;
+padding-inline-start: 1.5rem;
+}
+.site-main .callout-at-a-glance > .info-note {
+margin-top: 0;
+}
+
 /* Next steps */
 .callout-plan > :last-child {
 margin-bottom: 0;
