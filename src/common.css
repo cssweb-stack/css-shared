@@ -142,9 +142,7 @@ reinforce their edges so they remain visible on dark colors. */
 --academic-photo-row-space-after: 2.25rem;
 /* Academic row dividers: none = off; block = on for every row. */
 --academic-photo-row-dividers: none;
---media-width-small: 7rem;
---media-width-medium: 10.125rem;
---media-width-large: 13.25rem;
+--media-width: 189px;
 --media-gap: 1.5rem;
 --grid-column-gap: 1.5rem;
 --grid-row-gap: 1.5rem;
@@ -1693,25 +1691,24 @@ padding: 0;
 border: 0;
 }
 
-/* One row layout, three independently adjustable media column sizes. */
+/* One structural layout for photo and colored-icon rows. */
 .media-row {
---media-width: var(--media-width-large);
 display: grid;
 grid-template-columns: minmax(0, var(--media-width)) minmax(0, 1fr);
 align-items: start;
 gap: var(--media-gap);
-margin: 0;
+margin: 0 0 var(--academic-photo-row-space-after);
 padding: 0;
 border: 0;
 }
-.media-row-small {
---media-width: var(--media-width-small);
+/* These dedicated components keep their existing geometry on the same grid. */
+.media-row:is(.contact-location, .chair-message) {
+--media-width: 13.25rem;
+margin-bottom: 0;
 }
-.media-row-medium {
---media-width: var(--media-width-medium);
-}
-.media-row-large {
---media-width: var(--media-width-large);
+.event-entry.media-row {
+--media-width: 7rem;
+margin-bottom: 0;
 }
 .media-row > * {
 min-width: 0;
@@ -1821,19 +1818,12 @@ box-shadow: none;
 margin-inline: 0;
 }
 /* Paragraphs leading directly into a row or its existing course-list wrapper. */
-.site-main p:has(+ .academic-photo-row),
-.site-main p:has(+ .course-list > .academic-photo-row:first-child),
-.site-main p:has(+ .academic-icon-row),
-.site-main p:has(+ .course-list > .academic-icon-row:first-child) {
+.site-main p:has(+ .media-row),
+.site-main p:has(+ .course-list > .media-row:first-child) {
 margin-bottom: var(--academic-photo-row-space-after);
 }
 .academic-photo-row {
 position: relative;
-margin: 0 0 var(--academic-photo-row-space-after);
-}
-/* Academic icon rows share the gap value, independently of photo styling. */
-.academic-icon-row {
-margin-bottom: var(--academic-photo-row-space-after);
 }
 /* The divider occupies the existing gap, never an extra grid row or spacer. */
 .academic-photo-row::after {
@@ -2128,9 +2118,4 @@ box-shadow: var(--card-shadow);
 margin: 0;
 padding: 0;
 border: 0;
-}
-.foundation-logo {
-width: var(--media-width-large);
-max-width: 100%;
-height: auto;
 }

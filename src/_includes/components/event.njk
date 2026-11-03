@@ -3,7 +3,7 @@
    preserves descriptions, links, and other event information before the date. #}
 {% macro eventItem(item, id, headingLevel=3) %}
 {% set date = item.date | eventDate %}
-<article class="event-entry media-row media-row-small" aria-labelledby="{{ id | escape }}">
+<article class="event-entry media-row" aria-labelledby="{{ id | escape }}">
 <div class="event-date-box tile tile-blue media-visual" aria-hidden="true">
 <img class="event-calendar-icon" src="{{ '/assets/icons/calendar3-white.svg' | url }}" alt="">
 <span class="event-compact-date">{{ date.compact | escape }}</span>

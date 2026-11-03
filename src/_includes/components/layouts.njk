@@ -1,2 +1,2 @@
-{% macro mediaRow(size="large") %}<div class="media-row media-row-{{ size }}">{{ caller() }}</div>{% endmacro %}
+{% macro mediaRow() %}<div class="media-row">{{ caller() }}</div>{% endmacro %}
 {% macro grid(columns=3) %}<div class="grid-{% if columns == 5 %}five{% else %}three{% endif %}">{{ caller() }}</div>{% endmacro %}
