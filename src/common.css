@@ -537,6 +537,17 @@ margin-top: 0;
 .callout-plan > :last-child {
 margin-bottom: 0;
 }
+/* Subsequent planning headings replace the white divider's existing spacing. */
+.callout-plan h3 ~ h3 {
+margin-top: 0;
+padding-top: var(--separator-medium);
+}
+.callout-plan h3 ~ h3::before {
+content: "";
+display: block;
+border-top: var(--divider-white-thickness) solid var(--light);
+padding-bottom: var(--separator-medium);
+}
 
 /* Gold callout: scholarships, awards, and featured opportunities. */
 .callout-gold > :last-child {
