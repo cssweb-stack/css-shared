@@ -1845,12 +1845,18 @@ margin-inline: 0;
 }
 /* Paragraphs leading directly into a row or its existing course-list wrapper. */
 .site-main p:has(+ .academic-photo-row),
-.site-main p:has(+ .course-list > .academic-photo-row:first-child) {
+.site-main p:has(+ .course-list > .academic-photo-row:first-child),
+.site-main p:has(+ .academic-icon-row),
+.site-main p:has(+ .course-list > .academic-icon-row:first-child) {
 margin-bottom: var(--academic-photo-row-space-after);
 }
 .academic-photo-row {
 position: relative;
 margin: 0 0 var(--academic-photo-row-space-after);
+}
+/* Academic icon rows share the gap value, independently of photo styling. */
+.academic-icon-row {
+margin-bottom: var(--academic-photo-row-space-after);
 }
 /* The divider occupies the existing gap, never an extra grid row or spacer. */
 .academic-photo-row::after {
