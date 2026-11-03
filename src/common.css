@@ -303,7 +303,7 @@ font-weight: var(--font-weight-base);
 line-height: inherit;
 margin-top: 0;
 padding-bottom: var(--separator-large);
-border-bottom: var(--divider-thickness) solid red;
+border-bottom: var(--divider-thickness) solid var(--divider-color);
 margin-bottom: var(--separator-large);
 }
 
