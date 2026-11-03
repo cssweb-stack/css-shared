@@ -138,12 +138,8 @@ reinforce their edges so they remain visible on dark colors. */
 --photo-mat-small: 3px;
 --photo-mat-medium: 6px;
 --photo-mat-large: 9px;
-/* Academic row bottom gap; independent of callout spacing. */
---academic-photo-row-space-after: 2.25rem;
-/* Academic row dividers: none = off; block = on for every row. */
+/* Legacy style-guide divider examples: none = off; block = on. */
 --academic-photo-row-dividers: none;
---media-width: 189px;
---media-gap: 1.5rem;
 --grid-column-gap: 1.5rem;
 --grid-row-gap: 1.5rem;
 --grid-five-gap: 1rem;
@@ -536,7 +532,6 @@ background-color: var(--light);
 border: 1px solid var(--color-bronze);
 border-radius: var(--frame-radius);
 filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.25));
-background-color: var(--nav-divider);
 }
 
 /* Program at a glance */
@@ -649,10 +644,6 @@ margin-bottom: 1rem;
 }
 .site-main .compact-rows .media-content > :last-child {
 margin-bottom: 0;
-}
-.media-content {
-flex: 1 1 auto;
-min-width: 0;
 }
 .site-main .related-pathway h2 {
 margin: 0 0 0.75rem;
@@ -1445,10 +1436,6 @@ margin: 0;
 padding: 0;
 border: 0;
 }
-.degree-list.degrees-awarded-list > .degree-entry {
-padding: 0;
-border: 0;
-}
 .foundation-logo {
 display: block;
 width: 212px;
@@ -1717,21 +1704,15 @@ border: 0;
 
 /* One structural layout for photo and colored-icon rows. */
 .media-row {
+--media-width: 189px;
+--media-gap: 1.5rem;
 display: grid;
 grid-template-columns: minmax(0, var(--media-width)) minmax(0, 1fr);
 align-items: start;
 gap: var(--media-gap);
-margin: 0 0 var(--academic-photo-row-space-after);
+margin: 0 0 2.25rem;
 padding: 0;
 border: 0;
-}
-/* These dedicated components keep their existing geometry on the same grid. */
-.media-row:is(.contact-location, .chair-message) {
---media-width: 13.25rem;
-margin-bottom: 0;
-}
-.event-entry.media-row {
---media-width: 7rem;
 }
 .media-row > * {
 min-width: 0;
@@ -1841,7 +1822,7 @@ padding: var(--photo-mat-medium);
 padding: var(--photo-mat-large);
 }
 
-/* Academic photos retain the shared pinline without a mat or shadow. */
+/* Legacy frame/divider examples remain supported by the shared style guide. */
 .academic-photo-frame {
 padding: 0;
 background-color: transparent;
@@ -1851,7 +1832,7 @@ margin-inline: 0;
 /* Paragraphs leading directly into a row or its existing course-list wrapper. */
 .site-main p:has(+ .media-row),
 .site-main p:has(+ .course-list > .media-row:first-child) {
-margin-bottom: var(--academic-photo-row-space-after);
+margin-bottom: var(--separator-large);
 }
 .academic-photo-row {
 position: relative;
@@ -1862,7 +1843,7 @@ content: "";
 display: var(--academic-photo-row-dividers);
 position: absolute;
 inset-inline: 0;
-bottom: calc(var(--academic-photo-row-space-after) / -2);
+bottom: calc(var(--separator-large) / -2);
 border-top: var(--divider-thickness) solid var(--divider-color);
 pointer-events: none;
 }
