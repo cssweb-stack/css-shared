@@ -1249,6 +1249,11 @@ width: 100%;
 }
 
 /* Graduate funding sources */
+/* Skip the first opportunity in each grid; include the affiliated subsection. */
+.funding-row > .media-content > article ~ article h3,
+.funding-row > .media-content > article ~ h3 {
+margin-top: 2.25rem;
+}
 .funding-tile {
 display: flex;
 justify-content: center;
@@ -1892,6 +1897,7 @@ width: 48px;
 height: 48px;
 flex: 0 0 auto;
 object-fit: contain;
+opacity: 0.8;
 }
 .degree-tile {
 display: flex;
