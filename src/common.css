@@ -303,12 +303,15 @@ margin-bottom: 1.5rem;
 margin-block: 1.5rem;
 }
 
+/* Canonical intro/tagline roles; old names remain live in SOC, WGSS and the style guide. */
 /* Page introductions and advisor names share one type size. */
+.site-main .intro,
 .site-main .page-intro,
 .site-main .advisor-name {
 font-size: 1.14rem;
 }
 /* Page introductions include one divider with medium spacing on each side. */
+.site-main .intro,
 .site-main .page-intro {
 font-weight: var(--font-weight-base);
 line-height: inherit;
@@ -319,12 +322,13 @@ margin-bottom: var(--separator-large);
 }
 
 /* Intro catchphrase: a subtitle paragraph beneath the H1, not a heading. */
+.site-main p.tagline,
 .site-main p.intro-highlight {
 font-size: 1.35rem;
 font-weight: var(--font-weight-base);
 font-style: normal;
 line-height: inherit;
-color: var(--color-blue);
+color: var(--tagline-color);
 margin: 0 0 var(--paragraph-after);
 }
 
@@ -538,63 +542,34 @@ filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.25));
 .callout-facts ul {
 list-style: none;
 padding: 0;
-margin: 0 0 1rem;
-}
-.callout-facts ul:last-child {
-margin-bottom: 0;
 }
 
-/* Academic At a Glance lists keep standard bullets and bottom-only gaps. */
+/* Heading/list summaries use compact bullets; narrative lists keep normal spacing. */
+.callout:not(.callout-facts, .callout-plan) > h2 + ul,
 .callout-at-a-glance > ul {
 list-style-type: disc;
 padding-inline-start: 1.5rem;
 }
-.site-main .callout-at-a-glance > .info-note {
+.site-main .callout > h2 + ul + .info-note {
 margin-top: 0;
 }
 
 /* Next steps */
-.callout-plan > :last-child {
-margin-bottom: 0;
-}
 /* The following heading supplies all spacing around its generated divider. */
-.callout-plan p:has(+ h3) {
+.callout > p:has(+ h3) {
 margin-bottom: 0;
 }
 /* Subsequent planning headings keep equal space on both sides of the line. */
-.callout-plan h3 ~ h3 {
+.callout > h3 ~ h3 {
 margin-top: 0;
 padding-top: var(--separator-medium);
 }
-.callout-plan h3 ~ h3::before {
+.callout > h3 ~ h3::before {
 content: "";
 display: block;
 border-top: 6px solid var(--light);
 padding-bottom: var(--separator-medium);
 }
-
-/* Gold callout: scholarships, awards, and featured opportunities. */
-.callout-gold > :last-child {
-margin-bottom: 0;
-}
-
-/* GIS certificate */
-.site-main .certificate-summary {
-margin-bottom: 1.25rem;
-}
-.certificate-actions {
-display: flex;
-flex-wrap: wrap;
-align-items: baseline;
-gap: 0.75rem 2rem;
-}
-.site-main .certificate-actions p {
-margin: 0;
-}
-
-/* Course and area listings */
-
-/* Chair message: retain the shared two-column layout with matching dividers. */
 
 /* Content photos fade once when loaded, without moving. Visible without JavaScript. */
 @media (prefers-reduced-motion: no-preference) {
@@ -611,27 +586,25 @@ to {
 opacity: 1;
 }
 }
-.site-main .media-title {
+.site-main .media-title,
+.site-main :where(.media-row > :nth-child(2)) > h3 {
 margin: 0 0 0.875rem;
 font-size: 1.125rem;
 font-weight: var(--font-weight-semibold);
 line-height: 1.5;
 }
-.site-main .media-content p {
+.site-main .media-content p,
+.site-main :where(.media-row > :nth-child(2)) > p {
 margin: 0 0 0.875rem;
 }
-.site-main .media-content p + ul {
+.site-main .media-content p + ul,
+.site-main :where(.media-row > :nth-child(2)) > p + ul {
 margin-top: 0;
 }
-.site-main .media-content > :last-child {
+.site-main .media-content > :last-child,
+.site-main .compact-rows .media-content > :last-child,
+.site-main :where(.media-row > :nth-child(2)) > :last-child {
 margin-bottom: 0;
-}
-@media (max-width: 767.98px) {
-
-.certificate-actions {
-flex-direction: column;
-align-items: flex-start;
-}
 }
 .site-main .course-subheading {
 margin: 1.25rem 0 0.5rem;
@@ -641,9 +614,6 @@ line-height: 1.5;
 }
 .site-main .compact-rows .media-content ul {
 margin-bottom: 1rem;
-}
-.site-main .compact-rows .media-content > :last-child {
-margin-bottom: 0;
 }
 .site-main .related-pathway h2 {
 margin: 0 0 0.75rem;
@@ -1588,9 +1558,6 @@ strong,
 b {
 font-weight: var(--font-weight-bold);
 }
-.site-main p.intro-highlight {
-color: var(--tagline-color);
-}
 .site-main a:not(.btn):not(.button):not(.program-tile) {
 color: var(--link-color);
 }
@@ -1718,8 +1685,10 @@ border: 0;
 min-width: 0;
 }
 /* Keep right-column headings flush with the top of the photo or icon box. */
-.media-row > :nth-child(2) {
+.media-row > :nth-child(2),
+.media-content {
 padding-top: 0;
+overflow-wrap: anywhere;
 }
 /* Align visible capital letters, preserving spacing between wrapped heading lines. */
 .media-row > :nth-child(2) > :is(h1, h2, h3, h4, h5, h6):first-child {
@@ -1731,6 +1700,7 @@ width: 100%;
 max-width: 100%;
 }
 img.media-visual,
+.media-row > img:first-child,
 .media-visual > img:not(.color-box-icon, .event-calendar-icon) {
 display: block;
 width: 100%;
@@ -1739,15 +1709,9 @@ height: auto;
 aspect-ratio: 1 / 1;
 object-fit: cover;
 }
-.media-content {
-min-width: 0;
-overflow-wrap: anywhere;
-}
-.media-content > :first-child {
+.media-content > :first-child,
+.media-row > :nth-child(2) > :first-child {
 margin-top: 0;
-}
-.media-content > :last-child {
-margin-bottom: 0;
 }
 .media-visual.tile {
 width: 100%;
@@ -1759,7 +1723,8 @@ aspect-ratio: 1 / 1;
 .media-row {
 grid-template-columns: minmax(0, 1fr);
 }
-.media-row > .media-visual {
+.media-row > .media-visual,
+.media-row > img:first-child {
 width: min(100%, var(--media-width));
 }
 }
@@ -1987,8 +1952,7 @@ aspect-ratio: 1 / 1;
 --callout-color: var(--color-blue);
 --callout-surface: var(--surface-blue);
 min-width: 0;
-margin: 0;
-margin-bottom: 2.25rem;
+margin: 0 0 2.25rem;
 padding: var(--callout-padding);
 border: 0;
 border-left: var(--callout-border-width) solid var(--callout-color);
