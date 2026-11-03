@@ -24,5 +24,5 @@ else { if (entry.name.endsWith('.json')) JSON.parse(fs.readFileSync(file, 'utf8'
 }
 }
 check(root);
-for (const file of ['common.css', 'callouts.css', 'shell.css', '_data/university.json', '_includes/layouts/base.njk', '_includes/components/footer.njk']) if (!fs.existsSync(path.join(root, file))) throw new Error(`Missing shared file: ${file}`);
+for (const file of ['colors.css', 'common.css', 'callouts.css', 'shell.css', '_data/university.json', '_includes/layouts/base.njk', '_includes/components/footer.njk']) if (!fs.existsSync(path.join(root, file))) throw new Error(`Missing shared file: ${file}`);
 console.log(`Checked ${count} shared files.`);

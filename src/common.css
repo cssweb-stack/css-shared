@@ -1,100 +1,13 @@
+@import url("./colors.css");
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url("./typography.css");
 
 /* Global design tokens */
 :root {
 
-/* Master shared palette. Edit color values here; component rules reference these variables. Black aliases share --dark-gray. Interpretation-service opacities remain independently adjustable. */
-
---uh-green: #024731;
-
---color-teal: #27665d;
-
---color-blue: #354d67;
-
---color-purple: #655b7a;
-
---color-bronze: #755322;
-
---text: var(--dark-gray);
-
---light: #ffffff;
-
---light-gray: #f7f7f7;
-
---dark-gray: #2d2d2d;
-
---border-gray: #d2d2d2;
-
---icon-gray: #888888;
-
---nav-divider: #e2e2e2;
-
---color-green: var(--uh-green);
-
---color-gold: #b58a24;
-
---color-brown: #835044;
-
---color-pink: #943c70;
-
---color-black: var(--dark-gray);
-
---link-color: #0a58ca;
-
---note-color: #555555;
-
---accent-color: #b35c00;
-
---surface-green: #edf5f0;
-
---surface-blue: #eef9fc;
-
---surface-gold: #fff8e6;
-
---surface-bronze: #faf7f0;
-
---surface-purple: #f6f4f8;
-
---surface-brown: #faf2ee;
-
---surface-pink: #fcf1f7;
-
---shadow-base: #000000;
-
---focus-color: #1c78bd;
-
---hero-credit-link-color: #244c73;
-
---control-border-color: #6c757d;
-
---menu-icon-color: #777777;
-
---header-border-color: #b5b5b5;
-
-
---news-border-color: #d7e4dc;
-
---news-media-surface: #eef4f8;
-
---muted-surface: #f2f2f2;
-
---shadow-soft-color: color-mix(in srgb, var(--shadow-base) 8%, transparent);
-
---shadow-medium-color: color-mix(in srgb, var(--shadow-base) 12%, transparent);
-
---hero-shadow-color: color-mix(in srgb, var(--shadow-base) 28%, transparent);
-
---footer-rule-color: color-mix(in srgb, var(--light) 40%, transparent);
-
---brand-toggle-border-color: color-mix(in srgb, var(--light) 50%, transparent);
-
 --interpretation-band-opacity: 25%;
 
 --interpretation-heading-opacity: 15%;
-
---interpretation-band-color: color-mix(in srgb, var(--shadow-base) var(--interpretation-band-opacity), transparent);
-
---interpretation-heading-color: color-mix(in srgb, var(--shadow-base) var(--interpretation-heading-opacity), transparent);
 
 /* Shared photo and colored tile finish. */
 --frame-border: 1px solid var(--nav-divider);
@@ -102,18 +15,12 @@
 --frame-shadow: 0 3px 10px var(--shadow-soft-color);
 
 /* Content heading scale: desktop defaults; smaller screens below. */
---heading-1-size: 2rem;
---heading-2-size: 1.375rem;
 --paragraph-after: 1rem;
---list-item-after: 0.5rem;
---heading-1-after: var(--paragraph-after);
---heading-2-after: var(--paragraph-after);
 
 --bs-body-font-family: 'Inter', sans-serif;
 --bs-body-line-height: 1.5;
 --bs-body-font-weight: var(--font-weight-base);
---bs-body-color: var(--text);
---bs-body-bg: var(--light);
+
 /* Shared contour background controls for home program, funding, and degree boxes. Opacity: 0 to 1.
 Size accepts cover, contain, percentages, or pixel values.
 The image path is relative to common.css, so it also works under /geo/. */
@@ -129,7 +36,7 @@ The image path is relative to common.css, so it also works under /geo/. */
 /* Original SVG has very fine black lines. Invert to white and
 reinforce their edges so they remain visible on dark colors. */
 --tile-pattern-filter: invert(1) drop-shadow(.4px 0 0 var(--light)) drop-shadow(-.4px 0 0 var(--light));
---tagline-color: var(--color-blue);
+
 --font-weight-subfooter: 300;
 --font-weight-base: 400;
 --font-weight-semibold: 600;
@@ -145,7 +52,7 @@ reinforce their edges so they remain visible on dark colors. */
 --separator-small: 0.75rem;
 --separator-medium: 1.5rem;
 --separator-large: 2.25rem;
---divider-color: var(--nav-divider);
+
 --divider-thickness: 1px;
 --divider-white-thickness: 3px;
 --button-padding-y: 0.75rem;
@@ -173,95 +80,12 @@ line-height: 1.5 !important;
 }
 
 
-body {
-font-family: 'Inter', sans-serif;
-font-weight: var(--font-weight-base);
-line-height: var(--bs-body-line-height);
-color: var(--text);
-}
+
 .site-main {
 padding-block: 0;
 background: var(--light);
 min-height: 40vh;
 }
-h1 {
-font-size: var(--heading-1-size);
-font-weight: var(--font-weight-semibold);
-line-height: inherit;
-}
-h2 {
-font-size: var(--heading-2-size);
-font-weight: var(--font-weight-bold);
-line-height: inherit;
-}
-p,
-.site-main li {
-font-size: 1rem;
-font-weight: var(--font-weight-base);
-line-height: inherit;
-}
-.site-main h1 {
-margin-top: 0;
-margin-bottom: var(--heading-1-after);
-}
-.site-main h2 {
-margin-top: 0;
-margin-bottom: var(--heading-2-after);
-}
-.site-main h3 {
-font-size: 1.25rem;
-font-weight: var(--font-weight-bold);
-line-height: inherit;
-margin-top: 1.5rem;
-margin-bottom: var(--paragraph-after);
-}
-.site-main h4 {
-font-size: 1.125rem;
-}
-.site-main h4,
-.site-main h5,
-.site-main h6 {
-font-weight: var(--font-weight-semibold);
-line-height: inherit;
-margin-bottom: var(--paragraph-after);
-}
-/* One baseline gap for paragraphs and top-level lists. */
-.site-main p {
-margin-top: 0;
-margin-bottom: var(--paragraph-after);
-}
-.site-main ul,
-.site-main ol {
-margin-top: 0;
-margin-bottom: var(--paragraph-after);
-}
-.site-main li {
-margin-bottom: var(--list-item-after);
-}
-.site-main li:last-child {
-margin-bottom: 0;
-}
-/* Separate a parent item's text from its nested list without adding a
-second bottom gap before the next outer item. Applies to UL and OL. */
-.site-main li > ul,
-.site-main li > ol {
-margin-top: var(--list-item-after);
-margin-bottom: 0;
-}
-
-/* Responsive content typography. Body text stays 1rem; H3 stays 1.125rem.
-Compact component titles retain their own sizes in their component sections. */
-@media (min-width: 576px) and (max-width: 1199.98px) {
-:root {
---heading-1-size: 1.875rem;
-}
-}
-@media (max-width: 575.98px) {
-:root {
---heading-1-size: 1.75rem;
-}
-}
-
 /* Main spacing: desktop 4rem vertically; tablet 2.25rem; phone 2rem.
 Bootstrap owns grid structure; this stylesheet owns shared component spacing. */
 .main-content {
@@ -687,7 +511,7 @@ display: none;
 }
 .news-post {
 --news-card-padding: 1.25rem;
---news-media-background: var(--news-media-surface);
+
 min-width: 0;
 padding: 0;
 background: var(--light);
@@ -1504,10 +1328,7 @@ transform: none;
 }
 /* Shared typography helpers: emphasis, links, credits, notes, and message text.
 These content-only classes belong in common.css, not unit overrides. */
-strong,
-b {
-font-weight: var(--font-weight-bold);
-}
+
 .site-main a:not(.btn):not(.button):not(.program-tile) {
 color: var(--link-color);
 }
@@ -1607,7 +1428,7 @@ height: calc(2 * var(--separator-space));
 --separator-space: var(--separator-large);
 }
 .divider-white {
---divider-color: var(--light);
+
 --divider-thickness: var(--divider-white-thickness);
 }
 .site-main :is(.divider, .space) + * {
@@ -1777,7 +1598,7 @@ display: block;
 
 /* Tiles share one finish, contour layer and palette. */
 .tile {
---tile-color: var(--color-blue);
+
 position: relative;
 isolation: isolate;
 overflow: hidden;
@@ -1788,15 +1609,15 @@ border: var(--frame-border);
 border-radius: var(--frame-radius);
 box-shadow: var(--frame-shadow);
 }
-.tile-teal { --tile-color: var(--color-teal); }
-.tile-blue { --tile-color: var(--color-blue); }
-.tile-purple { --tile-color: var(--color-purple); }
-.tile-bronze { --tile-color: var(--color-bronze); }
-.tile-brown { --tile-color: var(--color-brown); }
-.tile-green { --tile-color: var(--color-green); }
-.tile-gold { --tile-color: var(--color-gold); --tile-text: var(--text); }
-.tile-pink { --tile-color: var(--color-pink); }
-.tile-black { --tile-color: var(--color-black); }
+
+
+
+
+
+
+
+
+
 .icon-tile {
 display: flex;
 align-items: center;
@@ -1907,8 +1728,8 @@ aspect-ratio: 1 / 1;
 
 /* One button family; color, icon and treatment are independent choices. */
 .button {
---button-color: var(--color-blue);
---button-surface: var(--surface-blue);
+
+
 display: inline-flex;
 align-items: center;
 justify-content: center;
@@ -1929,13 +1750,13 @@ text-decoration: none;
 overflow-wrap: anywhere;
 cursor: pointer;
 }
-.button-green { --button-color: var(--color-green); --button-surface: var(--surface-green); }
-.button-blue { --button-color: var(--color-blue); --button-surface: var(--surface-blue); }
-.button-purple { --button-color: var(--color-purple); --button-surface: var(--surface-purple); }
-.button-teal { --button-color: var(--color-teal); --button-surface: var(--surface-green); }
-.button-bronze { --button-color: var(--color-bronze); --button-surface: var(--surface-bronze); }
-.button-brown { --button-color: var(--color-brown); --button-surface: var(--surface-brown); }
-.button-pink { --button-color: var(--color-pink); --button-surface: var(--surface-pink); }
+
+
+
+
+
+
+
 .button-outline {
 background: var(--light);
 color: var(--button-color);

@@ -1,105 +1,42 @@
-/* Shared callouts: base panel, color variations, content treatments and mini-callouts. */
 .callout {
---callout-color: var(--color-blue);
---callout-surface: var(--surface-blue);
-min-width: 0;
+padding: 1.5rem;
 margin: 0 0 2.25rem;
-padding: var(--callout-padding);
-border: 0;
-border-left: var(--callout-border-width) solid var(--callout-color);
-border-radius: var(--callout-radius);
-background: var(--callout-surface);
-}
-.callout-green { --callout-color: var(--color-green); --callout-surface: var(--surface-green); }
-.callout-blue { --callout-color: var(--color-blue); --callout-surface: var(--surface-blue); }
-.callout-gold { --callout-color: var(--color-gold); --callout-surface: var(--surface-gold); }
-.callout-bronze { --callout-color: var(--color-bronze); --callout-surface: var(--surface-bronze); }
-.callout-purple { --callout-color: var(--color-purple); --callout-surface: var(--surface-purple); }
-.callout-brown { --callout-color: var(--color-brown); --callout-surface: var(--surface-brown); }
-.callout-pink { --callout-color: var(--color-pink); --callout-surface: var(--surface-pink); }
-.callout > :first-child {
-margin-top: 0;
-}
-.callout > :last-child {
-margin-bottom: 0;
+border-left: 6px solid var(--color-blue);
+border-radius: 0.5rem;
+background: var(--surface-blue);
 }
 
-/* Public component tokens; the radius is also reused by course resources. */
-:root {
---callout-padding: 1.5rem;
---callout-radius: 0.5rem;
---callout-border-width: 6px;
---mini-callout-gold-color: #d47a13;
+.callout-green {
+border-left-color: var(--color-green);
+background: var(--surface-green);
 }
 
-/* Program at a glance */
-.callout-facts ul {
-list-style: none;
-padding: 0;
+.callout-blue {
+border-left-color: var(--color-blue);
+background: var(--surface-blue);
 }
 
-/* Heading/list summaries use compact bullets; narrative lists keep normal spacing. */
-.callout:not(.callout-facts, .callout-plan) > h2 + ul,
-.callout-at-a-glance > ul {
-list-style-type: disc;
-padding-inline-start: 1.5rem;
-}
-.site-main .callout > h2 + ul + .info-note {
-margin-top: 0;
+.callout-gold {
+border-left-color: var(--color-gold);
+background: var(--surface-gold);
 }
 
-/* Next steps */
-/* The following heading supplies all spacing around its generated divider. */
-.callout > p:has(+ h3) {
-margin-bottom: 0;
-}
-/* Subsequent planning headings keep equal space on both sides of the line. */
-.callout > h3 ~ h3 {
-margin-top: 0;
-padding-top: var(--separator-medium);
-}
-.callout > h3 ~ h3::before {
-content: "";
-display: block;
-border-top: 6px solid var(--light);
-padding-bottom: var(--separator-medium);
+.callout-bronze {
+border-left-color: var(--color-bronze);
+background: var(--surface-bronze);
 }
 
-/* Homepage highlights within the shared callout. */
-.site-main .highlights-callout h2 {
-font-size: 1.25rem;
-margin-bottom: 1.25rem;
-}
-.site-main .home-highlight h3 {
-font-size: 1rem;
-margin: 0 0 .25rem;
-}
-.site-main .home-highlight p {
-font-size: .9375rem;
-line-height: 1.6;
-margin-bottom: 0;
+.callout-purple {
+border-left-color: var(--color-purple);
+background: var(--surface-purple);
 }
 
-/* Small icon-and-message callout, without a background panel. */
-.mini-callout {
---mini-callout-color: var(--color-blue);
-display: grid;
-grid-template-columns: 3rem minmax(0, 1fr);
-align-items: center;
-gap: 0.75rem;
-margin-top: 1.5rem;
+.callout-brown {
+border-left-color: var(--color-brown);
+background: var(--surface-brown);
 }
-.mini-callout-gold { --mini-callout-color: var(--mini-callout-gold-color); }
-.mini-callout-blue { --mini-callout-color: var(--color-blue); }
-.mini-callout-teal { --mini-callout-color: var(--color-teal); }
-.mini-callout-purple { --mini-callout-color: var(--color-purple); }
-.mini-callout-icon,
-.mini-callout-icon svg {
-display: block;
-width: 3rem;
-height: 3rem;
-color: var(--mini-callout-color);
-}
-.site-main .mini-callout p {
-margin: 0;
+
+.callout-pink {
+border-left-color: var(--color-pink);
+background: var(--surface-pink);
 }
