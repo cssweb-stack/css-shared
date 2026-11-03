@@ -516,6 +516,13 @@ padding: var(--photo-mat-large);
 background-color: var(--light);
 }
 
+/* Standard non-portrait grid photos have one border and shadow treatment. */
+.grid-photo {
+border: 1px solid var(--icon-gray);
+border-radius: var(--frame-radius);
+box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.08);
+}
+
 /* Program at a glance */
 .callout-facts ul {
 list-style: none;
@@ -580,7 +587,8 @@ margin: 0;
 
 /* Content photos fade once when loaded, without moving. Visible without JavaScript. */
 @media (prefers-reduced-motion: no-preference) {
-.photo-frame.is-loaded {
+.photo-frame.is-loaded,
+.grid-photo.is-loaded {
 animation: content-photo-fade 250ms ease-out both;
 }
 }
@@ -1708,7 +1716,6 @@ margin-bottom: 0;
 }
 .event-entry.media-row {
 --media-width: 7rem;
-margin-bottom: 0;
 }
 .media-row > * {
 min-width: 0;

@@ -4,7 +4,7 @@
 // No scroll observer, movement, or hidden state; images work without JavaScript.
 (() => {
 if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-const images = document.querySelectorAll('img.photo-frame');
+const images = document.querySelectorAll('img.photo-frame, img.grid-photo');
 images.forEach(image => {
 const fade = () => {
 if (image.naturalWidth > 0) image.classList.add('is-loaded');
