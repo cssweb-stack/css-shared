@@ -99,7 +99,7 @@
 
 /* Shared photo and colored tile finish. */
 --frame-border: 1px solid var(--nav-divider);
---frame-radius: 2px;
+--frame-radius: 6px;
 --frame-shadow: 0 3px 10px var(--shadow-soft-color);
 
 /* Content heading scale: desktop defaults; smaller screens below. */
@@ -518,9 +518,9 @@ background-color: var(--light);
 
 /* Standard non-portrait grid photos have one border and shadow treatment. */
 .grid-photo {
-border: 1px solid var(--icon-gray);
+border: 1px solid var(--border-gray);
 border-radius: var(--frame-radius);
-box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.08);
+filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5));
 }
 
 /* Program at a glance */
