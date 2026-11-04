@@ -2,8 +2,8 @@
 <div class="container">
 <div class="collapse navbar-collapse" id="unitNavigation">
 <ul class="navbar-nav">
-{% for item in navigation %}
-{% if item.children %}
+{% for item in navigation -%}
+{% if item.children -%}
 <li class="nav-item dropdown">
 <button class="nav-link dropdown-toggle nav-trigger"
 type="button"
@@ -11,24 +11,24 @@ id="navItem{{ loop.index }}"
 data-bs-toggle="dropdown"
 aria-expanded="false">{% if item.icon %}<span class="nav-main-icon" aria-hidden="true">{% include "icons/" + item.icon + ".svg" %}</span>{% endif %}{{ item.label | escape }}</button>
 <ul class="dropdown-menu" aria-labelledby="navItem{{ loop.index }}">
-{% for child in item.children %}
+{% for child in item.children -%}
 <li>
 <a class="dropdown-item" href="{{ child.url | url }}">
-{% if child.icon %}
+{% if child.icon -%}
 <span class="nav-menu-icon-wrap" aria-hidden="true">{% include "icons/" + child.icon + ".svg" %}</span>
-{% endif %}
+{% endif -%}
 <span>{{ child.label }}</span>
 </a>
 </li>
-{% endfor %}
+{% endfor -%}
 </ul>
 </li>
-{% else %}
+{% else -%}
 <li class="nav-item">
 <a class="nav-link" href="{{ item.url | url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{% if item.icon %}<span class="nav-main-icon" aria-hidden="true">{% include "icons/" + item.icon + ".svg" %}</span>{% endif %}{{ item.label | escape }}</a>
 </li>
-{% endif %}
-{% endfor %}
+{% endif -%}
+{% endfor -%}
 </ul>
 </div>
 </div>

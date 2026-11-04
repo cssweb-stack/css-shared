@@ -1,138 +1,76 @@
 :root {
+/* UH GREEN */
 --uh-green: #024731;
+
+/* Link */
+--link-color: #0a58ca;
+
+/* Primary Accent Colors */
 --color-teal: #27665d;
 --color-blue: #354d67;
 --color-purple: #655b7a;
+
+/* Primary Accent Backgrounds */
+--surface-teal: #edf5f0;
+--surface-blue: #eef9fc;
+--surface-purple: #f6f4f8;
+
+/* Secondary Accent Colors */
 --color-bronze: #755322;
---text: var(--dark-gray);
---light: #ffffff;
---light-gray: #f7f7f7;
---dark-gray: #2d2d2d;
---border-gray: #d2d2d2;
---icon-gray: #888888;
---nav-divider: #e2e2e2;
---color-green: var(--uh-green);
---color-gold: #b58a24;
 --color-brown: #835044;
 --color-pink: #943c70;
---color-black: var(--dark-gray);
---link-color: #0a58ca;
---note-color: #555555;
---accent-color: #b35c00;
---surface-green: #edf5f0;
---surface-blue: #eef9fc;
---surface-gold: #fff8e6;
+--color-gold: #b58a24;
+
+/* Secondary Accent Backgrounds */
 --surface-bronze: #faf7f0;
---surface-purple: #f6f4f8;
 --surface-brown: #faf2ee;
 --surface-pink: #fcf1f7;
---shadow-base: #000000;
---focus-color: #1c78bd;
---hero-credit-link-color: #244c73;
---control-border-color: #6c757d;
---menu-icon-color: #777777;
---header-border-color: #b5b5b5;
+--surface-gold: #fff8e6;
+
+/* Grays */
+--black: #2d2d2d;
+--dark-gray: #555555;
+--mid-gray: #888888;
+--light-gray: #cccccc;
+--white: #ffffff;
+
+/* Layout */
+--nav-unit-bk: #f7f7f7;
+--nav-divider: #e2e2e2;
+
+/* Special */
+--accent: var(--color-purple);
+
+/* Hero */
+--hero-note-background: var(--black);
+--hero-credit-background: var(--light-gray);
+--hero-credit-link: #244c73;
+--hero-shadow-color: var(--black);
+
+/* Shadow */
+--shadow-medium-color: rgb(0 0 0 / 25%);
+
+/* News */
 --news-border-color: #d7e4dc;
 --news-media-surface: #eef4f8;
---muted-surface: #f2f2f2;
---shadow-soft-color: color-mix(in srgb, var(--shadow-base) 8%, transparent);
---shadow-medium-color: color-mix(in srgb, var(--shadow-base) 12%, transparent);
---hero-shadow-color: color-mix(in srgb, var(--shadow-base) 28%, transparent);
---footer-rule-color: color-mix(in srgb, var(--light) 40%, transparent);
---brand-toggle-border-color: color-mix(in srgb, var(--light) 50%, transparent);
---interpretation-band-color: color-mix(in srgb, var(--shadow-base) var(--interpretation-band-opacity), transparent);
---interpretation-heading-color: color-mix(in srgb, var(--shadow-base) var(--interpretation-heading-opacity), transparent);
---bs-body-color: var(--text);
---bs-body-bg: var(--light);
---tagline-color: var(--color-blue);
---divider-color: var(--nav-divider);
+
+/* Header borders */
+--header-border-color: #b5b5b5;
+--control-border-color: #6c757d;
+--brand-toggle-border-color: rgb(255 255 255 / 50%);
+
+/* Compatibility alias for styles still using --light. */
+--light: red;
+
+/* Footer */
+--footer-rule-color: rgb(255 255 255 / 40%);
+--interpretation-band-color: rgb(0 0 0 / 25%);
+--interpretation-heading-color: rgb(0 0 0 / 15%);
 }
 
-.news-post {
---news-media-background: var(--news-media-surface);
-}
-
-.divider-white {
---divider-color: var(--light);
-}
-
-.tile {
---tile-color: var(--color-blue);
-}
-
-.tile-teal {
---tile-color: var(--color-teal);
-}
-
-.tile-blue {
---tile-color: var(--color-blue);
-}
-
-.tile-purple {
---tile-color: var(--color-purple);
-}
-
-.tile-bronze {
---tile-color: var(--color-bronze);
-}
-
-.tile-brown {
---tile-color: var(--color-brown);
-}
-
-.tile-green {
---tile-color: var(--color-green);
-}
-
-.tile-gold {
---tile-color: var(--color-gold);
---tile-text: var(--text);
-}
-
-.tile-pink {
---tile-color: var(--color-pink);
-}
-
-.tile-black {
---tile-color: var(--color-black);
-}
-
-.button {
---button-color: var(--color-blue);
---button-surface: var(--surface-blue);
-}
-
-.button-green {
---button-color: var(--color-green);
---button-surface: var(--surface-green);
-}
-
-.button-blue {
---button-color: var(--color-blue);
---button-surface: var(--surface-blue);
-}
-
-.button-purple {
---button-color: var(--color-purple);
---button-surface: var(--surface-purple);
-}
-
-.button-teal {
---button-color: var(--color-teal);
---button-surface: var(--surface-green);
-}
-
-.button-bronze {
---button-color: var(--color-bronze);
---button-surface: var(--surface-bronze);
-}
-
-.button-brown {
---button-color: var(--color-brown);
---button-surface: var(--surface-brown);
-}
-
-.button-pink {
---button-color: var(--color-pink);
---button-surface: var(--surface-pink);
-}
+/* Tile Colors */
+.tile-blue { --tile-color: var(--color-blue); }
+.tile-teal { --tile-color: var(--color-teal); }
+.tile-purple { --tile-color: var(--color-purple); }
+.tile-gold { --tile-color: var(--color-gold); }
+.tile-green { --tile-color: var(--uh-green); }

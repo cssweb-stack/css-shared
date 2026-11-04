@@ -1,12 +1,12 @@
 {% if advising.people | length %}
-<section class="advising" aria-labelledby="undergraduate-advising-heading">
+<section class="grid-spaced" aria-labelledby="undergraduate-advising-heading">
 <h2 id="undergraduate-advising-heading">{{ site.shortName | escape }} {{ advising.heading | default('Undergraduate Advising') | escape }}</h2>
-{% if advising.intro %}<p class="advising-intro">{{ advising.intro | escape }}</p>{% endif %}
-<div class="advising-grid">
+{% if advising.intro %}<p>{{ advising.intro | escape }}</p>{% endif %}
+<div class="grid-advisors">
 {% for advisor in advising.people %}
-<div class="advisor">
-{% if advisor.photo %}<img class="photo-frame photo-frame-small advisor-photo" src="{{ advisor.photo | url }}" alt="{{ advisor.name | escape }}" width="112" height="112" loading="lazy" decoding="async">{% endif %}
-<div class="advisor-details">
+<div>
+{% if advisor.photo %}<img class="photo-style" src="{{ advisor.photo | url }}" alt="{{ advisor.name | escape }}" width="112" height="112" loading="lazy" decoding="async">{% endif %}
+<div>
 <h3 class="advisor-name">{% if advisor.url %}<a href="{{ advisor.url | url }}">{{ advisor.name | escape }}</a>{% else %}{{ advisor.name | escape }}{% endif %}</h3>
 {% if advisor.title %}<p><strong>{{ advisor.title | escape }}</strong></p>{% endif %}
 {% if advisor.role %}<p><strong>{{ advisor.role | escape }}</strong></p>{% endif %}
