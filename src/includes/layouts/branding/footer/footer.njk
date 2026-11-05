@@ -2,7 +2,6 @@
 {% set footerPrivacy = uh.footer.privacy | default(site.privacy, true) %}
 {% set footerWebmaster = uh.footer.webmaster | default(site.webmaster, true) %}
 {% set footerLanguageId = footerId | default("footer") + "-language-heading" %}
-{% set footerLogo = site.logo.variants.whiteHorz %}
 
 <footer class="site-footer">
 
@@ -10,9 +9,10 @@
 <div class="container footer-inner">
 <div class="footer-grid">
 <div class="footer-unit-column">
-{% if site.logo %}
-<img class="footer-department-logo" src="{{ footerLogo.src | url }}" alt="{{ site.logo.alt | escape }}" width="{{ footerLogo.width }}" height="{{ footerLogo.height }}" loading="lazy">
+{% if site.shortName %}
+<p class="footer-unit-short-name">{{ site.shortName | escape }}</p>
 {% endif %}
+<p class="footer-unit-name">{{ site.name | escape }}</p>
 
 <address class="footer-contact">
 {% if site.address | length %}

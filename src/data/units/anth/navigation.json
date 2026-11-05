@@ -4,6 +4,132 @@
 "url": "/"
 },
 {
+"label": "About ANTH",
+"children": [
+{
+"label": "Areas of Study",
+"url": "/about-anth/areas-of-study.html",
+"icon": "database",
+"iconColor": null
+},
+{
+"label": "Colloquia",
+"url": "/about-anth/colloquia.html",
+"icon": "database",
+"iconColor": null
+},
+{
+"label": "Department News",
+"url": "/about-anth/department-news.html",
+"icon": "database",
+"iconColor": null
+}
+]
+},
+{
+"label": "Undergraduate",
+"children": [
+{
+"label": "Minor (ANTH)",
+"url": "/undergraduate/minor-anth.html",
+"icon": "database",
+"iconColor": null
+},
+{
+"label": "Minor (Medical ANTH)",
+"url": "/undergraduate/minor-medical-anth.html",
+"icon": "database",
+"iconColor": null
+},
+{
+"label": "Major (BA)",
+"url": "/undergraduate/major-ba.html",
+"icon": "database",
+"iconColor": null
+},
+{
+"label": "ANTH BA/MA (BAM)",
+"url": "/undergraduate/anth-bam.html",
+"icon": "database",
+"iconColor": null
+},
+{
+"label": "Honors Track",
+"url": "/undergraduate/honors-track.html",
+"icon": "database",
+"iconColor": null
+},
+{
+"label": "Advising/Support",
+"url": "/undergraduate/advising-support.html",
+"icon": "database",
+"iconColor": null
+},
+{
+"label": "Funding Sources",
+"url": "/undergraduate/funding-sources.html",
+"icon": "database",
+"iconColor": null
+}
+]
+},
+{
+"label": "Graduate",
+"children": [
+{
+"label": "Master’s (MA)",
+"url": "/graduate/master-ma.html",
+"icon": "database",
+"iconColor": null
+},
+{
+"label": "Doctorate (PhD)",
+"url": "/graduate/doctorate-phd.html",
+"icon": "database",
+"iconColor": null
+},
+{
+"label": "Degrees Awarded",
+"url": "/graduate/degrees-awarded.html",
+"icon": "database",
+"iconColor": null
+},
+{
+"label": "Current Cohort",
+"url": "/graduate/current-cohort.html",
+"icon": "database",
+"iconColor": null
+},
+{
+"label": "Funding Sources",
+"url": "/graduate/funding-sources.html",
+"icon": "database",
+"iconColor": null
+}
+]
+},
+{
+"label": "Faculty",
+"children": [
+{
+"label": "Core Faculty",
+"url": "/faculty/core-faculty.html",
+"icon": "database",
+"iconColor": null
+},
+{
+"label": "Associated Faculty",
+"url": "/faculty/associated-faculty.html",
+"icon": "database",
+"iconColor": null
+}
+]
+},
+{
+"label": "Support ANTH",
+"url": "/support-anth/"
+},
+{
 "label": "Contact",
 "url": "/contact/"
 }

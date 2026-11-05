@@ -201,7 +201,22 @@ text-align: left;
 justify-content: flex-start;
 }
 
-/* Upper, address and link size and weight */
+/* Upper, unit short name */
+.site-footer .footer-unit-short-name {
+margin: 0 0 0.25rem;
+font-size: 3rem;
+font-weight: 800;
+overflow-wrap: anywhere;
+text-shadow: 0.125rem 0.125rem 0 rgb(0 0 0 / 60%);
+}
+
+/* Upper, unit name */
+.site-footer .footer-unit-name {
+margin: 0 0 1.2rem;
+}
+
+/* Upper, unit name, address and link size and weight */
+.site-footer .footer-unit-name,
 .site-footer .footer-inner .footer-address,
 .site-footer .footer-inner a {
 font-size: 0.875rem;
@@ -409,14 +424,3 @@ margin-bottom: var(--footer-row-gap);
 }
 }
 
-/* Upper, logo */
-.site-footer .footer-unit-column .footer-department-logo {
-display: block;
-height: auto;
-margin-bottom: 1.2rem;
-margin-inline: 0;
-border: 0;
-border-radius: 0;
-box-shadow: none;
-width: 100%;
-}
