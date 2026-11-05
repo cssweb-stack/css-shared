@@ -1,0 +1,142 @@
+/* TAGLINE */
+.site-main .tagline {
+font-size: 1.35rem;
+font-weight: 500;
+color: var(--color-blue);
+margin-top: 0;
+margin-bottom: 1rem;
+}
+
+/* Intro */
+.site-main .intro {
+font-size: 1.14rem;
+border-bottom: 1px solid var(--light-gray);
+margin-top: 0;
+padding-bottom: 2rem;
+margin-bottom: 2rem;
+}
+
+/* Accent */
+.site-main .accent {
+color: var(--accent);
+font-weight: 300;
+}
+
+/* Action */
+.action {
+display: inline-flex;
+align-items: baseline;
+gap: 0.5rem;
+}
+
+.action::before {
+content: "";
+display: block;
+flex: 0 0 1em;
+align-self: center;
+width: 1em;
+height: 1em;
+background-color: var(--color-blue);
+-webkit-mask: url("../media/icons/chevron-right.svg") center / contain no-repeat;
+mask: url("../media/icons/chevron-right.svg") center / contain no-repeat;
+}
+
+/* Note */
+.site-main .note {
+color: var(--dark-gray);
+font-weight: 300;
+}
+
+/* Advising */
+.site-main .advisor-name {
+font-size: 1.14rem;
+}
+
+/* Shared Inline Icons */
+.info,
+.date,
+.email,
+.phone {
+position: relative;
+padding-inline-start: calc(1em + 0.45rem);
+}
+
+.info::before,
+.date::before,
+.email::before,
+.phone::before {
+content: "";
+position: absolute;
+inset-inline-start: 0;
+top: 0.375em;
+width: 1em;
+height: 1em;
+background-color: var(--mid-gray);
+-webkit-mask-position: center;
+mask-position: center;
+-webkit-mask-size: contain;
+mask-size: contain;
+-webkit-mask-repeat: no-repeat;
+mask-repeat: no-repeat;
+}
+
+/* Info */
+.site-main .info {
+font-size: 0.98rem;
+margin-top: 0;
+}
+
+.info::before {
+-webkit-mask-image: url("../media/icons/info-circle.svg");
+mask-image: url("../media/icons/info-circle.svg");
+}
+
+/* Deadline */
+.date::before {
+-webkit-mask-image: url("../media/icons/calendar3.svg");
+mask-image: url("../media/icons/calendar3.svg");
+}
+
+/* Email */
+.email::before {
+-webkit-mask-image: url("../media/icons/envelope.svg");
+mask-image: url("../media/icons/envelope.svg");
+}
+
+/* Phone */
+.phone::before {
+-webkit-mask-image: url("../media/icons/telephone.svg");
+mask-image: url("../media/icons/telephone.svg");
+}
+
+/* Smile */
+.site-main .smile {
+display: flex;
+align-items: center;
+gap: 1rem;
+font-size: 1.5rem;
+margin-top: 2.25rem;
+margin-bottom: 2.25rem;
+}
+
+.site-main .smile > svg {
+flex: 0 0 3rem;
+width: 5rem;
+height: 5rem;
+color: var(--color-gold);
+}
+
+/* Lecture details */
+
+.site-main .lecture-speaker {
+font-weight: 600;
+}
+
+/* Extra breathing room around declaration actions */
+.site-main .declaration-spacing {
+margin-bottom: 1.75rem;
+}
+/* Extra breathing room around declaration actions */
+.site-main .declaration-spacing {
+margin-bottom: 1.75rem;
+}

@@ -1,0 +1,9 @@
+---
+layout: base.njk
+---
+<div class="grid-profile profile-page">
+<div class="profile-sidebar">
+{% include "layouts/profiles/profile-sidebar.njk" %}
+</div>
+<div class="profile-biography">{{ content | safe }}</div>
+</div>

@@ -1,0 +1,36 @@
+{
+"name": "Department of Geography and Environment",
+"shortName": "GEO",
+"showShortName": true,
+"url": "https://geography.manoa.hawaii.edu",
+"prefix": "Department of",
+"logo": {
+"alt": "Department of Geography and Environment, University of Hawaiʻi at Mānoa",
+"variants": {
+"whiteHorz": {
+"src": "/media/branding/logos/geo-logo-horz-white.svg",
+"width": 500,
+"height": 140
+},
+"whiteVert": {
+"src": "/media/branding/logos/geo-logo-vert-white.svg",
+"width": 500,
+"height": 310
+}
+}
+},
+"address": [
+"Saunders Hall 445",
+"2424 Maile Way",
+"Honolulu, HI 96822"
+],
+"phone": {
+"label": "(808) 956-8465",
+"href": "tel:+18089568465"
+},
+"email": {
+"label": "uhmgeog@hawaii.edu",
+"href": "mailto:uhmgeog@hawaii.edu?subject=Website%20inquiry",
+"contactHref": "mailto:uhmgeog@hawaii.edu"
+}
+}

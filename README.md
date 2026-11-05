@@ -1,27 +1,80 @@
-# CSS shared website foundation
+# College of Social Sciences shared website source
 
-Authoritative shared styles, templates and public branding assets for College of Social Sciences unit sites.
+One source for shared styles, templates, public assets, and unit JSON. GEO reads this repository directly during its build. Shared files are not mirrored into GEO's src directory.
 
-Edit shared website files in `src`. Each unit build loads these files before Eleventy renders its own pages. Unit repositories retain local content, people/contact/navigation data, imagery, hero assignments and their local stylesheet.
+## Source map
 
-| Shared location | Contains |
+| Folder | Contains |
 | --- | --- |
-| `src/shell.css` | Header, navigation and footer styling |
-| `src/common.css` | Typography, palette, layouts and components |
-| `src/_includes` | Reusable templates and Bootstrap icons with their attribution/license |
-| `src/_data/university.json` | Shared university links, interpretation services and legal footer data |
-| `src/_media/branding` | University/unit logos, UH pattern variants, footer backgrounds |
-| `src/_media/other/contour-lines.svg` | Shared contour pattern |
-| `src/assets` | Common interface and optional Bluesky feed scripts |
+| src/assets/fonts | Inter fonts and license |
+| src/assets/js | Shared browser JavaScript |
+| src/css | Shared CSS; common.css imports the other stylesheets |
+| src/data/uh | header.json, footer.json, languages.json |
+| src/data/units/geo | GEO's site, navigation, hero, event, people, advising, and homepage JSON |
+| src/includes/base.njk | Complete page assembly |
+| src/includes/layouts/branding/header | UH bar, department name/search, navigation |
+| src/includes/layouts/branding/footer | Main footer and subfooter |
+| src/includes/layouts/hero | Hero and attribution |
+| src/includes/layouts/events | Event displays and date formatter |
+| src/includes/layouts/profiles | Profiles, contacts, cards, directories, advising |
+| src/includes/layouts/social | Social feeds |
+| src/includes/layouts/content | Buttons, callouts, course resources, grid macros |
+| src/media/branding/logos | UH, college, and unit SVG logos |
+| src/media/branding/backgrounds | Shared UH background graphics |
+| src/media/branding/favicon | Shared favicons |
+| src/media/icons | Shared SVG icons and license |
+| src/media/heroes | Shared hero-image collection, ready for approved images |
 
-Run `npm run check` to check basic package structure and JSON. GitHub runs the same check on pushes and pull requests. These basic checks do not replace visual or accessibility review.
+Names are lowercase with hyphens. Code and JSON are flush-left. YAML front matter and workflows retain required indentation.
 
-Run `npm run clean:ds-store` manually to remove `.DS_Store` files within this repository and directories made empty by their removal. It preserves previously empty directories, skips symlinks, Git metadata, and nested repositories, and never removes the repository root. This cleanup does not run during builds or synchronization.
+## Department data
 
-A local GEO clone expects this repository beside it at `../css-shared`. Set SHARED_SOURCE to a different path when necessary. GitHub Actions checks out the repository into the unit workspace automatically.
+Select a department with `unit` in the consuming site's shared.config.json. The GEO build loads its actual records from data/units/geo and exposes the established template variables. Filename improvements do not require renaming existing template fields:
 
-Only reviewed changes belong on main because connected unit builds consume it. Commit changes through GitHub Desktop or GitHub's editor; there is no generated manifest to update after editing a footer, stylesheet or SVG. Newly added shared source files are discovered automatically.
+| JSON file | Template data |
+| --- | --- |
+| site.json | site |
+| navigation.json | navigation |
+| heroes.json | heroes |
+| faculty-heroes.json | faculty_heroes |
+| events.json | events; lectures is the existing lecture-page alias |
+| faculty.json | faculty |
+| graduate-students.json | graduate_students; students is the existing directory alias |
+| advising.json | advising |
+| home.json | home |
 
-Each connected unit must run a build to publish a shared change. The starter GEO workflow includes an hourly schedule and manual rebuild option. This repository is source, not a remotely executing HTML include server. It does not need its own GitHub Pages deployment.
+No staff.json was created because there was no staff dataset in the supplied source. Staff content already on pages remains intact. Add a real staff record when it is needed. A new JSON filename is discovered after restarting development preview or reloading its configuration.
 
-The initial branding folder includes the supplied GEO logo and UH assets. Add other approved unit logos as those sites join. Existing fonts still load from Google Fonts; font family and typography rules are centralized in common.css. No font binaries were added in this phase.
+Shared UH records are exposed as uh.header, uh.footer, and uh.languages. The shared footer privacy and webmaster settings now contain the verified values migrated from GEO. They are no longer repeated in GEO's site.json. Each unit must still supply the privacy page at the common /privacy/ URL; this migration did not rewrite the GEO policy into a generic college policy.
+
+## Images and heroes
+
+Unit logo configuration points to `/media/branding/logos/<name>.svg`, with alt, width, and height supplied in site.json. Add new approved logos to that folder; the college/unit logo collection was not included in the supplied archive.
+
+Hero records use full site-relative image paths. Shared photographs and unit photographs can both be assigned:
+
+- Shared image: css-shared/src/media/heroes/<filename>.
+- GEO satellite image: geo/src/media/heroes/<filename>.
+- Configuration for both: css-shared/src/data/units/geo/heroes.json or faculty-heroes.json.
+
+Both collections publish under /media/heroes/. Use distinct filenames. The consuming build rejects public asset collisions before copying.
+
+Each hero can provide alt, location, position, and credit. GEO's existing accessible descriptions are preserved explicitly in its JSON. Credit defaults to the unit's heroes.credit; use an individual credit object (source and url) to override it or `credit: false` to suppress that attribution. Shared hero images do not have to be satellite imagery.
+
+The contour graphic belongs to GEO at geo/src/media/backgrounds/contour-lines.svg. Shared tiles accept the optional --tile-background property; GEO sets it in its own stylesheet.
+
+## Build integration
+
+The repositories sit beside each other by default: css-shared and geo. SHARED_SOURCE can select a different checkout. GitHub Actions uses GEO's ignored .shared-source directory for its shared checkout; no public source paths change because of that.
+
+GEO resolves page layouts from the shared includes directory, loads inline SVGs from shared media, and keeps biography includes local. Only public assets and rendered pages reach _site. CSS is bundled into geo.css, with source-relative asset URLs rewritten to copied public paths. The font preload matches the copied font URL; fonts are not duplicated into hashed bundle paths.
+
+Shared configuration/data/template edits are watched during preview. Record structure validation and reference checks run before every build. npm run shared:check in GEO verifies the selected shared source without copying files into src. A generated .shared-state.json receipt records the shared commit and content hash for CI; it is ignored by Git.
+
+## Commands
+
+Run `npm run check` here. Run `npm run build` or `npm run dev` from GEO. Shared changes require a consuming-site rebuild before publication. Rebuild fan-out across other departments is not added by this migration.
+
+The footer grid, breakpoints, typography, and rendered page content were preserved. The style-guide footer showcase and responsive visual review remain separate work. For multiple footer instances, pass a distinct footerId to each include so language heading IDs stay unique.
+
+The old buttons patch, one-time GEO adoption/synchronization/retirement scripts, unused photo importer and hero-gallery data helper were removed after reviewing the actual consumer. See docs/consumer-migration.md and docs/validation.md.

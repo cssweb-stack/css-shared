@@ -1,5 +1,9 @@
 {
-  "schemaVersion": 1,
-  "name": "CSS shared website foundation",
-  "sourceDirectory": "src"
+"schemaVersion": 2,
+"name": "CSS shared website foundation",
+"sourceDirectory": "src",
+"includesDirectory": "includes",
+"dataDirectory": "data",
+"stylesheet": "css/common.css",
+"nunjucksSearchDirectories": ["includes", "."]
 }

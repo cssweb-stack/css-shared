@@ -1,0 +1,40 @@
+{% set headerIdPrefix = headerId + "-" if headerId else "" %}
+<div class="uh-brand">
+<div class="container">
+
+<nav class="navbar navbar-expand-xl navbar-dark" aria-label="University of Hawaiʻi navigation">
+
+<!-- University Logo -->
+<a class="navbar-brand" href="{{ uh.header.logo.url | escape }}">
+<img
+src="{{ uh.header.logo.src | url }}"
+alt="{{ uh.header.logo.alt | escape }}"
+class="uh-brand-logo">
+</a>
+
+<!-- Mobile Hamburger -->
+<button
+class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#{{ headerIdPrefix }}uhBrandNav"
+aria-controls="{{ headerIdPrefix }}uhBrandNav"
+aria-expanded="false"
+aria-label="Toggle university navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- University Navigation -->
+<div class="collapse navbar-collapse" id="{{ headerIdPrefix }}uhBrandNav">
+<ul class="navbar-nav">
+
+{% for link in uh.header.navigation %}
+<li class="nav-item"><a class="nav-link" href="{{ link.url | escape }}">{{ link.label | escape }}</a></li>
+{% endfor %}
+</ul>
+</div>
+
+</nav>
+
+</div>
+</div>

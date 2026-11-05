@@ -1,0 +1,9 @@
+{
+"facultyBasePath": "/faculty/",
+"stylesheet": "/geo.css",
+"canonicalSections": [
+"/graduate/",
+"/undergraduate/"
+],
+"indexingEnabled": false
+}

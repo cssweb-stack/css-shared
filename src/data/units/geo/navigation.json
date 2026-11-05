@@ -1,0 +1,136 @@
+[
+{
+"label": "Home",
+"url": "/"
+},
+{
+"label": "About GEO",
+"children": [
+{
+"label": "Why Study GEO",
+"url": "/about-geo/why-study-geo.html",
+"icon": "compass",
+"iconColor": null
+},
+{
+"label": "Areas of Study",
+"url": "/about-geo/areas-of-study.html",
+"icon": "globe-americas",
+"iconColor": null
+},
+{
+"label": "GEO Courses",
+"url": "/about-geo/geo-courses.html",
+"icon": "book",
+"iconColor": null
+},
+{
+"label": "Lecture Series",
+"url": "/about-geo/lecture-series.html",
+"icon": "mic",
+"iconColor": null
+},
+{
+"label": "Department News",
+"url": "/about-geo/department-news.html",
+"icon": "newspaper",
+"iconColor": null
+}
+]
+},
+{
+"label": "Undergraduate",
+"children": [
+{
+"label": "GIS Certificate",
+"url": "/undergraduate/gis-certificate.html",
+"icon": "map",
+"iconColor": null
+},
+{
+"label": "Minor",
+"url": "/undergraduate/minor.html",
+"icon": "journal",
+"iconColor": null
+},
+{
+"label": "Major (BA)",
+"url": "/undergraduate/major-ba.html",
+"icon": "mortarboard",
+"iconColor": null
+},
+{
+"label": "GEO BA/MA (BAM)",
+"url": "/undergraduate/geo-bam.html",
+"icon": "layers",
+"iconColor": null
+},
+{
+"label": "SUST BA/GEO MA (BAM)",
+"url": "/undergraduate/geo-sust-bam.html",
+"icon": "leaf",
+"iconColor": null
+}
+]
+},
+{
+"label": "Graduate",
+"children": [
+{
+"label": "Master (MA)",
+"url": "/graduate/master-ma.html",
+"icon": "mortarboard",
+"iconColor": null
+},
+{
+"label": "Doctorate (PhD)",
+"url": "/graduate/doctorate-phd.html",
+"icon": "journal-richtext",
+"iconColor": null
+},
+{
+"label": "Degrees Awarded",
+"url": "/graduate/degrees-awarded.html",
+"icon": "award",
+"iconColor": null
+},
+{
+"label": "Current Cohort",
+"url": "/graduate/current-cohort.html",
+"icon": "people",
+"iconColor": null
+},
+{
+"label": "Funding Sources",
+"url": "/graduate/funding-sources.html",
+"icon": "cash-coin",
+"iconColor": null
+}
+]
+},
+{
+"label": "Faculty",
+"children": [
+{
+"label": "Core Faculty",
+"url": "/faculty/",
+"icon": "people",
+"iconColor": null
+},
+{
+"label": "Associated Faculty",
+"url": "/faculty/associated.html",
+"icon": "people",
+"iconColor": null
+}
+]
+},
+{
+"label": "Support GEO",
+"url": "/support-geo/"
+},
+{
+"label": "Contact",
+"url": "/contact/"
+}
+]

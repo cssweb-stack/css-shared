@@ -1,0 +1,34 @@
+{
+"name": "School of Communication and Information",
+"shortName": "SCI",
+"showShortName": true,
+"prefix": "School of",
+"logo": {
+"alt": "School of Communication and Information, University of Hawaiʻi at Mānoa",
+"variants": {
+"whiteHorz": {
+"src": "/media/branding/logos/sci-logo-horz-white.svg",
+"width": 500,
+"height": 160
+},
+"whiteVert": {
+"src": "/media/branding/logos/sci-logo-vert-white.svg",
+"width": 500,
+"height": 340
+}
+}
+},
+"address": [
+"Crawford Hall 320",
+"2550 Campus Road",
+"Honolulu, HI 96822"
+],
+"phone": {
+"label": "(808) 956-8881",
+"href": "tel:+18089568881"
+},
+"email": {
+"label": "uhmsci@hawaii.edu",
+"href": "mailto:uhmsci@hawaii.edu"
+}
+}

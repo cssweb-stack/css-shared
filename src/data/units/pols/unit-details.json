@@ -1,0 +1,34 @@
+{
+"name": "Department of Political Science",
+"shortName": "POLS",
+"showShortName": true,
+"prefix": "Department of",
+"logo": {
+"alt": "Department of Political Science, University of Hawaiʻi at Mānoa",
+"variants": {
+"whiteHorz": {
+"src": "/media/branding/logos/pols-logo-horz-white.svg",
+"width": 500,
+"height": 140
+},
+"whiteVert": {
+"src": "/media/branding/logos/pols-logo-vert-white.svg",
+"width": 500,
+"height": 310
+}
+}
+},
+"address": [
+"Saunders Hall 640",
+"2424 Maile Way",
+"Honolulu, HI 96822"
+],
+"phone": {
+"label": "(808) 956-8357",
+"href": "tel:+18089568357"
+},
+"email": {
+"label": "polisci@hawaii.edu",
+"href": "mailto:polisci@hawaii.edu"
+}
+}

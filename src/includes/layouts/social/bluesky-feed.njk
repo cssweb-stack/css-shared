@@ -1,0 +1,12 @@
+{% if social.bluesky.enabled and social.bluesky.actor %}
+<section class="department-news" data-bluesky-feed data-bluesky-actor="{{ social.bluesky.actor | escape }}" data-bluesky-limit="{{ social.bluesky.limit | default(12) }}" aria-label="Latest department updates">
+<p class="news-feed-status" role="status" aria-live="polite" hidden></p>
+<div class="news-feed-grid" aria-busy="false"></div>
+<button class="news-feed-retry button button-blue button-outline" type="button" hidden>Try loading the updates again</button>
+<noscript><p>Visit <a href="{{ social.bluesky.url | escape }}">{{ social.bluesky.label | escape }}</a> to read the latest updates, or enable JavaScript to display them here.</p></noscript>
+</section>
+
+<p class="news-feed-more"><a class="button button-blue" href="{{ social.bluesky.url | escape }}">{% include "media/icons/bluesky.svg" %}<span>More department updates on Bluesky</span></a></p>
+<script src="{{ "/assets/js/bluesky-feed.js" | url }}" defer></script>
+
+{% endif %}

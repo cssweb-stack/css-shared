@@ -1,0 +1,34 @@
+{
+"name": "Department of Anthropology",
+"shortName": "ANTH",
+"showShortName": true,
+"prefix": "Department of",
+"logo": {
+"alt": "Department of Anthropology, University of Hawaiʻi at Mānoa",
+"variants": {
+"whiteHorz": {
+"src": "/media/branding/logos/anth-logo-horz-white.svg",
+"width": 500,
+"height": 140
+},
+"whiteVert": {
+"src": "/media/branding/logos/anth-logo-vert-white.svg",
+"width": 500,
+"height": 310
+}
+}
+},
+"address": [
+"Saunders Hall 346",
+"2424 Maile Way",
+"Honolulu, HI 96822"
+],
+"phone": {
+"label": "(808) 956-8415",
+"href": "tel:+18089568415"
+},
+"email": {
+"label": "anthprog@hawaii.edu",
+"href": "mailto:anthprog@hawaii.edu"
+}
+}

@@ -1,0 +1,33 @@
+{
+"name": "Public Administration Program",
+"shortName": "PUBA",
+"showShortName": true,
+"logo": {
+"alt": "Public Administration Program, University of Hawaiʻi at Mānoa",
+"variants": {
+"whiteHorz": {
+"src": "/media/branding/logos/puba-logo-horz-white.svg",
+"width": 500,
+"height": 140
+},
+"whiteVert": {
+"src": "/media/branding/logos/puba-logo-vert-white.svg",
+"width": 500,
+"height": 310
+}
+}
+},
+"address": [
+"Saunders Hall 445",
+"2424 Maile Way",
+"Honolulu, HI 96822"
+],
+"phone": {
+"label": "(808) 956-8260",
+"href": "tel:+18089568260"
+},
+"email": {
+"label": "pubadmin@hawaii.edu",
+"href": "mailto:pubadmin@hawaii.edu"
+}
+}

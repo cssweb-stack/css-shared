@@ -1,0 +1,34 @@
+{
+"name": "College of Social Sciences",
+"shortName": "CSS",
+"showShortName": true,
+"prefix": "College of",
+"logo": {
+"alt": "College of Social Sciences, University of Hawaiʻi at Mānoa",
+"variants": {
+"whiteHorz": {
+"src": "/media/branding/logos/css-logo-horz-white.svg",
+"width": 500,
+"height": 102
+},
+"whiteVert": {
+"src": "/media/branding/logos/css-logo-vert-white.svg",
+"width": 500,
+"height": 246
+}
+}
+},
+"address": [
+"Hawaiʻi Hall 310",
+"2500 Campus Road",
+"Honolulu, HI 96822"
+],
+"phone": {
+"label": "(808) 956-6570",
+"href": "tel:+18089566570"
+},
+"email": {
+"label": "cssinfo@hawaii.edu",
+"href": "mailto:cssinfo@hawaii.edu"
+}
+}

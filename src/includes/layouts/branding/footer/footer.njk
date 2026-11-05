@@ -1,0 +1,106 @@
+{# Shared policy and identity data. #}
+{% set footerPrivacy = uh.footer.privacy | default(site.privacy, true) %}
+{% set footerWebmaster = uh.footer.webmaster | default(site.webmaster, true) %}
+{% set footerLanguageId = footerId | default("footer") + "-language-heading" %}
+{% set footerLogo = site.logo.variants.whiteHorz %}
+
+<footer class="site-footer">
+
+{# Upper footer: one unit column and three university-link columns. #}
+<div class="container footer-inner">
+<div class="footer-grid">
+<div class="footer-unit-column">
+{% if site.logo %}
+<img class="footer-department-logo" src="{{ footerLogo.src | url }}" alt="{{ site.logo.alt | escape }}" width="{{ footerLogo.width }}" height="{{ footerLogo.height }}" loading="lazy">
+{% endif %}
+
+<address class="footer-contact">
+{% if site.address | length %}
+<p class="footer-address">{% for line in site.address %}{{ line | escape }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
+{% endif %}
+
+{% if site.phone %}
+<p>
+<a class="footer-contact-link" href="{{ site.phone.href | escape }}">
+<span aria-hidden="true">{% include "media/icons/telephone.svg" %}</span>
+<span>{{ site.phone.label | escape }}</span>
+</a>
+</p>
+{% endif %}
+
+{% if site.email %}
+<p>
+<a class="footer-contact-link" href="{{ site.email.href | escape }}">
+<span aria-hidden="true">{% include "media/icons/envelope.svg" %}</span>
+<span>{{ site.email.label | escape }}</span>
+</a>
+</p>
+{% endif %}
+
+{% for link in social.links %}
+<p>
+<a class="footer-contact-link" href="{{ link.url | url }}">
+{% if link.icon %}
+<span aria-hidden="true">{% include "media/icons/" + link.icon + ".svg" %}</span>
+{% endif %}
+<span>{{ link.label | escape }}</span>
+</a>
+</p>
+{% endfor %}
+
+{% if footerWebmaster or footerPrivacy %}
+<p class="footer-contact-meta">
+{% if footerWebmaster %}
+<a href="mailto:{{ footerWebmaster.email | escape }}">{{ footerWebmaster.label | escape }}</a>
+{% endif %}
+{% if footerWebmaster and footerPrivacy %}
+<span aria-hidden="true">&middot;</span>
+{% endif %}
+{% if footerPrivacy %}
+<a href="{{ footerPrivacy.url | url }}">{{ footerPrivacy.label | escape }}</a>
+{% endif %}
+</p>
+{% endif %}
+</address>
+</div>
+{% for column in uh.footer.footerColumns %}
+<div class="footer-links">
+<ul class="footer-link-list">
+{% for link in column %}
+<li>
+<a href="{{ link.url | escape }}">{{ link.label | escape }}</a>
+</li>
+{% endfor %}
+</ul>
+</div>
+{% endfor %}
+</div>
+</div>
+
+{# Language services: eight desktop columns. #}
+<nav class="footer-language-band" aria-labelledby="{{ footerLanguageId | escape }}">
+<div class="footer-language-heading-bar">
+<div class="container">
+<p id="{{ footerLanguageId | escape }}">
+{{ uh.languages.heading | escape }} <span class="footer-language-about">| <a href="{{ common.links.languageAccess.url | escape }}">About these services</a></span>
+</p>
+</div>
+</div>
+
+<div class="footer-language-links">
+<div class="container">
+<ul class="footer-languages footer-grid-eight">
+{% for language in uh.languages.items %}
+<li>
+<a href="{{ language.url | escape }}" lang="{{ language.lang | escape }}">{{ language.label | escape }}</a>
+</li>
+{% endfor %}
+</ul>
+</div>
+</div>
+</nav>
+
+{# Shared subfooter. #}
+{% include "layouts/branding/footer/subfooter.njk" %}
+
+</footer>

@@ -1,0 +1,19 @@
+{
+"name": "CSS Website Style Guide",
+"shortName": "CSS",
+"url": "https://cssweb-stack.github.io/style-guide",
+"prefix": "",
+"logo": {
+"alt": "University of Hawaiʻi at Mānoa",
+"variants": {
+"whiteHorz": {
+"src": "/media/branding/logos/uh-manoa-logo-white.svg",
+"width": 248,
+"height": 87
+}
+}
+},
+"address": [],
+"phone": null,
+"email": null
+}

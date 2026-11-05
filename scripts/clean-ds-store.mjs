@@ -1,37 +1,16 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-
-// Only prune directories that become empty because this traversal removed metadata.
-export function cleanDSStore(root) {
-  const result = { files: 0, directories: 0 };
-  function visit(directory) {
-    let changed = false;
-    for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
-      if (entry.name === '.git' || entry.isSymbolicLink()) continue;
-      const target = path.join(directory, entry.name);
-      if (entry.isFile() && entry.name === '.DS_Store') {
-        fs.unlinkSync(target);
-        result.files++;
-        changed = true;
-      } else if (entry.isDirectory() && !fs.existsSync(path.join(target, '.git'))) {
-        const childChanged = visit(target);
-        if (childChanged && fs.readdirSync(target).length === 0) {
-          fs.rmdirSync(target);
-          result.directories++;
-        }
-        changed = changed || childChanged;
-      }
-    }
-    return changed;
-  }
-  visit(root);
-  return result;
+const root = fileURLToPath(new URL('../', import.meta.url));
+let count = 0;
+function clean(dir) {
+if (dir !== root && fs.existsSync(path.join(dir, '.git'))) return;
+for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+if (entry.isSymbolicLink() || entry.name === '.git' || entry.name === 'node_modules') continue;
+const file = path.join(dir, entry.name);
+if (entry.isDirectory()) clean(file);
+else if (entry.name === '.DS_Store') { fs.unlinkSync(file); count++; }
 }
-
-const script = fileURLToPath(import.meta.url);
-if (process.argv[1] && path.resolve(process.argv[1]) === script) {
-  const root = path.resolve(path.dirname(script), '..');
-  const result = cleanDSStore(root);
-  console.log(`Removed ${result.files} .DS_Store files and ${result.directories} newly empty directories from ${root}.`);
 }
+clean(root);
+console.log(`Removed ${count} .DS_Store files. No directories removed.`);

@@ -1,0 +1,8 @@
+{
+"stylesheet": "/style-guide.css",
+"hero": {
+"enabled": false
+},
+"indexingEnabled": false,
+"facultyBasePath": "/#profiles"
+}

@@ -1,0 +1,34 @@
+{
+"name": "Department of Economics",
+"shortName": "ECON",
+"showShortName": true,
+"prefix": "Department of",
+"logo": {
+"alt": "Department of Economics, University of Hawaiʻi at Mānoa",
+"variants": {
+"whiteHorz": {
+"src": "/media/branding/logos/econ-logo-horz-white.svg",
+"width": 500,
+"height": 140
+},
+"whiteVert": {
+"src": "/media/branding/logos/econ-logo-vert-white.svg",
+"width": 500,
+"height": 310
+}
+}
+},
+"address": [
+"Saunders Hall 542",
+"2424 Maile Way",
+"Honolulu, HI 96822"
+],
+"phone": {
+"label": "(808) 956-8496",
+"href": "tel:+18089568496"
+},
+"email": {
+"label": "econ@hawaii.edu",
+"href": "mailto:econ@hawaii.edu"
+}
+}

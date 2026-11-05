@@ -1,0 +1,41 @@
+{
+"logo": {
+"src": "/media/branding/logos/uh-manoa-logo-white.svg",
+"alt": "University of Hawaiʻi at Mānoa",
+"url": "https://manoa.hawaii.edu/"
+},
+"navigation": [
+{
+"label": "A-Z Index",
+"url": "https://manoa.hawaii.edu/a-z/"
+},
+{
+"label": "Directory",
+"url": "https://manoa.hawaii.edu/directory/"
+},
+{
+"label": "Students",
+"url": "https://manoa.hawaii.edu/students/"
+},
+{
+"label": "Faculty and Staff",
+"url": "https://manoa.hawaii.edu/faculty-staff/"
+},
+{
+"label": "Parents",
+"url": "https://manoa.hawaii.edu/admissions/parents.html"
+},
+{
+"label": "Alumni",
+"url": "https://uhalumni.org/manoa/"
+},
+{
+"label": "MyUH",
+"url": "https://myuh.hawaii.edu/"
+},
+{
+"label": "Support UH",
+"url": "https://www.uhfoundation.org/give"
+}
+]
+}

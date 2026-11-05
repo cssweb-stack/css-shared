@@ -1,0 +1,16 @@
+{
+"links": [
+{
+"label": "Bluesky",
+"url": "https://bsky.app/profile/hawaiigeography.bsky.social",
+"icon": "bluesky"
+}
+],
+"bluesky": {
+"enabled": true,
+"actor": "hawaiigeography.bsky.social",
+"limit": 12,
+"url": "https://bsky.app/profile/hawaiigeography.bsky.social",
+"label": "UH Geography on Bluesky"
+}
+}

@@ -1,0 +1,121 @@
+{
+"credit": {
+"source": "ESA WorldCover project (2021) / Contains modified Copernicus Sentinel data (2021) processed by ESA WorldCover consortium",
+"url": "https://esa-worldcover.org/en/data-access"
+},
+"pages": {
+"/": {
+"image": "/media/heroes/honolulu-oahu.webp",
+"location": "Honolulu, Oʻahu, Hawaiʻi",
+"alt": "Satellite imagery of Honolulu, Oʻahu, Hawaiʻi"
+},
+"/about-geo/why-study-geo.html": {
+"image": "/media/heroes/hanalei-kauai.webp",
+"location": "Hanalei, Kauaʻi, Hawaiʻi",
+"position": "center bottom",
+"alt": "Satellite imagery of Hanalei, Kauaʻi, Hawaiʻi"
+},
+"/about-geo/areas-of-study.html": {
+"image": "/media/heroes/chiang-mai-thailand.webp",
+"location": "Chiang Mai, Thailand",
+"alt": "Satellite imagery of Chiang Mai, Thailand"
+},
+"/about-geo/lecture-series.html": {
+"image": "/media/heroes/kaneohe-oahu.webp",
+"location": "Kāneʻohe Bay, Oʻahu, Hawaiʻi",
+"alt": "Satellite imagery of Kāneʻohe Bay, Oʻahu, Hawaiʻi"
+},
+"/about-geo/department-news.html": {
+"image": "/media/heroes/hong-kong-china.webp",
+"location": "Hong Kong, China",
+"alt": "Satellite imagery of Hong Kong, China"
+},
+"/undergraduate/gis-certificate.html": {
+"image": "/media/heroes/hilo-hawaii.webp",
+"location": "Hilo, Hawaiʻi Island",
+"alt": "Satellite imagery of Hilo, Hawaiʻi Island"
+},
+"/undergraduate/minor.html": {
+"image": "/media/heroes/taipei-taiwan.webp",
+"location": "Taipei, Taiwan",
+"alt": "Satellite imagery of Taipei, Taiwan"
+},
+"/undergraduate/major-ba.html": {
+"image": "/media/heroes/manila-philippines.webp",
+"location": "Manila, Philippines",
+"alt": "Satellite imagery of Manila, Philippines"
+},
+"/undergraduate/geo-bam.html": {
+"image": "/media/heroes/north-shore-oahu.webp",
+"location": "North Shore, Oʻahu, Hawaiʻi",
+"alt": "Satellite imagery of North Shore, Oʻahu, Hawaiʻi"
+},
+"/undergraduate/geo-sust-bam.html": {
+"image": "/media/heroes/bali-indonesia.webp",
+"location": "Bali, Indonesia",
+"alt": "Satellite imagery of Bali, Indonesia"
+},
+"/graduate/master-ma.html": {
+"image": "/media/heroes/hana-maui.webp",
+"location": "Hāna, Maui, Hawaiʻi",
+"alt": "Satellite imagery of Hāna, Maui, Hawaiʻi"
+},
+"/graduate/doctorate-phd.html": {
+"image": "/media/heroes/tokyo-japan.webp",
+"location": "Tokyo, Japan",
+"alt": "Satellite imagery of Tokyo, Japan"
+},
+"/graduate/degrees-awarded.html": {
+"image": "/media/heroes/beijing-china.webp",
+"location": "Beijing, China",
+"alt": "Satellite imagery of Beijing, China"
+},
+"/graduate/current-cohort.html": {
+"image": "/media/heroes/apia-samoa.webp",
+"location": "Apia, Samoa",
+"alt": "Satellite imagery of Apia, Samoa"
+},
+"/graduate/funding-sources.html": {
+"image": "/media/heroes/kailua-kona-hawaii.webp",
+"location": "Kailua-Kona, Hawaiʻi Island",
+"alt": "Satellite imagery of Kailua-Kona, Hawaiʻi Island"
+},
+"/faculty/": {
+"image": "/media/heroes/kaunakakai-molokai.webp",
+"location": "Kaunakakai, Molokaʻi, Hawaiʻi",
+"alt": "Satellite imagery of Kaunakakai, Molokaʻi, Hawaiʻi"
+},
+"/faculty/associated.html": {
+"image": "/media/heroes/ulaanbaatar-mongolia.webp",
+"location": "Ulaanbaatar, Mongolia",
+"alt": "Satellite imagery of Ulaanbaatar, Mongolia"
+},
+"/support-geo/": {
+"image": "/media/heroes/north-lanai-lanai.webp",
+"location": "Northern Lānaʻi, Hawaiʻi",
+"position": "center top",
+"alt": "Satellite imagery of Northern Lānaʻi, Hawaiʻi"
+},
+"/contact/": {
+"image": "/media/heroes/hagatna-guam.webp",
+"location": "Hagåtña, Guam",
+"alt": "Satellite imagery of Hagåtña, Guam"
+},
+"/privacy/": {
+"image": "/media/heroes/papeete-tahiti.webp",
+"location": "Papeʻete, Tahiti, French Polynesia",
+"alt": "Satellite imagery of Papeʻete, Tahiti, French Polynesia"
+},
+"/about-geo/geo-courses.html": {
+"image": "/media/heroes/kahului-maui-hawaii.webp",
+"location": "Kahului, Maui, Hawaiʻi",
+"alt": "Satellite imagery of Kahului, Maui, Hawaiʻi"
+},
+"/undergraduate/student-learning-outcomes.html": {
+"image": "/media/heroes/kahului-maui-hawaii.webp",
+"location": "Kahului, Maui, Hawaiʻi",
+"alt": "Satellite imagery of Kahului, Maui, Hawaiʻi"
+}
+},
+"defaultHero": "/media/heroes/honolulu-oahu.webp"
+}

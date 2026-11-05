@@ -1,0 +1,22 @@
+{
+"classAvailability": {
+"label": "Class Availability",
+"url": "https://www.sis.hawaii.edu:9350/crseavail/"
+},
+"declareMajorMinor": {
+"label": "Declare a Major or Minor",
+"url": "https://hawaii.kualibuild.com/app/69db4abcd9309c0283e2b3af/page/69db4abcd9309c0283e2b3af/run"
+},
+"declarationGuidance": {
+"label": "Declaration Guidance",
+"url": "https://manoa.hawaii.edu/registrar/student-records/undergraduate-declare-update-major-minor-certificate/"
+},
+"graduateApplication": {
+"label": "Graduate Application",
+"url": "https://manoa.hawaii.edu/graduate/submitting-your-application/"
+},
+"languageAccess": {
+"label": "Free Interpretation Services",
+"url": "https://www.hawaii.edu/equity/language-access/"
+}
+}

@@ -1,0 +1,34 @@
+{
+"name": "Department of Urban and Regional Planning",
+"shortName": "DURP",
+"showShortName": true,
+"prefix": "Department of",
+"logo": {
+"alt": "Department of Urban and Regional Planning, University of Hawaiʻi at Mānoa",
+"variants": {
+"whiteHorz": {
+"src": "/media/branding/logos/durp-logo-horz-white.svg",
+"width": 500,
+"height": 140
+},
+"whiteVert": {
+"src": "/media/branding/logos/durp-logo-vert-white.svg",
+"width": 500,
+"height": 310
+}
+}
+},
+"address": [
+"Saunders Hall 107",
+"2424 Maile Way",
+"Honolulu, HI 96822"
+],
+"phone": {
+"label": "(808) 956-7381",
+"href": "tel:+18089567381"
+},
+"email": {
+"label": "idurp@hawaii.edu",
+"href": "mailto:idurp@hawaii.edu"
+}
+}

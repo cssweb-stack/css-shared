@@ -1,0 +1,33 @@
+{
+"name": "Social Science Research Institute",
+"shortName": "SSRI",
+"showShortName": true,
+"logo": {
+"alt": "Social Science Research Institute, University of Hawaiʻi at Mānoa",
+"variants": {
+"whiteHorz": {
+"src": "/media/branding/logos/ssri-logo-horz-white.svg",
+"width": 500,
+"height": 160
+},
+"whiteVert": {
+"src": "/media/branding/logos/ssri-logo-vert-white.svg",
+"width": 500,
+"height": 340
+}
+}
+},
+"address": [
+"Saunders Hall 704",
+"2424 Maile Way",
+"Honolulu, HI 96822"
+],
+"phone": {
+"label": "(808) 956-8930",
+"href": "tel:+18089568930"
+},
+"email": {
+"label": "ssri@hawaii.edu",
+"href": "mailto:ssri@hawaii.edu"
+}
+}

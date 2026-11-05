@@ -1,0 +1,17 @@
+{% if person.office or person.phone or person.email %}
+<address class="profile-contact">
+{% if person.office %}<p class="profile-office">{{ person.office | escape }}</p>{% endif %}
+{% if person.email %}
+<p class="profile-email"><a class="profile-contact-link" href="mailto:{{ person.email | escape }}">
+<span class="profile-contact-icon" aria-hidden="true">{% include "media/icons/envelope.svg" %}</span>
+<span><span class="visually-hidden">Email: </span>{{ person.email | escape }}</span>
+</a></p>
+{% endif %}
+{% if person.phone %}
+<p class="profile-phone"><a class="profile-contact-link" href="tel:{{ (person.phoneHref | default(person.phone | telephone)) | escape }}">
+<span class="profile-contact-icon" aria-hidden="true">{% include "media/icons/telephone.svg" %}</span>
+<span><span class="visually-hidden">Telephone: </span>{{ person.phone | escape }}</span>
+</a></p>
+{% endif %}
+</address>
+{% endif %}

@@ -1,0 +1,16 @@
+{
+"heading": "Undergraduate Advising",
+"intro": "For guidance on GEO courses and requirements, contact the Undergraduate Chair. For general education and degree planning, contact the General Education Advisor.",
+"people": [
+{
+"source": "faculty",
+"slug": "hong-jiang",
+"role": "Undergraduate Chair"
+},
+{
+"source": "staff",
+"slug": "dawn-nishida",
+"role": "General Education Advisor"
+}
+]
+}
