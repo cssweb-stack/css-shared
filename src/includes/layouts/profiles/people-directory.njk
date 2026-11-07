@@ -1,4 +1,4 @@
-{% for group in people.directoryGroups %}
+{% for group in directoryGroups | default(people.directoryGroups) %}
 <section class="people-directory-section" aria-labelledby="directory-{{ group.id }}">
 <h2 id="directory-{{ group.id }}">{{ group.title | escape }}</h2>
 <div class="people-directory{% if not group.showTelephone %} people-directory--no-phone{% endif %}">

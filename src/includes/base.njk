@@ -26,10 +26,14 @@
 </header>
 {% if site.hero.enabled != false %}{% include "layouts/hero/hero.njk" %}{% endif -%}
 <main id="main-content" class="site-main">
+{% if fullWidthSections %}
+{{ content | safe }}
+{% else %}
 <div class="container main-content">
 {% if not hidePageTitle %}<h1>{{ title | default(site.name) | escape }}</h1>{% endif -%}
 {{ content | safe }}
 </div>
+{% endif %}
 </main>
 {% if site.hero.enabled != false %}{% include "layouts/hero/hero-attribution.njk" %}{% endif -%}
 {% include "layouts/branding/footer/footer.njk" -%}

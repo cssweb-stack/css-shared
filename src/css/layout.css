@@ -75,6 +75,16 @@ padding-block: 2rem;
 }
 }
 
+/* Page sections: full-width outer; existing container/main-content rules size the inner. */
+.page-section--gray {
+background-color: var(--light-gray);
+border-block: 6px solid var(--dark-gray);
+}
+
+.page-section-inner > :last-child {
+margin-bottom: 0;
+}
+
 /* Bottom spacing between grid sections */
 .grid-spaced {
 margin-bottom: 2.25rem;
