@@ -16,6 +16,12 @@ padding-bottom: 2rem;
 margin-bottom: 2rem;
 }
 
+.site-main .intro-nbrd {
+font-size: 1.14rem;
+margin-top: 0;
+margin-bottom: 2rem;
+}
+
 /* Accent */
 .site-main .accent {
 color: var(--accent-warm);
