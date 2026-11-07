@@ -130,6 +130,15 @@ const person = directory.records[member];
 if (!person?.name || !person.title || !person.office || !person.email?.label || !person.email.href?.startsWith('mailto:') || (group.showTelephone && !person.phone?.label)) throw new Error(`Missing directory person/details: ${entry.name}/${member}`);
 }
 }
+for (const groups of Object.values(directory.serviceGroups || {})) {
+for (const group of groups) {
+if (!group.id || !group.title || groupIds.has(group.id) || !Array.isArray(group.members)) throw new Error(`Invalid service group: ${entry.name}/${group.id}`);
+groupIds.add(group.id);
+for (const member of group.members) {
+if ((!member.vacant && !directory.records[member.person]) || (group.showSupport && !member.support)) throw new Error(`Missing service person/assignment: ${entry.name}/${group.id}`);
+}
+}
+}
 }
 for (const filename of ['faculty.json', 'staff.json', 'graduate-students.json']) {
 const file = path.join(dir, filename);

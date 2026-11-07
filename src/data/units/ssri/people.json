@@ -430,5 +430,93 @@
         "joy-agner"
       ]
     }
-  ]
+  ],
+  "serviceGroups": {
+    "research-services": [
+      {
+        "id": "research-services-research-services-manager",
+        "title": "Research Services Manager",
+        "showSupport": false,
+        "members": [
+          {
+            "person": "david-matsuda"
+          }
+        ]
+      },
+      {
+        "id": "research-services-administrative-officer-supervisor",
+        "title": "Administrative Officer / Supervisor",
+        "showSupport": true,
+        "members": [
+          {
+            "person": "stephanie-yuen",
+            "support": "Dean’s Office, Ethnic Studies, Geography and Environment"
+          }
+        ]
+      },
+      {
+        "id": "research-services-administrative-and-fiscal-support-specialists",
+        "title": "Administrative and Fiscal Support Specialists",
+        "showSupport": true,
+        "members": [
+          {
+            "person": "mae-grant",
+            "support": "Economics, Urban and Regional Planning"
+          },
+          {
+            "person": "spencer-sakuma",
+            "support": "Dean’s Office, Ethnic Studies, Geography and Environment"
+          },
+          {
+            "person": "noah-tamura",
+            "support": "Communication and Information, Public Administration, Sociology"
+          },
+          {
+            "person": "kela-villalobos",
+            "support": "Anthropology, Political Science, Women, Gender, and Sexuality Studies"
+          }
+        ]
+      }
+    ],
+    "fiscal-compliance": [
+      {
+        "id": "fiscal-compliance-fiscal-administrators",
+        "title": "Fiscal Administrators",
+        "showSupport": false,
+        "members": [
+          {
+            "person": "calvin-fujioka"
+          },
+          {
+            "person": "david-matsuda"
+          },
+          {
+            "person": "candace-shimabuku"
+          },
+          {
+            "person": "gail-yamamoto"
+          }
+        ]
+      },
+      {
+        "id": "fiscal-compliance-administrative-and-fiscal-support-specialists",
+        "title": "Administrative and Fiscal Support Specialists",
+        "showSupport": true,
+        "members": [
+          {
+            "vacant": true,
+            "support": "Hawaii Coral Reef Initiative (HCRI), Telecommunications & Social Informatics Program/ Pacific Health Informatics Data Center (TASI/PHIDC)"
+          },
+          {
+            "person": "christine-yakabu-muramoto",
+            "support": "Anthropology (Non-Archaeology), Ethnic Studies, Psychology, Sociology Urban & Regional Planning (NDPTC & Non-NDPTC), and Women, Gender, and Sexuality Studies"
+          },
+          {
+            "person": "gail-yamamoto",
+            "support": "Anthropology (Archaeology), Communication, Economics, Geography and Environment, Political Science, Public Administration, and Matsunaga Institute"
+          }
+        ]
+      }
+    ]
+  }
 }

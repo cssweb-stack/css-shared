@@ -52,6 +52,16 @@ grid-template-areas: "name office" "title email";
 .people-directory-office { grid-area: office; }
 .people-directory-phone { grid-area: phone; }
 .people-directory-email { grid-area: email; }
+
+.people-directory--service .people-directory-entry {
+grid-template-areas: "name email";
+}
+
+.people-directory--assignments .people-directory-entry {
+grid-template-areas: "name email" "support support";
+}
+
+.people-directory-support { grid-area: support; }
 }
 
 @media (min-width: 1200px) {
@@ -65,6 +75,16 @@ column-gap: 1rem;
 .people-directory--no-phone .people-directory-head,
 .people-directory--no-phone .people-directory-entry {
 grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.7fr) minmax(0, .75fr) minmax(0, 1.35fr);
+}
+
+.people-directory--service .people-directory-head,
+.people-directory--service .people-directory-entry {
+grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.people-directory--assignments .people-directory-head,
+.people-directory--assignments .people-directory-entry {
+grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr) minmax(0, 2fr);
 }
 
 .people-directory-head {

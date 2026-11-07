@@ -1,0 +1,18 @@
+{% for group in people.serviceGroups[servicePage] %}
+<section class="people-directory-section" aria-labelledby="directory-{{ group.id }}">
+<h2 id="directory-{{ group.id }}">{{ group.title | escape }}</h2>
+<div class="people-directory people-directory--service{% if group.showSupport %} people-directory--assignments{% endif %}">
+<div class="people-directory-head" aria-hidden="true">
+<span>Name</span><span>Email</span>{% if group.showSupport %}<span>Providing support for</span>{% endif %}
+</div>
+{% for member in group.members %}
+{% set person = people.records[member.person] %}
+<article class="people-directory-entry" aria-labelledby="directory-{{ group.id }}-{{ loop.index }}">
+<h3 class="people-directory-name" id="directory-{{ group.id }}-{{ loop.index }}">{% if member.vacant %}TBD{% else %}{{ person.name | escape }}{% endif %}</h3>
+<p class="people-directory-email"><span class="people-directory-label">Email: </span>{% if member.vacant %}TBD{% else %}<a href="{{ person.email.href | escape }}">{{ person.email.label | escape }}</a>{% endif %}</p>
+{% if group.showSupport %}<p class="people-directory-support"><span class="people-directory-label">Providing support for: </span>{{ member.support | escape }}</p>{% endif %}
+</article>
+{% endfor %}
+</div>
+</section>
+{% endfor %}
