@@ -1,13 +1,13 @@
 :root {
 /* UH Mānoa Branding */
 --uh-green: #024731;
---nav-unit-bk: var(--surface-neutral);
---nav-divider: var(--border-neutral);
+--nav-unit-bk: #f7f7f7;
+--nav-divider: #d3d3d3;
 --sub-footer: #2d2d2d;
 
-/* Shared neutral surfaces and borders */
---surface-neutral: #f7f7f7;
---border-neutral: #d3d3d3;
+/* Neutral content-section surfaces and borders */
+--surface-neutral: #f8f8f8;
+--border-neutral: #d9d9d9;
 
 /* Icons */
 --icons: #888888;
