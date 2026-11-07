@@ -1,0 +1,22 @@
+{% for group in people.directoryGroups %}
+<section class="people-directory-section" aria-labelledby="directory-{{ group.id }}">
+<h2 id="directory-{{ group.id }}">{{ group.title | escape }}</h2>
+<div class="people-directory{% if not group.showTelephone %} people-directory--no-phone{% endif %}">
+<div class="people-directory-head" aria-hidden="true">
+<span>Name</span><span>Title</span><span>Office</span>{% if group.showTelephone %}<span>Telephone</span>{% endif %}<span>Email</span>
+</div>
+{% for member in group.members %}
+{% set person = people.records[member] %}
+<article class="people-directory-entry" aria-labelledby="directory-{{ group.id }}-{{ member }}">
+<h3 class="people-directory-name" id="directory-{{ group.id }}-{{ member }}">{% if person.profileUrl %}<a href="{{ person.profileUrl | escape }}">{{ person.name | escape }}</a>{% else %}{{ person.name | escape }}{% endif %}</h3>
+<p class="people-directory-title"><span class="people-directory-label">Title: </span>{{ person.title | escape }}</p>
+<p class="people-directory-office"><span class="people-directory-label">Office: </span>{{ person.office | escape }}</p>
+{% if group.showTelephone %}
+<p class="people-directory-phone"><span class="people-directory-label">Telephone: </span>{% if person.phone.href %}<a href="{{ person.phone.href | escape }}">{{ person.phone.label | escape }}</a>{% else %}{{ person.phone.label | escape }}{% endif %}</p>
+{% endif %}
+<p class="people-directory-email"><span class="people-directory-label">Email: </span><a href="{{ person.email.href | escape }}">{{ person.email.label | escape }}</a></p>
+</article>
+{% endfor %}
+</div>
+</section>
+{% endfor %}

@@ -118,6 +118,19 @@ if (item.children) checkNav(item.children);
 }
 }
 if (fs.existsSync(navFile)) checkNav(JSON.parse(fs.readFileSync(navFile, 'utf8')));
+const directoryFile = path.join(dir, 'people.json');
+if (fs.existsSync(directoryFile)) {
+const directory = JSON.parse(fs.readFileSync(directoryFile, 'utf8'));
+const groupIds = new Set();
+for (const group of directory.directoryGroups) {
+if (!/^[a-z0-9-]+$/.test(group.id) || !group.title || groupIds.has(group.id) || !Array.isArray(group.members) || new Set(group.members).size !== group.members.length) throw new Error(`Invalid directory group: ${entry.name}/${group.id}`);
+groupIds.add(group.id);
+for (const member of group.members) {
+const person = directory.records[member];
+if (!person?.name || !person.title || !person.office || !person.email?.label || !person.email.href?.startsWith('mailto:') || (group.showTelephone && !person.phone?.label)) throw new Error(`Missing directory person/details: ${entry.name}/${member}`);
+}
+}
+}
 for (const filename of ['faculty.json', 'staff.json', 'graduate-students.json']) {
 const file = path.join(dir, filename);
 if (!fs.existsSync(file)) continue;

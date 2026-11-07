@@ -1,0 +1,434 @@
+{
+  "records": {
+    "jack-barile": {
+      "name": "Jack Barile",
+      "title": "Associate Dean for Research and Director of SSRI",
+      "office": "Saunders 704D",
+      "profileUrl": "https://ssri.manoa.hawaii.edu/john-jack-barile/",
+      "phone": {
+        "label": "(808) 956-7469",
+        "href": "tel:+18089567469"
+      },
+      "email": {
+        "label": "barile@hawaii.edu",
+        "href": "mailto:barile@hawaii.edu"
+      }
+    },
+    "allison-sears": {
+      "name": "Allison Sears",
+      "title": "Assistant to the Associate Dean for Research and Director of SSRI",
+      "office": "Saunders 704",
+      "phone": {
+        "label": "(808) 956-8930",
+        "href": "tel:+18089568930"
+      },
+      "email": {
+        "label": "sears4@hawaii.edu",
+        "href": "mailto:sears4@hawaii.edu"
+      }
+    },
+    "hanalei-abbott": {
+      "name": "Hanalei Abbott",
+      "title": "Sr. Contract and Grants Specialist",
+      "office": "Saunders 707B",
+      "phone": {
+        "label": "(808) 956-6463",
+        "href": "tel:+18089566463"
+      },
+      "email": {
+        "label": "abbott@hawaii.edu",
+        "href": "mailto:abbott@hawaii.edu"
+      }
+    },
+    "calvin-fujioka": {
+      "name": "Calvin Fujioka",
+      "title": "Fiscal Administrator",
+      "office": "Saunders 704B",
+      "phone": {
+        "label": "(808) 956-7879",
+        "href": "tel:+18089567879"
+      },
+      "email": {
+        "label": "cfujioka@hawaii.edu",
+        "href": "mailto:cfujioka@hawaii.edu"
+      }
+    },
+    "mae-grant": {
+      "name": "Mae Grant",
+      "title": "Research Services",
+      "office": "Saunders 704H",
+      "phone": {
+        "label": "(808) 956-6454",
+        "href": "tel:+18089566454"
+      },
+      "email": {
+        "label": "jgrant87@hawaii.edu",
+        "href": "mailto:jgrant87@hawaii.edu"
+      }
+    },
+    "nancy-marker": {
+      "name": "Nancy Marker",
+      "title": "Educational Specialist",
+      "office": "Saunders 707A",
+      "phone": {
+        "label": "(808) 956-7405",
+        "href": "tel:+18089567405"
+      },
+      "email": {
+        "label": "nmarker@hawaii.edu",
+        "href": "mailto:nmarker@hawaii.edu"
+      }
+    },
+    "jonathan-massie": {
+      "name": "Jonathan Massie",
+      "title": "Contract and Grants Specialist",
+      "office": "Saunders 707C",
+      "phone": {
+        "label": "(808) 956-5603",
+        "href": "tel:+18089565603"
+      },
+      "email": {
+        "label": "massiej@hawaii.edu",
+        "href": "mailto:massiej@hawaii.edu"
+      }
+    },
+    "david-matsuda": {
+      "name": "David Matsuda",
+      "title": "Fiscal Administrator/Research Services Manager",
+      "office": "Saunders 704E",
+      "phone": {
+        "label": "(808) 956-7379",
+        "href": "tel:+18089567379"
+      },
+      "email": {
+        "label": "david.matsuda@hawaii.edu",
+        "href": "mailto:david.matsuda@hawaii.edu"
+      }
+    },
+    "janelle-papin-wong": {
+      "name": "Janelle Papin-Wong",
+      "title": "Operations Coordinator",
+      "office": "Saunders 705",
+      "phone": {
+        "label": "(808) 956-7582",
+        "href": "tel:+18089567582"
+      },
+      "email": {
+        "label": "jpapin@hawaii.edu",
+        "href": "mailto:jpapin@hawaii.edu"
+      }
+    },
+    "spencer-sakuma": {
+      "name": "Spencer Sakuma",
+      "title": "Research Services",
+      "office": "Saunders 704H",
+      "phone": {
+        "label": "(808) 956-4584",
+        "href": "tel:+18089564584"
+      },
+      "email": {
+        "label": "sakumass@hawaii.edu",
+        "href": "mailto:sakumass@hawaii.edu"
+      }
+    },
+    "candace-shimabuku": {
+      "name": "Candace Shimabuku",
+      "title": "Fiscal Administrator",
+      "office": "Saunders 704C",
+      "phone": {
+        "label": "(808) 956-7984",
+        "href": "tel:+18089567984"
+      },
+      "email": {
+        "label": "shinzato@hawaii.edu",
+        "href": "mailto:shinzato@hawaii.edu"
+      }
+    },
+    "noah-tamura": {
+      "name": "Noah Tamura",
+      "title": "Research Services",
+      "office": "Saunders 704H",
+      "phone": {
+        "label": "(808) 956-2900",
+        "href": "tel:+18089562900"
+      },
+      "email": {
+        "label": "nt35@hawaii.edu",
+        "href": "mailto:nt35@hawaii.edu"
+      }
+    },
+    "kela-villalobos": {
+      "name": "Kela Villalobos",
+      "title": "Research Services",
+      "office": "Saunders 704H",
+      "phone": {
+        "label": "(808) 956-2898",
+        "href": "tel:+18089562898"
+      },
+      "email": {
+        "label": "kelagr@hawaii.edu",
+        "href": "mailto:kelagr@hawaii.edu"
+      }
+    },
+    "christine-yakabu-muramoto": {
+      "name": "Christine Yakabu-Muramoto",
+      "title": "Administrative and Fiscal Support Specialist",
+      "office": "Saunders 704J",
+      "phone": {
+        "label": "(808) 956-9921",
+        "href": "tel:+18089569921"
+      },
+      "email": {
+        "label": "yakabumu@hawaii.edu",
+        "href": "mailto:yakabumu@hawaii.edu"
+      }
+    },
+    "gail-yamamoto": {
+      "name": "Gail Yamamoto",
+      "title": "Fiscal Administrator",
+      "office": "Saunders 704A",
+      "phone": {
+        "label": "(808) 956-7342",
+        "href": "tel:+18089567342"
+      },
+      "email": {
+        "label": "gyamamo@hawaii.edu",
+        "href": "mailto:gyamamo@hawaii.edu"
+      }
+    },
+    "stephanie-yuen": {
+      "name": "Stephanie Yuen",
+      "title": "Research Services",
+      "office": "Saunders 704H",
+      "phone": {
+        "label": "(808) 956-6814",
+        "href": "tel:+18089566814"
+      },
+      "email": {
+        "label": "syuen3@hawaii.edu",
+        "href": "mailto:syuen3@hawaii.edu"
+      }
+    },
+    "sanjeev-sridharan": {
+      "name": "Sanjeev Sridharan",
+      "title": "Professor, Director of the Office for the Study of Healthcare Policy",
+      "office": "Saunders 208",
+      "phone": {
+        "label": "TBD"
+      },
+      "email": {
+        "label": "sanjeev@hawaii.edu",
+        "href": "mailto:sanjeev@hawaii.edu"
+      }
+    },
+    "yan-luo": {
+      "name": "Yan Luo",
+      "title": "Assistant Professor",
+      "office": "Saunders 206",
+      "phone": {
+        "label": "TBD"
+      },
+      "email": {
+        "label": "yanluo@hawaii.edu",
+        "href": "mailto:yanluo@hawaii.edu"
+      }
+    },
+    "gregory-chun": {
+      "name": "Gregory Chun",
+      "title": "Associate Specialist, Director of the Hui ʻĀina Momona Program",
+      "office": "TBD",
+      "phone": {
+        "label": "TBD"
+      },
+      "email": {
+        "label": "gchun711@hawaii.edu",
+        "href": "mailto:gchun711@hawaii.edu"
+      }
+    },
+    "christina-higa": {
+      "name": "Christina Higa",
+      "title": "Associate Specialist, Director",
+      "office": "Saunders 713",
+      "phone": {
+        "label": "(808) 956-7224",
+        "href": "tel:+18089567224"
+      },
+      "email": {
+        "label": "christina@uhtasi.org",
+        "href": "mailto:christina@uhtasi.org"
+      }
+    },
+    "carl-bonham": {
+      "name": "Carl Bonham",
+      "title": "Professor, Executive Director of UHERO",
+      "office": "Saunders 511",
+      "phone": {
+        "label": "(808) 956-7605",
+        "href": "tel:+18089567605"
+      },
+      "email": {
+        "label": "bonham@hawaii.edu",
+        "href": "mailto:bonham@hawaii.edu"
+      }
+    },
+    "steven-bond-smith": {
+      "name": "Steven Bond-Smith",
+      "title": "Associate Professor",
+      "office": "Saunders 507",
+      "phone": {
+        "label": "(808) 956-7285",
+        "href": "tel:+18089567285"
+      },
+      "email": {
+        "label": "bondsmit@hawaii.edu",
+        "href": "mailto:bondsmit@hawaii.edu"
+      }
+    },
+    "leah-bremer": {
+      "name": "Leah Bremer",
+      "title": "Specialist",
+      "office": "Saunders 504",
+      "phone": {
+        "label": "(808) 956-7938",
+        "href": "tel:+18089567938"
+      },
+      "email": {
+        "label": "lbremer@hawaii.edu",
+        "href": "mailto:lbremer@hawaii.edu"
+      }
+    },
+    "kimberly-burnett": {
+      "name": "Kimberly Burnett",
+      "title": "Specialist",
+      "office": "Saunders 540",
+      "phone": {
+        "label": "(808) 956-8068",
+        "href": "tel:+18089568068"
+      },
+      "email": {
+        "label": "kburnett@hawaii.edu",
+        "href": "mailto:kburnett@hawaii.edu"
+      }
+    },
+    "peter-fuleky": {
+      "name": "Peter Fuleky",
+      "title": "Professor",
+      "office": "Saunders 508",
+      "phone": {
+        "label": "(808) 956-7840",
+        "href": "tel:+18089567840"
+      },
+      "email": {
+        "label": "fuleky@hawaii.edu",
+        "href": "mailto:fuleky@hawaii.edu"
+      }
+    },
+    "dylan-moore": {
+      "name": "Dylan Moore",
+      "title": "Assistant Professor",
+      "office": "Saunders 530",
+      "phone": {
+        "label": "(808) 956-8791",
+        "href": "tel:+18089568791"
+      },
+      "email": {
+        "label": "dtmoore@hawaii.edu",
+        "href": "mailto:dtmoore@hawaii.edu"
+      }
+    },
+    "justin-tyndall": {
+      "name": "Justin Tyndall",
+      "title": "Associate Professor",
+      "office": "Saunders 509",
+      "phone": {
+        "label": "(808) 956-7065",
+        "href": "tel:+18089567065"
+      },
+      "email": {
+        "label": "jtyndall@hawaii.edu",
+        "href": "mailto:jtyndall@hawaii.edu"
+      }
+    },
+    "joy-agner": {
+      "name": "Joy Agner",
+      "title": "Social Science Research Institute (SSRI)",
+      "office": "Saunders 704",
+      "email": {
+        "label": "joyagner@hawaii.edu",
+        "href": "mailto:joyagner@hawaii.edu"
+      }
+    }
+  },
+  "directoryGroups": [
+    {
+      "id": "leadership",
+      "title": "Leadership",
+      "showTelephone": true,
+      "members": [
+        "jack-barile",
+        "allison-sears"
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Support",
+      "showTelephone": true,
+      "members": [
+        "hanalei-abbott",
+        "calvin-fujioka",
+        "mae-grant",
+        "nancy-marker",
+        "jonathan-massie",
+        "david-matsuda",
+        "janelle-papin-wong",
+        "spencer-sakuma",
+        "candace-shimabuku",
+        "noah-tamura",
+        "kela-villalobos",
+        "christine-yakabu-muramoto",
+        "gail-yamamoto",
+        "stephanie-yuen"
+      ]
+    },
+    {
+      "id": "cress",
+      "title": "CRESS",
+      "showTelephone": true,
+      "members": [
+        "sanjeev-sridharan",
+        "yan-luo",
+        "gregory-chun"
+      ]
+    },
+    {
+      "id": "tasi-phidc",
+      "title": "TASI/PHIDC",
+      "showTelephone": true,
+      "members": [
+        "christina-higa"
+      ]
+    },
+    {
+      "id": "uhero",
+      "title": "UHERO",
+      "showTelephone": true,
+      "members": [
+        "carl-bonham",
+        "steven-bond-smith",
+        "leah-bremer",
+        "kimberly-burnett",
+        "peter-fuleky",
+        "dylan-moore",
+        "justin-tyndall"
+      ]
+    },
+    {
+      "id": "research-affiliate-faculty",
+      "title": "Research Affiliate Faculty",
+      "showTelephone": false,
+      "members": [
+        "joy-agner"
+      ]
+    }
+  ]
+}
