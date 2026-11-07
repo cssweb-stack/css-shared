@@ -368,6 +368,12 @@ text-align: center;
 overflow-wrap: anywhere;
 }
 
+.unit-contact-office .photo-style {
+width: auto;
+max-width: 100%;
+height: auto;
+}
+
 .site-main .unit-contact-office h2 {
 margin: 1.5rem 0 1rem;
 font-size: 1.25rem;
@@ -377,17 +383,8 @@ font-size: 1.25rem;
 font-style: normal;
 }
 
-.site-main .unit-contact-address p {
-margin: 0 0 1rem;
-}
-
-.site-main .unit-contact-address p:last-child {
-margin-bottom: 0;
-}
-
 .site-main .unit-contact-address :is(.phone, .email) {
 justify-content: center;
-margin: 0;
 }
 
 .unit-contact-map {
@@ -399,6 +396,8 @@ flex-direction: column;
 flex: 1;
 height: auto;
 min-height: 0;
+border: var(--frame-border);
+box-shadow: none;
 }
 
 @media (max-width: 767.98px) {
