@@ -11,21 +11,15 @@
 <p>{% for line in site.address %}{{ line | escape }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
 {% endif %}
 {% if site.phone %}
-<p><a class="profile-contact-link" href="{{ site.phone.href | escape }}">
-<span class="profile-contact-icon" aria-hidden="true">{% include "media/icons/telephone.svg" %}</span>
-<span><span class="visually-hidden">Telephone: </span>{{ site.phone.label | escape }}</span>
-</a></p>
+<p class="phone"><span class="icon-text"><a href="{{ site.phone.href | escape }}"><span class="visually-hidden">Telephone: </span>{{ site.phone.label | escape }}</a></span></p>
 {% endif %}
 {% if site.email %}
-<p><a class="profile-contact-link" href="{{ site.email.contactHref | default(site.email.href) | escape }}">
-<span class="profile-contact-icon" aria-hidden="true">{% include "media/icons/envelope.svg" %}</span>
-<span><span class="visually-hidden">Email: </span>{{ site.email.label | escape }}</span>
-</a></p>
+<p class="email"><span class="icon-text"><a href="{{ site.email.contactHref | default(site.email.href) | escape }}"><span class="visually-hidden">Email: </span>{{ site.email.label | escape }}</a></span></p>
 {% endif %}
 </address>
 </div>
 {% if building.mapEmbedUrl %}
-<div class="col-12 col-md-9">
+<div class="col-12 col-md-9 unit-contact-map">
 <iframe class="map-embed" title="Google Map showing {{ building.name | escape }} at UH Mānoa" src="{{ building.mapEmbedUrl | escape }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
 </div>
 {% endif %}

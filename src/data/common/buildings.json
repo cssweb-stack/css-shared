@@ -8,8 +8,8 @@
     "photo": {
       "src": "/media/shared/other/saunders-hall.webp",
       "alt": "Saunders Hall at the University of Hawaiʻi at Mānoa",
-      "width": 400,
-      "height": 400
+      "width": 300,
+      "height": 162
     },
     "mapEmbedUrl": "https://www.google.com/maps?q=Saunders%20Hall%2C%202424%20Maile%20Way%2C%20Honolulu%2C%20HI%2096822&output=embed"
   },
@@ -22,8 +22,8 @@
     "photo": {
       "src": "/media/shared/other/saunders-hall.webp",
       "alt": "Saunders Hall at the University of Hawaiʻi at Mānoa",
-      "width": 400,
-      "height": 400
+      "width": 300,
+      "height": 162
     },
     "mapEmbedUrl": "https://www.google.com/maps?q=Hawai%CA%BBi%20Hall%2C%202500%20Campus%20Road%2C%20Honolulu%2C%20HI%2096822&output=embed"
   },
@@ -36,8 +36,8 @@
     "photo": {
       "src": "/media/shared/other/saunders-hall.webp",
       "alt": "Saunders Hall at the University of Hawaiʻi at Mānoa",
-      "width": 400,
-      "height": 400
+      "width": 300,
+      "height": 162
     },
     "mapEmbedUrl": "https://www.google.com/maps?q=George%20Hall%2C%202560%20Campus%20Road%2C%20Honolulu%2C%20HI%2096822&output=embed"
   },
@@ -50,8 +50,8 @@
     "photo": {
       "src": "/media/shared/other/saunders-hall.webp",
       "alt": "Saunders Hall at the University of Hawaiʻi at Mānoa",
-      "width": 400,
-      "height": 400
+      "width": 300,
+      "height": 162
     },
     "mapEmbedUrl": "https://www.google.com/maps?q=Sakamaki%20Hall%2C%202530%20Dole%20Street%2C%20Honolulu%2C%20HI%2096822&output=embed"
   },
@@ -64,8 +64,8 @@
     "photo": {
       "src": "/media/shared/other/saunders-hall.webp",
       "alt": "Saunders Hall at the University of Hawaiʻi at Mānoa",
-      "width": 400,
-      "height": 400
+      "width": 300,
+      "height": 162
     },
     "mapEmbedUrl": "https://www.google.com/maps?q=Crawford%20Hall%2C%202550%20Campus%20Road%2C%20Honolulu%2C%20HI%2096822&output=embed"
   }

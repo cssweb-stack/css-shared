@@ -385,6 +385,29 @@ margin: 0 0 1rem;
 margin-bottom: 0;
 }
 
+.site-main .unit-contact-address :is(.phone, .email) {
+justify-content: center;
+margin: 0;
+}
+
+.unit-contact-map {
+display: flex;
+flex-direction: column;
+}
+
+.unit-contact .map-embed {
+flex: 1;
+height: auto;
+min-height: 0;
+}
+
+@media (max-width: 767.98px) {
+.unit-contact .map-embed {
+flex: none;
+height: var(--unit-contact-mobile-map-height, 25rem);
+}
+}
+
 .map-embed {
 display: block;
 width: 100%;
