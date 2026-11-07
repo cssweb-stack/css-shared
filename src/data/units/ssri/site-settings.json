@@ -1,3 +1,7 @@
 {
-"indexingEnabled": false
+"indexingEnabled": false,
+"stylesheet": "/ssri.css",
+"hero": {
+"enabled": false
+}
 }

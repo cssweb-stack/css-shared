@@ -45,7 +45,8 @@
       "shortName": "CSS"
     },
     {
-      "shortName": "SSRI"
+      "shortName": "SSRI",
+      "repoUrl": "https://github.com/cssweb-stack/ssri"
     },
     {
       "shortName": "SG",
