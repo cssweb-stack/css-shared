@@ -77,12 +77,23 @@ padding-block: 2rem;
 
 /* Page sections: full-width outer; existing container/main-content rules size the inner. */
 .page-section--gray {
-background-color: var(--light-gray);
-border-block: 6px solid var(--dark-gray);
+background-color: var(--surface-neutral);
+border-block: 6px solid var(--border-neutral);
 }
 
-.page-section-inner > :last-child {
+/* Inner padding owns the section edges; content only spaces its neighbors. */
+.site-main .page-section-inner > :first-child {
+margin-top: 0;
+}
+
+.site-main .page-section-inner > :last-child {
 margin-bottom: 0;
+}
+
+/* Section introductions do not add a second bottom inset or divider. */
+.site-main .page-section-inner > .intro {
+padding-bottom: 0;
+border-bottom: 0;
 }
 
 /* Bottom spacing between grid sections */
