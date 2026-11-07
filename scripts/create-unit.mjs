@@ -65,7 +65,8 @@ const escape = text => text.replaceAll('&', '&amp;').replaceAll('<', '&lt;').rep
 for (const [url, title] of pages) {
 const relative = url === '/' ? 'index.html' : url.replace(/^\//, '').replace(/\/$/, '.html');
 if (!relative.endsWith('.html') || relative.split('/').some(part => part === '..' || part === '.')) throw new Error(`Unsupported page URL: ${url}`);
-files.set('src/' + relative, `---\nlayout: base.njk\ntitle: ${JSON.stringify(title)}\nhidePageTitle: true\npermalink: ${JSON.stringify(url)}\n---\n<h1>${escape(title)}</h1>\n<p class="tagline">Lorem ipsum dolor sit amet.</p>\n<p class="intro">${intro}</p>\n${paragraphs.map(text => `<p>${text}</p>`).join('\n')}\n`);
+const contact = /^\/contact(?:\/|\.html)$/.test(url) && identity.building ? '{% include "layouts/content/unit-contact.njk" %}\n' : '';
+files.set('src/' + relative, `---\nlayout: base.njk\ntitle: ${JSON.stringify(title)}\nhidePageTitle: true\npermalink: ${JSON.stringify(url)}\n---\n<h1>${escape(title)}</h1>\n<p class="tagline">Lorem ipsum dolor sit amet.</p>\n<p class="intro">${intro}</p>\n${contact}${paragraphs.map(text => `<p>${text}</p>`).join('\n')}\n`);
 }
 let workflow = fs.readFileSync(path.join(sharedRoot, 'scripts/unit-site/deploy.yml'), 'utf8');
 workflow = workflow.replace('Build and publish GEO', `Build and publish ${identity.shortName}`).replaceAll('/geo/', `/${unit}/`);

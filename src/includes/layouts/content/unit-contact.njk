@@ -1,0 +1,33 @@
+{% set building = common.buildings[site.building] %}
+{% if building %}
+<section class="row gx-4 gy-4 grid-spaced unit-contact" aria-label="Main office location and directions">
+<div class="col-12 col-md-3 unit-contact-office">
+{% if building.photo %}
+<img class="photo-style" src="{{ building.photo.src | url }}" alt="{{ building.photo.alt | escape }}" width="{{ building.photo.width }}" height="{{ building.photo.height }}" loading="lazy" decoding="async">
+{% endif %}
+<h2>Main Office</h2>
+<address class="unit-contact-address">
+{% if site.address | length %}
+<p>{% for line in site.address %}{{ line | escape }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
+{% endif %}
+{% if site.phone %}
+<p><a class="profile-contact-link" href="{{ site.phone.href | escape }}">
+<span class="profile-contact-icon" aria-hidden="true">{% include "media/icons/telephone.svg" %}</span>
+<span><span class="visually-hidden">Telephone: </span>{{ site.phone.label | escape }}</span>
+</a></p>
+{% endif %}
+{% if site.email %}
+<p><a class="profile-contact-link" href="{{ site.email.contactHref | default(site.email.href) | escape }}">
+<span class="profile-contact-icon" aria-hidden="true">{% include "media/icons/envelope.svg" %}</span>
+<span><span class="visually-hidden">Email: </span>{{ site.email.label | escape }}</span>
+</a></p>
+{% endif %}
+</address>
+</div>
+{% if building.mapEmbedUrl %}
+<div class="col-12 col-md-9">
+<iframe class="map-embed" title="Google Map showing {{ building.name | escape }} at UH Mānoa" src="{{ building.mapEmbedUrl | escape }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+</div>
+{% endif %}
+</section>
+{% endif %}

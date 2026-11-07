@@ -1,0 +1,72 @@
+{
+  "saunders-hall": {
+    "name": "Saunders Hall",
+    "address": [
+      "2424 Maile Way",
+      "Honolulu, HI 96822"
+    ],
+    "photo": {
+      "src": "/media/shared/other/saunders-hall.webp",
+      "alt": "Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "width": 400,
+      "height": 400
+    },
+    "mapEmbedUrl": "https://www.google.com/maps?q=Saunders%20Hall%2C%202424%20Maile%20Way%2C%20Honolulu%2C%20HI%2096822&output=embed"
+  },
+  "hawaii-hall": {
+    "name": "Hawaiʻi Hall",
+    "address": [
+      "2500 Campus Road",
+      "Honolulu, HI 96822"
+    ],
+    "photo": {
+      "src": "/media/shared/other/saunders-hall.webp",
+      "alt": "Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "width": 400,
+      "height": 400
+    },
+    "mapEmbedUrl": "https://www.google.com/maps?q=Hawai%CA%BBi%20Hall%2C%202500%20Campus%20Road%2C%20Honolulu%2C%20HI%2096822&output=embed"
+  },
+  "george-hall": {
+    "name": "George Hall",
+    "address": [
+      "2560 Campus Road",
+      "Honolulu, HI 96822"
+    ],
+    "photo": {
+      "src": "/media/shared/other/saunders-hall.webp",
+      "alt": "Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "width": 400,
+      "height": 400
+    },
+    "mapEmbedUrl": "https://www.google.com/maps?q=George%20Hall%2C%202560%20Campus%20Road%2C%20Honolulu%2C%20HI%2096822&output=embed"
+  },
+  "sakamaki-hall": {
+    "name": "Sakamaki Hall",
+    "address": [
+      "2530 Dole Street",
+      "Honolulu, HI 96822"
+    ],
+    "photo": {
+      "src": "/media/shared/other/saunders-hall.webp",
+      "alt": "Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "width": 400,
+      "height": 400
+    },
+    "mapEmbedUrl": "https://www.google.com/maps?q=Sakamaki%20Hall%2C%202530%20Dole%20Street%2C%20Honolulu%2C%20HI%2096822&output=embed"
+  },
+  "crawford-hall": {
+    "name": "Crawford Hall",
+    "address": [
+      "2550 Campus Road",
+      "Honolulu, HI 96822"
+    ],
+    "photo": {
+      "src": "/media/shared/other/saunders-hall.webp",
+      "alt": "Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "width": 400,
+      "height": 400
+    },
+    "mapEmbedUrl": "https://www.google.com/maps?q=Crawford%20Hall%2C%202550%20Campus%20Road%2C%20Honolulu%2C%20HI%2096822&output=embed"
+  }
+}

@@ -47,6 +47,13 @@ console.log(`Checked ${count} shared files: JSON, source CSS assets, literal inc
 
 // Unit identity/contact data is independent of optional social accounts.
 const unitsDirectory = path.join(root, 'data/units');
+const buildings = JSON.parse(fs.readFileSync(path.join(root, 'data/common/buildings.json'), 'utf8'));
+for (const [key, building] of Object.entries(buildings)) {
+if (!building.name || !Array.isArray(building.address) || !building.address.length) throw new Error(`Invalid building identity/address: ${key}`);
+if (!building.photo?.src?.startsWith('/media/') || !building.photo.alt || !(building.photo.width > 0 && building.photo.height > 0) || !fs.existsSync(path.join(root, building.photo.src.slice(1)))) throw new Error(`Invalid building photo: ${key}`);
+const map = new URL(building.mapEmbedUrl);
+if (map.origin !== 'https://www.google.com' || !(map.pathname.startsWith('/maps/embed') || (map.pathname === '/maps' && map.searchParams.get('output') === 'embed' && map.searchParams.get('q')))) throw new Error(`Invalid building map: ${key}`);
+}
 const seenNames = new Set();
 let unitsChecked = 0;
 for (const entry of fs.readdirSync(unitsDirectory, { withFileTypes: true })) {
@@ -57,6 +64,7 @@ const siteFile = path.join(unitDirectory, 'unit-details.json');
 if (!fs.existsSync(siteFile)) continue;
 const site = JSON.parse(fs.readFileSync(siteFile, 'utf8'));
 const fail = message => { throw new Error(`${entry.name}/unit-details.json: ${message}`); };
+if (!site.building || !buildings[site.building]) fail('A valid shared building reference is required.');
 if (!site.name || !site.shortName || seenNames.has(site.name)) fail('Name and abbreviation are required; unit names must be unique.');
 seenNames.add(site.name);
 if (!Array.isArray(site.address) || !site.address.length || site.address.some(line => typeof line !== 'string' || !line.trim())) fail('Address must contain nonempty lines.');
