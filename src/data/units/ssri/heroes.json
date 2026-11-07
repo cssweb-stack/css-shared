@@ -1,0 +1,47 @@
+{
+  "defaultHero": "/media/heroes/saunders-mural/01.webp",
+  "pages": {
+    "/": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/research/": {
+      "image": "/media/heroes/saunders-mural/02.webp",
+      "position": "center center",
+      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/support/research-services.html": {
+      "image": "/media/heroes/saunders-mural/03.webp",
+      "position": "center center",
+      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/support/fiscal-compliance.html": {
+      "image": "/media/heroes/saunders-mural/04.webp",
+      "position": "center center",
+      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/support/grant-development.html": {
+      "image": "/media/heroes/saunders-mural/05.webp",
+      "position": "center center",
+      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/directory/": {
+      "image": "/media/heroes/saunders-mural/06.webp",
+      "position": "center center",
+      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/contact/": {
+      "image": "/media/heroes/saunders-mural/07.webp",
+      "position": "center center",
+      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    }
+  }
+}

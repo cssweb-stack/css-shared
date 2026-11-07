@@ -1,13 +1,15 @@
 {# Hero assignments are supplied by the selected unit configuration. #}
 {% set assignedHero = heroes.pages[page.url] %}
 {% if not assignedHero %}{% set assignedHero = faculty_heroes.pages[page.url] %}{% endif %}
+{% set compactHero = site.hero.variant == 'compact' %}
+{% set overlayStyle %}{% if site.hero.overlay.color %}--hero-overlay-color: {{ site.hero.overlay.color | escape }};{% endif %}{% if site.hero.overlay.opacity is defined %}--hero-overlay-opacity: {{ site.hero.overlay.opacity }};{% endif %}{% endset %}
 {% if assignedHero %}
 {% set heroImage = assignedHero.image %}
-<section class="page-hero page-hero--layered" {% if site.hero.decorative %}aria-hidden="true"{% else %}role="region" aria-label="{{ assignedHero.alt | default(assignedHero.location) | default('Department hero image', true) | escape }}"{% endif %}{% if assignedHero.position %} style="--hero-position: {{ assignedHero.position | escape }};"{% endif %}>
+<section class="page-hero page-hero--layered{% if compactHero %} page-hero--compact{% endif %}" {% if site.hero.decorative %}aria-hidden="true"{% else %}role="region" aria-label="{{ assignedHero.alt | default(assignedHero.location) | default('Department hero image', true) | escape }}"{% endif %} style="{{ overlayStyle }}{% if assignedHero.position %}--hero-position: {{ assignedHero.position | escape }};{% endif %}">
 <div class="page-hero-image" style="background-image: url('{{ heroImage | url }}');"></div>
 {% if assignedHero.location and site.hero.showLocation != false %}<div class="hero-location">{{ assignedHero.location | escape }}</div>{% endif %}
 </section>
 {% else %}
 {# Unassigned pages retain their existing hero. #}
-<section class="page-hero" {% if site.hero.decorative %}aria-hidden="true"{% else %}role="img" aria-label="{{ heroAlt | default('Department hero image') | escape }}"{% endif %} style="background-image: url('{{ (hero | default(site.defaultHero)) | url }}');"></section>
+<section class="page-hero{% if compactHero %} page-hero--compact{% endif %}" {% if site.hero.decorative %}aria-hidden="true"{% else %}role="img" aria-label="{{ heroAlt | default('Department hero image') | escape }}"{% endif %} style="{{ overlayStyle }}background-image: url('{{ (hero | default(site.defaultHero)) | url }}');"></section>
 {% endif %}

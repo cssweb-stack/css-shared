@@ -2,6 +2,14 @@
 "indexingEnabled": false,
 "stylesheet": "/ssri.css",
 "hero": {
-"enabled": false
+"enabled": true,
+"variant": "compact",
+"decorative": true,
+"showLocation": false,
+"showAttribution": false,
+"overlay": {
+"color": "var(--color-teal)",
+"opacity": 0
+}
 }
 }
