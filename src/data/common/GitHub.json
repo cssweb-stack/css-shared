@@ -1,0 +1,56 @@
+{
+  "academic": [
+    {
+      "shortName": "ANTH"
+    },
+    {
+      "shortName": "DURP"
+    },
+    {
+      "shortName": "ECON"
+    },
+    {
+      "shortName": "ES"
+    },
+    {
+      "shortName": "GEO",
+      "repoUrl": "https://github.com/cssweb-stack/geo",
+      "siteUrl": "https://cssweb-stack.github.io/geo/"
+    },
+    {
+      "shortName": "POLS"
+    },
+    {
+      "shortName": "PSY"
+    },
+    {
+      "shortName": "PUBA"
+    },
+    {
+      "shortName": "SCI"
+    },
+    {
+      "shortName": "SOC",
+      "repoUrl": "https://github.com/cssweb-stack/soc",
+      "siteUrl": "https://cssweb-stack.github.io/soc/"
+    },
+    {
+      "shortName": "WGSS",
+      "repoUrl": "https://github.com/cssweb-stack/wgss",
+      "siteUrl": "https://cssweb-stack.github.io/wgss/"
+    }
+  ],
+  "administrative": [
+    {
+      "shortName": "CSS"
+    },
+    {
+      "shortName": "SSRI"
+    },
+    {
+      "shortName": "SG",
+      "repoUrl": "https://github.com/cssweb-stack/style-guide",
+      "siteUrl": "https://cssweb-stack.github.io/style-guide/"
+    }
+  ]
+}
