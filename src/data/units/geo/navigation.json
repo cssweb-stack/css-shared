@@ -4,39 +4,37 @@
 "url": "/"
 },
 {
-"label": "About GEO",
+"label": "About",
 "children": [
 {
 "label": "Why Study GEO",
 "url": "/about-geo/why-study-geo.html",
-"icon": "compass",
-"iconColor": null
+"iconColor": null,
+"icon": "question-circle"
 },
 {
 "label": "Areas of Study",
 "url": "/about-geo/areas-of-study.html",
-"icon": "globe-americas",
-"iconColor": null
-},
-{
-"label": "GEO Courses",
-"url": "/about-geo/geo-courses.html",
-"icon": "book",
-"iconColor": null
+"iconColor": null,
+"icon": "layers"
 },
 {
 "label": "Lecture Series",
 "url": "/about-geo/lecture-series.html",
-"icon": "mic",
-"iconColor": null
+"iconColor": null,
+"icon": "calendar3"
 },
 {
 "label": "Department News",
 "url": "/about-geo/department-news.html",
-"icon": "newspaper",
-"iconColor": null
+"iconColor": null,
+"icon": "newspaper"
 }
 ]
+},
+{
+"label": "Courses",
+"url": "/about-geo/geo-courses.html"
 },
 {
 "label": "Undergraduate",
@@ -44,32 +42,32 @@
 {
 "label": "GIS Certificate",
 "url": "/undergraduate/gis-certificate.html",
-"icon": "map",
-"iconColor": null
+"iconColor": null,
+"icon": "award"
 },
 {
 "label": "Minor",
 "url": "/undergraduate/minor.html",
-"icon": "journal",
-"iconColor": null
+"iconColor": null,
+"icon": "book"
 },
 {
 "label": "Major (BA)",
 "url": "/undergraduate/major-ba.html",
-"icon": "mortarboard",
-"iconColor": null
+"iconColor": null,
+"icon": "mortarboard"
 },
 {
-"label": "GEO BA/MA (BAM)",
+"label": "BA/MA Pathway (BAM)",
 "url": "/undergraduate/geo-bam.html",
-"icon": "layers",
-"iconColor": null
+"iconColor": null,
+"icon": "signpost-2"
 },
 {
-"label": "SUST BA/GEO MA (BAM)",
+"label": "SUST BA/GEO MA Pathway (BAM)",
 "url": "/undergraduate/geo-sust-bam.html",
-"icon": "leaf",
-"iconColor": null
+"iconColor": null,
+"icon": "signpost-2"
 }
 ]
 },
@@ -77,34 +75,34 @@
 "label": "Graduate",
 "children": [
 {
-"label": "Master's (MA)",
+"label": "Master’s (MA)",
 "url": "/graduate/masters-ma.html",
-"icon": "mortarboard",
-"iconColor": null
+"iconColor": null,
+"icon": "mortarboard"
 },
 {
 "label": "Doctorate (PhD)",
 "url": "/graduate/doctorate-phd.html",
-"icon": "journal-richtext",
-"iconColor": null
+"iconColor": null,
+"icon": "mortarboard"
 },
 {
 "label": "Degrees Awarded",
 "url": "/graduate/degrees-awarded.html",
-"icon": "award",
-"iconColor": null
+"iconColor": null,
+"icon": "layers"
 },
 {
 "label": "Current Cohort",
 "url": "/graduate/current-cohort.html",
-"icon": "people",
-"iconColor": null
+"iconColor": null,
+"icon": "people"
 },
 {
 "label": "Funding Sources",
 "url": "/graduate/funding-sources.html",
-"icon": "cash-coin",
-"iconColor": null
+"iconColor": null,
+"icon": "cash-coin"
 }
 ]
 },
@@ -114,14 +112,14 @@
 {
 "label": "Core Faculty",
 "url": "/faculty/",
-"icon": "people",
-"iconColor": null
+"iconColor": null,
+"icon": "people"
 },
 {
 "label": "Associated Faculty",
 "url": "/faculty/associated.html",
-"icon": "people",
-"iconColor": null
+"iconColor": null,
+"icon": "people"
 }
 ]
 },

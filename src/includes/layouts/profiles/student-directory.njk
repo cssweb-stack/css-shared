@@ -1,7 +1,9 @@
-<div class="grid-standard">
+<div class="row gx-4 gy-5">
 {% for student in students %}
+<div class="col-12 col-md-2">
 <img class="photo-style grid-photo" src="{{ student.photo | url }}" alt="{{ student.name | escape }}" width="212" height="212" loading="lazy" decoding="async">
-
+</div>
+<div class="col-12 col-md-10">
 <section aria-labelledby="student-heading-{{ loop.index }}">
 <h2 id="student-heading-{{ loop.index }}">{{ student.name | escape }} <span class="accent">({{ student.program | escape }})</span></h2>
 {% if student.email %}
@@ -10,5 +12,6 @@
 <p>{{ student.research | escape }}</p>
 <p><strong>Advisor:</strong> {{ student.advisorName | escape }}</p>
 </section>
+</div>
 {% endfor %}
 </div>

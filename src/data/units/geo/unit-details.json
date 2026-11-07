@@ -32,5 +32,9 @@
 "label": "uhmgeog@hawaii.edu",
 "href": "mailto:uhmgeog@hawaii.edu?subject=Website%20inquiry",
 "contactHref": "mailto:uhmgeog@hawaii.edu"
+},
+"footerIdentity": {
+"prefix": "Department of",
+"name": "Geography and Environment"
 }
 }

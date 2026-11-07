@@ -40,23 +40,26 @@
 }
 },
 "credit": {
-"source": "ESA WorldCover project (2021) / Contains modified Copernicus Sentinel data (2021) processed by ESA WorldCover consortium",
-"url": "https://esa-worldcover.org/en/data-access"
+"source": "Student image — style-guide demonstration",
+"url": "/media/banners/header-preview.webp"
 },
 "pages": {
-"/heroes/hero-only/": {
+"/banners/image-banner/": {
 "section": "decorative",
-"image": "/media/heroes/watercolor.webp"
+"image": "/media/banners/header-preview.webp",
+"alt": "Students gathered outdoors"
 },
-"/heroes/with-label/": {
+"/banners/banner-with-label/": {
 "section": "home",
-"image": "/media/heroes/honolulu-oahu.webp",
-"location": "Honolulu, Oʻahu, Hawaiʻi"
+"image": "/media/banners/header-preview.webp",
+"location": "Students",
+"alt": "Students gathered outdoors"
 },
-"/heroes/with-label-and-attribution/": {
+"/banners/banner-with-label-and-credit/": {
 "section": "home",
-"image": "/media/heroes/honolulu-oahu.webp",
-"location": "Honolulu, Oʻahu, Hawaiʻi"
+"image": "/media/banners/header-preview.webp",
+"location": "Students",
+"alt": "Students gathered outdoors"
 }
 }
 }

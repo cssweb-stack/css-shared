@@ -2,25 +2,42 @@
 {% set footerPrivacy = uh.footer.privacy | default(site.privacy, true) %}
 {% set footerWebmaster = uh.footer.webmaster | default(site.webmaster, true) %}
 {% set footerLanguageId = footerId | default("footer") + "-language-heading" %}
+{% set footerColumns = site.footer.columns | default(uh.footer.footerColumns, true) %}
+{% set footerShowHeading = site.footer.language.showHeading | default(uh.footer.language.showHeading) %}
+{% set footerLanguagePresentation = site.footer.language.presentation | default(uh.footer.language.presentation) %}
+{% set footerDesktopBackground = site.footer.background.desktopTablet | default(uh.footer.background.desktopTablet) %}
+{% set footerMobileBackground = site.footer.background.mobile | default(uh.footer.background.mobile) %}
+{# One ordered copy of the links, laid out in three or two visual columns. #}
+{% set footerLinkCount = 0 %}
+{% for column in footerColumns %}{% set footerLinkCount = footerLinkCount + column.length %}{% endfor %}
+{% set footerMobileLinkRows = (footerLinkCount / 2) | round(0, 'ceil') %}
 
-<footer class="site-footer">
+<footer class="site-footer site-footer--languages-{{ footerLanguagePresentation | escape }}" style="--footer-background-desktop: url('{{ footerDesktopBackground | url | escape }}'); --footer-background-mobile: url('{{ footerMobileBackground | url | escape }}');">
 
 {# Upper footer: one unit column and three university-link columns. #}
 <div class="container footer-inner">
 <div class="footer-grid">
 <div class="footer-unit-column">
+<div class="footer-unit-identity">
 {% if site.shortName %}
 <p class="footer-unit-short-name">{{ site.shortName | escape }}</p>
 {% endif %}
-<p class="footer-unit-name">{{ site.name | escape }}</p>
+<p class="footer-unit-name">{% if site.footerIdentity.prefix %}<span class="footer-unit-prefix">{{ site.footerIdentity.prefix | escape }}</span> {% endif %}{{ site.footerIdentity.name | default(site.name) | escape }}</p>
+<ul class="footer-parent-links">
+{% if site.shortName != 'CSS' %}
+<li><a href="{{ common.links.college.url | escape }}">{{ common.links.college.label | escape }}</a></li>
+{% endif %}
+<li><a href="{{ common.links.university.url | escape }}">{{ common.links.university.label | escape }}</a></li>
+</ul>
 
+</div>
 <address class="footer-contact">
 {% if site.address | length %}
 <p class="footer-address">{% for line in site.address %}{{ line | escape }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
 {% endif %}
 
 {% if site.phone %}
-<p>
+<p class="footer-phone">
 <a class="footer-contact-link" href="{{ site.phone.href | escape }}">
 <span aria-hidden="true">{% include "media/icons/telephone.svg" %}</span>
 <span>{{ site.phone.label | escape }}</span>
@@ -29,7 +46,7 @@
 {% endif %}
 
 {% if site.email %}
-<p>
+<p class="footer-email">
 <a class="footer-contact-link" href="{{ site.email.href | escape }}">
 <span aria-hidden="true">{% include "media/icons/envelope.svg" %}</span>
 <span>{{ site.email.label | escape }}</span>
@@ -37,18 +54,28 @@
 </p>
 {% endif %}
 
-{% for link in social.links %}
-<p>
-<a class="footer-contact-link" href="{{ link.url | url }}">
-{% if link.icon %}
-<span aria-hidden="true">{% include "media/icons/" + link.icon + ".svg" %}</span>
-{% endif %}
-<span>{{ link.label | escape }}</span>
-</a>
-</p>
+{# Count populated entries, not the eight available platform slots. #}
+{% set footerSocialLinks = social.links | default([], true) %}
+{% set footerSocialCount = 0 %}
+{% for link in footerSocialLinks %}
+{% if (link.url | default('', true) | trim) and link.icon %}{% set footerSocialCount = footerSocialCount + 1 %}{% endif %}
 {% endfor %}
+{% if footerSocialCount %}
+<ul class="footer-social-bar" aria-label="{{ site.shortName | default(site.name, true) | escape }} social media">
+{% for link in footerSocialLinks | sort(false, false, 'label') %}
+{% if (link.url | default('', true) | trim) and link.icon %}
+<li class="footer-social-item">
+<a class="footer-social-link" href="{{ link.url | trim | escape }}" aria-label="{{ site.shortName | default(site.name, true) | escape }} on {{ link.label | escape }}">
+<span class="footer-social-icon" aria-hidden="true">{% include "media/icons/" + link.icon + ".svg" %}</span>
+</a>
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+{% endif %}
 
 {% if footerWebmaster or footerPrivacy %}
+<hr class="footer-contact-divider" aria-hidden="true">
 <p class="footer-contact-meta">
 {% if footerWebmaster %}
 <a href="mailto:{{ footerWebmaster.email | escape }}">{{ footerWebmaster.label | escape }}</a>
@@ -63,22 +90,26 @@
 {% endif %}
 </address>
 </div>
-{% for column in uh.footer.footerColumns %}
-<div class="footer-links">
-<ul class="footer-link-list">
+<nav class="footer-university-links" aria-label="Footer links">
+<ul class="footer-link-list" style="--footer-mobile-link-rows: {{ footerMobileLinkRows }};">
+{% set footerLinkIndex = 0 %}
+{% for column in footerColumns %}
+{% set footerColumnNumber = loop.index %}
 {% for link in column %}
-<li>
-<a href="{{ link.url | escape }}">{{ link.label | escape }}</a>
+<li style="--footer-column-break: {{ 'column' if loop.first and footerColumnNumber > 1 else 'auto' }}; --footer-mobile-link-column: {{ 1 if footerLinkIndex < footerMobileLinkRows else 2 }}; --footer-mobile-link-row: {{ footerLinkIndex + 1 if footerLinkIndex < footerMobileLinkRows else footerLinkIndex - footerMobileLinkRows + 1 }};">
+<a href="{{ link.url | url | escape }}">{{ link.label | escape }}</a>
 </li>
+{% set footerLinkIndex = footerLinkIndex + 1 %}
+{% endfor %}
 {% endfor %}
 </ul>
-</div>
-{% endfor %}
+</nav>
 </div>
 </div>
 
-{# Language services: eight desktop columns. #}
-<nav class="footer-language-band" aria-labelledby="{{ footerLanguageId | escape }}">
+{# Language labels and destinations are shared by both presentations. #}
+<nav class="footer-language-band" {% if footerShowHeading %}aria-labelledby="{{ footerLanguageId | escape }}"{% else %}aria-label="{{ uh.languages.heading | escape }}"{% endif %}>
+{% if footerShowHeading %}
 <div class="footer-language-heading-bar">
 <div class="container">
 <p id="{{ footerLanguageId | escape }}">
@@ -87,6 +118,7 @@
 </div>
 </div>
 
+{% endif %}
 <div class="footer-language-links">
 <div class="container">
 <ul class="footer-languages footer-grid-eight">

@@ -30,5 +30,9 @@
 "email": {
 "label": "idurp@hawaii.edu",
 "href": "mailto:idurp@hawaii.edu"
+},
+"footerIdentity": {
+"prefix": "Department of",
+"name": "Urban and Regional Planning"
 }
 }

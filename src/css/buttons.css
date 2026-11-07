@@ -37,6 +37,31 @@ cursor: pointer;
 --button-surface: var(--surface-purple);
 }
 
+.button-teal {
+--button-color: var(--color-teal);
+--button-surface: var(--surface-teal);
+}
+
+.button-bronze {
+--button-color: var(--color-bronze);
+--button-surface: var(--surface-bronze);
+}
+
+.button-brown {
+--button-color: var(--color-brown);
+--button-surface: var(--surface-brown);
+}
+
+.button-pink {
+--button-color: var(--color-pink);
+--button-surface: var(--surface-pink);
+}
+
+.button-gold {
+--button-color: var(--color-gold);
+--button-surface: var(--surface-gold);
+}
+
 .button-outline {
 background: var(--white);
 color: var(--button-color);
@@ -49,7 +74,7 @@ color: var(--button-color);
 
 .button:hover,
 .button:focus-visible {
-background: var(--white);
+background: var(--button-surface);
 color: var(--button-color);
 text-decoration-line: none;
 }
@@ -68,8 +93,8 @@ outline-offset: 3px;
 }
 
 .button > svg,
-.button-icon,
 .button-icon svg {
+display: block;
 flex: 0 0 1.25rem;
 width: 1.25rem;
 height: 1.25rem;
@@ -80,7 +105,11 @@ fill: currentColor;
 justify-content: space-between;
 }
 
-.button-arrow > :last-child {
-flex-shrink: 0;
-font-size: 1.5rem;
+.button-icon {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+flex: 0 0 1.25rem;
+width: 1.25rem;
+height: 1.25rem;
 }

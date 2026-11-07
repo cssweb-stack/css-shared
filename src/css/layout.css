@@ -1,27 +1,54 @@
-/* Shared horizontal content gutter */
-:root {
---page-gutter: 2rem;
-}
-
-@media (max-width: 1199.98px) {
-:root {
---page-gutter: 1.5rem;
-}
-}
-
-@media (max-width: 575.98px) {
-:root {
---page-gutter: 1rem;
-}
-}
-
+/* Shared containers load after Bootstrap and replace its maximum widths. */
 .container {
-padding-inline: var(--page-gutter);
-}
-
-@media (max-width: 1199.98px) {
-.container {
+box-sizing: border-box;
+width: 100%;
 max-width: none;
+margin-left: auto;
+margin-right: auto;
+padding-inline: 16px;
+}
+
+@media (min-width: 633px) {
+.container {
+max-width: 633px;
+padding-inline: 100px;
+}
+}
+
+@media (min-width: 700px) {
+.container {
+max-width: 700px;
+}
+}
+
+@media (min-width: 768px) {
+.container {
+max-width: 768px;
+}
+}
+
+@media (min-width: 900px) {
+.container {
+max-width: 900px;
+}
+}
+
+@media (min-width: 1201px) {
+.container {
+max-width: 1201px;
+}
+}
+
+@media (min-width: 1440px) {
+.container {
+max-width: 1440px;
+padding-inline: 200px;
+}
+}
+
+@media (min-width: 1800px) {
+.container {
+max-width: 1800px;
 }
 }
 

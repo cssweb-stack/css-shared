@@ -4,6 +4,105 @@
 "url": "/"
 },
 {
+"label": "About",
+"children": [
+{
+"label": "Why Study DURP",
+"url": "/about-durp/why-study-durp.html",
+"icon": "question-circle",
+"iconColor": null
+},
+{
+"label": "Message from the Chair",
+"url": "/about-durp/message-from-the-chair.html",
+"iconColor": null,
+"icon": "chat-left-text"
+},
+{
+"label": "Alumni",
+"url": "/alumni/",
+"iconColor": null,
+"icon": "people"
+}
+]
+},
+{
+"label": "Courses",
+"url": "/course-streams/"
+},
+{
+"label": "BAM Pathways",
+"children": [
+{
+"label": "SUST BA/MURP (BAM)",
+"url": "/bam/sust-durp.html",
+"iconColor": null,
+"icon": "signpost-2"
+},
+{
+"label": "HST BA/MURP (BAM)",
+"url": "/bam/hst-durp.html",
+"iconColor": null,
+"icon": "signpost-2"
+},
+{
+"label": "GES BA/MURP (BAM)",
+"url": "/bam/ges-durp.html",
+"iconColor": null,
+"icon": "signpost-2"
+}
+]
+},
+{
+"label": "Graduate",
+"children": [
+{
+"label": "Planning Studies (GCERT)",
+"url": "/graduate-certificate/planning-studies.html",
+"iconColor": null,
+"icon": "award"
+},
+{
+"label": "Professional Planning (GCERT)",
+"url": "/graduate-certificate/professional-planning.html",
+"iconColor": null,
+"icon": "award"
+},
+{
+"label": "Disaster & Humanitarian (GCERT)",
+"url": "/graduate-certificate/disaster-humanitarian.html",
+"iconColor": null,
+"icon": "award"
+},
+{
+"label": "Indigenous Planning (GCERT)",
+"url": "/graduate-certificate/indigenous-planning.html",
+"iconColor": null,
+"icon": "award"
+},
+{
+"label": "Master’s (MURP)",
+"url": "/graduate-degrees/master-murp.html",
+"iconColor": null,
+"icon": "mortarboard"
+},
+{
+"label": "Doctorate (PhD)",
+"url": "/graduate-degrees/doctorate-phd.html",
+"iconColor": null,
+"icon": "mortarboard"
+}
+]
+},
+{
+"label": "Faculty",
+"url": "/faculty/"
+},
+{
+"label": "Support DURP",
+"url": "/support-durp/"
+},
+{
 "label": "Contact",
 "url": "/contact/"
 }

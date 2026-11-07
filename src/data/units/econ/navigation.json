@@ -4,6 +4,130 @@
 "url": "/"
 },
 {
+"label": "About",
+"children": [
+{
+"label": "Why Study ECON",
+"url": "/about-econ/why-study-econ.html",
+"icon": "question-circle",
+"iconColor": null
+},
+{
+"label": "Research",
+"url": "/about-econ/research.html",
+"iconColor": null,
+"icon": "bar-chart-line"
+},
+{
+"label": "Seminars",
+"url": "/about-econ/seminars.html",
+"iconColor": null,
+"icon": "calendar3"
+}
+]
+},
+{
+"label": "Courses",
+"url": "/courses/"
+},
+{
+"label": "Undergraduate",
+"children": [
+{
+"label": "Minor",
+"url": "/undergraduate/minor.html",
+"iconColor": null,
+"icon": "book"
+},
+{
+"label": "Major (BA)",
+"url": "/undergraduate/major-ba.html",
+"iconColor": null,
+"icon": "mortarboard"
+},
+{
+"label": "Major (BA) QEC",
+"url": "/undergraduate/major-ba-qec.html",
+"iconColor": null,
+"icon": "mortarboard"
+},
+{
+"label": "BA/MA Pathway (BAM)",
+"url": "/undergraduate/econ-bam.html",
+"iconColor": null,
+"icon": "signpost-2"
+},
+{
+"label": "Experiential Learning",
+"url": "/undergraduate/experiential-learning.html",
+"iconColor": null,
+"icon": "journal-check"
+},
+{
+"label": "Advising & Support",
+"url": "/undergraduate/advising-support.html",
+"iconColor": null,
+"icon": "compass"
+}
+]
+},
+{
+"label": "Graduate",
+"children": [
+{
+"label": "Master’s (MA)",
+"url": "/graduate/master-ma.html",
+"iconColor": null,
+"icon": "mortarboard"
+},
+{
+"label": "Doctorate (PhD)",
+"url": "/graduate/doctorate-phd.html",
+"iconColor": null,
+"icon": "mortarboard"
+},
+{
+"label": "Current Cohort",
+"url": "/graduate/current-cohort.html",
+"iconColor": null,
+"icon": "people"
+},
+{
+"label": "Job Placement",
+"url": "/graduate/job-placement.html",
+"iconColor": null,
+"icon": "briefcase"
+},
+{
+"label": "Funding Sources",
+"url": "/graduate/funding-sources.html",
+"iconColor": null,
+"icon": "cash-coin"
+}
+]
+},
+{
+"label": "Faculty",
+"children": [
+{
+"label": "Core Faculty",
+"url": "/faculty/core-faculty.html",
+"iconColor": null,
+"icon": "people"
+},
+{
+"label": "Associated Faculty",
+"url": "/faculty/associated-faculty.html",
+"iconColor": null,
+"icon": "people"
+}
+]
+},
+{
+"label": "Support ECON",
+"url": "/support-econ/"
+},
+{
 "label": "Contact",
 "url": "/contact/"
 }

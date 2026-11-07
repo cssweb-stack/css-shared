@@ -1,66 +1,64 @@
 :root {
-/* UH GREEN */
+/* UH Mānoa Branding */
 --uh-green: #024731;
+--nav-unit-bk: #f7f7f7;
+--nav-divider: #d3d3d3;
+--sub-footer: #2d2d2d;
+
+/* Icons */
+--icons: #888888;
 
 /* Link */
 --link-color: #0a58ca;
 
-/* Primary Accent Colors */
+/* Text Accents */
+--accent-warm: #B43B20;
+--accent-cool: #006B8F;
+
+/* Primary Colors */
 --color-teal: #27665d;
 --color-blue: #354d67;
 --color-purple: #655b7a;
 
-/* Primary Accent Backgrounds */
+/* Primary Backgrounds */
 --surface-teal: #edf5f0;
 --surface-blue: #eef9fc;
 --surface-purple: #f6f4f8;
 
-/* Secondary Accent Colors */
+/* Secondary Colors */
 --color-bronze: #755322;
 --color-brown: #835044;
 --color-pink: #943c70;
 --color-gold: #b58a24;
 
-/* Secondary Accent Backgrounds */
+/* Secondary Backgrounds */
 --surface-bronze: #faf7f0;
 --surface-brown: #faf2ee;
 --surface-pink: #fcf1f7;
 --surface-gold: #fff8e6;
 
 /* Grays */
---black: #2d2d2d;
+--black: #1D1D1F;
 --dark-gray: #555555;
---mid-gray: #888888;
 --light-gray: #cccccc;
 --white: #ffffff;
 
-/* Layout */
---nav-unit-bk: #f7f7f7;
---nav-divider: #e2e2e2;
-
-/* Special */
---accent: var(--color-purple);
-
 /* Hero */
 --hero-note-background: var(--black);
---hero-credit-background: var(--light-gray);
---hero-credit-link: #244c73;
---hero-shadow-color: var(--black);
+--hero-credit-background: #f2f2f2;
 
-/* Shadow */
---shadow-medium-color: rgb(0 0 0 / 25%);
+/* Shared elevation shadows: header, content, and footer identity. */
+--shadow-sticky: 0 5px 12px rgb(0 0 0 / 25%);
+--shadow-general: 3px 3px 6px rgb(0 0 0 / 25%);
+--shadow-footer-unit: 0.125rem 0.125rem 0 rgb(0 0 0 / 60%);
 
 /* News */
 --news-border-color: #d7e4dc;
 --news-media-surface: #eef4f8;
 
 /* Header borders */
---header-border-color: #b5b5b5;
 --control-border-color: #6c757d;
 --brand-toggle-border-color: rgb(255 255 255 / 50%);
-
-/* Compatibility alias for styles still using --light. */
---light: red;
 
 /* Footer */
 --footer-rule-color: rgb(255 255 255 / 40%);
@@ -69,8 +67,11 @@
 }
 
 /* Tile Colors */
-.tile-blue { --tile-color: var(--color-blue); }
 .tile-teal { --tile-color: var(--color-teal); }
+.tile-blue { --tile-color: var(--color-blue); }
 .tile-purple { --tile-color: var(--color-purple); }
+.tile-bronze { --tile-color: var(--color-bronze); }
+.tile-brown { --tile-color: var(--color-brown); }
+.tile-pink { --tile-color: var(--color-pink); }
 .tile-gold { --tile-color: var(--color-gold); }
 .tile-green { --tile-color: var(--uh-green); }

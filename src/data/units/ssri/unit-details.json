@@ -29,5 +29,8 @@
 "email": {
 "label": "ssri@hawaii.edu",
 "href": "mailto:ssri@hawaii.edu"
+},
+"footerIdentity": {
+"name": "Social Science Research Institute"
 }
 }

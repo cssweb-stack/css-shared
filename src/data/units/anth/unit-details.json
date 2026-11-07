@@ -30,5 +30,9 @@
 "email": {
 "label": "anthprog@hawaii.edu",
 "href": "mailto:anthprog@hawaii.edu"
+},
+"footerIdentity": {
+"prefix": "Department of",
+"name": "Anthropology"
 }
 }

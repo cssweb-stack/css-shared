@@ -1,5 +1,5 @@
 {
-"name": "CSS Website Style Guide",
+"name": "Website Style Guide",
 "shortName": "CSS",
 "url": "https://cssweb-stack.github.io/style-guide",
 "prefix": "",
@@ -15,5 +15,9 @@
 },
 "address": [],
 "phone": null,
-"email": null
+"email": null,
+"showShortName": true,
+"footerIdentity": {
+"name": "Website Style Guide"
+}
 }

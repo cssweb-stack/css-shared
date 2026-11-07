@@ -30,5 +30,9 @@
 "email": {
 "label": "uhmsci@hawaii.edu",
 "href": "mailto:uhmsci@hawaii.edu"
+},
+"footerIdentity": {
+"prefix": "School of",
+"name": "Communication and Information"
 }
 }

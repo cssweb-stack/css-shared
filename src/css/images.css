@@ -1,12 +1,23 @@
+/* One shared frame treatment for photos and tiles. */
+:root {
+--frame-border: 1px solid var(--light-gray);
+--frame-radius: 6px;
+}
+
+.photo-style,
+.tile-style {
+border: var(--frame-border);
+border-radius: var(--frame-radius);
+box-shadow: var(--shadow-general);
+}
+
 /* Main Photo */
 .photo-style {
-border: 1px solid var(--light-gray);
-border-radius: 6px;
-filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.25));
 box-sizing: border-box;
 width: 100%;
 height: auto;
 align-self: start;
+filter: grayscale(var(--photo-grayscale, 0%));
 }
 
 /* Photo Loading Style */

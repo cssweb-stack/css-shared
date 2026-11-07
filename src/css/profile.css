@@ -239,7 +239,6 @@ padding: var(--profile-card-padding, 0);
 border: var(--profile-card-border, 0);
 border-radius: var(--card-radius);
 background: var(--profile-card-background, transparent);
-box-shadow: var(--profile-card-shadow, none);
 }
 
 .profile-publications {

@@ -4,6 +4,37 @@
 "url": "/"
 },
 {
+"label": "Research",
+"url": "/research/"
+},
+{
+"label": "Support",
+"children": [
+{
+"label": "Research Services",
+"url": "/support/research-services.html",
+"iconColor": null,
+"icon": "bar-chart-line"
+},
+{
+"label": "Fiscal/Compliance",
+"url": "/support/fiscal-compliance.html",
+"iconColor": null,
+"icon": "cash-coin"
+},
+{
+"label": "Grant Development",
+"url": "/support/grant-development.html",
+"iconColor": null,
+"icon": "file-earmark-check"
+}
+]
+},
+{
+"label": "Directory",
+"url": "/directory/"
+},
+{
 "label": "Contact",
 "url": "/contact/"
 }

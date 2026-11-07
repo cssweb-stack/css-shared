@@ -1,3 +1,44 @@
 {
-"links": []
+"links": [
+{
+"label": "Bluesky",
+"url": "https://bsky.app/profile/uhmpublicadmin.bsky.social",
+"icon": "social/bluesky"
+},
+{
+"label": "Facebook",
+"url": "",
+"icon": "social/facebook"
+},
+{
+"label": "Instagram",
+"url": "https://www.instagram.com/uhmpuba/",
+"icon": "social/instagram"
+},
+{
+"label": "LinkedIn",
+"url": "https://www.linkedin.com/in/pubahawaii",
+"icon": "social/linkedin"
+},
+{
+"label": "Threads",
+"url": "",
+"icon": "social/threads"
+},
+{
+"label": "TikTok",
+"url": "",
+"icon": "social/tiktok"
+},
+{
+"label": "X",
+"url": "https://twitter.com/on_puba?lang=en",
+"icon": "social/twitter-x"
+},
+{
+"label": "YouTube",
+"url": "",
+"icon": "social/youtube"
+}
+]
 }

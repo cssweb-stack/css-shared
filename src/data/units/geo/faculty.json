@@ -8,7 +8,7 @@
 "phone": "1 (808) 956-3524",
 "phoneHref": "+18089563524",
 "email": "qichen@hawaii.edu",
-"photo": "/media/faculty/qi-chen.webp",
+"photo": "/media/faculty-staff/qi-chen.webp",
 "photoWidth": 400,
 "photoHeight": 400,
 "keywords": [
@@ -26,17 +26,17 @@
 {
 "label": "Google Scholar",
 "url": "https://scholar.google.com/citations?user=ucpSWm0AAAAJ&hl=en",
-"image": "/media/publications/google-scholar.png"
+"image": "/media/shared/publications/google-scholar.png"
 },
 {
 "label": "ResearchGate",
 "url": "https://www.researchgate.net/profile/Qi_Chen6",
-"image": "/media/publications/research-gate.png"
+"image": "/media/shared/publications/research-gate.png"
 },
 {
 "label": "Academia.edu",
 "url": "https://hawaii.academia.edu/QiChen",
-"image": "/media/publications/academia-edu.png"
+"image": "/media/shared/publications/academia-edu.png"
 }
 ],
 "lastName": "Chen",
@@ -51,7 +51,7 @@
 "phone": "",
 "phoneHref": "",
 "email": "hjiang@hawaii.edu",
-"photo": "/media/faculty/hong-jiang.webp",
+"photo": "/media/faculty-staff/hong-jiang.webp",
 "photoWidth": 600,
 "photoHeight": 600,
 "keywords": [
@@ -64,7 +64,7 @@
 {
 "label": "ResearchGate",
 "url": "https://www.researchgate.net/profile/Hong_Jiang55",
-"image": "/media/publications/research-gate.png"
+"image": "/media/shared/publications/research-gate.png"
 }
 ],
 "lastName": "Jiang",
@@ -79,7 +79,7 @@
 "phone": "",
 "phoneHref": "",
 "email": "yuqinj@hawaii.edu",
-"photo": "/media/faculty/yuqin-jiang.webp",
+"photo": "/media/faculty-staff/yuqin-jiang.webp",
 "photoWidth": 400,
 "photoHeight": 400,
 "keywords": [
@@ -93,12 +93,12 @@
 {
 "label": "Google Scholar",
 "url": "https://scholar.google.com/citations?user=BaMTux0AAAAJ&hl=en",
-"image": "/media/publications/google-scholar.png"
+"image": "/media/shared/publications/google-scholar.png"
 },
 {
 "label": "ResearchGate",
 "url": "https://www.researchgate.net/profile/Yuqin-Jiang",
-"image": "/media/publications/research-gate.png"
+"image": "/media/shared/publications/research-gate.png"
 }
 ],
 "lastName": "Jiang"
@@ -112,7 +112,7 @@
 "phone": "",
 "phoneHref": "",
 "email": "reecej@hawaii.edu",
-"photo": "/media/faculty/reece-jones.webp",
+"photo": "/media/faculty-staff/reece-jones.webp",
 "photoWidth": 400,
 "photoHeight": 400,
 "keywords": [
@@ -138,12 +138,12 @@
 {
 "label": "Google Scholar",
 "url": "https://scholar.google.com/citations?user=vGvbq1AAAAAJ&hl=en",
-"image": "/media/publications/google-scholar.png"
+"image": "/media/shared/publications/google-scholar.png"
 },
 {
 "label": "ResearchGate",
 "url": "https://www.researchgate.net/profile/Reece_Jones",
-"image": "/media/publications/research-gate.png"
+"image": "/media/shared/publications/research-gate.png"
 }
 ],
 "lastName": "Jones"
@@ -157,7 +157,7 @@
 "phone": "",
 "phoneHref": "",
 "email": "kagawa@hawaii.edu",
-"photo": "/media/faculty/aurora-kagawa-viviani.webp",
+"photo": "/media/faculty-staff/aurora-kagawa-viviani.webp",
 "photoWidth": 600,
 "photoHeight": 600,
 "keywords": [
@@ -175,17 +175,17 @@
 {
 "label": "Google Scholar",
 "url": "https://scholar.google.com/citations?hl=en&user=Fi4DsrIAAAAJ",
-"image": "/media/publications/google-scholar.png"
+"image": "/media/shared/publications/google-scholar.png"
 },
 {
 "label": "ORCID",
 "url": "https://orcid.org/0000-0001-8532-3017",
-"image": "/media/publications/orcid.png"
+"image": "/media/shared/publications/orcid.png"
 },
 {
 "label": "ResearchGate",
 "url": "https://www.researchgate.net/profile/Aurora_Kagawa-Viviani",
-"image": "/media/publications/research-gate.png"
+"image": "/media/shared/publications/research-gate.png"
 }
 ],
 "lastName": "Kagawa-Viviani"
@@ -199,7 +199,7 @@
 "phone": "",
 "phoneHref": "",
 "email": "mkarides@hawaii.edu",
-"photo": "/media/faculty/marina-karides.webp",
+"photo": "/media/faculty-staff/marina-karides.webp",
 "photoWidth": 400,
 "photoHeight": 400,
 "keywords": [
@@ -221,17 +221,17 @@
 {
 "label": "Academia.edu",
 "url": "https://manoa-hawaii.academia.edu/MarinaKarides",
-"image": "/media/publications/academia-edu.png"
+"image": "/media/shared/publications/academia-edu.png"
 },
 {
 "label": "Google Scholar",
 "url": "https://scholar.google.com/citations?user=rAHprXUAAAAJ&hl=en",
-"image": "/media/publications/google-scholar.png"
+"image": "/media/shared/publications/google-scholar.png"
 },
 {
 "label": "ResearchGate",
 "url": "https://www.researchgate.net/profile/Marina_Karides/research",
-"image": "/media/publications/research-gate.png"
+"image": "/media/shared/publications/research-gate.png"
 }
 ],
 "lastName": "Karides"
@@ -245,7 +245,7 @@
 "phone": "1 (808) 956-7093",
 "phoneHref": "+18089567093",
 "email": "cmora@hawaii.edu",
-"photo": "/media/faculty/camilo-mora.webp",
+"photo": "/media/faculty-staff/camilo-mora.webp",
 "photoWidth": 400,
 "photoHeight": 400,
 "keywords": [
@@ -261,7 +261,7 @@
 {
 "label": "Google Scholar",
 "url": "https://scholar.google.com/citations?user=PFCmm5MAAAAJ&hl=en",
-"image": "/media/publications/google-scholar.png"
+"image": "/media/shared/publications/google-scholar.png"
 }
 ],
 "lastName": "Mora"
@@ -275,7 +275,7 @@
 "phone": "",
 "phoneHref": "",
 "email": "mostafan@hawaii.edu",
-"photo": "/media/faculty/mary-mostafanezhad.webp",
+"photo": "/media/faculty-staff/mary-mostafanezhad.webp",
 "photoWidth": 400,
 "photoHeight": 400,
 "keywords": [
@@ -293,7 +293,7 @@
 {
 "label": "Google Scholar",
 "url": "https://scholar.google.com/citations?user=cm9lWxAAAAAJ&hl=en",
-"image": "/media/publications/google-scholar.png"
+"image": "/media/shared/publications/google-scholar.png"
 }
 ],
 "lastName": "Mostafanezhad",
@@ -308,7 +308,7 @@
 "phone": "1 (808) 956-8465",
 "phoneHref": "+18089568465",
 "email": "orhon@hawaii.edu",
-"photo": "/media/faculty/orhon-myadar.webp",
+"photo": "/media/faculty-staff/orhon-myadar.webp",
 "photoWidth": 400,
 "photoHeight": 400,
 "keywords": [
@@ -329,7 +329,7 @@
 "phone": "",
 "phoneHref": "",
 "email": "szuster@hawaii.edu",
-"photo": "/media/faculty/brian-szuster.webp",
+"photo": "/media/faculty-staff/brian-szuster.webp",
 "photoWidth": 600,
 "photoHeight": 600,
 "keywords": [
@@ -343,7 +343,7 @@
 {
 "label": "ResearchGate",
 "url": "https://www.researchgate.net/profile/Brian_Szuster",
-"image": "/media/publications/research-gate.png"
+"image": "/media/shared/publications/research-gate.png"
 }
 ],
 "lastName": "Szuster"

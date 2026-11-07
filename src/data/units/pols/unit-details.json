@@ -30,5 +30,9 @@
 "email": {
 "label": "polisci@hawaii.edu",
 "href": "mailto:polisci@hawaii.edu"
+},
+"footerIdentity": {
+"prefix": "Department of",
+"name": "Political Science"
 }
 }

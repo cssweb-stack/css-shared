@@ -30,5 +30,9 @@
 "email": {
 "label": "psych@hawaii.edu",
 "href": "mailto:psych@hawaii.edu"
+},
+"footerIdentity": {
+"prefix": "Department of",
+"name": "Psychology"
 }
 }

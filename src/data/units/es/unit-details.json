@@ -30,5 +30,9 @@
 "email": {
 "label": "esdept@hawaii.edu",
 "href": "mailto:esdept@hawaii.edu"
+},
+"footerIdentity": {
+"prefix": "Department of",
+"name": "Ethnic Studies"
 }
 }

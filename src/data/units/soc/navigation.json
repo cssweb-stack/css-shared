@@ -4,6 +4,123 @@
 "url": "/"
 },
 {
+"label": "About",
+"children": [
+{
+"label": "Why Study SOC",
+"url": "/about-soc/why-study-soc.html",
+"icon": "question-circle",
+"iconColor": null
+},
+{
+"label": "Research Areas",
+"url": "/about-soc/areas-of-study.html",
+"iconColor": null,
+"icon": "layers"
+},
+{
+"label": "History",
+"url": "/about-soc/history.html",
+"iconColor": null,
+"icon": "clock-history"
+},
+{
+"label": "Colloquia",
+"url": "/about-soc/colloquia.html",
+"iconColor": null,
+"icon": "calendar3"
+},
+{
+"label": "Department News",
+"url": "/about-soc/department-news.html",
+"iconColor": null,
+"icon": "newspaper"
+}
+]
+},
+{
+"label": "Courses",
+"url": "/about-soc/soc-courses.html"
+},
+{
+"label": "Undergraduate",
+"children": [
+{
+"label": "Minor",
+"url": "/undergraduate/minor.html",
+"iconColor": null,
+"icon": "book"
+},
+{
+"label": "Major (BA)",
+"url": "/undergraduate/major.html",
+"iconColor": null,
+"icon": "mortarboard"
+},
+{
+"label": "BA/MA Pathway (BAM)",
+"url": "/undergraduate/bam.html",
+"iconColor": null,
+"icon": "signpost-2"
+},
+{
+"label": "Honors Track",
+"url": "/undergraduate/honors-track.html",
+"iconColor": null,
+"icon": "star"
+},
+{
+"label": "Funding Sources",
+"url": "/undergraduate/funding-sources.html",
+"iconColor": null,
+"icon": "cash-coin"
+},
+{
+"label": "Advising & Support",
+"url": "/undergraduate/advising-support.html",
+"iconColor": null,
+"icon": "compass"
+}
+]
+},
+{
+"label": "Graduate",
+"children": [
+{
+"label": "Master’s (MA)",
+"url": "/graduate/master-ma.html",
+"iconColor": null,
+"icon": "mortarboard"
+},
+{
+"label": "Doctorate (PhD)",
+"url": "/graduate/doctorate-phd.html",
+"iconColor": null,
+"icon": "mortarboard"
+},
+{
+"label": "Current Cohort",
+"url": "/graduate/current-cohort.html",
+"iconColor": null,
+"icon": "people"
+},
+{
+"label": "Funding Sources",
+"url": "/graduate/funding-sources.html",
+"iconColor": null,
+"icon": "cash-coin"
+}
+]
+},
+{
+"label": "Faculty",
+"url": "/faculty/"
+},
+{
+"label": "Support SOC",
+"url": "/support-soc/"
+},
+{
 "label": "Contact",
 "url": "/contact/"
 }

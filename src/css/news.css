@@ -21,11 +21,11 @@ display: none;
 --news-card-padding: 1.25rem;
 min-width: 0;
 padding: 0;
-background: var(--light);
+background: var(--white);
 overflow: hidden;
 border: 1px solid var(--border-gray);
 border-radius: 0.25rem;
-box-shadow: var(--frame-shadow);
+box-shadow: var(--shadow-general);
 overflow-wrap: anywhere;
 }
 
@@ -204,7 +204,6 @@ grid-template-columns: minmax(0, 1fr);
 .news-post {
 border: var(--card-border);
 border-radius: var(--card-radius);
-box-shadow: var(--card-shadow);
 }
 
 

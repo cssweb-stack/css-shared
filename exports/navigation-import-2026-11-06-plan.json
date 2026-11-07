@@ -1,0 +1,1553 @@
+{
+  "anth": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About",
+      "children": [
+        {
+          "label": "Why Study ANTH",
+          "url": "/about-anth/why-study-anth.html",
+          "icon": "question-circle",
+          "iconColor": null
+        },
+        {
+          "label": "Areas of Study",
+          "url": "/about-anth/areas-of-study.html",
+          "iconColor": null,
+          "icon": "layers"
+        },
+        {
+          "label": "Colloquia",
+          "url": "/about-anth/colloquia.html",
+          "iconColor": null,
+          "icon": "calendar3"
+        },
+        {
+          "label": "Department News",
+          "url": "/about-anth/department-news.html",
+          "iconColor": null,
+          "icon": "newspaper"
+        }
+      ]
+    },
+    {
+      "label": "Courses",
+      "url": "/about-anth/anth-courses.html"
+    },
+    {
+      "label": "Undergraduate",
+      "children": [
+        {
+          "label": "Minor",
+          "url": "/undergraduate/minor-anth.html",
+          "iconColor": null,
+          "icon": "book"
+        },
+        {
+          "label": "Medical Anthropology Minor",
+          "url": "/undergraduate/minor-medical-anth.html",
+          "iconColor": null,
+          "icon": "book"
+        },
+        {
+          "label": "Major (BA)",
+          "url": "/undergraduate/major-ba.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "BA/MA Pathway (BAM)",
+          "url": "/undergraduate/anth-bam.html",
+          "iconColor": null,
+          "icon": "signpost-2"
+        },
+        {
+          "label": "Honors Track",
+          "url": "/undergraduate/honors-track.html",
+          "iconColor": null,
+          "icon": "star"
+        },
+        {
+          "label": "Advising & Support",
+          "url": "/undergraduate/advising-support.html",
+          "iconColor": null,
+          "icon": "compass"
+        },
+        {
+          "label": "Funding Sources",
+          "url": "/undergraduate/funding-sources.html",
+          "iconColor": null,
+          "icon": "cash-coin"
+        }
+      ]
+    },
+    {
+      "label": "Graduate",
+      "children": [
+        {
+          "label": "Master’s (MA)",
+          "url": "/graduate/master-ma.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Doctorate (PhD)",
+          "url": "/graduate/doctorate-phd.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Degrees Awarded",
+          "url": "/graduate/degrees-awarded.html",
+          "iconColor": null,
+          "icon": "layers"
+        },
+        {
+          "label": "Current Cohort",
+          "url": "/graduate/current-cohort.html",
+          "iconColor": null,
+          "icon": "people"
+        },
+        {
+          "label": "Funding Sources",
+          "url": "/graduate/funding-sources.html",
+          "iconColor": null,
+          "icon": "cash-coin"
+        }
+      ]
+    },
+    {
+      "label": "Faculty",
+      "children": [
+        {
+          "label": "Core Faculty",
+          "url": "/faculty/core-faculty.html",
+          "iconColor": null,
+          "icon": "people"
+        },
+        {
+          "label": "Associated Faculty",
+          "url": "/faculty/associated-faculty.html",
+          "iconColor": null,
+          "icon": "people"
+        }
+      ]
+    },
+    {
+      "label": "Support ANTH",
+      "url": "/support-anth/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "durp": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About",
+      "children": [
+        {
+          "label": "Why Study DURP",
+          "url": "/about-durp/why-study-durp.html",
+          "icon": "question-circle",
+          "iconColor": null
+        },
+        {
+          "label": "Message from the Chair",
+          "url": "/about-durp/message-from-the-chair.html",
+          "iconColor": null,
+          "icon": "chat-left-text"
+        },
+        {
+          "label": "Alumni",
+          "url": "/alumni/",
+          "iconColor": null,
+          "icon": "people"
+        }
+      ]
+    },
+    {
+      "label": "Courses",
+      "url": "/course-streams/"
+    },
+    {
+      "label": "BAM Pathways",
+      "children": [
+        {
+          "label": "SUST BA/MURP (BAM)",
+          "url": "/bam/sust-durp.html",
+          "iconColor": null,
+          "icon": "signpost-2"
+        },
+        {
+          "label": "HST BA/MURP (BAM)",
+          "url": "/bam/hst-durp.html",
+          "iconColor": null,
+          "icon": "signpost-2"
+        },
+        {
+          "label": "GES BA/MURP (BAM)",
+          "url": "/bam/ges-durp.html",
+          "iconColor": null,
+          "icon": "signpost-2"
+        }
+      ]
+    },
+    {
+      "label": "Graduate",
+      "children": [
+        {
+          "label": "Planning Studies (GCERT)",
+          "url": "/graduate-certificate/planning-studies.html",
+          "iconColor": null,
+          "icon": "award"
+        },
+        {
+          "label": "Professional Planning (GCERT)",
+          "url": "/graduate-certificate/professional-planning.html",
+          "iconColor": null,
+          "icon": "award"
+        },
+        {
+          "label": "Disaster & Humanitarian (GCERT)",
+          "url": "/graduate-certificate/disaster-humanitarian.html",
+          "iconColor": null,
+          "icon": "award"
+        },
+        {
+          "label": "Indigenous Planning (GCERT)",
+          "url": "/graduate-certificate/indigenous-planning.html",
+          "iconColor": null,
+          "icon": "award"
+        },
+        {
+          "label": "Master’s (MURP)",
+          "url": "/graduate-degrees/master-murp.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Doctorate (PhD)",
+          "url": "/graduate-degrees/doctorate-phd.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        }
+      ]
+    },
+    {
+      "label": "Faculty",
+      "url": "/faculty/"
+    },
+    {
+      "label": "Support DURP",
+      "url": "/support-durp/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "econ": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About",
+      "children": [
+        {
+          "label": "Why Study ECON",
+          "url": "/about-econ/why-study-econ.html",
+          "icon": "question-circle",
+          "iconColor": null
+        },
+        {
+          "label": "Research",
+          "url": "/about-econ/research.html",
+          "iconColor": null,
+          "icon": "bar-chart-line"
+        },
+        {
+          "label": "Seminars",
+          "url": "/about-econ/seminars.html",
+          "iconColor": null,
+          "icon": "calendar3"
+        }
+      ]
+    },
+    {
+      "label": "Courses",
+      "url": "/courses/"
+    },
+    {
+      "label": "Undergraduate",
+      "children": [
+        {
+          "label": "Minor",
+          "url": "/undergraduate/minor.html",
+          "iconColor": null,
+          "icon": "book"
+        },
+        {
+          "label": "Major (BA)",
+          "url": "/undergraduate/major-ba.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Major (BA) QEC",
+          "url": "/undergraduate/major-ba-qec.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "BA/MA Pathway (BAM)",
+          "url": "/undergraduate/econ-bam.html",
+          "iconColor": null,
+          "icon": "signpost-2"
+        },
+        {
+          "label": "Experiential Learning",
+          "url": "/undergraduate/experiential-learning.html",
+          "iconColor": null,
+          "icon": "journal-check"
+        },
+        {
+          "label": "Advising & Support",
+          "url": "/undergraduate/advising-support.html",
+          "iconColor": null,
+          "icon": "compass"
+        }
+      ]
+    },
+    {
+      "label": "Graduate",
+      "children": [
+        {
+          "label": "Master’s (MA)",
+          "url": "/graduate/master-ma.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Doctorate (PhD)",
+          "url": "/graduate/doctorate-phd.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Current Cohort",
+          "url": "/graduate/current-cohort.html",
+          "iconColor": null,
+          "icon": "people"
+        },
+        {
+          "label": "Job Placement",
+          "url": "/graduate/job-placement.html",
+          "iconColor": null,
+          "icon": "briefcase"
+        },
+        {
+          "label": "Funding Sources",
+          "url": "/graduate/funding-sources.html",
+          "iconColor": null,
+          "icon": "cash-coin"
+        }
+      ]
+    },
+    {
+      "label": "Faculty",
+      "children": [
+        {
+          "label": "Core Faculty",
+          "url": "/faculty/core-faculty.html",
+          "iconColor": null,
+          "icon": "people"
+        },
+        {
+          "label": "Associated Faculty",
+          "url": "/faculty/associated-faculty.html",
+          "iconColor": null,
+          "icon": "people"
+        }
+      ]
+    },
+    {
+      "label": "Support ECON",
+      "url": "/support-econ/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "es": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About",
+      "children": [
+        {
+          "label": "Why Study ES",
+          "url": "/about-es/why-study-es.html",
+          "icon": "question-circle",
+          "iconColor": null
+        },
+        {
+          "label": "Our History - Our Way",
+          "url": "/about-es/our-history-our-way.html",
+          "iconColor": null,
+          "icon": "clock-history"
+        },
+        {
+          "label": "Island Connections",
+          "url": "/about-es/island-connections.html",
+          "iconColor": null,
+          "icon": "sun"
+        },
+        {
+          "label": "Ethnic Studies Student Association",
+          "url": "/about-es/ethnic-studies-student-association.html",
+          "iconColor": null,
+          "icon": "people"
+        }
+      ]
+    },
+    {
+      "label": "Courses",
+      "url": "/courses/"
+    },
+    {
+      "label": "Undergraduate",
+      "children": [
+        {
+          "label": "Certificate",
+          "url": "/undergraduate/certificate-es.html",
+          "iconColor": null,
+          "icon": "award"
+        },
+        {
+          "label": "Major (BA)",
+          "url": "/undergraduate/major-ba.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Double Majors",
+          "url": "/undergraduate/double-majors.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "BA/MA Pathway (BAM)",
+          "url": "/undergraduate/ba-ma-bam.html",
+          "iconColor": null,
+          "icon": "signpost-2"
+        }
+      ]
+    },
+    {
+      "label": "Center for Oral History",
+      "url": "/about-es/center-for-oral-history.html"
+    },
+    {
+      "label": "Faculty",
+      "url": "/faculty/"
+    },
+    {
+      "label": "Support ES",
+      "url": "/support-es/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "geo": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About",
+      "children": [
+        {
+          "label": "Why Study GEO",
+          "url": "/about-geo/why-study-geo.html",
+          "iconColor": null,
+          "icon": "question-circle"
+        },
+        {
+          "label": "Areas of Study",
+          "url": "/about-geo/areas-of-study.html",
+          "iconColor": null,
+          "icon": "layers"
+        },
+        {
+          "label": "Lecture Series",
+          "url": "/about-geo/lecture-series.html",
+          "iconColor": null,
+          "icon": "calendar3"
+        },
+        {
+          "label": "Department News",
+          "url": "/about-geo/department-news.html",
+          "iconColor": null,
+          "icon": "newspaper"
+        }
+      ]
+    },
+    {
+      "label": "Courses",
+      "url": "/about-geo/geo-courses.html"
+    },
+    {
+      "label": "Undergraduate",
+      "children": [
+        {
+          "label": "GIS Certificate",
+          "url": "/undergraduate/gis-certificate.html",
+          "iconColor": null,
+          "icon": "award"
+        },
+        {
+          "label": "Minor",
+          "url": "/undergraduate/minor.html",
+          "iconColor": null,
+          "icon": "book"
+        },
+        {
+          "label": "Major (BA)",
+          "url": "/undergraduate/major-ba.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "BA/MA Pathway (BAM)",
+          "url": "/undergraduate/geo-bam.html",
+          "iconColor": null,
+          "icon": "signpost-2"
+        },
+        {
+          "label": "SUST BA/GEO MA Pathway (BAM)",
+          "url": "/undergraduate/geo-sust-bam.html",
+          "iconColor": null,
+          "icon": "signpost-2"
+        }
+      ]
+    },
+    {
+      "label": "Graduate",
+      "children": [
+        {
+          "label": "Master’s (MA)",
+          "url": "/graduate/masters-ma.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Doctorate (PhD)",
+          "url": "/graduate/doctorate-phd.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Degrees Awarded",
+          "url": "/graduate/degrees-awarded.html",
+          "iconColor": null,
+          "icon": "layers"
+        },
+        {
+          "label": "Current Cohort",
+          "url": "/graduate/current-cohort.html",
+          "iconColor": null,
+          "icon": "people"
+        },
+        {
+          "label": "Funding Sources",
+          "url": "/graduate/funding-sources.html",
+          "iconColor": null,
+          "icon": "cash-coin"
+        }
+      ]
+    },
+    {
+      "label": "Faculty",
+      "children": [
+        {
+          "label": "Core Faculty",
+          "url": "/faculty/",
+          "iconColor": null,
+          "icon": "people"
+        },
+        {
+          "label": "Associated Faculty",
+          "url": "/faculty/associated.html",
+          "iconColor": null,
+          "icon": "people"
+        }
+      ]
+    },
+    {
+      "label": "Support GEO",
+      "url": "/support-geo/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "pols": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About",
+      "children": [
+        {
+          "label": "Why Study POLS",
+          "url": "/about-pols/why-study-pols.html",
+          "icon": "question-circle",
+          "iconColor": null
+        },
+        {
+          "label": "Specializations",
+          "url": "/about-pols/specializations.html",
+          "icon": "layers",
+          "iconColor": null
+        }
+      ]
+    },
+    {
+      "label": "Courses",
+      "url": "/courses/"
+    },
+    {
+      "label": "Undergraduate",
+      "children": [
+        {
+          "label": "Certificate (Law and Society)",
+          "url": "/undergraduate/certificate-law-and-society.html",
+          "iconColor": null,
+          "icon": "award"
+        },
+        {
+          "label": "Minor",
+          "url": "/undergraduate/minor.html",
+          "iconColor": null,
+          "icon": "book"
+        },
+        {
+          "label": "Major (BA)",
+          "url": "/undergraduate/major-ba.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "BA/MA Pathway (BAM)",
+          "url": "/undergraduate/pols-bam.html",
+          "iconColor": null,
+          "icon": "signpost-2"
+        },
+        {
+          "label": "Honors Track",
+          "url": "/undergraduate/honors-track.html",
+          "iconColor": null,
+          "icon": "star"
+        },
+        {
+          "label": "Opportunities",
+          "url": "/undergraduate/opportunities.html",
+          "iconColor": null,
+          "icon": "door-open"
+        },
+        {
+          "label": "Advising & Support",
+          "url": "/undergraduate/advising-support.html",
+          "iconColor": null,
+          "icon": "compass"
+        }
+      ]
+    },
+    {
+      "label": "Graduate",
+      "children": [
+        {
+          "label": "Master’s (MA)",
+          "url": "/graduate/master-ma.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Doctorate (PhD)",
+          "url": "/graduate/doctorate-phd.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Current Cohort",
+          "url": "/graduate/current-cohort.html",
+          "iconColor": null,
+          "icon": "people"
+        },
+        {
+          "label": "Funding Sources",
+          "url": "/graduate/funding-sources.html",
+          "iconColor": null,
+          "icon": "cash-coin"
+        }
+      ]
+    },
+    {
+      "label": "Faculty",
+      "url": "/faculty/"
+    },
+    {
+      "label": "Support POLS",
+      "url": "/support-pols/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "psy": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About",
+      "children": [
+        {
+          "label": "Why Study PSY",
+          "url": "/about-psy/why-study-psy.html",
+          "icon": "question-circle",
+          "iconColor": null
+        },
+        {
+          "label": "Diversity",
+          "url": "/about-psy/diversity.html",
+          "iconColor": null,
+          "icon": "people"
+        }
+      ]
+    },
+    {
+      "label": "Courses",
+      "url": "/about-psy/psy-courses.html"
+    },
+    {
+      "label": "Undergraduate",
+      "children": [
+        {
+          "label": "Minor",
+          "url": "/undergraduate/minor.html",
+          "iconColor": null,
+          "icon": "book"
+        },
+        {
+          "label": "Major (BA)",
+          "url": "/undergraduate/major-ba.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Major (BS)",
+          "url": "/undergraduate/major-bs.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "BA/MA Pathway (BAM)",
+          "url": "/undergraduate/psy-bam.html",
+          "iconColor": null,
+          "icon": "signpost-2"
+        },
+        {
+          "label": "Honors Track",
+          "url": "/undergraduate/honors-track.html",
+          "iconColor": null,
+          "icon": "star"
+        },
+        {
+          "label": "Advising & Support",
+          "url": "/undergraduate/advising-support.html",
+          "iconColor": null,
+          "icon": "compass"
+        }
+      ]
+    },
+    {
+      "label": "Graduate",
+      "children": [
+        {
+          "label": "Master’s (MA)",
+          "url": "/graduate/master-ma.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Doctorate (PhD)",
+          "url": "/graduate/doctorate-phd.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Program Areas",
+          "url": "/graduate/program-areas.html",
+          "iconColor": null,
+          "icon": "layers"
+        },
+        {
+          "label": "Current Cohort",
+          "url": "/graduate/current-cohort.html",
+          "iconColor": null,
+          "icon": "people"
+        },
+        {
+          "label": "Prospective Students",
+          "url": "/graduate/prospective-students.html",
+          "icon": "person-plus",
+          "iconColor": null
+        },
+        {
+          "label": "Applications & Admissions",
+          "url": "/graduate/applications-admissions.html",
+          "iconColor": null,
+          "icon": "file-earmark-check"
+        }
+      ]
+    },
+    {
+      "label": "Faculty",
+      "url": "/faculty/"
+    },
+    {
+      "label": "Support PSY",
+      "url": "/support-psy/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "puba": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About",
+      "children": [
+        {
+          "label": "Why Study PUBA",
+          "url": "/about-puba/why-study-puba.html",
+          "icon": "question-circle",
+          "iconColor": null
+        },
+        {
+          "label": "NASPAA Accreditation",
+          "url": "/about-puba/naspaa-accreditation.html",
+          "iconColor": null,
+          "icon": "file-earmark-check"
+        },
+        {
+          "label": "Advisory Board",
+          "url": "/about-puba/advisory-board.html",
+          "iconColor": null,
+          "icon": "people"
+        },
+        {
+          "label": "Alumni Network",
+          "url": "/about-puba/alumni-network.html",
+          "iconColor": null,
+          "icon": "people"
+        },
+        {
+          "label": "Pi Alpha Alpha",
+          "url": "/about-puba/pi-alpha-alpha.html",
+          "iconColor": null,
+          "icon": "star"
+        },
+        {
+          "label": "PUBA News",
+          "url": "/about-puba/puba-news.html",
+          "iconColor": null,
+          "icon": "newspaper"
+        }
+      ]
+    },
+    {
+      "label": "Courses",
+      "url": "/courses/"
+    },
+    {
+      "label": "Graduate Certificates",
+      "children": [
+        {
+          "label": "Nonprofit Management",
+          "url": "/graduate-certificate/nonprofit-management.html",
+          "iconColor": null,
+          "icon": "award"
+        },
+        {
+          "label": "Public Policy",
+          "url": "/graduate-certificate/public-policy.html",
+          "iconColor": null,
+          "icon": "award"
+        }
+      ]
+    },
+    {
+      "label": "Master’s (MPA)",
+      "url": "/graduate/master-mpa.html"
+    },
+    {
+      "label": "Faculty",
+      "children": [
+        {
+          "label": "Core Faculty",
+          "url": "/faculty/core-faculty.html",
+          "iconColor": null,
+          "icon": "people"
+        },
+        {
+          "label": "Associated Faculty",
+          "url": "/faculty/associated-faculty.html",
+          "iconColor": null,
+          "icon": "people"
+        }
+      ]
+    },
+    {
+      "label": "Support PUBA",
+      "url": "/support-puba/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "sci": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About",
+      "children": [
+        {
+          "label": "Why Study SCI",
+          "url": "/about-sci/why-study-sci.html",
+          "icon": "question-circle",
+          "iconColor": null
+        },
+        {
+          "label": "Alumni",
+          "url": "/about-sci/alumni.html",
+          "iconColor": null,
+          "icon": "people"
+        },
+        {
+          "label": "School News",
+          "url": "/about-sci/school-news.html",
+          "icon": "newspaper",
+          "iconColor": null
+        }
+      ]
+    },
+    {
+      "label": "Courses",
+      "url": "/courses/"
+    },
+    {
+      "label": "Programs",
+      "children": [
+        {
+          "label": "Communication",
+          "url": "/programs/communication.html",
+          "iconColor": null,
+          "icon": "chat-dots"
+        },
+        {
+          "label": "Communicology",
+          "url": "/programs/communicology.html",
+          "iconColor": null,
+          "icon": "chat-left-text"
+        },
+        {
+          "label": "Journalism",
+          "url": "/programs/journalism.html",
+          "iconColor": null,
+          "icon": "newspaper"
+        },
+        {
+          "label": "Library and Information Science",
+          "url": "/programs/library-and-information-science.html",
+          "iconColor": null,
+          "icon": "collection"
+        },
+        {
+          "label": "Matsunaga Institute for Peace",
+          "url": "/programs/matsunaga-institute-for-peace.html",
+          "iconColor": null,
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "label": "Undergraduate",
+      "children": [
+        {
+          "label": "Peace Studies Certificate",
+          "url": "/undergraduate/peace-studies-certificate.html",
+          "iconColor": null,
+          "icon": "award"
+        },
+        {
+          "label": "COMG Minor",
+          "url": "/undergraduate/comg-minor.html",
+          "iconColor": null,
+          "icon": "book"
+        },
+        {
+          "label": "COM Major (BA)",
+          "url": "/undergraduate/com-major-ba.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "COMG Major (BA)",
+          "url": "/undergraduate/comg-major-ba.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Interdisciplinary (BA)",
+          "url": "/undergraduate/interdisciplinary-ba.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "JOUR Major (BA)",
+          "url": "/undergraduate/jour-major-ba.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "COMG BA/MA Pathway (BAM)",
+          "url": "/undergraduate/comg-bam.html",
+          "iconColor": null,
+          "icon": "signpost-2"
+        }
+      ]
+    },
+    {
+      "label": "Graduate",
+      "children": [
+        {
+          "label": "Certificate in Conflict Resolution",
+          "url": "/graduate/certificate-conflict-resolution.html",
+          "iconColor": null,
+          "icon": "award"
+        },
+        {
+          "label": "COM Master’s (MA)",
+          "url": "/graduate/com-master-ma.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "COMG Master’s (MA)",
+          "url": "/graduate/comg-master-ma.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Master in LIS (MLIS)",
+          "url": "/graduate/master-mlis.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "CIS Interdisciplinary (PhD)",
+          "url": "/graduate/cis-interdisciplinary-phd.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        }
+      ]
+    },
+    {
+      "label": "Faculty",
+      "url": "/faculty/"
+    },
+    {
+      "label": "Support SCI",
+      "url": "/support-sci/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "soc": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About",
+      "children": [
+        {
+          "label": "Why Study SOC",
+          "url": "/about-soc/why-study-soc.html",
+          "icon": "question-circle",
+          "iconColor": null
+        },
+        {
+          "label": "Research Areas",
+          "url": "/about-soc/areas-of-study.html",
+          "iconColor": null,
+          "icon": "layers"
+        },
+        {
+          "label": "History",
+          "url": "/about-soc/history.html",
+          "iconColor": null,
+          "icon": "clock-history"
+        },
+        {
+          "label": "Colloquia",
+          "url": "/about-soc/colloquia.html",
+          "iconColor": null,
+          "icon": "calendar3"
+        },
+        {
+          "label": "Department News",
+          "url": "/about-soc/department-news.html",
+          "iconColor": null,
+          "icon": "newspaper"
+        }
+      ]
+    },
+    {
+      "label": "Courses",
+      "url": "/about-soc/soc-courses.html"
+    },
+    {
+      "label": "Undergraduate",
+      "children": [
+        {
+          "label": "Minor",
+          "url": "/undergraduate/minor.html",
+          "iconColor": null,
+          "icon": "book"
+        },
+        {
+          "label": "Major (BA)",
+          "url": "/undergraduate/major.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "BA/MA Pathway (BAM)",
+          "url": "/undergraduate/bam.html",
+          "iconColor": null,
+          "icon": "signpost-2"
+        },
+        {
+          "label": "Honors Track",
+          "url": "/undergraduate/honors-track.html",
+          "iconColor": null,
+          "icon": "star"
+        },
+        {
+          "label": "Funding Sources",
+          "url": "/undergraduate/funding-sources.html",
+          "iconColor": null,
+          "icon": "cash-coin"
+        },
+        {
+          "label": "Advising & Support",
+          "url": "/undergraduate/advising-support.html",
+          "iconColor": null,
+          "icon": "compass"
+        }
+      ]
+    },
+    {
+      "label": "Graduate",
+      "children": [
+        {
+          "label": "Master’s (MA)",
+          "url": "/graduate/master-ma.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Doctorate (PhD)",
+          "url": "/graduate/doctorate-phd.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Current Cohort",
+          "url": "/graduate/current-cohort.html",
+          "iconColor": null,
+          "icon": "people"
+        },
+        {
+          "label": "Funding Sources",
+          "url": "/graduate/funding-sources.html",
+          "iconColor": null,
+          "icon": "cash-coin"
+        }
+      ]
+    },
+    {
+      "label": "Faculty",
+      "url": "/faculty/"
+    },
+    {
+      "label": "Support SOC",
+      "url": "/support-soc/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "wgss": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About",
+      "children": [
+        {
+          "label": "Why Study WGSS",
+          "url": "/about-wgss/why-study-wgss.html",
+          "icon": "question-circle",
+          "iconColor": null
+        },
+        {
+          "label": "Job Prospects",
+          "url": "/about-wgss/jobs-prospects.html",
+          "iconColor": null,
+          "icon": "briefcase"
+        },
+        {
+          "label": "Alumni",
+          "url": "/about-wgss/alumni.html",
+          "iconColor": null,
+          "icon": "people"
+        },
+        {
+          "label": "Colloquia",
+          "url": "/about-wgss/colloquia.html",
+          "iconColor": null,
+          "icon": "calendar3"
+        }
+      ]
+    },
+    {
+      "label": "Courses",
+      "url": "/about-wgss/wgss-courses.html"
+    },
+    {
+      "label": "Undergraduate",
+      "children": [
+        {
+          "label": "WGSS Certificate",
+          "url": "/undergraduate/certificate.html",
+          "iconColor": null,
+          "icon": "award"
+        },
+        {
+          "label": "Queer Studies Certificate",
+          "url": "/undergraduate/queer-studies.html",
+          "iconColor": null,
+          "icon": "award"
+        },
+        {
+          "label": "Major (BA)",
+          "url": "/undergraduate/major-ba.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Major (BA) Online",
+          "url": "/undergraduate/major-ba-online.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Double Majors",
+          "url": "/undergraduate/double-majors.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "Honors Track",
+          "url": "/undergraduate/honors-track.html",
+          "iconColor": null,
+          "icon": "star"
+        }
+      ]
+    },
+    {
+      "label": "Graduate",
+      "children": [
+        {
+          "label": "WGSS Certificate",
+          "url": "/graduate/graduate-certificate.html",
+          "iconColor": null,
+          "icon": "award"
+        }
+      ]
+    },
+    {
+      "label": "Faculty",
+      "url": "/faculty/"
+    },
+    {
+      "label": "Support WGSS",
+      "url": "/support-wgss/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "css": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About",
+      "children": [
+        {
+          "label": "Overview",
+          "url": "/about-css/overview.html",
+          "icon": "info-circle",
+          "iconColor": null
+        },
+        {
+          "label": "Research & Innovation",
+          "url": "/about-css/research-and-innovation.html",
+          "icon": "lightbulb",
+          "iconColor": null
+        },
+        {
+          "label": "Awards and Recognition",
+          "url": "/about-the-college/awards-and-recognition.html",
+          "iconColor": null,
+          "icon": "trophy"
+        },
+        {
+          "label": "Alumni Connections",
+          "url": "/about-the-college/alumni-connections.html",
+          "iconColor": null,
+          "icon": "people"
+        },
+        {
+          "label": "College News",
+          "url": "/about-css/college-news.html",
+          "icon": "newspaper",
+          "iconColor": null
+        }
+      ]
+    },
+    {
+      "label": "Study at CSS",
+      "children": [
+        {
+          "label": "Fields of Study",
+          "url": "/study-at-css/fields-of-study.html",
+          "iconColor": null,
+          "icon": "layers"
+        },
+        {
+          "label": "Degrees and Certificates",
+          "url": "/study-at-css/degrees-and-certificates.html",
+          "iconColor": null,
+          "icon": "mortarboard"
+        },
+        {
+          "label": "BAM Pathways",
+          "url": "/study-at-css/bam-pathways.html",
+          "iconColor": null,
+          "icon": "signpost-2"
+        },
+        {
+          "label": "Interdisciplinary Programs",
+          "url": "/study-at-css/interdisciplinary-programs.html",
+          "iconColor": null,
+          "icon": "diagram-3"
+        },
+        {
+          "label": "International Studies",
+          "url": "/study-at-css/international-studies.html",
+          "iconColor": null,
+          "icon": "globe"
+        },
+        {
+          "label": "Online Programs",
+          "url": "/study-at-css/online-programs.html",
+          "iconColor": null,
+          "icon": "laptop"
+        },
+        {
+          "label": "Transfer Pathways",
+          "url": "/study-at-css/transfer-pathways.html",
+          "iconColor": null,
+          "icon": "arrow-left-right"
+        }
+      ]
+    },
+    {
+      "label": "Experiential Learning",
+      "children": [
+        {
+          "label": "Internships",
+          "url": "/experiential-learning/internships.html",
+          "iconColor": null,
+          "icon": "briefcase"
+        },
+        {
+          "label": "Field Schools",
+          "url": "/experiential-learning/field-schools.html",
+          "iconColor": null,
+          "icon": "geo-alt"
+        },
+        {
+          "label": "Leadership Programs",
+          "url": "/experiential-learning/leadership-programs.html",
+          "iconColor": null,
+          "icon": "flag"
+        },
+        {
+          "label": "Student Research",
+          "url": "/experiential-learning/student-research.html",
+          "iconColor": null,
+          "icon": "bar-chart-line"
+        },
+        {
+          "label": "Service Learning",
+          "url": "/experiential-learning/service-learning.html",
+          "iconColor": null,
+          "icon": "hand-thumbs-up"
+        }
+      ]
+    },
+    {
+      "label": "Support & Resources",
+      "children": [
+        {
+          "label": "Admissions",
+          "url": "/support-resources/admissions.html",
+          "iconColor": null,
+          "icon": "file-earmark-check"
+        },
+        {
+          "label": "Academic Advising",
+          "url": "/support-resources/academic-advising.html",
+          "iconColor": null,
+          "icon": "compass"
+        },
+        {
+          "label": "For New Students",
+          "url": "/support-resources/for-new-students.html",
+          "iconColor": null,
+          "icon": "person-plus"
+        },
+        {
+          "label": "For Parents and Families",
+          "url": "/support-resources/for-parents-and-families.html",
+          "iconColor": null,
+          "icon": "people"
+        },
+        {
+          "label": "College Life",
+          "url": "/support-resources/college-life.html",
+          "iconColor": null,
+          "icon": "journal-check"
+        },
+        {
+          "label": "Student Essentials",
+          "url": "/support-resources/student-essentials.html",
+          "iconColor": null,
+          "icon": "list-check"
+        },
+        {
+          "label": "Frequently Asked Questions",
+          "url": "/support-resources/frequently-asked-questions.html",
+          "iconColor": null,
+          "icon": "question-circle"
+        }
+      ]
+    },
+    {
+      "label": "Support CSS",
+      "url": "/give/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "ssri": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Research",
+      "url": "/research/"
+    },
+    {
+      "label": "Support",
+      "children": [
+        {
+          "label": "Research Services",
+          "url": "/support/research-services.html",
+          "iconColor": null,
+          "icon": "bar-chart-line"
+        },
+        {
+          "label": "Fiscal/Compliance",
+          "url": "/support/fiscal-compliance.html",
+          "iconColor": null,
+          "icon": "cash-coin"
+        },
+        {
+          "label": "Grant Development",
+          "url": "/support/grant-development.html",
+          "iconColor": null,
+          "icon": "file-earmark-check"
+        }
+      ]
+    },
+    {
+      "label": "Directory",
+      "url": "/directory/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/"
+    }
+  ]
+}

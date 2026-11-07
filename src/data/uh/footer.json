@@ -106,5 +106,13 @@
 "webmaster": {
 "label": "Webmaster",
 "email": "cssweb@hawaii.edu"
+},
+"language": {
+"showHeading": true,
+"presentation": "enhanced"
+},
+"background": {
+"desktopTablet": "/media/branding/backgrounds/uh-pattern-horz-white.svg",
+"mobile": "/media/branding/backgrounds/uh-pattern-horz-white.svg"
 }
 }

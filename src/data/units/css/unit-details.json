@@ -30,5 +30,8 @@
 "email": {
 "label": "cssinfo@hawaii.edu",
 "href": "mailto:cssinfo@hawaii.edu"
+},
+"footerIdentity": {
+"name": "College of Social Sciences"
 }
 }

@@ -50,7 +50,8 @@ const unitsDirectory = path.join(root, 'data/units');
 const seenNames = new Set();
 let unitsChecked = 0;
 for (const entry of fs.readdirSync(unitsDirectory, { withFileTypes: true })) {
-if (!entry.isDirectory()) continue;
+// Specimen site: no required unit contacts; JSON/assets/navigation are checked separately.
+if (!entry.isDirectory() || entry.name === 'style-guide') continue;
 const unitDirectory = path.join(unitsDirectory, entry.name);
 const siteFile = path.join(unitDirectory, 'unit-details.json');
 if (!fs.existsSync(siteFile)) continue;
@@ -83,7 +84,7 @@ if (fs.existsSync(socialFile)) {
 const social = JSON.parse(fs.readFileSync(socialFile, 'utf8'));
 if (!Array.isArray(social.links)) fail('social.json links must be an array.');
 for (const link of social.links) {
-if (!link.label || !/^https?:\/\//.test(link.url)) fail('Social links require labels and web URLs.');
+if (!link.label || typeof link.url !== 'string' || (link.url.trim() && !/^https?:\/\/\S+$/.test(link.url.trim()))) fail('Social links require labels and either an empty URL or a web URL.');
 if (link.icon && !fs.existsSync(path.join(root, 'media/icons', link.icon + '.svg'))) fail(`Social icon missing: ${link.icon}`);
 }
 if (social.bluesky?.enabled && !social.bluesky.actor) fail('Enabled Bluesky feed requires an actor.');

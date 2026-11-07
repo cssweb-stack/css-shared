@@ -1,7 +1,7 @@
 /* TAGLINE */
 .site-main .tagline {
-font-size: 1.35rem;
-font-weight: 500;
+font-size: 1.45rem;
+font-weight: 400;
 color: var(--color-blue);
 margin-top: 0;
 margin-bottom: 1rem;
@@ -18,14 +18,28 @@ margin-bottom: 2rem;
 
 /* Accent */
 .site-main .accent {
-color: var(--accent);
+color: var(--accent-warm);
 font-weight: 300;
+}
+
+/* One alignment method for every special-text icon. */
+.info,
+.date,
+.email,
+.phone,
+.action,
+.site-main .smile {
+align-items: center;
+}
+
+.icon-text,
+.site-main .smile > span {
+min-width: 0;
 }
 
 /* Action */
 .action {
 display: inline-flex;
-align-items: baseline;
 gap: 0.5rem;
 }
 
@@ -33,12 +47,11 @@ gap: 0.5rem;
 content: "";
 display: block;
 flex: 0 0 1em;
-align-self: center;
 width: 1em;
 height: 1em;
-background-color: var(--color-blue);
--webkit-mask: url("../media/icons/chevron-right.svg") center / contain no-repeat;
-mask: url("../media/icons/chevron-right.svg") center / contain no-repeat;
+background-color: var(--icons);
+-webkit-mask: url("../media/icons/arrow-right-circle.svg") center / contain no-repeat;
+mask: url("../media/icons/arrow-right-circle.svg") center / contain no-repeat;
 }
 
 /* Note */
@@ -57,8 +70,8 @@ font-size: 1.14rem;
 .date,
 .email,
 .phone {
-position: relative;
-padding-inline-start: calc(1em + 0.45rem);
+display: flex;
+gap: 0.45em;
 }
 
 .info::before,
@@ -66,12 +79,11 @@ padding-inline-start: calc(1em + 0.45rem);
 .email::before,
 .phone::before {
 content: "";
-position: absolute;
-inset-inline-start: 0;
-top: 0.375em;
+display: block;
+flex: 0 0 1em;
 width: 1em;
 height: 1em;
-background-color: var(--mid-gray);
+background-color: var(--icons);
 -webkit-mask-position: center;
 mask-position: center;
 -webkit-mask-size: contain;
@@ -112,7 +124,6 @@ mask-image: url("../media/icons/telephone.svg");
 /* Smile */
 .site-main .smile {
 display: flex;
-align-items: center;
 gap: 1rem;
 font-size: 1.5rem;
 margin-top: 2.25rem;
@@ -123,7 +134,7 @@ margin-bottom: 2.25rem;
 flex: 0 0 3rem;
 width: 5rem;
 height: 5rem;
-color: var(--color-gold);
+color: var(--accent-warm);
 }
 
 /* Lecture details */

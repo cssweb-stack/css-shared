@@ -4,11 +4,9 @@ position: relative;
 isolation: isolate;
 overflow: hidden;
 box-sizing: border-box;
+aspect-ratio: 1;
 background: var(--tile-color);
 color: var(--tile-text, var(--white));
-border: 1px solid var(--mid-gray);
-border-radius: 6px;
-filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.25));
 }
 
 .tile-style::before {
@@ -31,15 +29,6 @@ position: relative;
 z-index: 1;
 }
 
-/* Additional Tile Colors */
-.tile-bronze {
---tile-color: var(--color-bronze);
-}
-
-.tile-brown {
---tile-color: var(--color-brown);
-}
-
 /* Homepage Program Tiles: Square Layout */
 .program-tile {
 container-type: inline-size;
@@ -47,7 +36,6 @@ display: grid;
 align-content: center;
 justify-items: center;
 min-width: 0;
-aspect-ratio: 1 / 1;
 padding: 10%;
 text-align: center;
 text-decoration-line: none;
@@ -129,7 +117,6 @@ gap: 0.125rem;
 padding: 0.75rem;
 text-align: center;
 color: var(--white);
-aspect-ratio: 1 / 1;
 align-self: start;
 }
 
@@ -158,7 +145,8 @@ color: inherit;
 text-align: center;
 }
 
-/* Icon-Only Tiles */
+/* Shared centered tile content. */
+.square-tile,
 .icon-tile {
 display: flex;
 align-items: center;
@@ -166,9 +154,15 @@ justify-content: center;
 padding: 1.5rem;
 }
 
+.square-tile {
+font-weight: 600;
+}
+
+/* Icon-only tiles share one size and opacity rule across sites. */
 .icon-tile svg {
 display: block;
 width: min(52px, 65%);
+opacity: 0.75;
 height: auto;
 aspect-ratio: 1;
 fill: currentColor;

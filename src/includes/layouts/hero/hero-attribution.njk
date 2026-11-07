@@ -3,9 +3,9 @@
 {% if not assignedHero %}{% set assignedHero = faculty_heroes.pages[page.url] %}{% endif %}
 {% set heroCredit = assignedHero.credit | default(heroes.credit, true) %}
 {% if assignedHero and assignedHero.credit != false and site.hero.showAttribution != false and heroCredit.source and heroCredit.url %}
-<aside class="hero-attribution" aria-label="Imagery attribution">
+<aside class="hero-attribution" aria-label="Banner photo credit">
 <div class="container hero-attribution-inner">
-<p><span class="hero-attribution-label">Imagery:</span> <a href="{{ heroCredit.url }}">{{ heroCredit.source | escape }}</a></p>
+<p><span class="hero-attribution-label">Banner photo:</span> <a href="{{ heroCredit.url }}">{{ heroCredit.source | escape }}</a></p>
 </div>
 </aside>
 {% endif %}

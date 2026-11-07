@@ -18,5 +18,13 @@
 "languageAccess": {
 "label": "Free Interpretation Services",
 "url": "https://www.hawaii.edu/equity/language-access/"
+},
+"college": {
+"label": "College of Social Sciences",
+"url": "https://socialsciences.manoa.hawaii.edu/"
+},
+"university": {
+"label": "University of Hawaiʻi at Mānoa",
+"url": "https://manoa.hawaii.edu/"
 }
 }

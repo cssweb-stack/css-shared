@@ -29,5 +29,8 @@
 "email": {
 "label": "pubadmin@hawaii.edu",
 "href": "mailto:pubadmin@hawaii.edu"
+},
+"footerIdentity": {
+"name": "Public Administration Program"
 }
 }

@@ -1,0 +1,82 @@
+[
+{
+"label": "Home",
+"url": "/"
+},
+{
+"label": "UH Mānoa Branding",
+"children": [
+{
+"label": "Headers",
+"url": "/headers/"
+},
+{
+"label": "Footers",
+"url": "/footers/"
+}
+]
+},
+{
+"label": "Banners",
+"children": [
+{
+"label": "Image Banner",
+"url": "/banners/image-banner/"
+},
+{
+"label": "Banner with Label",
+"url": "/banners/banner-with-label/"
+},
+{
+"label": "Banner with Label and Credit",
+"url": "/banners/banner-with-label-and-credit/"
+}
+]
+},
+{
+"label": "Typography",
+"url": "/typography/"
+},
+{
+"label": "Colors",
+"url": "/colors/"
+},
+{
+"label": "Grids",
+"children": [
+{
+"label": "Equal Size",
+"url": "/layout/grids/"
+},
+{
+"label": "Left Sidebar",
+"url": "/layout/grids/left-sidebar/"
+},
+{
+"label": "Right Sidebar",
+"url": "/layout/grids/right-sidebar/"
+}
+]
+},
+{
+"label": "Components",
+"children": [
+{
+"label": "Callouts",
+"url": "/components/callouts/"
+},
+{
+"label": "Buttons",
+"url": "/components/buttons/"
+},
+{
+"label": "Tiles and Photo",
+"url": "/components/tiles-and-photo/"
+},
+{
+"label": "Text with Icons",
+"url": "/special-text/"
+}
+]
+}
+]
