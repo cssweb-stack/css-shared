@@ -357,6 +357,12 @@ overflow-wrap: anywhere;
 min-width: 0;
 }
 
+.sidebar-group > address {
+display: grid;
+gap: inherit;
+}
+
+.site-main .sidebar-group > address > p,
 .site-main .sidebar-group > :is(h2, h3, p, address) {
 margin: 0;
 }
@@ -367,7 +373,8 @@ font-weight: 600;
 }
 
 .sidebar-group > img {
-margin-bottom: 1rem;
+/* Combined with the 0.5rem group gap: 1rem from photo to name. */
+margin-bottom: .5rem;
 }
 
 .sidebar-group + .sidebar-group {

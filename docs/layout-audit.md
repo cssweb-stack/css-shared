@@ -37,3 +37,10 @@ Do not rewrite the accepted SSRI layouts during the content review merely becaus
 CSS Grid occurs within a component. A future decision to implement all component
 columns with Bootstrap should include sidebar single-item half-width behavior,
 container-relative wrapping, and directory alignment in its migration criteria.
+
+## Required content/sidebar gutter
+
+All content/sidebar rows use Bootstrap `gx-lg-5` (3rem horizontal gutter from
+992px upward), across sites. No page-specific desktop gutter variants. SSRI's
+homepage, HCRI, HAM, OENAS, TASI/PHIDC, and Grant Development now all use it.
+Smaller-screen gutters and vertical component gaps remain separate settings.

@@ -25,7 +25,7 @@ SSRI's homepage is the first consumer. Its images, destinations, link text,
 image sizing, and source/tab order remain unchanged. No header, footer, or
 people-directory rules are involved.
 
-HCRI reuses this pattern with two group wrappers: logo/office and contacts.
+HCRI reuses this pattern with two group wrappers: logo and office/contacts.
 Its outer Bootstrap columns now start at `lg` (992px), matching the homepage's
 wrap threshold. Portrait tablet widths below that threshold put the sidebar
 below the main content; landscape widths of 992px+ retain the right sidebar.
@@ -52,3 +52,17 @@ the main column's trailing margin/padding so they do not add to that spacing.
 The line stays inside the column gutters. Desktop and phone layouts retain
 their existing spacing and have no added divider. All six current SSRI
 sidebar consumers opt into this shared row pattern.
+
+Within `.sidebar-group`, address paragraphs now use the same inherited 0.5rem
+gap as headings, titles and email details, with default paragraph margins
+removed. HCRI keeps Main Office, Christina and Charissa together as three
+consecutive `.sidebar-group` blocks: each block separation is the existing
+shared 1.5rem. In the wide wrapped layout, the logo is on the left and all
+three information blocks are on the right, with Main Office above Christina.
+
+## Required content/sidebar gutter
+
+All content/sidebar rows use Bootstrap `gx-lg-5` (3rem horizontal gutter from
+992px upward), across sites. No page-specific desktop gutter variants. SSRI's
+homepage, HCRI, HAM, OENAS, TASI/PHIDC, and Grant Development now all use it.
+Smaller-screen gutters and vertical component gaps remain separate settings.
