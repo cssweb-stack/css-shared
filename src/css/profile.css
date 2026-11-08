@@ -351,8 +351,13 @@ gap: .5rem;
 text-align: left;
 }
 
-.site-main .sidebar-person > :is(h3, p) {
+.site-main .sidebar-person > :is(h2, h3, p) {
 margin: 0;
+}
+
+.site-main .sidebar-person > :is(h2, h3) {
+font-size: 1.125rem;
+font-weight: 600;
 }
 
 .sidebar-person > img {

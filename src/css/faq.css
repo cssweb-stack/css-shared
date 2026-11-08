@@ -1,0 +1,13 @@
+/* Question and answer belong together; consecutive FAQs have a larger gap. */
+.faq {
+display: grid;
+gap: .5rem;
+}
+
+.site-main .faq > :is(h3, p, ul, ol) {
+margin-block: 0;
+}
+
+.faq + .faq {
+margin-top: 1.5rem;
+}
