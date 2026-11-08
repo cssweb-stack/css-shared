@@ -343,3 +343,23 @@ width: 112px;
 height: 112px;
 object-fit: cover;
 }
+
+/* Sidebar people: compact contact blocks, separate from faculty profiles. */
+.sidebar-person {
+display: grid;
+gap: .5rem;
+text-align: left;
+}
+
+.site-main .sidebar-person > :is(h3, p) {
+margin: 0;
+}
+
+.sidebar-person > img {
+margin-bottom: 1rem;
+}
+
+address + .sidebar-person,
+.sidebar-person + .sidebar-person {
+margin-top: 1.5rem;
+}
