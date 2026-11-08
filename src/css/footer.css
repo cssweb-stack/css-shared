@@ -273,11 +273,16 @@ text-align: left;
 justify-content: flex-start;
 }
 
+/* Acronym size follows its own column width, adjusted for character count. */
+.footer-unit-acronym {
+container-type: inline-size;
+}
+
 /* Upper, unit short name */
 .site-footer .footer-unit-short-name {
 margin: 0 0 0.5rem;
 padding: 0;
-font-size: 3.5rem;
+font-size: clamp(1rem, calc(130cqi / var(--footer-acronym-characters, 4)), 8rem);
 opacity: 0.75;
 line-height: 1.6;
 font-weight: 800;
@@ -301,7 +306,7 @@ font-weight: 300;
 
 /* Parent organizations and address lines share one compact detail treatment. */
 .site-footer .footer-parent-links,
-.footer-contact .footer-address {
+.footer-unit-identity .footer-address {
 display: grid;
 gap: var(--footer-detail-gap);
 margin: 0 0 var(--footer-unit-group-gap);
@@ -310,10 +315,11 @@ font-size: 0.875rem;
 font-weight: 400;
 line-height: 1.6;
 list-style: none;
+font-style: normal;
 }
 
 .footer-parent-links li,
-.footer-contact .footer-address > p {
+.footer-unit-identity .footer-address > p {
 margin: 0;
 padding: 0;
 font-size: inherit;
@@ -329,6 +335,18 @@ font-weight: inherit;
 line-height: inherit;
 }
 
+.site-footer .footer-inner .footer-parent-links li:first-child a {
+font-weight: 500;
+}
+
+.site-footer .footer-inner .footer-parent-links li:last-child a {
+font-weight: 400;
+}
+
+.site-footer .footer-unit-identity .footer-address {
+font-weight: 300;
+}
+
 .footer-contact .footer-phone,
 .footer-contact .footer-email {
 margin: 0 0 var(--footer-unit-group-gap);
@@ -336,7 +354,6 @@ padding: 0;
 }
 
 /* Upper, address and link size and weight */
-.site-footer .footer-inner .footer-address,
 .site-footer .footer-inner a {
 font-size: 0.875rem;
 font-weight: 400;
@@ -518,12 +535,18 @@ min-width: 0;
 }
 
 @media (min-width: 992px) {
-.footer-university-links {
-padding-top: 3rem;
-}
-
 .site-footer .footer-university-links a {
 font-size: 1rem;
+}
+}
+
+/* Separate unit details from university links when the outer sections stack. */
+@media (max-width: 991.98px) {
+.site-footer .footer-university-links::before {
+content: "";
+display: block;
+border-top: 1px solid var(--footer-rule-color);
+margin-bottom: var(--layout-section-spacing);
 }
 }
 

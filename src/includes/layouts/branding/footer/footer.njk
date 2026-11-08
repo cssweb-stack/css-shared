@@ -19,10 +19,12 @@
 <div class="row gx-lg-5 footer-grid">
 <div class="col-12 col-lg-3 footer-unit-column">
 <div class="row gx-0 gx-sm-5 footer-unit-layout">
-<div class="col-12 col-sm-4 col-lg-12 footer-unit-identity">
+<div class="col-12 col-sm-4 col-lg-12 footer-unit-acronym">
 {% if site.shortName %}
-<p class="footer-unit-short-name">{{ site.shortName | escape }}</p>
+<p class="footer-unit-short-name" style="--footer-acronym-characters: {{ site.shortName | length }};">{{ site.shortName | escape }}</p>
 {% endif %}
+</div>
+<div class="col-12 col-sm-4 col-lg-12 footer-unit-identity">
 <p class="footer-unit-name">{% if site.footerIdentity.prefix %}<span class="footer-unit-prefix">{{ site.footerIdentity.prefix | escape }}</span> {% endif %}{{ site.footerIdentity.name | default(site.name) | escape }}</p>
 <ul class="footer-parent-links">
 {% if site.shortName != 'CSS' %}
@@ -30,12 +32,12 @@
 {% endif %}
 <li><a href="{{ common.links.university.url | escape }}">{{ common.links.university.label | escape }}</a></li>
 </ul>
-
-</div>
-<address class="col-12 col-sm-8 col-lg-12 footer-contact">
 {% if site.address | length %}
-<div class="footer-address">{% for line in site.address %}<p>{{ line | escape }}</p>{% endfor %}</div>
+<address class="footer-address">{% for line in site.address %}<p>{{ line | escape }}</p>{% endfor %}</address>
 {% endif %}
+</div>
+<address class="col-12 col-sm-4 col-lg-12 footer-contact">
+
 
 {% if site.phone %}
 <p class="footer-phone">

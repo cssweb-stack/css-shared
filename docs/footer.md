@@ -224,3 +224,42 @@ organization-link minimum height, no divider, left alignment, matching contact
 and second-list-column x coordinates on tablet, and no footer overflow. Results
 are in `exports/footer-detail-spacing-2026-11-08.json`. All three builds and the
 shared checker passed. Actual iPad refresh/review remains the next visual check.
+
+## Footer top alignment
+
+Removed the legacy 3rem top padding on `.footer-university-links` at lg widths.
+The identity and link-list columns now share a top edge. Acronyms remain text.
+Natural font metrics still determine the visible glyph tops.
+
+## Tablet upper footer: three groups
+
+Supersedes the earlier two-group tablet arrangement: acronym, unit name/parent
+links, and contact details are three sibling Bootstrap `col-12 col-sm-4 col-lg-12`
+blocks. They form equal thirds at 576–991.98px, matching the university link
+columns below; on phones and desktop they stack. All remain left aligned.
+Acronym typography is unchanged; automatic text fitting is deferred.
+
+## Unit hierarchy, responsive acronym and section divider
+
+The three tablet groups are now: acronym; unit name/parent organizations/mailing
+address; phone/email/social/privacy contacts. Desktop/phone keep the same source
+order stacked. The mailing address is an `address` block beneath the university
+link; phone/email lead the separate contact column.
+
+The acronym remains text. Its wrapper is an inline-size container; font size is
+`clamp(1rem, calc(130cqi / var(--footer-acronym-characters)), 8rem)`. The template
+sets the character count from `site.shortName`. This is responsive column-based
+sizing, not JavaScript measurement or an exact glyph-by-glyph text fitter.
+Weights: acronym 800, unit name 600, college link 500, university link 400,
+mailing address 300. Parent/address line spacing remains shared.
+
+Below 992px, a pseudo-element above the university-link list draws one white
+40%-opacity rule (`--footer-rule-color`). Shared section spacing supplies the
+gap above and below it. There is no extra divider on desktop and no rule in
+the Webmaster/Privacy group.
+
+Chrome verified responsive SSRI acronym fit, address location/weight, phone-first
+contact order, divider breakpoint, tablet alignment and no overflow in 32 cases.
+Measurements: `exports/footer-unit-hierarchy-2026-11-08.json`. Actual iPad visual
+review and exact-fit testing of future/unusually wide abbreviations remain
+separate from these checks.
