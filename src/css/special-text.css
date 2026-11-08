@@ -8,6 +8,10 @@ margin-bottom: 1rem;
 }
 
 /* Intro */
+.site-main :is(.intro, .intro-nbrd) {
+line-height: 1.75;
+}
+
 .site-main .intro {
 font-size: 1.14rem;
 border-bottom: 1px solid var(--light-gray);

@@ -6,7 +6,7 @@ outline-offset: 2px;
 body {
 font-family: 'Inter', 'Arial', sans-serif;
 font-weight: 400;
-line-height: 1.5;
+line-height: 1.6;
 color: var(--black);
 }
 
@@ -21,7 +21,7 @@ text-decoration-color: color-mix(in srgb, currentColor 60%, transparent);
 
 /* Explicit heading rhythm overrides Bootstrap's tighter heading default. */
 .site-main :is(h1, h2, h3, h4, h5, h6) {
-line-height: 1.5;
+line-height: 1.6;
 }
 
 .site-main h1 {
