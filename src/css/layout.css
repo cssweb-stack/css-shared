@@ -97,10 +97,9 @@ margin-top: 0;
 margin-bottom: 0;
 }
 
-/* Section introductions do not add a second bottom inset or divider. */
+/* Section introductions do not add a second bottom inset. */
 .site-main .page-section-inner > .intro {
 padding-bottom: 0;
-border-bottom: 0;
 }
 
 /* Bottom spacing between grid sections */
