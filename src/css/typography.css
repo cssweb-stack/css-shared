@@ -10,6 +10,12 @@ line-height: 1.6;
 color: var(--black);
 }
 
+/* Shared link color; component-specific link rules retain their own colors. */
+a,
+a:hover {
+color: var(--link-color);
+}
+
 /* Shared link underline appearance, including linked headings and titles */
 a,
 a * {
