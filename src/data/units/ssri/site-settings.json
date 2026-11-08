@@ -8,8 +8,8 @@
 "showLocation": false,
 "showAttribution": false,
 "overlay": {
-"color": "var(--color-teal)",
-"opacity": 0
+"color": "var(--uh-green)",
+"opacity": 0.33
 }
 }
 }
