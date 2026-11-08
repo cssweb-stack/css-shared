@@ -33,7 +33,7 @@
 </div>
 <address class="footer-contact">
 {% if site.address | length %}
-<p class="footer-address">{% for line in site.address %}{{ line | escape }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
+<div class="footer-address">{% for line in site.address %}<p>{{ line | escape }}</p>{% endfor %}</div>
 {% endif %}
 
 {% if site.phone %}

@@ -40,3 +40,15 @@ to preserve internal spacing without applying sibling-group top margins across
 the grid. All four portraits use the shared `.sidebar-media` width/cap, so a
 single-contact page has the same portrait sizing as a two-contact page. Phones
 use one full-width track; portraits retain the same 18rem maximum.
+
+## Tablet divider
+
+Add `content-sidebar` to the outer Bootstrap row that holds the main column
+and `sidebar-resources`. At 576–991.98px, the wrapped resource grid gets the
+same 1px light-gray divider and 2rem spacing above/below as `.intro`. Both
+use `--content-divider-border` and `--content-divider-spacing`, defined in
+`special-text.css`. The tablet rule removes the row's sidebar top gutter and
+the main column's trailing margin/padding so they do not add to that spacing.
+The line stays inside the column gutters. Desktop and phone layouts retain
+their existing spacing and have no added divider. All six current SSRI
+sidebar consumers opt into this shared row pattern.

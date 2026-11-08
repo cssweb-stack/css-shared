@@ -7,6 +7,12 @@ margin-top: 0;
 margin-bottom: 1rem;
 }
 
+/* Shared divider treatment for intros and separated content groups. */
+:root {
+--content-divider-border: 1px solid var(--light-gray);
+--content-divider-spacing: 2rem;
+}
+
 /* Intro */
 .site-main :is(.intro, .intro-nbrd) {
 line-height: 1.75;
@@ -14,10 +20,10 @@ line-height: 1.75;
 
 .site-main .intro {
 font-size: 1.14rem;
-border-bottom: 1px solid var(--light-gray);
+border-bottom: var(--content-divider-border);
 margin-top: 0;
-padding-bottom: 2rem;
-margin-bottom: 2rem;
+padding-bottom: var(--content-divider-spacing);
+margin-bottom: var(--content-divider-spacing);
 }
 
 .site-main .intro-nbrd {

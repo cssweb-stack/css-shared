@@ -90,6 +90,29 @@ grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 }
 
+/* Tablet: separate wrapped resources using the same divider as an intro. */
+@media (min-width: 576px) and (max-width: 991.98px) {
+.content-sidebar > .sidebar-resources {
+margin-top: 0;
+padding-top: 0;
+}
+
+.content-sidebar > :first-child > :last-child,
+.content-sidebar > :first-child .page-section-inner > :last-child {
+margin-bottom: 0;
+}
+
+.content-sidebar > :first-child .page-section-inner {
+padding-bottom: 0;
+}
+
+.content-sidebar > .sidebar-resources > .sidebar-resources-grid {
+margin-top: var(--content-divider-spacing);
+border-top: var(--content-divider-border);
+padding-top: var(--content-divider-spacing);
+}
+}
+
 /* Bottom spacing between grid sections */
 .grid-spaced {
 margin-bottom: 2.25rem;

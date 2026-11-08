@@ -347,6 +347,11 @@ margin: 0 0 var(--footer-unit-group-gap);
 padding: 0;
 }
 
+/* Address lines are separate paragraphs; the group owns the outer spacing. */
+.footer-address > p {
+margin: 0;
+}
+
 /* Upper, address and link size and weight */
 .site-footer .footer-inner .footer-address,
 .site-footer .footer-inner a {

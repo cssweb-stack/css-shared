@@ -8,7 +8,7 @@
 <h2>Main Office</h2>
 <address class="unit-contact-address">
 {% if site.address | length %}
-<p>{% for line in site.address %}{{ line | escape }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
+{% for line in site.address %}<p>{{ line | escape }}</p>{% endfor %}
 {% endif %}
 {% if site.phone %}
 <p class="phone"><span class="icon-text"><a href="{{ site.phone.href | escape }}"><span class="visually-hidden">Telephone: </span>{{ site.phone.label | escape }}</a></span></p>
