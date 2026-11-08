@@ -51,7 +51,8 @@ border-block: 6px solid var(--border-neutral);
 }
 
 /* Inner padding owns the section edges; content only spaces its neighbors. */
-.site-main .page-section-inner > :first-child {
+/* Bootstrap rows need their negative margin to balance column gutters. */
+.site-main .page-section-inner > :first-child:not(.row) {
 margin-top: 0;
 }
 
