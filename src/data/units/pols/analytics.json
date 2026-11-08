@@ -1,3 +1,6 @@
 {
-"ga4MeasurementId": ""
+  "googleTagId": "GTM-58J6XL2Q",
+  "allowedHostnames": [
+    "politicalscience.manoa.hawaii.edu"
+  ]
 }

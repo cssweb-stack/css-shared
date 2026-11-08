@@ -1,0 +1,144 @@
+{
+  "checkedDate": "2026-11-08",
+  "method": "Fetched public homepage HTML via HTTPS; all returned HTTP 200 without redirect. IDs are source observations, not proof of active tracking or account ownership.",
+  "sites": [
+    {
+      "host": "anthropology.manoa.hawaii.edu",
+      "url": "https://anthropology.manoa.hawaii.edu/",
+      "httpStatus": 200,
+      "searchConsoleTokens": [
+        "p-QupLZl5eCRGTSUSdgTX4hHBp66s-fuV34MW6NRsJw"
+      ],
+      "googleTagIds": [
+        "G-64J27VX4EF"
+      ],
+      "trackingScriptUrls": [
+        "https://www.googletagmanager.com/gtag/js?id=G-64J27VX4EF",
+        "https://siteimproveanalytics.com/js/siteanalyze_6185293.js",
+        "https://anthropology.manoa.hawaii.edu/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-90bacb156ab34fa090db.js"
+      ]
+    },
+    {
+      "host": "durp.manoa.hawaii.edu",
+      "url": "https://durp.manoa.hawaii.edu/",
+      "httpStatus": 200,
+      "searchConsoleTokens": [
+        "p-QupLZl5eCRGTSUSdgTX4hHBp66s-fuV34MW6NRsJw"
+      ],
+      "googleTagIds": [],
+      "trackingScriptUrls": []
+    },
+    {
+      "host": "economics.hawaii.edu",
+      "url": "https://economics.hawaii.edu/",
+      "httpStatus": 200,
+      "searchConsoleTokens": [],
+      "googleTagIds": [
+        "G-E6W6FPX085"
+      ],
+      "trackingScriptUrls": [
+        "https://www.googletagmanager.com/gtag/js?id=G-E6W6FPX085"
+      ]
+    },
+    {
+      "host": "ethnicstudies.manoa.hawaii.edu",
+      "url": "https://ethnicstudies.manoa.hawaii.edu/",
+      "httpStatus": 200,
+      "searchConsoleTokens": [
+        "p-QupLZl5eCRGTSUSdgTX4hHBp66s-fuV34MW6NRsJw"
+      ],
+      "googleTagIds": [],
+      "trackingScriptUrls": []
+    },
+    {
+      "host": "geography.manoa.hawaii.edu",
+      "url": "https://geography.manoa.hawaii.edu/",
+      "httpStatus": 200,
+      "searchConsoleTokens": [
+        "p-QupLZl5eCRGTSUSdgTX4hHBp66s-fuV34MW6NRsJw"
+      ],
+      "googleTagIds": [
+        "GT-TBZ6P548"
+      ],
+      "trackingScriptUrls": [
+        "https://www.googletagmanager.com/gtag/js?id=GT-TBZ6P548",
+        "https://geography.manoa.hawaii.edu/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-90bacb156ab34fa090db.js"
+      ]
+    },
+    {
+      "host": "politicalscience.manoa.hawaii.edu",
+      "url": "https://politicalscience.manoa.hawaii.edu/",
+      "httpStatus": 200,
+      "searchConsoleTokens": [
+        "p-QupLZl5eCRGTSUSdgTX4hHBp66s-fuV34MW6NRsJw"
+      ],
+      "googleTagIds": [],
+      "trackingScriptUrls": []
+    },
+    {
+      "host": "psychology.manoa.hawaii.edu",
+      "url": "https://psychology.manoa.hawaii.edu/",
+      "httpStatus": 200,
+      "searchConsoleTokens": [
+        "p-QupLZl5eCRGTSUSdgTX4hHBp66s-fuV34MW6NRsJw"
+      ],
+      "googleTagIds": [],
+      "trackingScriptUrls": []
+    },
+    {
+      "host": "puba.manoa.hawaii.edu",
+      "url": "https://puba.manoa.hawaii.edu/",
+      "httpStatus": 200,
+      "searchConsoleTokens": [
+        "p-QupLZl5eCRGTSUSdgTX4hHBp66s-fuV34MW6NRsJw"
+      ],
+      "googleTagIds": [],
+      "trackingScriptUrls": []
+    },
+    {
+      "host": "sci.manoa.hawaii.edu",
+      "url": "https://sci.manoa.hawaii.edu/",
+      "httpStatus": 200,
+      "searchConsoleTokens": [
+        "p-QupLZl5eCRGTSUSdgTX4hHBp66s-fuV34MW6NRsJw"
+      ],
+      "googleTagIds": [],
+      "trackingScriptUrls": []
+    },
+    {
+      "host": "sociology.manoa.hawaii.edu",
+      "url": "https://sociology.manoa.hawaii.edu/",
+      "httpStatus": 200,
+      "searchConsoleTokens": [
+        "p-QupLZl5eCRGTSUSdgTX4hHBp66s-fuV34MW6NRsJw"
+      ],
+      "googleTagIds": [],
+      "trackingScriptUrls": []
+    },
+    {
+      "host": "wgss.manoa.hawaii.edu",
+      "url": "https://wgss.manoa.hawaii.edu/",
+      "httpStatus": 200,
+      "searchConsoleTokens": [
+        "p-QupLZl5eCRGTSUSdgTX4hHBp66s-fuV34MW6NRsJw"
+      ],
+      "googleTagIds": [],
+      "trackingScriptUrls": []
+    },
+    {
+      "host": "ssri.manoa.hawaii.edu",
+      "url": "https://ssri.manoa.hawaii.edu/",
+      "httpStatus": 200,
+      "searchConsoleTokens": [
+        "p-QupLZl5eCRGTSUSdgTX4hHBp66s-fuV34MW6NRsJw"
+      ],
+      "googleTagIds": [
+        "G-PRDLVL6Q8D"
+      ],
+      "trackingScriptUrls": [
+        "https://www.googletagmanager.com/gtag/js?id=G-PRDLVL6Q8D",
+        "https://ssri.manoa.hawaii.edu/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-90bacb156ab34fa090db.js"
+      ]
+    }
+  ]
+}

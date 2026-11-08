@@ -1,3 +1,6 @@
 {
-"ga4MeasurementId": ""
+  "googleTagId": "GTM-WK4TN8RH",
+  "allowedHostnames": [
+    "durp.manoa.hawaii.edu"
+  ]
 }

@@ -1,3 +1,6 @@
 {
-"ga4MeasurementId": ""
+  "googleTagId": "GTM-MH7PCWDL",
+  "allowedHostnames": [
+    "wgss.manoa.hawaii.edu"
+  ]
 }

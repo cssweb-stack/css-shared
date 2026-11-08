@@ -1,3 +1,6 @@
 {
-"ga4MeasurementId": ""
+  "googleTagId": "G-3HXB5SCJ66",
+  "allowedHostnames": [
+    "geography.manoa.hawaii.edu"
+  ]
 }

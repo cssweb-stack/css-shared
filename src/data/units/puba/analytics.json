@@ -1,3 +1,6 @@
 {
-"ga4MeasurementId": ""
+  "googleTagId": "GTM-P8XZ5DW9",
+  "allowedHostnames": [
+    "puba.manoa.hawaii.edu"
+  ]
 }

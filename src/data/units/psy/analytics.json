@@ -1,3 +1,6 @@
 {
-"ga4MeasurementId": ""
+  "googleTagId": "GTM-PPQ34HS6",
+  "allowedHostnames": [
+    "psychology.manoa.hawaii.edu"
+  ]
 }

@@ -1,3 +1,6 @@
 {
-"ga4MeasurementId": ""
+  "googleTagId": "GTM-K7TZMN9D",
+  "allowedHostnames": [
+    "ssri.manoa.hawaii.edu"
+  ]
 }

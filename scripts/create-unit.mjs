@@ -22,7 +22,9 @@ if (item.children) collect(item.children);
 }
 collect(navigation);
 if (!pages.has('/')) pages.set('/', 'Home');
-if (!pages.has('/privacy/')) pages.set('/privacy/', 'Privacy');
+// Privacy pages are generated centrally by configureUnitSite.
+pages.delete('/privacy/');
+pages.delete('/privacy.html');
 const files = new Map();
 const json = value => JSON.stringify(value, null, 2) + '\n';
 files.set('shared.config.json', json({ repository: 'cssweb-stack/css-shared', ref: 'main', localPath: '../css-shared', unit }));

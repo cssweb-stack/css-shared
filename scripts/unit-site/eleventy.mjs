@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createSharedSource } from './shared-source.mjs';
+import { configurePrivacy } from './privacy.mjs';
 export function configureUnitSite(eleventyConfig, project) {
 const require = createRequire(path.join(project, 'package.json'));
 const { build } = require('esbuild');
@@ -19,6 +20,7 @@ const sharedDir = path.join(sharedRoot, 'src');
 const sharedIncludes = path.join(sharedDir, 'includes');
 const environment = new nunjucks.Environment(new nunjucks.FileSystemLoader([sharedIncludes, sharedDir, path.join(sourceDir, 'includes')], { noCache: true }), { autoescape: false });
 eleventyConfig.setLibrary('njk', environment);
+configurePrivacy(eleventyConfig);
 const eventDate = createRequire(import.meta.url)(path.join(sharedIncludes, 'layouts/events/event-date.cjs'));
 eleventyConfig.addFilter('eventDate', eventDate);
 eleventyConfig.addFilter('contactFaculty', people => people.filter(person => person.contactOrder).sort((a, b) => a.contactOrder - b.contactOrder));

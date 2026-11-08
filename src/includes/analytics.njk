@@ -1,0 +1,23 @@
+{% if site.googleTagId and site.analyticsHostnames.length %}
+<!-- Google Analytics: load only on this unit's production hostnames. -->
+<script>
+(function () {
+  var allowedHostnames = {{ site.analyticsHostnames | dump | safe }};
+  if (!allowedHostnames.includes(window.location.hostname)) return;
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+  window.gtag('js', new Date());
+{% if site.googleTagId.slice(0, 4) != 'GTM-' %}
+  window.gtag('config', '{{ site.googleTagId | escape }}');
+{% endif %}
+  var script = document.createElement('script');
+  script.async = true;
+{% if site.googleTagId.slice(0, 4) == 'GTM-' %}
+  script.src = 'https://www.googletagmanager.com/gtm.js?id={{ site.googleTagId | escape }}';
+{% else %}
+  script.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.googleTagId | escape }}';
+{% endif %}
+  document.head.appendChild(script);
+}());
+</script>
+{% endif %}

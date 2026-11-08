@@ -1,3 +1,6 @@
 {
-"ga4MeasurementId": ""
+  "googleTagId": "GTM-PBRRN28Z",
+  "allowedHostnames": [
+    "anthropology.manoa.hawaii.edu"
+  ]
 }

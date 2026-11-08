@@ -1,3 +1,6 @@
 {
-"ga4MeasurementId": ""
+  "googleTagId": "GTM-PM2X8VM4",
+  "allowedHostnames": [
+    "ethnicstudies.manoa.hawaii.edu"
+  ]
 }

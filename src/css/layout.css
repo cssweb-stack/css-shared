@@ -60,6 +60,29 @@ margin-top: 0;
 margin-bottom: 0;
 }
 
+/* Resource groups adapt to their container, including sidebars that wrap below content. */
+.sidebar-resources {
+container: sidebar-resources / inline-size;
+}
+
+.sidebar-resources-grid {
+display: grid;
+grid-template-columns: minmax(0, 1fr);
+gap: 3rem;
+align-items: start;
+}
+
+.sidebar-resources-grid > * {
+min-width: 0;
+overflow-wrap: anywhere;
+}
+
+@container sidebar-resources (min-width: 30rem) {
+.sidebar-resources-grid {
+grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+}
+
 /* Bottom spacing between grid sections */
 .grid-spaced {
 margin-bottom: 2.25rem;
