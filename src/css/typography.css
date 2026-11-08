@@ -38,6 +38,11 @@ margin-top: 0;
 margin-bottom: 1rem;
 }
 
+/* Long-form text: separate later topics without changing the first H2. */
+.site-main .long-form > h2 ~ h2 {
+margin-top: 2rem;
+}
+
 .site-main h3 {
 font-size: 1.125rem;
 font-weight: 600;
