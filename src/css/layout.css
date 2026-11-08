@@ -93,13 +93,8 @@ border-block: 6px solid var(--border-neutral);
 margin-top: 0;
 }
 
-.site-main .page-section-inner > :last-child {
+.site-main .page-section-inner > :last-child:not(.intro) {
 margin-bottom: 0;
-}
-
-/* Section introductions do not add a second bottom inset. */
-.site-main .page-section-inner > .intro {
-padding-bottom: 0;
 }
 
 /* Bottom spacing between grid sections */
