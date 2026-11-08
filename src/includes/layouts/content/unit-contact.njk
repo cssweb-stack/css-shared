@@ -1,7 +1,8 @@
 {% set building = common.buildings[site.building] %}
 {% if building %}
-<section class="row gx-4 gy-4 grid-spaced unit-contact" aria-label="Main office location and directions">
-<div class="col-12 col-md-3 unit-contact-office">
+<section class="row gx-4 gx-lg-5 gy-4 grid-spaced unit-contact" aria-label="Main office location and directions">
+<div class="col-12 col-md-4 col-lg-3 unit-contact-office">
+<div class="sidebar-group">
 {% if building.photo %}
 <img class="photo-style" src="{{ building.photo.src | url }}" alt="{{ building.photo.alt | escape }}" width="{{ building.photo.width }}" height="{{ building.photo.height }}" loading="lazy" decoding="async">
 {% endif %}
@@ -18,8 +19,9 @@
 {% endif %}
 </address>
 </div>
+</div>
 {% if building.mapEmbedUrl %}
-<div class="col-12 col-md-9 unit-contact-map">
+<div class="col-12 col-md-8 col-lg-9 unit-contact-map">
 <iframe class="map-embed" title="Google Map showing {{ building.name | escape }} at UH Mānoa" src="{{ building.mapEmbedUrl | escape }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
 </div>
 {% endif %}

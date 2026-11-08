@@ -1,21 +1,21 @@
 .profile-directory {
 display: flex;
 flex-wrap: wrap;
-justify-content: center;
+justify-content: flex-start;
 gap: 2.5rem 2rem;
 }
 
 .profile-card {
 flex: 0 1 calc((100% - 6rem) / 4);
 min-width: 0;
-text-align: center;
+text-align: left;
 }
 
 .profile-link {
 display: block;
 width: fit-content;
 max-width: 100%;
-margin: 0 auto 0.25rem;
+margin: 0 0 0.25rem;
 color: var(--text);
 text-decoration-line: none;
 }
@@ -104,7 +104,7 @@ margin: 0;
 
 .profile-sidebar {
 min-width: 0;
-text-align: center;
+text-align: left;
 overflow-wrap: anywhere;
 }
 
@@ -117,7 +117,7 @@ margin: 1rem 0 0.25rem;
 .site-main .profile-personal-links {
 display: flex;
 flex-wrap: wrap;
-justify-content: center;
+justify-content: flex-start;
 gap: 0.5rem 1rem;
 list-style: none;
 padding: 0;
@@ -183,7 +183,7 @@ flex-basis: calc((100% - 2rem) / 2);
 
 .profile-sidebar {
 max-width: 26rem;
-margin-inline: auto;
+margin-inline: 0;
 }
 }
 
@@ -208,7 +208,7 @@ text-align: left;
 .contact-profile {
 flex: 0 1 calc((100% - 6rem) / 4);
 min-width: 0;
-text-align: center;
+text-align: left;
 }
 
 .contact-profile-details {
@@ -315,7 +315,7 @@ max-width: 100%;
 height: auto;
 aspect-ratio: 1 / 1;
 object-fit: cover;
-margin: 0 auto 1rem;
+margin: 0 0 1rem;
 }
 
 .profile-photo {
@@ -325,7 +325,7 @@ max-width: 16rem;
 height: auto;
 aspect-ratio: 1 / 1;
 object-fit: cover;
-margin: 0 auto;
+margin: 0;
 }
 
 .profile-publication-links img {

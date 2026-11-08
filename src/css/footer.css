@@ -18,7 +18,7 @@ opacity: 0.1;
 pointer-events: none;
 }
 
-/* UH switches background sources separately from its 900px column layout. */
+/* Background source uses the shared 1200px desktop threshold. */
 @media (min-width: 1200px) {
 .site-footer::before {
 background-image: var(--footer-background-desktop);
@@ -27,7 +27,7 @@ background-image: var(--footer-background-desktop);
 
 /* Upper, container */
 .footer-inner {
-padding-block: 5rem;
+padding-block: var(--layout-section-spacing);
 }
 
 /* Upper, contact spacing */
@@ -131,22 +131,24 @@ min-width: 0;
 }
 
 .footer-link-list {
-display: grid;
-grid-template-columns: repeat(2, minmax(0, 1fr));
-grid-template-rows: repeat(var(--footer-mobile-link-rows), auto);
+column-count: 2;
 column-gap: 3rem;
-row-gap: 0.5rem;
-align-content: start;
 list-style: none;
 padding: 0;
 margin: 0;
 }
 
 .footer-link-list li {
-grid-column: var(--footer-mobile-link-column);
-grid-row: var(--footer-mobile-link-row);
+break-inside: avoid;
 min-width: 0;
 margin: 0;
+padding-bottom: 0.5rem;
+}
+
+@media (min-width: 576px) {
+.footer-link-list {
+column-count: 3;
+}
 }
 
 /* Upper, contact icons */
@@ -487,7 +489,7 @@ outline-offset: 3px;
 
 /* Subfooter, text */
 .subfooter-text {
-text-align: center;
+text-align: left;
 }
 
 .subfooter p {
@@ -508,12 +510,9 @@ color: var(--white);
 text-decoration-line: underline;
 }
 
-/* Upper: equal UH columns, 3rem horizontal gap, and 50px mobile row gap. */
+/* Bootstrap owns the outer columns and gx-lg-5 gutter, as in page content. */
 .site-footer .footer-grid {
-display: grid;
-grid-template-columns: minmax(0, 1fr);
-row-gap: 50px;
-width: 100%;
+row-gap: var(--layout-section-spacing);
 }
 
 .site-footer .footer-grid > * {
@@ -537,45 +536,9 @@ display: flow-root;
 min-width: 0;
 }
 
-/* Center the stacked unit identity and contact details on small screens. */
-@media (max-width: 525px) {
-.footer-unit-column {
-text-align: center;
-}
-
-.site-footer .footer-unit-column a,
-.site-footer .footer-contact-meta,
-.site-footer .footer-social-bar {
-justify-content: center;
-}
-
-.site-footer .footer-social-bar {
-margin-inline: auto;
-}
-}
-
-@media (min-width: 900px) {
-.site-footer .footer-grid {
-grid-template-columns: repeat(4, minmax(0, 1fr));
-column-gap: 3rem;
-row-gap: 0;
-}
-
+@media (min-width: 992px) {
 .footer-university-links {
-grid-column: span 3;
 padding-top: 3rem;
-}
-
-.footer-link-list {
-display: block;
-column-count: 3;
-column-gap: 3rem;
-}
-
-.footer-link-list li {
-break-before: var(--footer-column-break);
-break-inside: avoid;
-padding-bottom: 0.5rem;
 }
 
 .site-footer .footer-university-links a {
@@ -611,7 +574,7 @@ padding: 0;
 font-size: 0.875rem;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
 .site-footer--languages-uh .footer-language-links {
 padding-top: 6rem;
 }

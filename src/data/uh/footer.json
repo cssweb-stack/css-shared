@@ -1,118 +1,112 @@
 {
-"footerColumns": [
-[
-{
-"label": "A-Z Index",
-"url": "https://manoa.hawaii.edu/a-z/"
-},
-{
-"label": "Academic Calendar",
-"url": "https://manoa.hawaii.edu/registrar/academic-calendar/"
-},
-{
-"label": "Accessibility at UH",
-"url": "https://www.hawaii.edu/access/"
-},
-{
-"label": "Accessibility Statement",
-"url": "https://hawaii.edu/accessibility-statement/index.php"
-},
-{
-"label": "Campus Directory",
-"url": "https://manoa.hawaii.edu/directory/"
-},
-{
-"label": "Campus Maps",
-"url": "https://map.hawaii.edu/manoa/"
-},
-{
-"label": "Parking & Transportation",
-"url": "https://manoa.hawaii.edu/commuter/"
-},
-{
-"label": "Visiting the Campus",
-"url": "https://manoa.hawaii.edu/about/visit/"
-}
-],
-[
-{
-"label": "Emergency Information",
-"url": "https://manoa.hawaii.edu/emergency/"
-},
-{
-"label": "Campus Safety",
-"url": "https://manoa.hawaii.edu/dps/"
-},
-{
-"label": "Title IX",
-"url": "https://manoa.hawaii.edu/titleix/"
-},
-{
-"label": "UH News & Media",
-"url": "https://www.hawaii.edu/news/tag/uh-manoa/"
-},
-{
-"label": "Press Releases",
-"url": "https://manoa.hawaii.edu/news/"
-},
-{
-"label": "Events",
-"url": "https://www.hawaii.edu/calendar/manoa/"
-},
-{
-"label": "Work at UH",
-"url": "https://www.schooljobs.com/careers/hawaiiedu"
-}
-],
-[
-{
-"label": "UH Email",
-"url": "https://mail.google.com/mail/u/0/"
-},
-{
-"label": "MyUH",
-"url": "https://myuh.hawaii.edu/"
-},
-{
-"label": "Giving to UH",
-"url": "https://www.uhfoundation.org/"
-},
-{
-"label": "Privacy Statement",
-"url": "https://manoa.hawaii.edu/privacy/"
-},
-{
-"label": "Site Feedback",
-"url": "https://manoa.hawaii.edu/feedback/"
-},
-{
-"label": "Get Adobe Acrobat Reader",
-"url": "https://get.adobe.com/reader/"
-},
-{
-"label": "UH System",
-"url": "https://www.hawaii.edu/"
-}
-]
-],
-"copyrightYear": 2026,
-"equalOpportunityUrl": "https://www.hawaii.edu/offices/eeo/policies/",
-"usagePolicyUrl": "https://www.hawaii.edu/policy/docs/temp/ep2.210.pdf",
-"universityUrl": "https://www.hawaii.edu/",
-"privacy": {
-"label": "Privacy Policy",
-"url": "/privacy.html"
-},
-"webmaster": {
-"label": "Webmaster",
-"email": "cssweb@hawaii.edu"
-},
-"language": {
-"showHeading": true,
-"presentation": "enhanced"
-},
-"background": {
-"desktopTablet": "/media/branding/backgrounds/uh-pattern-horz-white.svg",
-"mobile": "/media/branding/backgrounds/uh-pattern-horz-white.svg"
-}
+  "copyrightYear": 2026,
+  "equalOpportunityUrl": "https://www.hawaii.edu/offices/eeo/policies/",
+  "usagePolicyUrl": "https://www.hawaii.edu/policy/docs/temp/ep2.210.pdf",
+  "universityUrl": "https://www.hawaii.edu/",
+  "privacy": {
+    "label": "Privacy Policy",
+    "url": "/privacy.html"
+  },
+  "webmaster": {
+    "label": "Webmaster",
+    "email": "cssweb@hawaii.edu"
+  },
+  "language": {
+    "showHeading": true,
+    "presentation": "enhanced"
+  },
+  "background": {
+    "desktopTablet": "/media/branding/backgrounds/uh-pattern-horz-white.svg",
+    "mobile": "/media/branding/backgrounds/uh-pattern-horz-white.svg"
+  },
+  "footerLinks": [
+    {
+      "label": "A-Z Index",
+      "url": "https://manoa.hawaii.edu/a-z/"
+    },
+    {
+      "label": "Academic Calendar",
+      "url": "https://manoa.hawaii.edu/registrar/academic-calendar/"
+    },
+    {
+      "label": "Accessibility at UH",
+      "url": "https://www.hawaii.edu/access/"
+    },
+    {
+      "label": "Accessibility Statement",
+      "url": "https://hawaii.edu/accessibility-statement/index.php"
+    },
+    {
+      "label": "Campus Directory",
+      "url": "https://manoa.hawaii.edu/directory/"
+    },
+    {
+      "label": "Campus Maps",
+      "url": "https://map.hawaii.edu/manoa/"
+    },
+    {
+      "label": "Parking & Transportation",
+      "url": "https://manoa.hawaii.edu/commuter/"
+    },
+    {
+      "label": "Visiting the Campus",
+      "url": "https://manoa.hawaii.edu/about/visit/"
+    },
+    {
+      "label": "Emergency Information",
+      "url": "https://manoa.hawaii.edu/emergency/"
+    },
+    {
+      "label": "Campus Safety",
+      "url": "https://manoa.hawaii.edu/dps/"
+    },
+    {
+      "label": "Title IX",
+      "url": "https://manoa.hawaii.edu/titleix/"
+    },
+    {
+      "label": "UH News & Media",
+      "url": "https://www.hawaii.edu/news/tag/uh-manoa/"
+    },
+    {
+      "label": "Press Releases",
+      "url": "https://manoa.hawaii.edu/news/"
+    },
+    {
+      "label": "Events",
+      "url": "https://www.hawaii.edu/calendar/manoa/"
+    },
+    {
+      "label": "Work at UH",
+      "url": "https://www.schooljobs.com/careers/hawaiiedu"
+    },
+    {
+      "label": "UH Email",
+      "url": "https://mail.google.com/mail/u/0/"
+    },
+    {
+      "label": "MyUH",
+      "url": "https://myuh.hawaii.edu/"
+    },
+    {
+      "label": "Giving to UH",
+      "url": "https://www.uhfoundation.org/"
+    },
+    {
+      "label": "Privacy Statement",
+      "url": "https://manoa.hawaii.edu/privacy/"
+    },
+    {
+      "label": "Site Feedback",
+      "url": "https://manoa.hawaii.edu/feedback/"
+    },
+    {
+      "label": "Get Adobe Acrobat Reader",
+      "url": "https://get.adobe.com/reader/"
+    },
+    {
+      "label": "UH System",
+      "url": "https://www.hawaii.edu/"
+    }
+  ]
 }

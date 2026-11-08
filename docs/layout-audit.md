@@ -44,3 +44,25 @@ All content/sidebar rows use Bootstrap `gx-lg-5` (3rem horizontal gutter from
 992px upward), across sites. No page-specific desktop gutter variants. SSRI's
 homepage, HCRI, HAM, OENAS, TASI/PHIDC, and Grant Development now all use it.
 Smaller-screen gutters and vertical component gaps remain separate settings.
+
+## Alignment standard
+
+Content is flush left, including office blocks, sidebar resources, faculty
+profiles, profile directory cards, portraits and personal links. Use no centered
+content variants for these components. SSRI's homepage resource groups also
+follow this rule. Language navigation in the footer may remain centered.
+Shared header/footer alignment is still a separate review area.
+
+The shared unit-contact office now wraps its photo, heading and address in
+`sidebar-group`, inheriting the same detail spacing as research contacts.
+Bootstrap office/map columns are 4/8 at md (768px), returning to their existing
+3/9 at lg (992px). At phone widths they remain stacked. The row uses gx-lg-5.
+
+## Footer alignment follow-up
+
+The shared footer outer columns now use Bootstrap row/col classes and gx-lg-5,
+matching content's 992px layout threshold. Its container geometry and upper
+section padding share content's settings. The former 900px outer grid and
+525px mobile centering rules were removed. See `docs/footer.md` for the current
+width/breakpoint map and browser verification results. Internal link lists and
+language components retain their dedicated presentation rules.

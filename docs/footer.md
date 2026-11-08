@@ -9,8 +9,8 @@ Shared defaults live in `src/data/uh/footer.json`:
   About these services link; `false` removes that bar and gives the language
   navigation an `aria-label`. Every language link remains available.
 - `language.presentation`: `enhanced` (default) or `uh`.
-- `background.desktopTablet`: SVG URL used at **1201px and wider**.
-- `background.mobile`: SVG URL used **below 1201px**. Replace this value alone
+- `background.desktopTablet`: SVG URL used at **1200px and wider**.
+- `background.mobile`: SVG URL used **below 1200px**. Replace this value alone
   to change the smaller-screen source. Both currently use the existing
   `/media/branding/backgrounds/uh-pattern-horz-white.svg`.
 
@@ -27,20 +27,73 @@ values independently. For example:
 }
 ```
 
-## College link columns
+## Footer link list
 
-`src/data/units/css/site-settings.json` exposes `footer.columns` as `null`.
-It deliberately uses the existing shared university links until college
-content is supplied. Replace `null` with **three arrays of link records**,
-each record containing `label` and `url`. Other sites may use the same key.
-Omitted/null `columns` falls back to `src/data/uh/footer.json`'s
-`footerColumns`. Existing unit identity and social data are independent.
+The default A–Z Index through UH System links live in one flat `footerLinks`
+array in `src/data/uh/footer.json`. A unit can override it with a flat
+`footer.links` array of `{ label, url }` records in its site-settings.json.
+Legacy `footer.columns` arrays are still accepted and flattened for compatibility.
+The CSS no longer honors manually assigned column breaks.
 
-The footer comparison page loads each unit's `site-settings.json`, so it
-previews the same overrides as a consuming site. `footerId` still prefixes
-language heading IDs independently for each example.
+The template emits one `<ul>` containing one `<li>` per link, in source order.
+CSS multi-column flow handles balancing: two columns below 576px and three
+columns from 576px upward. Links flow down a column, then into the next, with
+`break-inside: avoid` keeping each item intact. No per-item layout styles or
+separate HTML lists are generated. The outer identity/links Bootstrap layout
+still changes at 992px; these are internal list columns.
 
-## Responsive layout
+Chrome verified 22 links exactly once, correct column count, matching container
+geometry and no footer overflow across 32 width/language-mode cases. Results:
+`exports/footer-list-columns-2026-11-08.json`. Builds for SSRI, GEO and the style
+guide and the shared checker passed.
+
+## Current content/footer alignment (2026-11-08)
+
+This section supersedes the historical responsive layout and validation notes
+below. UH reference comparison remains future work; these are our internal rules.
+
+- Content, upper footer, language bands and subfooter all use the same `.container`
+  from `layout.css`. Usable content max-width is 87.5rem (1400px at 16px/rem),
+  with `clamp(1rem, 4vw, 3rem)` side gutters. At large widths the outer container
+  caps at 1496px, including 48px padding per side. There is no footer-only width.
+- Bootstrap owns the upper footer's outer layout: `row gx-lg-5`, a `col-12
+  col-lg-3` identity/contact column, and `col-12 col-lg-9` university-links column.
+  Below 992px they stack; from 992px they sit alongside each other. Desktop
+  gutter is the agreed 3rem, with no competing outer CSS grid.
+- Shared `--layout-section-spacing` controls upper footer padding and the gap
+  between stacked outer columns: 2rem below 576px, 2.25rem at 576–1199.98px,
+  and 3rem at 1200px+. This matches content section padding. UH-language mode
+  retains its existing deliberate bottom-padding removal before its language band.
+- University links use two internal columns below 576px and three at 576px+.
+  Column-first source/reading order is retained.
+- Within the unit block, a nested Bootstrap row uses `col-12 col-sm-6
+  col-lg-12`: identity left/contact right at 576–991.98px, stacked below 576px
+  and from 992px upward. Its horizontal gutter is 3rem. The outer footer
+  still places the unit block alongside university links only at 992px+.
+- Identity/contact and subfooter text are left aligned at every width. Language
+  navigation retains its permitted centered treatment and existing presentation
+  choices. The old 525px centering rule is removed.
+- Enhanced languages retain 2 columns below 576px, 4 at 576–1199.98px, and 8
+  at 1200px+. UH languages switch from two columns to inline links at 992px
+  (previously 900px). Background and touch-target rules switch at 1200px.
+- Bootstrap's 768px/1400px breakpoints introduce no special footer outer layout
+  or container-size changes. The container remains fluid until its shared cap.
+
+Validation: shared checker and SSRI, GEO and style-guide builds passed. Local
+Chrome measured the built SSRI contact/footer markup with its actual styles and
+Bootstrap across 320, 375, 575, 576, 767, 768, 899, 900, 991, 992, 1024, 1199,
+1200, 1400, 1600 and 2330px, in enhanced and UH language modes (32 scenarios).
+All footer containers matched the content container's x position, width and side
+padding. Upper padding matched content section padding in enhanced mode; UH mode
+retained only its intentional bottom exception. Outer columns stacked below
+992px, shared the top edge above it, and footer content did not overflow.
+Left alignment of identity and subfooter was verified at every width. Fixtures
+used local styles and replaced the map iframe; no Analytics requests were made.
+Measurements: `exports/footer-content-geometry-2026-11-08.json`. Safari/iPad and
+keyboard/screen-reader verification were not repeated in this review.
+
+## Historical responsive layout (superseded)
+
 
 The supplied UH unit HTML and stylesheet define these values:
 

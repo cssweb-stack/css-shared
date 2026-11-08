@@ -2,23 +2,24 @@
 {% set footerPrivacy = uh.footer.privacy | default(site.privacy, true) %}
 {% set footerWebmaster = uh.footer.webmaster | default(site.webmaster, true) %}
 {% set footerLanguageId = footerId | default("footer") + "-language-heading" %}
-{% set footerColumns = site.footer.columns | default(uh.footer.footerColumns, true) %}
+{% set footerLinks = site.footer.links | default(uh.footer.footerLinks, true) %}
+{# Support older grouped unit overrides while rendering one continuous list. #}
+{% if site.footer.columns and not site.footer.links %}
+{% set footerLinks = [] %}
+{% for column in site.footer.columns %}{% set footerLinks = footerLinks.concat(column) %}{% endfor %}
+{% endif %}
 {% set footerShowHeading = site.footer.language.showHeading | default(uh.footer.language.showHeading) %}
 {% set footerLanguagePresentation = site.footer.language.presentation | default(uh.footer.language.presentation) %}
 {% set footerDesktopBackground = site.footer.background.desktopTablet | default(uh.footer.background.desktopTablet) %}
 {% set footerMobileBackground = site.footer.background.mobile | default(uh.footer.background.mobile) %}
-{# One ordered copy of the links, laid out in three or two visual columns. #}
-{% set footerLinkCount = 0 %}
-{% for column in footerColumns %}{% set footerLinkCount = footerLinkCount + column.length %}{% endfor %}
-{% set footerMobileLinkRows = (footerLinkCount / 2) | round(0, 'ceil') %}
-
 <footer class="site-footer site-footer--languages-{{ footerLanguagePresentation | escape }}" style="--footer-background-desktop: url('{{ footerDesktopBackground | url | escape }}'); --footer-background-mobile: url('{{ footerMobileBackground | url | escape }}');">
 
 {# Upper footer: one unit column and three university-link columns. #}
 <div class="container footer-inner">
-<div class="footer-grid">
-<div class="footer-unit-column">
-<div class="footer-unit-identity">
+<div class="row gx-lg-5 footer-grid">
+<div class="col-12 col-lg-3 footer-unit-column">
+<div class="row gx-0 gx-sm-5 footer-unit-layout">
+<div class="col-12 col-sm-6 col-lg-12 footer-unit-identity">
 {% if site.shortName %}
 <p class="footer-unit-short-name">{{ site.shortName | escape }}</p>
 {% endif %}
@@ -31,7 +32,7 @@
 </ul>
 
 </div>
-<address class="footer-contact">
+<address class="col-12 col-sm-6 col-lg-12 footer-contact">
 {% if site.address | length %}
 <div class="footer-address">{% for line in site.address %}<p>{{ line | escape }}</p>{% endfor %}</div>
 {% endif %}
@@ -90,17 +91,11 @@
 {% endif %}
 </address>
 </div>
-<nav class="footer-university-links" aria-label="Footer links">
-<ul class="footer-link-list" style="--footer-mobile-link-rows: {{ footerMobileLinkRows }};">
-{% set footerLinkIndex = 0 %}
-{% for column in footerColumns %}
-{% set footerColumnNumber = loop.index %}
-{% for link in column %}
-<li style="--footer-column-break: {{ 'column' if loop.first and footerColumnNumber > 1 else 'auto' }}; --footer-mobile-link-column: {{ 1 if footerLinkIndex < footerMobileLinkRows else 2 }}; --footer-mobile-link-row: {{ footerLinkIndex + 1 if footerLinkIndex < footerMobileLinkRows else footerLinkIndex - footerMobileLinkRows + 1 }};">
-<a href="{{ link.url | url | escape }}">{{ link.label | escape }}</a>
-</li>
-{% set footerLinkIndex = footerLinkIndex + 1 %}
-{% endfor %}
+</div>
+<nav class="col-12 col-lg-9 footer-university-links" aria-label="Footer links">
+<ul class="footer-link-list">
+{% for link in footerLinks %}
+<li><a href="{{ link.url | url | escape }}">{{ link.label | escape }}</a></li>
 {% endfor %}
 </ul>
 </nav>

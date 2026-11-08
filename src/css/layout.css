@@ -402,7 +402,7 @@ grid-column: 2 / span 2;
 
 /* Embedded location maps. */
 .unit-contact-office {
-text-align: center;
+text-align: left;
 overflow-wrap: anywhere;
 }
 
@@ -412,17 +412,12 @@ max-width: 100%;
 height: auto;
 }
 
-.site-main .unit-contact-office h2 {
-margin: 1rem 0 1rem;
-font-size: 1.25rem;
-}
-
 .unit-contact-address {
 font-style: normal;
 }
 
 .site-main .unit-contact-address :is(.phone, .email) {
-justify-content: center;
+justify-content: flex-start;
 }
 
 .unit-contact-map {
