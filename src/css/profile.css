@@ -348,7 +348,13 @@ object-fit: cover;
 .sidebar-group {
 display: grid;
 gap: .5rem;
+min-width: 0;
 text-align: left;
+overflow-wrap: anywhere;
+}
+
+.sidebar-group > * {
+min-width: 0;
 }
 
 .site-main .sidebar-group > :is(h2, h3, p, address) {

@@ -20,6 +20,14 @@ align-self: start;
 filter: grayscale(var(--photo-grayscale, 0%));
 }
 
+/* Sidebar artwork retains its proportions and stays restrained when stacked. */
+.sidebar-media {
+display: block;
+width: 100%;
+max-width: 12rem;
+height: auto;
+}
+
 /* Photo Loading Style */
 @media (prefers-reduced-motion: no-preference) {
 .photo-style.is-loaded {

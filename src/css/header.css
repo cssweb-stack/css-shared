@@ -84,7 +84,7 @@ outline-offset: 3px;
 
 .uh-brand-logo {
 display: block;
-width: 100%;
+width: 185px;
 max-width: 100%;
 height: auto;
 }
@@ -98,7 +98,7 @@ flex: 0 0 200px;
 width: 200px;
 min-height: 69.086px;
 margin: 0 32px 0 0;
-padding: 0 7.425px 0 5.650px;
+padding: 0;
 }
 
 .uh-brand .navbar-nav {
@@ -387,6 +387,12 @@ text-align: left;
 .unit-nav .navbar-nav {
 gap: 45px;
 flex-wrap: wrap;
+}
+
+/* Right-edge dropdowns open toward the available navigation space. */
+.unit-nav .dropdown:nth-last-child(-n + 2) > .dropdown-menu {
+left: auto;
+right: 0;
 }
 
 .unit-nav .nav-link {

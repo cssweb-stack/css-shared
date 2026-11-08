@@ -19,7 +19,7 @@ pointer-events: none;
 }
 
 /* UH switches background sources separately from its 900px column layout. */
-@media (min-width: 1201px) {
+@media (min-width: 1200px) {
 .site-footer::before {
 background-image: var(--footer-background-desktop);
 }
@@ -28,14 +28,6 @@ background-image: var(--footer-background-desktop);
 /* Upper, container */
 .footer-inner {
 padding-block: 5rem;
-}
-
-/* Reference max-lg container inset, scoped to the upper footer only. */
-@media (max-width: 1200px) {
-.footer-inner,
-.site-footer--languages-uh .footer-language-links > .container {
-padding-inline: 2rem;
-}
 }
 
 /* Upper, contact spacing */
