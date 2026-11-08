@@ -24,3 +24,10 @@ main content. Browsers without container-query support retain one column.
 SSRI's homepage is the first consumer. Its images, destinations, link text,
 image sizing, and source/tab order remain unchanged. No header, footer, or
 people-directory rules are involved.
+
+HCRI reuses this pattern with two group wrappers: logo/office and contacts.
+Its outer Bootstrap columns now start at `lg` (992px), matching the homepage's
+wrap threshold. Portrait tablet widths below that threshold put the sidebar
+below the main content; landscape widths of 992px+ retain the right sidebar.
+Within this component, `.sidebar-media` logos keep natural proportions and
+are capped at 18rem, independently of viewport size.
