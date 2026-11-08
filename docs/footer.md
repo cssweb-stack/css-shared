@@ -263,3 +263,8 @@ contact order, divider breakpoint, tablet alignment and no overflow in 32 cases.
 Measurements: `exports/footer-unit-hierarchy-2026-11-08.json`. Actual iPad visual
 review and exact-fit testing of future/unusually wide abbreviations remain
 separate from these checks.
+
+Tablet detail columns now remove the bottom margin of their last child. This
+prevents the mailing address's 1.25rem group margin from adding extra whitespace
+above the divider. The shared section gap remains the sole outer spacing above
+and below the rule. Internal group spacing and desktop/phone stacking remain.
