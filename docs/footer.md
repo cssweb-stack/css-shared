@@ -66,8 +66,8 @@ below. UH reference comparison remains future work; these are our internal rules
   retains its existing deliberate bottom-padding removal before its language band.
 - University links use two internal columns below 576px and three at 576px+.
   Column-first source/reading order is retained.
-- Within the unit block, a nested Bootstrap row uses `col-12 col-sm-6
-  col-lg-12`: identity left/contact right at 576–991.98px, stacked below 576px
+- Within the unit block, a nested Bootstrap row uses `col-12 col-sm-4 col-lg-12` for identity and `col-12 col-sm-8
+  col-lg-12` for contacts: identity left/contact right at 576–991.98px, stacked below 576px
   and from 992px upward. Its horizontal gutter is 3rem. The outer footer
   still places the unit block alongside university links only at 992px+.
 - Identity/contact and subfooter text are left aligned at every width. Language
@@ -203,3 +203,24 @@ style guide rebuilt successfully; all eight SVGs are present unchanged in
 both outputs. Synthetic URLs were used only in temporary QA fixtures, never
 in unit data. The pre-existing full shared-check header line-height issue
 remains as described above.
+
+## Detail groups and tablet alignment (2026-11-08)
+
+The tablet identity block is one-third width (`col-sm-4`), with contacts in the
+remaining two-thirds (`col-sm-8`). This aligns the contact text with the second
+column of the continuous three-column university link list. Both groups return
+to full width at lg, and are full width below sm. Unit names wrap naturally.
+
+Parent organization links and address paragraphs share one compact detail rule:
+0.875rem text, 1.6 line-height, and `--footer-detail-gap: 0.25rem` between rows.
+The former 44px minimum height on organization links below 1200px is removed;
+their spacing no longer jumps between viewport sizes. Address paragraphs have
+zero default margins. The abbreviation and unit name retain their own styles.
+Phone/email and social groups use the existing shared 1.25rem block gap.
+The Webmaster/Privacy divider and its obsolete spacing variables are removed.
+
+Chrome checked 32 width/language scenarios: matching parent/address gaps, zero
+organization-link minimum height, no divider, left alignment, matching contact
+and second-list-column x coordinates on tablet, and no footer overflow. Results
+are in `exports/footer-detail-spacing-2026-11-08.json`. All three builds and the
+shared checker passed. Actual iPad refresh/review remains the next visual check.

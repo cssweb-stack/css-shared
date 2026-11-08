@@ -19,7 +19,7 @@
 <div class="row gx-lg-5 footer-grid">
 <div class="col-12 col-lg-3 footer-unit-column">
 <div class="row gx-0 gx-sm-5 footer-unit-layout">
-<div class="col-12 col-sm-6 col-lg-12 footer-unit-identity">
+<div class="col-12 col-sm-4 col-lg-12 footer-unit-identity">
 {% if site.shortName %}
 <p class="footer-unit-short-name">{{ site.shortName | escape }}</p>
 {% endif %}
@@ -32,7 +32,7 @@
 </ul>
 
 </div>
-<address class="col-12 col-sm-6 col-lg-12 footer-contact">
+<address class="col-12 col-sm-8 col-lg-12 footer-contact">
 {% if site.address | length %}
 <div class="footer-address">{% for line in site.address %}<p>{{ line | escape }}</p>{% endfor %}</div>
 {% endif %}
@@ -76,7 +76,6 @@
 {% endif %}
 
 {% if footerWebmaster or footerPrivacy %}
-<hr class="footer-contact-divider" aria-hidden="true">
 <p class="footer-contact-meta">
 {% if footerWebmaster %}
 <a href="mailto:{{ footerWebmaster.email | escape }}">{{ footerWebmaster.label | escape }}</a>

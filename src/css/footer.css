@@ -47,16 +47,10 @@ margin-bottom: 0.75rem;
 margin-bottom: 0;
 }
 
-/* Email-to-social spacing comes from the email group only. */
-.footer-contact .footer-email:has(+ .footer-social-bar) {
-margin-bottom: var(--footer-unit-group-gap);
-}
-
 /* Compact social row: no leading inset; targets extend after each glyph. */
 .site-footer .footer-social-bar {
 --footer-social-icon-size: 20px;
 --footer-social-target-size: 24px;
---footer-social-hit-inset: calc((var(--footer-social-target-size) - var(--footer-social-icon-size)) / 2);
 --footer-social-gap: 16px;
 display: flex;
 flex-wrap: wrap;
@@ -65,7 +59,7 @@ gap: var(--footer-social-gap);
 width: fit-content;
 max-width: 100%;
 list-style: none;
-margin: 0 0 calc(var(--footer-contact-divider-gap) - var(--footer-social-hit-inset));
+margin: 0 0 var(--footer-unit-group-gap);
 padding: 0;
 }
 
@@ -103,16 +97,6 @@ fill: currentColor;
 .site-footer .footer-social-link:focus-visible {
 outline: 2px solid currentColor;
 outline-offset: 3px;
-}
-
-/* Bottom margins place the same gap on both sides of the divider. */
-.footer-contact-divider {
-height: 0;
-margin: 0 0 var(--footer-contact-divider-gap);
-padding: 0;
-border: 0;
-border-top: 1px solid var(--footer-rule-color);
-opacity: 1;
 }
 
 /* Upper, webmaster and privacy group */
@@ -315,43 +299,40 @@ font-size: 0.875rem;
 font-weight: 300;
 }
 
-.site-footer .footer-parent-links {
-list-style: none;
-margin: 0 0 var(--footer-unit-identity-gap);
-padding: 0;
-}
-
-.footer-parent-links li {
-margin: 0;
-padding: 0;
-}
-
-.footer-parent-links li:not(:last-child) {
-margin-bottom: 0.25rem;
-}
-
-.site-footer .footer-inner .footer-parent-links a {
-display: flex;
-font-size: 0.8125rem;
-font-weight: 400;
-line-height: 1.6;
-}
-
-@media (max-width: 1199.98px) {
-.site-footer .footer-inner .footer-parent-links a {
-min-height: 44px;
-}
-}
-
-.footer-contact .footer-address,
-.footer-contact .footer-phone {
+/* Parent organizations and address lines share one compact detail treatment. */
+.site-footer .footer-parent-links,
+.footer-contact .footer-address {
+display: grid;
+gap: var(--footer-detail-gap);
 margin: 0 0 var(--footer-unit-group-gap);
 padding: 0;
+font-size: 0.875rem;
+font-weight: 400;
+line-height: 1.6;
+list-style: none;
 }
 
-/* Address lines are separate paragraphs; the group owns the outer spacing. */
-.footer-address > p {
+.footer-parent-links li,
+.footer-contact .footer-address > p {
 margin: 0;
+padding: 0;
+font-size: inherit;
+line-height: inherit;
+}
+
+.site-footer .footer-inner .footer-parent-links a {
+display: block;
+min-height: 0;
+padding: 0;
+font-size: inherit;
+font-weight: inherit;
+line-height: inherit;
+}
+
+.footer-contact .footer-phone,
+.footer-contact .footer-email {
+margin: 0 0 var(--footer-unit-group-gap);
+padding: 0;
 }
 
 /* Upper, address and link size and weight */
@@ -522,7 +503,7 @@ min-width: 0;
 .footer-unit-column {
 --footer-unit-group-gap: 1.25rem;
 --footer-unit-identity-gap: calc(var(--footer-unit-group-gap) / 2);
---footer-contact-divider-gap: 0.75rem;
+--footer-detail-gap: 0.25rem;
 display: block;
 }
 
