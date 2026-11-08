@@ -59,23 +59,30 @@ background: var(--white);
 min-height: 40vh;
 }
 
-.main-content {
+.main-content,
+.page-section-inner {
 padding-block: 3rem;
 }
 
 @media (min-width: 576px) and (max-width: 1199.98px) {
-.main-content {
+.main-content,
+.page-section-inner {
 padding-block: 2.25rem;
 }
 }
 
 @media (max-width: 575.98px) {
-.main-content {
+.main-content,
+.page-section-inner {
 padding-block: 2rem;
 }
 }
 
 /* Page sections: full-width outer; existing container/main-content rules size the inner. */
+.page-section {
+margin-block: 0;
+}
+
 .page-section--gray {
 background-color: var(--surface-neutral);
 border-block: 6px solid var(--border-neutral);
