@@ -31,3 +31,12 @@ wrap threshold. Portrait tablet widths below that threshold put the sidebar
 below the main content; landscape widths of 992px+ retain the right sidebar.
 Within this component, `.sidebar-media` logos keep natural proportions and
 are capped at 18rem, independently of viewport size.
+
+HAM and TASI/PHIDC use the same two-track grid with a single contact wrapper:
+at wide wrapped widths the unused second column stays empty, so the contact
+does not expand across the entire row. OENAS uses one wrapper per contact,
+placing Jack and Nancy side by side. Contact wrappers contain `.sidebar-group`
+to preserve internal spacing without applying sibling-group top margins across
+the grid. All four portraits use the shared `.sidebar-media` width/cap, so a
+single-contact page has the same portrait sizing as a two-contact page. Phones
+use one full-width track; portraits retain the same 18rem maximum.
