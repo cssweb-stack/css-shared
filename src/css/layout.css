@@ -4,6 +4,7 @@
 :root {
 --layout-content-max-width: 87.5rem;
 --layout-gutter: clamp(1rem, 4vw, 3rem);
+--layout-section-spacing: 3rem;
 }
 
 .container {
@@ -23,20 +24,18 @@ min-height: 40vh;
 
 .main-content,
 .page-section-inner {
-padding-block: 3rem;
+padding-block: var(--layout-section-spacing);
 }
 
 @media (min-width: 576px) and (max-width: 1199.98px) {
-.main-content,
-.page-section-inner {
-padding-block: 2.25rem;
+:root {
+--layout-section-spacing: 2.25rem;
 }
 }
 
 @media (max-width: 575.98px) {
-.main-content,
-.page-section-inner {
-padding-block: 2rem;
+:root {
+--layout-section-spacing: 2rem;
 }
 }
 
@@ -46,6 +45,7 @@ margin-block: 0;
 }
 
 .page-section--gray {
+margin-block-end: var(--layout-section-spacing);
 background-color: var(--surface-neutral);
 border-block: 6px solid var(--border-neutral);
 }
