@@ -66,3 +66,39 @@ section padding share content's settings. The former 900px outer grid and
 525px mobile centering rules were removed. See `docs/footer.md` for the current
 width/breakpoint map and browser verification results. Internal link lists and
 language components retain their dedicated presentation rules.
+
+Centered graphic callouts are an explicit reusable exception to flush-left
+content: `graphicCallout` in `layouts/content/graphic-callout.njk` uses existing
+Bootstrap alignment utilities. SSRI's two homepage SVG promotions consume it;
+contact and profile components remain left aligned. No new CSS was added.
+
+Content/sidebar width constraint: the sidebar must never be narrower than
+3 of Bootstrap's 12 columns. Maximum main/sidebar split is 9/3; no 10/2 variant.
+Research detail and Grant Development rows retain 8/4 at lg and use 9/3 from
+xl upward, including xxl. The homepage already uses 9/3 from lg. Below lg
+they remain stacked. This standard applies to future content/sidebar designs.
+
+## Unified Bootstrap gutters
+
+All actual Bootstrap rows in available shared templates, SSRI, GEO and style-guide
+source now use gx-0 gx-sm-5 gx-lg-5: no horizontal gutter below 576px, 3rem from
+576px upward. Old gx-3/gx-4 variants are removed; vertical gutter choices remain
+separate. This aligns research/media row outer edges with the upper footer grid
+and keeps nested row gutters consistent. No new gutter CSS is introduced.
+Chrome verified all seven SSRI research rows against footer grid left/right edges
+at ten widths (320–1920px): every pair matched, without footer overflow. Results:
+exports/content-footer-grid-edges-2026-11-08.json. All three builds passed.
+
+## Single-column content sections
+
+SSRI Research/Directory/Contact opening sections, both Research Services and
+Fiscal Compliance sections, all Directory bands, and Boilerplate's content
+now use the same outer/inner/Bootstrap row/col-12 structure. Ten sections across
+six pages were wrapped. Existing homepage/research-detail/Grant Development
+grids and the office/map and research listing grids were not rewrapped.
+Boilerplate's long-form class moved to the column so its direct-heading rule
+continues working. Shared column edge normalization now applies to every
+primary row, not only content-sidebar. No new page-specific padding rules.
+Chrome checked 18 page/width cases (375/820/1440px): matching footer row edges,
+3px diagnostic column borders and zero last-child margins. Results:
+exports/single-column-sections-2026-11-08.json. SSRI build/shared checks passed.

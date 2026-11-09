@@ -1,0 +1,18 @@
+{
+  "capturedDate": "2026-11-08",
+  "referencePage": "https://manoa.hawaii.edu/",
+  "files": [
+    {
+      "file": "uh-total-base.css",
+      "sourceUrl": "https://manoa.hawaii.edu/wp/wp-content/themes/Total/style.css?ver=7.1.4",
+      "sha256": "fe9bd03d169341ee74d2db40f2d7d3471f18690f2c7c1480db572ea0f5bd07ff",
+      "bytes": 249579
+    },
+    {
+      "file": "uh-total-child.css",
+      "sourceUrl": "https://manoa.hawaii.edu/wp/wp-content/themes/Total-child/style.css?ver=5.19",
+      "sha256": "001827352c7b599abde2af2b270c960af6356f1e29ea3d4fb679029ff46cbaa9",
+      "bytes": 64574
+    }
+  ]
+}

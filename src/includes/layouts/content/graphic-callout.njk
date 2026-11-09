@@ -1,0 +1,9 @@
+{# Centered graphic-and-link callout; deliberately distinct from contact details. #}
+{% macro graphicCallout(href, imageSrc, label, note="", imageWidth=800, imageHeight=800) %}
+<div class="text-center">
+<a href="{{ href | url | escape }}">
+<img class="img-fluid sidebar-media d-block mx-auto mb-3" src="{{ imageSrc | url | escape }}" alt="" width="{{ imageWidth }}" height="{{ imageHeight }}">
+{{ label | escape }}</a>
+{% if note %}<p class="mb-0">{{ note | escape }}</p>{% endif %}
+</div>
+{% endmacro %}

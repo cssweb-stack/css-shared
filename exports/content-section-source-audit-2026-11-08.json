@@ -1,0 +1,327 @@
+[
+  {
+    "site": "ssri",
+    "page": "contact/index.html",
+    "sections": 1
+  },
+  {
+    "site": "ssri",
+    "page": "directory/index.html",
+    "sections": 3
+  },
+  {
+    "site": "ssri",
+    "page": "index.html",
+    "sections": 1
+  },
+  {
+    "site": "ssri",
+    "page": "privacy/index.html",
+    "sections": 1
+  },
+  {
+    "site": "ssri",
+    "page": "privacy.html",
+    "sections": 1
+  },
+  {
+    "site": "ssri",
+    "page": "research/ham.html",
+    "sections": 1
+  },
+  {
+    "site": "ssri",
+    "page": "research/hcri.html",
+    "sections": 1
+  },
+  {
+    "site": "ssri",
+    "page": "research/index.html",
+    "sections": 2
+  },
+  {
+    "site": "ssri",
+    "page": "research/oenas.html",
+    "sections": 1
+  },
+  {
+    "site": "ssri",
+    "page": "research/tasi-phidc.html",
+    "sections": 1
+  },
+  {
+    "site": "ssri",
+    "page": "support/boilerplate.html",
+    "sections": 1
+  },
+  {
+    "site": "ssri",
+    "page": "support/fiscal-compliance.html",
+    "sections": 2
+  },
+  {
+    "site": "ssri",
+    "page": "support/grant-development.html",
+    "sections": 1
+  },
+  {
+    "site": "ssri",
+    "page": "support/research-services.html",
+    "sections": 2
+  },
+  {
+    "site": "geo",
+    "page": "about-geo/areas-of-study.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "about-geo/department-news.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "about-geo/geo-courses.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "about-geo/lecture-series.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "about-geo/why-study-geo.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "contact/index.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "faculty/associated.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "faculty/aurora-kagawa-viviani.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "faculty/brian-szuster.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "faculty/camilo-mora.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "faculty/hong-jiang.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "faculty/index.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "faculty/marina-karides.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "faculty/mary-mostafanezhad.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "faculty/orhon-myadar.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "faculty/qi-chen.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "faculty/reece-jones.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "faculty/yuqin-jiang.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "graduate/current-cohort.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "graduate/degrees-awarded.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "graduate/doctorate-phd.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "graduate/funding-sources.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "graduate/masters-ma.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "index.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "privacy/index.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "privacy.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "support-geo/index.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "undergraduate/geo-bam.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "undergraduate/geo-sust-bam.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "undergraduate/gis-certificate.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "undergraduate/major-ba.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "undergraduate/minor.html",
+    "sections": 1
+  },
+  {
+    "site": "geo",
+    "page": "undergraduate/student-learning-outcomes.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "banners/banner-with-label/index.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "banners/banner-with-label-and-credit/index.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "banners/image-banner/index.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "colors/index.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "components/buttons/index.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "components/callouts/index.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "components/tiles-and-photo/index.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "footers/index.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "headers/index.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "index.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "layout/grids/index.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "layout/grids/left-sidebar/index.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "layout/grids/right-sidebar/index.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "privacy/index.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "privacy.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "sites/index.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "special-text/index.html",
+    "sections": 1
+  },
+  {
+    "site": "style-guide",
+    "page": "typography/index.html",
+    "sections": 1
+  }
+]

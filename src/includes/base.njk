@@ -28,13 +28,16 @@
 {% include "layouts/branding/header/unit-nav.njk" -%}
 </header>
 {% if site.hero.enabled != false %}{% include "layouts/hero/hero.njk" %}{% endif -%}
+{# One universal content parent; site-main owns page-edge spacing. #}
 <main id="main-content" class="site-main">
 {% if fullWidthSections %}
 {{ content | safe }}
 {% else %}
-<div class="container main-content">
+<div class="page-section">
+<div class="container content-section">
 {% if not hidePageTitle %}<h1>{{ title | default(site.name) | escape }}</h1>{% endif -%}
 {{ content | safe }}
+</div>
 </div>
 {% endif %}
 </main>

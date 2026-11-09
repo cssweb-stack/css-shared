@@ -25,3 +25,6 @@
 
 /* Footer */
 @import url("./footer.css");
+
+/* Layout proofreading: uncomment to enable; comment out for the normal site. */
+/* @import url("./diagnostics.css"); */

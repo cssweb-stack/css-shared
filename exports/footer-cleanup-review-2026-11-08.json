@@ -1,0 +1,2581 @@
+{
+  "date": "2026-11-08",
+  "scope": "footer.css cleanup and shared layout spacing cross-check; approved design retained",
+  "baseline": "Compiled SSRI stylesheet saved immediately before cleanup; shared footer markup from 14 style-guide specimens",
+  "browser": "Local headless Chrome, real Inter font loaded from a local embedded font stylesheet",
+  "widths": [
+    320,
+    375,
+    575,
+    576,
+    767,
+    768,
+    991,
+    992,
+    1199,
+    1200,
+    1440,
+    1920
+  ],
+  "cases": 168,
+  "elementComparisons": 21264,
+  "computedStyleOrGeometryChanges": 0,
+  "footerOverflowCases": 0,
+  "existingAcronymFitLimits": [
+    {
+      "unit": "ANTH",
+      "width": 576
+    },
+    {
+      "unit": "DURP",
+      "width": 576
+    },
+    {
+      "unit": "ECON",
+      "width": 576
+    },
+    {
+      "unit": "POLS",
+      "width": 576
+    },
+    {
+      "unit": "PUBA",
+      "width": 576
+    },
+    {
+      "unit": "WGSS",
+      "width": 576
+    },
+    {
+      "unit": "WGSS",
+      "width": 992
+    }
+  ],
+  "limitations": [
+    "Actual Safari/iPad/iPhone visual review was not repeated.",
+    "Fixed acronym fit limits were present before cleanup and left unchanged to preserve the approved sizing model.",
+    "Diagnostic borders/backgrounds remain enabled as requested; extraction to a toggle stylesheet is deferred."
+  ],
+  "results": [
+    {
+      "unit": 0,
+      "label": "ANTH",
+      "width": 320,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 0,
+      "label": "ANTH",
+      "width": 375,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 0,
+      "label": "ANTH",
+      "width": 575,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 0,
+      "label": "ANTH",
+      "width": 576,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": true,
+      "afterAcronymOverflow": true,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 0,
+      "label": "ANTH",
+      "width": 767,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 0,
+      "label": "ANTH",
+      "width": 768,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 0,
+      "label": "ANTH",
+      "width": 991,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 0,
+      "label": "ANTH",
+      "width": 992,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 0,
+      "label": "ANTH",
+      "width": 1199,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 0,
+      "label": "ANTH",
+      "width": 1200,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 0,
+      "label": "ANTH",
+      "width": 1440,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 0,
+      "label": "ANTH",
+      "width": 1920,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 1,
+      "label": "CSS",
+      "width": 320,
+      "elements": 123,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 1,
+      "label": "CSS",
+      "width": 375,
+      "elements": 123,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 1,
+      "label": "CSS",
+      "width": 575,
+      "elements": 123,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 1,
+      "label": "CSS",
+      "width": 576,
+      "elements": 123,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 1,
+      "label": "CSS",
+      "width": 767,
+      "elements": 123,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 1,
+      "label": "CSS",
+      "width": 768,
+      "elements": 123,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 1,
+      "label": "CSS",
+      "width": 991,
+      "elements": 123,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 1,
+      "label": "CSS",
+      "width": 992,
+      "elements": 123,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 1,
+      "label": "CSS",
+      "width": 1199,
+      "elements": 123,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 1,
+      "label": "CSS",
+      "width": 1200,
+      "elements": 123,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 1,
+      "label": "CSS",
+      "width": 1440,
+      "elements": 123,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 1,
+      "label": "CSS",
+      "width": 1920,
+      "elements": 123,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 2,
+      "label": "DURP",
+      "width": 320,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 2,
+      "label": "DURP",
+      "width": 375,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 2,
+      "label": "DURP",
+      "width": 575,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 2,
+      "label": "DURP",
+      "width": 576,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": true,
+      "afterAcronymOverflow": true,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 2,
+      "label": "DURP",
+      "width": 767,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 2,
+      "label": "DURP",
+      "width": 768,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 2,
+      "label": "DURP",
+      "width": 991,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 2,
+      "label": "DURP",
+      "width": 992,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 2,
+      "label": "DURP",
+      "width": 1199,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 2,
+      "label": "DURP",
+      "width": 1200,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 2,
+      "label": "DURP",
+      "width": 1440,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 2,
+      "label": "DURP",
+      "width": 1920,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 3,
+      "label": "ECON",
+      "width": 320,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 3,
+      "label": "ECON",
+      "width": 375,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 3,
+      "label": "ECON",
+      "width": 575,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 3,
+      "label": "ECON",
+      "width": 576,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": true,
+      "afterAcronymOverflow": true,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 3,
+      "label": "ECON",
+      "width": 767,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 3,
+      "label": "ECON",
+      "width": 768,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 3,
+      "label": "ECON",
+      "width": 991,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 3,
+      "label": "ECON",
+      "width": 992,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 3,
+      "label": "ECON",
+      "width": 1199,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 3,
+      "label": "ECON",
+      "width": 1200,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 3,
+      "label": "ECON",
+      "width": 1440,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 3,
+      "label": "ECON",
+      "width": 1920,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 4,
+      "label": "ES",
+      "width": 320,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 4,
+      "label": "ES",
+      "width": 375,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 4,
+      "label": "ES",
+      "width": 575,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 4,
+      "label": "ES",
+      "width": 576,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 4,
+      "label": "ES",
+      "width": 767,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 4,
+      "label": "ES",
+      "width": 768,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 4,
+      "label": "ES",
+      "width": 991,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 4,
+      "label": "ES",
+      "width": 992,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 4,
+      "label": "ES",
+      "width": 1199,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 4,
+      "label": "ES",
+      "width": 1200,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 4,
+      "label": "ES",
+      "width": 1440,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 4,
+      "label": "ES",
+      "width": 1920,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 5,
+      "label": "GEO",
+      "width": 320,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 5,
+      "label": "GEO",
+      "width": 375,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 5,
+      "label": "GEO",
+      "width": 575,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 5,
+      "label": "GEO",
+      "width": 576,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 5,
+      "label": "GEO",
+      "width": 767,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 5,
+      "label": "GEO",
+      "width": 768,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 5,
+      "label": "GEO",
+      "width": 991,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 5,
+      "label": "GEO",
+      "width": 992,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 5,
+      "label": "GEO",
+      "width": 1199,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 5,
+      "label": "GEO",
+      "width": 1200,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 5,
+      "label": "GEO",
+      "width": 1440,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 5,
+      "label": "GEO",
+      "width": 1920,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 6,
+      "label": "POLS",
+      "width": 320,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 6,
+      "label": "POLS",
+      "width": 375,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 6,
+      "label": "POLS",
+      "width": 575,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 6,
+      "label": "POLS",
+      "width": 576,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": true,
+      "afterAcronymOverflow": true,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 6,
+      "label": "POLS",
+      "width": 767,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 6,
+      "label": "POLS",
+      "width": 768,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 6,
+      "label": "POLS",
+      "width": 991,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 6,
+      "label": "POLS",
+      "width": 992,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 6,
+      "label": "POLS",
+      "width": 1199,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 6,
+      "label": "POLS",
+      "width": 1200,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 6,
+      "label": "POLS",
+      "width": 1440,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 6,
+      "label": "POLS",
+      "width": 1920,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 7,
+      "label": "PSY",
+      "width": 320,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 7,
+      "label": "PSY",
+      "width": 375,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 7,
+      "label": "PSY",
+      "width": 575,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 7,
+      "label": "PSY",
+      "width": 576,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 7,
+      "label": "PSY",
+      "width": 767,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 7,
+      "label": "PSY",
+      "width": 768,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 7,
+      "label": "PSY",
+      "width": 991,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 7,
+      "label": "PSY",
+      "width": 992,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 7,
+      "label": "PSY",
+      "width": 1199,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 7,
+      "label": "PSY",
+      "width": 1200,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 7,
+      "label": "PSY",
+      "width": 1440,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 7,
+      "label": "PSY",
+      "width": 1920,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 8,
+      "label": "PUBA",
+      "width": 320,
+      "elements": 146,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 8,
+      "label": "PUBA",
+      "width": 375,
+      "elements": 146,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 8,
+      "label": "PUBA",
+      "width": 575,
+      "elements": 146,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 8,
+      "label": "PUBA",
+      "width": 576,
+      "elements": 146,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": true,
+      "afterAcronymOverflow": true,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 8,
+      "label": "PUBA",
+      "width": 767,
+      "elements": 146,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 8,
+      "label": "PUBA",
+      "width": 768,
+      "elements": 146,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 8,
+      "label": "PUBA",
+      "width": 991,
+      "elements": 146,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 8,
+      "label": "PUBA",
+      "width": 992,
+      "elements": 146,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 8,
+      "label": "PUBA",
+      "width": 1199,
+      "elements": 146,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 8,
+      "label": "PUBA",
+      "width": 1200,
+      "elements": 146,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 8,
+      "label": "PUBA",
+      "width": 1440,
+      "elements": 146,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 8,
+      "label": "PUBA",
+      "width": 1920,
+      "elements": 146,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 9,
+      "label": "SCI",
+      "width": 320,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 9,
+      "label": "SCI",
+      "width": 375,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 9,
+      "label": "SCI",
+      "width": 575,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 9,
+      "label": "SCI",
+      "width": 576,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 9,
+      "label": "SCI",
+      "width": 767,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 9,
+      "label": "SCI",
+      "width": 768,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 9,
+      "label": "SCI",
+      "width": 991,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 9,
+      "label": "SCI",
+      "width": 992,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 9,
+      "label": "SCI",
+      "width": 1199,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 9,
+      "label": "SCI",
+      "width": 1200,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 9,
+      "label": "SCI",
+      "width": 1440,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 9,
+      "label": "SCI",
+      "width": 1920,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 10,
+      "label": "SOC",
+      "width": 320,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 10,
+      "label": "SOC",
+      "width": 375,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 10,
+      "label": "SOC",
+      "width": 575,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 10,
+      "label": "SOC",
+      "width": 576,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 10,
+      "label": "SOC",
+      "width": 767,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 10,
+      "label": "SOC",
+      "width": 768,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 10,
+      "label": "SOC",
+      "width": 991,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 10,
+      "label": "SOC",
+      "width": 992,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 10,
+      "label": "SOC",
+      "width": 1199,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 10,
+      "label": "SOC",
+      "width": 1200,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 10,
+      "label": "SOC",
+      "width": 1440,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 10,
+      "label": "SOC",
+      "width": 1920,
+      "elements": 132,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 11,
+      "label": "SSRI",
+      "width": 320,
+      "elements": 125,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 11,
+      "label": "SSRI",
+      "width": 375,
+      "elements": 125,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 11,
+      "label": "SSRI",
+      "width": 575,
+      "elements": 125,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 11,
+      "label": "SSRI",
+      "width": 576,
+      "elements": 125,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 11,
+      "label": "SSRI",
+      "width": 767,
+      "elements": 125,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 11,
+      "label": "SSRI",
+      "width": 768,
+      "elements": 125,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 11,
+      "label": "SSRI",
+      "width": 991,
+      "elements": 125,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 11,
+      "label": "SSRI",
+      "width": 992,
+      "elements": 125,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 11,
+      "label": "SSRI",
+      "width": 1199,
+      "elements": 125,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 11,
+      "label": "SSRI",
+      "width": 1200,
+      "elements": 125,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 11,
+      "label": "SSRI",
+      "width": 1440,
+      "elements": 125,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 11,
+      "label": "SSRI",
+      "width": 1920,
+      "elements": 125,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 12,
+      "label": "WGSS",
+      "width": 320,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 12,
+      "label": "WGSS",
+      "width": 375,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 12,
+      "label": "WGSS",
+      "width": 575,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 12,
+      "label": "WGSS",
+      "width": 576,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": true,
+      "afterAcronymOverflow": true,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 12,
+      "label": "WGSS",
+      "width": 767,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 12,
+      "label": "WGSS",
+      "width": 768,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 12,
+      "label": "WGSS",
+      "width": 991,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 12,
+      "label": "WGSS",
+      "width": 992,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": true,
+      "afterAcronymOverflow": true,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 12,
+      "label": "WGSS",
+      "width": 1199,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 12,
+      "label": "WGSS",
+      "width": 1200,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 12,
+      "label": "WGSS",
+      "width": 1440,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 12,
+      "label": "WGSS",
+      "width": 1920,
+      "elements": 126,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 13,
+      "label": "CSS",
+      "width": 320,
+      "elements": 106,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 13,
+      "label": "CSS",
+      "width": 375,
+      "elements": 106,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 13,
+      "label": "CSS",
+      "width": 575,
+      "elements": 106,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 13,
+      "label": "CSS",
+      "width": 576,
+      "elements": 106,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 13,
+      "label": "CSS",
+      "width": 767,
+      "elements": 106,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 13,
+      "label": "CSS",
+      "width": 768,
+      "elements": 106,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 13,
+      "label": "CSS",
+      "width": 991,
+      "elements": 106,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 13,
+      "label": "CSS",
+      "width": 992,
+      "elements": 106,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 13,
+      "label": "CSS",
+      "width": 1199,
+      "elements": 106,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 13,
+      "label": "CSS",
+      "width": 1200,
+      "elements": 106,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 13,
+      "label": "CSS",
+      "width": 1440,
+      "elements": 106,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    },
+    {
+      "unit": 13,
+      "label": "CSS",
+      "width": 1920,
+      "elements": 106,
+      "differences": [],
+      "beforeOverflow": false,
+      "afterOverflow": false,
+      "beforeAcronymOverflow": false,
+      "afterAcronymOverflow": false,
+      "counts": {
+        "links": 22,
+        "languages": 16
+      }
+    }
+  ]
+}

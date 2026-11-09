@@ -7,29 +7,18 @@ margin-top: 0;
 margin-bottom: 1rem;
 }
 
-/* Shared divider treatment for intros and separated content groups. */
+/* Shared divider treatment for separated content groups. */
 :root {
 --content-divider-border: 1px solid var(--light-gray);
 --content-divider-spacing: 2rem;
 }
 
-/* Intro */
-.site-main :is(.intro, .intro-nbrd) {
-line-height: 1.75;
-}
-
+/* One intro treatment: no divider or bottom padding. */
 .site-main .intro {
-font-size: 1.14rem;
-border-bottom: var(--content-divider-border);
+font-size: 1.25rem;
+line-height: 1.75;
 margin-top: 0;
-padding-bottom: var(--content-divider-spacing);
-margin-bottom: var(--content-divider-spacing);
-}
-
-.site-main .intro-nbrd {
-font-size: 1.14rem;
-margin-top: 0;
-margin-bottom: 2rem;
+margin-bottom: calc(2 * var(--content-paragraph-spacing));
 }
 
 /* Accent */

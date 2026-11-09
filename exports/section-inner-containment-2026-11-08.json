@@ -1,0 +1,137 @@
+[
+  {
+    "page": "index.html",
+    "width": 375,
+    "sections": [
+      {
+        "outerTop": 44,
+        "innerTop": 50,
+        "outerBottom": 1868.46875,
+        "innerBottom": 1862.46875,
+        "borderTop": 6,
+        "borderBottom": 6,
+        "paddingBottom": "32px",
+        "display": "flow-root",
+        "headingTop": 50
+      }
+    ]
+  },
+  {
+    "page": "index.html",
+    "width": 820,
+    "sections": [
+      {
+        "outerTop": 48,
+        "innerTop": 54,
+        "outerBottom": 1072.359375,
+        "innerBottom": 1066.359375,
+        "borderTop": 6,
+        "borderBottom": 6,
+        "paddingBottom": "36px",
+        "display": "flow-root",
+        "headingTop": 54
+      }
+    ]
+  },
+  {
+    "page": "index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "outerTop": 60,
+        "innerTop": 66,
+        "outerBottom": 643.359375,
+        "innerBottom": 637.359375,
+        "borderTop": 6,
+        "borderBottom": 6,
+        "paddingBottom": "48px",
+        "display": "flow-root",
+        "headingTop": 66
+      }
+    ]
+  },
+  {
+    "page": "research/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "outerTop": 44,
+        "innerTop": 50,
+        "outerBottom": 350.609375,
+        "innerBottom": 344.609375,
+        "borderTop": 6,
+        "borderBottom": 6,
+        "paddingBottom": "32px",
+        "display": "flow-root",
+        "headingTop": 50
+      },
+      {
+        "outerTop": 398.609375,
+        "innerTop": 404.609375,
+        "outerBottom": 4132.8125,
+        "innerBottom": 4126.8125,
+        "borderTop": 6,
+        "borderBottom": 6,
+        "paddingBottom": "32px",
+        "display": "flow-root",
+        "headingTop": null
+      }
+    ]
+  },
+  {
+    "page": "research/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "outerTop": 48,
+        "innerTop": 54,
+        "outerBottom": 232.640625,
+        "innerBottom": 226.640625,
+        "borderTop": 6,
+        "borderBottom": 6,
+        "paddingBottom": "36px",
+        "display": "flow-root",
+        "headingTop": 54
+      },
+      {
+        "outerTop": 280.640625,
+        "innerTop": 286.640625,
+        "outerBottom": 2318.75,
+        "innerBottom": 2312.75,
+        "borderTop": 6,
+        "borderBottom": 6,
+        "paddingBottom": "36px",
+        "display": "flow-root",
+        "headingTop": null
+      }
+    ]
+  },
+  {
+    "page": "research/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "outerTop": 60,
+        "innerTop": 66,
+        "outerBottom": 227.375,
+        "innerBottom": 221.375,
+        "borderTop": 6,
+        "borderBottom": 6,
+        "paddingBottom": "48px",
+        "display": "flow-root",
+        "headingTop": 66
+      },
+      {
+        "outerTop": 275.375,
+        "innerTop": 281.375,
+        "outerBottom": 1663.625,
+        "innerBottom": 1657.625,
+        "borderTop": 6,
+        "borderBottom": 6,
+        "paddingBottom": "48px",
+        "display": "flow-root",
+        "headingTop": null
+      }
+    ]
+  }
+]

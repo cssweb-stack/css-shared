@@ -1,0 +1,40 @@
+/* Layout proofreading overlay — disabled by default.
+ * Toggle the final import in common.css, then rebuild/refresh.
+ * Inset shadows draw helper lines without changing dimensions, padding or flow.
+ * Only temporary diagnostic colors belong here; real design borders stay local.
+ */
+
+/* One page-content parent: gold top and bottom. */
+.site-main {
+box-shadow: inset 0 6px gold, inset 0 -6px gold;
+}
+
+/* Full-width section outers: lime top/bottom, gold fill except gray bands. */
+.site-main > .page-section {
+box-shadow: inset 0 6px lime, inset 0 -6px lime;
+}
+
+.site-main .page-section:not(.page-section--gray) {
+background-color: var(--surface-gold);
+}
+
+/* Width-constrained content inners: pink sides and fill. */
+.site-main .content-section {
+background-color: var(--surface-pink);
+box-shadow: inset 6px 0 pink, inset -6px 0 pink;
+}
+
+/* Footer inners: pink on all four sides. */
+.site-footer .container {
+box-shadow: inset 0 0 0 6px pink;
+}
+
+/* Bootstrap and existing shared grid columns: Accent Warm on all four sides.
+ * Skip the redundant footer parent when it only wraps another Bootstrap row.
+ */
+.site-main .row > [class*="col-"],
+.site-footer .row > [class*="col-"]:not(:has(> .row)),
+.site-main :is(.grid-welcome, .grid-two, .grid-three, .grid-four, .grid-five,
+.grid-profile, .grid-standard, .grid-compact, .grid-advisors) > * {
+box-shadow: inset 0 0 0 3px var(--accent-warm);
+}

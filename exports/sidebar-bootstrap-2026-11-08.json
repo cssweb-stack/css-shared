@@ -1,0 +1,194 @@
+[
+  {
+    "page": "index.html",
+    "width": 375,
+    "display": "flex",
+    "fraction": 1,
+    "borders": [
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "page": "index.html",
+    "width": 820,
+    "display": "flex",
+    "fraction": 0.5,
+    "borders": [
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "page": "index.html",
+    "width": 1440,
+    "display": "flex",
+    "fraction": 1,
+    "borders": [
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "page": "support/grant-development.html",
+    "width": 375,
+    "display": "flex",
+    "fraction": 1,
+    "borders": [
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "page": "support/grant-development.html",
+    "width": 820,
+    "display": "flex",
+    "fraction": 0.5,
+    "borders": [
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "page": "support/grant-development.html",
+    "width": 1440,
+    "display": "flex",
+    "fraction": 1,
+    "borders": [
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "page": "research/hcri.html",
+    "width": 375,
+    "display": "flex",
+    "fraction": 1,
+    "borders": [
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "page": "research/hcri.html",
+    "width": 820,
+    "display": "flex",
+    "fraction": 0.5,
+    "borders": [
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "page": "research/hcri.html",
+    "width": 1440,
+    "display": "flex",
+    "fraction": 1,
+    "borders": [
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "page": "research/ham.html",
+    "width": 375,
+    "display": "flex",
+    "fraction": 1,
+    "borders": [
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "page": "research/ham.html",
+    "width": 820,
+    "display": "flex",
+    "fraction": 0.5,
+    "borders": [
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "page": "research/ham.html",
+    "width": 1440,
+    "display": "flex",
+    "fraction": 1,
+    "borders": [
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "page": "research/oenas.html",
+    "width": 375,
+    "display": "flex",
+    "fraction": 1,
+    "borders": [
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "page": "research/oenas.html",
+    "width": 820,
+    "display": "flex",
+    "fraction": 0.5,
+    "borders": [
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "page": "research/oenas.html",
+    "width": 1440,
+    "display": "flex",
+    "fraction": 1,
+    "borders": [
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "page": "research/tasi-phidc.html",
+    "width": 375,
+    "display": "flex",
+    "fraction": 1,
+    "borders": [
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "page": "research/tasi-phidc.html",
+    "width": 820,
+    "display": "flex",
+    "fraction": 0.5,
+    "borders": [
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "page": "research/tasi-phidc.html",
+    "width": 1440,
+    "display": "flex",
+    "fraction": 1,
+    "borders": [
+      "3px"
+    ],
+    "overflow": false
+  }
+]

@@ -14,7 +14,8 @@ for (const file of files(root)) {
 const name = path.relative(root, file);
 if (!fs.statSync(file).size) throw new Error(`Empty shared file: ${name}`);
 if (file.endsWith('.json')) JSON.parse(fs.readFileSync(file, 'utf8'));
-if (file.endsWith('.css')) {
+// Captured third-party reference CSS is not part of our authored/published styles.
+if (file.endsWith('.css') && !name.startsWith('css/_uh-reference/')) {
 const css = fs.readFileSync(file, 'utf8').replace(/\/\*[\s\S]*?\*\//g, '');
 for (const match of css.matchAll(/(?:^|[;{}])\s*(line-height|--[\w-]*(?:line-height|leading)[\w-]*|font)\s*:\s*([^;{}]+)/g)) {
 const [, property, raw] = match;
@@ -30,6 +31,9 @@ if (!fs.existsSync(path.resolve(path.dirname(file), ref))) throw new Error(`Miss
 }
 if (file.endsWith('.njk')) {
 const template = fs.readFileSync(file, 'utf8');
+for (const match of template.matchAll(/class="([^"]*)"/g)) {
+if (match[1].split(/\s+/).some(name => ['main-content', 'page-section-inner'].includes(name))) throw new Error(`Use content-section for shared content padding: ${name}`);
+}
 for (const match of template.matchAll(/{%\s*(?:include|extends|from|import)\s+["']([^"']+)["']\s*(?:%}|-%}|import|as)/g)) {
 const ref = match[1];
 if (![path.join(root, 'includes', ref), path.join(root, ref)].some(p => fs.existsSync(p))) throw new Error(`Missing include: ${name}: ${ref}`);
@@ -43,6 +47,9 @@ if (!fs.existsSync(path.join(root, ref))) throw new Error(`Missing shared file: 
 for (const old of ['_includes', '_data', '_media']) {
 if (fs.existsSync(path.join(root, old))) throw new Error(`Retired source directory: ${old}`);
 }
+const baseTemplate = fs.readFileSync(path.join(root, 'includes/base.njk'), 'utf8');
+if ((baseTemplate.match(/<main\b[^>]*class="site-main"/g) || []).length !== 1) throw new Error('The shared base must have exactly one site-main page-content parent.');
+if (!baseTemplate.includes('class="container content-section"')) throw new Error('The shared base must wrap ordinary pages in container content-section.');
 console.log(`Checked ${count} shared files: JSON, source CSS assets, literal include references, structure and line-height rules.`);
 
 // Unit identity/contact data is independent of optional social accounts.

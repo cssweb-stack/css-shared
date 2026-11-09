@@ -1,0 +1,281 @@
+[
+  {
+    "width": 320,
+    "nameSize": "17px",
+    "nameWeight": "600",
+    "parentSizes": [
+      "15px",
+      "15px"
+    ],
+    "parentWeights": [
+      "400",
+      "400"
+    ],
+    "parentColors": [
+      "rgb(255, 255, 255)",
+      "rgb(255, 255, 255)"
+    ],
+    "addressSize": "14px",
+    "addressWeight": "300",
+    "nameGap": 10,
+    "parentGap": 10,
+    "lineGaps": [
+      "4px",
+      "4px"
+    ],
+    "addressMargins": [
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 375,
+    "nameSize": "17px",
+    "nameWeight": "600",
+    "parentSizes": [
+      "15px",
+      "15px"
+    ],
+    "parentWeights": [
+      "400",
+      "400"
+    ],
+    "parentColors": [
+      "rgb(255, 255, 255)",
+      "rgb(255, 255, 255)"
+    ],
+    "addressSize": "14px",
+    "addressWeight": "300",
+    "nameGap": 10,
+    "parentGap": 10,
+    "lineGaps": [
+      "4px",
+      "4px"
+    ],
+    "addressMargins": [
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 575,
+    "nameSize": "17px",
+    "nameWeight": "600",
+    "parentSizes": [
+      "15px",
+      "15px"
+    ],
+    "parentWeights": [
+      "400",
+      "400"
+    ],
+    "parentColors": [
+      "rgb(255, 255, 255)",
+      "rgb(255, 255, 255)"
+    ],
+    "addressSize": "14px",
+    "addressWeight": "300",
+    "nameGap": 10,
+    "parentGap": 10,
+    "lineGaps": [
+      "4px",
+      "4px"
+    ],
+    "addressMargins": [
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 576,
+    "nameSize": "17px",
+    "nameWeight": "600",
+    "parentSizes": [
+      "15px",
+      "15px"
+    ],
+    "parentWeights": [
+      "400",
+      "400"
+    ],
+    "parentColors": [
+      "rgb(255, 255, 255)",
+      "rgb(255, 255, 255)"
+    ],
+    "addressSize": "14px",
+    "addressWeight": "300",
+    "nameGap": 10,
+    "parentGap": 10,
+    "lineGaps": [
+      "4px",
+      "4px"
+    ],
+    "addressMargins": [
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "nameSize": "17px",
+    "nameWeight": "600",
+    "parentSizes": [
+      "15px",
+      "15px"
+    ],
+    "parentWeights": [
+      "400",
+      "400"
+    ],
+    "parentColors": [
+      "rgb(255, 255, 255)",
+      "rgb(255, 255, 255)"
+    ],
+    "addressSize": "14px",
+    "addressWeight": "300",
+    "nameGap": 10,
+    "parentGap": 10,
+    "lineGaps": [
+      "4px",
+      "4px"
+    ],
+    "addressMargins": [
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 820,
+    "nameSize": "17px",
+    "nameWeight": "600",
+    "parentSizes": [
+      "15px",
+      "15px"
+    ],
+    "parentWeights": [
+      "400",
+      "400"
+    ],
+    "parentColors": [
+      "rgb(255, 255, 255)",
+      "rgb(255, 255, 255)"
+    ],
+    "addressSize": "14px",
+    "addressWeight": "300",
+    "nameGap": 10,
+    "parentGap": 10,
+    "lineGaps": [
+      "4px",
+      "4px"
+    ],
+    "addressMargins": [
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 991,
+    "nameSize": "17px",
+    "nameWeight": "600",
+    "parentSizes": [
+      "15px",
+      "15px"
+    ],
+    "parentWeights": [
+      "400",
+      "400"
+    ],
+    "parentColors": [
+      "rgb(255, 255, 255)",
+      "rgb(255, 255, 255)"
+    ],
+    "addressSize": "14px",
+    "addressWeight": "300",
+    "nameGap": 10,
+    "parentGap": 10,
+    "lineGaps": [
+      "4px",
+      "4px"
+    ],
+    "addressMargins": [
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 992,
+    "nameSize": "17px",
+    "nameWeight": "600",
+    "parentSizes": [
+      "15px",
+      "15px"
+    ],
+    "parentWeights": [
+      "400",
+      "400"
+    ],
+    "parentColors": [
+      "rgb(255, 255, 255)",
+      "rgb(255, 255, 255)"
+    ],
+    "addressSize": "14px",
+    "addressWeight": "300",
+    "nameGap": 10,
+    "parentGap": 10,
+    "lineGaps": [
+      "4px",
+      "4px"
+    ],
+    "addressMargins": [
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "nameSize": "17px",
+    "nameWeight": "600",
+    "parentSizes": [
+      "15px",
+      "15px"
+    ],
+    "parentWeights": [
+      "400",
+      "400"
+    ],
+    "parentColors": [
+      "rgb(255, 255, 255)",
+      "rgb(255, 255, 255)"
+    ],
+    "addressSize": "14px",
+    "addressWeight": "300",
+    "nameGap": 10,
+    "parentGap": 10,
+    "lineGaps": [
+      "4px",
+      "4px"
+    ],
+    "addressMargins": [
+      "0px",
+      "0px",
+      "0px"
+    ],
+    "overflow": false
+  }
+]

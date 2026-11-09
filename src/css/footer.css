@@ -1,8 +1,20 @@
-/* Layout */
+/* Shared footer
+ * Layout contract:
+ * - layout.css owns .container widths/gutters, last-child normalization,
+ *   diagnostic borders, and stacked sidebar/footer column spacing.
+ * - Bootstrap owns row/column sizing and responsive horizontal gutters.
+ * - --layout-section-spacing supplies the upper footer's vertical padding.
+ * - --layout-stack-gap supplies the desktop footer row gap and stacked groups.
+ * - Local detail spacing below is intentionally independent of page-edge padding.
+ * Breakpoints: sm 576px, lg 992px, xl 1200px; no footer-only breakpoints.
+ */
+
+/* 1. Footer surface and shared section padding */
 .site-footer {
 position: relative;
 isolation: isolate;
 background-color: var(--uh-green);
+color: var(--white);
 }
 
 .site-footer::before {
@@ -18,36 +30,252 @@ opacity: 0.1;
 pointer-events: none;
 }
 
-/* Background source uses the shared 1200px desktop threshold. */
 @media (min-width: 1200px) {
 .site-footer::before {
 background-image: var(--footer-background-desktop);
 }
 }
 
-/* Upper, container */
 .footer-inner {
 padding-block: var(--layout-section-spacing);
 }
 
-/* Upper, contact spacing */
-.footer-department-support {
-margin: 0;
+/* 2. Base link behavior (component refinements follow) */
+.site-footer a {
+display: inline-flex;
+align-items: center;
+vertical-align: middle;
+box-sizing: border-box;
+min-width: 44px;
+max-width: 100%;
+padding-block: 0.375rem;
+overflow-wrap: anywhere;
+color: var(--white);
+text-decoration-line: none;
 }
 
+.site-footer .footer-inner a {
+justify-content: flex-start;
+font-size: 0.875rem;
+font-weight: 400;
+padding-block: 0;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+color: var(--white);
+text-decoration-line: underline;
+}
+
+.site-footer a:focus-visible {
+outline: 2px solid currentColor;
+outline-offset: 3px;
+}
+
+/* 3. Bootstrap layout hooks, local controls and shared dividers */
+.site-footer .footer-grid {
+--footer-divider-spacing: calc(var(--layout-section-spacing) / 2);
+text-align: left;
+row-gap: var(--footer-divider-spacing);
+}
+
+.site-footer .footer-grid > * {
+min-width: 0;
+}
+
+/* Inter-group, type and line-spacing controls for the unit details. */
+.footer-unit-column {
+--footer-unit-group-gap: 1.25rem;
+--footer-secondary-font-size: 0.9375rem;
+--footer-unit-identity-gap: calc(var(--footer-unit-group-gap) / 2);
+--footer-detail-gap: 0.25rem;
+display: block;
+}
+
+.footer-unit-identity,
+.footer-contact {
+min-width: 0;
+}
+
+.site-footer :is(.footer-university-links, .footer-language-column)::before {
+content: "";
+display: block;
+border-top: 1px solid var(--footer-rule-color);
+padding-bottom: var(--footer-divider-spacing);
+}
+
+@media (min-width: 992px) {
+.site-footer .footer-grid {
+row-gap: var(--layout-stack-gap);
+}
+
+.site-footer :is(.footer-university-links, .footer-language-column)::before {
+display: none;
+}
+}
+
+/* 4. Acronym: typography and three editable fixed font sizes */
+.site-footer .footer-unit-short-name {
+margin: 0 0 0.5rem;
+padding: 0;
+opacity: 0.75;
+line-height: 1.5;
+
+/* Remove leading around the standalone capitals; text remains selectable. */
+text-box-trim: trim-both;
+text-box-edge: cap alphabetic;
+font-weight: 800;
+white-space: nowrap;
+text-shadow: var(--shadow-footer-unit);
+}
+
+@media (max-width: 575.98px) {
+.site-footer .footer-unit-short-name {
+font-size: 4rem;
+}
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+.site-footer .footer-unit-short-name {
+font-size: 3.5rem;
+}
+}
+
+@media (min-width: 992px) {
+.site-footer .footer-unit-short-name {
+font-size: 4rem;
+}
+}
+
+/* 5. Identity: unit name, parent organizations and mailing address */
+.footer-unit-identity {
+display: flex;
+flex-direction: column;
+gap: var(--footer-unit-identity-gap);
+}
+
+.site-footer .footer-unit-name {
+margin: 0;
+font-size: 1.0625rem;
+font-weight: 600;
+line-height: 1.6;
+overflow-wrap: anywhere;
+}
+
+.footer-unit-prefix {
+display: block;
+font-size: 0.875rem;
+font-weight: 300;
+}
+
+.site-footer .footer-parent-links,
+.footer-unit-identity .footer-address {
+display: grid;
+gap: var(--footer-detail-gap);
+margin: 0;
+padding: 0;
+line-height: 1.6;
+font-style: normal;
+color: var(--white);
+}
+
+.site-footer .footer-parent-links {
+font-size: var(--footer-secondary-font-size);
+font-weight: 400;
+}
+
+.footer-unit-identity .footer-address {
+font-size: 0.875rem;
+font-weight: 300;
+}
+
+.footer-parent-links > p,
+.footer-unit-identity .footer-address > p {
+margin: 0;
+padding: 0;
+font-size: inherit;
+font-weight: inherit;
+line-height: inherit;
+}
+
+.site-footer .footer-inner .footer-parent-links a {
+display: block;
+min-height: 0;
+padding: 0;
+font-size: inherit;
+font-weight: inherit;
+line-height: inherit;
+color: inherit;
+}
+
+/* 6. Contact group: phone/email, icons and webmaster/privacy */
 .footer-contact {
 margin-bottom: 0;
+font-style: normal;
 }
 
-.footer-contact p {
-margin-bottom: 0.75rem;
+.footer-contact-links {
+display: grid;
+gap: 0.5rem;
+margin: 0 0 var(--footer-unit-group-gap);
+font-size: var(--footer-secondary-font-size);
+line-height: 1.6;
 }
 
-.footer-contact p:last-child {
-margin-bottom: 0;
+.footer-contact-links > p {
+margin: 0;
+padding: 0;
+font-size: inherit;
 }
 
-/* Compact social row: no leading inset; targets extend after each glyph. */
+.site-footer .footer-inner .footer-contact-link {
+font-size: inherit;
+line-height: inherit;
+display: inline-flex;
+align-items: center;
+gap: 0.5rem;
+max-width: 100%;
+}
+
+.footer-contact-link > span {
+min-width: 0;
+overflow-wrap: anywhere;
+}
+
+.footer-contact-link svg {
+width: 1rem;
+height: 1rem;
+flex: 0 0 1rem;
+align-self: center;
+fill: currentColor;
+}
+
+.footer-contact-link > [aria-hidden] {
+opacity: 0.8;
+display: inline-flex;
+flex: 0 0 1rem;
+}
+
+.site-footer .footer-contact-meta {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 0 0.375rem;
+font-size: 0.75rem;
+margin-top: 0;
+padding-top: 0;
+}
+
+.site-footer .footer-inner .footer-contact-meta a {
+font-size: inherit;
+}
+
+.site-footer .footer-contact-meta a:focus-visible {
+outline: 2px solid currentColor;
+outline-offset: 4px;
+}
+
+/* 7. Optional social accounts */
 .site-footer .footer-social-bar {
 --footer-social-icon-size: 20px;
 --footer-social-target-size: 24px;
@@ -94,26 +322,7 @@ height: var(--footer-social-icon-size);
 fill: currentColor;
 }
 
-.site-footer .footer-social-link:focus-visible {
-outline: 2px solid currentColor;
-outline-offset: 3px;
-}
-
-/* Upper, webmaster and privacy group */
-.site-footer .footer-contact-meta {
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-gap: 0 0.375rem;
-margin-top: 0;
-padding-top: 0;
-}
-
-/* Upper, link lists */
-.footer-university-links {
-min-width: 0;
-}
-
+/* 8. University links: one continuous responsive list */
 .footer-link-list {
 column-count: 2;
 column-gap: 3rem;
@@ -135,362 +344,68 @@ column-count: 3;
 }
 }
 
-/* Upper, contact icons */
-.footer-contact-link > span {
-min-width: 0;
-overflow-wrap: anywhere;
+@media (min-width: 992px) {
+.site-footer .footer-university-links a {
+font-size: 1rem;
+}
 }
 
-.footer-contact-link svg {
-width: 1rem;
-height: 1rem;
-flex: 0 0 1rem;
-align-self: center;
-fill: currentColor;
-}
-
-.footer-contact-link > [aria-hidden] {
-display: inline-flex;
-flex: 0 0 1rem;
-}
-
-/* Language, container */
-.footer-language-band {
-margin: 0;
-padding: 0;
-background: var(--interpretation-band-color);
-}
-
-.footer-language-heading-bar {
-padding-block: 0.5rem;
-background: var(--interpretation-heading-color);
-}
-
-.footer-language-links {
-padding-block: 1.5625rem;
-}
-
-/* Language, grid */
+/* 9. Language links: one full-width responsive list */
 .site-footer .footer-languages {
-display: grid;
-row-gap: 0.25rem;
+column-count: 2;
+column-gap: 3rem;
 list-style: none;
 margin: 0;
 padding: 0;
-}
-
-/* Language, grid desktop */
-@media (min-width: 1200px) {
-.site-footer .footer-languages {
-grid-template-columns: repeat(8, minmax(0, 1fr));
-column-gap: 0.25rem;
-}
-}
-
-/* Language, grid tablet */
-@media (min-width: 576px) and (max-width: 1199.98px) {
-.site-footer .footer-languages {
-grid-template-columns: repeat(4, minmax(0, 1fr));
-column-gap: 0.5rem;
-}
-}
-
-/* Language, grid mobile */
-@media (max-width: 575.98px) {
-.site-footer .footer-languages {
-grid-template-columns: repeat(2, minmax(0, 1fr));
-column-gap: 0.5rem;
-}
-}
-
-.footer-languages li {
-min-width: 0;
-margin: 0;
-padding: 0;
-}
-
-/* Subfooter, containers */
-.subfooter {
-background: var(--sub-footer);
-padding-block: 0.3rem;
-}
-
-.subfooter-inner {
-padding-block: calc(1rem - 3px);
-}
-
-.subfooter-text {
-width: 100%;
-margin: 0 auto;
-}
-
-/* Text and links */
-.site-footer {
-color: var(--white);
-}
-
-.site-footer a {
-display: inline-flex;
-align-items: center;
-vertical-align: middle;
-box-sizing: border-box;
-min-width: 44px;
-max-width: 100%;
-padding-block: 0.375rem;
-overflow-wrap: anywhere;
-color: var(--white);
-text-decoration-line: none;
-}
-
-.site-footer a:hover,
-.site-footer a:focus-visible {
-color: var(--white);
-text-decoration-line: underline;
-}
-
-.site-footer a:focus-visible {
-outline: 2px solid currentColor;
-outline-offset: 3px;
-}
-
-.site-footer ul {
-margin-bottom: 0;
-}
-
-@media (min-width: 1200px) {
-.site-footer a {
-min-height: 0;
-padding-block: 0.25rem;
-}
-}
-
-/* Upper, alignment */
-.site-footer .footer-grid {
 text-align: left;
 }
 
-.site-footer .footer-inner a {
-justify-content: flex-start;
-}
-
-/* Acronym size follows its own column width, adjusted for character count. */
-.footer-unit-acronym {
-container-type: inline-size;
-}
-
-/* Upper, unit short name */
-.site-footer .footer-unit-short-name {
-margin: 0 0 0.5rem;
-padding: 0;
-font-size: clamp(1rem, calc(130cqi / var(--footer-acronym-characters, 4)), 8rem);
-opacity: 0.75;
-line-height: 1.5;
-/* Remove font leading above the capitals while preserving readable line height. */
-text-box-trim: trim-start;
-text-box-edge: cap alphabetic;
-font-weight: 800;
-overflow-wrap: anywhere;
-text-shadow: var(--shadow-footer-unit);
-}
-
-/* Upper, footer-only name parts and parent organizations. */
-.site-footer .footer-unit-name {
-margin: 0 0 var(--footer-unit-identity-gap);
-font-size: 1rem;
-font-weight: 600;
-overflow-wrap: anywhere;
-}
-
-.footer-unit-prefix {
-display: block;
-font-size: 0.875rem;
-font-weight: 300;
-}
-
-/* Parent organizations and address lines share one compact detail treatment. */
-.site-footer .footer-parent-links,
-.footer-unit-identity .footer-address {
-display: grid;
-gap: var(--footer-detail-gap);
-margin: 0 0 var(--footer-unit-group-gap);
-padding: 0;
-font-size: 0.875rem;
-font-weight: 400;
-line-height: 1.6;
-list-style: none;
-font-style: normal;
-}
-
-.footer-parent-links li,
-.footer-unit-identity .footer-address > p {
+.footer-languages li {
+break-inside: avoid;
 margin: 0;
-padding: 0;
-font-size: inherit;
-line-height: inherit;
+padding: 0 0 0.25rem;
 }
 
-.site-footer .footer-inner .footer-parent-links a {
-display: block;
-min-height: 0;
-padding: 0;
-font-size: inherit;
-font-weight: inherit;
-line-height: inherit;
-}
-
-.site-footer .footer-inner .footer-parent-links li:first-child a {
-font-weight: 500;
-}
-
-.site-footer .footer-inner .footer-parent-links li:last-child a {
-font-weight: 400;
-}
-
-.site-footer .footer-unit-identity .footer-address {
-font-weight: 300;
-}
-
-.footer-contact .footer-phone,
-.footer-contact .footer-email {
-margin: 0 0 var(--footer-unit-group-gap);
-padding: 0;
-}
-
-/* Upper, address and link size and weight */
-.site-footer .footer-inner a {
-font-size: 0.875rem;
-font-weight: 400;
-padding-block: 0;
-}
-
-/* Upper, link height desktop */
-@media (min-width: 1200px) {
-.site-footer .footer-inner a {
-min-height: 0;
-}
-}
-
-/* Upper, contact text */
-.footer-contact {
-font-style: normal;
-}
-
-.footer-department-support {
-font-size: 0.875rem;
-}
-
-.footer-contact-link {
-display: inline-flex;
-align-items: center;
-gap: 0.5rem;
-max-width: 100%;
-}
-
-.site-footer .footer-department-support a {
-display: inline-flex;
-align-items: center;
-gap: 0.5rem;
-}
-
-/* Upper, webmaster and privacy text size */
-.site-footer .footer-contact-meta {
-font-size: 0.75rem;
-}
-
-.site-footer .footer-inner .footer-contact-meta a {
-font-size: inherit;
-}
-
-/* Upper, link focus */
-.site-footer .footer-contact-meta a:focus-visible,
-.site-footer .footer-department-support a:focus-visible {
-outline: 2px solid currentColor;
-outline-offset: 4px;
-}
-
-/* Language, heading text */
-.footer-language-heading-bar {
-text-align: center;
-}
-
-.site-footer .footer-language-heading-bar p {
-margin: 0;
-min-height: 44px;
-padding-block: 0.375rem;
-box-sizing: border-box;
-align-content: center;
-color: var(--white);
-font-size: 0.875rem;
-font-weight: 600;
-}
-
-@media (min-width: 1200px) {
-.site-footer .footer-language-heading-bar p {
-min-height: 0;
-padding-block: 0.25rem;
-}
-}
-
-.site-footer .footer-language-about {
-font-size: 0.875rem;
-font-weight: 400;
-}
-
-.site-footer .footer-language-heading-bar a {
-display: inline;
-vertical-align: baseline;
-min-width: 0;
-min-height: 0;
-padding: 0;
-font-size: inherit;
-font-weight: inherit;
-text-decoration-line: underline;
-}
-
-/* Language, link text and targets */
+@media (min-width: 576px) {
 .site-footer .footer-languages {
-text-align: center;
+column-count: 3;
+}
 }
 
-.site-footer .footer-languages a {
+@media (min-width: 1200px) {
+.site-footer .footer-languages {
+column-count: 8;
+}
+}
+
+.site-footer .footer-inner .footer-languages a {
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: flex-start;
 width: 100%;
-height: 100%;
-padding: 0 0.25rem;
+min-height: 44px;
+padding: 0;
 font-size: 0.85rem;
 font-weight: 400;
 overflow-wrap: anywhere;
 color: var(--white);
 }
 
-/* Enhanced languages retain their roomier desktop targets; UH uses line height. */
-@media (min-width: 1200px) {
-.site-footer--languages-enhanced .footer-languages a {
-min-height: 32px;
+/* 10. Subfooter: joined container, centered col-12 text */
+.subfooter {
+background: var(--sub-footer);
+margin: 0;
+padding: 0;
 }
 
-.site-footer--languages-uh .footer-languages a {
-min-height: 0;
-}
-}
-
-/* Language, link focus */
-.site-footer .footer-languages a:hover,
-.site-footer .footer-languages a:focus-visible {
-color: var(--white);
-text-decoration-line: underline;
+.subfooter-inner {
+padding-block: 1rem;
 }
 
-.site-footer .footer-languages a:focus-visible {
-outline: 2px solid currentColor;
-outline-offset: 3px;
-}
-
-/* Subfooter, text */
 .subfooter-text {
-text-align: left;
+width: 100%;
+margin: 0;
+text-align: center;
 }
 
 .subfooter p {
@@ -500,7 +415,6 @@ font-weight: 300;
 line-height: 1.6;
 }
 
-/* Subfooter, links */
 .site-footer .subfooter a {
 display: inline;
 vertical-align: baseline;
@@ -509,104 +423,4 @@ min-height: 0;
 padding: 0;
 color: var(--white);
 text-decoration-line: underline;
-}
-
-/* Bootstrap owns the outer columns and gx-lg-5 gutter, as in page content. */
-.site-footer .footer-grid {
-row-gap: var(--layout-section-spacing);
-}
-
-.site-footer .footer-grid > * {
-min-width: 0;
-}
-
-.footer-unit-column {
---footer-unit-group-gap: 1.25rem;
---footer-unit-identity-gap: calc(var(--footer-unit-group-gap) / 2);
---footer-detail-gap: 0.25rem;
-display: block;
-}
-
-/* Contain the final parent-link margin without adding a second group gap. */
-.footer-unit-identity {
-display: flow-root;
-}
-
-.footer-unit-identity,
-.footer-contact {
-min-width: 0;
-}
-
-@media (min-width: 992px) {
-.site-footer .footer-university-links a {
-font-size: 1rem;
-}
-}
-
-/* Tablet columns must not carry a trailing group margin into the divider gap. */
-@media (min-width: 576px) and (max-width: 991.98px) {
-.footer-unit-layout > * > :last-child {
-margin-bottom: 0;
-}
-}
-
-/* Separate unit details from university links when the outer sections stack. */
-@media (max-width: 991.98px) {
-.site-footer .footer-university-links::before {
-content: "";
-display: block;
-border-top: 1px solid var(--footer-rule-color);
-margin-bottom: var(--layout-section-spacing);
-}
-}
-
-/* UH language mode shares the footer's green/pattern rather than a dark band. */
-.site-footer--languages-uh .footer-inner {
-padding-bottom: 0;
-}
-
-.site-footer--languages-uh .footer-language-band {
-background: transparent;
-}
-
-.site-footer--languages-uh .footer-language-links {
-padding-block: 50px 5rem;
-}
-
-.site-footer--languages-uh .footer-languages {
-grid-template-columns: repeat(2, minmax(0, 1fr));
-grid-template-rows: repeat(8, auto);
-grid-auto-flow: column;
-column-gap: 3rem;
-row-gap: 0.5rem;
-text-align: left;
-}
-
-.site-footer--languages-uh .footer-languages a {
-justify-content: flex-start;
-padding: 0;
-font-size: 0.875rem;
-}
-
-@media (min-width: 992px) {
-.site-footer--languages-uh .footer-language-links {
-padding-top: 6rem;
-}
-
-.site-footer--languages-uh .footer-languages {
-display: block;
-text-align: center;
-}
-
-.site-footer--languages-uh .footer-languages li {
-display: inline;
-margin-right: 1rem;
-}
-
-.site-footer--languages-uh .footer-languages a {
-display: inline-flex;
-width: auto;
-height: auto;
-font-size: 1rem;
-}
 }

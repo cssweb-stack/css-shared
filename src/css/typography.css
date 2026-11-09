@@ -1,3 +1,13 @@
+/* Body copy stays readable at every viewport; do not shrink it on phones. */
+:root {
+--content-body-font-size: 1.125rem;
+--content-paragraph-spacing: 1rem;
+}
+
+.site-main {
+font-size: var(--content-body-font-size);
+}
+
 :focus-visible {
 outline: 3px solid var(--focus-color);
 outline-offset: 2px;
@@ -64,10 +74,10 @@ margin-bottom: 1rem;
 }
 
 .site-main p {
-font-size: 1rem;
+font-size: var(--content-body-font-size);
 font-weight: 400;
 margin-top: 0;
-margin-bottom: 1rem;
+margin-bottom: var(--content-paragraph-spacing);
 }
 
 .site-main ul,

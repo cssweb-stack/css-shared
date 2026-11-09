@@ -1,0 +1,2222 @@
+[
+  {
+    "page": "ssri/contact/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/contact/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/contact/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/directory/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      },
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      },
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/directory/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      },
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      },
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/directory/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      },
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      },
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/privacy/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/privacy/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/privacy/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/privacy.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/privacy.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/privacy.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/ham.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/ham.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/ham.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/hcri.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/hcri.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/hcri.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      },
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      },
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      },
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/oenas.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/oenas.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/oenas.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/tasi-phidc.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/tasi-phidc.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/tasi-phidc.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/support/boilerplate.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/support/boilerplate.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/support/boilerplate.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/support/fiscal-compliance.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      },
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/support/fiscal-compliance.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      },
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/support/fiscal-compliance.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      },
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/support/grant-development.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/support/grant-development.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/support/grant-development.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/support/research-services.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      },
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/support/research-services.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      },
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "ssri/support/research-services.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      },
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/about-geo/areas-of-study.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/about-geo/areas-of-study.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/about-geo/areas-of-study.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/about-geo/department-news.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/about-geo/department-news.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/about-geo/department-news.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/about-geo/geo-courses.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/about-geo/geo-courses.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/about-geo/geo-courses.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/about-geo/lecture-series.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/about-geo/lecture-series.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/about-geo/lecture-series.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/about-geo/why-study-geo.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/about-geo/why-study-geo.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/about-geo/why-study-geo.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/contact/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/contact/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/contact/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/associated.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/associated.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/associated.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/aurora-kagawa-viviani.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/aurora-kagawa-viviani.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/aurora-kagawa-viviani.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/brian-szuster.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/brian-szuster.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/brian-szuster.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/camilo-mora.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/camilo-mora.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/camilo-mora.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/hong-jiang.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/hong-jiang.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/hong-jiang.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/marina-karides.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/marina-karides.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/marina-karides.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/mary-mostafanezhad.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/mary-mostafanezhad.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/mary-mostafanezhad.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/orhon-myadar.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/orhon-myadar.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/orhon-myadar.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/qi-chen.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/qi-chen.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/qi-chen.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/reece-jones.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/reece-jones.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/reece-jones.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/yuqin-jiang.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/yuqin-jiang.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/faculty/yuqin-jiang.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/graduate/current-cohort.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/graduate/current-cohort.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/graduate/current-cohort.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/graduate/degrees-awarded.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/graduate/degrees-awarded.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/graduate/degrees-awarded.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/graduate/doctorate-phd.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/graduate/doctorate-phd.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/graduate/doctorate-phd.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/graduate/funding-sources.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/graduate/funding-sources.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/graduate/funding-sources.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/graduate/masters-ma.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/graduate/masters-ma.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/graduate/masters-ma.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/privacy/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/privacy/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/privacy/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/privacy.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/privacy.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/privacy.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/support-geo/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/support-geo/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/support-geo/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/geo-bam.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/geo-bam.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/geo-bam.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/geo-sust-bam.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/geo-sust-bam.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/geo-sust-bam.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/gis-certificate.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/gis-certificate.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/gis-certificate.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/major-ba.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/major-ba.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/major-ba.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/minor.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/minor.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/minor.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/student-learning-outcomes.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/student-learning-outcomes.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "geo/undergraduate/student-learning-outcomes.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/banners/banner-with-label/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/banners/banner-with-label/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/banners/banner-with-label/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/banners/banner-with-label-and-credit/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/banners/banner-with-label-and-credit/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/banners/banner-with-label-and-credit/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/banners/image-banner/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/banners/image-banner/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/banners/image-banner/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/colors/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/colors/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/colors/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/components/buttons/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/components/buttons/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/components/buttons/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/components/callouts/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/components/callouts/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/components/callouts/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/components/tiles-and-photo/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/components/tiles-and-photo/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/components/tiles-and-photo/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/footers/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/footers/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/footers/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/headers/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/headers/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/headers/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/layout/grids/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/layout/grids/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/layout/grids/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/layout/grids/left-sidebar/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/layout/grids/left-sidebar/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/layout/grids/left-sidebar/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/layout/grids/right-sidebar/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/layout/grids/right-sidebar/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/layout/grids/right-sidebar/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/privacy/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/privacy/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/privacy/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/privacy.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/privacy.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/privacy.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/sites/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/sites/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/sites/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/special-text/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/special-text/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/special-text/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/typography/index.html",
+    "width": 375,
+    "sections": [
+      {
+        "top": "32px",
+        "bottom": "32px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/typography/index.html",
+    "width": 820,
+    "sections": [
+      {
+        "top": "36px",
+        "bottom": "36px",
+        "nested": false
+      }
+    ]
+  },
+  {
+    "page": "style-guide/typography/index.html",
+    "width": 1440,
+    "sections": [
+      {
+        "top": "48px",
+        "bottom": "48px",
+        "nested": false
+      }
+    ]
+  }
+]

@@ -1,44 +1,41 @@
 {# Shared policy and identity data. #}
 {% set footerPrivacy = uh.footer.privacy | default(site.privacy, true) %}
 {% set footerWebmaster = uh.footer.webmaster | default(site.webmaster, true) %}
-{% set footerLanguageId = footerId | default("footer") + "-language-heading" %}
 {% set footerLinks = site.footer.links | default(uh.footer.footerLinks, true) %}
 {# Support older grouped unit overrides while rendering one continuous list. #}
 {% if site.footer.columns and not site.footer.links %}
 {% set footerLinks = [] %}
 {% for column in site.footer.columns %}{% set footerLinks = footerLinks.concat(column) %}{% endfor %}
 {% endif %}
-{% set footerShowHeading = site.footer.language.showHeading | default(uh.footer.language.showHeading) %}
-{% set footerLanguagePresentation = site.footer.language.presentation | default(uh.footer.language.presentation) %}
 {% set footerDesktopBackground = site.footer.background.desktopTablet | default(uh.footer.background.desktopTablet) %}
 {% set footerMobileBackground = site.footer.background.mobile | default(uh.footer.background.mobile) %}
-<footer class="site-footer site-footer--languages-{{ footerLanguagePresentation | escape }}" style="--footer-background-desktop: url('{{ footerDesktopBackground | url | escape }}'); --footer-background-mobile: url('{{ footerMobileBackground | url | escape }}');">
+<footer class="site-footer" style="--footer-background-desktop: url('{{ footerDesktopBackground | url | escape }}'); --footer-background-mobile: url('{{ footerMobileBackground | url | escape }}');">
 
 {# Upper footer: one unit column and three university-link columns. #}
 <div class="container footer-inner">
-<div class="row gx-lg-5 footer-grid">
+<div class="row footer-grid gx-0 gx-sm-5 gx-lg-5">
 <div class="col-12 col-lg-3 footer-unit-column">
-<div class="row gx-0 gx-sm-5 footer-unit-layout">
+<div class="row footer-unit-layout gx-0 gx-sm-5 gx-lg-5">
 <div class="col-12 col-sm-4 col-lg-12 footer-unit-acronym">
 {% if site.shortName %}
-<p class="footer-unit-short-name" style="--footer-acronym-characters: {{ site.shortName | length }};">{{ site.shortName | escape }}</p>
+<p class="footer-unit-short-name">{{ site.shortName | escape }}</p>
 {% endif %}
 </div>
 <div class="col-12 col-sm-4 col-lg-12 footer-unit-identity">
 <p class="footer-unit-name">{% if site.footerIdentity.prefix %}<span class="footer-unit-prefix">{{ site.footerIdentity.prefix | escape }}</span> {% endif %}{{ site.footerIdentity.name | default(site.name) | escape }}</p>
-<ul class="footer-parent-links">
+<div class="footer-parent-links">
 {% if site.shortName != 'CSS' %}
-<li><a href="{{ common.links.college.url | escape }}">{{ common.links.college.label | escape }}</a></li>
+<p><a href="{{ common.links.college.url | escape }}">{{ common.links.college.label | escape }}</a></p>
 {% endif %}
-<li><a href="{{ common.links.university.url | escape }}">{{ common.links.university.label | escape }}</a></li>
-</ul>
+<p><a href="{{ common.links.university.url | escape }}">{{ common.links.university.label | escape }}</a></p>
+</div>
 {% if site.address | length %}
 <address class="footer-address">{% for line in site.address %}<p>{{ line | escape }}</p>{% endfor %}</address>
 {% endif %}
 </div>
 <address class="col-12 col-sm-4 col-lg-12 footer-contact">
-
-
+{% if site.phone or site.email %}
+<div class="footer-contact-links">
 {% if site.phone %}
 <p class="footer-phone">
 <a class="footer-contact-link" href="{{ site.phone.href | escape }}">
@@ -55,6 +52,9 @@
 <span>{{ site.email.label | escape }}</span>
 </a>
 </p>
+{% endif %}
+
+</div>
 {% endif %}
 
 {# Count populated entries, not the eight available platform slots. #}
@@ -100,33 +100,15 @@
 {% endfor %}
 </ul>
 </nav>
-</div>
-</div>
-
-{# Language labels and destinations are shared by both presentations. #}
-<nav class="footer-language-band" {% if footerShowHeading %}aria-labelledby="{{ footerLanguageId | escape }}"{% else %}aria-label="{{ uh.languages.heading | escape }}"{% endif %}>
-{% if footerShowHeading %}
-<div class="footer-language-heading-bar">
-<div class="container">
-<p id="{{ footerLanguageId | escape }}">
-{{ uh.languages.heading | escape }} <span class="footer-language-about">| <a href="{{ common.links.languageAccess.url | escape }}">About these services</a></span>
-</p>
-</div>
-</div>
-
-{% endif %}
-<div class="footer-language-links">
-<div class="container">
-<ul class="footer-languages footer-grid-eight">
+<nav class="col-12 footer-language-column" aria-label="{{ uh.languages.heading | escape }}">
+<ul class="footer-languages">
 {% for language in uh.languages.items %}
-<li>
-<a href="{{ language.url | escape }}" lang="{{ language.lang | escape }}">{{ language.label | escape }}</a>
-</li>
+<li><a href="{{ language.url | escape }}" lang="{{ language.lang | escape }}">{{ language.label | escape }}</a></li>
 {% endfor %}
 </ul>
-</div>
-</div>
 </nav>
+</div>
+</div>
 
 {# Shared subfooter. #}
 {% include "layouts/branding/footer/subfooter.njk" %}

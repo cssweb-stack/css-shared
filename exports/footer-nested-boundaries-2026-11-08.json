@@ -1,0 +1,128 @@
+[
+  {
+    "width": 320,
+    "parentBorder": "0px",
+    "outerGutter": "0",
+    "innerGutter": "0",
+    "leftDelta": 0,
+    "rightDelta": 0,
+    "borders": [
+      "3px",
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 375,
+    "parentBorder": "0px",
+    "outerGutter": "0",
+    "innerGutter": "0",
+    "leftDelta": 0,
+    "rightDelta": 0,
+    "borders": [
+      "3px",
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 575,
+    "parentBorder": "0px",
+    "outerGutter": "0",
+    "innerGutter": "0",
+    "leftDelta": 0,
+    "rightDelta": 0,
+    "borders": [
+      "3px",
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 576,
+    "parentBorder": "0px",
+    "outerGutter": "3rem",
+    "innerGutter": "3rem",
+    "leftDelta": 0,
+    "rightDelta": 0.015625,
+    "borders": [
+      "3px",
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "parentBorder": "0px",
+    "outerGutter": "3rem",
+    "innerGutter": "3rem",
+    "leftDelta": 0,
+    "rightDelta": 0.015625,
+    "borders": [
+      "3px",
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 820,
+    "parentBorder": "0px",
+    "outerGutter": "3rem",
+    "innerGutter": "3rem",
+    "leftDelta": 0,
+    "rightDelta": 0.046875,
+    "borders": [
+      "3px",
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 991,
+    "parentBorder": "0px",
+    "outerGutter": "3rem",
+    "innerGutter": "3rem",
+    "leftDelta": 0,
+    "rightDelta": 0.03125,
+    "borders": [
+      "3px",
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 992,
+    "parentBorder": "0px",
+    "outerGutter": "3rem",
+    "innerGutter": "3rem",
+    "leftDelta": 0,
+    "rightDelta": 0,
+    "borders": [
+      "3px",
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "parentBorder": "0px",
+    "outerGutter": "3rem",
+    "innerGutter": "3rem",
+    "leftDelta": 0,
+    "rightDelta": 0,
+    "borders": [
+      "3px",
+      "3px",
+      "3px"
+    ],
+    "overflow": false
+  }
+]

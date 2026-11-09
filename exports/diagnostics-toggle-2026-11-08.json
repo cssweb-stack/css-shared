@@ -1,0 +1,527 @@
+[
+  {
+    "page": "ssri/index.html",
+    "width": 375,
+    "elements": 243,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "ssri/index.html",
+    "width": 820,
+    "elements": 243,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "ssri/index.html",
+    "width": 1440,
+    "elements": 243,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "ssri/directory/index.html",
+    "width": 375,
+    "elements": 617,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "ssri/directory/index.html",
+    "width": 820,
+    "elements": 617,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "ssri/directory/index.html",
+    "width": 1440,
+    "elements": 617,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/index.html",
+    "width": 375,
+    "elements": 283,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/index.html",
+    "width": 820,
+    "elements": 283,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/index.html",
+    "width": 1440,
+    "elements": 283,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/hcri.html",
+    "width": 375,
+    "elements": 249,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/hcri.html",
+    "width": 820,
+    "elements": 249,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "ssri/research/hcri.html",
+    "width": 1440,
+    "elements": 249,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "ssri/contact/index.html",
+    "width": 375,
+    "elements": 247,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "ssri/contact/index.html",
+    "width": 820,
+    "elements": 247,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "ssri/contact/index.html",
+    "width": 1440,
+    "elements": 247,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "geo/index.html",
+    "width": 375,
+    "elements": 411,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "geo/index.html",
+    "width": 820,
+    "elements": 411,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "geo/index.html",
+    "width": 1440,
+    "elements": 411,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "style-guide/footers/index.html",
+    "width": 375,
+    "elements": 1903,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "style-guide/footers/index.html",
+    "width": 820,
+    "elements": 1903,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  },
+  {
+    "page": "style-guide/footers/index.html",
+    "width": 1440,
+    "elements": 1903,
+    "changedOn": 0,
+    "changedOff": 0,
+    "helperVisible": true,
+    "cleanBorders": [
+      {
+        "class": "site-main",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container content-section",
+        "top": "0px",
+        "left": "0px"
+      },
+      {
+        "class": "container footer-inner",
+        "top": "0px",
+        "left": "0px"
+      }
+    ]
+  }
+]

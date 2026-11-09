@@ -1,0 +1,54 @@
+[
+  {
+    "width": 375,
+    "joinGap": 0,
+    "outerPadding": [
+      "0px",
+      "0px"
+    ],
+    "innerPadding": "16px",
+    "alignment": "center",
+    "hasColumn": true,
+    "rowGap": "16px",
+    "overflow": false
+  },
+  {
+    "width": 820,
+    "joinGap": 0,
+    "outerPadding": [
+      "0px",
+      "0px"
+    ],
+    "innerPadding": "16px",
+    "alignment": "center",
+    "hasColumn": true,
+    "rowGap": "18px",
+    "overflow": false
+  },
+  {
+    "width": 992,
+    "joinGap": 0,
+    "outerPadding": [
+      "0px",
+      "0px"
+    ],
+    "innerPadding": "16px",
+    "alignment": "center",
+    "hasColumn": true,
+    "rowGap": "16px",
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "joinGap": 0,
+    "outerPadding": [
+      "0px",
+      "0px"
+    ],
+    "innerPadding": "16px",
+    "alignment": "center",
+    "hasColumn": true,
+    "rowGap": "16px",
+    "overflow": false
+  }
+]

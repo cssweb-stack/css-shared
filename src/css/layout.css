@@ -4,7 +4,9 @@
 :root {
 --layout-content-max-width: 87.5rem;
 --layout-gutter: clamp(1rem, 4vw, 3rem);
+--layout-content-spacing: 3rem;
 --layout-section-spacing: 3rem;
+--layout-stack-gap: 1rem;
 }
 
 .container {
@@ -15,95 +17,109 @@ margin-inline: auto;
 padding-inline: var(--layout-gutter);
 }
 
-/* Main */
+/* FOUNDATION: exactly one page-content wrapper, shared by every site.
+   This alone controls the gap after hero/navigation and before the footer.
+   Internal section spacing is independent: never use it to change page edges. */
 .site-main {
-padding-block: 0;
+padding-block: var(--layout-content-spacing);
 background: var(--white);
-min-height: 40vh;
 }
 
-.main-content,
-.page-section-inner {
-padding-block: var(--layout-section-spacing);
+/* Inner containers own width, not the page's outer padding. */
+.content-section {
+display: flow-root;
+padding-block: 0;
+}
+
+/* Section padding owns the bottom edge, never the last child's margin. */
+.site-main .content-section > :last-child,
+.site-footer .footer-unit-layout > * > :last-child {
+margin-bottom: 0;
+}
+
+.site-main > :first-child {
+margin-top: 0;
+}
+
+.site-main > :last-child {
+margin-bottom: 0;
 }
 
 @media (min-width: 576px) and (max-width: 1199.98px) {
 :root {
+--layout-content-spacing: 2.25rem;
 --layout-section-spacing: 2.25rem;
 }
 }
 
 @media (max-width: 575.98px) {
 :root {
+--layout-content-spacing: 2rem;
 --layout-section-spacing: 2rem;
 }
 }
 
-/* Page sections: full-width outer; existing container/main-content rules size the inner. */
+/* Page sections: full-width outer; shared container/content-section rules size the inner. */
 .page-section {
-margin-block: 0;
+margin-block: 0 3rem;
 }
 
 .page-section--gray {
+padding-block: var(--layout-content-spacing);
 margin-block-end: var(--layout-section-spacing);
 background-color: var(--surface-neutral);
 border-block: 6px solid var(--border-neutral);
 }
 
-/* Inner padding owns the section edges; content only spaces its neighbors. */
-/* Bootstrap rows need their negative margin to balance column gutters. */
-.site-main .page-section-inner > :first-child:not(.row) {
-margin-top: 0;
-}
-
-.site-main .page-section-inner > :last-child:not(.intro) {
+.site-main > .page-section:last-child {
 margin-bottom: 0;
 }
 
-/* Resource groups adapt to their container, including sidebars that wrap below content. */
-.sidebar-resources {
-container: sidebar-resources / inline-size;
+/* Inner padding owns the section edges; content only spaces its neighbors. */
+/* Bootstrap rows need their negative margin to balance column gutters. */
+.site-main .content-section > :first-child:not(.row) {
+margin-top: 0;
 }
 
-.sidebar-resources-grid {
-display: grid;
-grid-template-columns: minmax(0, 1fr);
-gap: 3rem;
-align-items: start;
+.content-section > :first-child:is(h1, h2, h3) {
+text-box-trim: trim-start;
+text-box-edge: cap alphabetic;
 }
 
-.sidebar-resources-grid > * {
-min-width: 0;
-overflow-wrap: anywhere;
+.content-section > p:last-child {
+text-box-trim: trim-end;
+text-box-edge: cap alphabetic;
 }
 
-/* Keep sidebar logos proportional and restrained even in a wide wrapped group. */
-.sidebar-resources .sidebar-media {
-width: 100%;
-max-width: 18rem;
-height: auto;
+/* Bootstrap owns sidebar group columns, just as in the footer. */
+
+/* Stacked sidebar/footer groups: shared gap on phones and desktop, none on tablet. */
+@media (max-width: 575.98px), (min-width: 992px) {
+.sidebar-resources > .sidebar-resources-grid > [class*="col-"]:not(:last-child),
+.site-footer .footer-unit-layout > [class*="col-"]:not(:last-child) {
+margin-bottom: var(--layout-stack-gap);
+}
 }
 
-@container sidebar-resources (min-width: 30rem) {
-.sidebar-resources-grid {
-grid-template-columns: repeat(2, minmax(0, 1fr));
+/* All primary Bootstrap columns share the same content-edge normalization. */
+.content-section > .row > [class*="col-"] > :last-child {
+margin-bottom: 0;
 }
+
+.content-section > .row > [class*="col-"] > :first-child:is(h1, h2, h3) {
+text-box-trim: trim-start;
+text-box-edge: cap alphabetic;
+}
+
+.content-section > .row > [class*="col-"] > p:last-child {
+text-box-trim: trim-end;
+text-box-edge: cap alphabetic;
 }
 
 /* Tablet: separate wrapped resources using the same divider as an intro. */
 @media (min-width: 576px) and (max-width: 991.98px) {
 .content-sidebar > .sidebar-resources {
 margin-top: 0;
-padding-top: 0;
-}
-
-.content-sidebar > :first-child > :last-child,
-.content-sidebar > :first-child .page-section-inner > :last-child {
-margin-bottom: 0;
-}
-
-.content-sidebar > :first-child .page-section-inner {
-padding-bottom: 0;
 }
 
 .content-sidebar > .sidebar-resources > .sidebar-resources-grid {
