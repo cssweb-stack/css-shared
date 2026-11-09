@@ -1,0 +1,43 @@
+[
+  {
+    "site": "puba",
+    "pagesCompared": 30,
+    "textUnchanged": true,
+    "ordinaryPageStructureUnchanged": true,
+    "sharedPrivacyWrappersUpdated": [],
+    "refreshedHeaderComparison": false
+  },
+  {
+    "site": "ssri",
+    "pagesCompared": 15,
+    "textUnchanged": true,
+    "ordinaryPageStructureUnchanged": true,
+    "sharedPrivacyWrappersUpdated": [
+      "privacy.html",
+      "privacy/index.html"
+    ],
+    "refreshedHeaderComparison": false
+  },
+  {
+    "site": "geo",
+    "pagesCompared": 33,
+    "textUnchanged": true,
+    "ordinaryPageStructureUnchanged": true,
+    "sharedPrivacyWrappersUpdated": [
+      "privacy.html",
+      "privacy/index.html"
+    ],
+    "refreshedHeaderComparison": false
+  },
+  {
+    "site": "style-guide",
+    "pagesCompared": 18,
+    "textUnchanged": true,
+    "ordinaryPageStructureUnchanged": true,
+    "sharedPrivacyWrappersUpdated": [
+      "privacy.html",
+      "privacy/index.html"
+    ],
+    "refreshedHeaderComparison": true
+  }
+]

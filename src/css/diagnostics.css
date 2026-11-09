@@ -4,39 +4,24 @@
  * Only temporary diagnostic colors belong here; real design borders stay local.
  */
 
-/* Header inners: shared pink side guides; the full-width hero is excluded. */
+/* Header inners: pink container guides; the full-width hero is excluded. */
 .uh-brand > .container,
 .unit-name > .container,
 .unit-nav > .container {
-box-shadow: inset 6px 0 pink, inset -6px 0 pink;
+box-shadow: inset 3px 0 pink, inset -3px 0 pink;
 }
 
-/* One page-content parent: gold top and bottom. */
-.site-main {
-box-shadow: inset 0 6px gold, inset 0 -6px gold;
-}
-
-/* Full-width section outers: lime top/bottom, gold fill except gray bands. */
-.site-main > .page-section {
-box-shadow: inset 0 6px lime, inset 0 -6px lime;
-}
-
-.site-main .page-section:not(.page-section--gray) {
-background-color: var(--surface-gold);
-}
-
-/* Width-constrained content inners: pink sides and fill. */
+/* Width-constrained content inners: pink guides on all four sides. */
 .site-main .content-section {
-background-color: var(--surface-pink);
-box-shadow: inset 6px 0 pink, inset -6px 0 pink;
+box-shadow: inset 0 0 0 3px pink;
 }
 
 /* Footer inners: pink on all four sides. */
 .site-footer .container {
-box-shadow: inset 0 0 0 6px pink;
+box-shadow: inset 0 0 0 3px pink;
 }
 
-/* Bootstrap and existing shared grid columns: Accent Warm on all four sides.
+/* Bootstrap and existing shared grid columns: red on all four sides.
  * Skip the redundant footer parent when it only wraps another Bootstrap row.
  */
 .site-main .row > [class*="col-"],
@@ -46,7 +31,7 @@ box-shadow: inset 0 0 0 6px pink;
 .site-footer .row > [class*="col-"]:not(:has(> .row)),
 .site-main :is(.grid-welcome, .grid-two, .grid-three, .grid-four, .grid-five,
 .grid-profile, .grid-standard, .grid-compact, .grid-advisors) > * {
-box-shadow: inset 0 0 0 3px var(--accent-warm);
+box-shadow: inset 0 0 0 3px red;
 }
 
 /* Navigation's desktop surface overlays its contents; draw guides above it. */
@@ -65,9 +50,9 @@ pointer-events: none;
 }
 
 .unit-nav > .container::after {
-box-shadow: inset 6px 0 pink, inset -6px 0 pink;
+box-shadow: inset 3px 0 pink, inset -3px 0 pink;
 }
 
 .unit-nav .row > .col-12::after {
-box-shadow: inset 0 0 0 3px var(--accent-warm);
+box-shadow: inset 0 0 0 3px red;
 }

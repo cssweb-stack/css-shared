@@ -5,7 +5,7 @@ Update its revision date when the policy changes. The contact comes from
 `src/data/uh/footer.json` → `webmaster.email`.
 
 `scripts/unit-site/privacy.mjs` registers two Eleventy virtual pages, using the
-existing `base.njk` layout and each site's branding:
+`shell.njk` layout and each site's branding:
 
 - `/privacy.html`: primary address, linked through the shared footer on every page.
 - `/privacy/` (`privacy/index.html`): retained for existing links and bookmarks.
@@ -30,3 +30,6 @@ consent implementation.
 Validation: shared checker and GEO, SSRI, and style-guide builds passed. Generated
 root/legacy pages, shared content/contact, and homepage footer links were checked.
 An SSRI build with `SITE_PATH_PREFIX=/ssri/` verified prefixed links and styles.
+
+The shared policy source includes its heading and explicit section/container/row/
+column markup, matching PUBA and SSRI pages. No automatic content wrapper is used.

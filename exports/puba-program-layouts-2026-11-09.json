@@ -1,0 +1,74 @@
+[
+  {
+    "page": "masters-mpa/index.html",
+    "width": 375,
+    "sections": 3,
+    "noOverflow": true,
+    "layoutCorrect": true,
+    "requirementsFullWidth": true
+  },
+  {
+    "page": "masters-mpa/index.html",
+    "width": 820,
+    "sections": 3,
+    "noOverflow": true,
+    "layoutCorrect": true,
+    "requirementsFullWidth": true
+  },
+  {
+    "page": "masters-mpa/index.html",
+    "width": 1440,
+    "sections": 3,
+    "noOverflow": true,
+    "layoutCorrect": true,
+    "requirementsFullWidth": true
+  },
+  {
+    "page": "graduate-certificate/nonprofit-management.html",
+    "width": 375,
+    "sections": 3,
+    "noOverflow": true,
+    "layoutCorrect": true,
+    "requirementsFullWidth": true
+  },
+  {
+    "page": "graduate-certificate/nonprofit-management.html",
+    "width": 820,
+    "sections": 3,
+    "noOverflow": true,
+    "layoutCorrect": true,
+    "requirementsFullWidth": true
+  },
+  {
+    "page": "graduate-certificate/nonprofit-management.html",
+    "width": 1440,
+    "sections": 3,
+    "noOverflow": true,
+    "layoutCorrect": true,
+    "requirementsFullWidth": true
+  },
+  {
+    "page": "graduate-certificate/public-policy.html",
+    "width": 375,
+    "sections": 3,
+    "noOverflow": true,
+    "layoutCorrect": true,
+    "requirementsFullWidth": true
+  },
+  {
+    "page": "graduate-certificate/public-policy.html",
+    "width": 820,
+    "sections": 3,
+    "noOverflow": true,
+    "layoutCorrect": true,
+    "requirementsFullWidth": true
+  },
+  {
+    "page": "graduate-certificate/public-policy.html",
+    "width": 1440,
+    "sections": 3,
+    "noOverflow": true,
+    "layoutCorrect": true,
+    "requirementsFullWidth": true
+  }
+]

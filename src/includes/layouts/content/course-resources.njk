@@ -1,7 +1,17 @@
-{% if site.courseResources | length %}
+{% set unitCatalog = catalog_courses.catalog %}
+{% if catalog_courses.catalogKey %}{% set unitCatalog = common["uh-catalog"][catalog_courses.catalogKey] %}{% endif %}
 <nav class="course-resources" aria-label="{{ site.shortName | escape }} course resources">
-<div class="grid-two content-narrow">
-{% for resource in site.courseResources %}<a class="button button-green" href="{{ resource.url | url }}">{{ site.shortName | escape }} {{ resource.label | escape }}</a>{% endfor %}
+<div class="row g-3">
+<div class="col-12{% if unitCatalog %} col-md-4{% else %} col-md-6{% endif %}">
+<a class="button button-green w-100" href="{{ common.links.classAvailability.url | url | escape }}">{{ common.links.classAvailability.label | escape }}</a>
+</div>
+<div class="col-12{% if unitCatalog %} col-md-4{% else %} col-md-6{% endif %}">
+<a class="button button-green w-100" href="{{ common.links.courseDescriptions.url | url | escape }}">{{ common.links.courseDescriptions.label | escape }}{% if catalog_courses.prefix %} (filter by prefix {{ catalog_courses.prefix | escape }}){% endif %}</a>
+</div>
+{% if unitCatalog %}
+<div class="col-12 col-md-4">
+<a class="button button-green w-100" href="{{ unitCatalog.url | url | escape }}">{{ unitCatalog.label | default("UH Mānoa Catalog (" ~ site.shortName ~ ")", true) | escape }}</a>
+</div>
+{% endif %}
 </div>
 </nav>
-{% endif %}

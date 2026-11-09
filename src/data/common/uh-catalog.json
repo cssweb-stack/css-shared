@@ -1,66 +1,82 @@
 {
-"anthropology": {
-"name": "Anthropology",
-"url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=694"
-},
-"schoolOfCommunicationAndInformation": {
-"name": "School of Communication and Information",
-"url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=695"
-},
-"communication": {
-"name": "Communication",
-"url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=696"
-},
-"communicology": {
-"name": "Communicology",
-"url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=697"
-},
-"journalism": {
-"name": "Journalism",
-"url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=698"
-},
-"libraryAndInformationScience": {
-"name": "Library and Information Science",
-"url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=699"
-},
-"peaceStudies": {
-"name": "Peace Studies",
-"url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=700"
-},
-"economics": {
-"name": "Economics",
-"url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=701"
-},
-"ethnicStudies": {
-"name": "Ethnic Studies",
-"url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=702"
-},
-"geographyAndEnvironment": {
-"name": "Geography and Environment",
-"url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=703"
-},
-"politicalScience": {
-"name": "Political Science",
-"url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=704"
-},
-"psychology": {
-"name": "Psychology",
-"url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=705"
-},
-"publicAdministration": {
-"name": "Public Administration",
-"url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=706"
-},
-"sociology": {
-"name": "Sociology",
-"url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=707"
-},
-"urbanAndRegionalPlanning": {
-"name": "Urban and Regional Planning",
-"url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=708"
-},
-"womenGenderAndSexualityStudies": {
-"name": "Women, Gender, & Sexuality Studies",
-"url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=709"
-}
+  "anthropology": {
+    "name": "Anthropology",
+    "url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=694",
+    "label": "UH Mānoa Catalog (ANTH)"
+  },
+  "schoolOfCommunicationAndInformation": {
+    "name": "School of Communication and Information",
+    "url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=695",
+    "label": "UH Mānoa Catalog (SCI)"
+  },
+  "communication": {
+    "name": "Communication",
+    "url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=696",
+    "label": "UH Mānoa Catalog (Communication)"
+  },
+  "communicology": {
+    "name": "Communicology",
+    "url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=697",
+    "label": "UH Mānoa Catalog (Communicology)"
+  },
+  "journalism": {
+    "name": "Journalism",
+    "url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=698",
+    "label": "UH Mānoa Catalog (Journalism)"
+  },
+  "libraryAndInformationScience": {
+    "name": "Library and Information Science",
+    "url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=699",
+    "label": "UH Mānoa Catalog (Library and Information Science)"
+  },
+  "peaceStudies": {
+    "name": "Peace Studies",
+    "url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=700",
+    "label": "UH Mānoa Catalog (Peace Studies)"
+  },
+  "economics": {
+    "name": "Economics",
+    "url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=701",
+    "label": "UH Mānoa Catalog (ECON)"
+  },
+  "ethnicStudies": {
+    "name": "Ethnic Studies",
+    "url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=702",
+    "label": "UH Mānoa Catalog (ES)"
+  },
+  "geographyAndEnvironment": {
+    "name": "Geography and Environment",
+    "url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=703",
+    "label": "UH Mānoa Catalog (GEO)"
+  },
+  "politicalScience": {
+    "name": "Political Science",
+    "url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=704",
+    "label": "UH Mānoa Catalog (POLS)"
+  },
+  "psychology": {
+    "name": "Psychology",
+    "url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=705",
+    "label": "UH Mānoa Catalog (PSY)"
+  },
+  "publicAdministration": {
+    "name": "Public Administration",
+    "url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=706",
+    "label": "UH Mānoa Catalog (PUBA)"
+  },
+  "sociology": {
+    "name": "Sociology",
+    "url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=707",
+    "label": "UH Mānoa Catalog (SOC)"
+  },
+  "urbanAndRegionalPlanning": {
+    "name": "Urban and Regional Planning",
+    "url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=708",
+    "label": "UH Mānoa Catalog (DURP)"
+  },
+  "womenGenderAndSexualityStudies": {
+    "name": "Women, Gender, & Sexuality Studies",
+    "url": "https://catalog.manoa.hawaii.edu/preview_entity.php?catoid=4&ent_oid=709",
+    "label": "UH Mānoa Catalog (WGSS)"
+  }
 }

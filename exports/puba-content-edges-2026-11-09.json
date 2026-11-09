@@ -1,0 +1,50 @@
+[
+  {
+    "page": "masters-mpa/index.html",
+    "width": 375,
+    "firstTrim": "none",
+    "lastTrim": "none",
+    "topClearance": 6.5,
+    "bottomClearance": 1.03
+  },
+  {
+    "page": "masters-mpa/index.html",
+    "width": 820,
+    "firstTrim": "none",
+    "lastTrim": "none",
+    "topClearance": 7.46,
+    "bottomClearance": 1.03
+  },
+  {
+    "page": "masters-mpa/index.html",
+    "width": 1440,
+    "firstTrim": "none",
+    "lastTrim": "none",
+    "topClearance": 7.93,
+    "bottomClearance": 1.03
+  },
+  {
+    "page": "faculty/associated.html",
+    "width": 375,
+    "firstTrim": "none",
+    "lastTrim": "none",
+    "topClearance": 8.71,
+    "bottomClearance": 3.27
+  },
+  {
+    "page": "faculty/associated.html",
+    "width": 820,
+    "firstTrim": "none",
+    "lastTrim": "none",
+    "topClearance": 9.92,
+    "bottomClearance": 3.27
+  },
+  {
+    "page": "faculty/associated.html",
+    "width": 1440,
+    "firstTrim": "none",
+    "lastTrim": "none",
+    "topClearance": 10.66,
+    "bottomClearance": 3.27
+  }
+]

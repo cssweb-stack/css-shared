@@ -1,30 +1,34 @@
 {
-"classAvailability": {
-"label": "Class Availability",
-"url": "https://www.sis.hawaii.edu:9350/crseavail/"
-},
-"declareMajorMinor": {
-"label": "Declare a Major or Minor",
-"url": "https://hawaii.kualibuild.com/app/69db4abcd9309c0283e2b3af/page/69db4abcd9309c0283e2b3af/run"
-},
-"declarationGuidance": {
-"label": "Declaration Guidance",
-"url": "https://manoa.hawaii.edu/registrar/student-records/undergraduate-declare-update-major-minor-certificate/"
-},
-"graduateApplication": {
-"label": "Graduate Application",
-"url": "https://manoa.hawaii.edu/graduate/submitting-your-application/"
-},
-"languageAccess": {
-"label": "Free Interpretation Services",
-"url": "https://www.hawaii.edu/equity/language-access/"
-},
-"college": {
-"label": "College of Social Sciences",
-"url": "https://socialsciences.manoa.hawaii.edu/"
-},
-"university": {
-"label": "University of Hawaiʻi at Mānoa",
-"url": "https://manoa.hawaii.edu/"
-}
+  "classAvailability": {
+    "label": "Class Availability",
+    "url": "https://www.sis.hawaii.edu:9350/crseavail/"
+  },
+  "declareMajorMinor": {
+    "label": "Declare a Major or Minor",
+    "url": "https://hawaii.kualibuild.com/app/69db4abcd9309c0283e2b3af/page/69db4abcd9309c0283e2b3af/run"
+  },
+  "declarationGuidance": {
+    "label": "Declaration Guidance",
+    "url": "https://manoa.hawaii.edu/registrar/student-records/undergraduate-declare-update-major-minor-certificate/"
+  },
+  "graduateApplication": {
+    "label": "Graduate Application",
+    "url": "https://manoa.hawaii.edu/graduate/submitting-your-application/"
+  },
+  "languageAccess": {
+    "label": "Free Interpretation Services",
+    "url": "https://www.hawaii.edu/equity/language-access/"
+  },
+  "college": {
+    "label": "College of Social Sciences",
+    "url": "https://socialsciences.manoa.hawaii.edu/"
+  },
+  "university": {
+    "label": "University of Hawaiʻi at Mānoa",
+    "url": "https://manoa.hawaii.edu/"
+  },
+  "courseDescriptions": {
+    "label": "Course Descriptions",
+    "url": "https://catalog.manoa.hawaii.edu/content.php?catoid=4&navoid=949"
+  }
 }

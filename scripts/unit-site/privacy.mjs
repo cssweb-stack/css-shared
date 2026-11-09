@@ -4,7 +4,8 @@ export function configurePrivacy(eleventyConfig) {
 eleventyConfig.ignores.add('src/privacy.html');
 eleventyConfig.ignores.add('src/privacy/**');
 const data = {
-layout: 'base.njk',
+layout: 'shell.njk',
+hidePageTitle: true,
 title: 'Privacy Policy',
 description: 'How College of Social Sciences websites use Google Analytics and visitor information, and how to manage your privacy choices.'
 };

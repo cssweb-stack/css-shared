@@ -87,15 +87,10 @@ margin-bottom: 0;
 margin-top: 0;
 }
 
-.content-section > :first-child:is(h1, h2, h3) {
-text-box-trim: trim-start;
-text-box-edge: cap alphabetic;
-}
 
-.content-section > p:last-child {
-text-box-trim: trim-end;
-text-box-edge: cap alphabetic;
-}
+
+/* Keep normal text line boxes at both section edges. Cap/baseline trimming
+   lets glyphs meet or extend beyond the container and its helper guides. */
 
 /* Bootstrap owns sidebar group columns, just as in the footer. */
 
@@ -112,15 +107,7 @@ margin-bottom: var(--layout-stack-gap);
 margin-bottom: 0;
 }
 
-.content-section > .row > [class*="col-"] > :first-child:is(h1, h2, h3) {
-text-box-trim: trim-start;
-text-box-edge: cap alphabetic;
-}
 
-.content-section > .row > [class*="col-"] > p:last-child {
-text-box-trim: trim-end;
-text-box-edge: cap alphabetic;
-}
 
 /* Tablet: separate wrapped resources with the shared content divider. */
 @media (min-width: 576px) and (max-width: 991.98px) {

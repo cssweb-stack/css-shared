@@ -1,0 +1,261 @@
+{
+  "source": "publicadministrationpuba.WordPress.2026-11-09.xml",
+  "sourceSha256": "e226d71a692724a9e2accccdf2d50f5d9c50a3c7099259e016b35a16ae3a9082",
+  "pages": [
+    {
+      "source": "https://puba.manoa.hawaii.edu/",
+      "destination": "/",
+      "file": "index.html",
+      "sourceTitle": "Home",
+      "title": "Home"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/program-overview/",
+      "destination": "/about/why-study-puba.html",
+      "file": "about/why-study-puba.html",
+      "sourceTitle": "Program Overview",
+      "title": "Why Study PUBA"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/advisory-board/",
+      "destination": "/about/advisory-board.html",
+      "file": "about/advisory-board.html",
+      "sourceTitle": "Advisory Board",
+      "title": "Advisory Board"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/alumni-network/",
+      "destination": "/about/alumni-network.html",
+      "file": "about/alumni-network.html",
+      "sourceTitle": "Alumni Network",
+      "title": "Alumni Network"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/pi-alpha-alpha/",
+      "destination": "/about/pi-alpha-alpha.html",
+      "file": "about/pi-alpha-alpha.html",
+      "sourceTitle": "Pi Alpha Alpha",
+      "title": "Pi Alpha Alpha"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/news/",
+      "destination": "/about/puba-news.html",
+      "file": "about/puba-news.html",
+      "sourceTitle": "News",
+      "title": "PUBA News"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/naspaa-accreditation/",
+      "destination": "/naspaa/accreditation.html",
+      "file": "naspaa/accreditation.html",
+      "sourceTitle": "NASPAA Accreditation",
+      "title": "Accreditation"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/naspaa-requirements/",
+      "destination": "/naspaa/requirements.html",
+      "file": "naspaa/requirements.html",
+      "sourceTitle": "NASPAA Requirements",
+      "title": "Requirements"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/apply-for-admission/",
+      "destination": "/applications-admissions.html",
+      "file": "applications-admissions.html",
+      "sourceTitle": "Apply for Admission",
+      "title": "Applications & Admissions"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/funding-opportunities/",
+      "destination": "/funding-opportunities.html",
+      "file": "funding-opportunities.html",
+      "sourceTitle": "Funding Opportunities",
+      "title": "Funding Opportunities"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/testimonials/",
+      "destination": "/testimonials.html",
+      "file": "testimonials.html",
+      "sourceTitle": "Testimonials",
+      "title": "Testimonials"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/mpa/",
+      "destination": "/masters-mpa/",
+      "file": "masters-mpa/index.html",
+      "sourceTitle": "MPA",
+      "title": "Master’s (MPA)"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/practicum-placements/",
+      "destination": "/masters-mpa/practicum-placements.html",
+      "file": "masters-mpa/practicum-placements.html",
+      "sourceTitle": "Practicum Placements",
+      "title": "Practicum Placements"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/mpa-timelines/",
+      "destination": "/masters-mpa/timelines.html",
+      "file": "masters-mpa/timelines.html",
+      "sourceTitle": "MPA Timelines",
+      "title": "Timelines"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/mpa-learning-outcomes/",
+      "destination": "/masters-mpa/learning-outcomes.html",
+      "file": "masters-mpa/learning-outcomes.html",
+      "sourceTitle": "MPA Learning Outcomes",
+      "title": "Learning Outcomes"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/gcert-nonprofit-management/",
+      "destination": "/graduate-certificate/nonprofit-management.html",
+      "file": "graduate-certificate/nonprofit-management.html",
+      "sourceTitle": "GCERT Nonprofit Management",
+      "title": "Nonprofit Management"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/gcert-public-policy/",
+      "destination": "/graduate-certificate/public-policy.html",
+      "file": "graduate-certificate/public-policy.html",
+      "sourceTitle": "GCERT Public Policy",
+      "title": "Public Policy"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/give-a-gift/",
+      "destination": "/support-puba.html",
+      "file": "support-puba.html",
+      "sourceTitle": "Give a Gift",
+      "title": "Support PUBA"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/contact/",
+      "destination": "/contact.html",
+      "file": "contact.html",
+      "sourceTitle": "Contact",
+      "title": "Contact"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/maile-arvin/",
+      "destination": "/faculty/maile-arvin.html",
+      "file": "faculty/maile-arvin.html",
+      "sourceTitle": "Maile Arvin",
+      "title": "Maile Arvin"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/soyun-jeong/",
+      "destination": "/faculty/soyun-jeong.html",
+      "file": "faculty/soyun-jeong.html",
+      "sourceTitle": "Soyun Jeong",
+      "title": "Soyun Jeong"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/janet-jock/",
+      "destination": "/faculty/janet-jock.html",
+      "file": "faculty/janet-jock.html",
+      "sourceTitle": "Janet Jock",
+      "title": "Janet Jock"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/steven-w-mumford/",
+      "destination": "/faculty/steven-w-mumford.html",
+      "file": "faculty/steven-w-mumford.html",
+      "sourceTitle": "Steven W. Mumford",
+      "title": "Steven W. Mumford"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/gowun-park/",
+      "destination": "/faculty/gowun-park.html",
+      "file": "faculty/gowun-park.html",
+      "sourceTitle": "Gowun Park",
+      "title": "Gowun Park"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/helen-h-yu/",
+      "destination": "/faculty/helen-h-yu.html",
+      "file": "faculty/helen-h-yu.html",
+      "sourceTitle": "Helen H. Yu",
+      "title": "Helen H. Yu"
+    }
+  ],
+  "heroes": [
+    {
+      "source": "https://puba.manoa.hawaii.edu/wp-content/uploads/2023/04/4S6E3977-jpg.webp",
+      "destination": "/media/heroes/puba/01.webp"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/wp-content/uploads/2023/04/4S6D3733-jpg.webp",
+      "destination": "/media/heroes/puba/02.webp"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/wp-content/uploads/2023/04/4S6D3713-jpg.webp",
+      "destination": "/media/heroes/puba/03.webp"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/wp-content/uploads/2023/04/4S6D6654-jpg.webp",
+      "destination": "/media/heroes/puba/04.webp"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/wp-content/uploads/2023/04/4S6E3995-jpg.webp",
+      "destination": "/media/heroes/puba/05.webp"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/wp-content/uploads/2023/02/DSC0922-jpg.webp",
+      "destination": "/media/heroes/puba/06.webp"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/wp-content/uploads/2023/04/4S6D3604-1-jpg.webp",
+      "destination": "/media/heroes/puba/07.webp"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/wp-content/uploads/2023/04/4S6D3526-jpg.webp",
+      "destination": "/media/heroes/puba/08.webp"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/wp-content/uploads/2023/04/4S6D3663-jpg.webp",
+      "destination": "/media/heroes/puba/09.webp"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/wp-content/uploads/2023/04/4S6E3990-jpg.webp",
+      "destination": "/media/heroes/puba/10.webp"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/wp-content/uploads/2023/04/4S6E1501-jpg.webp",
+      "destination": "/media/heroes/puba/11.webp"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/wp-content/uploads/2023/04/4S6E4471-jpg.webp",
+      "destination": "/media/heroes/puba/12.webp"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/wp-content/uploads/2023/04/4S6E1557-jpg.webp",
+      "destination": "/media/heroes/puba/13.webp"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/wp-content/uploads/2023/04/4S6D6580-jpg.webp",
+      "destination": "/media/heroes/puba/14.webp"
+    },
+    {
+      "source": "https://puba.manoa.hawaii.edu/wp-content/uploads/2023/04/4S6E4045-jpg.webp",
+      "destination": "/media/heroes/puba/15.webp"
+    }
+  ],
+  "legacyLinks": [],
+  "excluded": [
+    "academic-program",
+    "gcert-public-service-leadership"
+  ],
+  "deferred": [
+    "policies-and-procedures",
+    "faculty profile components",
+    "inline images"
+  ],
+  "directorySplit": {
+    "core": "/faculty/",
+    "associated": "/faculty/associated.html",
+    "contactProfilesDeferred": [
+      "Helen H. Yu",
+      "Sarah Amend"
+    ]
+  }
+}

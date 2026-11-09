@@ -1,3 +1,15 @@
 {
-"indexingEnabled": false
+  "indexingEnabled": false,
+  "stylesheet": "/puba.css",
+  "hero": {
+    "enabled": true,
+    "variant": "compact",
+    "decorative": true,
+    "showLocation": false,
+    "showAttribution": false,
+    "overlay": {
+      "color": "var(--uh-green)",
+      "opacity": 0.33
+    }
+  }
 }

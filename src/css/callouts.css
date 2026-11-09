@@ -58,6 +58,11 @@ background: var(--light-gray);
 border-radius: 0.5rem;
 }
 
+/* Keep the three links equal-height when the prefix instruction wraps. */
+.course-resources .button {
+height: 100%;
+}
+
 @media (max-width: 767.98px) {
 .course-resources {
 padding: 1.25rem;

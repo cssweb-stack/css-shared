@@ -1,0 +1,23 @@
+[
+  {
+    "width": 375,
+    "noPageOverflow": true,
+    "buttonsInsidePanel": true,
+    "noTextOverflow": true,
+    "equalButtonHeights": false
+  },
+  {
+    "width": 820,
+    "noPageOverflow": true,
+    "buttonsInsidePanel": true,
+    "noTextOverflow": true,
+    "equalButtonHeights": true
+  },
+  {
+    "width": 1440,
+    "noPageOverflow": true,
+    "buttonsInsidePanel": true,
+    "noTextOverflow": true,
+    "equalButtonHeights": true
+  }
+]

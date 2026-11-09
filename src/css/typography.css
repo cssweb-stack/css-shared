@@ -63,9 +63,12 @@ margin-top: 0;
 margin-bottom: 1rem;
 }
 
-/* Long-form text: separate later topics without changing the first H2. */
-.site-main .long-form > h2 ~ h2 {
-margin-top: 2rem;
+/* Explicit thematic breaks in page content, independent of Bootstrap defaults. */
+.site-main hr {
+border: 0;
+border-top: 1px solid var(--border-neutral);
+margin-block: 2rem;
+opacity: 1;
 }
 
 .site-main h3 {

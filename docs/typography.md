@@ -57,3 +57,11 @@ root), versus 1.125rem (18px) body copy. Bottom margin is twice normal paragraph
 spacing: calc(2 * var(--content-paragraph-spacing)), normally 2rem. Existing
 1.75 line height remains. There is still no border or bottom padding. This
 supersedes the earlier 1.14rem/1.5-times intro values above.
+
+## Thematic breaks
+
+Use plain `<hr>` in content where a thematic break is wanted. Shared typography
+styles it with a 1px `--border-neutral` top border, 2rem block margins, and full
+opacity. SSRI Boilerplate, OENAS, and TASI/PHIDC now use explicit rules before
+each formerly spaced H2 after the first. The former heading-spacing class and
+selector have been removed; profile/sidebar headings are unaffected.

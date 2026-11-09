@@ -55,9 +55,9 @@ if (!fs.existsSync(path.join(root, ref))) throw new Error(`Missing shared file: 
 for (const old of ['_includes', '_data', '_media']) {
 if (fs.existsSync(path.join(root, old))) throw new Error(`Retired source directory: ${old}`);
 }
-const baseTemplate = fs.readFileSync(path.join(root, 'includes/base.njk'), 'utf8');
+const baseTemplate = fs.readFileSync(path.join(root, 'includes/shell.njk'), 'utf8');
 if ((baseTemplate.match(/<main\b[^>]*class="site-main"/g) || []).length !== 1) throw new Error('The shared base must have exactly one site-main page-content parent.');
-if (!baseTemplate.includes('class="container content-section"')) throw new Error('The shared base must wrap ordinary pages in container content-section.');
+if (baseTemplate.includes('class="container content-section"') || baseTemplate.includes('fullWidthSections') || baseTemplate.includes('singleColumnContent')) throw new Error('The shared shell must leave section/container/column structure to page sources.');
 console.log(`Checked ${count} shared files: JSON, source CSS assets, literal include references, structure and line-height rules.`);
 
 // Unit identity/contact data is independent of optional social accounts.

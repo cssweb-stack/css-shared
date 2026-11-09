@@ -1,0 +1,131 @@
+{
+  "defaultHero": "/media/heroes/puba/01.webp",
+  "pages": {
+    "/": {
+      "image": "/media/heroes/puba/01.webp",
+      "position": "center center",
+      "alt": "UH Students",
+      "credit": false
+    },
+    "/about/why-study-puba.html": {
+      "image": "/media/heroes/puba/02.webp",
+      "position": "center center",
+      "alt": "UH Students",
+      "credit": false
+    },
+    "/about/advisory-board.html": {
+      "image": "/media/heroes/puba/03.webp",
+      "position": "center center",
+      "alt": "UH Students",
+      "credit": false
+    },
+    "/about/alumni-network.html": {
+      "image": "/media/heroes/puba/04.webp",
+      "position": "center center",
+      "alt": "PUBA Students",
+      "credit": false
+    },
+    "/about/pi-alpha-alpha.html": {
+      "image": "/media/heroes/puba/05.webp",
+      "position": "center center",
+      "alt": "UH Students",
+      "credit": false
+    },
+    "/about/puba-news.html": {
+      "image": "/media/heroes/puba/06.webp",
+      "position": "center center",
+      "alt": "Saunders Hall mural",
+      "credit": false
+    },
+    "/naspaa/accreditation.html": {
+      "image": "/media/heroes/puba/07.webp",
+      "position": "center center",
+      "alt": "UH Students",
+      "credit": false
+    },
+    "/naspaa/requirements.html": {
+      "image": "/media/heroes/puba/08.webp",
+      "position": "center center",
+      "alt": "PUBA Students",
+      "credit": false
+    },
+    "/applications-admissions.html": {
+      "image": "/media/heroes/puba/09.webp",
+      "position": "center center",
+      "alt": "PUBA Students",
+      "credit": false
+    },
+    "/funding-opportunities.html": {
+      "image": "/media/heroes/puba/02.webp",
+      "position": "center center",
+      "alt": "UH Students",
+      "credit": false
+    },
+    "/testimonials.html": {
+      "image": "/media/heroes/puba/10.webp",
+      "position": "center center",
+      "alt": "UH Students",
+      "credit": false
+    },
+    "/masters-mpa/": {
+      "image": "/media/heroes/puba/11.webp",
+      "position": "center center",
+      "alt": "PUBA Student",
+      "credit": false
+    },
+    "/masters-mpa/practicum-placements.html": {
+      "image": "/media/heroes/puba/05.webp",
+      "position": "center center",
+      "alt": "UH Students",
+      "credit": false
+    },
+    "/masters-mpa/timelines.html": {
+      "image": "/media/heroes/puba/12.webp",
+      "position": "center center",
+      "alt": "PUBA Student",
+      "credit": false
+    },
+    "/masters-mpa/learning-outcomes.html": {
+      "image": "/media/heroes/puba/13.webp",
+      "position": "center center",
+      "alt": "PUBA Student",
+      "credit": false
+    },
+    "/graduate-certificate/nonprofit-management.html": {
+      "image": "/media/heroes/puba/02.webp",
+      "position": "center center",
+      "alt": "UH Students",
+      "credit": false
+    },
+    "/graduate-certificate/public-policy.html": {
+      "image": "/media/heroes/puba/01.webp",
+      "position": "center center",
+      "alt": "UH Students",
+      "credit": false
+    },
+    "/support-puba.html": {
+      "image": "/media/heroes/puba/14.webp",
+      "position": "center center",
+      "alt": "PUBA Students",
+      "credit": false
+    },
+    "/contact.html": {
+      "image": "/media/heroes/puba/15.webp",
+      "position": "center center",
+      "alt": "PUBA Students",
+      "credit": false
+    },
+    "/faculty/": {
+      "image": "/media/heroes/puba/10.webp",
+      "position": "center center",
+      "alt": "UH Students",
+      "credit": false
+    },
+    "/faculty/associated.html": {
+      "image": "/media/heroes/puba/10.webp",
+      "position": "center center",
+      "alt": "UH Students",
+      "credit": false
+    }
+  }
+}

@@ -16,3 +16,12 @@ Each logo record supplies its public src, meaningful alt text, and intrinsic wid
 These new unit records supply identity/contact/logo data only. Other units need their own pages, navigation, and build configuration when they are onboarded. GEO's existing records and build remain intact.
 
 The supplied contact list used the same room (Saunders Hall 445) for GEO and Public Administration. This was retained pending confirmation.
+
+## Contact page structure
+
+Every new contact page uses `layout: shell.njk` and follows SSRI's two-section pattern: the first `.page-section > .container.content-section`
+contains a row/column for the heading and opening text; the second contains the
+shared `layouts/content/unit-contact.njk` include. The include supplies its own
+office/map row and columns. Later contact profiles belong below that section.
+Do not wrap both sections in the base layout's automatic ordinary-page container.
+The unit scaffolder generates this pattern automatically.

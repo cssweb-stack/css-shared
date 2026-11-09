@@ -67,8 +67,12 @@ const escape = text => text.replaceAll('&', '&amp;').replaceAll('<', '&lt;').rep
 for (const [url, title] of pages) {
 const relative = url === '/' ? 'index.html' : url.replace(/^\//, '').replace(/\/$/, '.html');
 if (!relative.endsWith('.html') || relative.split('/').some(part => part === '..' || part === '.')) throw new Error(`Unsupported page URL: ${url}`);
-const contact = /^\/contact(?:\/|\.html)$/.test(url) && identity.building ? '{% include "layouts/content/unit-contact.njk" %}\n' : '';
-files.set('src/' + relative, `---\nlayout: base.njk\ntitle: ${JSON.stringify(title)}\nhidePageTitle: true\npermalink: ${JSON.stringify(url)}\n---\n<h1>${escape(title)}</h1>\n<p class="tagline">Lorem ipsum dolor sit amet.</p>\n<p class="intro">${intro}</p>\n${contact}${paragraphs.map(text => `<p>${text}</p>`).join('\n')}\n`);
+const contact = /^\/contact(?:\/|\.html)$/.test(url) && identity.building;
+const body = contact
+? `<div class="page-section">\n<div class="container content-section">\n<div class="row gx-0 gx-sm-5 gx-lg-5">\n<div class="col-12">\n<h1>Contact ${escape(identity.shortName)}</h1>\n<p class="intro">${intro}</p>\n</div>\n</div>\n</div>\n</div>\n\n<div class="page-section">\n<div class="container content-section">\n{% include "layouts/content/unit-contact.njk" %}\n</div>\n</div>\n`
+: `<h1>${escape(title)}</h1>\n<p class="tagline">Lorem ipsum dolor sit amet.</p>\n<p class="intro">${intro}</p>\n${paragraphs.map(text => `<p>${text}</p>`).join('\n')}\n`;
+const sections = contact ? body : `<div class="page-section">\n<div class="container content-section">\n<div class="row gx-0 gx-sm-5 gx-lg-5">\n<div class="col-12">\n${body}</div>\n</div>\n</div>\n</div>\n`;
+files.set('src/' + relative, `---\nlayout: shell.njk\ntitle: ${JSON.stringify(title)}\npermalink: ${JSON.stringify(url)}\n---\n${sections}`);
 }
 let workflow = fs.readFileSync(path.join(sharedRoot, 'scripts/unit-site/deploy.yml'), 'utf8');
 workflow = workflow.replace('Build and publish GEO', `Build and publish ${identity.shortName}`).replaceAll('/geo/', `/${unit}/`);

@@ -1,97 +1,108 @@
 [
-{
-"label": "Home",
-"url": "/"
-},
-{
-"label": "About",
-"children": [
-{
-"label": "Why Study PUBA",
-"url": "/about-puba/why-study-puba.html",
-"icon": "question-circle",
-"iconColor": null
-},
-{
-"label": "NASPAA Accreditation",
-"url": "/about-puba/naspaa-accreditation.html",
-"iconColor": null,
-"icon": "file-earmark-check"
-},
-{
-"label": "Advisory Board",
-"url": "/about-puba/advisory-board.html",
-"iconColor": null,
-"icon": "people"
-},
-{
-"label": "Alumni Network",
-"url": "/about-puba/alumni-network.html",
-"iconColor": null,
-"icon": "people"
-},
-{
-"label": "Pi Alpha Alpha",
-"url": "/about-puba/pi-alpha-alpha.html",
-"iconColor": null,
-"icon": "star"
-},
-{
-"label": "PUBA News",
-"url": "/about-puba/puba-news.html",
-"iconColor": null,
-"icon": "newspaper"
-}
-]
-},
-{
-"label": "Courses",
-"url": "/courses/"
-},
-{
-"label": "Graduate Certificates",
-"children": [
-{
-"label": "Nonprofit Management",
-"url": "/graduate-certificate/nonprofit-management.html",
-"iconColor": null,
-"icon": "award"
-},
-{
-"label": "Public Policy",
-"url": "/graduate-certificate/public-policy.html",
-"iconColor": null,
-"icon": "award"
-}
-]
-},
-{
-"label": "Master’s (MPA)",
-"url": "/graduate/master-mpa.html"
-},
-{
-"label": "Faculty",
-"children": [
-{
-"label": "Core Faculty",
-"url": "/faculty/core-faculty.html",
-"iconColor": null,
-"icon": "people"
-},
-{
-"label": "Associated Faculty",
-"url": "/faculty/associated-faculty.html",
-"iconColor": null,
-"icon": "people"
-}
-]
-},
-{
-"label": "Support PUBA",
-"url": "/support-puba/"
-},
-{
-"label": "Contact",
-"url": "/contact/"
-}
+  {
+    "label": "Home",
+    "url": "/"
+  },
+  {
+    "label": "About",
+    "children": [
+      {
+        "label": "Why Study PUBA",
+        "url": "/about/why-study-puba.html",
+        "icon": "question-circle",
+        "iconColor": null
+      },
+      {
+        "label": "Advisory Board",
+        "url": "/about/advisory-board.html",
+        "iconColor": null,
+        "icon": "people"
+      },
+      {
+        "label": "Alumni Network",
+        "url": "/about/alumni-network.html",
+        "iconColor": null,
+        "icon": "people"
+      },
+      {
+        "label": "Pi Alpha Alpha",
+        "url": "/about/pi-alpha-alpha.html",
+        "iconColor": null,
+        "icon": "star"
+      },
+      {
+        "label": "PUBA News",
+        "url": "/about/puba-news.html",
+        "iconColor": null,
+        "icon": "newspaper"
+      }
+    ]
+  },
+  {
+    "label": "NASPAA",
+    "children": [
+      {
+        "label": "Accreditation",
+        "url": "/naspaa/accreditation.html",
+        "icon": "info-circle",
+        "iconColor": null
+      },
+      {
+        "label": "Requirements",
+        "url": "/naspaa/requirements.html",
+        "icon": "info-circle",
+        "iconColor": null
+      }
+    ]
+  },
+  {
+    "label": "Courses",
+    "url": "/courses/"
+  },
+  {
+    "label": "Graduate Certificates",
+    "children": [
+      {
+        "label": "Nonprofit Management",
+        "url": "/graduate-certificate/nonprofit-management.html",
+        "iconColor": null,
+        "icon": "award"
+      },
+      {
+        "label": "Public Policy",
+        "url": "/graduate-certificate/public-policy.html",
+        "iconColor": null,
+        "icon": "award"
+      }
+    ]
+  },
+  {
+    "label": "Master’s (MPA)",
+    "url": "/masters-mpa/"
+  },
+  {
+    "label": "Faculty",
+    "children": [
+      {
+        "label": "Core Faculty",
+        "url": "/faculty/",
+        "iconColor": null,
+        "icon": "people"
+      },
+      {
+        "label": "Associated Faculty",
+        "url": "/faculty/associated.html",
+        "iconColor": null,
+        "icon": "people"
+      }
+    ]
+  },
+  {
+    "label": "Support PUBA",
+    "url": "/support-puba.html"
+  },
+  {
+    "label": "Contact",
+    "url": "/contact.html"
+  }
 ]

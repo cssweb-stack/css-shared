@@ -1,0 +1,13 @@
+{# Compatibility adapter for consumers not yet migrated to explicit sections. #}
+{% if fullWidthSections %}
+{{ content | safe }}
+{% else %}
+<div class="page-section">
+<div class="container content-section">
+
+{% if not hidePageTitle %}<h1>{{ title | default(site.name) | escape }}</h1>{% endif -%}
+{{ content | safe }}
+
+</div>
+</div>
+{% endif %}

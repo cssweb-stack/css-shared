@@ -99,8 +99,9 @@ Fiscal Compliance sections, all Directory bands, and Boilerplate's content
 now use the same outer/inner/Bootstrap row/col-12 structure. Ten sections across
 six pages were wrapped. Existing homepage/research-detail/Grant Development
 grids and the office/map and research listing grids were not rewrapped.
-Boilerplate's long-form class moved to the column so its direct-heading rule
-continues working. Shared column edge normalization now applies to every
+Boilerplate uses explicit shared-styled `<hr>` elements before later H2s
+(as of November 9); its earlier heading-spacing class has been removed.
+Shared column edge normalization now applies to every
 primary row, not only content-sidebar. No new page-specific padding rules.
 Chrome checked 18 page/width cases (375/820/1440px): matching footer row edges,
 3px diagnostic column borders and zero last-child margins. Results:
