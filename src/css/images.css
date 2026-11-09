@@ -54,12 +54,14 @@ object-fit: cover;
 margin-bottom: 1.5rem;
 }
 
-@media (min-width: 576px) and (max-width: 991.98px) {
-/* Centered graphic callouts keep their columns; only the artwork shrinks. */
+/* Tablet and desktop callouts keep their columns; only the artwork shrinks. */
+@media (min-width: 576px) {
 .sidebar-media.mx-auto {
 width: calc(100% / 3);
 }
+}
 
+@media (min-width: 576px) and (max-width: 991.98px) {
 .area-study {
 width: 45%;
 margin-inline: 0;

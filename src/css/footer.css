@@ -1,10 +1,10 @@
 /* Shared footer
  * Layout contract:
  * - layout.css owns .container widths/gutters, last-child normalization,
- *   diagnostic borders, and stacked sidebar/footer column spacing.
+ *   and stacked sidebar/footer column spacing; diagnostics.css owns guides.
  * - Bootstrap owns row/column sizing and responsive horizontal gutters.
  * - --layout-section-spacing supplies the upper footer's vertical padding.
- * - --layout-stack-gap supplies the desktop footer row gap and stacked groups.
+ * - --layout-stack-gap supplies stacked group spacing; desktop rows use section spacing.
  * - Local detail spacing below is intentionally independent of page-edge padding.
  * Breakpoints: sm 576px, lg 992px, xl 1200px; no footer-only breakpoints.
  */
@@ -106,7 +106,7 @@ padding-bottom: var(--footer-divider-spacing);
 
 @media (min-width: 992px) {
 .site-footer .footer-grid {
-row-gap: var(--layout-stack-gap);
+row-gap: var(--layout-section-spacing);
 }
 
 .site-footer :is(.footer-university-links, .footer-language-column)::before {
@@ -137,7 +137,7 @@ font-size: 4rem;
 
 @media (min-width: 576px) and (max-width: 991.98px) {
 .site-footer .footer-unit-short-name {
-font-size: 3.5rem;
+font-size: 4.667rem;
 }
 }
 

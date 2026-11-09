@@ -28,7 +28,11 @@ box-shadow: var(--shadow-sticky);
 .uh-brand {
 background: var(--uh-green);
 color: var(--white);
-padding: 16px 0;
+}
+
+/* The shared inner spans the full bar; Bootstrap owns horizontal grid gutters. */
+.uh-brand > .container {
+padding-block: 16px;
 }
 
 .uh-brand .navbar {
@@ -69,19 +73,6 @@ color: var(--white);
 text-decoration-line: underline;
 }
 
-.uh-brand .navbar-toggler {
-border-color: var(--brand-toggle-border-color);
-}
-
-.uh-brand .navbar-toggler:focus {
-box-shadow: none;
-}
-
-.uh-brand .navbar-toggler:focus-visible {
-outline: 2px solid var(--white);
-outline-offset: 3px;
-}
-
 .uh-brand-logo {
 display: block;
 width: 185px;
@@ -111,43 +102,6 @@ padding: 0 2rem 0 0;
 }
 }
 
-@media (max-width: 1199.98px) {
-.uh-brand {
-padding: 0;
-}
-
-.uh-brand > .container {
-padding-block: 16px;
-}
-
-.uh-brand-logo {
-width: 185px;
-}
-
-.uh-brand .navbar-toggler {
-display: inline-flex;
-align-items: center;
-justify-content: center;
-width: 44px;
-height: 44px;
-padding: 0;
-flex: 0 0 44px;
-}
-
-.uh-brand .navbar-toggler-icon {
-width: 22.5px;
-height: 22.5px;
-}
-
-.uh-brand .navbar-collapse {
-padding-top: 1rem;
-}
-
-.uh-brand .nav-link {
-padding: .65rem 0;
-}
-}
-
 @media (max-width: 767.98px) {
 .uh-brand-logo {
 width: 120px;
@@ -166,7 +120,6 @@ min-width: 0;
 overflow-wrap: anywhere;
 color: var(--black);
 text-decoration-line: none;
-font-size: clamp(1.5rem, 2.5vw, 2rem);
 font-weight: 600;
 }
 
@@ -191,12 +144,6 @@ display: flex;
 align-items: center;
 gap: 0.5rem;
 justify-content: space-between;
-}
-
-@media (max-width: 575.98px) {
-.unit-name-link {
-font-size: 1rem;
-}
 }
 
 /* Search controls */
@@ -275,6 +222,11 @@ display: none;
 padding: 0;
 background: var(--nav-unit-bk);
 border-bottom: 0;
+}
+
+.unit-nav > .container > .row {
+flex: 1;
+min-width: 0;
 }
 
 .unit-nav .nav-link {
@@ -374,12 +326,45 @@ transition: none;
 
 @media (max-width: 1199.98px) {
 .unit-nav .nav-link {
-padding-inline: 0;
+display: flex;
+align-items: center;
+width: 100%;
+min-height: 44px;
+padding: .5rem 0;
 }
 
 .unit-nav .nav-trigger {
 width: 100%;
 text-align: left;
+}
+
+/* Collapsed navigation: inline submenus, with full-width compact tap targets. */
+.unit-nav .navbar-nav > .nav-item:not(:last-child) {
+border-bottom: 1px solid var(--nav-divider);
+}
+
+.unit-nav .dropdown-toggle[aria-expanded="true"]::after {
+transform: rotate(225deg);
+}
+
+.unit-nav .dropdown-menu {
+width: 100%;
+min-width: 0;
+max-width: none;
+margin: 0;
+padding: 0;
+border-radius: 0;
+box-shadow: none;
+}
+
+.unit-nav .dropdown-item {
+width: 100%;
+min-height: 44px;
+padding: .5rem 1rem;
+}
+
+.unit-nav .dropdown-menu > li:not(:last-child) > .dropdown-item {
+border-bottom: 0;
 }
 }
 

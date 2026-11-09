@@ -1,6 +1,8 @@
 {% set headerIdPrefix = headerId + "-" if headerId else "" %}
 <div class="uh-brand">
 <div class="container">
+<div class="row gx-0 gx-sm-5 gx-lg-5">
+<div class="col-12">
 
 <nav class="navbar navbar-expand-xl navbar-dark" aria-label="University of Hawaiʻi navigation">
 
@@ -12,20 +14,8 @@ alt="{{ uh.header.logo.alt | escape }}"
 class="uh-brand-logo">
 </a>
 
-<!-- Mobile Hamburger -->
-<button
-class="navbar-toggler"
-type="button"
-data-bs-toggle="collapse"
-data-bs-target="#{{ headerIdPrefix }}uhBrandNav"
-aria-controls="{{ headerIdPrefix }}uhBrandNav"
-aria-expanded="false"
-aria-label="Toggle university navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-
-<!-- University Navigation -->
-<div class="collapse navbar-collapse" id="{{ headerIdPrefix }}uhBrandNav">
+<!-- Desktop university links; collapsed layouts use UH links in the unit menu. -->
+<div class="navbar-collapse d-none d-xl-flex" id="{{ headerIdPrefix }}uhBrandNav">
 <ul class="navbar-nav">
 
 {% for link in uh.header.navigation %}
@@ -36,5 +26,7 @@ aria-label="Toggle university navigation">
 
 </nav>
 
+</div>
+</div>
 </div>
 </div>

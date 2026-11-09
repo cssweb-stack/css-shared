@@ -1,3 +1,5 @@
 {
-"provider": "google-site-restricted"
+  "provider": "google-site-restricted",
+  "domain": "sci.manoa.hawaii.edu",
+  "label": "SCI"
 }

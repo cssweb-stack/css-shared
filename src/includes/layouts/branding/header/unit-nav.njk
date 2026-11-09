@@ -1,6 +1,8 @@
 {% set headerIdPrefix = headerId + "-" if headerId else "" %}
 <nav class="unit-nav navbar navbar-expand-xl" aria-label="{{ site.shortName | escape }} navigation">
 <div class="container">
+<div class="row gx-0 gx-sm-5 gx-lg-5">
+<div class="col-12">
 <div class="collapse navbar-collapse" id="{{ headerIdPrefix }}unitNavigation">
 <ul class="navbar-nav">
 {% for item in navigation -%}
@@ -22,6 +24,7 @@ aria-expanded="false">{% if item.icon %}<span class="nav-main-icon"{% if item.ic
 </a>
 </li>
 {% endfor -%}
+
 </ul>
 </li>
 {% else -%}
@@ -30,7 +33,19 @@ aria-expanded="false">{% if item.icon %}<span class="nav-main-icon"{% if item.ic
 </li>
 {% endif -%}
 {% endfor -%}
+{# Same university data as the green bar, presented within the collapsed menu. #}
+<li class="nav-item dropdown d-xl-none">
+<button class="nav-link dropdown-toggle nav-trigger" type="button"
+id="{{ headerIdPrefix }}uhLinksToggle" data-bs-toggle="dropdown" aria-expanded="false">UH links</button>
+<ul class="dropdown-menu" aria-labelledby="{{ headerIdPrefix }}uhLinksToggle">
+{% for link in uh.header.navigation %}
+<li><a class="dropdown-item" href="{{ link.url | escape }}">{{ link.label | escape }}</a></li>
+{% endfor %}
 </ul>
+</li>
+</ul>
+</div>
+</div>
 </div>
 </div>
 </nav>

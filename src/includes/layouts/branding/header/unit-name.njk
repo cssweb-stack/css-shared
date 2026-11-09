@@ -1,5 +1,7 @@
 {% set headerIdPrefix = headerId + "-" if headerId else "" %}
 <div class="unit-name"><div class="container unit-name-inner">
+<div class="row gx-0 gx-sm-5 gx-lg-5">
+<div class="col-12">
 <div class="unit-name-row">
 <a href="{{ "/" | url }}" class="unit-name-link">{{ site.name | escape }}{% if site.showShortName and site.shortName %} <span class="unit-short-name">{{ site.shortName | escape }}</span>{% endif %}</a>
 <div class="unit-actions">
@@ -19,4 +21,6 @@
 <input type="hidden" name="sitesearch" value="{{ site.search.domain | escape }}">
 <button class="btn btn-outline-secondary" type="submit">Search</button>
 </form></div>
+</div>
+</div>
 </div></div>

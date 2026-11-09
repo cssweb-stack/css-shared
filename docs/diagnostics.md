@@ -1,6 +1,8 @@
 # Toggle layout diagnostics
 
-Normal sites have diagnostics OFF by default.
+Normal production styling has diagnostics OFF. Diagnostics are currently ON
+for header proofreading at the user’s request; comment out the import before
+publishing the normal presentation.
 
 At the bottom of `src/css/common.css`, enable proofreading by changing:
 
@@ -21,6 +23,7 @@ JavaScript, user-facing controls or special build flags are required.
 
 The rules live only in `src/css/diagnostics.css`:
 
+- Header inners: pink side guides; header grid columns: Accent Warm.
 - Page parent: gold top/bottom lines.
 - Section outer: lime top/bottom lines; Surface Gold except gray sections.
 - Content inner: pink sides and Surface Pink.

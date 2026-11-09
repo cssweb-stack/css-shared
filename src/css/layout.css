@@ -6,7 +6,15 @@
 --layout-gutter: clamp(1rem, 4vw, 3rem);
 --layout-content-spacing: 3rem;
 --layout-section-spacing: 3rem;
---layout-stack-gap: 1rem;
+--layout-stack-gap: 1.5rem;
+}
+
+/* From sm upward, rows extend outward by 1.5rem per side.
+   Reserve at least 2rem so every shared grid stays inside its container. */
+@media (min-width: 576px) {
+:root {
+--layout-gutter: clamp(2rem, 4vw, 3rem);
+}
 }
 
 .container {
@@ -47,14 +55,12 @@ margin-bottom: 0;
 
 @media (min-width: 576px) and (max-width: 1199.98px) {
 :root {
---layout-content-spacing: 2.25rem;
 --layout-section-spacing: 2.25rem;
 }
 }
 
 @media (max-width: 575.98px) {
 :root {
---layout-content-spacing: 2rem;
 --layout-section-spacing: 2rem;
 }
 }
@@ -116,16 +122,22 @@ text-box-trim: trim-end;
 text-box-edge: cap alphabetic;
 }
 
-/* Tablet: separate wrapped resources using the same divider as an intro. */
+/* Tablet: separate wrapped resources with the shared content divider. */
 @media (min-width: 576px) and (max-width: 991.98px) {
 .content-sidebar > .sidebar-resources {
 margin-top: 0;
 }
 
-.content-sidebar > .sidebar-resources > .sidebar-resources-grid {
+.content-sidebar > .sidebar-resources::before {
+content: "";
+display: block;
 margin-top: var(--content-divider-spacing);
 border-top: var(--content-divider-border);
 padding-top: var(--content-divider-spacing);
+}
+
+.content-sidebar > .sidebar-resources > .sidebar-resources-grid {
+margin-top: 0;
 }
 }
 
@@ -160,17 +172,23 @@ gap: 1.5rem;
 }
 }
 
+/* Existing reusable grids share child sizing; Bootstrap owns primary page rows. */
+.grid-two > *,
+.grid-four > *,
+.grid-profile > *,
+.grid-standard > *,
+.grid-compact > *,
+.grid-three > * {
+box-sizing: border-box;
+min-width: 0;
+max-width: 100%;
+}
+
 /* Two-Column Grid */
 .grid-two {
 display: grid;
 grid-template-columns: repeat(2, minmax(0, 1fr));
 gap: 1.5rem;
-}
-
-.grid-two > * {
-box-sizing: border-box;
-min-width: 0;
-max-width: 100%;
 }
 
 @media (max-width: 767.98px) {
@@ -187,9 +205,6 @@ gap: 1.5rem;
 }
 
 .grid-four > * {
-box-sizing: border-box;
-min-width: 0;
-max-width: 100%;
 overflow-wrap: anywhere;
 overflow: auto;
 }
@@ -215,9 +230,6 @@ row-gap: 2.25rem;
 }
 
 .grid-profile > * {
-box-sizing: border-box;
-min-width: 0;
-max-width: 100%;
 overflow-wrap: anywhere;
 overflow: auto;
 }
@@ -237,9 +249,6 @@ row-gap: 3rem;
 }
 
 .grid-standard > * {
-box-sizing: border-box;
-min-width: 0;
-max-width: 100%;
 overflow-wrap: anywhere;
 overflow: auto;
 }
@@ -259,9 +268,6 @@ row-gap: 2.25rem;
 }
 
 .grid-compact > * {
-box-sizing: border-box;
-min-width: 0;
-max-width: 100%;
 overflow-wrap: anywhere;
 overflow: auto;
 }
@@ -280,9 +286,6 @@ gap: 1.5rem;
 }
 
 .grid-three > * {
-box-sizing: border-box;
-min-width: 0;
-max-width: 100%;
 overflow-wrap: anywhere;
 overflow: auto;
 }
@@ -426,14 +429,6 @@ overflow-wrap: anywhere;
 width: auto;
 max-width: 100%;
 height: auto;
-}
-
-.unit-contact-address {
-font-style: normal;
-}
-
-.site-main .unit-contact-address :is(.phone, .email) {
-justify-content: flex-start;
 }
 
 .unit-contact-map {

@@ -1,3 +1,5 @@
 {
-"provider": "google-site-restricted"
+  "provider": "google-site-restricted",
+  "domain": "politicalscience.manoa.hawaii.edu",
+  "label": "POLS"
 }

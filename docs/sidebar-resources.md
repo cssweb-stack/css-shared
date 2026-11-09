@@ -4,7 +4,7 @@ Sidebars use the same nested Bootstrap row/column system as the footer.
 
 ```html
 <aside class="col-12 col-lg-4 col-xl-3 sidebar-resources">
-  <div class="row gx-0 gx-sm-5 sidebar-resources-grid">
+  <div class="row gx-0 gx-sm-5 gx-lg-5 sidebar-resources-grid">
     <div class="col-12 col-sm-6 col-lg-12"><!-- One group --></div>
     <div class="col-12 col-sm-6 col-lg-12"><!-- Another group --></div>
   </div>
@@ -14,9 +14,10 @@ Sidebars use the same nested Bootstrap row/column system as the footer.
 Groups stack on phones and in desktop sidebars, splitting equally at
 576–991.98px. A single group keeps half-width on tablet. Footer groups use
 col-sm-4 for thirds; the mechanism and gutter utilities are the same.
-sidebar-resources-grid is now only a divider hook: it does not set
-display:grid, template columns, or container queries. Bootstrap owns layout. There is no added gap between stacked sidebar columns,
-matching the footer's nested row.
+`sidebar-resources-grid` does not set CSS Grid columns or container queries.
+Bootstrap owns layout. The parent sidebar draws the tablet divider at the content
+edges. Stacked sidebar and footer columns use the shared 1.5rem stack gap;
+side-by-side tablet groups have no added vertical gap.
 
 All six SSRI sidebar pages use this pattern. Diagnostic borders use the same
 row > col rule as the footer, with no sidebar-specific border selectors.

@@ -1,4 +1,7 @@
 /* Body copy stays readable at every viewport; do not shrink it on phones. */
+/* Typography contract: rem sizes respect the root text size; body copy stays
+   steady, large titles adapt modestly, and text may wrap rather than shrink.
+   Component styles own layout and specialized text such as directory cells. */
 :root {
 --content-body-font-size: 1.125rem;
 --content-paragraph-spacing: 1rem;
@@ -8,8 +11,14 @@
 font-size: var(--content-body-font-size);
 }
 
+/* Unit identity: 24–32px at the default root size, with room to wrap.
+   Combine rem and viewport units so sizing also responds to text preferences. */
+.unit-name-link {
+font-size: clamp(1.5rem, calc(1rem + 1.333vw), 2rem);
+}
+
 :focus-visible {
-outline: 3px solid var(--focus-color);
+outline: 3px solid var(--link-color);
 outline-offset: 2px;
 }
 

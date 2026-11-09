@@ -1,0 +1,42 @@
+{
+  "cases": 396,
+  "pages": 66,
+  "elements": 170628,
+  "page_overflow": 0,
+  "geometry_changed_nodes": 3388,
+  "style_changed_nodes": 420,
+  "geometry_changed_pages": [
+    "geo/faculty/aurora-kagawa-viviani.html",
+    "geo/faculty/brian-szuster.html",
+    "geo/faculty/camilo-mora.html",
+    "geo/faculty/hong-jiang.html",
+    "geo/faculty/marina-karides.html",
+    "geo/faculty/mary-mostafanezhad.html",
+    "geo/faculty/qi-chen.html",
+    "geo/faculty/reece-jones.html",
+    "geo/faculty/yuqin-jiang.html"
+  ],
+  "style_properties": {
+    "borderTopWidth": 108,
+    "borderRightWidth": 108,
+    "borderBottomWidth": 108,
+    "borderLeftWidth": 108,
+    "color": 312
+  },
+  "widths": [
+    375,
+    576,
+    768,
+    992,
+    1200,
+    1440
+  ],
+  "geometry_changes_by_site": {
+    "geo": 3388
+  },
+  "style_changes_by_site": {
+    "geo": 420
+  },
+  "explanation": "Expected changes: restored 1px Geography profile publication-image borders affect image heights; repaired colors/borders affect profile and news elements. SSRI has no measured geometry or normal-state style changes.",
+  "scope": "Static built HTML in local Chrome, real Inter fonts and local images, no site JavaScript or external map/feed content. Diagnostics remain enabled as requested. Not a live-site, Safari, or accessibility certification."
+}

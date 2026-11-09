@@ -1,9 +1,16 @@
-/* One semantic directory, with stacked, tablet, and desktop arrangements. */
+/* Shared people and service directories.
+ * Mobile: stacked cards. Tablet (768–1199px): 2/3 details, 1/3 contacts.
+ * Desktop (1200px+): aligned, unwrapped columns; scroll locally if needed.
+ * Names/contact data live in units/<unit>/people.json; templates supply markup.
+ */
+
+/* 1. Shared surfaces and mobile cards */
 .people-directory {
 --directory-cell-background: var(--white);
 --directory-header-background: #eee;
 --directory-cell-padding: 0.75rem;
 }
+
 .people-directory-section {
 margin-bottom: 3rem;
 }
@@ -40,13 +47,23 @@ font-size: 1rem;
 font-weight: 600;
 }
 
+/* Field descriptions remain accessible; desktop headings provide visible labels. */
 .people-directory-label {
-font-weight: 600;
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip-path: inset(50%);
+white-space: nowrap;
+border: 0;
 }
 
+/* 2. Tablet cards: shared placement, with service-directory variants */
 @media (min-width: 768px) and (max-width: 1199.98px) {
 .people-directory-entry {
-grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
 grid-template-areas: "name office" "title phone" "title email";
 }
 
@@ -71,27 +88,38 @@ grid-template-areas: "name email" "support support";
 .people-directory-support { grid-area: support; }
 }
 
+/* 3. Desktop: one shared set of column tracks for headings and every row */
 @media (min-width: 1200px) {
+.people-directory {
+display: grid;
+/* Names and contact links fit their contents; descriptive fields may wrap. */
+grid-template-columns: max-content minmax(0, 1fr) minmax(0, .4fr) max-content max-content;
+overflow-x: auto;
+}
+
 .people-directory-head,
 .people-directory-entry {
 display: grid;
-grid-template-columns: minmax(0, 1.1fr) minmax(0, 5fr) minmax(0, 1.3fr) minmax(0, 1.4fr) minmax(0, 1.6fr);
+grid-column: 1 / -1;
+grid-template-columns: subgrid;
 column-gap: 0;
 }
 
-.people-directory--no-phone .people-directory-head,
-.people-directory--no-phone .people-directory-entry {
-grid-template-columns: minmax(0, 1.1fr) minmax(0, 5fr) minmax(0, 1.3fr) minmax(0, 1.6fr);
+.people-directory--no-phone {
+grid-template-columns: max-content minmax(0, 1fr) minmax(0, .4fr) max-content;
 }
 
-.people-directory--service .people-directory-head,
-.people-directory--service .people-directory-entry {
-grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+.people-directory--service {
+grid-template-columns: minmax(max-content, 1fr) minmax(max-content, 1fr);
 }
 
-.people-directory--assignments .people-directory-head,
-.people-directory--assignments .people-directory-entry {
-grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr) minmax(0, 2fr);
+.people-directory--assignments {
+grid-template-columns: minmax(max-content, 1fr) minmax(max-content, 1.25fr) minmax(0, 2fr);
+}
+
+.people-directory-entry > :is(.people-directory-name, .people-directory-email, .people-directory-phone) {
+white-space: nowrap;
+overflow-wrap: normal;
 }
 
 .people-directory-head {
@@ -106,6 +134,11 @@ line-height: 1.6;
 .people-directory-entry {
 gap: 0;
 padding: 0;
+}
+
+/* Column headings identify contact fields on desktop; icons are for cards. */
+.people-directory-entry > :is(.phone, .email)::before {
+display: none;
 }
 
 .people-directory-entry:first-of-type {
@@ -127,15 +160,8 @@ border-right: 0;
 background-color: var(--directory-cell-background);
 }
 
-.people-directory-label {
-position: absolute;
-width: 1px;
-height: 1px;
-padding: 0;
-margin: -1px;
-overflow: hidden;
-clip-path: inset(50%);
-white-space: nowrap;
-border: 0;
+/* Keep first lines aligned when descriptive cells make a row taller. */
+.people-directory-entry > :is(.phone, .email) {
+align-items: flex-start;
 }
 }

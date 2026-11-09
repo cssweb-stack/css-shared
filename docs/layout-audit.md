@@ -1,5 +1,8 @@
 # Content layout audit — November 8, 2026
 
+Historical audit with subsequent changes below. For the current consolidated
+CSS review and measurements, see `css-audit-2026-11-08.md`.
+
 Scope: SSRI page source, shared content layout rules/templates, and general-grid
 usage in the available GEO and style-guide consumers. This was a source audit,
 not browser verification. No layout migration was performed.
@@ -9,9 +12,9 @@ not browser verification. No layout migration was performed.
 - SSRI's six content/sidebar pages consistently use Bootstrap rows and columns.
   Bootstrap controls their outer widths and 992px wrap threshold.
 - The research listing and shared unit-contact component also use Bootstrap.
-- Shared sidebar-resources-grid uses CSS Grid inside a Bootstrap column. It does
-  not replace the outer row display or Bootstrap column widths. It provides the
-  reviewed equal-width resource groups, including an empty track for one item.
+- Shared sidebar-resources-grid now uses a Bootstrap row with responsive child
+  columns: stacked on phone/desktop, equal halves on tablet. A single child
+  retains its half-width tablet column.
 - The content-sidebar tablet divider explicitly resets the sidebar's Bootstrap
   top gutter and the preceding content's trailing spacing. This is an integration
   override, not evidence of a broken layout, but it must remain centrally scoped.
@@ -49,8 +52,8 @@ Smaller-screen gutters and vertical component gaps remain separate settings.
 
 Content is flush left, including office blocks, sidebar resources, faculty
 profiles, profile directory cards, portraits and personal links. Use no centered
-content variants for these components. SSRI's homepage resource groups also
-follow this rule. Language navigation in the footer may remain centered.
+content variants for these components. SSRI's homepage graphic callouts are an explicitly centered exception.
+Language navigation in the footer is left aligned; legal subfooter text is centered.
 Shared header/footer alignment is still a separate review area.
 
 The shared unit-contact office now wraps its photo, heading and address in

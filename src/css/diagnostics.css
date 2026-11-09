@@ -1,8 +1,15 @@
-/* Layout proofreading overlay — disabled by default.
+/* Layout proofreading overlay — toggled through common.css.
  * Toggle the final import in common.css, then rebuild/refresh.
  * Inset shadows draw helper lines without changing dimensions, padding or flow.
  * Only temporary diagnostic colors belong here; real design borders stay local.
  */
+
+/* Header inners: shared pink side guides; the full-width hero is excluded. */
+.uh-brand > .container,
+.unit-name > .container,
+.unit-nav > .container {
+box-shadow: inset 6px 0 pink, inset -6px 0 pink;
+}
 
 /* One page-content parent: gold top and bottom. */
 .site-main {
@@ -33,8 +40,34 @@ box-shadow: inset 0 0 0 6px pink;
  * Skip the redundant footer parent when it only wraps another Bootstrap row.
  */
 .site-main .row > [class*="col-"],
+.uh-brand .row > [class*="col-"],
+.unit-name .row > [class*="col-"],
+.unit-nav .row > [class*="col-"],
 .site-footer .row > [class*="col-"]:not(:has(> .row)),
 .site-main :is(.grid-welcome, .grid-two, .grid-three, .grid-four, .grid-five,
 .grid-profile, .grid-standard, .grid-compact, .grid-advisors) > * {
+box-shadow: inset 0 0 0 3px var(--accent-warm);
+}
+
+/* Navigation's desktop surface overlays its contents; draw guides above it. */
+.unit-nav > .container,
+.unit-nav .row > .col-12 {
+position: relative;
+}
+
+.unit-nav > .container::after,
+.unit-nav .row > .col-12::after {
+content: "";
+position: absolute;
+inset: 0;
+z-index: 4;
+pointer-events: none;
+}
+
+.unit-nav > .container::after {
+box-shadow: inset 6px 0 pink, inset -6px 0 pink;
+}
+
+.unit-nav .row > .col-12::after {
 box-shadow: inset 0 0 0 3px var(--accent-warm);
 }

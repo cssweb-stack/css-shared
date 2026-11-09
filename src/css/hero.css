@@ -25,9 +25,6 @@ overflow: hidden;
 position: absolute;
 inset: 0;
 pointer-events: none;
-}
-
-.page-hero-image {
 z-index: 0;
 background-size: cover;
 background-position: var(--hero-position, center center);

@@ -10,13 +10,21 @@ if (entry.isSymbolicLink()) throw new Error(`Unexpected symbolic link: ${file}`)
 return entry.isDirectory() ? files(file) : [file];
 });
 }
-for (const file of files(root)) {
+const sourceFiles = files(root);
+// Component variables may be declared in CSS or supplied by shared templates/data.
+// An explicit var() fallback is allowed; a missing required token is an error.
+const tokenSources = sourceFiles.filter(file => /\.(css|njk|json|html)$/.test(file) && !file.includes('/_uh-reference/'));
+const definedTokens = new Set(tokenSources.flatMap(file => [...fs.readFileSync(file, 'utf8').replace(/\/\*[\s\S]*?\*\//g, '').matchAll(/(--[\w-]+)\s*:/g)].map(match => match[1])));
+for (const file of sourceFiles) {
 const name = path.relative(root, file);
 if (!fs.statSync(file).size) throw new Error(`Empty shared file: ${name}`);
 if (file.endsWith('.json')) JSON.parse(fs.readFileSync(file, 'utf8'));
 // Captured third-party reference CSS is not part of our authored/published styles.
 if (file.endsWith('.css') && !name.startsWith('css/_uh-reference/')) {
 const css = fs.readFileSync(file, 'utf8').replace(/\/\*[\s\S]*?\*\//g, '');
+for (const match of css.matchAll(/var\(\s*(--[\w-]+)\s*\)/g)) {
+if (!definedTokens.has(match[1])) throw new Error(`Undefined CSS token without a fallback: ${name}: ${match[1]}`);
+}
 for (const match of css.matchAll(/(?:^|[;{}])\s*(line-height|--[\w-]*(?:line-height|leading)[\w-]*|font)\s*:\s*([^;{}]+)/g)) {
 const [, property, raw] = match;
 const value = raw.replace(/\s*!important\s*$/, '').trim();
@@ -114,6 +122,11 @@ const palette = new Set(['blue', 'gold', 'teal', 'purple', 'gray']);
 for (const entry of fs.readdirSync(unitsDirectory, { withFileTypes: true })) {
 if (!entry.isDirectory()) continue;
 const dir = path.join(unitsDirectory, entry.name);
+const searchFile = path.join(dir, 'search.json');
+if (fs.existsSync(searchFile)) {
+const search = JSON.parse(fs.readFileSync(searchFile, 'utf8'));
+if (search.provider === 'google-site-restricted' && (typeof search.domain !== 'string' || !search.domain.trim())) throw new Error(`${entry.name}/search.json: Site-restricted search requires a domain.`);
+}
 if (fs.existsSync(path.join(dir, 'site.json'))) throw new Error(`Retired data file: ${entry.name}/site.json`);
 const navFile = path.join(dir, 'navigation.json');
 function checkNav(items) {
