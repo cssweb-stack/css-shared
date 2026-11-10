@@ -2,7 +2,30 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
-## Latest completed task: faculty murals for SOC, PSY, and PUBA only
+## Latest completed task: Psychology profile portrait first pass
+
+- Shared faculty-profile layout now supports a portrait-only left column through
+  `profilePhoto` front matter. Reuses `photo-style` and `profile-photo`, with explicit
+  Bootstrap columns; stacks on narrow screens. New shared `profile-portrait.njk`.
+- All 21 PSY individual HTML profiles use this shared layout and their processed
+  portraits, including `anthony-papa.html` -> `tony-papa.webp`. Metadata remains
+  local; original H1/biography remain in the right column. Contact details and other
+  sidebar content are deferred for user review. Dimensions come from the images.
+- GEO keeps its existing person-based sidebar branch and satellite heroes.
+- PSY build and existing checks passed; GEO build passed; verified all 21 portraits
+  render once with shared photo styling, alt text, and dimensions. Shared checks
+  passed. No browser visual review or deployment performed.
+
+## Earlier completed task: Psychology portrait filenames
+
+- Normalized all 21 new portraits in `src/media/units/psy/faculty/` to lowercase,
+  hyphenated names, removing trailing version numbers with or without separators.
+- Checked destination collisions before renaming and verified image hashes unchanged.
+  No existing references to these new portrait paths were found. Portrait wiring
+  into directory/profile layouts remains future work; no page changes made.
+- Shared checks passed. New portraits are local; no commit/push performed.
+
+## Earlier completed task: faculty murals for SOC, PSY, and PUBA only
 
 - SOC (14) and PSY (21) already used stable randomized Saunders murals; retained
   those assignments. Moved PUBA's six profile entries out of `heroes.json` into

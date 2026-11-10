@@ -144,3 +144,11 @@ from Saunders murals. PUBA's six profiles now use six distinct murals. Retain
 existing randomized SOC/PSY assignments unless reshuffling is requested. GEO is
 explicitly excluded: its person-specific satellite imagery must stay intact.
 PUBA's fixed Main/Associated directory banners remain separate from its profiles.
+
+Psychology's initial portrait profile layout uses the shared
+`layouts/profiles/faculty-profile.njk` with per-page `profilePhoto`,
+`profilePhotoWidth`, `profilePhotoHeight`, and `hidePageTitle: true` metadata.
+The portrait-only branch uses shared photo styling in a left column, with existing
+name/biography in the right column. Further sidebar details are pending review;
+this is the first layout pass, not a finalized universal profile design. GEO's
+existing person-based profile sidebar remains separate and unchanged.
