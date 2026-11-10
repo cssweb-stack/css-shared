@@ -35,6 +35,12 @@ const url = String(value || '');
 const prefix = (process.env.SITE_PATH_PREFIX || '/').replace(/\/$/, '');
 return url.startsWith('/') && !url.startsWith('//') ? prefix + url : url;
 });
+// Social images must use the current deployment's public host and path prefix.
+eleventyConfig.addFilter('socialUrl', value => {
+const origin = (process.env.SITE_ORIGIN || loadUnit().site.url || '').replace(/\/$/, '');
+const prefix = (process.env.SITE_PATH_PREFIX || '/').replace(/\/$/, '');
+return origin + prefix + String(value || '');
+});
 eleventyConfig.addGlobalData('common', () => loadCommon());
 eleventyConfig.addGlobalData('uh', () => loadUH());
 eleventyConfig.addGlobalData('eleventyComputed', {

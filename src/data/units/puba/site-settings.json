@@ -12,12 +12,17 @@
   "hero": {
     "enabled": true,
     "variant": "compact",
+    "height": {
+      "desktop": 180,
+      "tablet": 165,
+      "mobile": 145
+    },
     "decorative": true,
     "showLocation": false,
     "showAttribution": false,
     "overlay": {
       "color": "var(--uh-green)",
-      "opacity": 0.33
+      "opacity": 0.50
     }
   }
 }

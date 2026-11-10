@@ -4,7 +4,7 @@ The 15px bottom margin reserves space for the 14px shadow treatment. */
 .page-hero {
 position: relative;
 width: 100%;
-height: 210px;
+height: var(--hero-height-desktop, 210px);
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -97,7 +97,7 @@ to { opacity: 1; }
 
 /* Tablet */
 @media (min-width: 576px) and (max-width: 1199.98px) {
-.page-hero { height: 187.5px; }
+.page-hero { height: var(--hero-height-tablet, 187.5px); }
 .page-hero--layered .hero-location {
 font-size: 0.8125rem;
 padding: 0.375rem 0.75rem;
@@ -106,7 +106,7 @@ padding: 0.375rem 0.75rem;
 
 /* Mobile */
 @media (max-width: 575.98px) {
-.page-hero { height: 90px; }
+.page-hero { height: var(--hero-height-mobile, 90px); }
 .page-hero--layered .hero-location {
 font-size: 0.6875rem;
 padding: 0.25rem 0.5rem;
@@ -115,7 +115,15 @@ padding: 0.25rem 0.5rem;
 
 /* Compact banners keep the same viewing-window height at every breakpoint. */
 .page-hero--compact {
-height: 145px;
+height: var(--hero-height-desktop, 145px);
 isolation: isolate;
 overflow: hidden;
+}
+
+@media (min-width: 576px) and (max-width: 1199.98px) {
+.page-hero--compact { height: var(--hero-height-tablet, 145px); }
+}
+
+@media (max-width: 575.98px) {
+.page-hero--compact { height: var(--hero-height-mobile, 145px); }
 }
