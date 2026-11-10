@@ -1,340 +1,214 @@
 {
-  "defaultHero": "/media/heroes/saunders-mural/01.webp",
+  "defaultHero": "/media/heroes/shared/22.webp",
   "pages": {
     "/": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/22.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/diversity/": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/21.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/diversity/committee.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/36.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/diversity/courses.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/52.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/diversity/funding-opportunities.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/31.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/minor.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/27.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/major-ba.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/11.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/major-bs.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/07.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/hybrid-online-ba.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/54.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/psy-bam.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/02.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/honors-track.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/48.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/advising-support.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/40.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/psi-chi.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/30.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/psi-sigma.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/50.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/student-learning-outcomes.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/29.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/research-project-summary.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/58.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/psy-courses.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/05.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/master-ma.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/47.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/doctorate-phd.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/37.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/program-areas/": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/44.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/program-areas/community-cultural-developmental.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/18.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/program-areas/cognition-neuroscience-social.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/20.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/program-areas/psychological-clinical-science.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/24.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/program-areas/ccbt.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/23.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/current-cohort.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/19.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/prospective-students.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/14.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/applications-admissions.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/35.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/standards-evaluations.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/06.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/learning-objectives.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/45.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/support-psy.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/10.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/contact.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/60.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/sakaria-laisene-auelua-toomey.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/charlene-baker.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/john-barile.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/patricia-couvillon.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/patrick-goh.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/krista-a-haapanen.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/cassandra-l-hendrix.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/i-sak-kim.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/janet-latner.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/arkadiy-maksimovskiy.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/akihiko-masuda.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/ashley-maynard.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/christina-moyer.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/brad-nakamura.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/anthony-papa.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/santiago-papini.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/kristin-pauker.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/joni-sasaki.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/scott-sinnett.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/jonas-vibell.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/faculty/yiyuan-xu.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/about-psy/why-study-psy.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/26.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/faculty/": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/25.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/courses.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/39.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/privacy.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/shared/62.webp",
       "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     }
   }

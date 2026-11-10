@@ -2,7 +2,20 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
-## Latest completed task: GEO settings standardization
+## Latest completed task: Psychology and Sociology hero assignment
+
+- Found 59 WebP student-bank images and seven Saunders murals in shared media.
+- Saved randomized, stable assignments: PSY 35 non-profile pages / 21 profiles;
+  SOC 36 non-profile pages / 14 profiles. Non-profile images do not repeat within
+  either site; all seven murals are used evenly across each site's profiles.
+- Each site's `heroes.json` owns non-profile images; new `faculty-heroes.json`
+  owns individual profiles. Faculty directories use student-bank images.
+- Hero heights, overlays, and Open Graph settings were left as found.
+- Updated existing site verification to validate assigned images and collection
+  selection rather than the previous single placeholder. Both builds and existing
+  site checks passed (106 pages), plus shared checks. No push/deployment performed.
+
+## Earlier completed task: GEO settings standardization
 
 - Added explicit hero height/overlay/visibility controls and Open Graph image
   settings in shared `src/data/units/geo/site-settings.json`. Moved site URL from

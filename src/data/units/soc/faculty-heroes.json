@@ -1,0 +1,88 @@
+{
+  "pages": {
+    "/faculty/manfred-b-steger.html": {
+      "image": "/media/heroes/saunders-mural/04.webp",
+      "position": "center center",
+      "alt": "Detail of the Saunders Hall mural at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/nandita-sharma.html": {
+      "image": "/media/heroes/saunders-mural/02.webp",
+      "position": "center center",
+      "alt": "Detail of the Saunders Hall mural at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/le-lin.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Detail of the Saunders Hall mural at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/jennifer-darrah.html": {
+      "image": "/media/heroes/saunders-mural/06.webp",
+      "position": "center center",
+      "alt": "Detail of the Saunders Hall mural at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/sun-ki-chai.html": {
+      "image": "/media/heroes/saunders-mural/05.webp",
+      "position": "center center",
+      "alt": "Detail of the Saunders Hall mural at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/wei-zhang.html": {
+      "image": "/media/heroes/saunders-mural/07.webp",
+      "position": "center center",
+      "alt": "Detail of the Saunders Hall mural at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/david-johnson.html": {
+      "image": "/media/heroes/saunders-mural/03.webp",
+      "position": "center center",
+      "alt": "Detail of the Saunders Hall mural at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/katherine-irwin.html": {
+      "image": "/media/heroes/saunders-mural/05.webp",
+      "position": "center center",
+      "alt": "Detail of the Saunders Hall mural at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/krysia-mossakowski.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Detail of the Saunders Hall mural at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/ashley-rubin.html": {
+      "image": "/media/heroes/saunders-mural/03.webp",
+      "position": "center center",
+      "alt": "Detail of the Saunders Hall mural at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/aya-kimura.html": {
+      "image": "/media/heroes/saunders-mural/06.webp",
+      "position": "center center",
+      "alt": "Detail of the Saunders Hall mural at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/myungji-yang.html": {
+      "image": "/media/heroes/saunders-mural/02.webp",
+      "position": "center center",
+      "alt": "Detail of the Saunders Hall mural at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/eunjeong-paek.html": {
+      "image": "/media/heroes/saunders-mural/07.webp",
+      "position": "center center",
+      "alt": "Detail of the Saunders Hall mural at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/yue-sun.html": {
+      "image": "/media/heroes/saunders-mural/04.webp",
+      "position": "center center",
+      "alt": "Detail of the Saunders Hall mural at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    }
+  }
+}
