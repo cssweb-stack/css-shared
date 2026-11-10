@@ -2,7 +2,19 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
-## Latest completed task: Psychology profile portrait first pass
+## Latest completed task: Sociology portrait filename cleanup
+
+- Cleaned new SOC portraits in `src/media/units/soc/faculty/`: lowercase hyphenated
+  names, removed numeric/version suffixes including `-v2`. Checked collisions
+  before renaming and verified original image hashes unchanged. Shared checks passed.
+- There are 15 images for 14 approved profiles. `webp.webp` has no identifying
+  filename; preserved it without guessing identity. `manfred-steger.webp` maps to
+  the `manfred-b-steger.html` profile when wiring portraits later.
+- No SOC profile page/layout edits in this cleanup step. SOC portrait layout work
+  remains next, following the Psychology first-pass shared profile layout.
+- Local files only; no commit/push/deployment performed.
+
+## Earlier completed task: Psychology profile portrait first pass
 
 - Shared faculty-profile layout now supports a portrait-only left column through
   `profilePhoto` front matter. Reuses `photo-style` and `profile-photo`, with explicit
