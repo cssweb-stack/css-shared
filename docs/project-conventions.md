@@ -152,3 +152,9 @@ The portrait-only branch uses shared photo styling in a left column, with existi
 name/biography in the right column. Further sidebar details are pending review;
 this is the first layout pass, not a finalized universal profile design. GEO's
 existing person-based profile sidebar remains separate and unchanged.
+
+Sociology now uses Psychology's shared portrait-only profile layout on all 14
+individual pages. Keep the existing content in the biography column; replace the
+old inline headshot with the processed left-column portrait, without duplicating
+it. Profile columns have no permanent vertical separator; spacing provides the
+separation. Diagnostic layout helper lines remain controlled by `layoutGuides`.

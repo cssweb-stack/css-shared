@@ -2,7 +2,19 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
-## Latest completed task: PSY and SOC layout guides enabled
+## Latest completed task: Sociology shared profile layout
+
+- All 14 SOC profiles now use the same shared portrait layout as Psychology:
+  processed portrait in the left column and existing H1/content in the right.
+  Removed the old inline headshot to avoid duplicates; all other source text kept.
+  Local title/description/permalink retained. Manfred's portrait resolves explicitly.
+- Explained the desktop profile divider was visual-only before removing its shared
+  `border-left` rule. Kept padding, column spacing, and diagnostic helper lines.
+- SOC and PSY builds/verification passed; GEO build passed. Verified exactly one
+  processed SOC portrait per profile. Shared checks passed. No visual browser QA.
+- Changes local; no commit/push/deployment performed.
+
+## Earlier completed task: PSY and SOC layout guides enabled
 
 - Set `layoutGuides: true` in PSY/SOC shared site-settings and rebuilt both sites.
 - PSY portrait profiles use 3/9 columns at large widths, 4/8 on tablets, and stack
