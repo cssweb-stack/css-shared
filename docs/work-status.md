@@ -2,7 +2,20 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
-## Latest completed task: Sociology shared profile layout
+## Latest completed task: PUBA portrait filenames and profile layout
+
+- Normalized all six new PUBA portraits in `src/media/units/puba/faculty/` to
+  lowercase hyphenated filenames; removed embedded `-jpg` suffixes. Helen Yu's
+  portrait is `helen-h-yu.webp` to match her profile URL. Image hashes unchanged.
+- Applied the same shared portrait-left/content-right layout to all six PUBA
+  individual profiles. Added their previously missing name H1s, preserving the
+  original biographies verbatim. Metadata remains in each page's HTML source.
+- Directory pages and fixed directory banners unchanged; profile mural heroes kept.
+- PUBA 30-page build passed; checked six styled portrait renders, one H1 each,
+  biography preservation and saved hero images. Shared checks and whitespace
+  checks passed. Local changes only; no push/deployment performed.
+
+## Earlier completed task: Sociology shared profile layout
 
 - All 14 SOC profiles now use the same shared portrait layout as Psychology:
   processed portrait in the left column and existing H1/content in the right.

@@ -158,3 +158,8 @@ individual pages. Keep the existing content in the biography column; replace the
 old inline headshot with the processed left-column portrait, without duplicating
 it. Profile columns have no permanent vertical separator; spacing provides the
 separation. Diagnostic layout helper lines remain controlled by `layoutGuides`.
+
+PUBA's six individual faculty profiles now also use the shared portrait-only
+left-column layout, matching Psychology and Sociology. Processed portraits live
+in `src/media/units/puba/faculty/` in shared; each HTML page specifies its portrait
+and intrinsic dimensions. Name H1s were added to the six previously headless pages.
