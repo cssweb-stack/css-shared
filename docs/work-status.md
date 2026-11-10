@@ -2,7 +2,15 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
-## Latest completed task: Sociology portrait filename cleanup
+## Latest completed task: PSY and SOC layout guides enabled
+
+- Set `layoutGuides: true` in PSY/SOC shared site-settings and rebuilt both sites.
+- PSY portrait profiles use 3/9 columns at large widths, 4/8 on tablets, and stack
+  below 768px. SOC profiles still use full-width content pending portrait wiring.
+- No profile proportions changed. Builds passed. Settings are local; no push or
+  deployment performed by this task. Guides must be disabled before final launch.
+
+## Earlier completed task: Sociology portrait filename cleanup
 
 - Cleaned new SOC portraits in `src/media/units/soc/faculty/`: lowercase hyphenated
   names, removed numeric/version suffixes including `-v2`. Checked collisions
