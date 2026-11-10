@@ -45,3 +45,13 @@ four; PSY/SOC existing validation and shared checks pass. Directory output was c
 for alphabetical order, responsive column classes, image/link targets, shared image
 styling, and preservation of GEO names/emails and other sites' text lists. No browser
 visual review or deployment is implied by these build checks.
+
+## Two-section landing page
+
+Each of the four main faculty HTML pages uses `shell.njk` and explicitly owns two
+sections: title/brief introductory paragraph on white, then the directory include
+inside `page-section page-section--gray`. The gray section is outside its contained
+content width, so its background spans the screen while the portrait grid stays
+aligned to normal content columns. Working text lists remain in that gray section.
+GEO now owns these sections explicitly too; its directory cards retain their details.
+Individual faculty biography pages are not changed by this directory treatment.

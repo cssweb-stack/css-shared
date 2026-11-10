@@ -2,7 +2,19 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
-## Latest completed task: shared four-column faculty directories
+## Latest completed task: two-section faculty directory pages
+
+- GEO, PUBA, PSY, and SOC main faculty pages now have two explicit sections:
+  title/brief intro on white, then a full-width gray section containing the shared
+  directory grid. Text links and GEO's detailed cards retained. GEO uses shell.njk
+  to own its sections explicitly; no individual biography pages changed.
+- Added short neutral intros to PSY/PUBA; retained SOC/GEO existing introduction
+  paragraphs. Removed GEO's extra tagline to match the requested title/paragraph.
+- All four builds passed; PSY/SOC checks passed. Parsed output confirms two top-level
+  main sections and the portrait grid inside gray on all four pages. Shared checks
+  and whitespace checks passed. No browser visual review, commit, or deployment.
+
+## Earlier completed task: shared four-column faculty directories
 
 - Added shared `faculty-directory.njk` and minimal PSY/SOC/PUBA `faculty.json`
   records referencing processed shared portraits and profile URLs. Surname sort,

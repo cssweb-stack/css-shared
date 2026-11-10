@@ -171,3 +171,9 @@ gaps, reducing to two/one columns on smaller screens. Initial PSY/SOC/PUBA grids
 show linked portraits above the existing text lists; GEO retains existing card
 details within the same grid. This directory include is distinct from the bio
 page layout. See `faculty-directories.md` for editing and verification details.
+
+The four main faculty directory landing pages use two explicit sections in their
+HTML source: heading/brief intro, then a full-width gray section containing the
+shared portrait grid (and retained working text links). The background section
+wraps the width-constrained container, not the reverse. This is the directory
+page treatment; it does not move individual biographies into gray panels.
