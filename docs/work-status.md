@@ -2,7 +2,23 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
-## Latest completed task: PUBA portrait filenames and profile layout
+## Latest completed task: shared four-column faculty directories
+
+- Added shared `faculty-directory.njk` and minimal PSY/SOC/PUBA `faculty.json`
+  records referencing processed shared portraits and profile URLs. Surname sort,
+  four desktop columns, two smaller-screen columns, one mobile column, normal gaps.
+- Main faculty HTML pages in all four sites include the same grid. Retained
+  PSY/SOC/PUBA text-link lists. GEO uses its existing shared profile cards inside
+  the grid, keeping faculty names and full details; satellite hero settings untouched.
+- Scoped GEO card image/link widths to their columns and used shared photo styling.
+  GEO portraits remain local assets; centralization is still pending direction.
+- Four builds and PSY/SOC existing checks passed, shared checks passed. Verified all
+  51 portraits are ordered correctly, styled, linked to existing pages, and backed
+  by existing images. Browser visual review not performed. No push/deployment.
+- Editing/reference notes: `docs/faculty-directories.md`. If changing a portrait,
+  name, or URL, update both the page metadata and its explicit directory record.
+
+## Earlier completed task: PUBA portrait filenames and profile layout
 
 - Normalized all six new PUBA portraits in `src/media/units/puba/faculty/` to
   lowercase hyphenated filenames; removed embedded `-jpg` suffixes. Helen Yu's

@@ -1,0 +1,47 @@
+# Shared faculty directory grid
+
+Established November 10, 2026. The main faculty landing pages for GEO, PSY, SOC,
+and PUBA include `layouts/profiles/faculty-directory.njk` from shared.
+
+The directory is separate from the individual biography layout
+`layouts/profiles/faculty-profile.njk`. Develop directory presentation in the shared
+directory include rather than copying a grid into every site's HTML page.
+
+## Data and behavior
+
+Each unit has `src/data/units/<unit>/faculty.json` in shared. Initial records for
+PSY/SOC/PUBA contain `name`, `lastName`, `slug`, `url`, `photo`, `photoWidth`, and
+`photoHeight`. The directory sorts by `lastName`; explicit surname fields handle
+compound names such as Auelua-Toomey. Images link to local individual profile pages
+through the shared `url` filter, using actual portrait dimensions and shared
+`photo-style`. The image-only links use each person's name as their alt text.
+
+PSY/SOC/PUBA retain their existing text-link lists below the portrait grid. Further
+visible names, titles, phone numbers, and directory details remain future work.
+
+GEO uses the same include with `facultyDirectoryDetails = true`; it renders the
+existing shared `profile-card.njk` within the new grid. This preserves GEO's names,
+roles, contact details, and research interests, and reuses its existing faculty data
+and local portrait paths. GEO portrait centralization has not been performed.
+Neither directory implementation changes any hero assignments.
+
+## Layout
+
+The shared Bootstrap row uses `gy-4 gx-0 gx-sm-5 gx-lg-5` with equal
+`col-12 col-sm-6 col-lg-3` children: one column below 576px, two from 576px, four
+from 992px. Existing image cards stretch to their column width through a scoped
+rule in shared `profile.css`. The existing GEO flex directory remains available
+for other consumers; this change does not rewrite Associated Faculty pages.
+
+## Editing
+
+Keep individual page title, description, permalink, and portrait configuration in
+the HTML source. Update the corresponding directory record if a name, portrait,
+portrait dimensions, or profile URL changes. The explicit directory record lists
+only faculty who should appear, not every HTML page under the faculty folder.
+
+Checked all 51 linked portraits: PSY 21, SOC 14, PUBA 6, GEO 10. Builds pass for all
+four; PSY/SOC existing validation and shared checks pass. Directory output was checked
+for alphabetical order, responsive column classes, image/link targets, shared image
+styling, and preservation of GEO names/emails and other sites' text lists. No browser
+visual review or deployment is implied by these build checks.

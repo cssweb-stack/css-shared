@@ -1,0 +1,13 @@
+<div class="row gy-4 gx-0 gx-sm-5 gx-lg-5 grid-spaced faculty-portrait-grid">
+{% for person in faculty | sort(attribute="lastName") %}
+<div class="col-12 col-sm-6 col-lg-3">
+{% if facultyDirectoryDetails %}
+{% include "layouts/profiles/profile-card.njk" %}
+{% else %}
+<a class="d-block" href="{{ person.url | url }}">
+<img class="photo-style" src="{{ person.photo | url }}" alt="{{ person.name | escape }}" width="{{ person.photoWidth }}" height="{{ person.photoHeight }}" loading="lazy" decoding="async">
+</a>
+{% endif %}
+</div>
+{% endfor %}
+</div>

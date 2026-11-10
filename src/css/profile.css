@@ -1,5 +1,10 @@
 /* Profile cards, individual profiles, and shared office/contact groups. */
 
+.faculty-portrait-grid .profile-link,
+.faculty-portrait-grid .profile-directory-photo {
+width: 100%;
+}
+
 .profile-directory {
 display: flex;
 flex-wrap: wrap;

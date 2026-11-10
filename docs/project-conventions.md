@@ -163,3 +163,11 @@ PUBA's six individual faculty profiles now also use the shared portrait-only
 left-column layout, matching Psychology and Sociology. Processed portraits live
 in `src/media/units/puba/faculty/` in shared; each HTML page specifies its portrait
 and intrinsic dimensions. Name H1s were added to the six previously headless pages.
+
+Main faculty directories for GEO, PUBA, PSY, and SOC use one shared
+`layouts/profiles/faculty-directory.njk`, with unit `faculty.json` records sorted by
+explicit `lastName`. Four equal desktop columns use the normal shared Bootstrap
+gaps, reducing to two/one columns on smaller screens. Initial PSY/SOC/PUBA grids
+show linked portraits above the existing text lists; GEO retains existing card
+details within the same grid. This directory include is distinct from the bio
+page layout. See `faculty-directories.md` for editing and verification details.

@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Sun-Ki Chai",
+    "lastName": "Chai",
+    "slug": "sun-ki-chai",
+    "url": "/faculty/sun-ki-chai.html",
+    "photo": "/media/units/soc/faculty/sun-ki-chai.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "Jennifer Darrah",
+    "lastName": "Darrah",
+    "slug": "jennifer-darrah",
+    "url": "/faculty/jennifer-darrah.html",
+    "photo": "/media/units/soc/faculty/jennifer-darrah.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "Katherine Irwin",
+    "lastName": "Irwin",
+    "slug": "katherine-irwin",
+    "url": "/faculty/katherine-irwin.html",
+    "photo": "/media/units/soc/faculty/katherine-irwin.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "David Johnson",
+    "lastName": "Johnson",
+    "slug": "david-johnson",
+    "url": "/faculty/david-johnson.html",
+    "photo": "/media/units/soc/faculty/david-johnson.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "Aya Kimura",
+    "lastName": "Kimura",
+    "slug": "aya-kimura",
+    "url": "/faculty/aya-kimura.html",
+    "photo": "/media/units/soc/faculty/aya-kimura.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "Le Lin",
+    "lastName": "Lin",
+    "slug": "le-lin",
+    "url": "/faculty/le-lin.html",
+    "photo": "/media/units/soc/faculty/le-lin.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "Krysia Mossakowski",
+    "lastName": "Mossakowski",
+    "slug": "krysia-mossakowski",
+    "url": "/faculty/krysia-mossakowski.html",
+    "photo": "/media/units/soc/faculty/krysia-mossakowski.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "Eunjeong Paek",
+    "lastName": "Paek",
+    "slug": "eunjeong-paek",
+    "url": "/faculty/eunjeong-paek.html",
+    "photo": "/media/units/soc/faculty/eunjeong-paek.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "Ashley Rubin",
+    "lastName": "Rubin",
+    "slug": "ashley-rubin",
+    "url": "/faculty/ashley-rubin.html",
+    "photo": "/media/units/soc/faculty/ashley-rubin.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "Nandita Sharma",
+    "lastName": "Sharma",
+    "slug": "nandita-sharma",
+    "url": "/faculty/nandita-sharma.html",
+    "photo": "/media/units/soc/faculty/nandita-sharma.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "Manfred B. Steger",
+    "lastName": "Steger",
+    "slug": "manfred-b-steger",
+    "url": "/faculty/manfred-b-steger.html",
+    "photo": "/media/units/soc/faculty/manfred-steger.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "Yue Sun",
+    "lastName": "Sun",
+    "slug": "yue-sun",
+    "url": "/faculty/yue-sun.html",
+    "photo": "/media/units/soc/faculty/yue-sun.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "Myungji Yang",
+    "lastName": "Yang",
+    "slug": "myungji-yang",
+    "url": "/faculty/myungji-yang.html",
+    "photo": "/media/units/soc/faculty/myungji-yang.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "Wei Zhang",
+    "lastName": "Zhang",
+    "slug": "wei-zhang",
+    "url": "/faculty/wei-zhang.html",
+    "photo": "/media/units/soc/faculty/wei-zhang.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  }
+]

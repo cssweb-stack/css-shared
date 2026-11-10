@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Maile Arvin",
+    "lastName": "Arvin",
+    "slug": "maile-arvin",
+    "url": "/faculty/maile-arvin.html",
+    "photo": "/media/units/puba/faculty/maile-arvin.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "Soyun Jeong",
+    "lastName": "Jeong",
+    "slug": "soyun-jeong",
+    "url": "/faculty/soyun-jeong.html",
+    "photo": "/media/units/puba/faculty/soyun-jeong.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "Janet Jock",
+    "lastName": "Jock",
+    "slug": "janet-jock",
+    "url": "/faculty/janet-jock.html",
+    "photo": "/media/units/puba/faculty/janet-jock.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "Steven W. Mumford",
+    "lastName": "Mumford",
+    "slug": "steven-w-mumford",
+    "url": "/faculty/steven-w-mumford.html",
+    "photo": "/media/units/puba/faculty/steven-w-mumford.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "Gowun Park",
+    "lastName": "Park",
+    "slug": "gowun-park",
+    "url": "/faculty/gowun-park.html",
+    "photo": "/media/units/puba/faculty/gowun-park.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  },
+  {
+    "name": "Helen H. Yu",
+    "lastName": "Yu",
+    "slug": "helen-h-yu",
+    "url": "/faculty/helen-h-yu.html",
+    "photo": "/media/units/puba/faculty/helen-h-yu.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
+  }
+]
