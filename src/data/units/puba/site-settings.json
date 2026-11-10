@@ -1,6 +1,6 @@
 {
   "indexingEnabled": false,
-  "layoutGuides": false,
+  "layoutGuides": true,
   "stylesheet": "/puba.css",
   "url": "https://puba.manoa.hawaii.edu",
   "openGraph": {
@@ -21,7 +21,7 @@
     "showLocation": false,
     "showAttribution": false,
     "overlay": {
-      "color": "var(--sepia)",
+      "color": "var(--color-blue)",
       "opacity": 0.33
     }
   }
