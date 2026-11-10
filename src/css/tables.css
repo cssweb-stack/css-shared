@@ -88,14 +88,9 @@ width: auto;
 }
 
 .content-table--responsive caption {
-display: block;
-width: 100%;
-box-sizing: border-box;
 caption-side: top;
 color: var(--black);
 font-weight: 500;
-white-space: nowrap;
-overflow-wrap: normal;
 }
 
 /* Contact descriptions may wrap; names and email addresses remain intact. */
