@@ -78,6 +78,65 @@ overflow-wrap: normal;
 width: 40%;
 }
 
+/* General migrated data tables retain labels when columns become cards. */
+.content-table-label {
+display: none;
+}
+
+.content-table--responsive th:first-child {
+width: auto;
+}
+
+.content-table--responsive caption {
+caption-side: top;
+color: var(--black);
+font-weight: 500;
+}
+
+@media (max-width: 1199.98px) {
+.content-table--responsive {
+display: block;
+background: transparent;
+}
+
+.content-table--responsive thead {
+position: absolute;
+width: 1px;
+height: 1px;
+overflow: hidden;
+clip-path: inset(50%);
+white-space: nowrap;
+}
+
+.content-table--responsive tbody {
+display: grid;
+gap: 1rem;
+}
+
+.content-table--responsive tbody tr {
+display: grid;
+min-width: 0;
+border: 1px solid var(--light-gray);
+background: var(--white);
+}
+
+.content-table--responsive td {
+display: grid;
+min-width: 0;
+gap: .25rem;
+border: 0;
+}
+
+.content-table--responsive td + td {
+border-top: 1px solid var(--light-gray);
+}
+
+.content-table--responsive .content-table-label {
+display: block;
+font-weight: 500;
+}
+}
+
 /* Completion rates: year cards on phones/tablets, comparison table on desktop. */
 @media (max-width: 1199.98px) {
 .content-table--completion {

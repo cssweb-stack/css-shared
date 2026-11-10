@@ -1,3 +1,22 @@
 {
-"indexingEnabled": false
+  "indexingEnabled": false,
+  "layoutGuides": false,
+  "stylesheet": "/psy.css",
+  "url": "https://psychology.manoa.hawaii.edu",
+  "hero": {
+    "enabled": true,
+    "variant": "compact",
+    "height": {
+      "desktop": 210,
+      "tablet": 165,
+      "mobile": 145
+    },
+    "decorative": true,
+    "showLocation": false,
+    "showAttribution": false,
+    "overlay": {
+      "color": "var(--sepia)",
+      "opacity": 0.05
+    }
+  }
 }

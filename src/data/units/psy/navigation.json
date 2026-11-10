@@ -1,121 +1,139 @@
 [
-{
-"label": "Home",
-"url": "/"
-},
-{
-"label": "About",
-"children": [
-{
-"label": "Why Study PSY",
-"url": "/about-psy/why-study-psy.html",
-"icon": "question-circle",
-"iconColor": null
-},
-{
-"label": "Diversity",
-"url": "/about-psy/diversity.html",
-"iconColor": null,
-"icon": "people"
-}
-]
-},
-{
-"label": "Courses",
-"url": "/about-psy/psy-courses.html"
-},
-{
-"label": "Undergraduate",
-"children": [
-{
-"label": "Minor",
-"url": "/undergraduate/minor.html",
-"iconColor": null,
-"icon": "book"
-},
-{
-"label": "Major (BA)",
-"url": "/undergraduate/major-ba.html",
-"iconColor": null,
-"icon": "mortarboard"
-},
-{
-"label": "Major (BS)",
-"url": "/undergraduate/major-bs.html",
-"iconColor": null,
-"icon": "mortarboard"
-},
-{
-"label": "BA/MA Pathway (BAM)",
-"url": "/undergraduate/psy-bam.html",
-"iconColor": null,
-"icon": "signpost-2"
-},
-{
-"label": "Honors Track",
-"url": "/undergraduate/honors-track.html",
-"iconColor": null,
-"icon": "star"
-},
-{
-"label": "Advising & Support",
-"url": "/undergraduate/advising-support.html",
-"iconColor": null,
-"icon": "compass"
-}
-]
-},
-{
-"label": "Graduate",
-"children": [
-{
-"label": "Master’s (MA)",
-"url": "/graduate/master-ma.html",
-"iconColor": null,
-"icon": "mortarboard"
-},
-{
-"label": "Doctorate (PhD)",
-"url": "/graduate/doctorate-phd.html",
-"iconColor": null,
-"icon": "mortarboard"
-},
-{
-"label": "Program Areas",
-"url": "/graduate/program-areas.html",
-"iconColor": null,
-"icon": "layers"
-},
-{
-"label": "Current Cohort",
-"url": "/graduate/current-cohort.html",
-"iconColor": null,
-"icon": "people"
-},
-{
-"label": "Prospective Students",
-"url": "/graduate/prospective-students.html",
-"icon": "person-plus",
-"iconColor": null
-},
-{
-"label": "Applications & Admissions",
-"url": "/graduate/applications-admissions.html",
-"iconColor": null,
-"icon": "file-earmark-check"
-}
-]
-},
-{
-"label": "Faculty",
-"url": "/faculty/"
-},
-{
-"label": "Support PSY",
-"url": "/support-psy/"
-},
-{
-"label": "Contact",
-"url": "/contact/"
-}
+  {
+    "label": "Home",
+    "url": "/"
+  },
+  {
+    "label": "About",
+    "children": [
+      {
+        "label": "Why Study PSY",
+        "url": "/about-psy/why-study-psy.html",
+        "icon": "question-circle",
+        "iconColor": null
+      },
+      {
+        "label": "Diversity",
+        "url": "/diversity/",
+        "iconColor": null,
+        "icon": "people"
+      }
+    ]
+  },
+  {
+    "label": "Courses",
+    "url": "/courses.html"
+  },
+  {
+    "label": "Undergraduate",
+    "children": [
+      {
+        "label": "Overview",
+        "url": "/undergraduate/",
+        "icon": "info-circle",
+        "iconColor": null
+      },
+      {
+        "label": "Minor",
+        "url": "/undergraduate/minor.html",
+        "iconColor": null,
+        "icon": "book"
+      },
+      {
+        "label": "Major (BA)",
+        "url": "/undergraduate/major-ba.html",
+        "iconColor": null,
+        "icon": "mortarboard"
+      },
+      {
+        "label": "Major (BS)",
+        "url": "/undergraduate/major-bs.html",
+        "iconColor": null,
+        "icon": "mortarboard"
+      },
+      {
+        "label": "Hybrid Online (BA)",
+        "url": "/undergraduate/hybrid-online-ba.html",
+        "icon": "globe",
+        "iconColor": null
+      },
+      {
+        "label": "BA/MA Pathway (BAM)",
+        "url": "/undergraduate/psy-bam.html",
+        "iconColor": null,
+        "icon": "signpost-2"
+      },
+      {
+        "label": "Honors Track",
+        "url": "/undergraduate/honors-track.html",
+        "iconColor": null,
+        "icon": "star"
+      },
+      {
+        "label": "Advising & Support",
+        "url": "/undergraduate/advising-support.html",
+        "iconColor": null,
+        "icon": "compass"
+      }
+    ]
+  },
+  {
+    "label": "Graduate",
+    "children": [
+      {
+        "label": "Overview",
+        "url": "/graduate/",
+        "icon": "info-circle",
+        "iconColor": null
+      },
+      {
+        "label": "Master’s (MA)",
+        "url": "/graduate/master-ma.html",
+        "iconColor": null,
+        "icon": "mortarboard"
+      },
+      {
+        "label": "Doctorate (PhD)",
+        "url": "/graduate/doctorate-phd.html",
+        "iconColor": null,
+        "icon": "mortarboard"
+      },
+      {
+        "label": "Program Areas",
+        "url": "/graduate/program-areas/",
+        "iconColor": null,
+        "icon": "layers"
+      },
+      {
+        "label": "Current Cohort",
+        "url": "/graduate/current-cohort.html",
+        "iconColor": null,
+        "icon": "people"
+      },
+      {
+        "label": "Prospective Students",
+        "url": "/graduate/prospective-students.html",
+        "icon": "person-plus",
+        "iconColor": null
+      },
+      {
+        "label": "Applications & Admissions",
+        "url": "/graduate/applications-admissions.html",
+        "iconColor": null,
+        "icon": "file-earmark-check"
+      }
+    ]
+  },
+  {
+    "label": "Faculty",
+    "url": "/faculty/"
+  },
+  {
+    "label": "Support PSY",
+    "url": "/support-psy.html"
+  },
+  {
+    "label": "Contact",
+    "url": "/contact.html"
+  }
 ]

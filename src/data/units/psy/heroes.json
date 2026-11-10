@@ -1,0 +1,353 @@
+{
+  "defaultHero": "/media/heroes/saunders-mural/01.webp",
+  "pages": {
+    "/": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/diversity/": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/diversity/committee.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/diversity/courses.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/diversity/funding-opportunities.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/undergraduate/": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/undergraduate/minor.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/undergraduate/major-ba.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/undergraduate/major-bs.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/undergraduate/hybrid-online-ba.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/undergraduate/psy-bam.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/undergraduate/honors-track.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/undergraduate/advising-support.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/undergraduate/psi-chi.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/undergraduate/psi-sigma.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/undergraduate/student-learning-outcomes.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/undergraduate/research-project-summary.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/undergraduate/psy-courses.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/graduate/": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/graduate/master-ma.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/graduate/doctorate-phd.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/graduate/program-areas/": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/graduate/program-areas/community-cultural-developmental.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/graduate/program-areas/cognition-neuroscience-social.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/graduate/program-areas/psychological-clinical-science.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/graduate/program-areas/ccbt.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/graduate/current-cohort.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/graduate/prospective-students.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/graduate/applications-admissions.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/graduate/standards-evaluations.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/graduate/learning-objectives.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/support-psy.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/contact.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/sakaria-laisene-auelua-toomey.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/charlene-baker.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/john-barile.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/patricia-couvillon.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/patrick-goh.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/krista-a-haapanen.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/cassandra-l-hendrix.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/i-sak-kim.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/janet-latner.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/arkadiy-maksimovskiy.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/akihiko-masuda.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/ashley-maynard.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/christina-moyer.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/brad-nakamura.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/anthony-papa.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/santiago-papini.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/kristin-pauker.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/joni-sasaki.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/scott-sinnett.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/jonas-vibell.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/yiyuan-xu.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/about-psy/why-study-psy.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/courses.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    },
+    "/privacy.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Temporary hero: detail of the Saunders Hall mural",
+      "credit": false
+    }
+  }
+}
