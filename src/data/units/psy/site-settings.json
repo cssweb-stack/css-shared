@@ -1,6 +1,6 @@
 {
   "indexingEnabled": false,
-  "layoutGuides": false,
+  "layoutGuides": true,
   "stylesheet": "/psy.css",
   "url": "https://psychology.manoa.hawaii.edu",
     "openGraph": {
