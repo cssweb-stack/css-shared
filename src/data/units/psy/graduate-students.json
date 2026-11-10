@@ -7,7 +7,12 @@
     "studyArea": "Cognition, Neuroscience, and Social",
     "email": "nalarcon@hawaii.edu",
     "research": "Child Development, Dual-minority and Multiracial Identity, Social Perception, Belonging",
-    "advisorNames": ["Kristin Pauker"],
+    "advisors": [
+      {
+        "name": "Kristin Pauker",
+        "url": "/faculty/kristin-pauker.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/nicole-alarcon.webp"
   },
   {
@@ -18,7 +23,12 @@
     "studyArea": "Community, Cultural, and Developmental",
     "email": "purva@hawaii.edu",
     "research": "Community Engagement, Marginalized Women, Geriatric Health, Dance Movement Therapy, Culturally Relevant Therapy",
-    "advisorNames": ["Krista Haapanen"],
+    "advisors": [
+      {
+        "name": "Krista Haapanen",
+        "url": "/faculty/krista-a-haapanen.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/purva-deshpande.webp"
   },
   {
@@ -29,7 +39,12 @@
     "studyArea": "Clinical Psychology",
     "email": "ddgheim@hawaii.edu",
     "research": "Posttraumatic Stress, Sociocultural Determinants, Social Cognition",
-    "advisorNames": ["Anthony Papa"],
+    "advisors": [
+      {
+        "name": "Anthony Papa",
+        "url": "/faculty/anthony-papa.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/danielle-dgheim.webp"
   },
   {
@@ -40,7 +55,12 @@
     "studyArea": "Cognition, Neuroscience, and Social",
     "email": "gaoshan@hawaii.edu",
     "research": "Social Perception, Social Identity, Intergroup Interaction",
-    "advisorNames": ["Kristin Pauker"],
+    "advisors": [
+      {
+        "name": "Kristin Pauker",
+        "url": "/faculty/kristin-pauker.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/shan-gao.webp"
   },
   {
@@ -51,7 +71,12 @@
     "studyArea": "Clinical Psychology",
     "email": "",
     "research": "Transdiagnostic Mechanisms, Targeted Interventions, Emotion Regulation, Machine Learning, Precision Medicine",
-    "advisorNames": ["Santiago Papini"],
+    "advisors": [
+      {
+        "name": "Santiago Papini",
+        "url": "/faculty/santiago-papini.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/maria-hanano.webp"
   },
   {
@@ -62,7 +87,12 @@
     "studyArea": "Clinical Psychology",
     "email": "callumt@hawaii.edu",
     "research": "Third-Wave Cognitive Behavioral Interventions, Substance Use Disorders and Other Addictive Behaviors, Zen Buddhism",
-    "advisorNames": ["Akihiko Masuda"],
+    "advisors": [
+      {
+        "name": "Akihiko Masuda",
+        "url": "/faculty/akihiko-masuda.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/callum-henwood.webp"
   },
   {
@@ -73,7 +103,12 @@
     "studyArea": "Clinical Psychology",
     "email": "dorianh8@hawaii.edu",
     "research": "Anxiety, Dissemination and Implementation, Evidence-Based Practices, Community Mental Health",
-    "advisorNames": ["Brad Nakamura"],
+    "advisors": [
+      {
+        "name": "Brad Nakamura",
+        "url": "/faculty/brad-nakamura.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/dorian-higashi.webp"
   },
   {
@@ -84,7 +119,16 @@
     "studyArea": "Clinical Psychology",
     "email": "kratovic@hawaii.edu",
     "research": "Post-traumatic Stress, Grief, Psychosocial Resources, Forensic Psychology",
-    "advisorNames": ["Charlene Baker", "Anthony Papa"],
+    "advisors": [
+      {
+        "name": "Charlene Baker",
+        "url": "/faculty/charlene-baker.html"
+      },
+      {
+        "name": "Anthony Papa",
+        "url": "/faculty/anthony-papa.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/layla-kratovic.webp"
   },
   {
@@ -95,7 +139,12 @@
     "studyArea": "Clinical Psychology",
     "email": "luyenlin@hawaii.edu",
     "research": "Clinical Behavioral Analysis, Culture, Health Psychology, Social-Emotional Well-being, Implementation and Dissemination Science",
-    "advisorNames": ["Yiyuan Xu"],
+    "advisors": [
+      {
+        "name": "Yiyuan Xu",
+        "url": "/faculty/yiyuan-xu.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/stephanie-lin.webp"
   },
   {
@@ -106,7 +155,12 @@
     "studyArea": "Clinical Psychology",
     "email": "rlou6@hawaii.edu",
     "research": "Eating Disorders, Body Image, Female Athletes, Health Disparities",
-    "advisorNames": ["Janet Latner"],
+    "advisors": [
+      {
+        "name": "Janet Latner",
+        "url": "/faculty/janet-latner.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/raissa-lou.webp"
   },
   {
@@ -117,7 +171,12 @@
     "studyArea": "Cognition, Neuroscience, and Social",
     "email": "aaronaka@hawaii.edu",
     "research": "fMRI, Childhood Trauma, Neural Plasticity, Perception",
-    "advisorNames": ["Jonas Vibell"],
+    "advisors": [
+      {
+        "name": "Jonas Vibell",
+        "url": "/faculty/jonas-vibell.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/aaron-nakamura.webp"
   },
   {
@@ -128,7 +187,12 @@
     "studyArea": "Clinical Psychology",
     "email": "gmellor@hawaii.edu",
     "research": "ADHD, Social Media, Technology, Self-Esteem, Masking",
-    "advisorNames": ["Patrick Goh"],
+    "advisors": [
+      {
+        "name": "Patrick Goh",
+        "url": "/faculty/patrick-goh.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/grace-mellor.webp"
   },
   {
@@ -139,7 +203,16 @@
     "studyArea": "Clinical Psychology",
     "email": "lorieo@hawaii.edu",
     "research": "Community Psychology, Health and Well-Being, Poverty Research and Evaluation, Mental Health Disparities",
-    "advisorNames": ["John (Jack) Barile", "Anthony Papa"],
+    "advisors": [
+      {
+        "name": "John (Jack) Barile",
+        "url": "/faculty/john-barile.html"
+      },
+      {
+        "name": "Anthony Papa",
+        "url": "/faculty/anthony-papa.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/lorie-okada.webp"
   },
   {
@@ -150,7 +223,12 @@
     "studyArea": "Cognition, Neuroscience, and Social",
     "email": "sranjan@hawaii.edu",
     "research": "Culture, Religion, Stereotype and Prejudice, Social Support, Bicultural Identity",
-    "advisorNames": ["Joni Sasaki"],
+    "advisors": [
+      {
+        "name": "Joni Sasaki",
+        "url": "/faculty/joni-sasaki.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/sheemrun-ranjan.webp"
   },
   {
@@ -161,7 +239,12 @@
     "studyArea": "Clinical Psychology",
     "email": "cerilar@hawaii.edu",
     "research": "Pacific Islanders, Health Disparities, Culture, Psychometrics, Community-Based Participatory Research",
-    "advisorNames": ["Akihiko Masuda"],
+    "advisors": [
+      {
+        "name": "Akihiko Masuda",
+        "url": "/faculty/akihiko-masuda.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/cerila-rapadas.webp"
   },
   {
@@ -172,7 +255,12 @@
     "studyArea": "Cognition, Neuroscience, and Social",
     "email": "areyes44@hawaii.edu",
     "research": "Race, Racism, Colonization, Inequality",
-    "advisorNames": ["Sakaria Laisene Auelua-Toomey"],
+    "advisors": [
+      {
+        "name": "Sakaria Laisene Auelua-Toomey",
+        "url": "/faculty/sakaria-laisene-auelua-toomey.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/alondra-reyes.webp"
   },
   {
@@ -183,7 +271,12 @@
     "studyArea": "Community, Cultural, and Developmental",
     "email": "maxi2468@hawaii.edu",
     "research": "Identity, Social Perception, Nonverbal Expression, Culture",
-    "advisorNames": ["Ashley Maynard"],
+    "advisors": [
+      {
+        "name": "Ashley Maynard",
+        "url": "/faculty/ashley-maynard.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/maximillian-soares-miehlstein.webp"
   },
   {
@@ -194,7 +287,12 @@
     "studyArea": "Community, Cultural, and Developmental",
     "email": "suesuea@hawaii.edu",
     "research": "Culturally Responsive Programs and Policies for Native Hawaiians and Pacific Islanders, Indigenous Research Methodologies, Community-Engaged Research, Policy Research, Program Evaluation",
-    "advisorNames": ["Ashley Maynard"],
+    "advisors": [
+      {
+        "name": "Ashley Maynard",
+        "url": "/faculty/ashley-maynard.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/anamalia-suesue.webp"
   },
   {
@@ -205,7 +303,12 @@
     "studyArea": "Clinical Psychology",
     "email": "jinke@hawaii.edu",
     "research": "Effective Treatments, Dissemination and Implementation, Parental Engagement, Treatment Targets",
-    "advisorNames": ["Brad Nakamura"],
+    "advisors": [
+      {
+        "name": "Brad Nakamura",
+        "url": "/faculty/brad-nakamura.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/jinke-sun.webp"
   },
   {
@@ -216,7 +319,12 @@
     "studyArea": "Clinical Psychology",
     "email": "takem@hawaii.edu",
     "research": "Fetal Programming, Neurodevelopment, Parenting, Developmental Psychopathology",
-    "advisorNames": ["Cassandra Hendrix"],
+    "advisors": [
+      {
+        "name": "Cassandra Hendrix",
+        "url": "/faculty/cassandra-l-hendrix.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/sydney-takemoto.webp"
   },
   {
@@ -227,7 +335,12 @@
     "studyArea": "Cognition, Neuroscience, and Social",
     "email": "vot@hawaii.edu",
     "research": "Attention, Perception, Perceptual Load, Inattentional Blindness, Inattentional Amnesia, Multisensory Processing",
-    "advisorNames": ["Scott Sinnett"],
+    "advisors": [
+      {
+        "name": "Scott Sinnett",
+        "url": "/faculty/scott-sinnett.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/thu-allie-vo.webp"
   },
   {
@@ -238,7 +351,12 @@
     "studyArea": "Clinical Psychology",
     "email": "wardrach@hawaii.edu",
     "research": "Body Image, Eating Disorders, Health Psychology, Systematic Reviews, Meta-Analysis",
-    "advisorNames": ["Janet Latner"],
+    "advisors": [
+      {
+        "name": "Janet Latner",
+        "url": "/faculty/janet-latner.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/rachel-m-ward.webp"
   },
   {
@@ -249,7 +367,12 @@
     "studyArea": "Community, Cultural, and Developmental",
     "email": "eaweitz@hawaii.edu",
     "research": "Community Empowerment, Computational Democracy, Collective Decision-Making, Digital Deliberation, Trust, Well-Being",
-    "advisorNames": ["John (Jack) Barile"],
+    "advisors": [
+      {
+        "name": "John (Jack) Barile",
+        "url": "/faculty/john-barile.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/elizabeth-weitz.webp"
   },
   {
@@ -260,7 +383,12 @@
     "studyArea": "Clinical Psychology",
     "email": "awickham@hawaii.edu",
     "research": "Neuropsychology, Neuroimaging, Cognitive Neuroscience, Attention & Perception, Head Injuries, Sports Concussions, Neurorehabilitation",
-    "advisorNames": ["Scott Sinnett"],
+    "advisors": [
+      {
+        "name": "Scott Sinnett",
+        "url": "/faculty/scott-sinnett.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/alana-wickham.webp"
   },
   {
@@ -271,7 +399,12 @@
     "studyArea": "Clinical Psychology",
     "email": "awwaw@hawaii.edu",
     "research": "ADHD, Child Psychopathology, Culture, Service Access and Utilization, Resilience-Based Factors",
-    "advisorNames": ["Patrick Goh"],
+    "advisors": [
+      {
+        "name": "Patrick Goh",
+        "url": "/faculty/patrick-goh.html"
+      }
+    ],
     "photo": "/media/units/psy/graduate-students/ashlyn-wong.webp"
   }
 ]

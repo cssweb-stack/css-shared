@@ -100,6 +100,22 @@ font-size: inherit;
 margin: 0;
 }
 
+/* One graduate-student record per standard sidebar/content row. */
+.graduate-student + .graduate-student {
+margin-top: 3rem;
+}
+
+.site-main .graduate-student h2 {
+margin-top: 0;
+}
+
+.site-main .graduate-student .student-program,
+.site-main .graduate-student .student-research,
+.site-main .graduate-student .student-advisors {
+font-style: normal;
+font-weight: 400;
+}
+
 .profile-sidebar {
 min-width: 0;
 text-align: left;

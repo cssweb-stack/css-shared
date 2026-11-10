@@ -109,11 +109,16 @@ who have entered or left the cohort. Confirm the intended source and whether ima
 should be imported before proceeding. Do not silently download, reorganize, omit,
 or publish cohort portraits as a side effect of a general HTML import.
 
-The current PSY migration placed 25 cohort portraits in the site-local
-`psy/src/media/content/` directory with hashed import filenames. Its
-`graduate/current-cohort.html` page references those files directly. This is an
-inventory fact, not approval of that directory or naming scheme as the permanent
-cohort-photo architecture.
+Graduate-student data uses one unit file named `graduate-students.json`. Records
+support `name`, `lastName`, `slug`, `program`, optional `studyArea`, optional
+`email`, `research`, an `advisors` array of `{ name, url? }` objects, and `photo`.
+The shared renderer omits empty fields, selects “Advisor” or “Advisors” from the
+array length, links only advisers with real profile URLs, and uses one standard
+3/9 sidebar/content row per student. Unit portraits live centrally under
+`src/media/units/<unit>/graduate-students/`; do not import images automatically.
+
+PSY and GEO cohort records and portraits now follow this shared model. PSY's
+cohort page uses the shared renderer instead of its imported hard-coded roster.
 
 ## Hero imagery across sites
 
