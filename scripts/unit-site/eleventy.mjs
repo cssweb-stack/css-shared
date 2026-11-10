@@ -66,6 +66,11 @@ logLevel: 'info',
 plugins: [{
 name: 'copied-public-assets',
 setup(builder) {
+// Units may disable layout guides without changing the shared diagnostic import.
+builder.onResolve({ filter: /(?:^|\/)diagnostics\.css$/ }, args => {
+if (loadUnit().site.layoutGuides === false) return { path: args.path, namespace: 'disabled-layout-guides' };
+});
+builder.onLoad({ filter: /.*/, namespace: 'disabled-layout-guides' }, () => ({ contents: '', loader: 'css' }));
 builder.onResolve({ filter: /.*/ }, args => {
 if (args.kind !== 'url-token') return;
 if (/^(?:[a-z][a-z\d+.-]*:|\/|#)/i.test(args.path)) return { path: args.path, external: true };

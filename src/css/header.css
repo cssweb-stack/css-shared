@@ -370,7 +370,7 @@ border-bottom: 0;
 
 @media (min-width: 1200px) {
 .unit-nav .navbar-nav {
-gap: 45px;
+gap: 24px;
 flex-wrap: wrap;
 }
 

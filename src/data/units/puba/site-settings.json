@@ -1,6 +1,14 @@
 {
   "indexingEnabled": false,
+  "layoutGuides": false,
   "stylesheet": "/puba.css",
+  "url": "https://puba.manoa.hawaii.edu",
+  "openGraph": {
+    "image": "/media/open-graph/puba.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "PUBA graduate wearing a graduation cap and flower lei at commencement."
+  },
   "hero": {
     "enabled": true,
     "variant": "compact",
