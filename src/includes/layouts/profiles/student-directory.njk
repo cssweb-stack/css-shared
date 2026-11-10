@@ -9,8 +9,18 @@
 {% if student.email %}
 <p><i class="bi bi-envelope" aria-hidden="true"></i> <a href="mailto:{{ student.email | escape }}">{{ student.email | escape }}</a></p>
 {% endif %}
+{% if student.studyArea %}
+<p><strong>Study Area:</strong> {{ student.studyArea | escape }}</p>
+{% endif %}
+{% if student.research %}
 <p>{{ student.research | escape }}</p>
+{% endif %}
+{% set advisorNames = student.advisorNames | default([], true) %}
+{% if advisorNames | length %}
+<p><strong>{% if advisorNames | length > 1 %}Advisors{% else %}Advisor{% endif %}:</strong> {{ advisorNames | join(', ') | escape }}</p>
+{% elif student.advisorName %}
 <p><strong>Advisor:</strong> {{ student.advisorName | escape }}</p>
+{% endif %}
 </section>
 </div>
 {% endfor %}

@@ -99,6 +99,22 @@ convert them into cards, prose, lists, or another component without explicit use
 direction. Import first; then make only the specific table changes the user requests
 during cleanup. Styling must not silently alter table content or structure.
 
+## Current graduate-student cohorts
+
+Treat current graduate-student cohort listings as a special migration category,
+not ordinary page content. Before importing or rebuilding one, stop and warn the
+user that it requires coordinated review of the current roster, names, degree or
+program details, advisors, contact information, portraits, alt text, and students
+who have entered or left the cohort. Confirm the intended source and whether images
+should be imported before proceeding. Do not silently download, reorganize, omit,
+or publish cohort portraits as a side effect of a general HTML import.
+
+The current PSY migration placed 25 cohort portraits in the site-local
+`psy/src/media/content/` directory with hashed import filenames. Its
+`graduate/current-cohort.html` page references those files directly. This is an
+inventory fact, not approval of that directory or naming scheme as the permanent
+cohort-photo architecture.
+
 ## Hero imagery across sites
 
 Agreed November 10, 2026: unit-specific hero photography is not the default.
