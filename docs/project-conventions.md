@@ -91,6 +91,14 @@ Do not create HTML redirect pages by default; the user explicitly wants to avoid
 them. Hosting redirect support is not assumed. An inventory records proposed
 mappings and is not evidence that redirects have been installed.
 
+## Imported tables
+
+Preserve imported tables as tables during the initial migration. Do not reinterpret
+their headings, captions, rows, columns, labels, or surrounding content, and do not
+convert them into cards, prose, lists, or another component without explicit user
+direction. Import first; then make only the specific table changes the user requests
+during cleanup. Styling must not silently alter table content or structure.
+
 ## Hero imagery across sites
 
 Agreed November 10, 2026: unit-specific hero photography is not the default.
@@ -186,3 +194,7 @@ units may have separate records with different roles, offices, or contact detail
 John (Jack) Barile's PSY faculty record is independent of SSRI's existing people
 record; do not automatically synchronize them. Update only the unit requested,
 and check the other listing when a user explicitly requests a cross-unit change.
+
+Faculty portrait alt text is derived from the unit faculty record's `name` field
+in every directory and individual profile view. Do not maintain separate portrait
+alt fields or emit empty alt text for faculty portraits.
