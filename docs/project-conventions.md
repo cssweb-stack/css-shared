@@ -5,7 +5,7 @@ not a claim that every older file has already been migrated.
 
 ## Scope and ownership
 
-The current four site repositories are `geo`, `puba`, `psy`, and `ssri`, beside
+The current five site directories are `geo`, `puba`, `psy`, `soc`, and `ssri`, beside
 `css-shared`. `style-guide` documents the shared system. Keep shared layouts,
 styles, assets, and reusable content in `css-shared`; keep page sources in their
 site repositories. Consult existing topic documentation before making changes.
@@ -77,3 +77,16 @@ synced. On the receiving machine, fetch/pull the relevant repositories without
 clobbering local changes, then read `AGENTS.md` and the handoff. Shared and site
 changes may need to travel together. A shared-source CI configuration pinned to a
 remote ref also needs the corresponding shared changes available remotely.
+
+## Sociology and URL migration inventories
+
+Sociology follows the reviewed hierarchy and content merges in
+[`soc-migration.md`](soc-migration.md). Treat that approved walkthrough as the
+reference when refining SOC. Its feed remains a placeholder until requested.
+
+For site migrations, keep an inventory comparing old WordPress URLs with new
+published paths, including unchanged, moved, merged, and unresolved sources.
+Review whether URL changes can be avoided before deciding on redirects or removals.
+Do not create HTML redirect pages by default; the user explicitly wants to avoid
+them. Hosting redirect support is not assumed. An inventory records proposed
+mappings and is not evidence that redirects have been installed.

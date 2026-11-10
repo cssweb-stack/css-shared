@@ -1,4 +1,7 @@
 {
-"catalog": null,
-"courseDescriptions": null
+  "prefix": "SOC",
+  "catalog": {
+    "label": "UH M\u0101noa Catalog (SOC)",
+    "url": "https://manoa.hawaii.edu/catalog/category/social-sciences/soc/"
+  }
 }

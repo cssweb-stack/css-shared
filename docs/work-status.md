@@ -2,7 +2,23 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
-## Completed
+## Current task: Sociology draft
+
+- Built `../soc` using the reviewed Navigation Review/SOC workbook and user walkthrough.
+  Detailed accepted structure and source handling: `docs/soc-migration.md`.
+- 50 pages, including 14 individual faculty profiles; agreed folder/index structure,
+  three-page Why Study merge, non-navigation graduate/root pages, and X feed placeholder.
+- All pages have local metadata and individually adjustable placeholder hero assignments.
+  Shared SOC site settings use Psychology's current hero treatment. Downloaded 46 images.
+- Saved original WordPress export, migration/media reports, and a complete old-to-new
+  URL inventory in `soc/reference/`. Four omitted source pages need later decisions;
+  no HTML redirect pages created.
+- Shared checks and SOC root/prefix builds and validation passed. No browser visual
+  review or publication. Local preview responds HTTP 200 at `http://localhost:8086/`. A local Git
+  repository is initialized with no configured remote; local work has not
+  been pushed or deployed by this task.
+
+## Earlier completed work
 
 - Standardized metadata across GEO, PUBA, Psychology, and SSRI. Verified explicit
   page titles/descriptions on 131 published content pages; titles match rendered
@@ -40,6 +56,8 @@ Markdown documentation and instructions; documentation links and whitespace chec
   switching machines. Do not assume the work has been deployed.
 
 ## Resume
+
+Sociology draft is ready for user review and later content/profile cleanup.
 
 Read `AGENTS.md` and `docs/project-conventions.md`, inspect affected Git statuses,
 then continue the user's next requested site task. No further content rewrite is
