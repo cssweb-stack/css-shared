@@ -1,16 +1,19 @@
+{% from "layouts/content/button.njk" import button %}
 {% set unitCatalog = catalog_courses.catalog %}
 {% if catalog_courses.catalogKey %}{% set unitCatalog = common["uh-catalog"][catalog_courses.catalogKey] %}{% endif %}
 <nav class="course-resources" aria-label="{{ site.shortName | escape }} course resources">
 <div class="row g-3">
 <div class="col-12{% if unitCatalog %} col-md-4{% else %} col-md-6{% endif %}">
-<a class="button button-green w-100" href="{{ common.links.classAvailability.url | url | escape }}">{{ common.links.classAvailability.label | escape }}</a>
+{{ button(common.links.classAvailability.label, common.links.classAvailability.url, "teal", "list-check") }}
 </div>
 <div class="col-12{% if unitCatalog %} col-md-4{% else %} col-md-6{% endif %}">
-<a class="button button-green w-100" href="{{ common.links.courseDescriptions.url | url | escape }}">{{ common.links.courseDescriptions.label | escape }}{% if catalog_courses.prefix %} (filter by prefix {{ catalog_courses.prefix | escape }}){% endif %}</a>
+{% set descriptionLabel = common.links.courseDescriptions.label %}
+{% if catalog_courses.prefix %}{% set descriptionLabel = descriptionLabel ~ " (filter by prefix " ~ catalog_courses.prefix ~ ")" %}{% endif %}
+{{ button(descriptionLabel, common.links.courseDescriptions.url, "blue", "journal-richtext") }}
 </div>
 {% if unitCatalog %}
 <div class="col-12 col-md-4">
-<a class="button button-green w-100" href="{{ unitCatalog.url | url | escape }}">{{ unitCatalog.label | default("UH Mānoa Catalog (" ~ site.shortName ~ ")", true) | escape }}</a>
+{{ button(unitCatalog.label | default("UH Mānoa Catalog (" ~ site.shortName ~ ")", true), unitCatalog.url, "purple", "book") }}
 </div>
 {% endif %}
 </div>

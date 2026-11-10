@@ -1,4 +1,29 @@
 /* Shared Buttons */
+.program-button-sets {
+display: grid;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 1.5rem 1rem;
+}
+
+.program-button-sets--stacked {
+grid-template-columns: minmax(0, 1fr);
+}
+
+@media (min-width: 768px) {
+.program-button-sets {
+grid-template-columns: minmax(0, 1fr);
+}
+}
+
+.testimonials-link {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: .5rem;
+min-height: 44px;
+font-size: 1rem;
+}
+
 .button-set {
 text-align: center;
 }
@@ -11,7 +36,7 @@ font-weight: 500;
 }
 
 .site-main .button-set > p {
-margin: .75rem 0 0;
+margin: .25rem 0 0;
 font-size: 1rem;
 font-weight: 400;
 }

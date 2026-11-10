@@ -1,18 +1,20 @@
 {% from "layouts/content/button.njk" import button %}
-<div class="row sidebar-resources-grid gx-2 gx-md-0{% if stackButtonSets %} gy-4{% endif %}">
-<div class="{% if stackButtonSets %}col-12{% else %}col-4 col-md-12{% endif %} button-set">
+<div class="program-button-sets{% if stackButtonSets %} program-button-sets--stacked{% endif %}">
+<div class="button-set">
 {{ button("Contact PUBA", "mailto:pubadmin@hawaii.edu", "teal", "envelope") }}
 <p>To discuss the<br>{{ programLabel | escape }}!</p>
 </div>
-<div class="{% if stackButtonSets %}col-12{% else %}col-4 col-md-12{% endif %} button-set">
+<div class="button-set">
 {{ button("PUBA Info Session", "https://docs.google.com/forms/d/e/1FAIpQLSfEHBOkRbtvmUBCCFT6jHh7qoi5whz_HgDrSgcfV3CVX8jofQ/viewform?usp=header", "blue", "info-circle") }}
 <p>Learn about our<br>academic program</p>
 </div>
-<div class="{% if stackButtonSets %}col-12{% else %}col-4 col-md-12{% endif %} button-set">
+<div class="button-set">
 {{ button("Apply for Admissions", "/applications-admissions.html", "purple", "file-earmark-check") }}
 <p>Application Deadlines<br>April 30 &amp; November 1</p>
 </div>
-</div>
 {% if not hideTestimonials %}
-<p class="text-center mt-4 mb-0"><a href="{{ '/testimonials.html' | url }}">Student Testimonials</a></p>
+<div class="button-set">
+<a class="testimonials-link" href="{{ '/testimonials.html' | url }}"><span class="button-icon" aria-hidden="true">{% include "media/icons/people.svg" %}</span><span>Student Testimonials</span></a>
+</div>
 {% endif %}
+</div>

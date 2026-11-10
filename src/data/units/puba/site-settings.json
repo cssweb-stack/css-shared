@@ -1,6 +1,6 @@
 {
   "indexingEnabled": false,
-  "layoutGuides": true,
+  "layoutGuides": false,
   "stylesheet": "/puba.css",
   "url": "https://puba.manoa.hawaii.edu",
   "openGraph": {
