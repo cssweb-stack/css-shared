@@ -15,8 +15,10 @@ Updated November 10, 2026 (Pacific/Honolulu).
   no HTML redirect pages created.
 - Shared checks and SOC root/prefix builds and validation passed. No browser visual
   review or publication. Local preview responds HTTP 200 at `http://localhost:8086/`. A local Git
-  repository is initialized with no configured remote; local work has not
-  been pushed or deployed by this task.
+  repository has `origin` set to `https://github.com/cssweb-stack/soc.git`.
+  GitHub has a `main` branch. Local HEAD observed as `a60e8b2`; remote main observed
+  as `c7db1f8`. Histories have not yet been fetched/reconciled by this task. No push
+  or deployment was performed by this task.
 
 ## Earlier completed work
 
