@@ -20,7 +20,7 @@ const sharedDir = path.join(sharedRoot, 'src');
 const sharedIncludes = path.join(sharedDir, 'includes');
 const environment = new nunjucks.Environment(new nunjucks.FileSystemLoader([sharedIncludes, sharedDir, path.join(sourceDir, 'includes')], { noCache: true }), { autoescape: false });
 eleventyConfig.setLibrary('njk', environment);
-configurePrivacy(eleventyConfig);
+configurePrivacy(eleventyConfig, project);
 const eventDate = createRequire(import.meta.url)(path.join(sharedIncludes, 'layouts/events/event-date.cjs'));
 eleventyConfig.addFilter('eventDate', eventDate);
 eleventyConfig.addFilter('contactFaculty', people => people.filter(person => person.contactOrder).sort((a, b) => a.contactOrder - b.contactOrder));
