@@ -2,7 +2,20 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
-## Latest completed task: one faculty bio template for all units
+## Latest completed task: PSY faculty details
+
+- Populated all 21 PSY faculty records with the supplied academic titles, offices,
+  phone numbers and emails. Administrative roles are separate lines for Charlene,
+  Jack (two roles), Brad, Anthony, Kristin, and Scott; seven role lines total.
+- Same records now populate directory cards and individual bio sidebars through
+  the unified template. No department page or layout edits needed.
+- Jack Barile's SSRI people record remains unchanged and independent of his PSY
+  faculty record; unit-specific roles are intentional. Documented the rule.
+- PSY 56-page build and verification passed; shared checks passed. Verified every
+  supplied detail and contact link in all 21 cards and matching bio sidebars.
+- Local changes only; no commit, push or deployment performed by this task.
+
+## Earlier completed task: one faculty bio template for all units
 
 - Removed the portrait-only/GEO split. All 51 faculty bios now use the same shared
   layout, sidebar components, and faculty record resolver. Portrait, name H1,

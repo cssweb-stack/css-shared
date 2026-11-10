@@ -6,7 +6,12 @@
     "url": "/faculty/sakaria-laisene-auelua-toomey.html",
     "photo": "/media/units/psy/faculty/sakaria-laisene-auelua-toomey.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Assistant Professor",
+    "office": "Sakamaki C404",
+    "phone": "(808) 956-0680",
+    "phoneHref": "+18089560680",
+    "email": "sakaria4@hawaii.edu"
   },
   {
     "name": "Charlene Baker",
@@ -15,7 +20,15 @@
     "url": "/faculty/charlene-baker.html",
     "photo": "/media/units/psy/faculty/charlene-baker.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Sakamaki C401",
+    "phone": "(808) 956-5669",
+    "phoneHref": "+18089565669",
+    "email": "bakercha@hawaii.edu",
+    "roles": [
+      "Department Chair"
+    ]
   },
   {
     "name": "John (Jack) Barile",
@@ -24,7 +37,16 @@
     "url": "/faculty/john-barile.html",
     "photo": "/media/units/psy/faculty/john-barile.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Saunders 704D",
+    "phone": "(808) 956-7469",
+    "phoneHref": "+18089567469",
+    "email": "barile@hawaii.edu",
+    "roles": [
+      "Associate Dean for Research",
+      "Director of SSRI"
+    ]
   },
   {
     "name": "Patricia Couvillon",
@@ -33,7 +55,12 @@
     "url": "/faculty/patricia-couvillon.html",
     "photo": "/media/units/psy/faculty/patricia-couvillon.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Associate Professor",
+    "office": "PBRC 212",
+    "phone": "(808) 956-4761",
+    "phoneHref": "+18089564761",
+    "email": "patc@hawaii.edu"
   },
   {
     "name": "Patrick Goh",
@@ -42,7 +69,12 @@
     "url": "/faculty/patrick-goh.html",
     "photo": "/media/units/psy/faculty/patrick-goh.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Assistant Professor",
+    "office": "Sakamaki D405",
+    "phone": "(808) 956-6708",
+    "phoneHref": "+18089566708",
+    "email": "pgoh@hawaii.edu"
   },
   {
     "name": "Krista A. Haapanen",
@@ -51,7 +83,12 @@
     "url": "/faculty/krista-a-haapanen.html",
     "photo": "/media/units/psy/faculty/krista-a-haapanen.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Assistant Professor",
+    "office": "Sakamaki C411",
+    "phone": "(808) 956-3695",
+    "phoneHref": "+18089563695",
+    "email": "haapanen@hawaii.edu"
   },
   {
     "name": "Cassandra L. Hendrix",
@@ -60,7 +97,12 @@
     "url": "/faculty/cassandra-l-hendrix.html",
     "photo": "/media/units/psy/faculty/cassandra-l-hendrix.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Assistant Professor",
+    "office": "Sakamaki C204C",
+    "phone": "(808) 956-6271",
+    "phoneHref": "+18089566271",
+    "email": "clhendr@hawaii.edu"
   },
   {
     "name": "I sak Kim",
@@ -69,7 +111,12 @@
     "url": "/faculty/i-sak-kim.html",
     "photo": "/media/units/psy/faculty/i-sak-kim.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Instructor",
+    "office": "Sakamaki D401",
+    "phone": "(808) 956-0679",
+    "phoneHref": "+18089560679",
+    "email": "isak@hawaii.edu"
   },
   {
     "name": "Janet Latner",
@@ -78,7 +125,12 @@
     "url": "/faculty/janet-latner.html",
     "photo": "/media/units/psy/faculty/janet-latner.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Sakamaki C407",
+    "phone": "(808) 956-6106",
+    "phoneHref": "+18089566106",
+    "email": "jlatner@hawaii.edu"
   },
   {
     "name": "Arkadiy Maksimovskiy",
@@ -87,7 +139,12 @@
     "url": "/faculty/arkadiy-maksimovskiy.html",
     "photo": "/media/units/psy/faculty/arkadiy-maksimovskiy.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Assistant Professor",
+    "office": "Sakamaki D403",
+    "phone": "(808) 956-6672",
+    "phoneHref": "+18089566672",
+    "email": "arkadiym@hawaii.edu"
   },
   {
     "name": "Akihiko Masuda",
@@ -96,7 +153,12 @@
     "url": "/faculty/akihiko-masuda.html",
     "photo": "/media/units/psy/faculty/akihiko-masuda.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Sakamaki D409",
+    "phone": "(808) 956-0287",
+    "phoneHref": "+18089560287",
+    "email": "amasuda4@hawaii.edu"
   },
   {
     "name": "Ashley Maynard",
@@ -105,7 +167,12 @@
     "url": "/faculty/ashley-maynard.html",
     "photo": "/media/units/psy/faculty/ashley-maynard.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Sakamaki C402",
+    "phone": "(808) 956-7343",
+    "phoneHref": "+18089567343",
+    "email": "amaynard@hawaii.edu"
   },
   {
     "name": "Christina Moyer",
@@ -114,7 +181,12 @@
     "url": "/faculty/christina-moyer.html",
     "photo": "/media/units/psy/faculty/christina-moyer.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Instructor",
+    "office": "Sakamaki D413",
+    "phone": "(808) 956-2846",
+    "phoneHref": "+18089562846",
+    "email": "christina.moyer@hawaii.edu"
   },
   {
     "name": "Brad Nakamura",
@@ -123,7 +195,15 @@
     "url": "/faculty/brad-nakamura.html",
     "photo": "/media/units/psy/faculty/brad-nakamura.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Krauss 101F",
+    "phone": "(808) 956-6359",
+    "phoneHref": "+18089566359",
+    "email": "bradn@hawaii.edu",
+    "roles": [
+      "C-CCBT Director"
+    ]
   },
   {
     "name": "Anthony Papa",
@@ -132,7 +212,15 @@
     "url": "/faculty/anthony-papa.html",
     "photo": "/media/units/psy/faculty/tony-papa.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Sakamaki D406",
+    "phone": "(808) 956-8107",
+    "phoneHref": "+18089568107",
+    "email": "papaa@hawaii.edu",
+    "roles": [
+      "Director of Clinical Training"
+    ]
   },
   {
     "name": "Santiago Papini",
@@ -141,7 +229,12 @@
     "url": "/faculty/santiago-papini.html",
     "photo": "/media/units/psy/faculty/santiago-papini.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Assistant Professor",
+    "office": "Sakamaki D411",
+    "phone": "(808) 956-3644",
+    "phoneHref": "+18089563644",
+    "email": "spapini@hawaii.edu"
   },
   {
     "name": "Kristin Pauker",
@@ -150,7 +243,15 @@
     "url": "/faculty/kristin-pauker.html",
     "photo": "/media/units/psy/faculty/kristin-pauker.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Sakamaki D410",
+    "phone": "(808) 956-9366",
+    "phoneHref": "+18089569366",
+    "email": "kpauker@hawaii.edu",
+    "roles": [
+      "Graduate Chair"
+    ]
   },
   {
     "name": "Joni Sasaki",
@@ -159,7 +260,12 @@
     "url": "/faculty/joni-sasaki.html",
     "photo": "/media/units/psy/faculty/joni-sasaki.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Sakamaki C405",
+    "phone": "(808) 956-6673",
+    "phoneHref": "+18089566673",
+    "email": "yjoni@hawaii.edu"
   },
   {
     "name": "Scott Sinnett",
@@ -168,7 +274,15 @@
     "url": "/faculty/scott-sinnett.html",
     "photo": "/media/units/psy/faculty/scott-sinnett.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Sakamaki D408",
+    "phone": "(808) 956-6272",
+    "phoneHref": "+18089566272",
+    "email": "ssinnett@hawaii.edu",
+    "roles": [
+      "Undergraduate Chair"
+    ]
   },
   {
     "name": "Jonas Vibell",
@@ -177,7 +291,12 @@
     "url": "/faculty/jonas-vibell.html",
     "photo": "/media/units/psy/faculty/jonas-vibell.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Associate Professor",
+    "office": "Sakamaki C204D",
+    "phone": "(808) 956-2522",
+    "phoneHref": "+18089562522",
+    "email": "vibell@hawaii.edu"
   },
   {
     "name": "Yiyuan Xu",
@@ -186,6 +305,11 @@
     "url": "/faculty/yiyuan-xu.html",
     "photo": "/media/units/psy/faculty/yiyuan-xu.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Sakamaki C408",
+    "phone": "(808) 956-6268",
+    "phoneHref": "+18089566268",
+    "email": "yiyuan@hawaii.edu"
   }
 ]

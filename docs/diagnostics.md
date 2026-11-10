@@ -60,3 +60,15 @@ helper geometry.
 Chrome checked MPA and Associated Faculty at 375, 820, and 1440px. Text cleared
 both inset guide edges in all six cases. Measurements are recorded in
 `exports/puba-content-edges-2026-11-09.json`. The shared checker passed.
+
+## GEO Pages artifact lookup failure — November 10, 2026
+
+Run `42910774688` (push, first attempt) built and uploaded successfully, but Deploy
+failed while looking up `github-pages`. The public Actions API confirmed one
+non-expired artifact named `github-pages` (ID `13808095367`) for that exact run.
+The installed upload-pages-artifact@v3 uses upload-artifact@v4, so do not replace
+it merely because the error mentions upload-artifact v4. A transient artifact
+visibility/service problem is suspected, not confirmed. Recommend re-running all
+jobs to produce a fresh artifact; investigate upload/deploy logs if it recurs.
+No workflow edits, rerun, push, or deployment performed during this diagnosis.
+Node20 deprecation messages were warnings; the failed step was artifact lookup.

@@ -181,3 +181,9 @@ green component overrides. Shared profile contact markup renders office informat
 with the door-open icon and reusable `profile-contact-item` styling aligned with
 email/telephone rows; office text remains non-interactive. Icons are decorative,
 and a visually hidden Office label provides context. Further spacing is deferred.
+
+Faculty identity records are unit-specific. A person affiliated with multiple
+units may have separate records with different roles, offices, or contact details.
+John (Jack) Barile's PSY faculty record is independent of SSRI's existing people
+record; do not automatically synchronize them. Update only the unit requested,
+and check the other listing when a user explicitly requests a cross-unit change.
