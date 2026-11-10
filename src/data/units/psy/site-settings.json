@@ -3,6 +3,12 @@
   "layoutGuides": false,
   "stylesheet": "/psy.css",
   "url": "https://psychology.manoa.hawaii.edu",
+    "openGraph": {
+    "image": "/media/open-graph/psy.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "UH Mānoa student enjoying her studies at campus center."
+  },
   "hero": {
     "enabled": true,
     "variant": "compact",

@@ -28,12 +28,6 @@
     "label": "Undergraduate",
     "children": [
       {
-        "label": "Overview",
-        "url": "/undergraduate/",
-        "icon": "info-circle",
-        "iconColor": null
-      },
-      {
         "label": "Minor",
         "url": "/undergraduate/minor.html",
         "iconColor": null,
@@ -80,12 +74,6 @@
   {
     "label": "Graduate",
     "children": [
-      {
-        "label": "Overview",
-        "url": "/graduate/",
-        "icon": "info-circle",
-        "iconColor": null
-      },
       {
         "label": "Master’s (MA)",
         "url": "/graduate/master-ma.html",

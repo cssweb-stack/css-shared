@@ -31,12 +31,6 @@
       "alt": "Temporary hero: detail of the Saunders Hall mural",
       "credit": false
     },
-    "/undergraduate/": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
     "/undergraduate/minor.html": {
       "image": "/media/heroes/saunders-mural/01.webp",
       "position": "center center",
@@ -104,12 +98,6 @@
       "credit": false
     },
     "/undergraduate/psy-courses.html": {
-      "image": "/media/heroes/saunders-mural/01.webp",
-      "position": "center center",
-      "alt": "Temporary hero: detail of the Saunders Hall mural",
-      "credit": false
-    },
-    "/graduate/": {
       "image": "/media/heroes/saunders-mural/01.webp",
       "position": "center center",
       "alt": "Temporary hero: detail of the Saunders Hall mural",
