@@ -88,6 +88,9 @@ width: auto;
 }
 
 .content-table--responsive caption {
+display: block;
+width: 100%;
+box-sizing: border-box;
 caption-side: top;
 color: var(--black);
 font-weight: 500;
