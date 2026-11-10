@@ -26,6 +26,23 @@ font-weight: 400;
 width: 25%;
 }
 
+.content-table--admissions {
+margin-bottom: 1rem;
+}
+
+.content-table--admissions th {
+width: 50%;
+}
+
+.content-table--admissions th:first-child {
+width: 50%;
+}
+
+.site-main .content-table--admissions td > ul {
+margin-bottom: 0;
+padding-left: 1.25rem;
+}
+
 .content-table--timelines :is(th, td):first-child {
 white-space: nowrap;
 overflow-wrap: normal;

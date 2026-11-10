@@ -1,0 +1,12 @@
+<section class="{% if compactJoin %}join-puba--compact text-center{% endif %}" aria-label="Join PUBA">
+{% if not compactJoin %}
+<h2>Join PUBA</h2>
+{% endif %}
+{% if compactJoin %}
+<a class="button button-green" href="{{ '/applications-admissions.html' | url }}">Apply to PUBA</a>
+<p class="join-puba-deadlines"><span>Application Deadlines</span><br>April 30 and November 1</p>
+{% else %}
+<a class="button button-green" href="{{ '/applications-admissions.html' | url }}">Apply for Admissions</a>
+<p class="mt-3 mb-0">Application Deadlines<br>April 30 and November 1</p>
+{% endif %}
+</section>

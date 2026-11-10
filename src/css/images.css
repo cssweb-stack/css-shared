@@ -55,6 +55,19 @@ margin-bottom: 1.5rem;
 }
 
 /* Tablet and desktop callouts keep their columns; only the artwork shrinks. */
+.graphic-callout--left .sidebar-media.mx-auto {
+margin-left: 0 !important;
+}
+
+.sidebar-media.sidebar-media--badge.mx-auto {
+width: calc(200% / 3);
+}
+
+/* Featured accreditation marks use the full callout width. */
+.sidebar-media.sidebar-media--featured.mx-auto {
+width: 100%;
+}
+
 @media (min-width: 576px) {
 .sidebar-media.mx-auto {
 width: calc(100% / 3);

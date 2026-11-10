@@ -1,0 +1,30 @@
+/* Quotations and their speakers stay together without italic emphasis. */
+.testimonial {
+margin: 0 0 2rem;
+padding-inline-start: 1.25rem;
+border-inline-start: 4px solid var(--dark-gray);
+font-style: normal;
+}
+
+.testimonial:last-child {
+margin-bottom: 0;
+}
+
+.testimonial .blockquote {
+margin: 0 0 1rem;
+font-size: var(--content-body-font-size);
+}
+
+.site-main .testimonial .blockquote > :last-child {
+margin-bottom: 0;
+}
+
+.testimonial figcaption {
+font-size: 1rem;
+font-weight: 500;
+font-style: normal;
+}
+
+.testimonial figcaption::before {
+content: "— ";
+}

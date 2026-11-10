@@ -1,8 +1,8 @@
 {# Centered graphic-and-link callout; deliberately distinct from contact details. #}
-{% macro graphicCallout(href, imageSrc, label, note="", imageWidth=800, imageHeight=800) %}
-<div class="text-center">
+{% macro graphicCallout(href, imageSrc, label, note="", imageWidth=800, imageHeight=800, imageClass="", alignment="center", imageSpacing="mb-3") %}
+<div class="{% if alignment == 'left' %}text-start graphic-callout--left{% else %}text-center{% endif %}">
 <a href="{{ href | url | escape }}">
-<img class="img-fluid sidebar-media d-block mx-auto mb-3" src="{{ imageSrc | url | escape }}" alt="" width="{{ imageWidth }}" height="{{ imageHeight }}">
+<img class="img-fluid sidebar-media d-block mx-auto {{ imageSpacing | escape }}{% if imageClass %} {{ imageClass | escape }}{% endif %}" src="{{ imageSrc | url | escape }}" alt="" width="{{ imageWidth }}" height="{{ imageHeight }}">
 {{ label | escape }}</a>
 {% if note %}<p class="mb-0">{{ note | escape }}</p>{% endif %}
 </div>

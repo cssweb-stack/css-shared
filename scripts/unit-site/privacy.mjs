@@ -11,6 +11,4 @@ description: 'How College of Social Sciences websites use Google Analytics and v
 };
 const content = '{% include "pages/privacy.njk" %}';
 eleventyConfig.addTemplate('shared-privacy.njk', content, { ...data, permalink: '/privacy.html' });
-// Preserve existing bookmarks and links to the previous directory-style URL.
-eleventyConfig.addTemplate('shared-privacy-legacy.njk', content, { ...data, permalink: '/privacy/index.html' });
 }

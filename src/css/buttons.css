@@ -1,4 +1,21 @@
 /* Shared Buttons */
+.button-set {
+text-align: center;
+}
+
+.button-set .button {
+width: 100%;
+padding-inline: .5rem;
+font-size: 1rem;
+font-weight: 500;
+}
+
+.site-main .button-set > p {
+margin: .75rem 0 0;
+font-size: 1rem;
+font-weight: 400;
+}
+
 .button {
 --button-color: var(--color-blue);
 --button-surface: var(--surface-blue);
@@ -25,6 +42,24 @@ cursor: pointer;
 
 .button-green {
 --button-color: var(--uh-green);
+}
+
+/* Compact application callout for narrow resource sidebars. */
+.join-puba--compact .button {
+width: 100%;
+padding: .75rem .5rem;
+font-size: 1rem;
+font-weight: 500;
+}
+
+.site-main .join-puba--compact .join-puba-deadlines {
+margin: 1rem 0 0;
+font-size: .875rem;
+font-weight: 400;
+}
+
+.join-puba-deadlines > span {
+font-weight: 500;
 }
 
 .button-blue {

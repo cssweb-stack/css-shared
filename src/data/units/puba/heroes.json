@@ -116,15 +116,51 @@
       "credit": false
     },
     "/faculty/": {
-      "image": "/media/heroes/puba/10.webp",
+      "image": "/media/heroes/puba/06.webp",
       "position": "center center",
-      "alt": "UH Students",
+      "alt": "Saunders Hall mural",
       "credit": false
     },
     "/faculty/associated.html": {
-      "image": "/media/heroes/puba/10.webp",
+      "image": "/media/heroes/puba/06.webp",
       "position": "center center",
-      "alt": "UH Students",
+      "alt": "Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/soyun-jeong.html": {
+      "image": "/media/heroes/puba/06.webp",
+      "position": "center center",
+      "alt": "Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/gowun-park.html": {
+      "image": "/media/heroes/puba/06.webp",
+      "position": "center center",
+      "alt": "Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/steven-w-mumford.html": {
+      "image": "/media/heroes/puba/06.webp",
+      "position": "center center",
+      "alt": "Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/janet-jock.html": {
+      "image": "/media/heroes/puba/06.webp",
+      "position": "center center",
+      "alt": "Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/helen-h-yu.html": {
+      "image": "/media/heroes/puba/06.webp",
+      "position": "center center",
+      "alt": "Saunders Hall mural",
+      "credit": false
+    },
+    "/faculty/maile-arvin.html": {
+      "image": "/media/heroes/puba/06.webp",
+      "position": "center center",
+      "alt": "Saunders Hall mural",
       "credit": false
     }
   }

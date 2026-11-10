@@ -128,6 +128,27 @@ margin-top: 0;
 }
 }
 
+/* Three resource groups stay in one row on phones, beside content on tablets. */
+@media (max-width: 767.98px) {
+.content-sidebar--three-resources .sidebar-resources > .sidebar-resources-grid > [class*="col-"] {
+margin-bottom: 0;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+.content-sidebar--three-resources > .sidebar-resources {
+margin-top: var(--bs-gutter-y, 1.5rem);
+}
+
+.content-sidebar--three-resources > .sidebar-resources::before {
+display: none;
+}
+
+.content-sidebar--three-resources .sidebar-resources-grid > [class*="col-"]:not(:last-child) {
+margin-bottom: var(--layout-stack-gap);
+}
+}
+
 /* Bottom spacing between grid sections */
 .grid-spaced {
 margin-bottom: 2.25rem;
