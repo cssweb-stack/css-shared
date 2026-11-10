@@ -45,7 +45,7 @@
     "name": "Sakamaki Hall",
     "address": [
       "2530 Dole Street",
-      "Honolulu, HI 96822"
+      "Honolulu, HI 96822-2294"
     ],
     "photo": {
       "src": "/media/shared/other/saunders-hall.webp",
@@ -53,7 +53,7 @@
       "width": 300,
       "height": 162
     },
-    "mapEmbedUrl": "https://www.google.com/maps?q=Sakamaki%20Hall%2C%202530%20Dole%20Street%2C%20Honolulu%2C%20HI%2096822&output=embed"
+    "mapEmbedUrl": "https://www.google.com/maps?q=Sakamaki%20Hall%2C%202530%20Dole%20Street%2C%20Honolulu%2C%20HI%2096822-2294&output=embed"
   },
   "crawford-hall": {
     "name": "Crawford Hall",
