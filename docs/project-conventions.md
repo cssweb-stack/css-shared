@@ -121,7 +121,17 @@ registers the same `socialUrl` helper as the common unit build.
 Faculty hero treatment is now implemented for Psychology and Sociology: their
 `faculty-heroes.json` files contain only individual faculty profile URL assignments
 from the Saunders mural pool. Their `heroes.json` files contain all other pages,
-including faculty directory landing pages, from `src/media/heroes/shared/`.
+including faculty directory landing pages, from `src/media/heroes/students/`.
 Selections are randomized once, balanced to reduce repeats, and saved as explicit
 paths. Do not shuffle on page load or rebuild. Use “Students at the University of
 Hawaiʻi at Mānoa” as the shared-bank description; preserve decorative semantics.
+
+The student bank folder was renamed from `shared/` to `students/`; PSY and SOC
+assignments now use that path without reshuffling. GEO and PUBA faculty directory
+pages have fixed images: `/faculty/` uses `/media/heroes/faculty/main.webp`;
+`/faculty/associated.html` uses `/media/heroes/faculty/associated.webp`. These
+assignments live in each unit's `heroes.json` and must be excluded from future
+randomization. No old satellite location labels or satellite credits apply to
+these two directory photos. Other GEO/PUBA pages retain their existing images.
+When retiring bank images, replace all active JSON references before deleting
+files; adding an image does not automatically change existing saved assignments.

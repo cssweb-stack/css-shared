@@ -1,218 +1,218 @@
 {
-  "defaultHero": "/media/heroes/shared/61.webp",
+  "defaultHero": "/media/heroes/students/61.webp",
   "pages": {
     "/about-soc/why-study-soc.html": {
-      "image": "/media/heroes/shared/14.webp",
+      "image": "/media/heroes/students/14.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/about-soc/research-areas/": {
-      "image": "/media/heroes/shared/52.webp",
+      "image": "/media/heroes/students/52.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/about-soc/news-events.html": {
-      "image": "/media/heroes/shared/05.webp",
+      "image": "/media/heroes/students/05.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/": {
-      "image": "/media/heroes/shared/61.webp",
+      "image": "/media/heroes/students/61.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/about-soc/history.html": {
-      "image": "/media/heroes/shared/56.webp",
+      "image": "/media/heroes/students/56.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/minor/": {
-      "image": "/media/heroes/shared/59.webp",
+      "image": "/media/heroes/students/59.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/minor/concentrations.html": {
-      "image": "/media/heroes/shared/55.webp",
+      "image": "/media/heroes/students/55.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/major/": {
-      "image": "/media/heroes/shared/48.webp",
+      "image": "/media/heroes/students/48.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/major/concentrations.html": {
-      "image": "/media/heroes/shared/17.webp",
+      "image": "/media/heroes/students/17.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/major/student-learning-outcomes.html": {
-      "image": "/media/heroes/shared/53.webp",
+      "image": "/media/heroes/students/53.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/bam.html": {
-      "image": "/media/heroes/shared/60.webp",
+      "image": "/media/heroes/students/60.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/honors-track.html": {
-      "image": "/media/heroes/shared/12.webp",
+      "image": "/media/heroes/students/12.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/funding-sources.html": {
-      "image": "/media/heroes/shared/08.webp",
+      "image": "/media/heroes/students/08.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/advising-support/": {
-      "image": "/media/heroes/shared/45.webp",
+      "image": "/media/heroes/students/45.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/advising-support/academic-planning.html": {
-      "image": "/media/heroes/shared/28.webp",
+      "image": "/media/heroes/students/28.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/master-ma.html": {
-      "image": "/media/heroes/shared/29.webp",
+      "image": "/media/heroes/students/29.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/doctorate-phd.html": {
-      "image": "/media/heroes/shared/46.webp",
+      "image": "/media/heroes/students/46.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/current-cohort.html": {
-      "image": "/media/heroes/shared/38.webp",
+      "image": "/media/heroes/students/38.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/funding-sources/": {
-      "image": "/media/heroes/shared/57.webp",
+      "image": "/media/heroes/students/57.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/funding-sources/sakihara-scholarship.html": {
-      "image": "/media/heroes/shared/42.webp",
+      "image": "/media/heroes/students/42.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/applications-admissions.html": {
-      "image": "/media/heroes/shared/37.webp",
+      "image": "/media/heroes/students/37.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/gssa.html": {
-      "image": "/media/heroes/shared/07.webp",
+      "image": "/media/heroes/students/07.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/annual-review.html": {
-      "image": "/media/heroes/shared/24.webp",
+      "image": "/media/heroes/students/24.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/course-identification.html": {
-      "image": "/media/heroes/shared/32.webp",
+      "image": "/media/heroes/students/32.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/hormann-prize.html": {
-      "image": "/media/heroes/shared/09.webp",
+      "image": "/media/heroes/students/09.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/alpha-kappa-delta.html": {
-      "image": "/media/heroes/shared/51.webp",
+      "image": "/media/heroes/students/51.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/support-soc.html": {
-      "image": "/media/heroes/shared/34.webp",
+      "image": "/media/heroes/students/34.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/contact.html": {
-      "image": "/media/heroes/shared/01.webp",
+      "image": "/media/heroes/students/01.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html": {
-      "image": "/media/heroes/shared/43.webp",
+      "image": "/media/heroes/students/43.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/about-soc/research-areas/nationalism-globalization-sustainability.html": {
-      "image": "/media/heroes/shared/20.webp",
+      "image": "/media/heroes/students/20.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/about-soc/research-areas/health-aging-medical-sociology.html": {
-      "image": "/media/heroes/shared/49.webp",
+      "image": "/media/heroes/students/49.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/about-soc/research-areas/race-ethnicity-gender-class.html": {
-      "image": "/media/heroes/shared/04.webp",
+      "image": "/media/heroes/students/04.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/about-soc/research-areas/crime-law-social-control.html": {
-      "image": "/media/heroes/shared/13.webp",
+      "image": "/media/heroes/students/13.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/faculty/": {
-      "image": "/media/heroes/shared/41.webp",
+      "image": "/media/heroes/students/41.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/about-soc/soc-courses.html": {
-      "image": "/media/heroes/shared/03.webp",
+      "image": "/media/heroes/students/03.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/privacy.html": {
-      "image": "/media/heroes/shared/35.webp",
+      "image": "/media/heroes/students/35.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false

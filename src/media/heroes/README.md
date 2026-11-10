@@ -6,7 +6,7 @@ Set alt for the image description. Set location when relevant. Set credit to fal
 
 ## Student and faculty collections
 
-`shared/` contains the general student image bank (59 WebP files at initial
+`students/` contains the general student image bank (59 WebP files at initial
 assignment). Use these for non-profile pages, including faculty directory landing
 pages. Default description: “Students at the University of Hawaiʻi at Mānoa.”
 
@@ -19,3 +19,7 @@ saved. Do not randomize at runtime or reshuffle existing pages without a request
 Use each bank image once per site before repeating; balance mural reuse across
 profiles. Existing hero height/overlay settings remain in `site-settings.json`.
 These banners are currently decorative and hidden from screen readers.
+
+`faculty/main.webp` and `faculty/associated.webp` are fixed directory banners,
+currently assigned to GEO and PUBA. Do not include them in the random student or
+mural pools. Before removing a bank image, update every referencing assignment.

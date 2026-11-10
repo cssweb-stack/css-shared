@@ -116,15 +116,15 @@
       "credit": false
     },
     "/faculty/": {
-      "image": "/media/heroes/puba/06.webp",
+      "image": "/media/heroes/faculty/main.webp",
       "position": "center center",
-      "alt": "Saunders Hall mural",
+      "alt": "Black-and-white detail of campus building columns and palm trees at the University of Hawaiʻi at Mānoa.",
       "credit": false
     },
     "/faculty/associated.html": {
-      "image": "/media/heroes/puba/06.webp",
+      "image": "/media/heroes/faculty/associated.webp",
       "position": "center center",
-      "alt": "Saunders Hall mural",
+      "alt": "Black-and-white view of Hawaiʻi Hall and palm trees at the University of Hawaiʻi at Mānoa.",
       "credit": false
     },
     "/faculty/soyun-jeong.html": {

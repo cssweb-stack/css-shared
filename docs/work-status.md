@@ -2,7 +2,21 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
-## Latest completed task: Psychology and Sociology hero assignment
+## Latest completed task: renamed student bank and faculty directory images
+
+- Updated PSY/SOC student hero paths from `shared/` to `students/`, preserving
+  existing image selections and all individual profile mural assignments.
+- GEO/PUBA `/faculty/` now uses `faculty/main.webp`; their Associated Faculty
+  pages use `faculty/associated.webp`. Removed obsolete per-image satellite
+  locations/credits from those GEO directory assignments. No other GEO/PUBA
+  images or SSRI assignments changed.
+- Updated PSY/SOC image collection validation and documented fixed directory
+  assignments and image retirement. All four affected sites built successfully;
+  PSY/SOC verification and shared checks passed. Checked the four directory pages
+  render their assigned photos without obsolete location labels/credits.
+- Local changes only; no commit, push, or deployment performed by this task.
+
+## Earlier completed task: Psychology and Sociology hero assignment
 
 - Found 59 WebP student-bank images and seven Saunders murals in shared media.
 - Saved randomized, stable assignments: PSY 35 non-profile pages / 21 profiles;
