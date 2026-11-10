@@ -1,18 +1,13 @@
 ---
-layout: base.njk
+layout: shell.njk
 ---
-{% if profilePhoto %}
+<div class="page-section">
+<div class="container content-section">
 <div class="row gy-4 gx-0 gx-sm-5 gx-lg-5 profile-page">
-<div class="col-12 col-md-4 col-lg-3">
-{% include "layouts/profiles/profile-portrait.njk" %}
+<div class="col-12 col-md-4 col-lg-3 profile-sidebar">
+{% include "layouts/profiles/profile-sidebar.njk" %}
 </div>
 <div class="col-12 col-md-8 col-lg-9 profile-biography">{{ content | safe }}</div>
 </div>
-{% else %}
-<div class="grid-profile profile-page">
-<div class="profile-sidebar">
-{% include "layouts/profiles/profile-sidebar.njk" %}
 </div>
-<div class="profile-biography">{{ content | safe }}</div>
 </div>
-{% endif %}

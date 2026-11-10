@@ -35,10 +35,12 @@ for other consumers; this change does not rewrite Associated Faculty pages.
 
 ## Editing
 
-Keep individual page title, description, permalink, and portrait configuration in
-the HTML source. Update the corresponding directory record if a name, portrait,
-portrait dimensions, or profile URL changes. The explicit directory record lists
-only faculty who should appear, not every HTML page under the faculty folder.
+Keep individual page title, description, permalink, and `personSlug` in the HTML
+source. Portrait and contact details live only in the shared faculty record, used
+by both this directory and the unified bio layout. Update page metadata too when
+changing a name or URL. See `faculty-profiles.md` for the editing contract. The
+explicit faculty record lists only faculty who should appear, not every HTML page
+under the faculty folder.
 
 Checked all 51 linked portraits: PSY 21, SOC 14, PUBA 6, GEO 10. Builds pass for all
 four; PSY/SOC existing validation and shared checks pass. Directory output was checked

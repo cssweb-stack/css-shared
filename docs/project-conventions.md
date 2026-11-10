@@ -145,24 +145,20 @@ existing randomized SOC/PSY assignments unless reshuffling is requested. GEO is
 explicitly excluded: its person-specific satellite imagery must stay intact.
 PUBA's fixed Main/Associated directory banners remain separate from its profiles.
 
-Psychology's initial portrait profile layout uses the shared
-`layouts/profiles/faculty-profile.njk` with per-page `profilePhoto`,
-`profilePhotoWidth`, `profilePhotoHeight`, and `hidePageTitle: true` metadata.
-The portrait-only branch uses shared photo styling in a left column, with existing
-name/biography in the right column. Further sidebar details are pending review;
-this is the first layout pass, not a finalized universal profile design. GEO's
-existing person-based profile sidebar remains separate and unchanged.
+## One faculty biography template
 
-Sociology now uses Psychology's shared portrait-only profile layout on all 14
-individual pages. Keep the existing content in the biography column; replace the
-old inline headshot with the processed left-column portrait, without duplicating
-it. Profile columns have no permanent vertical separator; spacing provides the
-separation. Diagnostic layout helper lines remain controlled by `layoutGuides`.
+Effective immediately, all four sites and future sites use exactly one shared
+`layouts/profiles/faculty-profile.njk`, with one responsive sidebar/content layout.
+No GEO-specific, unit-specific, or portrait-only bio branches. This supersedes
+all earlier first-pass portrait layout agreements.
 
-PUBA's six individual faculty profiles now also use the shared portrait-only
-left-column layout, matching Psychology and Sociology. Processed portraits live
-in `src/media/units/puba/faculty/` in shared; each HTML page specifies its portrait
-and intrinsic dimensions. Name H1s were added to the six previously headless pages.
+Each individual HTML page retains title/description/permalink and `personSlug`.
+The shared unit `faculty.json` record supplies the portrait and all sidebar details
+for both directory cards and bios. No `profilePhoto` metadata duplication. The
+single shared `resolveFacultyPerson` function resolves records; missing records
+fail the build. Put biography sections in the page body, without a duplicate H1,
+portrait, or contact block. GEO's satellite hero assignments remain intact.
+See `faculty-profiles.md` for the exact editing contract and completed migration.
 
 Main faculty directories for GEO, PUBA, PSY, and SOC use one shared
 `layouts/profiles/faculty-directory.njk`, with unit `faculty.json` records sorted by

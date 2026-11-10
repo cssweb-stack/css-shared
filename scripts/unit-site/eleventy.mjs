@@ -4,6 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createSharedSource } from './shared-source.mjs';
 import { configurePrivacy } from './privacy.mjs';
+import { resolveFacultyPerson } from './faculty-profiles.mjs';
 export function configureUnitSite(eleventyConfig, project) {
 const require = createRequire(path.join(project, 'package.json'));
 const { build } = require('esbuild');
@@ -44,6 +45,7 @@ return origin + prefix + String(value || '');
 eleventyConfig.addGlobalData('common', () => loadCommon());
 eleventyConfig.addGlobalData('uh', () => loadUH());
 eleventyConfig.addGlobalData('eleventyComputed', {
+person: resolveFacultyPerson,
 canonicalUrl: data => (data.site.canonicalSections || []).some(prefix => data.page.url.startsWith(prefix)) ? data.site.url + data.page.url : undefined
 });
 for (const key of Object.keys(loadUnit())) eleventyConfig.addGlobalData(key, () => key === 'site' ? { ...loadUnit().site, stylesheet } : loadUnit()[key]);

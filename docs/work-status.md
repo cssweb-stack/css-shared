@@ -2,7 +2,40 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
-## Latest completed task: PUBA faculty directory details
+## Latest completed task: one faculty bio template for all units
+
+- Removed the portrait-only/GEO split. All 51 faculty bios now use the same shared
+  layout, sidebar components, and faculty record resolver. Portrait, name H1,
+  available titles/roles/office/contact data and keywords render on the left;
+  biography content remains on the right. Directory and bio use the same record.
+- Puba's six bios now show supplied contact details and Helen's two roles; SOC's
+  14 show supplied data (Ashley has no phone). PSY shows available name/portrait
+  data until further details are provided. GEO uses the same layout and keeps
+  all satellite hero assignments, contact data, and publication links.
+- Removed per-page profilePhoto metadata and duplicate H1s from PSY/SOC/PUBA;
+  every page has personSlug. Moved SOC personal/publication links into shared
+  records; retained teaching awards in biography content. Removed old inline SOC
+  contact blocks. All 51 Background-and-beyond bodies preserved exactly.
+- All four builds and existing PSY/SOC checks passed; shared checks passed.
+  Checked 51 common layouts, one H1/portrait each, supplied sidebar data, and
+  unchanged GEO hero records. No browser visual QA, commit, push or deployment.
+- Canonical rules: `docs/faculty-profiles.md` and project conventions. Earlier
+  handoff entries below describe historical steps; portrait-only rules are obsolete.
+
+## Earlier completed task: SOC faculty directory details
+
+- Entered all 14 user-supplied titles, offices and emails in shared SOC faculty.json,
+  plus 13 telephone numbers. Ashley Rubin has no phone field or phone row.
+- Separated administrative roles: Jennifer Darrah (Undergraduate Chair), Ashley
+  Rubin (Graduate Chair), Manfred B. Steger (Department Chair), Wei Zhang (Interim
+  Dean). All use the shared multiple-role field; academic titles remain separate.
+- Existing shared directory automatically displays details. No department page
+  edits, portrait/hero changes, or individual biography changes were needed.
+- SOC 50-page build and verification passed; shared checks passed. Verified all
+  14 cards, contact links, role lines, and Ashley's omitted phone row.
+- Changes local; no commit, push, or deployment performed by this task.
+
+## Earlier completed task: PUBA faculty directory details
 
 - Entered user-provided academic titles, offices, telephone numbers and emails for
   all six PUBA faculty in shared `src/data/units/puba/faculty.json`.

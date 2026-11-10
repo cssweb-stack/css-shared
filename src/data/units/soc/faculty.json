@@ -6,7 +6,19 @@
     "url": "/faculty/sun-ki-chai.html",
     "photo": "/media/units/soc/faculty/sun-ki-chai.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Saunders 237",
+    "email": "sunki@hawaii.edu",
+    "phone": "(808) 956-7234",
+    "phoneHref": "+18089567234",
+    "publications": [
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Sun_Ki_Chai",
+        "image": "/media/content/2a4a5ed1-logo-research-gate.png"
+      }
+    ]
   },
   {
     "name": "Jennifer Darrah",
@@ -15,7 +27,22 @@
     "url": "/faculty/jennifer-darrah.html",
     "photo": "/media/units/soc/faculty/jennifer-darrah.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Associate Professor",
+    "office": "Saunders 235",
+    "email": "jdarrah@hawaii.edu",
+    "roles": [
+      "Undergraduate Chair"
+    ],
+    "phone": "(808) 956-7950",
+    "phoneHref": "+18089567950",
+    "publications": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=46g5HMYAAAAJ&hl=en",
+        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+      }
+    ]
   },
   {
     "name": "Katherine Irwin",
@@ -24,7 +51,19 @@
     "url": "/faculty/katherine-irwin.html",
     "photo": "/media/units/soc/faculty/katherine-irwin.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Saunders 238",
+    "email": "kirwin@hawaii.edu",
+    "phone": "(808) 956-7257",
+    "phoneHref": "+18089567257",
+    "publications": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?hl=en&user=xgjb3aIAAAAJ",
+        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+      }
+    ]
   },
   {
     "name": "David Johnson",
@@ -33,7 +72,12 @@
     "url": "/faculty/david-johnson.html",
     "photo": "/media/units/soc/faculty/david-johnson.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Saunders 217",
+    "email": "davidjoh@hawaii.edu",
+    "phone": "(808) 956-8462",
+    "phoneHref": "+18089568462"
   },
   {
     "name": "Aya Kimura",
@@ -42,7 +86,30 @@
     "url": "/faculty/aya-kimura.html",
     "photo": "/media/units/soc/faculty/aya-kimura.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Saunders 240",
+    "email": "kimuraa@hawaii.edu",
+    "phone": "(808) 956-2706",
+    "phoneHref": "+18089562706",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://ayakimura.weebly.com/"
+      }
+    ],
+    "publications": [
+      {
+        "label": "Academia.edu",
+        "url": "https://manoa-hawaii.academia.edu/AyaKimura",
+        "image": "/media/content/337b803a-logo-academia-edu.png"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Aya_Kimura",
+        "image": "/media/content/2a4a5ed1-logo-research-gate.png"
+      }
+    ]
   },
   {
     "name": "Le Lin",
@@ -51,7 +118,18 @@
     "url": "/faculty/le-lin.html",
     "photo": "/media/units/soc/faculty/le-lin.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Associate Professor",
+    "office": "Saunders 212",
+    "email": "lelin@hawaii.edu",
+    "phone": "(808) 956-8451",
+    "phoneHref": "+18089568451",
+    "links": [
+      {
+        "label": "Curriculum Vitae (CV)",
+        "url": "https://docs.google.com/document/d/1zVgllQmglvxHcFq_oKNUwmpmZtLICtr6vbAOgYPY1TQ/edit?usp=sharing"
+      }
+    ]
   },
   {
     "name": "Krysia Mossakowski",
@@ -60,7 +138,24 @@
     "url": "/faculty/krysia-mossakowski.html",
     "photo": "/media/units/soc/faculty/krysia-mossakowski.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Saunders 215",
+    "email": "krysiam@hawaii.edu",
+    "phone": "(808) 956-8416",
+    "phoneHref": "+18089568416",
+    "publications": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=oAS8aWwAAAAJ&hl=en",
+        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Krysia_Mossakowski",
+        "image": "/media/content/2a4a5ed1-logo-research-gate.png"
+      }
+    ]
   },
   {
     "name": "Eunjeong Paek",
@@ -69,7 +164,25 @@
     "url": "/faculty/eunjeong-paek.html",
     "photo": "/media/units/soc/faculty/eunjeong-paek.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Assistant Professor",
+    "office": "Saunders 214",
+    "email": "ejpaek@hawaii.edu",
+    "phone": "(808) 956-4772",
+    "phoneHref": "+18089564772",
+    "links": [
+      {
+        "label": "Curriculum Vitae (CV)",
+        "url": "https://docs.google.com/document/d/1Bpl-aDwKHmVImJuvqYaWwHqdvmG2rSDBcJGxeMiD4uw/edit"
+      }
+    ],
+    "publications": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=Xw5zAaMAAAAJ&hl=en",
+        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+      }
+    ]
   },
   {
     "name": "Ashley Rubin",
@@ -78,7 +191,35 @@
     "url": "/faculty/ashley-rubin.html",
     "photo": "/media/units/soc/faculty/ashley-rubin.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Saunders 213",
+    "email": "atrubin@hawaii.edu",
+    "roles": [
+      "Graduate Chair"
+    ],
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://ashleytrubin.com"
+      },
+      {
+        "label": "Twitter",
+        "url": "https://twitter.com/ashleytrubin"
+      }
+    ],
+    "publications": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=M48X9Z4AAAAJ&hl=en",
+        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Ashley_Rubin",
+        "image": "/media/content/2a4a5ed1-logo-research-gate.png"
+      }
+    ]
   },
   {
     "name": "Nandita Sharma",
@@ -87,7 +228,18 @@
     "url": "/faculty/nandita-sharma.html",
     "photo": "/media/units/soc/faculty/nandita-sharma.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Saunders 205",
+    "email": "nsharma@hawaii.edu",
+    "phone": "(808) 956-8438",
+    "phoneHref": "+18089568438",
+    "links": [
+      {
+        "label": "Website",
+        "url": "http://nanditasharma.net/"
+      }
+    ]
   },
   {
     "name": "Manfred B. Steger",
@@ -96,7 +248,22 @@
     "url": "/faculty/manfred-b-steger.html",
     "photo": "/media/units/soc/faculty/manfred-steger.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Saunders 236",
+    "email": "manfred@hawaii.edu",
+    "roles": [
+      "Department Chair"
+    ],
+    "phone": "(808) 956-7117",
+    "phoneHref": "+18089567117",
+    "publications": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?hl=en&user=FD6qzOMAAAAJ",
+        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+      }
+    ]
   },
   {
     "name": "Yue Sun",
@@ -105,7 +272,25 @@
     "url": "/faculty/yue-sun.html",
     "photo": "/media/units/soc/faculty/yue-sun.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Assistant Professor",
+    "office": "Saunders 209",
+    "email": "yuesun@hawaii.edu",
+    "phone": "(808) 956-4861",
+    "phoneHref": "+18089564861",
+    "links": [
+      {
+        "label": "Website/CV",
+        "url": "https://sites.google.com/view/ysun27/home"
+      }
+    ],
+    "publications": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=ukhR5hkAAAAJ&hl=en",
+        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+      }
+    ]
   },
   {
     "name": "Myungji Yang",
@@ -114,7 +299,19 @@
     "url": "/faculty/myungji-yang.html",
     "photo": "/media/units/soc/faculty/myungji-yang.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Saunders 216",
+    "email": "myang4@hawaii.edu",
+    "phone": "(808) 956-8362",
+    "phoneHref": "+18089568362",
+    "publications": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=hMNsjH0AAAAJ&hl=en",
+        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+      }
+    ]
   },
   {
     "name": "Wei Zhang",
@@ -123,6 +320,21 @@
     "url": "/faculty/wei-zhang.html",
     "photo": "/media/units/soc/faculty/wei-zhang.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Saunders 239",
+    "email": "weizhang@hawaii.edu",
+    "roles": [
+      "Interim Dean"
+    ],
+    "phone": "(808) 956-7689",
+    "phoneHref": "+18089567689",
+    "publications": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=EQnKam8AAAAJ&hl=en",
+        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+      }
+    ]
   }
 ]

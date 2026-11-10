@@ -5,7 +5,7 @@
 <h2 id="faculty-{{ person.slug | escape }}" class="profile-name">{{ person.name | escape }}</h2>
 </a>
 {% else %}
-{% if person.photo %}<img class="profile-photo photo-frame photo-frame-large" src="{{ person.photo | url }}" alt="{{ person.name | escape }}" width="{{ person.photoWidth | default(400) }}" height="{{ person.photoHeight | default(400) }}" decoding="async">{% endif %}
+{% if person.photo %}<img class="profile-photo photo-style" src="{{ person.photo | url }}" alt="{{ person.name | escape }}" width="{{ person.photoWidth | default(400) }}" height="{{ person.photoHeight | default(400) }}" decoding="async">{% endif %}
 <h1 class="profile-name">{{ person.name | escape }}</h1>
 {% endif %}
 {% if person.title or person.role or person.roles | length %}<div class="profile-titles">
