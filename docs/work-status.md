@@ -2,6 +2,28 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
+## Latest completed task: GEO settings standardization
+
+- Added explicit hero height/overlay/visibility controls and Open Graph image
+  settings in shared `src/data/units/geo/site-settings.json`. Moved site URL from
+  GEO unit-details to site-settings. Used the user's existing `geo.jpg` asset.
+- Preserved satellite assignments, crop positions, 210/187.5/90px heights, location
+  labels, and attribution. Shared CSS defaults remain compatibility fallbacks.
+- GEO's older Eleventy configuration lacked `socialUrl`; added the same helper as
+  the shared unit build. Shared checks and GEO's 32-page build passed. Checked
+  generated image URL/asset and hero heights, location and credit output.
+- Changes are local; no commit/push/deployment performed. Existing user edits to
+  other units' settings and Open Graph assets were preserved.
+
+## Latest agreed direction: shared hero image pool
+
+Default heroes across sites come from a shared pool of student/youth/campus images,
+not bespoke unit imagery. Custom unit imagery is optional when suitable images are
+reasonably obtainable. Geography's satellite treatment may be revisited, but no
+replacement is authorized. User is preparing assets from a CSS backup; wait for
+those assets and assignment instructions. Heights 210/180/150 are under
+consideration; no current settings or assets changed. Recorded in conventions.
+
 ## Current task: Sociology draft
 
 - Built `../soc` using the reviewed Navigation Review/SOC workbook and user walkthrough.

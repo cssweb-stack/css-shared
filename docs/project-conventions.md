@@ -90,3 +90,30 @@ Review whether URL changes can be avoided before deciding on redirects or remova
 Do not create HTML redirect pages by default; the user explicitly wants to avoid
 them. Hosting redirect support is not assumed. An inventory records proposed
 mappings and is not evidence that redirects have been installed.
+
+## Hero imagery across sites
+
+Agreed November 10, 2026: unit-specific hero photography is not the default.
+Use a common pool of generic student, youth, and campus imagery across sites.
+Assign images from that pool to individual pages through their hero JSON records;
+shared-pool images should live in shared media rather than be duplicated per unit.
+A unit may receive custom imagery when it supplies suitable images or proposes
+images that are reasonably obtainable. Do not invent a bespoke visual theme for
+every department. Geography's satellite imagery is an existing exception whose
+future treatment remains undecided; do not replace it without direction.
+
+The user is collecting images from the College of Social Sciences backup for
+possible batch resizing and later assignment. Responsive display heights of
+210px desktop / 180px tablet / 150px mobile are a proposed direction, not yet an
+instruction to change current settings or resize assets. Choose source dimensions
+with viewport width, crop, and display density in mind; display height alone does
+not determine the required image resolution.
+
+Geography now explicitly defines hero controls and Open Graph in its unit
+`site-settings.json`, including the site URL (moved from `unit-details.json`).
+Its preserved standard hero treatment is 210/187.5/90px with transparent overlay,
+location labels and attribution enabled. Uses `/media/open-graph/geo.jpg` at
+1200 by 630. Shared CSS fallback values remain for compatibility; GEO's explicit
+JSON values override them. Page image assignments and credits remain in hero data,
+as with other units; do not duplicate them in site settings. GEO's legacy build
+registers the same `socialUrl` helper as the common unit build.

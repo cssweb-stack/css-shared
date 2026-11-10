@@ -1,9 +1,32 @@
 {
-"facultyBasePath": "/faculty/",
-"stylesheet": "/geo.css",
-"canonicalSections": [
-"/graduate/",
-"/undergraduate/"
-],
-"indexingEnabled": false
+  "facultyBasePath": "/faculty/",
+  "stylesheet": "/geo.css",
+  "canonicalSections": [
+    "/graduate/",
+    "/undergraduate/"
+  ],
+  "indexingEnabled": false,
+  "url": "https://geography.manoa.hawaii.edu",
+  "openGraph": {
+    "image": "/media/open-graph/geo.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "Students studying a map, with GEO lettering."
+  },
+  "hero": {
+    "enabled": true,
+    "variant": "standard",
+    "height": {
+      "desktop": 210,
+      "tablet": 187.5,
+      "mobile": 90
+    },
+    "decorative": false,
+    "showLocation": true,
+    "showAttribution": true,
+    "overlay": {
+      "color": "transparent",
+      "opacity": 0
+    }
+  }
 }
