@@ -51,25 +51,12 @@ border-left-color: var(--color-gold);
 background: var(--surface-gold);
 }
 
-/* Course resource panel; layout comes from the shared grid. */
-.course-resources {
-padding: 1.5rem;
-background: var(--surface-neutral);
-border-radius: var(--frame-radius);
-}
-
 /* Keep the three links equal-height when the prefix instruction wraps. */
 .course-resources .button {
 height: 100%;
 width: 100%;
 font-size: 1rem;
 font-weight: 500;
-}
-
-@media (max-width: 767.98px) {
-.course-resources {
-padding: 1.25rem;
-}
 }
 
 /* Callout typography */
