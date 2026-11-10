@@ -21,5 +21,5 @@ profiles. Existing hero height/overlay settings remain in `site-settings.json`.
 These banners are currently decorative and hidden from screen readers.
 
 `faculty/main.webp` and `faculty/associated.webp` are fixed directory banners,
-currently assigned to GEO and PUBA. Do not include them in the random student or
+currently assigned to PUBA only. GEO retains its satellite imagery. Do not include them in the random student or
 mural pools. Before removing a bank image, update every referencing assignment.

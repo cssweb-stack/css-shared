@@ -2,19 +2,27 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
-## Latest completed task: renamed student bank and faculty directory images
+## Latest completed task: faculty murals for SOC, PSY, and PUBA only
 
-- Updated PSY/SOC student hero paths from `shared/` to `students/`, preserving
-  existing image selections and all individual profile mural assignments.
-- GEO/PUBA `/faculty/` now uses `faculty/main.webp`; their Associated Faculty
-  pages use `faculty/associated.webp`. Removed obsolete per-image satellite
-  locations/credits from those GEO directory assignments. No other GEO/PUBA
-  images or SSRI assignments changed.
-- Updated PSY/SOC image collection validation and documented fixed directory
-  assignments and image retirement. All four affected sites built successfully;
-  PSY/SOC verification and shared checks passed. Checked the four directory pages
-  render their assigned photos without obsolete location labels/credits.
-- Local changes only; no commit, push, or deployment performed by this task.
+- SOC (14) and PSY (21) already used stable randomized Saunders murals; retained
+  those assignments. Moved PUBA's six profile entries out of `heroes.json` into
+  a new `faculty-heroes.json`, assigning six distinct random Saunders murals.
+- PUBA Main/Associated directory banners remain fixed. Geography's person-specific
+  satellite assignments were not edited; SSRI also unchanged in this task.
+- All three builds passed, SOC/PSY checks passed, shared checks passed, and all
+  41 rendered profile pages were checked against their saved mural assignments.
+- Changes local only; no commit, push, or deployment performed.
+
+## Earlier correction: preserve Geography satellite imagery
+
+- User clarified that the fixed `faculty/main.webp` and `faculty/associated.webp`
+  directory banners apply to PUBA only. Restored GEO `/faculty/` to Kaunakakai,
+  Molokaʻi and `/faculty/associated.html` to Ulaanbaatar, Mongolia, including
+  original location labels and inherited satellite attribution.
+- PUBA directory assignments and PSY/SOC renamed student bank paths remain as set.
+- Corrected conventions and media documentation so this exception is explicit.
+- GEO build and satellite/credit output checks passed; shared checks passed.
+  Changes local; no push or deployment by this task.
 
 ## Earlier completed task: Psychology and Sociology hero assignment
 

@@ -127,11 +127,20 @@ paths. Do not shuffle on page load or rebuild. Use “Students at the University
 Hawaiʻi at Mānoa” as the shared-bank description; preserve decorative semantics.
 
 The student bank folder was renamed from `shared/` to `students/`; PSY and SOC
-assignments now use that path without reshuffling. GEO and PUBA faculty directory
-pages have fixed images: `/faculty/` uses `/media/heroes/faculty/main.webp`;
-`/faculty/associated.html` uses `/media/heroes/faculty/associated.webp`. These
-assignments live in each unit's `heroes.json` and must be excluded from future
-randomization. No old satellite location labels or satellite credits apply to
-these two directory photos. Other GEO/PUBA pages retain their existing images.
+assignments now use that path without reshuffling. PUBA alone uses the fixed
+faculty directory images: `/faculty/` uses `/media/heroes/faculty/main.webp` and
+`/faculty/associated.html` uses `/media/heroes/faculty/associated.webp`.
+These assignments live in PUBA's `heroes.json` and are excluded from randomization.
+Correction: GEO was briefly included in this change, then explicitly excluded by
+the user. GEO retains its established satellite imagery, including Kaunakakai on
+its main faculty directory and Ulaanbaatar on Associated Faculty, with location
+labels and inherited satellite credits. Do not apply PUBA directory imagery to GEO.
 When retiring bank images, replace all active JSON references before deleting
 files; adding an image does not automatically change existing saved assignments.
+
+Faculty profile mural assignments apply to Sociology, Psychology, and PUBA only:
+use their separate `faculty-heroes.json` files, with stable randomized choices
+from Saunders murals. PUBA's six profiles now use six distinct murals. Retain
+existing randomized SOC/PSY assignments unless reshuffling is requested. GEO is
+explicitly excluded: its person-specific satellite imagery must stay intact.
+PUBA's fixed Main/Associated directory banners remain separate from its profiles.

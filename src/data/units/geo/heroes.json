@@ -81,16 +81,14 @@
       "alt": "Satellite imagery of Kailua-Kona, Hawaiʻi Island"
     },
     "/faculty/": {
-      "image": "/media/heroes/faculty/main.webp",
-      "position": "center center",
-      "alt": "Black-and-white detail of campus building columns and palm trees at the University of Hawaiʻi at Mānoa.",
-      "credit": false
+      "image": "/media/heroes/kaunakakai-molokai.webp",
+      "location": "Kaunakakai, Molokaʻi, Hawaiʻi",
+      "alt": "Satellite imagery of Kaunakakai, Molokaʻi, Hawaiʻi"
     },
     "/faculty/associated.html": {
-      "image": "/media/heroes/faculty/associated.webp",
-      "position": "center center",
-      "alt": "Black-and-white view of Hawaiʻi Hall and palm trees at the University of Hawaiʻi at Mānoa.",
-      "credit": false
+      "image": "/media/heroes/ulaanbaatar-mongolia.webp",
+      "location": "Ulaanbaatar, Mongolia",
+      "alt": "Satellite imagery of Ulaanbaatar, Mongolia"
     },
     "/support-geo/": {
       "image": "/media/heroes/north-lanai-lanai.webp",
