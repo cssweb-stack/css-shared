@@ -16,9 +16,12 @@ Updated November 10, 2026 (Pacific/Honolulu).
 - Shared checks and SOC root/prefix builds and validation passed. No browser visual
   review or publication. Local preview responds HTTP 200 at `http://localhost:8086/`. A local Git
   repository has `origin` set to `https://github.com/cssweb-stack/soc.git`.
-  GitHub has a `main` branch. Local HEAD observed as `a60e8b2`; remote main observed
-  as `c7db1f8`. Histories have not yet been fetched/reconciled by this task. No push
-  or deployment was performed by this task.
+  Old remote and rebuilt local histories were reconciled with a merge retaining the
+  rebuilt site's exact file tree. Backup branches preserve both prior tips:
+  `backup/soc-before-history-reconciliation` and `backup/soc-previous-github`.
+  Local `main` tracks `origin/main`; checked as 2 commits ahead, 0 behind after
+  reconciliation. User can now push normally from GitHub Desktop. No push or
+  deployment was performed by this task.
 
 ## Earlier completed work
 
