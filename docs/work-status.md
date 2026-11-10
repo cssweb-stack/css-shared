@@ -2,7 +2,18 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
-## Latest completed task: two-section faculty directory pages
+## Latest completed task: faculty contact presentation
+
+- Added shared office row treatment using door-open SVG and `profile-contact-item`,
+  aligned with email/phone icon rows. Office is text, not a fake link.
+- Directory cards no longer display keywords; shared faculty JSON is unchanged and
+  individual profiles still display keywords. Verified on all 10 GEO profiles.
+- Profile name links inherit normal shared link styling. Existing details, photos,
+  and hero assignments retained. Other sites' minimal cards have no keywords yet.
+- All four builds and PSY/SOC checks passed; shared checks passed. Checked office
+  output and retained profile keywords. No visual browser QA or deployment.
+
+## Earlier completed task: two-section faculty directory pages
 
 - GEO, PUBA, PSY, and SOC main faculty pages now have two explicit sections:
   title/brief intro on white, then a full-width gray section containing the shared

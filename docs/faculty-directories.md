@@ -21,7 +21,7 @@ visible names, titles, phone numbers, and directory details remain future work.
 
 GEO uses the same include with `facultyDirectoryDetails = true`; it renders the
 existing shared `profile-card.njk` within the new grid. This preserves GEO's names,
-roles, contact details, and research interests, and reuses its existing faculty data
+roles and contact details, and reuses its existing faculty data
 and local portrait paths. GEO portrait centralization has not been performed.
 Neither directory implementation changes any hero assignments.
 
@@ -55,3 +55,7 @@ content width, so its background spans the screen while the portrait grid stays
 aligned to normal content columns. Working text lists remain in that gray section.
 GEO now owns these sections explicitly too; its directory cards retain their details.
 Individual faculty biography pages are not changed by this directory treatment.
+
+Directory cards omit research keywords; those remain in data and appear on
+individual profiles. Office rows use the shared door-open icon treatment alongside
+email and telephone. Linked names inherit the standard shared blue link styling.

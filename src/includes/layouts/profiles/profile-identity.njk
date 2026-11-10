@@ -13,4 +13,4 @@
 {% if person.role %}<p class="profile-admin-title">{{ person.role | escape }}</p>{% endif %}
 </div>{% endif %}
 {% include "layouts/profiles/profile-contact.njk" %}
-{% if person.keywords | length %}<p class="profile-interests">{{ person.keywords | join(', ') | escape }}</p>{% endif %}
+{% if profileView != "directory" and person.keywords | length %}<p class="profile-interests">{{ person.keywords | join(', ') | escape }}</p>{% endif %}
