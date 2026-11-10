@@ -21,8 +21,8 @@
     "showLocation": false,
     "showAttribution": false,
     "overlay": {
-      "color": "var(--uh-green)",
-      "opacity": 0.50
+      "color": "var(--sepia)",
+      "opacity": 0.11
     }
   }
 }
