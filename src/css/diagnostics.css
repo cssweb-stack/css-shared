@@ -16,7 +16,8 @@ box-shadow: inset 3px 0 pink, inset -3px 0 pink;
 box-shadow: inset 0 0 0 3px pink;
 }
 
-/* Footer inners: pink on all four sides. */
+/* Hero-credit and footer inners: pink on all four sides. */
+.hero-attribution > .container,
 .site-footer .container {
 box-shadow: inset 0 0 0 3px pink;
 }
@@ -28,6 +29,7 @@ box-shadow: inset 0 0 0 3px pink;
 .uh-brand .row > [class*="col-"],
 .unit-name .row > [class*="col-"],
 .unit-nav .row > [class*="col-"],
+.hero-attribution .row > [class*="col-"],
 .site-footer .row > [class*="col-"]:not(:has(> .row)),
 .site-main :is(.grid-welcome, .grid-two, .grid-three, .grid-four, .grid-five,
 .grid-profile, .grid-standard, .grid-compact, .grid-advisors) > * {

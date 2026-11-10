@@ -5,7 +5,11 @@
 {% if assignedHero and assignedHero.credit != false and site.hero.showAttribution != false and heroCredit.source and heroCredit.url %}
 <aside class="hero-attribution" aria-label="Banner photo credit">
 <div class="container hero-attribution-inner">
+<div class="row gx-0 gx-sm-5 gx-lg-5">
+<div class="col-12">
 <p><span class="hero-attribution-label">Banner photo:</span> <a href="{{ heroCredit.url }}">{{ heroCredit.source | escape }}</a></p>
+</div>
+</div>
 </div>
 </aside>
 {% endif %}

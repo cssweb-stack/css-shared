@@ -57,13 +57,13 @@ Updated November 10, 2026 (Pacific/Honolulu).
 - Shared directory automatically renders detailed cards when a record has details;
   no PUBA page-source edit needed. Other sites with minimal records stay image-only.
 - PUBA/GEO builds and shared checks passed. Verified all six rendered records,
-  door-open office icons, mailto/tel links, and exactly Helen's two role lines.
+  plain-text office locations, mailto/tel links, and exactly Helen's two role lines.
   Local changes only; no push/deployment. Individual biographies unchanged.
 
 ## Earlier completed task: faculty contact presentation
 
-- Added shared office row treatment using door-open SVG and `profile-contact-item`,
-  aligned with email/phone icon rows. Office is text, not a fake link.
+- Standardized faculty office rows as plain text without an icon; email and phone
+  retain their shared linked icon treatment.
 - Directory cards no longer display keywords; shared faculty JSON is unchanged and
   individual profiles still display keywords. Verified on all 10 GEO profiles.
 - Profile name links inherit normal shared link styling. Existing details, photos,

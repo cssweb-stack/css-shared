@@ -178,9 +178,8 @@ Faculty directory cards omit research keywords/interests. Keep the keyword data
 and show it on individual profiles; do not delete it during directory cleanup.
 Faculty name links use the normal shared link color/underline, without black or
 green component overrides. Shared profile contact markup renders office information
-with the door-open icon and reusable `profile-contact-item` styling aligned with
-email/telephone rows; office text remains non-interactive. Icons are decorative,
-and a visually hidden Office label provides context. Further spacing is deferred.
+as plain, non-interactive text. Email and telephone retain their linked icon
+treatment. Further spacing is deferred.
 
 Faculty identity records are unit-specific. A person affiliated with multiple
 units may have separate records with different roles, offices, or contact details.

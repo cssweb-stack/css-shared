@@ -56,7 +56,6 @@ font-style: normal;
 margin: 0;
 }
 
-.profile-contact-item,
 .profile-contact-link {
 display: inline-flex;
 align-items: center;
@@ -68,20 +67,17 @@ min-height: 44px;
 padding: 0.25rem 0.375rem;
 }
 
-.profile-contact-item > span,
 .profile-contact-link > span {
 min-width: 0;
 overflow-wrap: anywhere;
 }
 
-.profile-contact-item > .profile-contact-icon,
 .profile-contact-link > .profile-contact-icon {
 display: inline-flex;
 flex: 0 0 1rem;
 align-self: center;
 }
 
-.profile-contact-item svg,
 .profile-contact-link svg {
 width: 1rem;
 height: 1rem;

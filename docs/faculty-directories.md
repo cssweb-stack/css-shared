@@ -59,8 +59,8 @@ GEO now owns these sections explicitly too; its directory cards retain their det
 Individual faculty biography pages are not changed by this directory treatment.
 
 Directory cards omit research keywords; those remain in data and appear on
-individual profiles. Office rows use the shared door-open icon treatment alongside
-email and telephone. Linked names inherit the standard shared blue link styling.
+individual profiles. Office rows use plain text; email and telephone retain their
+linked icons. Linked names inherit the standard shared blue link styling.
 
 PUBA now has populated academic titles, offices, emails and phone numbers. The shared
 directory selects detailed cards automatically when a record has these fields;
