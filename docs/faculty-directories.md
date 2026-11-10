@@ -59,3 +59,9 @@ Individual faculty biography pages are not changed by this directory treatment.
 Directory cards omit research keywords; those remain in data and appear on
 individual profiles. Office rows use the shared door-open icon treatment alongside
 email and telephone. Linked names inherit the standard shared blue link styling.
+
+PUBA now has populated academic titles, offices, emails and phone numbers. The shared
+directory selects detailed cards automatically when a record has these fields;
+GEO's explicit detail flag remains supported. `roles` is an optional array for
+multiple administrative titles (Helen H. Yu: Director and Graduate Chair). Legacy
+single `role` remains supported. Do not invent administrative roles for other people.

@@ -2,7 +2,19 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
-## Latest completed task: faculty contact presentation
+## Latest completed task: PUBA faculty directory details
+
+- Entered user-provided academic titles, offices, telephone numbers and emails for
+  all six PUBA faculty in shared `src/data/units/puba/faculty.json`.
+- Helen H. Yu alone has administrative titles: `roles: [Director, Graduate Chair]`.
+  Shared identity markup supports multiple roles while preserving GEO's legacy role.
+- Shared directory automatically renders detailed cards when a record has details;
+  no PUBA page-source edit needed. Other sites with minimal records stay image-only.
+- PUBA/GEO builds and shared checks passed. Verified all six rendered records,
+  door-open office icons, mailto/tel links, and exactly Helen's two role lines.
+  Local changes only; no push/deployment. Individual biographies unchanged.
+
+## Earlier completed task: faculty contact presentation
 
 - Added shared office row treatment using door-open SVG and `profile-contact-item`,
   aligned with email/phone icon rows. Office is text, not a fake link.

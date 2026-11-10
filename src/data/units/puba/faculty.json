@@ -6,7 +6,12 @@
     "url": "/faculty/maile-arvin.html",
     "photo": "/media/units/puba/faculty/maile-arvin.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Associate Professor",
+    "office": "George 340",
+    "phone": "(808) 956-4632",
+    "phoneHref": "+18089564632",
+    "email": "mailea2@hawaii.edu"
   },
   {
     "name": "Soyun Jeong",
@@ -15,7 +20,12 @@
     "url": "/faculty/soyun-jeong.html",
     "photo": "/media/units/puba/faculty/soyun-jeong.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Assistant Professor",
+    "office": "Saunders 406",
+    "phone": "(808) 956-7748",
+    "phoneHref": "+18089567748",
+    "email": "soyunj@hawaii.edu"
   },
   {
     "name": "Janet Jock",
@@ -24,7 +34,12 @@
     "url": "/faculty/janet-jock.html",
     "photo": "/media/units/puba/faculty/janet-jock.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Assistant Professor",
+    "office": "Saunders 404",
+    "phone": "(808) 956-7718",
+    "phoneHref": "+18089567718",
+    "email": "jjock@hawaii.edu"
   },
   {
     "name": "Steven W. Mumford",
@@ -33,7 +48,12 @@
     "url": "/faculty/steven-w-mumford.html",
     "photo": "/media/units/puba/faculty/steven-w-mumford.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Associate Professor",
+    "office": "Saunders 409",
+    "phone": "(808) 956-0978",
+    "phoneHref": "+18089560978",
+    "email": "steven.w.mumford@hawaii.edu"
   },
   {
     "name": "Gowun Park",
@@ -42,7 +62,12 @@
     "url": "/faculty/gowun-park.html",
     "photo": "/media/units/puba/faculty/gowun-park.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Assistant Professor",
+    "office": "Saunders 405",
+    "phone": "(808) 956-7060",
+    "phoneHref": "+18089567060",
+    "email": "gowunp@hawaii.edu"
   },
   {
     "name": "Helen H. Yu",
@@ -51,6 +76,15 @@
     "url": "/faculty/helen-h-yu.html",
     "photo": "/media/units/puba/faculty/helen-h-yu.webp",
     "photoWidth": 500,
-    "photoHeight": 500
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "Saunders 407",
+    "phone": "(808) 956-7375",
+    "phoneHref": "+18089567375",
+    "email": "helenyu@hawaii.edu",
+    "roles": [
+      "Director",
+      "Graduate Chair"
+    ]
   }
 ]
