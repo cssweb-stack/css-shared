@@ -2,7 +2,21 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
-## Latest completed task: SOC graduate-student portrait filenames
+## Latest completed task: SOC graduate-student directory
+
+- Added 12 supplied SOC records to centralized `graduate-students.json`, including
+  program, optional email, research interests, linked adviser, and centralized
+  portrait. Liam Burke and Kelly Duong intentionally have no email field value.
+- Replaced the imported hard-coded cohort markup with the same shared renderer and
+  two-section page treatment used by PSY and GEO. Added a broad SOC introduction;
+  the full name Yuka Takatsuka Koitabashi uses the existing normalized
+  `yuka-koitabashi.webp` portrait.
+- Validated all 12 records, portraits, and adviser pages. Shared checks, SOC build,
+  50-page site verification, rendered-record checks, and whitespace checks passed.
+  No legacy cohort-media paths remain in the rendered page.
+- Changes are local only; no commit, push, or deployment performed.
+
+## Earlier completed task: SOC graduate-student portrait filenames
 
 - Normalized all 12 newly supplied SOC cohort portraits to lowercase, hyphenated
   student names; removed imported hash prefixes and the duplicated trailing

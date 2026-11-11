@@ -117,8 +117,8 @@ array length, links only advisers with real profile URLs, and uses one standard
 3/9 sidebar/content row per student. Unit portraits live centrally under
 `src/media/units/<unit>/graduate-students/`; do not import images automatically.
 
-PSY and GEO cohort records and portraits now follow this shared model. PSY's
-cohort page uses the shared renderer instead of its imported hard-coded roster.
+PSY, GEO, and SOC cohort records and portraits now follow this shared model. PSY
+and SOC cohort pages use the shared renderer instead of imported hard-coded rosters.
 
 ## Hero imagery across sites
 

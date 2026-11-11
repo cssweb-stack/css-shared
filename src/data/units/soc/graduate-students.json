@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Amanda Bonesteel-Kratt",
+    "lastName": "Bonesteel-Kratt",
+    "slug": "amanda-bonesteel-kratt",
+    "program": "PhD",
+    "studyArea": "",
+    "email": "aboneste@hawaii.edu",
+    "research": "Medical Sociology, Public Health, the Politics of Health, Political Science, Human Behavior, Misinformation Implications",
+    "advisors": [{ "name": "Krysia Mossakowski", "url": "/faculty/krysia-mossakowski.html" }],
+    "photo": "/media/units/soc/graduate-students/amanda-bonesteel-kratt.webp"
+  },
+  {
+    "name": "Liam Burke",
+    "lastName": "Burke",
+    "slug": "liam-burke",
+    "program": "PhD",
+    "studyArea": "",
+    "email": "",
+    "research": "Race and Ethnicity in Hawaiʻi",
+    "advisors": [{ "name": "Jennifer Darrah", "url": "/faculty/jennifer-darrah.html" }],
+    "photo": "/media/units/soc/graduate-students/liam-burke.webp"
+  },
+  {
+    "name": "Kelly Duong",
+    "lastName": "Duong",
+    "slug": "kelly-duong",
+    "program": "PhD",
+    "studyArea": "",
+    "email": "",
+    "research": "Medical Sociology, Adverse Childhood Experiences Across the Life Course, Gender/Sex Differences in Health, Quantitative Research Methods",
+    "advisors": [{ "name": "Wei Zhang", "url": "/faculty/wei-zhang.html" }],
+    "photo": "/media/units/soc/graduate-students/kelly-duong.webp"
+  },
+  {
+    "name": "Kotone Ishida",
+    "lastName": "Ishida",
+    "slug": "kotone-ishida",
+    "program": "PhD",
+    "studyArea": "",
+    "email": "kotonei@hawaii.edu",
+    "research": "Political Sociology, STS, Feminist STS, Gender, Japan",
+    "advisors": [{ "name": "Aya Kimura", "url": "/faculty/aya-kimura.html" }],
+    "photo": "/media/units/soc/graduate-students/kotone-ishida.webp"
+  },
+  {
+    "name": "Matthieu Kalua",
+    "lastName": "Kalua",
+    "slug": "matthieu-kalua",
+    "program": "PhD",
+    "studyArea": "",
+    "email": "mkalua4@hawaii.edu",
+    "research": "Medical Sociology, Reproductive Violence, Sexual/Gender Based Violence, Pregnancy and Childbirth, Maternal Mental Health, Feminist Theory and Methods",
+    "advisors": [{ "name": "Krysia Mossakowski", "url": "/faculty/krysia-mossakowski.html" }],
+    "photo": "/media/units/soc/graduate-students/matthieu-kalua.webp"
+  },
+  {
+    "name": "Yuka Takatsuka Koitabashi",
+    "lastName": "Koitabashi",
+    "slug": "yuka-takatsuka-koitabashi",
+    "program": "MA",
+    "studyArea": "",
+    "email": "yukak7@hawaii.edu",
+    "research": "Gender Inequality, Social Conformity, Work-Family Balance, Migration and Diaspora, and Cross-Cultural Research in Japan and Hawaiʻi",
+    "advisors": [{ "name": "Sun-Ki Chai", "url": "/faculty/sun-ki-chai.html" }],
+    "photo": "/media/units/soc/graduate-students/yuka-koitabashi.webp"
+  },
+  {
+    "name": "Jaeho Kook",
+    "lastName": "Kook",
+    "slug": "jaeho-kook",
+    "program": "PhD",
+    "studyArea": "",
+    "email": "jkook@hawaii.edu",
+    "research": "Critical Theory of Technology, Science and Technology Studies (STS), Sociology of Sports, Globalization, Football (Soccer), Video Assistant Referee (VAR), Electronic Performance Tracking System (EPTS)",
+    "advisors": [{ "name": "Le Lin", "url": "/faculty/le-lin.html" }],
+    "photo": "/media/units/soc/graduate-students/jaeho-kook.webp"
+  },
+  {
+    "name": "S. M. Anowarul Kayes Shimul",
+    "lastName": "Shimul",
+    "slug": "s-m-anowarul-kayes-shimul",
+    "program": "PhD",
+    "studyArea": "",
+    "email": "shimul@hawaii.edu",
+    "research": "Environmental Justice, STS, Political Ecology, Sustainability",
+    "advisors": [{ "name": "Aya Kimura", "url": "/faculty/aya-kimura.html" }],
+    "photo": "/media/units/soc/graduate-students/s-m-anowarul-kayes-shimul.webp"
+  },
+  {
+    "name": "Carlie Peterson-Mosher",
+    "lastName": "Peterson-Mosher",
+    "slug": "carlie-peterson-mosher",
+    "program": "MA",
+    "studyArea": "",
+    "email": "carlier@hawaii.edu",
+    "research": "Criminology, Deviance and Social Control, Gender, Feminism",
+    "advisors": [{ "name": "Katherine Irwin", "url": "/faculty/katherine-irwin.html" }],
+    "photo": "/media/units/soc/graduate-students/carlie-peterson-mosher.webp"
+  },
+  {
+    "name": "Aya Shirayama",
+    "lastName": "Shirayama",
+    "slug": "aya-shirayama",
+    "program": "PhD",
+    "studyArea": "",
+    "email": "ayashira@hawaii.edu",
+    "research": "Ethnicity, Identity, Diaspora, Food, Indigenous Sociology, Okinawans, Asia-Pacific, Qualitative Research",
+    "advisors": [{ "name": "Aya Kimura", "url": "/faculty/aya-kimura.html" }],
+    "photo": "/media/units/soc/graduate-students/aya-shirayama.webp"
+  },
+  {
+    "name": "Caprielle Woehr",
+    "lastName": "Woehr",
+    "slug": "caprielle-woehr",
+    "program": "PhD",
+    "studyArea": "",
+    "email": "woehr@hawaii.edu",
+    "research": "Environmental Sociology, Political Ecology, Agriculture & Food, Community Formation, Qualitative Research",
+    "advisors": [{ "name": "Aya Kimura", "url": "/faculty/aya-kimura.html" }],
+    "photo": "/media/units/soc/graduate-students/caprielle-woehr.webp"
+  },
+  {
+    "name": "Tingyan Zhu",
+    "lastName": "Zhu",
+    "slug": "tingyan-zhu",
+    "program": "PhD",
+    "studyArea": "",
+    "email": "tzhu@hawaii.edu",
+    "research": "Food Studies, Economic and Organizational Sociology, Consumption, Tourism, China Studies, Human-Animal Studies, Qualitative Research",
+    "advisors": [{ "name": "Le Lin", "url": "/faculty/le-lin.html" }],
+    "photo": "/media/units/soc/graduate-students/tingyan-zhu.webp"
+  }
+]
