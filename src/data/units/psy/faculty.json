@@ -11,7 +11,19 @@
     "office": "Sakamaki C404",
     "phone": "(808) 956-0680",
     "phoneHref": "+18089560680",
-    "email": "sakaria4@hawaii.edu"
+    "email": "sakaria4@hawaii.edu",
+    "websites": [
+      {
+        "label": "Faculty/Lab Website",
+        "url": "https://sites.google.com/view/sakaria-auelua-toomey/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=LshNRJ0AAAAJ&hl=en&authuser=1"
+      }
+    ]
   },
   {
     "name": "Charlene Baker",
@@ -28,6 +40,16 @@
     "email": "bakercha@hawaii.edu",
     "roles": [
       "Department Chair"
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=wD_nuvQAAAAJ&hl=en"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Charlene-Baker"
+      }
     ]
   },
   {
@@ -46,6 +68,26 @@
     "roles": [
       "Associate Dean for Research",
       "Director of SSRI"
+    ],
+    "websites": [
+      {
+        "label": "Faculty Website",
+        "url": "https://www.jackbarile.com/"
+      },
+      {
+        "label": "Research Lab",
+        "url": "https://www.uhecolab.com/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=Zmku5YIAAAAJ&hl=en"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/John_Barile"
+      }
     ]
   },
   {
@@ -60,7 +102,17 @@
     "office": "PBRC 212",
     "phone": "(808) 956-4761",
     "phoneHref": "+18089564761",
-    "email": "patc@hawaii.edu"
+    "email": "patc@hawaii.edu",
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?hl=en&user=kJ2UrLAAAAAJ"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Patricia-Couvillon"
+      }
+    ]
   },
   {
     "name": "Patrick Goh",
@@ -74,7 +126,23 @@
     "office": "Sakamaki D405",
     "phone": "(808) 956-6708",
     "phoneHref": "+18089566708",
-    "email": "pgoh@hawaii.edu"
+    "email": "pgoh@hawaii.edu",
+    "websites": [
+      {
+        "label": "Lab Website",
+        "url": "https://sites.google.com/view/bao-lab"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=hkzhxygAAAAJ&hl=en"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Patrick-Goh-3"
+      }
+    ]
   },
   {
     "name": "Krista A. Haapanen",
@@ -88,7 +156,21 @@
     "office": "Sakamaki C411",
     "phone": "(808) 956-3695",
     "phoneHref": "+18089563695",
-    "email": "haapanen@hawaii.edu"
+    "email": "haapanen@hawaii.edu",
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=t8TwI4sAAAAJ&hl=en&oi=ao"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0002-5014-3363"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Krista-Haapanen-2"
+      }
+    ]
   },
   {
     "name": "Cassandra L. Hendrix",
@@ -102,7 +184,23 @@
     "office": "Sakamaki C204C",
     "phone": "(808) 956-6271",
     "phoneHref": "+18089566271",
-    "email": "clhendr@hawaii.edu"
+    "email": "clhendr@hawaii.edu",
+    "websites": [
+      {
+        "label": "REEF Lab Website",
+        "url": "https://www.hendrix-lab.com/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=rYZ7U7wAAAAJ&hl=en"
+      },
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=cassandra+hendrix"
+      }
+    ]
   },
   {
     "name": "I sak Kim",
@@ -130,7 +228,17 @@
     "office": "Sakamaki C407",
     "phone": "(808) 956-6106",
     "phoneHref": "+18089566106",
-    "email": "jlatner@hawaii.edu"
+    "email": "jlatner@hawaii.edu",
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?hl=en&user=TqLOEAMAAAAJ"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Janet_Latner"
+      }
+    ]
   },
   {
     "name": "Arkadiy Maksimovskiy",
@@ -144,7 +252,17 @@
     "office": "Sakamaki D403",
     "phone": "(808) 956-6672",
     "phoneHref": "+18089566672",
-    "email": "arkadiym@hawaii.edu"
+    "email": "arkadiym@hawaii.edu",
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=rcqt80EAAAAJ&hl=en&oi=ao"
+      },
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=maksimovskiy"
+      }
+    ]
   },
   {
     "name": "Akihiko Masuda",
@@ -158,7 +276,13 @@
     "office": "Sakamaki D409",
     "phone": "(808) 956-0287",
     "phoneHref": "+18089560287",
-    "email": "amasuda4@hawaii.edu"
+    "email": "amasuda4@hawaii.edu",
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=18YCSQ0AAAAJ&hl=en"
+      }
+    ]
   },
   {
     "name": "Ashley Maynard",
@@ -172,7 +296,19 @@
     "office": "Sakamaki C402",
     "phone": "(808) 956-7343",
     "phoneHref": "+18089567343",
-    "email": "amaynard@hawaii.edu"
+    "email": "amaynard@hawaii.edu",
+    "websites": [
+      {
+        "label": "Website",
+        "url": "http://www.ashleymaynard.com/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=-7VHK1kAAAAJ&hl=en"
+      }
+    ]
   },
   {
     "name": "Christina Moyer",
@@ -203,6 +339,26 @@
     "email": "bradn@hawaii.edu",
     "roles": [
       "C-CCBT Director"
+    ],
+    "websites": [
+      {
+        "label": "Faculty Website",
+        "url": "https://sites.google.com/hawaii.edu/brad-nakamura"
+      },
+      {
+        "label": "CCBT Website",
+        "url": "https://psychology.manoa.hawaii.edu/ccbt/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=Uf6zHdgAAAAJ&hl=en&oi=ao"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Brad-Nakamura"
+      }
     ]
   },
   {
@@ -220,6 +376,16 @@
     "email": "papaa@hawaii.edu",
     "roles": [
       "Director of Clinical Training"
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=fKUhf1sAAAAJ&hl=en"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Anthony_Papa"
+      }
     ]
   },
   {
@@ -234,7 +400,27 @@
     "office": "Sakamaki D411",
     "phone": "(808) 956-3644",
     "phoneHref": "+18089563644",
-    "email": "spapini@hawaii.edu"
+    "email": "spapini@hawaii.edu",
+    "websites": [
+      {
+        "label": "Targeted Interventions Lab",
+        "url": "https://sites.google.com/hawaii.edu/papini"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?hl=en&user=ykL53vEAAAAJ&view_op=list_works&sortby=pubdate"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Santiago_Papini"
+      },
+      {
+        "label": "NCBI Bibliography",
+        "url": "https://www.ncbi.nlm.nih.gov/myncbi/santiago.papini.2/bibliography/public/"
+      }
+    ]
   },
   {
     "name": "Kristin Pauker",
@@ -251,6 +437,40 @@
     "email": "kpauker@hawaii.edu",
     "roles": [
       "Graduate Chair"
+    ],
+    "websites": [
+      {
+        "label": "Lab Website",
+        "url": "http://manoa.hawaii.edu/isplab/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Academia.edu",
+        "url": "https://manoa-hawaii.academia.edu/KristinPauker"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=_ebC3tUAAAAJ&hl=en"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Kristin_Pauker"
+      },
+      {
+        "label": "NCBI Bibliography",
+        "url": "https://www.ncbi.nlm.nih.gov/sites/myncbi/kristin.pauker.1/bibliography/44065720/public/?sort=date&direction=ascending"
+      }
+    ],
+    "awards": [
+      {
+        "name": "Regents’ Medal for Excellence in Teaching",
+        "year": "2018"
+      },
+      {
+        "name": "Regents’ Medal for Excellence in Research",
+        "year": "2016"
+      }
     ]
   },
   {
@@ -265,7 +485,25 @@
     "office": "Sakamaki C405",
     "phone": "(808) 956-6673",
     "phoneHref": "+18089566673",
-    "email": "yjoni@hawaii.edu"
+    "email": "yjoni@hawaii.edu",
+    "websites": [
+      {
+        "label": "Lab Website",
+        "url": "https://cultureandreligionlab.weebly.com/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=qVIoGjMAAAAJ&hl=en"
+      }
+    ],
+    "awards": [
+      {
+        "name": "College of Social Sciences Award for Excellence in Teaching",
+        "year": "2021"
+      }
+    ]
   },
   {
     "name": "Scott Sinnett",
@@ -282,6 +520,24 @@
     "email": "ssinnett@hawaii.edu",
     "roles": [
       "Undergraduate Chair"
+    ],
+    "websites": [
+      {
+        "label": "Faculty Website",
+        "url": "https://sites.google.com/site/parlabsinnett/home"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.ca/citations?user=df_ac34AAAAJ&hl=en&oi=ao"
+      }
+    ],
+    "awards": [
+      {
+        "name": "Regents’ Medal for Excellence in Teaching",
+        "year": "2017"
+      }
     ]
   },
   {
@@ -296,7 +552,19 @@
     "office": "Sakamaki C204D",
     "phone": "(808) 956-2522",
     "phoneHref": "+18089562522",
-    "email": "vibell@hawaii.edu"
+    "email": "vibell@hawaii.edu",
+    "websites": [
+      {
+        "label": "Brain & Behavior Laboratory Website",
+        "url": "https://www.brainandbehaviorlab.com"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Jonas-Vibell-2"
+      }
+    ]
   },
   {
     "name": "Yiyuan Xu",
@@ -310,6 +578,12 @@
     "office": "Sakamaki C408",
     "phone": "(808) 956-6268",
     "phoneHref": "+18089566268",
-    "email": "yiyuan@hawaii.edu"
+    "email": "yiyuan@hawaii.edu",
+    "publicationProfiles": [
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Yiyuan_Xu"
+      }
+    ]
   }
 ]

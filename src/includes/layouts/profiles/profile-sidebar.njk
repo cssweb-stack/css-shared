@@ -1,16 +1,44 @@
 {% set profileView = "profile" %}
 {% include "layouts/profiles/profile-identity.njk" %}
-{% if person.links | length %}
-<ul class="profile-personal-links" aria-label="{{ person.name | escape }}: websites and social profiles">
-{% for link in person.links %}<li><a href="{{ link.url | escape }}">{{ link.label | escape }}<span class="visually-hidden"> — {{ person.name | escape }}</span></a></li>{% endfor %}
-</ul>
-{% endif %}
-{% if person.publications | length %}
+{% set websites = person.websites | default(person.links, true) %}
+{% set publicationProfiles = person.publicationProfiles | default(person.publications, true) %}
+{% set awards = person.awards | default([], true) %}
+{% set additionalLinks = person.additionalLinks | default([], true) %}
+{% if websites | length or publicationProfiles | length or awards | length or additionalLinks | length %}
 
-<section class="profile-publications" aria-labelledby="profile-publications-heading">
-<h2 id="profile-publications-heading">Browse My Publications</h2>
-<ul class="profile-publication-links">
-{% for publication in person.publications %}<li><a href="{{ publication.url | escape }}"><img src="{{ publication.image | url }}" alt="{{ person.name | escape }} on {{ publication.label | escape }}" width="450" height="96" loading="lazy" decoding="async"></a></li>{% endfor %}
+<div class="profile-supplemental">
+<hr class="profile-divider">
+{% if websites | length %}
+<section class="profile-supplemental-section" aria-labelledby="profile-websites-heading">
+<h2 id="profile-websites-heading">{% if websites | length == 1 %}Website{% else %}Websites{% endif %}</h2>
+<ul class="profile-supplemental-links profile-website-links">
+{% for website in websites %}<li><img class="profile-website-icon" src="{{ '/media/icons/globe.svg' | url }}" alt="" width="20" height="20" aria-hidden="true"><a href="{{ website.url | escape }}">{{ website.label | escape }}<span class="visually-hidden"> — {{ person.name | escape }}</span></a></li>{% endfor %}
 </ul>
 </section>
+{% endif %}
+{% if publicationProfiles | length %}
+<section class="profile-supplemental-section" aria-labelledby="profile-publications-heading">
+<h2 id="profile-publications-heading">Publications</h2>
+<ul class="profile-supplemental-links">
+{% for publication in publicationProfiles %}<li><a href="{{ publication.url | escape }}">{{ publication.label | escape }}<span class="visually-hidden"> — {{ person.name | escape }}</span></a></li>{% endfor %}
+</ul>
+</section>
+{% endif %}
+{% if awards | length %}
+<section class="profile-supplemental-section" aria-labelledby="profile-awards-heading">
+<h2 id="profile-awards-heading">Awards</h2>
+<ul class="profile-awards-list">
+{% for award in awards %}<li>{{ award.name | escape }}{% if award.year %} ({{ award.year | escape }}){% endif %}</li>{% endfor %}
+</ul>
+</section>
+{% endif %}
+{% if additionalLinks | length %}
+<section class="profile-supplemental-section" aria-labelledby="profile-additional-links-heading">
+<h2 id="profile-additional-links-heading">Additional Links</h2>
+<ul class="profile-supplemental-links">
+{% for link in additionalLinks %}<li><a href="{{ link.url | escape }}">{{ link.label | escape }}<span class="visually-hidden"> — {{ person.name | escape }}</span></a></li>{% endfor %}
+</ul>
+</section>
+{% endif %}
+</div>
 {% endif %}

@@ -127,40 +127,47 @@ font-size: 1.8rem;
 margin: 1rem 0 0.25rem;
 }
 
-.site-main .profile-personal-links {
-display: flex;
-flex-wrap: wrap;
-justify-content: flex-start;
-gap: 0.5rem 1rem;
-list-style: none;
-padding: 0;
-margin: 1rem 0 0;
+.profile-supplemental {
+margin-top: 1.5rem;
 }
 
-.site-main .profile-personal-links li {
+.site-main .profile-divider {
+margin: 0 0 1.5rem;
+}
+
+.profile-supplemental-section + .profile-supplemental-section {
+margin-top: 1.5rem;
+}
+
+.site-main .profile-supplemental-section h2 {
+font-size: 1.125rem;
+margin: 0 0 0.625rem;
+}
+
+.site-main .profile-supplemental-links,
+.site-main .profile-awards-list {
+display: grid;
+gap: 0.5rem;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.site-main .profile-supplemental-links li,
+.site-main .profile-awards-list li {
 margin: 0;
 overflow-wrap: anywhere;
 }
 
-.site-main .profile-publications h2 {
-font-size: 1.125rem;
-margin: 0 0 1.25rem;
+.site-main .profile-website-links li {
+display: flex;
+align-items: flex-start;
+gap: 0.5rem;
 }
 
-.site-main .profile-publication-links {
-display: grid;
-gap: 1rem;
-list-style: none;
-padding: 0;
-margin: 0;
-}
-
-.site-main .profile-publication-links li {
-margin: 0;
-}
-
-.profile-publication-links a {
-display: block;
+.profile-website-icon {
+flex: 0 0 auto;
+margin-top: 0.2em;
 }
 
 .profile-biography {
@@ -240,12 +247,6 @@ flex-basis: calc((100% - 2rem) / 2);
 flex-basis: 100%;
 max-width: 300px;
 }
-}
-
-.profile-publications {
-margin: 0;
-padding: 0;
-border: 0;
 }
 
 .site-main .profile-name {

@@ -2,7 +2,30 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
-## Latest completed task: PSY faculty details
+## Latest completed task: SOC graduate-student portrait filenames
+
+- Normalized all 12 newly supplied SOC cohort portraits to lowercase, hyphenated
+  student names; removed imported hash prefixes and the duplicated trailing
+  `Shimul`. Image contents and hashes are unchanged. No page or JSON references
+  were added in this filename-only cleanup. Shared checks passed.
+- Changes are local only; no commit, push, or deployment performed.
+
+## Earlier completed task: faculty supplemental profile data
+
+- Harvested and structured optional website, publication-profile, award, and
+  additional-link data for PSY and SOC; added verified active publication profiles
+  for PUBA. PUBA's export contains dormant ACF service labels with empty URL fields,
+  which are intentionally omitted.
+- Replaced the shared sidebar's old publication-logo treatment with conditional
+  text-link sections, a shared globe icon for websites, and plain-text awards.
+  Standardized “College of Social Sciences” award names.
+- Shared checks and PSY, PUBA, SOC, and GEO builds passed. Representative output,
+  empty supplemental states, and removal of old publication-logo markup passed;
+  SOC's 50-page verification passed. PSY verification completed with its existing
+  `support-psy.html` legacy-layout notice.
+- Changes are local only; no commit, push, or deployment performed.
+
+## Earlier completed task: PSY faculty details
 
 - Populated all 21 PSY faculty records with the supplied academic titles, offices,
   phone numbers and emails. Administrative roles are separate lines for Charlene,

@@ -12,11 +12,10 @@
     "email": "sunki@hawaii.edu",
     "phone": "(808) 956-7234",
     "phoneHref": "+18089567234",
-    "publications": [
+    "publicationProfiles": [
       {
         "label": "ResearchGate",
-        "url": "https://www.researchgate.net/profile/Sun_Ki_Chai",
-        "image": "/media/content/2a4a5ed1-logo-research-gate.png"
+        "url": "https://www.researchgate.net/profile/Sun_Ki_Chai"
       }
     ]
   },
@@ -36,11 +35,16 @@
     ],
     "phone": "(808) 956-7950",
     "phoneHref": "+18089567950",
-    "publications": [
+    "publicationProfiles": [
       {
         "label": "Google Scholar",
-        "url": "https://scholar.google.com/citations?user=46g5HMYAAAAJ&hl=en",
-        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+        "url": "https://scholar.google.com/citations?user=46g5HMYAAAAJ&hl=en"
+      }
+    ],
+    "awards": [
+      {
+        "name": "Regents’ Medal for Excellence in Teaching",
+        "year": "2019"
       }
     ]
   },
@@ -57,11 +61,10 @@
     "email": "kirwin@hawaii.edu",
     "phone": "(808) 956-7257",
     "phoneHref": "+18089567257",
-    "publications": [
+    "publicationProfiles": [
       {
         "label": "Google Scholar",
-        "url": "https://scholar.google.com/citations?hl=en&user=xgjb3aIAAAAJ",
-        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+        "url": "https://scholar.google.com/citations?hl=en&user=xgjb3aIAAAAJ"
       }
     ]
   },
@@ -92,22 +95,26 @@
     "email": "kimuraa@hawaii.edu",
     "phone": "(808) 956-2706",
     "phoneHref": "+18089562706",
-    "links": [
+    "websites": [
       {
         "label": "Website",
         "url": "https://ayakimura.weebly.com/"
       }
     ],
-    "publications": [
+    "publicationProfiles": [
       {
         "label": "Academia.edu",
-        "url": "https://manoa-hawaii.academia.edu/AyaKimura",
-        "image": "/media/content/337b803a-logo-academia-edu.png"
+        "url": "https://manoa-hawaii.academia.edu/AyaKimura"
       },
       {
         "label": "ResearchGate",
-        "url": "https://www.researchgate.net/profile/Aya_Kimura",
-        "image": "/media/content/2a4a5ed1-logo-research-gate.png"
+        "url": "https://www.researchgate.net/profile/Aya_Kimura"
+      }
+    ],
+    "awards": [
+      {
+        "name": "President’s Award in Outstanding Teaching in Sustainability",
+        "year": "2016"
       }
     ]
   },
@@ -124,7 +131,7 @@
     "email": "lelin@hawaii.edu",
     "phone": "(808) 956-8451",
     "phoneHref": "+18089568451",
-    "links": [
+    "additionalLinks": [
       {
         "label": "Curriculum Vitae (CV)",
         "url": "https://docs.google.com/document/d/1zVgllQmglvxHcFq_oKNUwmpmZtLICtr6vbAOgYPY1TQ/edit?usp=sharing"
@@ -144,16 +151,20 @@
     "email": "krysiam@hawaii.edu",
     "phone": "(808) 956-8416",
     "phoneHref": "+18089568416",
-    "publications": [
+    "publicationProfiles": [
       {
         "label": "Google Scholar",
-        "url": "https://scholar.google.com/citations?user=oAS8aWwAAAAJ&hl=en",
-        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+        "url": "https://scholar.google.com/citations?user=oAS8aWwAAAAJ&hl=en"
       },
       {
         "label": "ResearchGate",
-        "url": "https://www.researchgate.net/profile/Krysia_Mossakowski",
-        "image": "/media/content/2a4a5ed1-logo-research-gate.png"
+        "url": "https://www.researchgate.net/profile/Krysia_Mossakowski"
+      }
+    ],
+    "awards": [
+      {
+        "name": "Chancellor’s Citation for Meritorious Teaching",
+        "year": "2015"
       }
     ]
   },
@@ -170,17 +181,16 @@
     "email": "ejpaek@hawaii.edu",
     "phone": "(808) 956-4772",
     "phoneHref": "+18089564772",
-    "links": [
+    "additionalLinks": [
       {
         "label": "Curriculum Vitae (CV)",
         "url": "https://docs.google.com/document/d/1Bpl-aDwKHmVImJuvqYaWwHqdvmG2rSDBcJGxeMiD4uw/edit"
       }
     ],
-    "publications": [
+    "publicationProfiles": [
       {
         "label": "Google Scholar",
-        "url": "https://scholar.google.com/citations?user=Xw5zAaMAAAAJ&hl=en",
-        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+        "url": "https://scholar.google.com/citations?user=Xw5zAaMAAAAJ&hl=en"
       }
     ]
   },
@@ -198,26 +208,26 @@
     "roles": [
       "Graduate Chair"
     ],
-    "links": [
+    "websites": [
       {
         "label": "Website",
         "url": "https://ashleytrubin.com"
-      },
+      }
+    ],
+    "additionalLinks": [
       {
         "label": "Twitter",
         "url": "https://twitter.com/ashleytrubin"
       }
     ],
-    "publications": [
+    "publicationProfiles": [
       {
         "label": "Google Scholar",
-        "url": "https://scholar.google.com/citations?user=M48X9Z4AAAAJ&hl=en",
-        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+        "url": "https://scholar.google.com/citations?user=M48X9Z4AAAAJ&hl=en"
       },
       {
         "label": "ResearchGate",
-        "url": "https://www.researchgate.net/profile/Ashley_Rubin",
-        "image": "/media/content/2a4a5ed1-logo-research-gate.png"
+        "url": "https://www.researchgate.net/profile/Ashley_Rubin"
       }
     ]
   },
@@ -234,7 +244,7 @@
     "email": "nsharma@hawaii.edu",
     "phone": "(808) 956-8438",
     "phoneHref": "+18089568438",
-    "links": [
+    "websites": [
       {
         "label": "Website",
         "url": "http://nanditasharma.net/"
@@ -257,11 +267,10 @@
     ],
     "phone": "(808) 956-7117",
     "phoneHref": "+18089567117",
-    "publications": [
+    "publicationProfiles": [
       {
         "label": "Google Scholar",
-        "url": "https://scholar.google.com/citations?hl=en&user=FD6qzOMAAAAJ",
-        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+        "url": "https://scholar.google.com/citations?hl=en&user=FD6qzOMAAAAJ"
       }
     ]
   },
@@ -278,17 +287,16 @@
     "email": "yuesun@hawaii.edu",
     "phone": "(808) 956-4861",
     "phoneHref": "+18089564861",
-    "links": [
+    "websites": [
       {
         "label": "Website/CV",
         "url": "https://sites.google.com/view/ysun27/home"
       }
     ],
-    "publications": [
+    "publicationProfiles": [
       {
         "label": "Google Scholar",
-        "url": "https://scholar.google.com/citations?user=ukhR5hkAAAAJ&hl=en",
-        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+        "url": "https://scholar.google.com/citations?user=ukhR5hkAAAAJ&hl=en"
       }
     ]
   },
@@ -305,11 +313,10 @@
     "email": "myang4@hawaii.edu",
     "phone": "(808) 956-8362",
     "phoneHref": "+18089568362",
-    "publications": [
+    "publicationProfiles": [
       {
         "label": "Google Scholar",
-        "url": "https://scholar.google.com/citations?user=hMNsjH0AAAAJ&hl=en",
-        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+        "url": "https://scholar.google.com/citations?user=hMNsjH0AAAAJ&hl=en"
       }
     ]
   },
@@ -329,11 +336,20 @@
     ],
     "phone": "(808) 956-7689",
     "phoneHref": "+18089567689",
-    "publications": [
+    "publicationProfiles": [
       {
         "label": "Google Scholar",
-        "url": "https://scholar.google.com/citations?user=EQnKam8AAAAJ&hl=en",
-        "image": "/media/content/52f7ee56-logo-google-scholar.png"
+        "url": "https://scholar.google.com/citations?user=EQnKam8AAAAJ&hl=en"
+      }
+    ],
+    "awards": [
+      {
+        "name": "Regents’ Medal for Excellence in Teaching",
+        "year": "2022"
+      },
+      {
+        "name": "College of Social Sciences Award for Excellence in Teaching",
+        "year": "2012"
       }
     ]
   }

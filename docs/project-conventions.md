@@ -219,3 +219,14 @@ and check the other listing when a user explicitly requests a cross-unit change.
 Faculty portrait alt text is derived from the unit faculty record's `name` field
 in every directory and individual profile view. Do not maintain separate portrait
 alt fields or emit empty alt text for faculty portraits.
+
+Faculty profile supplemental content also lives in each unit's `faculty.json`.
+Use optional arrays named `websites`, `publicationProfiles`, `awards`, and
+`additionalLinks`. Website, publication-profile, and additional-link records use
+`{ label, url }`; award records use `{ name, year? }`. The shared sidebar renders
+only populated groups after the core identity block and a standard horizontal rule,
+with singular/plural Website headings as appropriate. Websites use the shared globe
+icon; publication profiles are linked service names without imported logo images;
+awards are unlinked text. Use full canonical award names, including “College of
+Social Sciences” rather than “CSS.” PSY, SOC, and PUBA now use this model. Legacy
+`links` and `publications` remain renderer fallbacks for unmigrated unit data only.

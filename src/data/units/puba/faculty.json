@@ -11,7 +11,17 @@
     "office": "George 340",
     "phone": "(808) 956-4632",
     "phoneHref": "+18089564632",
-    "email": "mailea2@hawaii.edu"
+    "email": "mailea2@hawaii.edu",
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=7XzQO4QAAAAJ&hl=en&oi=ao"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0009-0002-8141-0265"
+      }
+    ]
   },
   {
     "name": "Soyun Jeong",
@@ -53,7 +63,17 @@
     "office": "Saunders 409",
     "phone": "(808) 956-0978",
     "phoneHref": "+18089560978",
-    "email": "steven.w.mumford@hawaii.edu"
+    "email": "steven.w.mumford@hawaii.edu",
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?hl=en&user=gs42ROYAAAAJ"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0001-9765-4198"
+      }
+    ]
   },
   {
     "name": "Gowun Park",
@@ -85,6 +105,12 @@
     "roles": [
       "Director",
       "Graduate Chair"
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?hl=en&authuser=1&user=FN3DsLoAAAAJ"
+      }
     ]
   }
 ]
