@@ -1,0 +1,11 @@
+{% if contact_inquiries.entries | length %}
+<h2>{{ contact_inquiries.heading | default("Program Inquiries") | escape }}</h2>
+<table class="content-table" aria-label="{{ contact_inquiries.heading | default('Program Inquiries') | escape }}">
+<thead><tr><th scope="col">Inquiry</th><th scope="col">Email</th></tr></thead>
+<tbody>
+{% for inquiry in contact_inquiries.entries %}
+<tr><td>{{ inquiry.label | escape }}</td><td><a href="mailto:{{ inquiry.email | escape }}">{{ inquiry.email | escape }}</a></td></tr>
+{% endfor %}
+</tbody>
+</table>
+{% endif %}

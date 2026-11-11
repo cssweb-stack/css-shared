@@ -2,6 +2,16 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
+## November 11: POLS personal vs program email
+
+- Added Jamaica's supplied `osorio2@hawaii.edu` to shared faculty JSON and her
+  imported Contact listing. Moved undergraduate `polungrd@hawaii.edu` into central
+  contact-inquiries.json, rendered by one shared table include on Contact above
+  the people and on Undergraduate Advising. Removed the unmaintained hours link.
+- This establishes personal emails on people listings and separate program-inquiry
+  tables. Contact faculty/staff grid migration remains the next task.
+- Changes local; no commit, push, or deployment performed.
+
 ## Latest completed task: Ethnic Studies draft
 
 - Built `../es`: 26 pages, nine complete faculty sidebars/bios from custom fields,

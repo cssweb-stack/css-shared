@@ -180,6 +180,15 @@ PUBA's fixed Main/Associated directory banners remain separate from its profiles
 
 ## One faculty biography template
 
+Faculty bio, directory, and contact person listings always use that person's
+individual faculty email. Program or role inboxes belong in a separately labeled
+inquiry table on Contact and relevant advising/program pages, not as substitutes
+for a person's email. Store inquiry addresses centrally in the unit's
+`contact-inquiries.json` and render the shared `program-inquiries.njk` include.
+This supersedes the proposed contact-card role-email override. POLS undergraduate
+inquiries use `polungrd@hawaii.edu`; Jamaica Osorio's faculty email is
+`osorio2@hawaii.edu`. Do not infer missing graduate or other inquiry inboxes.
+
 Effective immediately, all four sites and future sites use exactly one shared
 `layouts/profiles/faculty-profile.njk`, with one responsive sidebar/content layout.
 No GEO-specific, unit-specific, or portrait-only bio branches. This supersedes
