@@ -1,7 +1,7 @@
 {% set profileView = "profile" %}
 {% include "layouts/profiles/profile-identity.njk" %}
-{% set websites = person.websites | default(person.links, true) %}
-{% set publicationProfiles = person.publicationProfiles | default(person.publications, true) %}
+{% set websites = person.websites | default([], true) %}
+{% set publicationProfiles = person.publicationProfiles | default([], true) %}
 {% set awards = person.awards | default([], true) %}
 {% set additionalLinks = person.additionalLinks | default([], true) %}
 {% if websites | length or publicationProfiles | length or awards | length or additionalLinks | length %}

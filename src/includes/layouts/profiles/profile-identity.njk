@@ -8,11 +8,11 @@
 {% if person.photo %}<img class="profile-photo photo-style" src="{{ person.photo | url }}" alt="{{ person.name | escape }}" width="{{ person.photoWidth | default(400) }}" height="{{ person.photoHeight | default(400) }}" decoding="async">{% endif %}
 <h1 class="profile-name">{{ person.name | escape }}</h1>
 {% endif %}
-{% if person.title or person.role or person.roles | length %}<div class="profile-titles">
+{% if person.title or person.roles | length %}<div class="profile-titles">
 {% if person.title %}<p class="profile-job-title">{{ person.title | escape }}</p>{% endif %}
 {% if person.roles | length %}
 {% for role in person.roles %}<p class="profile-admin-title">{{ role | escape }}</p>{% endfor %}
-{% elif person.role %}<p class="profile-admin-title">{{ person.role | escape }}</p>{% endif %}
+{% endif %}
 </div>{% endif %}
 {% include "layouts/profiles/profile-contact.njk" %}
 {% if profileView != "directory" and person.keywords | length %}<p class="profile-interests">{{ person.keywords | join(', ') | escape }}</p>{% endif %}

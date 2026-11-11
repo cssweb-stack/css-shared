@@ -2,6 +2,31 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
+## Latest completed task: centralized GEO faculty/staff portrait references
+
+- User moved 12 portraits into shared `src/media/units/geo/faculty-staff/`.
+  Updated faculty/staff JSON plus GEO Contact, Why Study, and Support page image
+  references. No old `/media/faculty-staff/` references remain in active sources.
+- All 12 images match the original Git image bytes. Shared checks, GEO's 32-page
+  build, and whitespace checks passed. Satellite hero assignments unchanged.
+- Commit/push both shared additions and GEO deletions/reference changes together;
+  changes remain local and have not been deployed by this task.
+
+## Latest completed task: GEO faculty sidebar cleanup
+
+- Migrated all 10 GEO faculty records to the common `roles`, `websites`,
+  `publicationProfiles`, `additionalLinks`, and optional `awards` structure.
+  Removed publication image fields and retired the shared template's old field
+  fallbacks. Added six awards across five people and removed duplicate award
+  sections from those five biography sources. All other biography text retained.
+- Set Qi Chen's office to Saunders 435–445B. Mary's existing clean Scholar URL
+  is retained; export whitespace was not imported. Social/reference links now
+  appear under Additional Links. Satellite heroes and portrait paths retained.
+- Shared checks and GEO, PSY, PUBA, and SOC builds passed. Checked all 10 GEO
+  rendered profiles for publication links, awards, empty groups, updated office,
+  and absence of legacy publication-logo markup and duplicate award sections.
+- Local changes only; no commit, push, or deployment performed.
+
 ## Latest completed task: SOC graduate-student directory
 
 - Added 12 supplied SOC records to centralized `graduate-students.json`, including

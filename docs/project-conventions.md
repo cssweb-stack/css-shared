@@ -228,5 +228,7 @@ only populated groups after the core identity block and a standard horizontal ru
 with singular/plural Website headings as appropriate. Websites use the shared globe
 icon; publication profiles are linked service names without imported logo images;
 awards are unlinked text. Use full canonical award names, including “College of
-Social Sciences” rather than “CSS.” PSY, SOC, and PUBA now use this model. Legacy
-`links` and `publications` remain renderer fallbacks for unmigrated unit data only.
+Social Sciences” rather than “CSS.” GEO, PSY, SOC, and PUBA now use this model.
+All faculty administrative titles use `roles`; legacy `role`, `links`, and
+`publications` fields and their template fallbacks have been retired. GEO's six
+awards are owned by sidebar JSON, with duplicate biography award sections removed.

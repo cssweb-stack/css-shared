@@ -25,7 +25,7 @@ block: the shared sidebar provides the portrait, name H1, and identity details.
 
 `src/data/units/<unit>/faculty.json` in shared supplies the same record to both
 the directory card and bio sidebar. Portrait path/dimensions, academic title,
-`roles` (or legacy `role`), office, email, phone, keywords, personal links, and
+`roles`, office, email, phone, keywords, websites, additional links, awards, and
 publication links belong in that record. Optional missing fields are omitted from
 the output; do not invent details merely to fill a card.
 
@@ -48,14 +48,18 @@ row. Left: `col-12 col-md-4 col-lg-3 profile-sidebar`. Right:
 `col-12 col-md-8 col-lg-9 profile-biography`. They stack below 768px.
 
 `profile-sidebar.njk` and `profile-identity.njk` render the same sidebar structure
-for every unit. Portraits use `photo-style profile-photo`. Office, email and phone
-share the icon-row treatment. Keywords appear on individual bios, not directories.
+for every unit. Portraits use `photo-style profile-photo`. Office is plain text;
+email and phone use the shared linked icon treatment. Keywords appear on individual
+bios, not directories. Supplemental groups use `websites`, `publicationProfiles`,
+`awards`, and `additionalLinks`; omit empty groups and render awards without links.
 There is no permanent vertical separator; diagnostic guides remain independently
 controlled by each unit's `layoutGuides` setting.
 
 Unit content and hero imagery can differ; the bio template cannot. GEO retains
 its person-specific satellite heroes. PSY, SOC and PUBA retain their assigned
-Saunders murals. This unification does not centralize GEO's existing local photos.
+Saunders murals. GEO faculty and staff portraits are centralized under
+`src/media/units/geo/faculty-staff/`; both JSON records and ordinary GEO page
+references use that shared location.
 
 ## Completed migration and verification
 
