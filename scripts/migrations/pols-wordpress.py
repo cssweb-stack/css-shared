@@ -53,7 +53,7 @@ links.update({'/faculty':'/faculty/','/privacy-policy':'/privacy.html'})
 unresolved=set(); image_inventory=[]
 def link(v):
     u=urlsplit(html.unescape(v)); key=unquote(u.path).rstrip('/') or '/'
-    if u.netloc in ('politicalscience.manoa.hawaii.edu','www.politicalscience.manoa.hawaii.edu') or (not u.netloc and u.path):
+    if u.netloc in ('politicalscience.manoa.hawaii.edu','www.politicalscience.manoa.hawaii.edu') or (not u.netloc and not u.scheme and u.path):
         if key in links:return "{{ '"+links[key]+('#'+u.fragment if u.fragment else '')+"' | url }}"
         absolute=v if u.netloc else 'https://politicalscience.manoa.hawaii.edu/'+v.lstrip('/')
         unresolved.add(absolute);return html.escape(absolute,quote=True)

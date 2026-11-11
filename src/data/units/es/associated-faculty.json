@@ -1,0 +1,71 @@
+{
+  "groups": [
+    {
+      "title": "Emeritus/Retired Faculty",
+      "members": [
+        {
+          "name": "Ibrahim G. Aoude",
+          "email": "aoude@hawaii.edu",
+          "description": "Hawai‘i Political Economy, the Middle East"
+        },
+        {
+          "name": "Noel Kent",
+          "email": "noelk@hawaii.edu",
+          "description": "Race/Ethnic Conflict, Identity, Social Justice"
+        },
+        {
+          "name": "Davianna Pōmaikaʻi McGregor",
+          "email": "davianna@hawaii.edu",
+          "description": "Hawaiian, Land, Culture, Governance, Nature"
+        },
+        {
+          "name": "Richard C. Rath",
+          "email": "rrath@hawaii.edu",
+          "description": "Sound Studies, New Media, Atlantic World"
+        },
+        {
+          "name": "Jonathan Y. Okamura",
+          "email": "okamuraj@hawaii.edu",
+          "description": "Race/Ethnicity, Ethnic Identity, Asian Americans"
+        }
+      ]
+    },
+    {
+      "title": "Affiliate Faculty",
+      "members": [
+        {
+          "name": "Ellen-Rae Cachola",
+          "description": "Information Studies (militarism in the Pacific/Asia/U.S., settler colonialism, decolonization)"
+        },
+        {
+          "name": "Anthony Castanha",
+          "description": "Political Science (Indigenous Cultures)"
+        },
+        {
+          "name": "Jennifer Darrah",
+          "description": "Sociology (race and ethnicity, urban sociology)"
+        },
+        {
+          "name": "Ruth Hsu",
+          "description": "English (Asian American and Asian diaspora literary and cultural studies, race and ethnicity)"
+        },
+        {
+          "name": "Willy Kauai",
+          "description": "Political Science (race, law, and the political history of Hawai‘i)"
+        },
+        {
+          "name": "Liana Petranek",
+          "description": "Political Science (Political Economy)"
+        },
+        {
+          "name": "Christine Quemel",
+          "description": "Educational Administration (student affairs in higher education, Asian American and Pinay studies, sexual assault and domestic violence in Asian American and Pacific Island communities)"
+        },
+        {
+          "name": "John Rosa",
+          "description": "History (20th-century Hawai‘i, Asians and Pacific Islanders in the U.S.)"
+        }
+      ]
+    }
+  ]
+}

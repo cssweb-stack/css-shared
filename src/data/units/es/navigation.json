@@ -1,84 +1,97 @@
 [
-{
-"label": "Home",
-"url": "/"
-},
-{
-"label": "About",
-"children": [
-{
-"label": "Why Study ES",
-"url": "/about-es/why-study-es.html",
-"icon": "question-circle",
-"iconColor": null
-},
-{
-"label": "Our History - Our Way",
-"url": "/about-es/our-history-our-way.html",
-"iconColor": null,
-"icon": "clock-history"
-},
-{
-"label": "Island Connections",
-"url": "/about-es/island-connections.html",
-"iconColor": null,
-"icon": "sun"
-},
-{
-"label": "Ethnic Studies Student Association",
-"url": "/about-es/ethnic-studies-student-association.html",
-"iconColor": null,
-"icon": "people"
-}
-]
-},
-{
-"label": "Courses",
-"url": "/courses/"
-},
-{
-"label": "Undergraduate",
-"children": [
-{
-"label": "Certificate",
-"url": "/undergraduate/certificate-es.html",
-"iconColor": null,
-"icon": "award"
-},
-{
-"label": "Major (BA)",
-"url": "/undergraduate/major-ba.html",
-"iconColor": null,
-"icon": "mortarboard"
-},
-{
-"label": "Double Majors",
-"url": "/undergraduate/double-majors.html",
-"iconColor": null,
-"icon": "mortarboard"
-},
-{
-"label": "BA/MA Pathway (BAM)",
-"url": "/undergraduate/ba-ma-bam.html",
-"iconColor": null,
-"icon": "signpost-2"
-}
-]
-},
-{
-"label": "Center for Oral History",
-"url": "/about-es/center-for-oral-history.html"
-},
-{
-"label": "Faculty",
-"url": "/faculty/"
-},
-{
-"label": "Support ES",
-"url": "/support-es/"
-},
-{
-"label": "Contact",
-"url": "/contact/"
-}
+  {
+    "label": "Home",
+    "url": "/"
+  },
+  {
+    "label": "About",
+    "children": [
+      {
+        "label": "Why Study ES",
+        "url": "/about-es/why-study-es.html",
+        "icon": "question-circle",
+        "iconColor": null
+      },
+      {
+        "label": "Our History - Our Way",
+        "url": "/about-es/our-history-our-way.html",
+        "iconColor": null,
+        "icon": "clock-history"
+      },
+      {
+        "label": "Island Connections",
+        "url": "/about-es/island-connections.html",
+        "iconColor": null,
+        "icon": "sun"
+      },
+      {
+        "label": "Ethnic Studies Student Association",
+        "url": "/about-es/ethnic-studies-student-association.html",
+        "iconColor": null,
+        "icon": "people"
+      }
+    ]
+  },
+  {
+    "label": "Courses",
+    "url": "/courses/"
+  },
+  {
+    "label": "Undergraduate",
+    "children": [
+      {
+        "label": "Certificate",
+        "url": "/undergraduate/certificate-es.html",
+        "iconColor": null,
+        "icon": "award"
+      },
+      {
+        "label": "Major (BA)",
+        "url": "/undergraduate/major-ba.html",
+        "iconColor": null,
+        "icon": "mortarboard"
+      },
+      {
+        "label": "Double Majors",
+        "url": "/undergraduate/double-majors.html",
+        "iconColor": null,
+        "icon": "mortarboard"
+      },
+      {
+        "label": "BA/MA Pathway (BAM)",
+        "url": "/undergraduate/bam.html",
+        "iconColor": null,
+        "icon": "signpost-2"
+      }
+    ]
+  },
+  {
+    "label": "Center for Oral History",
+    "url": "/center-for-oral-history.html"
+  },
+  {
+    "label": "Faculty",
+    "children": [
+      {
+        "label": "Core Faculty",
+        "url": "/faculty/",
+        "icon": "people",
+        "iconColor": null
+      },
+      {
+        "label": "Associated Faculty",
+        "url": "/faculty/associated.html",
+        "icon": "people",
+        "iconColor": null
+      }
+    ]
+  },
+  {
+    "label": "Support ES",
+    "url": "/support-es.html"
+  },
+  {
+    "label": "Contact",
+    "url": "/contact.html"
+  }
 ]

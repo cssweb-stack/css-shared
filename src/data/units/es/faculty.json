@@ -1,0 +1,184 @@
+[
+  {
+    "name": "Ethan Caldwell",
+    "lastName": "Caldwell",
+    "slug": "ethan-caldwell",
+    "url": "/faculty/ethan-caldwell.html",
+    "photo": "/media/units/es/faculty-staff/temp.jpg",
+    "photoWidth": 500,
+    "photoHeight": 500,
+    "title": "Associate Professor",
+    "office": "George 304",
+    "email": "ethanlc@hawaii.edu",
+    "phone": "(808) 956-5354",
+    "phoneHref": "+18089565354",
+    "roles": [
+      "Academic Advisor"
+    ],
+    "awards": [
+      {
+        "name": "College of Social Sciences Award for Excellence in Teaching",
+        "year": "2022"
+      }
+    ]
+  },
+  {
+    "name": "Monisha Das Gupta",
+    "lastName": "Das Gupta",
+    "slug": "monisha-das-gupta",
+    "url": "/faculty/monisha-das-gupta.html",
+    "photo": "/media/units/es/faculty-staff/temp.jpg",
+    "photoWidth": 500,
+    "photoHeight": 500,
+    "title": "Professor",
+    "email": "dasgupta@hawaii.edu",
+    "phone": "(808) 956-8086",
+    "phoneHref": "+18089568086",
+    "roles": [
+      "Department Chair",
+      "Academic Advisor"
+    ],
+    "awards": [
+      {
+        "name": "Chancellor’s Citation for Meritorious Teaching",
+        "year": "2013"
+      }
+    ]
+  },
+  {
+    "name": "Roderick Labrador",
+    "lastName": "Labrador",
+    "slug": "roderick-n-labrador",
+    "url": "/faculty/roderick-n-labrador.html",
+    "photo": "/media/units/es/faculty-staff/temp.jpg",
+    "photoWidth": 500,
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "George 341",
+    "email": "labrador@hawaii.edu",
+    "phone": "(808) 956-6915",
+    "phoneHref": "+18089566915",
+    "awards": [
+      {
+        "name": "College of Social Sciences Award for Excellence in Teaching",
+        "year": "2018"
+      },
+      {
+        "name": "Chancellor’s Citation for Meritorious Teaching",
+        "year": "2014"
+      }
+    ]
+  },
+  {
+    "name": "Ty P. Kāwika Tengan",
+    "lastName": "Tengan",
+    "slug": "ty-p-kawika-tengan",
+    "url": "/faculty/ty-p-kawika-tengan.html",
+    "photo": "/media/units/es/faculty-staff/temp.jpg",
+    "photoWidth": 500,
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "George 308",
+    "email": "ttengan@hawaii.edu",
+    "phone": "(808) 956-5144",
+    "phoneHref": "+18089565144",
+    "publicationProfiles": [
+      {
+        "label": "Academia.edu",
+        "url": "http://manoa-hawaii.academia.edu/TyTengan"
+      }
+    ],
+    "awards": [
+      {
+        "name": "Board of Regents’ Medal for Excellence in Teaching",
+        "year": "2018"
+      }
+    ]
+  },
+  {
+    "name": "Ulla Hasager",
+    "lastName": "Hasager",
+    "slug": "ulla-hasager",
+    "url": "/faculty/ulla-hasager.html",
+    "photo": "/media/units/es/faculty-staff/temp.jpg",
+    "photoWidth": 500,
+    "photoHeight": 500,
+    "title": "Specialist",
+    "office": "Dean Hall 5-7",
+    "email": "ulla@hawaii.edu",
+    "phone": "(808) 956-4218",
+    "phoneHref": "+18089564218",
+    "roles": [
+      "Director of Civic Engagement"
+    ]
+  },
+  {
+    "name": "Kyle Kajihiro",
+    "lastName": "Kajihiro",
+    "slug": "kyle-kajihiro",
+    "url": "/faculty/kyle-kajihiro.html",
+    "photo": "/media/units/es/faculty-staff/temp.jpg",
+    "photoWidth": 500,
+    "photoHeight": 500,
+    "title": "Assistant Professor",
+    "office": "George 305",
+    "email": "kkajihir@hawaii.edu",
+    "phone": "(808) 956-3484",
+    "phoneHref": "+18089563484"
+  },
+  {
+    "name": "M. Kunmi Yu Danico",
+    "lastName": "Danico",
+    "slug": "m-kunmi-yu-danico",
+    "url": "/faculty/m-kunmi-yu-danico.html",
+    "photo": "/media/units/es/faculty-staff/temp.jpg",
+    "photoWidth": 500,
+    "photoHeight": 500,
+    "title": "Professor",
+    "office": "George 338",
+    "email": "myu@hawaii.edu",
+    "phone": "(808) 956-6963",
+    "phoneHref": "+18089566963",
+    "roles": [
+      "Director, Center for Oral History"
+    ]
+  },
+  {
+    "name": "Maile Arvin",
+    "lastName": "Arvin",
+    "slug": "maile-arvin",
+    "url": "/faculty/maile-arvin.html",
+    "photo": "/media/units/es/faculty-staff/temp.jpg",
+    "photoWidth": 500,
+    "photoHeight": 500,
+    "title": "Associate Professor",
+    "office": "George 340",
+    "email": "mailea2@hawaii.edu",
+    "phone": "(808) 956-4632",
+    "phoneHref": "+18089564632",
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=7XzQO4QAAAAJ&hl=en&oi=ao"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0009-0002-8141-0265"
+      }
+    ]
+  },
+  {
+    "name": "Ryan Moran",
+    "lastName": "Moran",
+    "slug": "ryan-moran",
+    "url": "/faculty/ryan-moran.html",
+    "photo": "/media/units/es/faculty-staff/temp.jpg",
+    "photoWidth": 500,
+    "photoHeight": 500,
+    "title": "Assistant Professor",
+    "office": "George 307",
+    "email": "rmmoran@hawaii.edu",
+    "phone": "(808) 956-7139",
+    "phoneHref": "+18089567139"
+  }
+]

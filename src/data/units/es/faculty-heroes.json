@@ -1,0 +1,58 @@
+{
+  "pages": {
+    "/faculty/ethan-caldwell.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/monisha-das-gupta.html": {
+      "image": "/media/heroes/saunders-mural/02.webp",
+      "position": "center center",
+      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/roderick-n-labrador.html": {
+      "image": "/media/heroes/saunders-mural/03.webp",
+      "position": "center center",
+      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/ty-p-kawika-tengan.html": {
+      "image": "/media/heroes/saunders-mural/04.webp",
+      "position": "center center",
+      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/ulla-hasager.html": {
+      "image": "/media/heroes/saunders-mural/05.webp",
+      "position": "center center",
+      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/kyle-kajihiro.html": {
+      "image": "/media/heroes/saunders-mural/06.webp",
+      "position": "center center",
+      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/m-kunmi-yu-danico.html": {
+      "image": "/media/heroes/saunders-mural/07.webp",
+      "position": "center center",
+      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/maile-arvin.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/ryan-moran.html": {
+      "image": "/media/heroes/saunders-mural/02.webp",
+      "position": "center center",
+      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    }
+  }
+}

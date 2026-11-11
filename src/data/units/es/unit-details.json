@@ -1,39 +1,44 @@
 {
-"name": "Department of Ethnic Studies",
-"shortName": "ES",
-"showShortName": true,
-"prefix": "Department of",
-"logo": {
-"alt": "Department of Ethnic Studies, University of Hawaiʻi at Mānoa",
-"variants": {
-"whiteHorz": {
-"src": "/media/branding/logos/es-logo-horz-white.svg",
-"width": 500,
-"height": 140
-},
-"whiteVert": {
-"src": "/media/branding/logos/es-logo-vert-white.svg",
-"width": 500,
-"height": 310
-}
-}
-},
-"building": "george-hall",
-"address": [
-"George Hall 301",
-"2560 Campus Road",
-"Honolulu, HI 96822"
-],
-"phone": {
-"label": "(808) 956-8086",
-"href": "tel:+18089568086"
-},
-"email": {
-"label": "esdept@hawaii.edu",
-"href": "mailto:esdept@hawaii.edu"
-},
-"footerIdentity": {
-"prefix": "Department of",
-"name": "Ethnic Studies"
-}
+  "name": "Department of Ethnic Studies",
+  "shortName": "ES",
+  "showShortName": true,
+  "prefix": "Department of",
+  "logo": {
+    "alt": "Department of Ethnic Studies, University of Hawaiʻi at Mānoa",
+    "variants": {
+      "whiteHorz": {
+        "src": "/media/branding/logos/es-logo-horz-white.svg",
+        "width": 500,
+        "height": 140
+      },
+      "whiteVert": {
+        "src": "/media/branding/logos/es-logo-vert-white.svg",
+        "width": 500,
+        "height": 310
+      }
+    }
+  },
+  "building": "george-hall",
+  "address": [
+    "George Hall 301",
+    "2560 Campus Road",
+    "Honolulu, HI 96822"
+  ],
+  "phone": {
+    "label": "(808) 956-8086",
+    "href": "tel:+18089568086"
+  },
+  "email": {
+    "label": "esdept@hawaii.edu",
+    "href": "mailto:esdept@hawaii.edu"
+  },
+  "footerIdentity": {
+    "prefix": "Department of",
+    "name": "Ethnic Studies"
+  },
+  "facultyBasePath": "/faculty/",
+  "buildingPhoto": {
+    "src": "",
+    "alt": "George Hall at the University of Hawaiʻi at Mānoa"
+  }
 }

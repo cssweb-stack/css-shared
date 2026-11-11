@@ -2,6 +2,26 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
+## Latest completed task: Ethnic Studies draft
+
+- Built `../es`: 26 pages, nine complete faculty sidebars/bios from custom fields,
+  shared core directory, Associated Faculty (Emeritus/Retired + Affiliate), and
+  retained staff information. All published source pages mapped; Department News
+  kept outside navigation. No source-image downloads; supplied temp JPEG used.
+- Shared ES JSON owns navigation, faculty, contacts and social links, hero and
+  Open Graph settings. Existing analytics/search verification records preserved.
+  Source export, URL inventory and content comparison data retained in reference/.
+- Contact uses George Hall 301 before 2560 Campus Road and shared map layout.
+  ES omits the building photo pending a supplied George image; the common George
+  record currently has a Saunders photo. Other unit photo settings unchanged.
+- Root and `/es/` builds, shared checks, and 26-page verification passed, including 22
+  preserved content bodies and all local links/assets/anchors. Draft only; no
+  commit, push, or deployment. Local ES Git repository initialized on main;
+  GitHub remote not supplied. See docs/es-migration.md.
+- The shared audit exposed imported POLS body mailto links incorrectly rewritten
+  as website URLs. Corrected only those imported links and the one-time importer;
+  faculty/student JSON contact links were already correct. POLS rebuilt and verified.
+
 ## Latest completed task: Political Science draft
 
 - Built `../pols` from the supplied November 11 WordPress export and Navigation

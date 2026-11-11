@@ -1,44 +1,44 @@
 {
-"links": [
-{
-"label": "Bluesky",
-"url": "",
-"icon": "social/bluesky"
-},
-{
-"label": "Facebook",
-"url": "",
-"icon": "social/facebook"
-},
-{
-"label": "Instagram",
-"url": "",
-"icon": "social/instagram"
-},
-{
-"label": "LinkedIn",
-"url": "",
-"icon": "social/linkedin"
-},
-{
-"label": "Threads",
-"url": "",
-"icon": "social/threads"
-},
-{
-"label": "TikTok",
-"url": "",
-"icon": "social/tiktok"
-},
-{
-"label": "X",
-"url": "",
-"icon": "social/twitter-x"
-},
-{
-"label": "YouTube",
-"url": "",
-"icon": "social/youtube"
-}
-]
+  "links": [
+    {
+      "label": "Bluesky",
+      "url": "",
+      "icon": "social/bluesky"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/UHMEthnicStudies/",
+      "icon": "social/facebook"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/uhm_ethnicstudies/",
+      "icon": "social/instagram"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "",
+      "icon": "social/linkedin"
+    },
+    {
+      "label": "Threads",
+      "url": "",
+      "icon": "social/threads"
+    },
+    {
+      "label": "TikTok",
+      "url": "",
+      "icon": "social/tiktok"
+    },
+    {
+      "label": "X",
+      "url": "https://x.com/uhm_es",
+      "icon": "social/twitter-x"
+    },
+    {
+      "label": "YouTube",
+      "url": "",
+      "icon": "social/youtube"
+    }
+  ]
 }
