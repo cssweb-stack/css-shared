@@ -2,6 +2,31 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
+## Latest completed task: Political Science draft
+
+- Built `../pols` from the supplied November 11 WordPress export and Navigation
+  Review/Sheet2 workbook plus the user walkthrough. 51 local HTML pages, 18 shared
+  faculty records with full bios/sidebars, and 27 shared graduate-student records.
+  All portraits use user-supplied centralized temp JPEGs; no images downloaded.
+- Shared POLS data owns navigation, contacts, social X link, compact hero controls,
+  stable student/mural assignments, Open Graph placeholder, and directory records.
+  Existing analytics/search verification records retained. Uses shared POLS logos.
+- Why Study merges About and both program overviews; Specializations has six
+  sibling pages. Internship folder, Community Internships, both learning outcomes,
+  Teaching Opportunities, root Pi Sigma Alpha, Support, and Contact are in place.
+  Contact uses existing shared include, correct Saunders image via unit override,
+  map and office details; remaining imported contacts retained below it.
+- Applications/Admissions, News, and Colloquia retained outside main navigation.
+  Three unlisted faculty profiles are preserved in source XML for later decisions:
+  Richard Chadwick, Manfred Henningsen, Michael Shapiro. No redirect pages added.
+- Shared checks, root and `/pols/` builds and site verification passed. Compared content text
+  for 48 source pages/merged inputs with zero missing text chunks. No source tables
+  were present in those inputs. URL inventory and source export in pols/reference.
+- Draft indexing disabled. Open Graph temporarily uses shared PSY image. Review
+  current cohort and temporary portraits before launch. No commit/push/deployment.
+  See `docs/pols-migration.md`; local POLS Git repository initialized on main;
+  GitHub remote has not been supplied. Root-path local build restored.
+
 ## Latest completed task: SSRI Jack Barile bio
 
 - Replaced SSRI's placeholder with its own biography using the existing shared

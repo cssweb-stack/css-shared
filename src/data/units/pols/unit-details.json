@@ -1,39 +1,46 @@
 {
-"name": "Department of Political Science",
-"shortName": "POLS",
-"showShortName": true,
-"prefix": "Department of",
-"logo": {
-"alt": "Department of Political Science, University of Hawaiʻi at Mānoa",
-"variants": {
-"whiteHorz": {
-"src": "/media/branding/logos/pols-logo-horz-white.svg",
-"width": 500,
-"height": 140
-},
-"whiteVert": {
-"src": "/media/branding/logos/pols-logo-vert-white.svg",
-"width": 500,
-"height": 310
-}
-}
-},
-"building": "saunders-hall",
-"address": [
-"Saunders Hall 640",
-"2424 Maile Way",
-"Honolulu, HI 96822"
-],
-"phone": {
-"label": "(808) 956-8357",
-"href": "tel:+18089568357"
-},
-"email": {
-"label": "polisci@hawaii.edu",
-"href": "mailto:polisci@hawaii.edu"
-},
-"footerIdentity": {
-"prefix": "Department of",
-"name": "Political Science"
-}
+  "name": "Department of Political Science",
+  "shortName": "POLS",
+  "showShortName": true,
+  "prefix": "Department of",
+  "logo": {
+    "alt": "Department of Political Science, University of Hawaiʻi at Mānoa",
+    "variants": {
+      "whiteHorz": {
+        "src": "/media/branding/logos/pols-logo-horz-white.svg",
+        "width": 500,
+        "height": 140
+      },
+      "whiteVert": {
+        "src": "/media/branding/logos/pols-logo-vert-white.svg",
+        "width": 500,
+        "height": 310
+      }
+    }
+  },
+  "building": "saunders-hall",
+  "address": [
+    "Saunders 640",
+    "2424 Maile Way",
+    "Honolulu, HI 96822"
+  ],
+  "phone": {
+    "label": "(808) 956-8357",
+    "href": "tel:+18089568357"
+  },
+  "email": {
+    "label": "polisci@hawaii.edu",
+    "href": "mailto:polisci@hawaii.edu"
+  },
+  "footerIdentity": {
+    "prefix": "Department of",
+    "name": "Political Science"
+  },
+  "facultyBasePath": "/faculty/",
+  "buildingPhoto": {
+    "src": "/media/shared/other/saunders-hall.webp",
+    "alt": "Saunders Hall at the University of Hawaiʻi at Mānoa",
+    "width": 300,
+    "height": 162
+  }
 }

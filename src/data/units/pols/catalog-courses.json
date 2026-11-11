@@ -1,4 +1,7 @@
 {
-"catalog": null,
-"courseDescriptions": null
+  "prefix": "POLS",
+  "catalog": {
+    "label": "UH Mānoa Catalog (POLS)",
+    "url": "https://manoa.hawaii.edu/catalog/category/social-sciences/pols/"
+  }
 }

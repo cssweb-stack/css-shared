@@ -1,0 +1,433 @@
+[
+  {
+    "name": "Ariel Mota Alves",
+    "lastName": "Alves",
+    "slug": "ariel-mota-alves",
+    "program": "PhD",
+    "studyArea": "Law and Policy",
+    "research": "Political Ecology, Post-development, Environmental Changes, Climate Change, Land Rights, Southeast Asia Politics, Timor-Leste Politics",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Ehito Kimura",
+        "url": "/faculty/ehito-kimura.html"
+      }
+    ],
+    "email": "motaal2@hawaii.edu"
+  },
+  {
+    "name": "Ulamila Cagivanua",
+    "lastName": "Cagivanua",
+    "slug": "ulamila-cagivanua",
+    "program": "PhD",
+    "studyArea": "Indigenous Politics",
+    "research": "Indigenous Epistemology, Indigenous Values Based Systems, Women Empowerment, Indigenous Futurism",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Jamaica Heolimeleikalani Osorio",
+        "url": "/faculty/jamaica-osorio.html"
+      }
+    ],
+    "email": "ulamilac@hawaii.edu"
+  },
+  {
+    "name": "Randizia Crisostomo",
+    "lastName": "Crisostomo",
+    "slug": "randizia-crisostomo",
+    "program": "PhD",
+    "studyArea": "Indigenous Politics",
+    "research": "Indigenous Resurgence, Pasifika Feminisms, Chamoru Agency/Activism in Guåhan, the Marianas and the Diaspora, De-occupation and Mili(Tourism) in Oceania, Inafa'maolek as Praxis",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Jamaica Heolimeleikalani Osorio",
+        "url": "/faculty/jamaica-osorio.html"
+      }
+    ],
+    "email": "rbcrisos@hawaii.edu"
+  },
+  {
+    "name": "Aaron A. Donaldson",
+    "lastName": "Donaldson",
+    "slug": "aaron-a-donaldson",
+    "program": "PhD",
+    "studyArea": "Alternative Futures, Indigenous Politics",
+    "research": "Black Radical Tradition; Critical Indigenous Studies; Indigenous Futurities; Politics of Indigenous Relations; Settler Colonialism; Identity Construction; Theories of Self; Existentialism",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Jairus Grove",
+        "url": "/faculty/jairus-grove.html"
+      }
+    ],
+    "email": "aarondon@hawaii.edu"
+  },
+  {
+    "name": "Ari Eisenstat",
+    "lastName": "Eisenstat",
+    "slug": "ari-eisenstat",
+    "program": "PhD",
+    "studyArea": "Alternative Futures, International Relations, Law and Policy, Political Theory",
+    "research": "Sustainable Development, Social Innovation, Human Rights, Outer Space, Peace and Conflict Resolution, Exponential Technologies, International Organizations, Civil Society Advocacy, Climate Justice",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Jairus Grove",
+        "url": "/faculty/jairus-grove.html"
+      }
+    ],
+    "email": "ari7@hawaii.edu"
+  },
+  {
+    "name": "Ryan Ferguson",
+    "lastName": "Ferguson",
+    "slug": "ryan-ferguson",
+    "program": "PhD",
+    "studyArea": "Alternative Futures, Political Theory",
+    "research": "Politics of Technology, Future of Media Systems, Aesthetics",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Jairus Grove",
+        "url": "/faculty/jairus-grove.html"
+      }
+    ],
+    "email": "ryanferg@hawaii.edu"
+  },
+  {
+    "name": "Shannon Pōmaikaʻi Hennessey",
+    "lastName": "Hennessey",
+    "slug": "shannon-pomaikai-hennessey",
+    "program": "PhD",
+    "studyArea": "Indigenous Politics",
+    "research": "Indigenous Resurgence, Indigenous Theory, Hawaiian Language Newspapers, Indigenous Pacific Feminisms, Hawaiian Identity",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Noenoe Silva",
+        "url": "/faculty/noenoe-silva.html"
+      }
+    ],
+    "email": "shenness@hawaii.edu"
+  },
+  {
+    "name": "Hannah Hyman",
+    "lastName": "Hyman",
+    "slug": "hannah-hyman",
+    "program": "PhD",
+    "studyArea": "Political Theory",
+    "research": "Feminist Theory, Queer Theory, Political Theology, Biopolitics",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Kathy Ferguson",
+        "url": "/faculty/kathy-ferguson.html"
+      }
+    ],
+    "email": "hhyman@hawaii.edu"
+  },
+  {
+    "name": "Kaʻiminaʻauao Kahikina (Cambern)",
+    "lastName": "(Cambern)",
+    "slug": "kaiminaauao-kahikina-cambern",
+    "program": "PhD",
+    "studyArea": "Indigenous Politics",
+    "research": "Political Economies of Mana, Black and Indigenous Co-optic Futures, Hōʻailona and Kānaka Maoli Political Action/Activism, Trans-indigenous Resurgence, Hulihia, Pilina, Ea, Moʻokūʻauhau Consciousness",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Noenoe Silva",
+        "url": "/faculty/noenoe-silva.html"
+      }
+    ],
+    "email": "cambernk@hawaii.edu"
+  },
+  {
+    "name": "Hana Kim",
+    "lastName": "Kim",
+    "slug": "hana-kim",
+    "program": "PhD",
+    "studyArea": "Comparative Politics, International Relations, Law and Policy, Political Theory",
+    "research": "Comparative Politics, Feminist Theory, Civil Society, Politics of Religion, Postcolonial Studies, Korean Studies, Korean America",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Kathy Ferguson",
+        "url": "/faculty/kathy-ferguson.html"
+      }
+    ],
+    "email": "hanakim@hawaii.edu"
+  },
+  {
+    "name": "Ciera Lasconia",
+    "lastName": "Lasconia",
+    "slug": "ciera-lasconia",
+    "program": "PhD",
+    "studyArea": "Indigenous Politics",
+    "research": "Indigenous Politics, Hawaiʻi Politics, Deoccupation, MMIWG, Free Speech, Eugenics",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Jamaica Osorio",
+        "url": "/faculty/jamaica-osorio.html"
+      }
+    ],
+    "email": "cierak21@hawaii.edu"
+  },
+  {
+    "name": "Daniel Kauwila Mahi",
+    "lastName": "Mahi",
+    "slug": "daniel-kauwila-mahi",
+    "program": "PhD",
+    "studyArea": "Alternative Futures, Indigenous Politics",
+    "research": "Contested Governance, Ceremony, Traditional Games, Alternative Exports, Hawaiian Kingdom Governance, Indigenous Futurisms",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Jamaica Heolimeleikalani Osorio",
+        "url": "/faculty/jamaica-osorio.html"
+      }
+    ],
+    "email": "dmahi@hawaii.edu"
+  },
+  {
+    "name": "Kacie Manabe",
+    "lastName": "Manabe",
+    "slug": "kacie-manabe",
+    "program": "PhD",
+    "studyArea": "Comparative Politics, Political Theory",
+    "research": "Asian American Studies, Critical Ethnic Studies, Japanese Americans, Settler Colonialism, Japanese Diaspora, Japanese in Hawaiʻi, Popular Culture",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Jonathan Goldberg-Hiller",
+        "url": "/faculty/jonathan-goldberg-hiller.html"
+      }
+    ]
+  },
+  {
+    "name": "Billy Meinke",
+    "lastName": "Meinke",
+    "slug": "billy-meinke",
+    "program": "PhD",
+    "studyArea": "Alternative Futures",
+    "research": "Collaborative Scholarship, Education Policy, Student Data Privacy & Surveillance",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Kathy Ferguson",
+        "url": "/faculty/kathy-ferguson.html"
+      }
+    ],
+    "email": "wmeinke@hawaii.edu"
+  },
+  {
+    "name": "Aaron Moyer",
+    "lastName": "Moyer",
+    "slug": "aaron-moyer",
+    "program": "PhD",
+    "studyArea": "Alternative Futures, International Relations, Political Theory",
+    "research": "Trust Ecology, Cognitive Warfare, War on Trust, Artificial Intelligence, Security Studies, Rumor, Race and Colonialism, Pacific Islands, Media Theory, Neuropolitics, Assemblage Theory, Posthumanism",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Jairus Grove",
+        "url": "/faculty/jairus-grove.html"
+      }
+    ],
+    "email": "moyera@hawaii.edu"
+  },
+  {
+    "name": "Richard Murphy",
+    "lastName": "Murphy",
+    "slug": "richard-murphy",
+    "program": "PhD",
+    "studyArea": "Alternative Futures, International Relations, Political Theory",
+    "research": "Political Philosophy, Political Economy, Demiliarization, Environmental Politics, Environmental Justice, Social Justice, Alternative Political Paradigms",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Kathy Ferguson",
+        "url": "/faculty/kathy-ferguson.html"
+      }
+    ],
+    "email": "rrmurphy@hawaii.edu"
+  },
+  {
+    "name": "Saveun Nhim",
+    "lastName": "Nhim",
+    "slug": "saveun-nhim",
+    "program": "PhD",
+    "studyArea": "Law and Policy",
+    "research": "Education, Public Policy, Disabilities, Non-Profit Management, Research, Advocacy. Southeast Asia",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Katharina Heyer",
+        "url": "/faculty/katharina-heyer.html"
+      }
+    ],
+    "email": "snhim@hawaii.edu"
+  },
+  {
+    "name": "Alyssa Purcell",
+    "lastName": "Purcell",
+    "slug": "alyssa-purcell",
+    "program": "PhD",
+    "studyArea": "Indigenous Politics",
+    "research": "Indigenous Politics, Indigenous Theory, Mana Wāhine, Moʻokūʻauhau, Moʻolelo",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Noenoe Silva",
+        "url": "/faculty/noenoe-silva.html"
+      }
+    ],
+    "email": "anap9@hawaii.edu"
+  },
+  {
+    "name": "Ryan (Joon-Ho) Roden",
+    "lastName": "Roden",
+    "slug": "ryan-joon-ho-roden",
+    "program": "PhD",
+    "studyArea": "Alternative Futures, Indigenous Politics, International Relations",
+    "research": "Borderlands Studies, Ocean Studies, De-Colonial Ethnographies, Settler-Colonial Studies, Indigenous Studies, Political Geography",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Dean Saranillio",
+        "url": "/faculty/dean-saranillio.html"
+      }
+    ],
+    "email": "rroden@hawaii.edu"
+  },
+  {
+    "name": "Josiah (Keoni) Rodriguez",
+    "lastName": "Rodriguez",
+    "slug": "josiah-keoni-rodriguez",
+    "program": "PhD",
+    "studyArea": "Indigenous Politics",
+    "research": "Diaspora Studies, Identity Formation, Epistemologies, Research Methodologies, Indigenous Solidarities, Hawaiian Studies, Filipino Studies, Traditional Ecological Knowledge, Critical Theory",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Noelani Goodyear-Kaʻōpua",
+        "url": "/faculty/noelani-goodyear-kaopua.html"
+      }
+    ],
+    "email": "jjkq@hawaii.edu"
+  },
+  {
+    "name": "Sara Saastamoinen",
+    "lastName": "Saastamoinen",
+    "slug": "sara-saastamoinen",
+    "program": "PhD",
+    "studyArea": "Alternative Futures, Indigenous Politics, Law and Policy, Political Theory",
+    "research": "Existential and Catastrophic Risks, Indigenous Futures, Displacement and Concepts of Home, Karjala, Indigenous Languages, Identities, Queer Theory",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Jairus Grove",
+        "url": "/faculty/jairus-grove.html"
+      }
+    ],
+    "email": "sarasaas@hawaii.edu"
+  },
+  {
+    "name": "Matthew Sobotkiewicz",
+    "lastName": "Sobotkiewicz",
+    "slug": "matthew-sobotkiewicz",
+    "program": "PhD",
+    "studyArea": "Alternative Futures, Indigenous Politics, International Relations, Political Theory",
+    "research": "Alternative Futures, Indigenous Futurisms, Feminist Theory, Black Studies, Settler Colonial Studies, Critical International Relations",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Kathy Ferguson",
+        "url": "/faculty/kathy-ferguson.html"
+      }
+    ],
+    "email": "mrs798@hawaii.edu"
+  },
+  {
+    "name": "Johanna Stone",
+    "lastName": "Stone",
+    "slug": "johanna-stone",
+    "program": "PhD",
+    "studyArea": "Indigenous Politics",
+    "research": "Original Food Cultivation Systems, Ancestral Moana Nui Epistemologies & Knowledge Systems, Kapu, Rahui, Seasonal Harvest Restrictions",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Noenoe Silva",
+        "url": "/faculty/noenoe-silva.html"
+      }
+    ],
+    "email": "jstone@hawaii.edu"
+  },
+  {
+    "name": "Kaiqing Su",
+    "lastName": "Su",
+    "slug": "kaiqing-su",
+    "program": "PhD",
+    "studyArea": "Comparative Politics, Indigenous Politics, International Relations, Political Theory",
+    "research": "Decolonization, Postcolonial Theory, Infrastructure, Development, Political Ecology, Aesthetics, Cartography, Historiography, Translation, China, Oceania",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Sankaran Krishna",
+        "url": "/faculty/sankaran-krishna.html"
+      }
+    ],
+    "email": "ksu4@hawaii.edu"
+  },
+  {
+    "name": "Paige Yuen",
+    "lastName": "Yuen",
+    "slug": "paige-yuen",
+    "program": "PhD",
+    "studyArea": "Indigenous Politics",
+    "research": "Militarism, Tourism, Asian Settler Colonialism in Hawaiʻi, Mapping",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Dean Saranillio",
+        "url": "/faculty/dean-saranillio.html"
+      }
+    ],
+    "email": "paigejy@hawaii.edu"
+  },
+  {
+    "name": "Chantrelle Melenani Waialae",
+    "lastName": "Waialae",
+    "slug": "chantrelle-melenani-waialae",
+    "program": "PhD",
+    "studyArea": "Indigenous Politics, Law and Policy",
+    "research": "Native Hawaiian Law, Family Law, Violence Against Women, Public Policy, Native Hawaiian Rights, Indigenous Politics, Conflict Resolution, Pu'uhonua",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Jonathan Goldberg-Hiller",
+        "url": "/faculty/jonathan-goldberg-hiller.html"
+      }
+    ],
+    "email": "cwaialae@hawaii.edu"
+  },
+  {
+    "name": "Fran Woodworth",
+    "lastName": "Woodworth",
+    "slug": "fran-woodworth",
+    "program": "PhD",
+    "studyArea": "International Relations",
+    "research": "Climate Change, Environmental Justice, Migration Studies, Postcolonial Studies, Critical Race Studies",
+    "photo": "/media/units/pols/graduate-students/temp.jpg",
+    "advisors": [
+      {
+        "name": "Sankaran Krishna",
+        "url": "/faculty/sankaran-krishna.html"
+      }
+    ],
+    "email": "fcw@hawaii.edu"
+  }
+]

@@ -5,7 +5,7 @@ not a claim that every older file has already been migrated.
 
 ## Scope and ownership
 
-The current five site directories are `geo`, `puba`, `psy`, `soc`, and `ssri`, beside
+The current six site directories are `geo`, `puba`, `psy`, `soc`, `ssri`, and `pols`, beside
 `css-shared`. `style-guide` documents the shared system. Keep shared layouts,
 styles, assets, and reusable content in `css-shared`; keep page sources in their
 site repositories. Consult existing topic documentation before making changes.

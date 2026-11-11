@@ -1,115 +1,133 @@
 [
-{
-"label": "Home",
-"url": "/"
-},
-{
-"label": "About",
-"children": [
-{
-"label": "Why Study POLS",
-"url": "/about-pols/why-study-pols.html",
-"icon": "question-circle",
-"iconColor": null
-},
-{
-"label": "Specializations",
-"url": "/about-pols/specializations.html",
-"icon": "layers",
-"iconColor": null
-}
-]
-},
-{
-"label": "Courses",
-"url": "/courses/"
-},
-{
-"label": "Undergraduate",
-"children": [
-{
-"label": "Certificate (Law and Society)",
-"url": "/undergraduate/certificate-law-and-society.html",
-"iconColor": null,
-"icon": "award"
-},
-{
-"label": "Minor",
-"url": "/undergraduate/minor.html",
-"iconColor": null,
-"icon": "book"
-},
-{
-"label": "Major (BA)",
-"url": "/undergraduate/major-ba.html",
-"iconColor": null,
-"icon": "mortarboard"
-},
-{
-"label": "BA/MA Pathway (BAM)",
-"url": "/undergraduate/pols-bam.html",
-"iconColor": null,
-"icon": "signpost-2"
-},
-{
-"label": "Honors Track",
-"url": "/undergraduate/honors-track.html",
-"iconColor": null,
-"icon": "star"
-},
-{
-"label": "Opportunities",
-"url": "/undergraduate/opportunities.html",
-"iconColor": null,
-"icon": "door-open"
-},
-{
-"label": "Advising & Support",
-"url": "/undergraduate/advising-support.html",
-"iconColor": null,
-"icon": "compass"
-}
-]
-},
-{
-"label": "Graduate",
-"children": [
-{
-"label": "Master’s (MA)",
-"url": "/graduate/master-ma.html",
-"iconColor": null,
-"icon": "mortarboard"
-},
-{
-"label": "Doctorate (PhD)",
-"url": "/graduate/doctorate-phd.html",
-"iconColor": null,
-"icon": "mortarboard"
-},
-{
-"label": "Current Cohort",
-"url": "/graduate/current-cohort.html",
-"iconColor": null,
-"icon": "people"
-},
-{
-"label": "Funding Sources",
-"url": "/graduate/funding-sources.html",
-"iconColor": null,
-"icon": "cash-coin"
-}
-]
-},
-{
-"label": "Faculty",
-"url": "/faculty/"
-},
-{
-"label": "Support POLS",
-"url": "/support-pols/"
-},
-{
-"label": "Contact",
-"url": "/contact/"
-}
+  {
+    "label": "Home",
+    "url": "/"
+  },
+  {
+    "label": "About",
+    "children": [
+      {
+        "label": "Why Study POLS",
+        "url": "/about-pols/why-study-pols.html",
+        "icon": "question-circle",
+        "iconColor": null
+      },
+      {
+        "label": "Specializations",
+        "url": "/about-pols/specializations/",
+        "icon": "layers",
+        "iconColor": null
+      }
+    ]
+  },
+  {
+    "label": "Courses",
+    "url": "/about-pols/pols-courses.html"
+  },
+  {
+    "label": "Undergraduate",
+    "children": [
+      {
+        "label": "Certificate (Law and Society)",
+        "url": "/undergraduate/certificate-law-society.html",
+        "icon": "award",
+        "iconColor": null
+      },
+      {
+        "label": "Minor",
+        "url": "/undergraduate/minor.html",
+        "icon": "book",
+        "iconColor": null
+      },
+      {
+        "label": "Major (BA)",
+        "url": "/undergraduate/major-ba.html",
+        "icon": "mortarboard",
+        "iconColor": null
+      },
+      {
+        "label": "BA/MA Pathway (BAM)",
+        "url": "/undergraduate/bam.html",
+        "icon": "signpost-2",
+        "iconColor": null
+      },
+      {
+        "label": "Honors Track",
+        "url": "/undergraduate/honors-track.html",
+        "icon": "star",
+        "iconColor": null
+      },
+      {
+        "label": "Internships & Scholarships",
+        "url": "/undergraduate/internships-scholarships/",
+        "icon": "door-open",
+        "iconColor": null
+      },
+      {
+        "label": "Advising & Support",
+        "url": "/undergraduate/advising-support.html",
+        "icon": "compass",
+        "iconColor": null
+      },
+      {
+        "label": "Student Learning Outcomes",
+        "url": "/undergraduate/student-learning-outcomes.html",
+        "icon": "list-check",
+        "iconColor": null
+      }
+    ]
+  },
+  {
+    "label": "Graduate",
+    "children": [
+      {
+        "label": "Master’s (MA)",
+        "url": "/graduate/master-ma.html",
+        "icon": "mortarboard",
+        "iconColor": null
+      },
+      {
+        "label": "Doctorate (PhD)",
+        "url": "/graduate/doctorate-phd.html",
+        "icon": "mortarboard",
+        "iconColor": null
+      },
+      {
+        "label": "Current Cohort",
+        "url": "/graduate/current-cohort.html",
+        "icon": "people",
+        "iconColor": null
+      },
+      {
+        "label": "Funding Sources",
+        "url": "/graduate/funding-sources.html",
+        "icon": "cash-coin",
+        "iconColor": null
+      },
+      {
+        "label": "Teaching Opportunities",
+        "url": "/graduate/teaching-opportunities.html",
+        "icon": "briefcase",
+        "iconColor": null
+      },
+      {
+        "label": "Student Learning Outcomes",
+        "url": "/graduate/student-learning-outcomes.html",
+        "icon": "list-check",
+        "iconColor": null
+      }
+    ]
+  },
+  {
+    "label": "Faculty",
+    "url": "/faculty/"
+  },
+  {
+    "label": "Support POLS",
+    "url": "/support-pols.html"
+  },
+  {
+    "label": "Contact",
+    "url": "/contact.html"
+  }
 ]

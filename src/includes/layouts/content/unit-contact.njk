@@ -1,10 +1,11 @@
 {% set building = common.buildings[site.building] %}
+{% set buildingPhoto = site.buildingPhoto | default(building.photo, true) %}
 {% if building %}
 <section class="row gy-4 grid-spaced unit-contact gx-0 gx-sm-5 gx-lg-5" aria-label="Main office location and directions">
 <div class="col-12 col-md-4 col-lg-3 unit-contact-office">
 <div class="sidebar-group">
-{% if building.photo %}
-<img class="photo-style" src="{{ building.photo.src | url }}" alt="{{ building.photo.alt | escape }}" width="{{ building.photo.width }}" height="{{ building.photo.height }}" loading="lazy" decoding="async">
+{% if buildingPhoto %}
+<img class="photo-style" src="{{ buildingPhoto.src | url }}" alt="{{ buildingPhoto.alt | escape }}" width="{{ buildingPhoto.width }}" height="{{ buildingPhoto.height }}" loading="lazy" decoding="async">
 {% endif %}
 <h2>Main Office</h2>
 <address class="contact-address">

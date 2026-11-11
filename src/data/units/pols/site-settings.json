@@ -1,3 +1,28 @@
 {
-"indexingEnabled": false
+  "indexingEnabled": false,
+  "layoutGuides": true,
+  "stylesheet": "/pols.css",
+  "url": "https://politicalscience.manoa.hawaii.edu",
+  "openGraph": {
+    "image": "/media/open-graph/psy.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "UH Mānoa student enjoying her studies at campus center."
+  },
+  "hero": {
+    "enabled": true,
+    "variant": "compact",
+    "height": {
+      "desktop": 210,
+      "tablet": 165,
+      "mobile": 145
+    },
+    "decorative": true,
+    "showLocation": false,
+    "showAttribution": false,
+    "overlay": {
+      "color": "var(--sepia)",
+      "opacity": 0.05
+    }
+  }
 }

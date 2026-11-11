@@ -1,0 +1,203 @@
+{
+  "defaultHero": "/media/heroes/students/48.webp",
+  "pages": {
+    "/": {
+      "image": "/media/heroes/students/53.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/about-pols/specializations/": {
+      "image": "/media/heroes/students/05.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/certificate-law-society.html": {
+      "image": "/media/heroes/students/32.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/minor.html": {
+      "image": "/media/heroes/students/11.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/major-ba.html": {
+      "image": "/media/heroes/students/43.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/bam.html": {
+      "image": "/media/heroes/students/25.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/honors-track.html": {
+      "image": "/media/heroes/students/62.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/internships-scholarships/": {
+      "image": "/media/heroes/students/27.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/internships-scholarships/community-internships.html": {
+      "image": "/media/heroes/students/01.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/advising-support.html": {
+      "image": "/media/heroes/students/52.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/student-learning-outcomes.html": {
+      "image": "/media/heroes/students/28.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/master-ma.html": {
+      "image": "/media/heroes/students/55.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/doctorate-phd.html": {
+      "image": "/media/heroes/students/21.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/current-cohort.html": {
+      "image": "/media/heroes/students/31.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/funding-sources.html": {
+      "image": "/media/heroes/students/42.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/teaching-opportunities.html": {
+      "image": "/media/heroes/students/29.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/student-learning-outcomes.html": {
+      "image": "/media/heroes/students/13.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/applications-admissions.html": {
+      "image": "/media/heroes/students/39.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/support-pols.html": {
+      "image": "/media/heroes/students/45.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/contact.html": {
+      "image": "/media/heroes/students/36.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/pi-sigma-alpha.html": {
+      "image": "/media/heroes/students/56.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/news.html": {
+      "image": "/media/heroes/students/14.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/colloquia.html": {
+      "image": "/media/heroes/students/49.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/about-pols/specializations/alternative-futures.html": {
+      "image": "/media/heroes/students/60.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/about-pols/specializations/comparative-politics.html": {
+      "image": "/media/heroes/students/03.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/about-pols/specializations/indigenous-politics.html": {
+      "image": "/media/heroes/students/30.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/about-pols/specializations/international-relations.html": {
+      "image": "/media/heroes/students/41.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/about-pols/specializations/law-and-policy.html": {
+      "image": "/media/heroes/students/06.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/about-pols/specializations/political-theory.html": {
+      "image": "/media/heroes/students/38.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/about-pols/why-study-pols.html": {
+      "image": "/media/heroes/students/54.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/": {
+      "image": "/media/heroes/students/47.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/about-pols/pols-courses.html": {
+      "image": "/media/heroes/students/07.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/privacy.html": {
+      "image": "/media/heroes/students/59.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    }
+  }
+}
