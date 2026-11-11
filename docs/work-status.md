@@ -2,6 +2,22 @@
 
 Updated November 10, 2026 (Pacific/Honolulu).
 
+## Latest completed task: SSRI Jack Barile bio
+
+- Replaced SSRI's placeholder with its own biography using the existing shared
+  faculty-profile layout and a unit-specific `ssri/faculty.json` record. Uses the
+  supplied shared SSRI portrait, current SSRI titles, contact data, websites,
+  publication profiles, and a Saunders mural hero. Psychology record unchanged.
+- Preserved the original production `/john-jack-barile/` URL and updated SSRI's
+  directory link. Source HTML retains page metadata and SSRI biography content.
+- Shared checks and SSRI build passed. Changes local; no commit/push/deployment.
+
+## Latest completed task: remove faculty sidebar keywords
+
+- Removed keyword output from the shared faculty identity template for every
+  unit. Existing JSON values retained; graduate-student research lists unaffected.
+- Shared checks and GEO build passed. Local changes only; no deployment.
+
 ## Latest completed task: centralized GEO faculty/staff portrait references
 
 - User moved 12 portraits into shared `src/media/units/geo/faculty-staff/`.

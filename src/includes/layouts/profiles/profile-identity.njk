@@ -15,4 +15,3 @@
 {% endif %}
 </div>{% endif %}
 {% include "layouts/profiles/profile-contact.njk" %}
-{% if profileView != "directory" and person.keywords | length %}<p class="profile-interests">{{ person.keywords | join(', ') | escape }}</p>{% endif %}

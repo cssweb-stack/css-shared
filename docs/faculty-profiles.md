@@ -1,6 +1,6 @@
 # One shared faculty biography layout
 
-Effective November 10, 2026: GEO, PUBA, PSY, SOC, and future faculty biography
+Effective November 10, 2026: GEO, PUBA, PSY, SOC, SSRI, and future faculty biography
 pages use exactly `layouts/profiles/faculty-profile.njk`. It has no unit-specific
 or portrait-only layout branches. This replaces the earlier first-pass designs.
 
@@ -49,8 +49,8 @@ row. Left: `col-12 col-md-4 col-lg-3 profile-sidebar`. Right:
 
 `profile-sidebar.njk` and `profile-identity.njk` render the same sidebar structure
 for every unit. Portraits use `photo-style profile-photo`. Office is plain text;
-email and phone use the shared linked icon treatment. Keywords appear on individual
-bios, not directories. Supplemental groups use `websites`, `publicationProfiles`,
+email and phone use the shared linked icon treatment. Keywords are omitted from
+both bios and directories. Supplemental groups use `websites`, `publicationProfiles`,
 `awards`, and `additionalLinks`; omit empty groups and render awards without links.
 There is no permanent vertical separator; diagnostic guides remain independently
 controlled by each unit's `layoutGuides` setting.

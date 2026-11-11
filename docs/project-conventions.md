@@ -62,6 +62,10 @@ on the containing column, without a surrounding gray panel or panel padding.
 
 ## Recording decisions and moving between computers
 
+Keep user-facing completion handoffs brief. Explicitly list repository names to
+commit/push and any site workflows to rerun. Do not enumerate edited files or
+change counts unless requested or needed to explain an unresolved issue.
+
 “Lock this down” means record an accepted convention here and implement any
 already-authorized supporting changes. Record other clear agreements proactively.
 Maintain `docs/work-status.md` for current progress; do not turn it into a transcript.
@@ -203,8 +207,9 @@ shared portrait grid (and retained working text links). The background section
 wraps the width-constrained container, not the reverse. This is the directory
 page treatment; it does not move individual biographies into gray panels.
 
-Faculty directory cards omit research keywords/interests. Keep the keyword data
-and show it on individual profiles; do not delete it during directory cleanup.
+Faculty directory cards and individual profile sidebars omit research
+keywords/interests. Existing keyword data may remain in JSON, but the shared
+identity template does not render it.
 Faculty name links use the normal shared link color/underline, without black or
 green component overrides. Shared profile contact markup renders office information
 as plain, non-interactive text. Email and telephone retain their linked icon

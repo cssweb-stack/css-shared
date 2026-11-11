@@ -1,0 +1,25 @@
+[
+  {
+    "name": "John (Jack) Barile",
+    "lastName": "Barile",
+    "slug": "john-jack-barile",
+    "url": "/john-jack-barile/",
+    "photo": "/media/units/ssri/jack-barile.webp",
+    "photoWidth": 400,
+    "photoHeight": 400,
+    "title": "Professor of Psychology",
+    "roles": ["Associate Dean for Research", "Director of the Social Science Research Institute"],
+    "office": "Saunders 704D",
+    "email": "barile@hawaii.edu",
+    "phone": "(808) 956-7469",
+    "phoneHref": "+18089567469",
+    "websites": [
+      { "label": "Faculty Website", "url": "https://www.jackbarile.com/" },
+      { "label": "Research Lab", "url": "https://www.uhecolab.com/" }
+    ],
+    "publicationProfiles": [
+      { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=Zmku5YIAAAAJ&hl=en" },
+      { "label": "ResearchGate", "url": "https://www.researchgate.net/profile/John_Barile" }
+    ]
+  }
+]
