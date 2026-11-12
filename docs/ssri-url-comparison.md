@@ -2,9 +2,9 @@
 
 Compared the supplied WordPress URL export against the current SSRI page destinations.
 
-- 15 original URLs: 5 unchanged, 9 moved, 1 unmatched.
+- 15 original URLs: 5 unchanged, 10 moved, 0 retired.
 - All 14 current regular pages are accounted for; the custom 404 page is new.
-- Nine confirmed replacements now appear on the 404 page, plus four general quick links. No redirect stub pages were created.
+- Ten confirmed replacements now use generated redirects; the 404 retains four general quick links. No redirect stub pages were created.
 
 ## Confirmed moves
 
@@ -20,9 +20,11 @@ Compared the supplied WordPress URL export against the current SSRI page destina
 | `/ham/` | `/research/ham.html` |
 | `/boilerplate/` | `/support/boilerplate.html` |
 
-## One decision remains
+## RTRF reporting replacement
 
-The [RTRF FY2019 report](https://ssri.manoa.hawaii.edu/rtrf-fy2019/) has no matching current page. It contains historical Research and Training Revolving Fund financial tables. Decide whether to retain/archive that report or retire it. No replacement was invented, and it has not been marked retired.
+User confirmed the [College/SSRI Funding Levels dashboard](https://lookerstudio.google.com/reporting/3608bb1f-144f-463b-bcea-00fbf39fdfbc/page/p_m3uaggdjvc?s=vDHTIBnbeCM) replaces this
+reporting. `/rtrf-fy2019/` now generates an immediate external redirect to it.
+This supersedes the earlier retirement decision. No decisions remain.
 
 ## Saved inventory
 

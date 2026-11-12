@@ -2,6 +2,35 @@
 
 Updated November 12, 2026 (Pacific/Honolulu).
 
+## November 12: SSRI social preview origin corrected
+
+- Published GitHub homepage advertised university-domain /ssri/ image URL, which
+  is the wrong deployment host. Actual GitHub image returns 200 image/jpeg.
+- Added SITE_ORIGIN https://cssweb-stack.github.io to SSRI deployment workflow,
+  matching PUBA's established setting. Production site URL remains unchanged.
+- Repositories: ssri (fix), css-shared (handoff). Push workflow change to rebuild;
+  message previews may cache old metadata. No commit/push/deployment performed.
+
+## November 12: RTRF report redirected to confirmed dashboard replacement
+
+- User confirmed Looker Studio College/SSRI Funding Levels dashboard replaces the
+  old reporting; /rtrf-fy2019/ now maps directly to supplied HTTPS URL.
+- Supersedes retirement decision below. Inventory: five unchanged, ten moved,
+  zero retired/unresolved. Generator supports validated external HTTPS destinations
+  without adding preview prefix; internal target checks remain unchanged.
+- Build/shared/SEO checks passed; generated external destination, canonical,
+  fallback and preview-prefix handling verified. Unsafe URL checks passed.
+- Repository: css-shared. No commit/push/deploy.
+
+## November 12: RTRF FY2019 retired — decision closed
+
+- User confirmed /rtrf-fy2019/ is an obsolete report: return custom 404, no redirect.
+- Updated migration mapping and comparison JSON/CSV/report. Final inventory:
+  five unchanged, nine moved, one retired, zero unresolved. Earlier pending notes
+  below are superseded by this decision.
+- Repository: css-shared. No page created; no deployment required for existing 404
+  behavior. Indexing remains disabled until production launch is authorized.
+
 ## November 12: SSRI helper lines off
 
 - Set SSRI site-settings.json layoutGuides to false; other units unchanged.

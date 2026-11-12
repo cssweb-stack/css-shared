@@ -3,9 +3,9 @@
   "sourceFilename": "export-all-urls-eJ4wft5lYccrzVPHikm8.json",
   "sourceSHA256": "f14ebce9d326efa228273a9bd1191e08cd444e8b6fc0bbb189ec76648c72bdf4",
   "counts": {
-    "moved": 9,
+    "moved": 10,
     "unchanged": 5,
-    "unmatched": 1,
+    "unmatched": 0,
     "merged": 0,
     "confirmedRetired": 0
   },
@@ -146,11 +146,11 @@
       "oldTitle": "rtrf-fy2019",
       "oldUrl": "https://ssri.manoa.hawaii.edu/rtrf-fy2019/",
       "oldPath": "/rtrf-fy2019/",
-      "status": "unmatched",
+      "status": "moved",
       "newPath": null,
-      "newUrl": null,
+      "newUrl": "https://lookerstudio.google.com/reporting/3608bb1f-144f-463b-bcea-00fbf39fdfbc/page/p_m3uaggdjvc?s=vDHTIBnbeCM",
       "sourceFile": null,
-      "note": "Historical Research and Training Revolving Fund (RTRF), FY2019 report; keep/retire/archive decision pending."
+      "note": "User confirmed Looker Studio dashboard replaces this reporting; external redirect authorized November 12, 2026."
     },
     {
       "oldTitle": "John (Jack) Barile",

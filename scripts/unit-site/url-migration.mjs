@@ -8,6 +8,13 @@ function outputPath(url) {
   return url.endsWith('/') ? url.slice(1) + 'index.html' : url.slice(1);
 }
 
+function isExternal(url) {
+  if (typeof url !== 'string' || !url.startsWith('https://')) return false;
+  const parsed = new URL(url);
+  if (!parsed.hostname || parsed.username || parsed.password || /[\s<>"']/.test(url)) throw new Error('Invalid external migration destination.');
+  return true;
+}
+
 // Opt-in per unit. Only generated output is written; source pages stay untouched.
 export function generateRedirects({ project, migration, siteUrl, prefix = '/' }) {
   const root = path.join(project, '_site');
@@ -16,7 +23,7 @@ export function generateRedirects({ project, migration, siteUrl, prefix = '/' })
   const redirects = migration?.redirects || [];
   const sources = new Set();
   for (const entry of redirects) {
-    outputPath(entry.from); outputPath(entry.to);
+    outputPath(entry.from); if (!isExternal(entry.to)) outputPath(entry.to);
     if (entry.from === '/' || entry.from === '/404.html' || sources.has(entry.from)) throw new Error(`Duplicate or protected redirect source: ${entry.from}`);
     sources.add(entry.from);
   }
@@ -25,11 +32,14 @@ export function generateRedirects({ project, migration, siteUrl, prefix = '/' })
   const plans = redirects.map(entry => {
     if (sources.has(entry.to)) throw new Error(`Redirect chains or loops are not allowed: ${entry.from}`);
     if ((migration.retired || []).some(item => item.from === entry.from) || (migration.unresolved || []).some(item => item.from === entry.from)) throw new Error(`Conflicting migration status: ${entry.from}`);
-    const target = path.join(root, outputPath(entry.to));
-    if (!fs.existsSync(target) || fs.readFileSync(target, 'utf8').includes(marker)) throw new Error(`Redirect destination is not a real built page: ${entry.to}`);
+    const external = isExternal(entry.to);
+    if (!external) {
+      const target = path.join(root, outputPath(entry.to));
+      if (!fs.existsSync(target) || fs.readFileSync(target, 'utf8').includes(marker)) throw new Error(`Redirect destination is not a real built page: ${entry.to}`);
+    }
     const file = path.join(root, outputPath(entry.from));
     if (fs.existsSync(file) && !fs.readFileSync(file, 'utf8').includes(marker)) throw new Error(`Redirect would overwrite a real page: ${entry.from}`);
-    const destination = deploymentPrefix + entry.to;
+    const destination = external ? entry.to : deploymentPrefix + entry.to;
     const canonical = new URL(entry.to, siteUrl).href;
     return { file, relative: outputPath(entry.from), html: `${marker}\n<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=${escape(destination)}"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="canonical" href="${escape(canonical)}"><title>Page moved</title></head><body><h1>Page moved</h1><p>This page has moved. <a href="${escape(destination)}">Continue to ${escape(entry.label || 'the new page')}</a>.</p></body></html>\n` };
   });

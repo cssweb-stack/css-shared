@@ -42,9 +42,13 @@ Keep mappings until a deliberate review; do not automatically expire them after 
 year. Retired/unresolved URLs receive the custom 404 unless a real page still exists.
 The helpful 404 retains primary quick links; moved-page listings are omitted.
 
-SSRI: nine confirmed moves enabled; historical RTRF FY2019 report unresolved.
+SSRI: ten confirmed moves enabled, including RTRF FY2019 to the user-confirmed
+external Looker Studio replacement.
 Build, all nine output checks, prefix handling, escaping, stale cleanup and failure
 safeguards passed. Regular-page SEO checks pass (one existing long-title advisory).
 
 Local browser verification passed: /hcri/ immediately reached /research/hcri.html;
 an unknown URL returned the custom page with HTTP 404.
+
+External HTTPS destinations are supported when a replacement is confirmed. Their
+URL (including query parameters) is preserved and never receives the preview prefix.

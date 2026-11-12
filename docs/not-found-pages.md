@@ -40,7 +40,7 @@ SSRI has four quick links. Moved-page lists were removed after introducing share
 build-generated redirects. Confirmed moves belong in url-migration.json; unknown
 or retired URLs receive this 404. No manually maintained redirect source pages.
 See [URL Migration Audit](url-migration-audit.md) and the saved
-[SSRI comparison](ssri-url-comparison.md). Historical RTRF FY2019 remains unresolved.
+[SSRI comparison](ssri-url-comparison.md). Historical RTRF FY2019 redirects to the user-confirmed Looker Studio replacement.
 The fallback for an unconfigured unit is a working homepage link.
 
 ## Hosting and SEO
@@ -59,5 +59,5 @@ SSRI verification: local missing nested URL returned HTTP 404 with the custom
 body; noindex and no canonical confirmed. Three viewport checks (1800, 1100,
 390px) confirmed column proportions, Inter 900, cool accent, text fit and no
 horizontal overflow. New 404 main content passed targeted axe checks. SSRI now
-builds 15 pages; shared and SEO checks pass. Recovery mapping is complete for confirmed moves; the historical RTRF report
-decision and final live-host verification remain pending.
+builds 15 pages; shared and SEO checks pass. Migration classification is complete: ten redirects and no retired reports.
+The user confirmed live redirects and custom 404 behavior work.

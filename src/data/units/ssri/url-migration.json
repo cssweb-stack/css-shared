@@ -45,13 +45,13 @@
       "from": "/boilerplate/",
       "to": "/support/boilerplate.html",
       "label": "Boilerplate"
+    },
+    {
+      "from": "/rtrf-fy2019/",
+      "to": "https://lookerstudio.google.com/reporting/3608bb1f-144f-463b-bcea-00fbf39fdfbc/page/p_m3uaggdjvc?s=vDHTIBnbeCM",
+      "label": "College/SSRI Funding Levels"
     }
   ],
   "retired": [],
-  "unresolved": [
-    {
-      "from": "/rtrf-fy2019/",
-      "note": "Historical RTRF FY2019 report; awaiting retain/archive/retire decision."
-    }
-  ]
+  "unresolved": []
 }
