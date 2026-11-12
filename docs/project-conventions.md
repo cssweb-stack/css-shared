@@ -446,11 +446,58 @@ main-content H2 dividers remain. This is an exception to the SSRI main-content r
 The shared bio sidebar uses profile-contact-divider (1px, margin .75rem above and
 .5rem below) between titles and office, before email/phone, and before each visible
 supplemental section (websites, publications, awards, affiliations/additional links).
-No empty sections or dividers. The office divider applies to bios; directory/contact
-cards retain their existing grouping.
+No empty sections or dividers. The office divider applies to bios and all shared directory/contact profile cards.
 
 Website icon links use `.website-link` with an aria-hidden `.special-text-icon`
 containing the inline shared globe SVG and a text span. Shared special-text.css
 owns their geometry/color alongside profile email/phone aliases: 1rem icons,
 var(--icons), identical gap/alignment and link target padding. No separate black
 external globe images or profile-only website icon sizing. Reuse across units.
+
+Standard text cleanup includes removing the retired `intro` class token, retaining
+text and other classes/attributes. Record counts. Shared intro CSS removal remains
+a separate task. This applies to every unit cleanup going forward.
+
+Shared people cards use the same profile-contact-divider before office as bio
+sidebars, separating any titles/roles from an existing office. Email/phone grouping
+continues to use that identical divider. No office means no office divider.
+
+## Core faculty landing-page filename
+
+Use `src/faculty/index.html` for every unit's core faculty landing page, published
+at `/faculty/`. Do not create `core-faculty.html` or `faculty/core.html` alternatives.
+Associated and emeriti directories are sibling HTML files in the faculty folder.
+When correcting an existing exception, inventory its old public URL and add a
+confirmed redirect in the unit's URL migration mapping. This rule is recorded
+for future builds; existing unit exceptions have not been swept by this update.
+
+## Faculty landing-page display name
+
+Use `[UNIT] Faculty` (for example PUBA Faculty) for the primary faculty dropdown
+item, page H1 and HTML page title, rather than Core Faculty. Keep the parent
+Faculty menu label and Associated Faculty/emeriti distinctions as appropriate.
+Keep `src/faculty/index.html` and `/faculty/` unchanged. Check this during new-unit
+builds and existing-unit reviews. PUBA updated now; other units await their review.
+
+Unit faculty and staff portraits share one lowercase `src/media/units/<unit>/faculty-staff/`
+folder, referenced by central people records. Do not create separate faculty/staff
+portrait folders for new units. PUBA now follows this standard.
+
+## Shared policies with optional unit appendices
+
+Policies & Procedures uses one core body in pages/policies-procedures.njk for all
+consumers. Optional per-unit policies-procedures.json supplementalTemplate selects
+a shared units/<unit>/policies-procedures.njk appendix below the core. No appendix
+means no unit-specific block. Never show another department's position statements
+as universal policy. Anthropology's race/racism statement is its own appendix.
+
+## Standard contact-page section backgrounds
+
+Use white for the contact H1/intro, full-width gray for the shared main office /
+building / map section, and white for any people grid beneath it. Approved after
+PUBA trial; applied to PUBA and SSRI. Carry this pattern into new units and unit
+reviews. Units without a central office/map may need their existing alternative
+layout; do not invent an office just to fit the pattern.
+
+Current handoff preference: user is reviewing locally; omit repository-to-update
+lists from replies until they explicitly switch back to a remote workflow.

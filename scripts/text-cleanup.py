@@ -37,6 +37,14 @@ def normalize(s):
  sub(r'(?<=\S) {2,}(?=\S)',' ','double_spaces')
  sub(r'(?<=\w)[ \t]+([,.;:!?])',r'\1','space_before_punctuation')
  return s
+def remove_intro(m):
+ original=m[0];classes=m['classes'].split()
+ if 'intro' not in classes:return original
+ counts['intro_classes']+=1
+ remaining=[name for name in classes if name!='intro']
+ if not remaining:return ''
+ return ' class='+m['quote']+' '.join(remaining)+m['quote']
+
 class Scan(HTMLParser):
  def __init__(self,s):
   super().__init__(convert_charrefs=False);self.source=s;self.starts=[0]+[m.end() for m in re.finditer('\n',s)];self.edits=[];self.ignore=[];self.attrs=[]
@@ -45,7 +53,16 @@ class Scan(HTMLParser):
  def handle_starttag(self,t,a):
   self.attrs.append((t,a))
   if t in ['pre','code','kbd','samp','script','style','textarea']:self.ignore.append(t)
- def handle_startendtag(self,t,a):self.attrs.append((t,a))
+  if not self.ignore:
+   raw=self.get_starttag_text()
+   cleaned=re.sub(r"\s+class=(?P<quote>[\"'])(?P<classes>[^\"']*)(?P=quote)",remove_intro,raw)
+   if cleaned!=raw:self.edits.append((self.position(),len(raw),cleaned))
+ def handle_startendtag(self,t,a):
+  self.attrs.append((t,a))
+  if not self.ignore:
+   raw=self.get_starttag_text()
+   cleaned=re.sub(r"\s+class=(?P<quote>[\"'])(?P<classes>[^\"']*)(?P=quote)",remove_intro,raw)
+   if cleaned!=raw:self.edits.append((self.position(),len(raw),cleaned))
  def handle_endtag(self,t):
   if self.ignore and self.ignore[-1]==t:self.ignore.pop()
  def handle_data(self,s):
@@ -66,7 +83,18 @@ for p in site_source.rglob('*.html'):
  counts['empty_paragraphs']+=n
  if new!=old:
   snapshot=counts.copy();after=Scan(new);after.feed(new);counts.clear();counts.update(snapshot)
-  assert parser.attrs==after.attrs or [x for x in parser.attrs if x[0]!='p']==[x for x in after.attrs if x[0]!='p'],('Attribute changed',p)
+  def cleaned_attrs(items):
+   result=[]
+   for tag,attrs in items:
+    values=[]
+    for key,value in attrs:
+     if key=='class' and value is not None and 'intro' in value.split():
+      value=' '.join(x for x in value.split() if x!='intro')
+      if not value:continue
+     values.append((key,value))
+    result.append((tag,values))
+   return result
+  assert cleaned_attrs(parser.attrs)==after.attrs or [x for x in cleaned_attrs(parser.attrs) if x[0]!='p']==[x for x in after.attrs if x[0]!='p'],('Attribute changed',p)
   changes[p]=new
 keys={'name','title','label','description','research','studyArea','office','alt','roles','address'}
 for p in unit_data.glob('*.json'):

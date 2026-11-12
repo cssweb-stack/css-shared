@@ -2,7 +2,7 @@
 {% if person.office or person.phone or person.email %}
 <address class="profile-contact">
 {% if person.office %}
-{% if profileView == "profile" and (person.title or person.roles | length) %}<hr class="profile-contact-divider">{% endif %}
+{% if person.title or person.roles | length %}<hr class="profile-contact-divider">{% endif %}
 <p class="profile-office">{{ person.office | escape }}</p>
 {% endif %}
 {{ contactLinks(person.email, 'mailto:' + person.email, person.phone, 'tel:' + (person.phoneHref | default(person.phone | telephone))) }}

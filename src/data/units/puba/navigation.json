@@ -84,7 +84,7 @@
     "label": "Faculty",
     "children": [
       {
-        "label": "Core Faculty",
+        "label": "PUBA Faculty",
         "url": "/faculty/",
         "iconColor": null,
         "icon": "people"

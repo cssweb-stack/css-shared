@@ -1,0 +1,70 @@
+{
+  "files": [
+    "puba/src/testimonials.html",
+    "puba/src/funding-opportunities.html",
+    "puba/src/support-puba.html",
+    "puba/src/faculty/steven-w-mumford.html",
+    "puba/src/faculty/associated.html",
+    "puba/src/faculty/maile-arvin.html",
+    "puba/src/naspaa/accreditation.html",
+    "puba/src/naspaa/requirements.html",
+    "puba/src/graduate-certificate/nonprofit-management.html",
+    "puba/src/graduate-certificate/public-policy.html",
+    "puba/src/masters-mpa/index.html",
+    "puba/src/masters-mpa/practicum-placements.html",
+    "puba/src/masters-mpa/timelines.html",
+    "puba/src/about/why-study-puba.html",
+    "puba/src/about/alumni-network.html",
+    "puba/src/about/pi-alpha-alpha.html",
+    "puba/src/about/advisory-board.html"
+  ],
+  "counts": {
+    "empty_paragraphs": 0,
+    "okina": 10,
+    "nonbreaking_spaces": 59,
+    "em_dash_spacing": 7,
+    "double_spaces": 2
+  },
+  "diacritic_review": [
+    {
+      "file": "puba/src/about/advisory-board.html",
+      "location": "text",
+      "line": 24,
+      "original": "Manoa",
+      "suggested": "Mānoa",
+      "kind": "possible_missing_diacritic",
+      "context": "Jaret Leong* — Director of Manoa Academy, UH Mānoa"
+    },
+    {
+      "file": "puba/src/faculty/soyun-jeong.html",
+      "location": "text",
+      "line": 18,
+      "original": "Hawaii",
+      "suggested": "Hawaiʻi",
+      "kind": "possible_missing_diacritic",
+      "context": "ch, I aim to expand my agenda to include the Hawaii Medicaid program, the policy feedback effects created by Medicaid beneficiaries"
+    },
+    {
+      "file": "puba/src/masters-mpa/practicum-placements.html",
+      "location": "text",
+      "line": 26,
+      "original": "Hawaii",
+      "suggested": "Hawaiʻi",
+      "kind": "possible_missing_diacritic",
+      "context": "Hawaii Insurance Division, DCCA"
+    },
+    {
+      "file": "puba/src/masters-mpa/practicum-placements.html",
+      "location": "text",
+      "line": 33,
+      "original": "Hawaii",
+      "suggested": "Hawaiʻi",
+      "kind": "possible_missing_diacritic",
+      "context": "Hawaii State Senate- Carol Fukunaga"
+    }
+  ],
+  "heading_formatting": [],
+  "additionalCorrections": {
+    "stray_hyphen_after_em_dash": 1
+  }
+}

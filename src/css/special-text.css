@@ -32,6 +32,7 @@ font-weight: 300;
 .date,
 .email,
 .phone,
+.appreciation,
 .action,
 .site-main .smile {
 align-items: center;
@@ -74,7 +75,8 @@ font-size: 1.14rem;
 .info,
 .date,
 .email,
-.phone {
+.phone,
+.appreciation {
 display: flex;
 gap: 0.45em;
 }
@@ -82,7 +84,8 @@ gap: 0.45em;
 .info::before,
 .date::before,
 .email::before,
-.phone::before {
+.phone::before,
+.appreciation::before {
 content: "";
 display: block;
 flex: 0 0 1em;
@@ -187,3 +190,13 @@ color: var(--icons);
 fill: currentColor;
 }
 
+
+/* Brief appreciation message; same inline icon geometry/color as email and phone. */
+.site-main .appreciation {
+font-weight: 500;
+}
+
+.appreciation::before {
+-webkit-mask-image: url("../media/icons/emoji-smile.svg");
+mask-image: url("../media/icons/emoji-smile.svg");
+}

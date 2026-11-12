@@ -118,7 +118,7 @@ display: none;
 .site-footer .footer-unit-short-name {
 margin: 0 0 0.5rem;
 padding: 0;
-opacity: 0.75;
+color: var(--footer-abbreviation);
 line-height: 1.5;
 
 /* Remove leading around the standalone capitals; text remains selectable. */

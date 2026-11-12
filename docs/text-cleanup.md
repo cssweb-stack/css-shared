@@ -8,9 +8,15 @@ the user needs to answer anything; optional observations are not pending tasks.
 Ask for “standard text cleanup” and specify the unit(s). Work on editable page
 HTML and relevant shared text records, not original exports or migration snapshots.
 Preserve words and meaning. Keep all links, filenames, template expressions,
-HTML attributes, table structure and code/preformatted text unchanged.
+HTML attributes (except removal of the retired `intro` class), table structure and
+code/preformatted text unchanged.
 
 ## Mechanical pass
+
+- Remove the retired `intro` class from HTML elements. Preserve paragraph text,
+  all other class tokens and attributes; drop the class attribute if it becomes empty.
+  Do not delete the global CSS rule during a unit cleanup; that is a separate
+  shared CSS retirement task. Include removed intro-class counts in the report.
 
 - Headings h1–h6 use shared heading styles: remove embedded strong/b/em/i
   formatting wrappers while preserving text, links and IDs. Do not remove normal

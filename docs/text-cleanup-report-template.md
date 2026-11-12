@@ -12,6 +12,7 @@ never copy another unit's counts into this report.
 
 | Finding | Corrections | Before → after example |
 |---|---:|---|
+| Retired intro classes | [count] | `<p class="intro">` → `<p>` |
 | Accidental non-breaking spaces | [count] | [actual example] |
 | Incorrect Hawaiʻi ʻokina characters | [count] | [actual example] |
 | University name / Mānoa spelling | [count] | [actual example] |

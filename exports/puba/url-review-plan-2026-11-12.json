@@ -1,0 +1,722 @@
+{
+  "unit": "puba",
+  "date": "2026-11-12",
+  "stage": "review_only",
+  "source": "original-urls-2026-11-12.json",
+  "counts": {
+    "unchanged": 1,
+    "moved": 26,
+    "blog_pending": 54,
+    "unresolved": 3
+  },
+  "currentPages": 29,
+  "records": [
+    {
+      "oldTitle": "Home",
+      "oldUrl": "https://puba.manoa.hawaii.edu/",
+      "status": "unchanged",
+      "proposedDestination": "/",
+      "note": ""
+    },
+    {
+      "oldTitle": "Program Overview",
+      "oldUrl": "https://puba.manoa.hawaii.edu/program-overview/",
+      "status": "moved",
+      "proposedDestination": "/about/why-study-puba.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "Advisory Board",
+      "oldUrl": "https://puba.manoa.hawaii.edu/advisory-board/",
+      "status": "moved",
+      "proposedDestination": "/about/advisory-board.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "Alumni Network",
+      "oldUrl": "https://puba.manoa.hawaii.edu/alumni-network/",
+      "status": "moved",
+      "proposedDestination": "/about/alumni-network.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "NASPAA Accreditation",
+      "oldUrl": "https://puba.manoa.hawaii.edu/naspaa-accreditation/",
+      "status": "moved",
+      "proposedDestination": "/naspaa/accreditation.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "NASPAA Requirements",
+      "oldUrl": "https://puba.manoa.hawaii.edu/naspaa-requirements/",
+      "status": "moved",
+      "proposedDestination": "/naspaa/requirements.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "Apply for Admission",
+      "oldUrl": "https://puba.manoa.hawaii.edu/apply-for-admission/",
+      "status": "moved",
+      "proposedDestination": "/applications-admissions.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "MPA Learning Outcomes",
+      "oldUrl": "https://puba.manoa.hawaii.edu/mpa-learning-outcomes/",
+      "status": "moved",
+      "proposedDestination": "/masters-mpa/learning-outcomes.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "Give a Gift",
+      "oldUrl": "https://puba.manoa.hawaii.edu/give-a-gift/",
+      "status": "moved",
+      "proposedDestination": "/support-puba.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "Contact",
+      "oldUrl": "https://puba.manoa.hawaii.edu/contact/",
+      "status": "moved",
+      "proposedDestination": "/contact.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "Directory",
+      "oldUrl": "https://puba.manoa.hawaii.edu/directory/",
+      "status": "moved",
+      "proposedDestination": "/faculty/",
+      "note": ""
+    },
+    {
+      "oldTitle": "Helen H. Yu",
+      "oldUrl": "https://puba.manoa.hawaii.edu/helen-h-yu/",
+      "status": "moved",
+      "proposedDestination": "/faculty/helen-h-yu.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "MPA Timelines",
+      "oldUrl": "https://puba.manoa.hawaii.edu/mpa-timelines/",
+      "status": "moved",
+      "proposedDestination": "/masters-mpa/timelines.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "MPA",
+      "oldUrl": "https://puba.manoa.hawaii.edu/mpa/",
+      "status": "moved",
+      "proposedDestination": "/masters-mpa/",
+      "note": ""
+    },
+    {
+      "oldTitle": "GCERT Nonprofit Management",
+      "oldUrl": "https://puba.manoa.hawaii.edu/gcert-nonprofit-management/",
+      "status": "moved",
+      "proposedDestination": "/graduate-certificate/nonprofit-management.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "Pi Alpha Alpha",
+      "oldUrl": "https://puba.manoa.hawaii.edu/pi-alpha-alpha/",
+      "status": "moved",
+      "proposedDestination": "/about/pi-alpha-alpha.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "Aloha, from the Program Director",
+      "oldUrl": "https://puba.manoa.hawaii.edu/aloha-from-the-program-director/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "American Society of Public Administration Conference",
+      "oldUrl": "https://puba.manoa.hawaii.edu/american-society-of-public-administration-conference/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Student Bio – Samuel Kippen",
+      "oldUrl": "https://puba.manoa.hawaii.edu/student-bio-samuel-kippen/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Student Bio – Mary Janell Murro",
+      "oldUrl": "https://puba.manoa.hawaii.edu/student-bio-mary-janell-murro/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Alumni Spotlight – Radiant Cordero (MPA ’16)",
+      "oldUrl": "https://puba.manoa.hawaii.edu/alumni-spotlight-radiant-cordero-mpa-16/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Alumni Spotlight – Shannon Mark (MPA ’20)",
+      "oldUrl": "https://puba.manoa.hawaii.edu/alumni-spotlight-shannon-mark-mpa-20/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Newly Elected PASO Officers Hit the Ground Running",
+      "oldUrl": "https://puba.manoa.hawaii.edu/newly-elected-paso-officers-hit-the-ground-running/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Faculty Highlights – Spring 2022",
+      "oldUrl": "https://puba.manoa.hawaii.edu/faculty-highlights-spring-2022/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Call to Support Future PUBA Students",
+      "oldUrl": "https://puba.manoa.hawaii.edu/call-to-support-future-puba-students/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Public Affairs #88",
+      "oldUrl": "https://puba.manoa.hawaii.edu/public-affairs-88/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Academic Program",
+      "oldUrl": "https://puba.manoa.hawaii.edu/academic-program/",
+      "status": "unresolved",
+      "proposedDestination": null,
+      "note": "Previously excluded during import. Confirm whether this overview should map to an existing program page or retire."
+    },
+    {
+      "oldTitle": "GCERT Public Service Leadership",
+      "oldUrl": "https://puba.manoa.hawaii.edu/gcert-public-service-leadership/",
+      "status": "unresolved",
+      "proposedDestination": null,
+      "note": "Previously excluded certificate. Confirm program status before choosing replacement or 404."
+    },
+    {
+      "oldTitle": "News",
+      "oldUrl": "https://puba.manoa.hawaii.edu/news/",
+      "status": "moved",
+      "proposedDestination": "/about/puba-news.html",
+      "note": "News landing exists, but blog migration is pending. Do not enable this redirect until blog handling is settled."
+    },
+    {
+      "oldTitle": "Practicum Placements",
+      "oldUrl": "https://puba.manoa.hawaii.edu/practicum-placements/",
+      "status": "moved",
+      "proposedDestination": "/masters-mpa/practicum-placements.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "Funding Opportunities",
+      "oldUrl": "https://puba.manoa.hawaii.edu/funding-opportunities/",
+      "status": "moved",
+      "proposedDestination": "/funding-opportunities.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "Policies and Procedures",
+      "oldUrl": "https://puba.manoa.hawaii.edu/policies-and-procedures/",
+      "status": "unresolved",
+      "proposedDestination": null,
+      "note": "Content preserved in shared policies template; PUBA has no local page yet. Decide where to publish it."
+    },
+    {
+      "oldTitle": "Student Bio – Sharon Baillie",
+      "oldUrl": "https://puba.manoa.hawaii.edu/student-bio-sharon-baillie/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Student Bio – Moises Ayala",
+      "oldUrl": "https://puba.manoa.hawaii.edu/student-bio-moises-ayala/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Alumni Spotlight – Rachele Lamosao",
+      "oldUrl": "https://puba.manoa.hawaii.edu/alumni-spotlight-rachele-lamosao/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Alumni Spotlight – Kenika Lorenzo-Elarco",
+      "oldUrl": "https://puba.manoa.hawaii.edu/alumni-spotlight-kenika-lorenzo-elarco/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "PASO – An Exciting Year in Review",
+      "oldUrl": "https://puba.manoa.hawaii.edu/paso-an-exciting-year-in-review/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "MPA Graduates Co-Author Impactful Capstone Publication",
+      "oldUrl": "https://puba.manoa.hawaii.edu/mpa-graduates-co-author-impactful-capstone-publication/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "News from the Scholarship Committee",
+      "oldUrl": "https://puba.manoa.hawaii.edu/news-from-the-scholarship-committee/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Privacy Policy",
+      "oldUrl": "https://puba.manoa.hawaii.edu/privacy-policy/",
+      "status": "moved",
+      "proposedDestination": "/privacy.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "Insightful Publication from MPA Graduates ‘23",
+      "oldUrl": "https://puba.manoa.hawaii.edu/insightful-publication-from-mpa-graduates-23/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Alumni Spotlight – Brendan Kinoshita",
+      "oldUrl": "https://puba.manoa.hawaii.edu/alumni-spotlight-brendan-kinoshita/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Student Bio – Jordyn Ryan",
+      "oldUrl": "https://puba.manoa.hawaii.edu/student-bio-jordyn-ryan/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Student Bio – Andrew Phomsouvanh",
+      "oldUrl": "https://puba.manoa.hawaii.edu/student-bio-andrew-phomsouvanh/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "PASO Event Reflection – Maunalua Bay",
+      "oldUrl": "https://puba.manoa.hawaii.edu/paso-event-reflection-maunalua-bay/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "PUBA in the Community – Helen Yu, NASPAA",
+      "oldUrl": "https://puba.manoa.hawaii.edu/puba-in-the-community-helen-yu-naspaa/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Student Bio – Chetsada Changmai",
+      "oldUrl": "https://puba.manoa.hawaii.edu/student-bio-chetsada-changmai/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "New PUBA Faculty Publication",
+      "oldUrl": "https://puba.manoa.hawaii.edu/new-puba-faculty-publication/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Aloha, from the New Interim Program Director, Dr. Helen Yu",
+      "oldUrl": "https://puba.manoa.hawaii.edu/aloha-from-the-new-interim-program-director-dr-helen-yu/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Gowun Park",
+      "oldUrl": "https://puba.manoa.hawaii.edu/gowun-park/",
+      "status": "moved",
+      "proposedDestination": "/faculty/gowun-park.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "Former PUBA Faculty, Dr. David Lee, Speaks on the Role of Nonprofits in the Refugee Resettlement Process",
+      "oldUrl": "https://puba.manoa.hawaii.edu/former-puba-faculty-dr-david-lee-speaks-on-the-role-of-nonprofits-in-the-refugee-resettlement-process/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Aloha from the Outgoing Director, Dr. Morgen Johansen",
+      "oldUrl": "https://puba.manoa.hawaii.edu/aloha-from-the-outgoing-director/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Recent Highlights from PUBA Faculty, Winter 2024",
+      "oldUrl": "https://puba.manoa.hawaii.edu/faculty-highlights-winter-2024/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "PASO Event Reflection – Speaker Series: Public Policy & Climate Change",
+      "oldUrl": "https://puba.manoa.hawaii.edu/paso-event-reflection-speaker-series-public-policy-climate-change/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "2024 American Society of Public Administration (ASPA) Conference",
+      "oldUrl": "https://puba.manoa.hawaii.edu/2024-american-society-of-public-administration-aspa-conference/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Alumni Spotlight – Roy Takumi Appointed as Chair of the Hawai‘i State Board of Education",
+      "oldUrl": "https://puba.manoa.hawaii.edu/alumni-spotlight-roy-takumi-appointed-as-chair-of-the-hawaii-state-board-of-education/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "GCERT Public Policy",
+      "oldUrl": "https://puba.manoa.hawaii.edu/gcert-public-policy/",
+      "status": "moved",
+      "proposedDestination": "/graduate-certificate/public-policy.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "Welcome to the Fall 2024 Semester from the Director, Dr. Helen Yu",
+      "oldUrl": "https://puba.manoa.hawaii.edu/welcome-to-the-fall-2024-semester-from-the-director-dr-helen-yu/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Alumni Spotlight – Daniel Koge",
+      "oldUrl": "https://puba.manoa.hawaii.edu/alumni-spotlight-daniel-koge/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Dr. Kelly LeRoux Visits PUBA and Discusses Nonprofit Efforts to Increase Voter Participation",
+      "oldUrl": "https://puba.manoa.hawaii.edu/dr-kelly-leroux-visits-puba-and-discusses-nonprofit-efforts-to-increase-voter-participation/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "2024 Hawai’i Alliance of Nonprofit Organizations (HANO) Conference",
+      "oldUrl": "https://puba.manoa.hawaii.edu/2024-hawaii-alliance-of-nonprofit-organizations-hano-conference/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "PUBA Students Present Mock Testimony at the Capitol",
+      "oldUrl": "https://puba.manoa.hawaii.edu/puba-students-present-mock-testimony-at-the-capitol/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Welcome to the Spring 2025 Semester from the Director, Dr. Helen H. Yu",
+      "oldUrl": "https://puba.manoa.hawaii.edu/welcome-spring-2025/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Soyun Jeong",
+      "oldUrl": "https://puba.manoa.hawaii.edu/soyun-jeong/",
+      "status": "moved",
+      "proposedDestination": "/faculty/soyun-jeong.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "Student Spotlight – Kamakani Konia Appointed as SFCA Art in Public Places Program Director",
+      "oldUrl": "https://puba.manoa.hawaii.edu/kamakani-konia/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "PASO Event Reflection – Speaker Series: Nonprofit Responses to Natural Disasters",
+      "oldUrl": "https://puba.manoa.hawaii.edu/paso-event-reflection-speaker-series-nonprofit-responses-to-natural-disasters/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Public Affairs #82",
+      "oldUrl": "https://puba.manoa.hawaii.edu/public-affairs-82/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Former Director of Finance for the State of Hawai‘i, Laurel A. Johnston, Visits PUBA and Discusses State Executive Budget Processes",
+      "oldUrl": "https://puba.manoa.hawaii.edu/laurel-a-johnston/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Maile Arvin",
+      "oldUrl": "https://puba.manoa.hawaii.edu/maile-arvin/",
+      "status": "moved",
+      "proposedDestination": "/faculty/maile-arvin.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "Welcome to the Fall 2025 Semester from the Director, Dr. Helen H. Yu",
+      "oldUrl": "https://puba.manoa.hawaii.edu/welcome-to-the-fall-2025-semester-from-the-director-dr-helen-h-yu/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "2025 Hawaiʻi Alliance of Nonprofit Organizations (HANO) Conference",
+      "oldUrl": "https://puba.manoa.hawaii.edu/2025-hawaii-alliance-of-nonprofit-organizations-hano-conference/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "UH President Wendy Hensel Visits PUBA to Discuss Leadership and Organizational Change",
+      "oldUrl": "https://puba.manoa.hawaii.edu/uh-president-wendy-hensel-visits-puba-to-discuss-leadership-and-organizational-change/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Testimonials",
+      "oldUrl": "https://puba.manoa.hawaii.edu/testimonials/",
+      "status": "moved",
+      "proposedDestination": "/testimonials.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "PASO Event Reflection – Speaker Series | Inclusive Policy Design: How Public Policy Can Reduce Systemic Inequities",
+      "oldUrl": "https://puba.manoa.hawaii.edu/how-public-policy-can-reduce-systemic-inequities/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Green Fee Advisory Council in Hawai‘i: Learning from Carmela Resuma",
+      "oldUrl": "https://puba.manoa.hawaii.edu/green-fee-advisory-council/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Welcome to the Spring 2026 Semester from the Director, Dr. Helen H. Yu",
+      "oldUrl": "https://puba.manoa.hawaii.edu/welcome-to-the-spring-2026-semester/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Dr. Helen H. Yu Ranked in Global Top 0.05% of Researchers",
+      "oldUrl": "https://puba.manoa.hawaii.edu/dr-helen-h-yu-ranked/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "PUBA Alum Cheryl Bellisario Shares Insights on Housing Policy in Hawaiʻi",
+      "oldUrl": "https://puba.manoa.hawaii.edu/puba-alum-cheryl-bellisario-shares-insights-on-housing-policy-in-hawai%ca%bbi/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "PASO Event Reflection – Speaker Series | Nonprofits and Human Rights",
+      "oldUrl": "https://puba.manoa.hawaii.edu/nonprofits-and-human-rights/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "2026 NASPAA Student Simulation Competition",
+      "oldUrl": "https://puba.manoa.hawaii.edu/2026-naspaa-student-simulation-competition/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Steven W. Mumford",
+      "oldUrl": "https://puba.manoa.hawaii.edu/steven-w-mumford/",
+      "status": "moved",
+      "proposedDestination": "/faculty/steven-w-mumford.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "Janet Jock",
+      "oldUrl": "https://puba.manoa.hawaii.edu/janet-jock/",
+      "status": "moved",
+      "proposedDestination": "/faculty/janet-jock.html",
+      "note": ""
+    },
+    {
+      "oldTitle": "Welcome to the Fall 2026 Semester from the Director, Dr. Helen H. Yu",
+      "oldUrl": "https://puba.manoa.hawaii.edu/welcome-to-the-fall-2026/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    },
+    {
+      "oldTitle": "Student Spotlight – Seungwoo Back",
+      "oldUrl": "https://puba.manoa.hawaii.edu/student-spotlight-seungwoo-back/",
+      "status": "blog_pending",
+      "proposedDestination": null,
+      "note": "Not present in saved WordPress page-only export. Treat as blog candidate pending post export; never assume retired."
+    }
+  ],
+  "currentPageInventory": {
+    "/about/advisory-board.html": {
+      "title": "Advisory Board",
+      "source": "src/about/advisory-board.html"
+    },
+    "/about/alumni-network.html": {
+      "title": "Alumni Network",
+      "source": "src/about/alumni-network.html"
+    },
+    "/about/pi-alpha-alpha.html": {
+      "title": "Pi Alpha Alpha",
+      "source": "src/about/pi-alpha-alpha.html"
+    },
+    "/about/puba-news.html": {
+      "title": "PUBA News",
+      "source": "src/about/puba-news.html"
+    },
+    "/about/why-study-puba.html": {
+      "title": "Why Study PUBA",
+      "source": "src/about/why-study-puba.html"
+    },
+    "/applications-admissions.html": {
+      "title": "Applications & Admissions",
+      "source": "src/applications-admissions.html"
+    },
+    "/contact.html": {
+      "title": "Contact PUBA",
+      "source": "src/contact.html"
+    },
+    "/courses.html": {
+      "title": "PUBA Courses",
+      "source": "src/courses.html"
+    },
+    "/faculty/associated.html": {
+      "title": "Associated Faculty",
+      "source": "src/faculty/associated.html"
+    },
+    "/faculty/gowun-park.html": {
+      "title": "Gowun Park",
+      "source": "src/faculty/gowun-park.html"
+    },
+    "/faculty/helen-h-yu.html": {
+      "title": "Helen H. Yu",
+      "source": "src/faculty/helen-h-yu.html"
+    },
+    "/faculty/": {
+      "title": "Core Faculty",
+      "source": "src/faculty/index.html"
+    },
+    "/faculty/janet-jock.html": {
+      "title": "Janet Jock",
+      "source": "src/faculty/janet-jock.html"
+    },
+    "/faculty/maile-arvin.html": {
+      "title": "Maile Arvin",
+      "source": "src/faculty/maile-arvin.html"
+    },
+    "/faculty/soyun-jeong.html": {
+      "title": "Soyun Jeong",
+      "source": "src/faculty/soyun-jeong.html"
+    },
+    "/faculty/steven-w-mumford.html": {
+      "title": "Steven W. Mumford",
+      "source": "src/faculty/steven-w-mumford.html"
+    },
+    "/funding-opportunities.html": {
+      "title": "Funding Opportunities",
+      "source": "src/funding-opportunities.html"
+    },
+    "/graduate-certificate/nonprofit-management.html": {
+      "title": "Graduate Certificate in Nonprofit Management",
+      "source": "src/graduate-certificate/nonprofit-management.html"
+    },
+    "/graduate-certificate/public-policy.html": {
+      "title": "Graduate Certificate in Public Policy",
+      "source": "src/graduate-certificate/public-policy.html"
+    },
+    "/": {
+      "title": "Education for Public Service",
+      "source": "src/index.html"
+    },
+    "/masters-mpa/": {
+      "title": "Master of Public Administration (MPA)",
+      "source": "src/masters-mpa/index.html"
+    },
+    "/masters-mpa/learning-outcomes.html": {
+      "title": "MPA Learning Outcomes",
+      "source": "src/masters-mpa/learning-outcomes.html"
+    },
+    "/masters-mpa/practicum-placements.html": {
+      "title": "Practicum Placements",
+      "source": "src/masters-mpa/practicum-placements.html"
+    },
+    "/masters-mpa/timelines.html": {
+      "title": "MPA Timelines",
+      "source": "src/masters-mpa/timelines.html"
+    },
+    "/naspaa/accreditation.html": {
+      "title": "NASPAA Accreditation",
+      "source": "src/naspaa/accreditation.html"
+    },
+    "/naspaa/requirements.html": {
+      "title": "NASPAA Requirements",
+      "source": "src/naspaa/requirements.html"
+    },
+    "/privacy.html": {
+      "title": "Privacy Policy",
+      "source": "src/privacy.html"
+    },
+    "/support-puba.html": {
+      "title": "Support PUBA",
+      "source": "src/support-puba.html"
+    },
+    "/testimonials.html": {
+      "title": "Testimonials",
+      "source": "src/testimonials.html"
+    }
+  },
+  "note": "No active redirect configuration or 404 retirements created. Blog/post candidates explicitly deferred."
+}

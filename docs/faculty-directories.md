@@ -79,3 +79,14 @@ directory selects detailed cards automatically when a record has these fields;
 GEO's explicit detail flag remains supported. `roles` is an optional array for
 multiple administrative titles (Helen H. Yu: Director and Graduate Chair). Legacy
 single `role` remains supported. Do not invent administrative roles for other people.
+
+## Required landing-page location
+
+Core faculty lives at `src/faculty/index.html`, published as `/faculty/`, across
+all units. Associated/emeriti pages live beside that index. Check this convention
+when creating or reviewing a unit. Preserve old URLs through the shared migration
+mapping when standardizing existing exceptions.
+
+Primary faculty landing-page display labels use `[UNIT] Faculty`, not Core Faculty:
+match the dropdown item, H1 and page title. File remains faculty/index.html and
+public URL /faculty/. Applied to PUBA; check other units during their review.

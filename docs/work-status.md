@@ -2,6 +2,258 @@
 
 Updated November 12, 2026 (Pacific/Honolulu).
 
+## November 12: Solid footer abbreviation color
+
+- Added --footer-abbreviation: #c4d1cb in master colors.css and replaced large
+  footer acronym's .75 opacity with that solid color in shared footer.css.
+- All units inherit the same editable token; other footer opacity rules unchanged.
+- Local workflow; no commit/push/deploy.
+
+## November 12: NASPAA Requirements opening sidebar
+
+- Added homepage shared NASPAA SVG in right profile-sidebar of opening section,
+  matching accreditation page's shared responsive profile-page geometry.
+- Informative standalone image has descriptive alt text; no internal SVG title
+  required when embedded through img. Lower gray section/tables unchanged.
+- Local workflow; no commit/push/deployment performed.
+
+## November 12: Ordinary blockquote visual treatment corrected
+
+- NASPAA blockquote existed in source/output but border/indent styling was limited
+  to testimonial wrappers. Extended common quote treatment to main-content
+  blockquotes; reset nested testimonial quote border/padding to prevent doubling.
+- Local workflow: user requested no repository handoff lists in responses until
+  they switch back to remote workflow. No commit/push/deploy.
+
+## November 12: NASPAA accreditation quotation semantics
+
+- Wrapped middle accreditation quotation in blockquote; final paragraph remains
+  ordinary prose. Text and links preserved.
+- Repositories: puba; css-shared (handoff). No commit/push/deploy.
+
+## November 12: PUBA NASPAA accreditation sidebar
+
+- Accreditation uses shared profile-page geometry: main 80/right 20 at wide desktop,
+  shared intermediate ratios and mobile stacking. Existing shared CSS, no overrides.
+- Reused exact homepage NASPAA graphicCallout with logo/Requirements link; omitted
+  Public Affairs badge and removed redundant closing requirements sentence.
+- Repositories: puba; css-shared (handoff). No commit/push/deploy.
+
+## November 12: Testimonial border softened
+
+- Shared testimonial border now 6px var(--border-neutral), matching gray section
+  borders. This supersedes the rejected white-border trial.
+  Existing indentation, quote text and attribution styles unchanged.
+- Repository: css-shared. No commit/push/deploy.
+
+## November 12: PUBA support layout and appreciation treatment
+
+- Replaced old content-sidebar layout with same reverse imageTextRow macro used
+  by POLS, no lead photo; UHF logo stays right with common responsive sizing.
+- Additional Funds moved into full-width gray section.
+- Added reusable appreciation special-text class with shared 1em gray mask icon
+  geometry, emoji-smile.svg and weight 500; text size unchanged. Existing smile
+  treatment left intact for its other uses.
+- Repositories: puba and css-shared. No commit/push/deploy.
+
+## November 12: Contact band design approved, applied to SSRI
+
+- User approved PUBA trial. Changed SSRI main office/map wrapper to gray; intro
+  stays white. Recorded white intro / gray office-map / white people convention.
+- Applied so far to PUBA and SSRI; other units checked during their reviews.
+- Repositories for this change: ssri and css-shared. No commit/push/deploy.
+
+## November 12: PUBA contact band trial
+
+- PUBA only: main office/map section gray; Sarah/Helen shared people grid white.
+  Heading/intro remain white. No shared CSS/template or SSRI changes.
+- Trial for user review, not yet a universal contact-page convention.
+- Repositories: puba; css-shared (handoff). No commit/push/deploy.
+
+## Deferred follow-up: Political Science policies document
+
+- Remaining Policies and Committees.docx material still needs POLS-specific
+  restructuring and currency review. Not completed; resume when user returns to
+  POLS. Review/inventory: pols-policy-content-review.md.
+- Anthropology position statement safely stored at
+  src/includes/units/anth/policies-procedures.njk and selected by its unit JSON;
+  no need to divert from PUBA to inspect it now.
+
+## November 12: Shared core policies with unit appendix
+
+- Added Academic Integrity/Plagiarism and Consensual Relationships as linked H2
+  topics in shared gray core; EP 1.203 verified, catalog fetch 403 noted in guide.
+- Moved Anthropology statement to central units/anth/policies-procedures.njk,
+  selected by anth/policies-procedures.json. Only ANTH gets that appendix; PUBA
+  and other consumers get common core only unless explicitly configured.
+- Recorded architecture in conventions/guide. Generalized draft notice; no POLS
+  graduate rules or penalties promoted to universal policy.
+- Shared checks/PUBA build passed; rendered both default and ANTH variants,
+  verified nine core H2 topics and ANTH-only appendix after core.
+- Repository: css-shared. No commit/push/deploy.
+
+## November 12: POLS policy document reviewed, no site edits
+
+- Read supplied Policies and Committees.docx. Shared-page candidates: Academic
+  Integrity and Consensual Relationships; grievances already covered. University AI
+  guidance may be a later candidate, but document calls EP 2.221 proposed and its
+  actual graduate rules are department-specific. Verify before universalizing.
+- Other sections belong in POLS graduate/faculty/governance resources; currency
+  needs department review. Review saved in pols-policy-content-review.md.
+- Repository: css-shared (review/handoff only). No website changes or deployment.
+
+## November 12: Policy page heading/title follow-up
+
+- Corrected shared H1 and PUBA metadata title to Policies & Procedures; prior
+  edit had changed only footer label. Moved broad intro immediately under H1,
+  before retained In progress notice. Gray consolidated section remains present.
+- Confirmed PUBA reference section and duplicated Anthropology policies removed.
+- Repositories: puba and css-shared. No commit/push/deploy.
+
+## November 12: Policies footer label and gray policy section
+
+- Footer label now Policies & Procedures, following navigation ampersand convention.
+- Added broad university-community policy introduction; retained In progress notice.
+- Consolidated policy list now occupies full-width gray section. Anthropology
+  reference position statement remains in its own plain section below.
+- Repository: css-shared. No commit/push/deploy.
+
+## November 12: Policy EEO label standardized
+
+- Checked current UH Institutional Equity heading: Equal Employment Opportunity
+  (EEO). Kept consolidated EEO entry/current policy collection link; removed older
+  duplicate Anthropology EEO/AA section. Only its position statement remains below.
+- Terminology decision does not assert EEO/AA equivalence or eliminate obligations.
+- Repository: css-shared. No commit/push/deploy.
+
+## November 12: Policies reference sections reduced
+
+- Removed entire PUBA reference block as directed. Below the consolidated policies,
+  Anthropology now retains only its position statement and EEO/AA reference.
+- Removed duplicated Anthropology responsibilities, grievances, conduct, records
+  and tobacco sections. Consolidated policies remain unchanged and in progress.
+- Repository: css-shared. No commit/push/deploy.
+
+## November 12: Consolidated policies working set
+
+- Added seven H2 policy topics above unchanged PUBA and Anthropology reference
+  sections. Single-destination headings linked; grievances retains two body links.
+- Retained In progress status; no universalized Anthropology position statement.
+- Used current EEO collection, faculty responsibility page, FERPA page and tobacco
+  guidance; replaced broken graduate grievance URL in working set only.
+- Repository: css-shared. No commit/push/deploy. Source sections retained verbatim.
+
+## November 12: Policies comparison draft exposed in PUBA/ANTH footers
+
+- Existing central pages/policies-procedures.njk retains separate PUBA and ANTH
+  sections; added explicit In progress comparison-draft notice under H1.
+- Created PUBA local HTML shell at /policies-procedures.html, using same body as
+  existing Anthropology page. PUBA draft marked noindex even if indexing enables.
+- Shared footer opt-in policiesProceduresUrl added for PUBA and ANTH only, after
+  Webmaster · Privacy Policy. No other units linked to unfinished policy content.
+- Policy content/links retained for review, not legally or editorially validated.
+  PUBA workbook's earlier unresolved policy-page note is superseded by this page;
+  do not overwrite user's annotated workbook. Redirect still awaits final URL audit.
+- Shared checks/PUBA build passed (31 pages); footer destination, draft notice,
+  both source sections and PUBA noindex verified. ANTH build not rerun.
+- Repositories: puba and css-shared. No commit/push/deployment performed.
+
+## November 12: PUBA shared portrait folder renamed
+
+- Updated all six faculty photo paths in people.json to faculty-staff; connected
+  Sarah Amend's new sarah-amend.webp instead of the shared placeholder.
+- Confirmed all seven referenced photos exist; Sarah dimensions measured 300×300.
+  Shared checks and PUBA build passed. Recorded combined faculty-staff
+  portrait-folder convention. User already renamed folder; no additional rename.
+- Repository: css-shared. No commit/push/deployment performed.
+
+## November 12: PUBA contact people grid
+
+- Confirmed main office/map already uses shared unit-contact.njk.
+- Added shared POLS people-grid below map in gray section, no heading, last-name
+  order: Sarah Amend (source spelling, Program Manager), Helen H. Yu.
+- Moved six faculty records into central PUBA people.json and added Sarah using
+  saved directory details/shared placeholder. Faculty collection excludes Sarah;
+  key_contacts selects only these two. No duplicated Helen record or new bio.
+- Build/shared checks passed; contact card count/order/map position verified,
+  staff excluded from faculty directory and Helen bio preserved.
+- Repositories: puba and css-shared. No commit/push/deployment performed.
+
+## November 12: PUBA associated faculty sections
+
+- First plain section: Associated Faculty H1 plus one-sentence introduction.
+- Second full-width gray section: all existing faculty lists; Cooperating Faculty H2
+  retained with no HR above it. Lecturer/Emeriti headings and separators retained.
+- Repositories: puba and css-shared (handoff only). No push/deployment.
+
+## November 12: PUBA Faculty display name standardized
+
+- Changed primary faculty dropdown label, H1 and page title from Core Faculty to
+  PUBA Faculty. Kept /faculty/ URL and faculty/index.html source filename.
+- Shared checks/PUBA build passed; rendered heading/title/menu verified.
+- Recorded [UNIT] Faculty convention in project-conventions/faculty-directories
+  for future builds/reviews; other units not swept.
+- Repositories: puba and css-shared. No commit/push/deployment performed.
+
+## November 12: PUBA duplicate faculty links removed
+
+- Removed legacy six-name list and its row below shared core faculty directory.
+  Faculty cards and their biography links remain intact.
+- Repositories: puba; css-shared (handoff only). No commit/push/deploy.
+
+## November 12: Core faculty filename locked down
+
+- Recorded src/faculty/index.html → /faculty/ as the standard in project-conventions
+  and faculty-directories. Existing exceptions need inventory/redirects when fixed.
+- Documentation only; no unit files renamed or deployment performed.
+- Repository: css-shared.
+
+## November 12: Office divider on all shared people cards
+
+- Removed bio-only condition: shared profile-contact now renders the existing
+  profile-contact-divider between title/roles and office in directory/contact cards
+  too. Email/phone already uses that exact class and remains unchanged.
+- No office or preceding titles means no extra separator. Shared across all units.
+- Shared checks/PUBA build passed; verified all six cards have identical office
+  and contact divider classes.
+- Repository: css-shared. No commit/push/deploy.
+
+## November 12: Intro-class removal added to standard cleanup
+
+- Updated procedure, report template and cleanup tool to remove intro tokens from
+  parsed HTML element class attributes, retaining other classes and skipping code.
+- Removed ten PUBA intro classes. Copy and other attributes preserved; global intro
+  CSS retained for a separate retirement pass. Follow-up scan finds no changes.
+- Shared checks passed; four optional diacritic candidates unchanged.
+- Repositories: puba and css-shared. No commit/push/deploy.
+
+## November 12: PUBA Excel content-review checklist and URL plan
+
+- Saved original 84-URL export, machine-readable plan and four-tab Excel workbook
+  under exports/puba. Main checklist covers 29 current pages including six bios,
+  with preview/original hyperlinks, dropdown review status and blank notes.
+- Counts: one unchanged, 26 proposed moves, three unresolved pages, 54 deferred
+  blog/post candidates. No retired declarations, active redirects, or 404 added.
+  News landing held for blog work; two new current pages included in checklist.
+- Three decisions: Academic Program, GCERT Public Service Leadership, Policies
+  and Procedures. User can review these in workbook; no need to block page review.
+- Verified workbook ZIP/XML/counts/hyperlinks, destination coverage and byte-identical
+  original export. Reusable writer refuses overwrite to protect annotated copies.
+- Guide: puba-page-review.md. Repository: css-shared. No website source changes,
+  no commit/push/deploy. Next: user page review; blog export/workflow later.
+
+## November 12: PUBA standard text cleanup complete
+
+- Updated 17 HTML pages: 59 NBSPs, 10 incorrect ʻokina, seven dash-spacing
+  corrections, two doubled spaces; one extra hyphen after an em dash removed.
+- No bold/italic inside headings found. Shared PUBA text records required no edits.
+  Four possible missing diacritics left as report-only observations; no response
+  required. User's page-by-page review is next; SEO/accessibility/URL audit later.
+- Verified identical HTML structure/attributes/templates, unchanged table markup;
+  second pass zero mechanical findings. Shared check and PUBA 30-page build passed.
+- Report: puba-text-cleanup-report.md; measured JSON in exports/puba.
+- Repositories: puba and css-shared (documentation). Local only, no push/deploy.
+
 ## November 12: SSRI social preview origin corrected
 
 - Published GitHub homepage advertised university-domain /ssri/ image URL, which

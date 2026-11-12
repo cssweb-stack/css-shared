@@ -77,7 +77,7 @@
 </ul>
 {% endif %}
 
-{% if footerWebmaster or footerPrivacy %}
+{% if footerWebmaster or footerPrivacy or site.policiesProceduresUrl %}
 <p class="footer-contact-meta">
 {% if footerWebmaster %}
 <a href="mailto:{{ footerWebmaster.email | escape }}">{{ footerWebmaster.label | escape }}</a>
@@ -87,6 +87,10 @@
 {% endif %}
 {% if footerPrivacy %}
 <a href="{{ footerPrivacy.url | url }}">{{ footerPrivacy.label | escape }}</a>
+{% endif %}
+{% if site.policiesProceduresUrl %}
+{% if footerWebmaster or footerPrivacy %}<span aria-hidden="true">&middot;</span>{% endif %}
+<a href="{{ site.policiesProceduresUrl | url | escape }}">Policies &amp; Procedures</a>
 {% endif %}
 </p>
 {% endif %}

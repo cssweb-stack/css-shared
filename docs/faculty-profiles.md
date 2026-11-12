@@ -105,5 +105,4 @@ main-content H2 dividers remain. This is an exception to the SSRI main-content r
 The shared bio sidebar uses profile-contact-divider (1px, margin .75rem above and
 .5rem below) between titles and office, before email/phone, and before each visible
 supplemental section (websites, publications, awards, affiliations/additional links).
-No empty sections or dividers. The office divider applies to bios; directory/contact
-cards retain their existing grouping.
+No empty sections or dividers. The office divider applies to bios and all shared directory/contact profile cards.
