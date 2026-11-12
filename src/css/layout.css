@@ -155,6 +155,11 @@ border-block: 6px solid var(--border-neutral);
 margin-bottom: 0;
 }
 
+/* Add breathing room only when a gray band is the final content section. */
+.site-main > .page-section--gray:last-child {
+margin-bottom: var(--layout-section-spacing);
+}
+
 /* Inner padding owns the section edges; content only spaces its neighbors. */
 /* Bootstrap rows need their negative margin to balance column gutters. */
 .site-main .content-section > :first-child:not(.row) {

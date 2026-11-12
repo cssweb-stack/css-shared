@@ -2,6 +2,148 @@
 
 Updated November 12, 2026 (Pacific/Honolulu).
 
+## November 12: SSRI layout review accepted
+
+- User considers layout work complete. White lead-off emphasizes page purpose;
+  gray bands group supporting detail. Individual bios always remain white.
+- Gray heaviness may be revisited through shared color tokens later; no color
+  adjustment requested now. Continue user's next task, not further layout polish.
+
+## November 12: Conditional final gray-band spacing
+
+- Shared CSS adds layout-section-spacing bottom margin only to a gray section
+  that is the final direct child of site-main. Existing main bottom padding stays;
+  white-ending pages and gray sections followed by more content are unchanged.
+- Responsive gap uses existing token (3rem desktop, 2.25rem mid, 2rem phone).
+- No empty spacer markup or unit-specific overrides. Local only; no deployment.
+
+## November 12: Shared privacy page white lead / gray policy content
+
+- Heading/date/intro remain white; Website analytics through remaining sections
+  now in full-width gray band. Opening analytics H2 has no leading divider.
+- Updated shared privacy body, so all university-template consumers inherit it.
+  Policy wording, date and links unchanged. SSRI layout now 13 split/2 exceptions.
+- Local work only; no commit/push/deployment performed.
+
+## November 12: SSRI layout consistency sweep
+
+- Reviewed all 15 built pages: 12 white opening/gray details; bio/privacy/404 are
+  deliberate white purpose-specific exceptions. Directory extra white group valid.
+- No legacy sidebar grid or leading section HR/H2 found. All pages one H1.
+- Eight targeted desktop/mobile cases verified 80/20/stacking and no overflow.
+- Report: ssri-layout-review.md. No site edits required, no deployment performed.
+
+## November 12: Boilerplate page presentation
+
+- Replaced prominent tagline/separate update paragraph with ordinary intro sentence
+  describing grant-application use and full institutional names; final sentence
+  retains Last updated October 2020. No date/content freshness claims invented.
+- All reference content now in gray full-width section; no leading HR before first
+  H2, later separators retained. Historical boilerplate text unchanged.
+- Local only; no commit/push/deployment performed.
+
+## November 12: TASI/PHIDC team wording corrected
+
+- User directed removal of entire Key faculty include sentence (Victoria Fan and
+  Yan Yan Wu). No replacement roster invented. Prior roster uncertainty closed by
+  removing that sentence. Heading now TASI/PHIDC Team for combined program page.
+- Local only; no commit/push/deployment performed.
+
+## November 12: TASI/PHIDC section layout and stale team warning
+
+- Entire opening H1/tagline/intro/list/certificate paragraph now white full-width.
+  Gray shared 80/20 section starts at PHIDC Team, with Christina contact sidebar.
+- Removed leading HR at PHIDC Team and outdated paragraph presenting Norman
+  Okamura as current director, following user's confirmation he is deceased.
+- User uncertain whether Victoria Fan remains involved: existing roster sentence
+  still needs confirmation; do not repeat speculative employment allegations.
+  Other project/program text remains unchanged and needs content-owner review.
+- Local only; no commit/push/deployment performed.
+
+## November 12: HCRI and HAM lower-section headings
+
+- Added Mission and Impact above HCRI mission/history paragraphs and About Greg
+  Chun above HAM biography. Both open gray content sections without a leading HR.
+- Existing content/contacts unchanged. Local only; no deployment.
+
+## November 12: HCRI two sections with upper logo
+
+- First white shared 80/20 row holds H1/first intro paragraph and existing logo.
+- Second gray shared 80/20 row holds remaining mission/history paragraphs and
+  main office/Christina Higa/Charissa Minato sidebar. All original content retained.
+- No new divider above opening content. No commit/push/deployment performed.
+
+## November 12: OENAS and HAM white lead / gray details
+
+- Moved each H1/first intro paragraph into white full-width section. Remaining
+  content and existing contact sidebar occupy gray shared responsive 80/20 section.
+- Removed leading HR before OENAS Professional and Experienced Staff. HAM lower
+  section starts with Greg Chun biography prose; no heading/content invented.
+- Original text, links, portraits/contact details and later dividers retained.
+- Local review; no commit/push/deployment performed.
+
+## November 12: SSRI homepage mobile callout icons
+
+- Home graphics inherited 75% mobile portrait sizing after sidebar move. Marked
+  both as sidebar-media--icon and capped stacked/mobile artwork at 6rem (96px),
+  retaining centered labels and existing tablet/desktop sizing.
+- Shared opt-in icon class leaves portraits/logos and other graphics unchanged.
+- Local work only; no commit/push/deploy.
+
+## November 12: SSRI homepage white lead / gray details
+
+- Full-width white H1 and introduction; gray details section starts at
+  Interdisciplinary Research without a leading HR. Extramural Grant Administration
+  retains its separating HR. Shared responsive 80/20 profile-page geometry.
+- Existing Travel Award/Funding Levels callouts moved with sidebar alongside
+  details, stacked within right column; destinations/content preserved.
+- No commit/push/deployment performed; local review.
+
+## November 12: SSRI Grant Development section structure
+
+- Full-width white opening section contains H1 and existing introduction.
+- Priority through Boilerplate now in gray full-width section with shared 80/20
+  main/contact-sidebar geometry; removed leading HR before Priority.
+- Hanalei Abbott photo/details and Jonathan Massie details retained unchanged in
+  right sidebar. Later main-content dividers retained. No deployment performed.
+
+## November 12: SSRI leading section H2 dividers corrected
+
+- Found four leading HRs across Directory (two page sections), Research Services,
+  and Fiscal/Compliance. Shared people/service includes now pass divider=false
+  for each loop's first group; later separators remain. No CSS hiding workaround.
+- sectionHeading accepts explicit divider flag. Other content/prose, privacy
+  headings, sidebar dividers and section background borders remain unchanged.
+- Updated convention: no leading rule at a fresh section/band or bio column;
+  retain rules separating later content groups. No deployment performed.
+
+## November 12: UHERO fully detached
+
+- User wants no literal css-shared connection. Copied Inter/fonts license locally;
+  removed shared.config/bootstrap helpers/watch targets/CI checkout and hourly cron.
+- Independent build verified, no shared imports. Local UHERO AGENTS/README/handoff
+  now own its instructions. Earlier font-sharing notes superseded.
+- No production deployment or other unit changes.
+
+## November 12: UHERO scope corrected — independent design
+
+- User clarified UHERO is standalone Bootstrap + Inter, not university-template
+  based. Replaced initial starter in same uhero directory; no restart needed.
+- Removed provisional central unit records. Only Inter assets shared; no university
+  CSS/shell/header/footer/hero. Standalone Eleventy config and Bootstrap dependency.
+- Next: bespoke header and slideshow direction, then stop. Earlier starter notes
+  superseded. Guide: uhero-starter.md. No full-site migration/deployment.
+
+## November 12: UHERO local starter
+
+- Created lowercase sibling uhero with existing shared Eleventy generator, home
+  and privacy HTML, local/shared settings, workflow and durable instruction pointer.
+- Central uhero data: identity/contact from official site; home-only navigation,
+  noindex, guides on, hero disabled pending slideshow, Open Graph awaiting asset.
+- Shared UH logo temporary. No imported content/images, custom header/slideshow,
+  Git remote, commits or deployment. Next: user's header/slideshow direction.
+- Guide: uhero-starter.md. Local preview command uses port 8094.
+
 ## November 12: Solid footer abbreviation color
 
 - Added --footer-abbreviation: #c4d1cb in master colors.css and replaced large

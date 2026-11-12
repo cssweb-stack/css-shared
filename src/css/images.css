@@ -88,3 +88,12 @@ width: 212px;
 max-width: 100%;
 height: auto;
 }
+
+/* Small sidebar graphics are icons, not portraits; cap them on stacked layouts. */
+@media (max-width: 767.98px) {
+.sidebar-media.sidebar-media--icon.mx-auto {
+width: 6rem;
+max-width: 100%;
+height: auto;
+}
+}

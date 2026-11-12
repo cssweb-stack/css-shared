@@ -35,9 +35,11 @@ Use lowercase repository folders. Psychology's local folder is `psy`, formerly
 
 ## Page sources and metadata
 
-SSRI main-content section H2s, including the first, are immediately preceded by
-`<hr class="section-divider">`. Reuse an existing HR rather than inserting a
-duplicate. These inherit the standard shared HR styling; section-divider is the
+SSRI main-content H2s use `<hr class="section-divider">` between content groups.
+Do not add a leading HR when an H2 opens a new page section/band or biography
+column: the section boundary already supplies the separation. Keep dividers
+between later groups within that section, including headings following preceding
+prose. Reuse an existing HR rather than inserting a duplicate. These inherit the standard shared HR styling; section-divider is the
 hook for future adjustments. H2s keep their normal shared heading style.
 Sidebar names, office headings, profile/card titles and research-list card titles
 retain their component styling and are excluded. Other sites are not swept by
@@ -501,3 +503,17 @@ layout; do not invent an office just to fit the pattern.
 
 Current handoff preference: user is reviewing locally; omit repository-to-update
 lists from replies until they explicitly switch back to a remote workflow.
+
+When a gray page section is the final direct content section, add one responsive
+layout-section-spacing margin beneath it, in addition to the main content's
+existing bottom padding. Other final sections keep zero final margin. Shared CSS
+owns this conditional spacing; do not add empty spacer sections to unit pages.
+
+## Lead-off and supporting-content bands
+
+Use a white lead-off section for page purpose/introduction, then a full-width gray
+band to contain the supporting detail when that grouping helps. This is a content
+hierarchy pattern, not an automatic alternating-background rule. Individual bio
+pages remain white and never receive gray bands. Current neutral surface/border
+colors remain approved for continued work; possible softening is deferred, not
+authorization to change tokens now.
