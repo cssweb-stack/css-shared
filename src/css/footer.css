@@ -268,6 +268,7 @@ padding-top: 0;
 
 .site-footer .footer-inner .footer-contact-meta a {
 font-size: inherit;
+min-height: 24px;
 }
 
 .site-footer .footer-contact-meta a:focus-visible {

@@ -58,3 +58,9 @@ box-shadow: inset 3px 0 pink, inset -3px 0 pink;
 .unit-nav .row > .col-12::after {
 box-shadow: inset 0 0 0 3px red;
 }
+
+/* Logical sidebar blocks are outlined even when they are not Bootstrap columns. */
+.site-main .sidebar-stack > *,
+.site-main .program-button-sets > :is(.button-set, .program-sidebar-links) {
+box-shadow: inset 0 0 0 3px red;
+}

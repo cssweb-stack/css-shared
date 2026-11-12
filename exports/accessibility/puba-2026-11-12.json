@@ -1,0 +1,945 @@
+{
+  "date": "2026-11-12",
+  "origin": "http://127.0.0.1:8094",
+  "browser": "157.0.8103.52",
+  "results": [
+    {
+      "url": "/404.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/404.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/404.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/applications-admissions.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/applications-admissions.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/applications-admissions.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/contact.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/contact.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          },
+          {
+            "id": "frame-tested",
+            "nodes": 1
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/contact.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          },
+          {
+            "id": "frame-tested",
+            "nodes": 1
+          }
+        ]
+      }
+    },
+    {
+      "url": "/courses.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/courses.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/courses.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/funding-opportunities.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/funding-opportunities.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/funding-opportunities.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/ mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/ desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/policies-procedures.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/policies-procedures.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/policies-procedures.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/privacy.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/privacy.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/privacy.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/support-puba.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/support-puba.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/support-puba.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/testimonials.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/testimonials.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/testimonials.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/about/advisory-board.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/about/advisory-board.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/about/advisory-board.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/about/alumni-network.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/about/alumni-network.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/about/alumni-network.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/about/pi-alpha-alpha.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/about/pi-alpha-alpha.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/about/pi-alpha-alpha.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/about/puba-news.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/about/puba-news.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/about/puba-news.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/about/why-study-puba.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/about/why-study-puba.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/about/why-study-puba.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/associated.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/associated.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/associated.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/gowun-park.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/gowun-park.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/gowun-park.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/helen-h-yu.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/helen-h-yu.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/helen-h-yu.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/ mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/ desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/janet-jock.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/janet-jock.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/janet-jock.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/maile-arvin.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/maile-arvin.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/maile-arvin.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/soyun-jeong.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/soyun-jeong.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/soyun-jeong.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/steven-w-mumford.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/steven-w-mumford.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/steven-w-mumford.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate-certificate/nonprofit-management.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate-certificate/nonprofit-management.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate-certificate/nonprofit-management.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate-certificate/public-policy.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate-certificate/public-policy.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate-certificate/public-policy.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/masters-mpa/",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/masters-mpa/ mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/masters-mpa/ desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/masters-mpa/learning-outcomes.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/masters-mpa/learning-outcomes.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/masters-mpa/learning-outcomes.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/masters-mpa/practicum-placements.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/masters-mpa/practicum-placements.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/masters-mpa/practicum-placements.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/masters-mpa/timelines.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/masters-mpa/timelines.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/masters-mpa/timelines.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/naspaa/accreditation.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/naspaa/accreditation.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/naspaa/accreditation.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/naspaa/requirements.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/naspaa/requirements.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 57
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/naspaa/requirements.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    }
+  ]
+}

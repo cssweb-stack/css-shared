@@ -1,6 +1,6 @@
 {
   "indexingEnabled": false,
-  "layoutGuides": false,
+  "layoutGuides": true,
   "canonicalSections": ["/"],
   "mainContentDividers": true,
   "stylesheet": "/ssri.css",

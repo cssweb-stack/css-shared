@@ -1,0 +1,20 @@
+{
+  "quickLinks": [
+    {
+      "label": "PUBA homepage",
+      "url": "/"
+    },
+    {
+      "label": "Master of Public Administration",
+      "url": "/masters-mpa/"
+    },
+    {
+      "label": "Applications & Admissions",
+      "url": "/applications-admissions.html"
+    },
+    {
+      "label": "Contact PUBA",
+      "url": "/contact.html"
+    }
+  ]
+}

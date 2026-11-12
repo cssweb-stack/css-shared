@@ -517,3 +517,28 @@ hierarchy pattern, not an automatic alternating-background rule. Individual bio
 pages remain white and never receive gray bands. Current neutral surface/border
 colors remain approved for continued work; possible softening is deferred, not
 authorization to change tokens now.
+
+## Sidebar block spacing and diagnostics
+
+Stacked sidebar blocks use .sidebar-stack with one --sidebar-block-gap token
+(1.5rem). Do not combine Bootstrap vertical gutters with sibling spacing for the
+same stack. PUBA program button groups reuse the token; compact utility links
+remain one block with smaller internal spacing. Helpers outline logical stack
+children and button groups, not arbitrary individual headings/paragraphs.
+
+PUBA MPA/certificate program pages use shared profile-page main/sidebar geometry,
+not legacy content-sidebar wrappers. Program actions form four logical groups:
+Contact, Info Session, Apply, and combined Testimonials/Funding. Below 768px use
+two equal columns and two rows; combined links occupy one ordinary cell, never
+span the full grid. At tablet/desktop sidebar width, groups stack in one column.
+
+## PUBA review and deferred news migration (November 12, 2026)
+
+The user confirmed all current PUBA pages reviewed and approved. Proceed through
+accessibility, SEO, URL migration/404, publishing, and live re-scan as separate
+checks. Defer importing the news posts so this work can continue. The inspected
+Posts export contains 54 published posts, two drafts, and 74 attachment records;
+all 54 published URLs match the pending inventory. Drafts stay unpublished.
+Deferral is not retirement: preserve access to the existing WordPress news archive
+when planning any production-domain switch. Post-folder and shortened-slug ideas
+remain proposals, not accepted URL changes.

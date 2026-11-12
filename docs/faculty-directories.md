@@ -90,3 +90,8 @@ mapping when standardizing existing exceptions.
 Primary faculty landing-page display labels use `[UNIT] Faculty`, not Core Faculty:
 match the dropdown item, H1 and page title. File remains faculty/index.html and
 public URL /faculty/. Applied to PUBA; check other units during their review.
+
+Directory portrait images use empty alt text when the same card link includes
+the person's visible name, avoiding a repeated accessible link label. Individual
+biography portraits retain their name alt text. Verified in the November 12 PUBA
+accessibility review.

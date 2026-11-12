@@ -410,7 +410,7 @@ margin-bottom: .5rem;
 }
 
 .sidebar-group + .sidebar-group {
-margin-top: 1.5rem;
+margin-top: var(--sidebar-block-gap);
 }
 
 /* Mailing addresses: one compact treatment for offices across all units. */

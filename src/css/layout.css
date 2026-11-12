@@ -81,6 +81,7 @@ margin-inline: 0;
 --layout-content-spacing: 3rem;
 --layout-section-spacing: 3rem;
 --layout-stack-gap: 1.5rem;
+--sidebar-block-gap: 1.5rem;
 }
 
 /* From sm upward, rows extend outward by 1.5rem per side.
@@ -544,4 +545,20 @@ width: 100%;
 height: 100%;
 min-height: 25rem;
 border: 0;
+}
+
+/* One spacing owner for stacked sidebar blocks, independent of inner content. */
+.sidebar-stack {
+display: grid;
+gap: var(--sidebar-block-gap);
+min-width: 0;
+}
+
+.sidebar-stack > * {
+min-width: 0;
+margin-block: 0;
+}
+
+.sidebar-stack > .sidebar-group + .sidebar-group {
+margin-top: 0;
 }

@@ -1,0 +1,366 @@
+{
+  "reviewed": "2026-11-12",
+  "redirects": [
+    {
+      "from": "/program-overview/",
+      "to": "/about/why-study-puba.html",
+      "label": "Program Overview"
+    },
+    {
+      "from": "/advisory-board/",
+      "to": "/about/advisory-board.html",
+      "label": "Advisory Board"
+    },
+    {
+      "from": "/alumni-network/",
+      "to": "/about/alumni-network.html",
+      "label": "Alumni Network"
+    },
+    {
+      "from": "/naspaa-accreditation/",
+      "to": "/naspaa/accreditation.html",
+      "label": "NASPAA Accreditation"
+    },
+    {
+      "from": "/naspaa-requirements/",
+      "to": "/naspaa/requirements.html",
+      "label": "NASPAA Requirements"
+    },
+    {
+      "from": "/apply-for-admission/",
+      "to": "/applications-admissions.html",
+      "label": "Apply for Admission"
+    },
+    {
+      "from": "/mpa-learning-outcomes/",
+      "to": "/masters-mpa/learning-outcomes.html",
+      "label": "MPA Learning Outcomes"
+    },
+    {
+      "from": "/give-a-gift/",
+      "to": "/support-puba.html",
+      "label": "Give a Gift"
+    },
+    {
+      "from": "/contact/",
+      "to": "/contact.html",
+      "label": "Contact"
+    },
+    {
+      "from": "/directory/",
+      "to": "/faculty/",
+      "label": "Directory"
+    },
+    {
+      "from": "/helen-h-yu/",
+      "to": "/faculty/helen-h-yu.html",
+      "label": "Helen H. Yu"
+    },
+    {
+      "from": "/mpa-timelines/",
+      "to": "/masters-mpa/timelines.html",
+      "label": "MPA Timelines"
+    },
+    {
+      "from": "/mpa/",
+      "to": "/masters-mpa/",
+      "label": "MPA"
+    },
+    {
+      "from": "/gcert-nonprofit-management/",
+      "to": "/graduate-certificate/nonprofit-management.html",
+      "label": "GCERT Nonprofit Management"
+    },
+    {
+      "from": "/pi-alpha-alpha/",
+      "to": "/about/pi-alpha-alpha.html",
+      "label": "Pi Alpha Alpha"
+    },
+    {
+      "from": "/practicum-placements/",
+      "to": "/masters-mpa/practicum-placements.html",
+      "label": "Practicum Placements"
+    },
+    {
+      "from": "/funding-opportunities/",
+      "to": "/funding-opportunities.html",
+      "label": "Funding Opportunities"
+    },
+    {
+      "from": "/policies-and-procedures/",
+      "to": "/policies-procedures.html",
+      "label": "Policies and Procedures"
+    },
+    {
+      "from": "/privacy-policy/",
+      "to": "/privacy.html",
+      "label": "Privacy Policy"
+    },
+    {
+      "from": "/gowun-park/",
+      "to": "/faculty/gowun-park.html",
+      "label": "Gowun Park"
+    },
+    {
+      "from": "/gcert-public-policy/",
+      "to": "/graduate-certificate/public-policy.html",
+      "label": "GCERT Public Policy"
+    },
+    {
+      "from": "/soyun-jeong/",
+      "to": "/faculty/soyun-jeong.html",
+      "label": "Soyun Jeong"
+    },
+    {
+      "from": "/maile-arvin/",
+      "to": "/faculty/maile-arvin.html",
+      "label": "Maile Arvin"
+    },
+    {
+      "from": "/testimonials/",
+      "to": "/testimonials.html",
+      "label": "Testimonials"
+    },
+    {
+      "from": "/steven-w-mumford/",
+      "to": "/faculty/steven-w-mumford.html",
+      "label": "Steven W. Mumford"
+    },
+    {
+      "from": "/janet-jock/",
+      "to": "/faculty/janet-jock.html",
+      "label": "Janet Jock"
+    }
+  ],
+  "retired": [],
+  "unresolved": [
+    {
+      "from": "/aloha-from-the-program-director/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/american-society-of-public-administration-conference/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/student-bio-samuel-kippen/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/student-bio-mary-janell-murro/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/alumni-spotlight-radiant-cordero-mpa-16/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/alumni-spotlight-shannon-mark-mpa-20/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/newly-elected-paso-officers-hit-the-ground-running/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/faculty-highlights-spring-2022/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/call-to-support-future-puba-students/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/public-affairs-88/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/academic-program/",
+      "note": "Previously excluded during import. Confirm whether this overview should map to an existing program page or retire."
+    },
+    {
+      "from": "/gcert-public-service-leadership/",
+      "note": "Previously excluded certificate. Confirm program status before choosing replacement or 404."
+    },
+    {
+      "from": "/news/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/student-bio-sharon-baillie/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/student-bio-moises-ayala/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/alumni-spotlight-rachele-lamosao/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/alumni-spotlight-kenika-lorenzo-elarco/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/paso-an-exciting-year-in-review/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/mpa-graduates-co-author-impactful-capstone-publication/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/news-from-the-scholarship-committee/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/insightful-publication-from-mpa-graduates-23/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/alumni-spotlight-brendan-kinoshita/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/student-bio-jordyn-ryan/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/student-bio-andrew-phomsouvanh/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/paso-event-reflection-maunalua-bay/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/puba-in-the-community-helen-yu-naspaa/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/student-bio-chetsada-changmai/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/new-puba-faculty-publication/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/aloha-from-the-new-interim-program-director-dr-helen-yu/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/former-puba-faculty-dr-david-lee-speaks-on-the-role-of-nonprofits-in-the-refugee-resettlement-process/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/aloha-from-the-outgoing-director/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/faculty-highlights-winter-2024/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/paso-event-reflection-speaker-series-public-policy-climate-change/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/2024-american-society-of-public-administration-aspa-conference/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/alumni-spotlight-roy-takumi-appointed-as-chair-of-the-hawaii-state-board-of-education/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/welcome-to-the-fall-2024-semester-from-the-director-dr-helen-yu/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/alumni-spotlight-daniel-koge/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/dr-kelly-leroux-visits-puba-and-discusses-nonprofit-efforts-to-increase-voter-participation/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/2024-hawaii-alliance-of-nonprofit-organizations-hano-conference/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/puba-students-present-mock-testimony-at-the-capitol/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/welcome-spring-2025/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/kamakani-konia/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/paso-event-reflection-speaker-series-nonprofit-responses-to-natural-disasters/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/public-affairs-82/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/laurel-a-johnston/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/welcome-to-the-fall-2025-semester-from-the-director-dr-helen-h-yu/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/2025-hawaii-alliance-of-nonprofit-organizations-hano-conference/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/uh-president-wendy-hensel-visits-puba-to-discuss-leadership-and-organizational-change/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/how-public-policy-can-reduce-systemic-inequities/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/green-fee-advisory-council/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/welcome-to-the-spring-2026-semester/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/dr-helen-h-yu-ranked/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/puba-alum-cheryl-bellisario-shares-insights-on-housing-policy-in-hawai%ca%bbi/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/nonprofits-and-human-rights/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/2026-naspaa-student-simulation-competition/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/welcome-to-the-fall-2026/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    },
+    {
+      "from": "/student-spotlight-seungwoo-back/",
+      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "unit": "puba",
+  "pages": 31,
+  "mode": "prelaunch",
+  "indexingEnabled": false,
+  "errors": [],
+  "notes": [],
+  "pageMetadata": [
+    {
+      "url": "/404.html",
+      "title": "404 Page Not Found | Public Administration Program",
+      "titleLength": 50,
+      "h1": "404 Page Not Found",
+      "description": "Find your way back to the UH Mānoa Public Administration Program’s degrees, admissions, courses, and contact information.",
+      "descriptionLength": 121,
+      "titleMatchesH1": true,
+      "canonical": [],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/advisory-board.html",
+      "title": "Advisory Board | Public Administration Program",
+      "titleLength": 46,
+      "h1": "Advisory Board",
+      "description": "Meet the public, nonprofit, and university leaders who advise the UH Mānoa Public Administration Program on its mission, curriculum, and governance.",
+      "descriptionLength": 148,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/about/advisory-board.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/alumni-network.html",
+      "title": "Alumni Network | Public Administration Program",
+      "titleLength": 46,
+      "h1": "Alumni Network",
+      "description": "Explore the UH Mānoa PUBA alumni network, graduate employment sectors, and historical MPA completion rates.",
+      "descriptionLength": 107,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/about/alumni-network.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/pi-alpha-alpha.html",
+      "title": "Pi Alpha Alpha | Public Administration Program",
+      "titleLength": 46,
+      "h1": "Pi Alpha Alpha",
+      "description": "Learn about Pi Alpha Alpha at UH Mānoa, including the public affairs honor society’s purpose, membership criteria, and induction requirements.",
+      "descriptionLength": 142,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/about/pi-alpha-alpha.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/puba-news.html",
+      "title": "PUBA News | Public Administration Program",
+      "titleLength": 41,
+      "h1": "PUBA News",
+      "description": "Learn about the UH Mānoa Public Administration Program, its faculty, students, and activities.",
+      "descriptionLength": 94,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/about/puba-news.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/why-study-puba.html",
+      "title": "Why Study PUBA | Public Administration Program",
+      "titleLength": 46,
+      "h1": "Why Study PUBA",
+      "description": "Explore UH Mānoa PUBA’s mission, values, and approach to preparing public service professionals through its NASPAA-accredited MPA program.",
+      "descriptionLength": 138,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/about/why-study-puba.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/applications-admissions.html",
+      "title": "Applications & Admissions | Public Administration Program",
+      "titleLength": 57,
+      "h1": "Applications & Admissions",
+      "description": "Review application deadlines, required materials, and admissions guidance for UH Mānoa’s MPA and graduate certificate programs in public administration.",
+      "descriptionLength": 152,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/applications-admissions.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/contact.html",
+      "title": "Contact PUBA | Public Administration Program",
+      "titleLength": 44,
+      "h1": "Contact PUBA",
+      "description": "Find office hours, contact information, directions, and key contacts for the UH Mānoa Public Administration Program in Saunders Hall.",
+      "descriptionLength": 133,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/contact.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/courses.html",
+      "title": "PUBA Courses | Public Administration Program",
+      "titleLength": 44,
+      "h1": "PUBA Courses",
+      "description": "Explore UH Mānoa PUBA undergraduate and graduate courses in public administration, policy, leadership, nonprofit management, and applied practice.",
+      "descriptionLength": 146,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/courses.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/associated.html",
+      "title": "Associated Faculty | Public Administration Program",
+      "titleLength": 50,
+      "h1": "Associated Faculty",
+      "description": "Meet the cooperating faculty, lecturers, and emeriti who contribute to public administration teaching and collaboration at UH Mānoa.",
+      "descriptionLength": 132,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/faculty/associated.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/gowun-park.html",
+      "title": "Gowun Park | Public Administration Program",
+      "titleLength": 42,
+      "h1": "Gowun Park",
+      "description": "Learn about Gowun Park’s background and research in nonprofit management, public-nonprofit partnerships, civic engagement, and program evaluation.",
+      "descriptionLength": 146,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/faculty/gowun-park.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/helen-h-yu.html",
+      "title": "Helen H. Yu | Public Administration Program",
+      "titleLength": 43,
+      "h1": "Helen H. Yu",
+      "description": "Explore Helen H. Yu’s background, teaching, and research in public administration, human resource management, law enforcement, and women in policing.",
+      "descriptionLength": 149,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/faculty/helen-h-yu.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/",
+      "title": "PUBA Faculty | Public Administration Program",
+      "titleLength": 44,
+      "h1": "PUBA Faculty",
+      "description": "Meet UH Mānoa’s Public Administration Program faculty and explore their academic backgrounds, research interests, and contact information.",
+      "descriptionLength": 138,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/faculty/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/janet-jock.html",
+      "title": "Janet Jock | Public Administration Program",
+      "titleLength": 42,
+      "h1": "Janet Jock",
+      "description": "Explore Janet Jock’s background, teaching, and research in public policy, nonprofit management, international development, health, and education.",
+      "descriptionLength": 145,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/faculty/janet-jock.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/maile-arvin.html",
+      "title": "Maile Arvin | Public Administration Program",
+      "titleLength": 43,
+      "h1": "Maile Arvin",
+      "description": "Learn about Maile Arvin’s background and research on Indigenous relationships to land, settler colonialism, race, gender, and histories of incarceration.",
+      "descriptionLength": 153,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/faculty/maile-arvin.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/soyun-jeong.html",
+      "title": "Soyun Jeong | Public Administration Program",
+      "titleLength": 43,
+      "h1": "Soyun Jeong",
+      "description": "Explore Soyun Jeong’s background and research on social safety nets, health policy, Medicaid, administrative burdens, and access to public benefits.",
+      "descriptionLength": 148,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/faculty/soyun-jeong.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/steven-w-mumford.html",
+      "title": "Steven W. Mumford | Public Administration Program",
+      "titleLength": 49,
+      "h1": "Steven W. Mumford",
+      "description": "Learn about Steven W. Mumford’s background, teaching, and community-engaged research in nonprofit management, program evaluation, and disaster resilience.",
+      "descriptionLength": 154,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/faculty/steven-w-mumford.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/funding-opportunities.html",
+      "title": "Funding Opportunities | Public Administration Program",
+      "titleLength": 53,
+      "h1": "Funding Opportunities",
+      "description": "Explore scholarships, graduate assistantships, and financial assistance resources for students in UH Mānoa’s Public Administration Program.",
+      "descriptionLength": 139,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/funding-opportunities.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate-certificate/nonprofit-management.html",
+      "title": "Graduate Certificate in Nonprofit Management | Public Administration Program",
+      "titleLength": 76,
+      "h1": "Graduate Certificate in Nonprofit Management",
+      "description": "Explore UH Mānoa’s 15-credit Graduate Certificate in Nonprofit Management, including leadership coursework, electives, and a supervised practicum.",
+      "descriptionLength": 146,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/graduate-certificate/nonprofit-management.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate-certificate/public-policy.html",
+      "title": "Graduate Certificate in Public Policy | Public Administration Program",
+      "titleLength": 69,
+      "h1": "Graduate Certificate in Public Policy",
+      "description": "Explore UH Mānoa’s 15-credit Graduate Certificate in Public Policy, including core courses, methods options, electives, and graduate credit guidance.",
+      "descriptionLength": 149,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/graduate-certificate/public-policy.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/",
+      "title": "Education for Public Service | Public Administration Program",
+      "titleLength": 60,
+      "h1": "PUBA: Education for Public Service",
+      "description": "Explore UH Mānoa’s Public Administration Program, offering a NASPAA-accredited MPA and graduate certificates for leadership in public and nonprofit service.",
+      "descriptionLength": 156,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/masters-mpa/",
+      "title": "Master of Public Administration (MPA) | Public Administration Program",
+      "titleLength": 69,
+      "h1": "Master of Public Administration (MPA)",
+      "description": "Explore UH Mānoa’s Master of Public Administration, including core coursework, electives, practicum, capstone, and faculty advising.",
+      "descriptionLength": 132,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/masters-mpa/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/masters-mpa/learning-outcomes.html",
+      "title": "MPA Learning Outcomes | Public Administration Program",
+      "titleLength": 53,
+      "h1": "MPA Learning Outcomes",
+      "description": "Review the UH Mānoa MPA learning outcomes in public service leadership, human resources, budgeting, policy analysis, research, ethics, and communication.",
+      "descriptionLength": 153,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/masters-mpa/learning-outcomes.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/masters-mpa/practicum-placements.html",
+      "title": "Practicum Placements | Public Administration Program",
+      "titleLength": 52,
+      "h1": "Practicum Placements",
+      "description": "Explore selected practicum placements where UH Mānoa MPA students apply their learning in government, nonprofits, education, and community service.",
+      "descriptionLength": 147,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/masters-mpa/practicum-placements.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/masters-mpa/timelines.html",
+      "title": "MPA Timelines | Public Administration Program",
+      "titleLength": 45,
+      "h1": "MPA Timelines",
+      "description": "Compare suggested two-year full-time and three-year part-time curriculum plans for UH Mānoa’s Master of Public Administration program.",
+      "descriptionLength": 134,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/masters-mpa/timelines.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/naspaa/accreditation.html",
+      "title": "NASPAA Accreditation | Public Administration Program",
+      "titleLength": 52,
+      "h1": "NASPAA Accreditation",
+      "description": "Learn what NASPAA accreditation means for public service education and the quality standards guiding UH Mānoa’s Master of Public Administration program.",
+      "descriptionLength": 152,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/naspaa/accreditation.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/naspaa/requirements.html",
+      "title": "NASPAA Requirements | Public Administration Program",
+      "titleLength": 51,
+      "h1": "NASPAA Requirements",
+      "description": "Find UH Mānoa MPA program information organized by NASPAA standards, including degree requirements, faculty, admissions, costs, and graduate outcomes.",
+      "descriptionLength": 150,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/naspaa/requirements.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/policies-procedures.html",
+      "title": "Policies & Procedures | Public Administration Program",
+      "titleLength": 53,
+      "h1": "Policies & Procedures",
+      "description": "University policies and procedures covering academic integrity, conduct, equal opportunity, student records, and responsibilities at UH Mānoa.",
+      "descriptionLength": 142,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/policies-procedures.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/privacy.html",
+      "title": "Privacy Policy | Public Administration Program",
+      "titleLength": 46,
+      "h1": "Privacy Policy",
+      "description": "How College of Social Sciences websites use Google Analytics and visitor information, and how to manage your privacy choices.",
+      "descriptionLength": 125,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/privacy.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/support-puba.html",
+      "title": "Support PUBA | Public Administration Program",
+      "titleLength": 44,
+      "h1": "Support PUBA",
+      "description": "Support UH Mānoa’s Public Administration Program through its enrichment fund, student scholarships, and fellowships for public service education.",
+      "descriptionLength": 145,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/support-puba.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/testimonials.html",
+      "title": "Testimonials | Public Administration Program",
+      "titleLength": 44,
+      "h1": "Testimonials",
+      "description": "Read UH Mānoa PUBA alumni testimonials about how the MPA program shaped their careers, leadership, and service in Hawaiʻi and around the world.",
+      "descriptionLength": 143,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://puba.manoa.hawaii.edu/testimonials.html"
+      ],
+      "robots": "noindex, nofollow"
+    }
+  ]
+}

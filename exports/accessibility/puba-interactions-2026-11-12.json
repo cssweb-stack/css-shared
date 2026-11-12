@@ -1,0 +1,23 @@
+{
+  "origin": "http://127.0.0.1:8094",
+  "results": [
+    "First Tab exposes skip link",
+    "Skip link moves focus to main",
+    "Enter opens dropdown",
+    "Arrow Down focuses menu link",
+    "Desktop dropdown axe: []",
+    "Escape closes dropdown and restores focus",
+    "Pointer hover opens dropdown",
+    "Escape dismisses hover-opened dropdown",
+    "Mobile menu opens",
+    "Mobile menu axe: []",
+    "Mobile search axe: []",
+    "Mobile search reports expanded",
+    "Text spacing reflow /applications-admissions.html",
+    "Text spacing reflow /contact.html",
+    "Text spacing reflow /faculty/",
+    "Text spacing reflow /graduate-certificate/public-policy.html",
+    "Text spacing reflow /about/alumni-network.html",
+    "Text spacing reflow /404.html"
+  ]
+}

@@ -2,6 +2,191 @@
 
 Updated November 12, 2026 (Pacific/Honolulu).
 
+## November 12: PUBA audits and launch preparation
+
+- User confirmed all current pages reviewed/approved; news migration explicitly
+  deferred. Inspected Posts export: 54 published posts matching the pending URL
+  inventory, two drafts, 74 attachment records. No posts imported or retired.
+- Accessibility: corrected shared long-email wrapping, footer utility target
+  height, redundant directory portrait alt, and skip-link focus. 31-page mobile /
+  desktop axe recheck passed; five-width reflow and targeted keyboard/mobile /
+  text-spacing checks passed. Color-contrast/frame incompletes remain manual
+  coverage limits. POLS build and 51-page verification passed for regression.
+- SEO: 28 page descriptions replaced; production canonicals enabled, guides off,
+  development hero page unpublished. Canonical computation handles false URLs.
+  31-page SEO checks: zero errors/notes. Indexing remains off pending host choice.
+- URL/404: standard 404 plus 26 verified generated redirects; root and /puba/
+  builds passed 2,980 internal-reference checks. News landing + 54 posts deferred;
+  Academic Program and GCERT Public Service Leadership still unresolved. Preserve
+  existing WordPress archive access for any production switch.
+- Reports: puba-accessibility-audit.md, puba-seo-audit.md, puba-url-comparison.md;
+  measured evidence under exports/accessibility, exports/seo, exports/launch.
+- Local changes in css-shared and ../puba only; no commit, push or deployment.
+  Existing unrelated edits/workbook annotations preserved. Await destination:
+  configured GitHub preview or production WordPress replacement. Next: publish
+  to selected host, verify live redirects/HTTP 404, run live checks and request
+  Siteimprove re-scan. No Siteimprove connection is available here.
+
+## November 12: PUBA course images assigned
+
+- Replaced the three course-row placeholders in `../puba/src/courses.html` with
+  shared PUBA `courses/course-01.webp`, `course-02.webp`, and `course-03.webp`
+  in page order. Actual dimensions are 600×600; decorative empty alt retained.
+- PUBA build passed (31 pages); verified all three rendered image paths,
+  dimensions, and copied assets. Text and layout preserved.
+- Local only; no commit, push, or deployment. Repositories to commit/push:
+  `css-shared` (including new course assets) and `puba`; rerun PUBA publishing
+  workflow after both are available remotely.
+
+## November 12: PUBA three course image/text rows
+
+- Three user-authored course groups use shared imageTextRow square-image layout
+  with shared 500x500 temp.jpg decorative placeholders. Text preserved. Course
+  resources moved outside gray to separate white section below, per correction.
+- PUBA build passed (31 pages); placeholder intrinsic dimensions checked and
+  matched. Local only; no deployment.
+
+## November 12: PUBA certificate gray requirements bands
+
+- Both certificate pages now use white opening/sidebar, full-width gray Program
+  Requirements content, then the existing separate white course-resource section
+  below. Resource includes remain outside gray. No copy or grid changes.
+- PUBA build passed (31 pages). Local only; no deployment.
+
+## November 12: PUBA Courses section split
+
+- H1 and opening paragraph remain white. Existing six course content groups and
+  resource buttons now in second full-width gray section; first leading HR
+  removed, later separators retained. Copy unchanged; course grid deferred until
+  user supplies content. PUBA build passed (31 pages). Local only.
+
+## November 12: PUBA homepage two-section trial
+
+- White introduction through NASPAA-accredited MPA paragraph, with NASPAA logo /
+  Requirements callout right. Gray supporting section has public-service question
+  and list, separate ranking and program-action columns. Desktop 75/25 above,
+  50/25/25 below aligns resource widths; below 1200 supporting text precedes two
+  equal resource columns, below 768 all stack. Existing shared Bootstrap gutters,
+  graphic callouts and button include; no new CSS. PUBA build passed (31 pages).
+- Local only; visual trial awaiting user review.
+
+## November 12: PUBA Why Study sections and accreditation
+
+- White opening uses shared responsive main/right-sidebar layout, full University
+  of Hawaiʻi at Mānoa name, and NASPAA accreditation mention plus existing logo /
+  Requirements callout. Mission and Values moved intact into full-width gray;
+  leading HR removed. PUBA build passed (31 pages). Local only; no deployment.
+
+## November 12: PUBA Advisory Board sections
+
+- White opening retains intro and purpose bullets. Advisory Board Members and
+  alumni note now in full-width gray section; leading HR removed. Text unchanged.
+- Local only; no deployment.
+
+## November 12: PUBA Pi Alpha Alpha sections
+
+- White opening retains H1, introduction and three purpose bullets. Membership
+  and Additional Notes now in full-width gray section; removed leading HR before
+  Membership, retained separator before Additional Notes. Text unchanged.
+- Local only; no deployment.
+
+## November 12: Policies page accepted for use
+
+- User accepted shared policy page for current use. Removed visible In progress
+  notice, PUBA draft metadata/flag; site-wide noindex setting remains unchanged.
+- Shared core and optional Anthropology appendix remain; further POLS-specific
+  material still deferred. Local only; no deployment performed.
+
+## November 12: PUBA funding page section split
+
+- Funding Opportunities H1/opening paragraph remain in white section. Scholarships
+  and Graduate Assistantships now gray full-width section. Removed leading HR;
+  retained divider between scholarship and GA groups. Text/URLs unchanged.
+- Local only; no deployment.
+
+## November 12: Certificate sidebar contact caption shortened
+
+- Both certificate pages now pass programLabel GCert, rendering To discuss the
+  GCert! MPA retains To discuss the MPA! No other sidebar content changed.
+- Local only; no deployment.
+
+## November 12: PUBA program grids updated and mobile 2x2 fixed
+
+- Confirmed MPA and two certificate pages still used older content-sidebar /
+  three-resources wrappers. Replaced with shared current profile-page 80/20
+  wide-desktop, intermediate sidebar widths, and stacked mobile layout.
+- Removed full-width grid-column from utility-link group: four ordinary action
+  cells now form 50/50 + 50/50 below 768px; tablet/desktop actions remain stacked.
+- Existing texts, destinations and compact internal link spacing retained.
+- Shared checks/build passed. Fifteen browser cases across all three pages at
+  1800/1100/700/390/320px verified desktop 80/20, single-column sidebar actions
+  at tablet/desktop and exact 2x2 mobile cells; no horizontal overflow.
+- Local only; no commit/push/deploy.
+
+## November 12: Sidebar block consistency reassessment
+
+- Found mixed grid/sibling spacing; SSRI home could combine Bootstrap gutter and
+  legacy resource margin. Added one sidebar-stack / --sidebar-block-gap (1.5rem).
+- SSRI home, GDO, OENAS, HAM, TASI and HCRI contacts now use shared stack. Contents
+  retained. PUBA button groups use same block gap; utility links remain compact.
+- Diagnostic rules now outline stack children and PUBA logical button/link groups.
+  No production borders added; unit layoutGuides toggle still controls helper CSS.
+- Shared checks and both builds passed. Eight browser cases at desktop/mobile
+  verified 24px gap token, actual stacked gaps, outlines and no overflow. PUBA's
+  existing two-column mobile button layout retained; its row gap uses same token.
+- Local only; no commit/push/deployment.
+
+## November 12: SSRI layout guides re-enabled for sidebar review
+
+- Set SSRI layoutGuides true at user's request to inspect sidebar consistency.
+  Other units/settings unchanged. Local review; no deployment.
+
+## November 12: Duplicate funding references removed
+
+- Removed final funding bullets from both certificate pages and MPA Additional
+  Notes heading/paragraph/divider that contained only the duplicate funding link.
+- Shared sidebar Funding Sources link remains on all three pages; funding page
+  itself untouched. Local only; no commit/push/deploy.
+
+## November 12: Compact PUBA sidebar deadlines and links
+
+- Shortened shared caption to Deadlines: Apr 30 & Nov 1 (no redundant Application
+  or forced break). Month names preserve quick date recognition.
+- Testimonials/Funding Sources now one compact group with .125rem gap instead
+  of separate grid items inheriting large button gaps. Touch targets retained.
+- Local only; no commit/push/deploy.
+
+## November 12: PUBA program sidebar labels and utility links
+
+- Shared three-program sidebar removes forced line breaks: MPA contact reads
+  To discuss the MPA! and info session caption reads Explore PUBA programs.
+  Certificate contact captions retain their own program names; deadlines unchanged.
+- Testimonials and Funding Sources links reuse special-text icon geometry/color
+  with people.svg/cash-coin.svg; removed conflicting button-style testimonial rule.
+- Enabled funding link on MPA and two certificates, not homepage. Existing inline
+  funding references retained for content context. No commit/push/deploy.
+
+## November 12: Main MPA second section gray
+
+- Added page-section--gray to second main MPA section; text/layout unchanged.
+- Local source change only; no deployment performed.
+
+## November 12: PUBA practicum placements sections
+
+- Added white lead-off paragraph describing sectors/service areas reflected in
+  existing sites. Gray Selected Practicum Sites section holds original lead-in
+  and unchanged placement list. Removed intervening HR.
+- Original past-five-years claim retained pending user's content review; no
+  placement currency verification or editorial list changes made.
+- Local only; no commit/push/deployment.
+
+## November 12: PUBA MPA learning outcomes sections
+
+- Added concise general lead-in under H1 in white opening section. Gray section
+  now contains Student Learning Outcomes H2, original linked lead-in and all ten
+  original outcomes. Removed intervening HR; no leading rule.
+- Outcome wording/order unchanged. Local only; no commit/push/deployment.
+
 ## November 12: SSRI layout review accepted
 
 - User considers layout work complete. White lead-off emphasizes page purpose;

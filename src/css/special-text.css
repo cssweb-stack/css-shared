@@ -158,7 +158,9 @@ margin-bottom: 1.75rem;
 
 /* Reusable linked icons: email, telephone, and website share geometry and color. */
 .profile-contact-link,
-.website-link {
+.website-link,
+.testimonials-link,
+.funding-link {
 display: inline-flex;
 align-items: center;
 vertical-align: top;
@@ -170,20 +172,26 @@ padding: 0.25rem 0.375rem;
 }
 
 .profile-contact-link > span,
-.website-link > span {
+.website-link > span,
+.testimonials-link > span,
+.funding-link > span {
 min-width: 0;
 overflow-wrap: anywhere;
 }
 
 .profile-contact-link > .profile-contact-icon,
-.website-link > .special-text-icon {
+.website-link > .special-text-icon,
+.testimonials-link > .special-text-icon,
+.funding-link > .special-text-icon {
 display: inline-flex;
 flex: 0 0 1rem;
 align-self: center;
 }
 
 .profile-contact-link svg,
-.website-link svg {
+.website-link svg,
+.testimonials-link svg,
+.funding-link svg {
 width: 1rem;
 height: 1rem;
 color: var(--icons);

@@ -2,19 +2,24 @@
 <div class="program-button-sets{% if stackButtonSets %} program-button-sets--stacked{% endif %}">
 <div class="button-set">
 {{ button("Contact PUBA", "mailto:pubadmin@hawaii.edu", "teal", "envelope") }}
-<p>To discuss the<br>{{ programLabel | escape }}!</p>
+<p>To discuss the {{ programLabel | escape }}!</p>
 </div>
 <div class="button-set">
 {{ button("PUBA Info Session", "https://docs.google.com/forms/d/e/1FAIpQLSfEHBOkRbtvmUBCCFT6jHh7qoi5whz_HgDrSgcfV3CVX8jofQ/viewform?usp=header", "blue", "info-circle") }}
-<p>Learn about our<br>academic program</p>
+<p>Explore PUBA programs.</p>
 </div>
 <div class="button-set">
 {{ button("Apply for Admissions", "/applications-admissions.html", "purple", "file-earmark-check") }}
-<p>Application Deadlines<br>April 30 &amp; November 1</p>
+<p>Deadlines: Apr 30 &amp; Nov 1</p>
 </div>
+{% if not hideTestimonials or showFundingSources %}
+<div class="program-sidebar-links">
 {% if not hideTestimonials %}
-<div class="button-set">
-<a class="testimonials-link" href="{{ '/testimonials.html' | url }}"><span class="button-icon" aria-hidden="true">{% include "media/icons/people.svg" %}</span><span>Student Testimonials</span></a>
+<a class="testimonials-link" href="{{ '/testimonials.html' | url }}"><span class="special-text-icon" aria-hidden="true">{% include "media/icons/people.svg" %}</span><span>Student Testimonials</span></a>
+{% endif %}
+{% if showFundingSources %}
+<a class="funding-link" href="{{ '/funding-opportunities.html' | url }}"><span class="special-text-icon" aria-hidden="true">{% include "media/icons/cash-coin.svg" %}</span><span>Funding Sources</span></a>
+{% endif %}
 </div>
 {% endif %}
 </div>

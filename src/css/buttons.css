@@ -2,7 +2,7 @@
 .program-button-sets {
 display: grid;
 grid-template-columns: repeat(2, minmax(0, 1fr));
-gap: 1.5rem 1rem;
+gap: var(--sidebar-block-gap) 1rem;
 }
 
 .program-button-sets--stacked {
@@ -15,14 +15,7 @@ grid-template-columns: minmax(0, 1fr);
 }
 }
 
-.testimonials-link {
-display: inline-flex;
-align-items: center;
-justify-content: center;
-gap: .5rem;
-min-height: 44px;
-font-size: 1rem;
-}
+
 
 .button-set {
 text-align: center;
@@ -172,4 +165,12 @@ justify-content: center;
 flex: 0 0 1.25rem;
 width: 1.25rem;
 height: 1.25rem;
+}
+
+/* Related sidebar links form one compact group, outside the button-set gaps. */
+.program-sidebar-links {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 0.125rem;
 }

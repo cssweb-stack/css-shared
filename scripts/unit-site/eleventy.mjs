@@ -54,7 +54,7 @@ eleventyConfig.addGlobalData('common', () => loadCommon());
 eleventyConfig.addGlobalData('uh', () => loadUH());
 eleventyConfig.addGlobalData('eleventyComputed', {
 person: resolveFacultyPerson,
-canonicalUrl: data => !data.isNotFound && (data.site.canonicalSections || []).some(prefix => data.page.url.startsWith(prefix)) ? data.site.url + data.page.url : undefined
+canonicalUrl: data => typeof data.page.url === 'string' && !data.isNotFound && (data.site.canonicalSections || []).some(prefix => data.page.url.startsWith(prefix)) ? data.site.url + data.page.url : undefined
 });
 for (const key of Object.keys(loadUnit())) eleventyConfig.addGlobalData(key, () => key === 'site' ? { ...loadUnit().site, stylesheet } : loadUnit()[key]);
 // Preserve established page variable names while filenames become descriptive.

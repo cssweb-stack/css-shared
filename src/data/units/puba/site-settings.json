@@ -1,7 +1,7 @@
 {
   "policiesProceduresUrl": "/policies-procedures.html",
   "indexingEnabled": false,
-  "layoutGuides": true,
+  "layoutGuides": false,
   "stylesheet": "/puba.css",
   "url": "https://puba.manoa.hawaii.edu",
   "openGraph": {
@@ -25,5 +25,8 @@
       "color": "var(--uh-green)",
       "opacity": 0.33
     }
-  }
+  },
+  "canonicalSections": [
+    "/"
+  ]
 }

@@ -35,6 +35,11 @@ a:hover {
 color: var(--link-color);
 }
 
+/* Long contact addresses must wrap within narrow content columns. */
+.site-main a[href^="mailto:"] {
+overflow-wrap: anywhere;
+}
+
 /* Shared link underline appearance, including linked headings and titles */
 a,
 a * {
