@@ -5,6 +5,24 @@ not a claim that every older file has already been migrated.
 
 ## Scope and ownership
 
+Accessibility reviews here focus on major red flags and shared fixes; Siteimprove
+provides the comprehensive scan. Do not routinely repeat exhaustive viewport
+cross-products when a targeted check will answer the question. The user explicitly
+authorizes verified shared accessibility corrections that benefit all sites;
+recheck the affected interaction and a representative consuming site. Keep
+manual-review limitations separate from confirmed failures and automated passes.
+
+SCI may be migrated in phases. Its first phase covers people and a grouped
+directory only, using central people/program data and the existing shared cards
+and bio layout. The same records can feed later program-page directories;
+multiple affiliations or roles never require duplicate people records.
+
+SCI program landing pages live at `programs/<program>/index.html`, published as
+`/programs/<program>/`. Future individual degree pages belong alongside that
+index in their program folder. Separate `degrees/undergraduate.html` and
+`degrees/graduate.html` are browsing routes to the same detail pages, not copies
+of the degree content. Courses retain their five HTML pages under `courses/`.
+
 The current seven site directories are `geo`, `puba`, `psy`, `soc`, `ssri`, `pols`, and `es`, beside
 `css-shared`. `style-guide` documents the shared system. Keep shared layouts,
 styles, assets, and reusable content in `css-shared`; keep page sources in their
@@ -16,6 +34,27 @@ Use lowercase repository folders. Psychology's local folder is `psy`, formerly
 `PSY`. Avoid introducing absolute paths tied to one computer.
 
 ## Page sources and metadata
+
+SSRI main-content section H2s, including the first, are immediately preceded by
+`<hr class="section-divider">`. Reuse an existing HR rather than inserting a
+duplicate. These inherit the standard shared HR styling; section-divider is the
+hook for future adjustments. H2s keep their normal shared heading style.
+Sidebar names, office headings, profile/card titles and research-list card titles
+retain their component styling and are excluded. Other sites are not swept by
+this SSRI standardization. Shared section headings (privacy/directory/service
+groups) use sectionHeading with context and opt in via mainContentDividers in
+unit site-settings; local prose pages retain explicit HR/H2 HTML.
+
+Across all sites, h1–h6 headings must not contain strong, b, em or i formatting
+tags. Heading weight and style come from shared CSS. Preserve heading text,
+links and IDs when removing these wrappers; paragraph emphasis is unaffected.
+Check imported headings and include this check in standard text cleanup. SSRI
+was swept November 12, 2026; other existing sites are reviewed in their own scope.
+
+Opening paragraphs use normal paragraph styling; do not add the retired `intro`
+class to new or edited pages. SSRI's existing opening-paragraph instances were
+removed November 12, 2026. Other sites are not swept automatically. Keep the CSS
+rule until remaining consumers are reviewed and its removal is requested.
 
 Every published content page has its own HTML source file with YAML front matter
 containing explicit `title`, `description`, and `permalink` values. Faculty profiles
@@ -32,6 +71,11 @@ Preserve existing meta descriptions. During the current standardization phase,
 missing descriptions use exactly `This will be the meta description.` Do not
 replace placeholders with custom copy unless requested. Geography's existing
 rendered descriptions are preserved, including its faculty descriptions.
+An explicitly requested SEO review authorizes replacing those placeholders with
+unique summaries grounded in each page's content. Keep metadata in local HTML;
+use the shared seo-audit.py checker and docs/seo-review.md procedure. Do not
+enable indexing merely because the local metadata audit passes; launch is a
+separate check after URLs/404 and publishing are settled.
 
 Geography faculty pages now live in `geo/src/faculty/<slug>.html`, containing
 metadata and biography content. `faculty.11tydata.js` resolves `personSlug` to the
@@ -43,6 +87,13 @@ policy body. Keep the policy content shared. Other consumers without this local
 page retain the shared generated fallback. GEO still has a retired, ignored
 `src/privacy/` source; it is not the published policy.
 
+Custom 404 pages use the shared pages/not-found.njk template with local metadata,
+permalink /404.html and isNotFound:true. The shell forces noindex and omits
+canonical output for this error page. Unit quick/recovery links belong in shared
+not-found.json. Populate real old-to-new links after URL comparison; no invented
+redirect files or destinations. Verify actual HTTP 404 on the host. See
+docs/not-found-pages.md for the 20/80 design and adoption instructions.
+
 Existing GEO pages may use `base.njk` and the profile layout; other current pages
 use `shell.njk`. Shared layouts remain reusable. The metadata agreement does not
 require a wholesale rewrite of older page structure. Includes, fragments, and
@@ -50,8 +101,36 @@ nonpublished diagnostic templates are not standalone content pages.
 
 ## Site settings and shared components
 
+Horizontal research-list photographs can use the shared imageTextRow macro with
+`landscape=true`: 20/80 at 1600px+, then the existing 25/75 and 33/67 intermediate
+splits, stacked on mobile with images at 75%. Square POLS-style course rows keep
+the default 17/83 wide-desktop split. Keep both variants in the same shared macro
+and stylesheet; do not make per-unit copies. See image-text-rows.md.
+
+The reusable square placeholder supplied by the user is
+`src/media/shared/placeholders/temp.jpg` (500×500). Use that shared file for
+temporary decorative graphics, with empty alt text; do not duplicate it per site.
+
+All 13 unit/college Open Graph images now have matching settings in their unit
+`site-settings.json`: ANTH, CSS, DURP, ECON, ES, GEO, POLS, PSY, PUBA, SCI, SOC,
+SSRI, WGSS. Exports live at `src/media/open-graph/<unit>.jpg`, 1200×630, with
+image-specific alt descriptions. This supersedes earlier temporary cross-unit
+Open Graph image assignments, including SSRI's former PUBA placeholder.
+
+Editable artwork lives in repository-root `design-sources/`, with Open Graph PSDs
+under `design-sources/open-graph/`. Commit/push these to carry them between machines.
+Only web exports belong under published `src/media/`; design sources stay outside
+the build's asset-copy roots and are not published on unit websites.
+
 Hero and Open Graph controls belong in each unit's
 `css-shared/src/data/units/<unit>/site-settings.json`.
+All units use SSRI's hero overlay as the starting standard: `var(--uh-green)`
+(`#024731`) at opacity `0.33`. This includes the prepared settings for CSS, DURP
+and ECON. Geography keeps its separate satellite-image hero settings unchanged;
+the disabled style-guide is excluded. Shared checks enforce matching SSRI overlay
+color/opacity for other units. Preserve each unit's hero height, image assignments,
+crop, attribution and other settings when changing the overlay. Custom unit hero
+imagery can be used when suitable images are available; it is not guaranteed.
 SSRI retains its mural images, crop positions, compact 145px hero at all three
 breakpoints, and green overlay at 0.33 opacity. Its Open Graph image temporarily
 uses Puba's `/media/open-graph/puba.jpg`, including Puba's image alt text and
@@ -117,8 +196,13 @@ Graduate-student data uses one unit file named `graduate-students.json`. Records
 support `name`, `lastName`, `slug`, `program`, optional `studyArea`, optional
 `email`, `research`, an `advisors` array of `{ name, url? }` objects, and `photo`.
 The shared renderer omits empty fields, selects “Advisor” or “Advisors” from the
-array length, links only advisers with real profile URLs, and uses one standard
-3/9 sidebar/content row per student. Unit portraits live centrally under
+array length and links only advisers with real profile URLs. The shared student
+row uses 20% photo / 80% details from 992px, 4/8 tablet columns, and stacks below
+768px. Display order is name, program/study area, research interests, the shared
+profile contact divider, optional email, then adviser(s). Show the divider only
+when email or advisers exist. Optional photoWidth/photoHeight record actual image
+dimensions. This supersedes the original 3/9 desktop split and email-first order.
+Unit portraits live centrally under
 `src/media/units/<unit>/graduate-students/`; do not import images automatically.
 
 PSY, GEO, and SOC cohort records and portraits now follow this shared model. PSY
@@ -180,6 +264,21 @@ PUBA's fixed Main/Associated directory banners remain separate from its profiles
 
 ## One faculty biography template
 
+POLS is the pilot for unified unit `people.json` (an array). It replaces POLS
+`faculty.json` and contains faculty and staff once each, with `type`,
+`showInFacultyDirectory`, and `showInKeyContacts` fields. Edit a name, title, photo,
+office, or personal email in that one record. The loader derives faculty and
+key-contact collections; bios resolve the same people array. Do not create a
+second editable faculty/staff file for migrated units. Other units remain on their
+existing data until explicitly migrated; SSRI's older people object is unaffected.
+
+Contact pages use one mixed Key Contacts grid, sorted by surname without rank or
+faculty/staff groupings. This supersedes the proposed two-grid and chair-first
+orders. `people-grid.njk` and the same profile card/identity/contact includes own
+all grid markup for Faculty and Contact. Missing photos are omitted; staff without
+profile URLs are displayed without invented bio links. Program inquiries remain
+separate above the grid. POLS is the review pilot before rollout to other sites.
+
 Faculty bio, directory, and contact person listings always use that person's
 individual faculty email. Program or role inboxes belong in a separately labeled
 inquiry table on Contact and relevant advising/program pages, not as substitutes
@@ -202,13 +301,73 @@ fail the build. Put biography sections in the page body, without a duplicate H1,
 portrait, or contact block. GEO's satellite hero assignments remain intact.
 See `faculty-profiles.md` for the exact editing contract and completed migration.
 
+Navigation labels always use `&` instead of the standalone word `and`, across
+all units. Preserve that compact convention when importing or editing navigation;
+do not silently expand ampersands. This applies to navigation labels, not URLs,
+ordinary prose, or automatic changes to page headings and official body text.
+People can appear in a directory without an individual bio: set their shared
+record's `url` to null and omit the bio page. Keep the name/photo unlinked;
+never infer a URL over an explicit null. WGSS Ayu is an intentional example.
+“Standard text cleanup” means the scoped, source-preserving checklist in
+`text-cleanup.md`, followed by a unit-specific `text-cleanup-report-template.md`
+report with measured counts, examples, verification and explicit action-needed status.
+House style uses spaces around em dashes. Correct unmistakable
+Hawaiʻi/University of Hawaiʻi at Mānoa spelling in prose; do not change URLs,
+attributes, filenames, original export snapshots, code or table structure.
+Flag ambiguous dash, quote, wording and encoding choices instead of guessing.
+
+ANTH explicitly uses eight undergraduate dropdown entries, keeping Advising &
+Support and Funding Sources separate. Its course-planning spreadsheets are an
+ANTH-only resource row above the common course buttons; no extra HTML landing
+pages are invented for those external spreadsheets. See `anth-migration.md`.
+ANTH faculty navigation has Core Faculty, Associated Faculty (Adjunct, Affiliate,
+Cooperating), and Emeriti and Retired Faculty (including In Memoriam). Use the
+same shared grouped-list renderer rather than separate visual templates.
+
 Main faculty directories for GEO, PUBA, PSY, and SOC use one shared
 `layouts/profiles/faculty-directory.njk`, with unit `faculty.json` records sorted by
-explicit `lastName`. Four equal desktop columns use the normal shared Bootstrap
-gaps, reducing to two/one columns on smaller screens. Initial PSY/SOC/PUBA grids
+explicit `lastName`. The shared grid uses five equal columns at 1600px and wider,
+four at 1200px, three at 992px, two at 768px, and one below 768px, with shared
+Bootstrap gaps. Content measurements supersede the earlier three-stage trial and
+applies equally to faculty directories and mixed Key Contacts. Preserve existing
+text sizes until separately adjusted. Individual bio portrait sizing remains
+controlled by the shared responsive rule below. Initial PSY/SOC/PUBA grids
 show linked portraits above the existing text lists; GEO retains existing card
 details within the same grid. This directory include is distinct from the bio
 page layout. See `faculty-directories.md` for editing and verification details.
+
+People and office/contact layouts respond to content fit, not device labels.
+Graduate-student rows, individual bios, and office/map use 20/80 at 1600px+,
+33/67 at 768–1599.98px, and full-width stacked below 768px. Faculty and Key Contacts
+use the five-to-one column progression above. These intermediate arrangements
+prevent contact text crowding when five columns no longer fit comfortably.
+Mobile portraits/building photos are 75% of available column width, left-aligned;
+text stays full width. These rows enable horizontal gutters from 768px onward.
+Bio rows use a compact 1rem gutter at 768–991px and normal shared gutters above;
+do not add independent sidebar/biography padding over the grid gutter.
+Decorative image/content rows have a distinct shared `image-text-row.njk` macro:
+2/10 at 1600px+, 25/75 at 992–1599px, 33/67 at 768–991px, stacked below 768px with
+75%-width left-aligned images. Keep prose in the calling HTML page, not in the
+macro or new JSON. Request these as “shared image-and-text rows, like POLS Courses.”
+See `image-text-rows.md` for usage. This supersedes the previously deferred course-row work.
+The same macro's reverse option places text left and image right, as on Support
+POLS: 75/25 from 992px upward, 67/33 at 768–991px, then text before image on
+mobile. The reverse variant keeps its larger sidebar even on the widest screens.
+It supports linked logos without
+photo framing. Do not fork a separate support-page grid for this arrangement.
+Choose alt text by the image's purpose in context. Informative photos need concise
+descriptions; purely decorative photos and graphics intentionally use `alt=""`.
+Support POLS's student sidebar photo is confirmed decorative by the user and uses
+empty alt. Never omit the attribute; faculty portraits use the person's name.
+Shared course-resource buttons use their own available-width rule: three equal
+buttons only when their container is at least 60rem wide; otherwise all stack.
+Two-button variants use 40rem. Keep labels short and show any prefix-filter
+instruction below the group, outside buttons, centered with the shared info icon.
+This is an explicit centered-text exception for the button group.
+Do not create a two-plus-one row.
+This container-based rule adapts automatically to future shell-width adjustments.
+The UH content-width match remains pending; recheck viewport-based people grids
+after that global geometry is finalized rather than treating current widths as final.
 
 The four main faculty directory landing pages use two explicit sections in their
 HTML source: heading/brief intro, then a full-width gray section containing the
@@ -222,7 +381,29 @@ identity template does not render it.
 Faculty name links use the normal shared link color/underline, without black or
 green component overrides. Shared profile contact markup renders office information
 as plain, non-interactive text. Email and telephone retain their linked icon
-treatment. Further spacing is deferred.
+treatment. Shared person cards and bio sidebars give the primary academic/job
+title semibold (600), administrative roles medium (500), and office regular (400),
+with the primary title at 1.125rem and roles/office at 1rem. Bio, directory and
+contact names share 1.25rem/700 weight with 1.5 line-height; preserve the bio H1.
+Within these cards, reserve 700 for names; titles/roles do not use bold or italics.
+Donation links: prefer an existing Foundation fund URL when its destination can
+be verified. Otherwise retain the unit's working supplied donation-form URL,
+including its designation ID and supplied parameters. Never substitute a campaign
+ID for a fund/designation ID or invent a short URL without checking it. Flag missing
+donation links after widget imports; link the named fund in the support-page text.
+
+For people and departments across all units, display North American phone numbers
+as `(808) 956-3689`, without a leading country code. Clickable telephone links use
+the international form `tel:+18089563689`. Preserve the actual number.
+Publication-profile links remain text only; do not add book icons.
+Main Office and person contacts share the `contact-links.njk` macro and
+`profile-contact` wrapper: one divider, the same icon/link rows, and no additional
+office grid gaps or address margins around the divider. Keep these synchronized
+through this single renderer rather than parallel office/person markup.
+This supersedes the smaller title/role experiment that overemphasized offices. A thin
+neutral `profile-contact-divider` separates office/identity details from linked
+contact details. Always list email before phone in person components and Main
+Office. No administrative-role icon is used in this first approved treatment.
 
 Faculty identity records are unit-specific. A person affiliated with multiple
 units may have separate records with different roles, offices, or contact details.
@@ -246,3 +427,30 @@ Social Sciences” rather than “CSS.” GEO, PSY, SOC, and PUBA now use this m
 All faculty administrative titles use `roles`; legacy `role`, `links`, and
 `publications` fields and their template fallbacks have been retired. GEO's six
 awards are owned by sidebar JSON, with duplicate biography award sections removed.
+
+## URL Migration Audit
+
+After accessibility and SEO review, compare old/current URLs. Shared per-unit
+url-migration.json generates instant redirect files only in build output for
+confirmed moves/merges. No dummy source pages. Retired pages use the custom 404;
+unresolved pages require a decision. Preserve clean sources and document mappings.
+See url-migration-audit.md for deployment-prefix behavior and verification.
+
+404 pages show general quick links, not lists of moved pages already handled by
+generated redirects. This supersedes the initial SSRI recovery-list design.
+
+## Bio divider standard (November 12, 2026)
+
+Individual faculty bios omit an HR before the first main-biography H2; later
+main-content H2 dividers remain. This is an exception to the SSRI main-content rule.
+The shared bio sidebar uses profile-contact-divider (1px, margin .75rem above and
+.5rem below) between titles and office, before email/phone, and before each visible
+supplemental section (websites, publications, awards, affiliations/additional links).
+No empty sections or dividers. The office divider applies to bios; directory/contact
+cards retain their existing grouping.
+
+Website icon links use `.website-link` with an aria-hidden `.special-text-icon`
+containing the inline shared globe SVG and a text span. Shared special-text.css
+owns their geometry/color alongside profile email/phone aliases: 1rem icons,
+var(--icons), identical gap/alignment and link target padding. No separate black
+external globe images or profile-only website icon sizing. Reuse across units.

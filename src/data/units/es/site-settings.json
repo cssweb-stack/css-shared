@@ -4,10 +4,10 @@
   "stylesheet": "/es.css",
   "url": "https://ethnicstudies.manoa.hawaii.edu",
   "openGraph": {
-    "image": "/media/open-graph/psy.jpg",
+    "image": "/media/open-graph/es.jpg",
     "width": 1200,
     "height": 630,
-    "alt": "UH Mānoa student enjoying her studies at campus center."
+    "alt": "ES lettering over two people outdoors beside the water."
   },
   "hero": {
     "enabled": true,
@@ -21,8 +21,8 @@
     "showLocation": false,
     "showAttribution": false,
     "overlay": {
-      "color": "var(--sepia)",
-      "opacity": 0.05
+      "color": "var(--uh-green)",
+      "opacity": 0.33
     }
   }
 }

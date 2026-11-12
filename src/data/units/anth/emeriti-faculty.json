@@ -1,0 +1,104 @@
+{
+  "groups": [
+    {
+      "title": "Emeritus and Retired Faculty",
+      "members": [
+        {
+          "name": "Terry L. Hunt"
+        },
+        {
+          "name": "Barry V. Rolett",
+          "email": "rolett@hawaii.edu",
+          "description": "Professor"
+        },
+        {
+          "name": "Ann Sakaguchi",
+          "email": "annsakag@hawaii.edu",
+          "description": "Specialist"
+        },
+        {
+          "name": "Michael Graves",
+          "email": "mwgraves@unm.edu",
+          "description": "Professor Emeritus"
+        },
+        {
+          "name": "P. Bion Griffin",
+          "email": "griffin@hawaii.edu",
+          "description": "Professor Emeritus"
+        },
+        {
+          "name": "Alan Howard",
+          "email": "ahoward@hawaii.edu",
+          "description": "Professor Emeritus"
+        },
+        {
+          "name": "Michael Pietrusewsky",
+          "email": "mikep@hawaii.edu",
+          "description": "Professor Emeritus"
+        },
+        {
+          "name": "Leslie Sponsel",
+          "email": "sponsel@hawaii.edu",
+          "description": "Professor Emeritus"
+        },
+        {
+          "name": "Geoffrey White",
+          "email": "white@hawaii.edu",
+          "description": "Professor Emeritus"
+        },
+        {
+          "name": "Christine Yano",
+          "email": "cryano@hawaii.edu",
+          "description": "Professor Emeritus"
+        }
+      ]
+    },
+    {
+      "title": "Emeriti (In Memoriam)",
+      "members": [
+        {
+          "name": "Andrew R. Arno (PhD, Harvard University, 1974)",
+          "description": "Legal Anthropology, Ethnography of Communication, Kinship and Social Organization, Pacific"
+        },
+        {
+          "name": "Jack Bilmes (PhD, Stanford, 1974)",
+          "description": "Ling. Anthro., Occasioned Semantics, Discourse",
+          "links": [
+            {
+              "label": "Academia.edu",
+              "url": "https://manoa-hawaii.academia.edu/JackBilmes"
+            },
+            {
+              "label": "ResearchGate",
+              "url": "https://www.researchgate.net/profile/Jack-Bilmes"
+            }
+          ]
+        },
+        {
+          "name": "C. Fred Blake (PhD, University of Illinois, 1975)",
+          "description": "Critical and Interpretive Theory, Ethnography and Biography, Popular Ideologies, Social Movements and Entrepreneurship in the Modern World Economy, China, U.S."
+        },
+        {
+          "name": "Stephen T. Boggs (PhD, University of Washington, 1954)",
+          "description": "Sociolinguistics and socialization, methods, education, ethnic groups in Hawaiʻi"
+        },
+        {
+          "name": "Alice G. Dewey (PhD, Radcliffe College, 1959)",
+          "description": "Economic, Kinship, Javanese Conceptual Frameworks, Southeast Asia, Pacific"
+        },
+        {
+          "name": "Nina L. Etkin (PhD, Washington University in St. Louis, 1975)",
+          "description": "Biological and Medical Anthropology, Ethnobotany, Diet, Ethnopharmacology, CAM, West Africa, Pacific, Indonesia"
+        },
+        {
+          "name": "Ben R. Finney (PhD, Harvard University, 1964)",
+          "description": "Polynesian Voyaging, Humanity in Space, Contemporary Pacific"
+        },
+        {
+          "name": "Takie S. Lebra (PhD, University of Pittsburgh, 1967)",
+          "description": "Culture and Self, Communication, Gender, Career, Elite, Japan"
+        }
+      ]
+    }
+  ]
+}

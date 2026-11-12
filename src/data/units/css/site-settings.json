@@ -1,6 +1,18 @@
 {
-"indexingEnabled": false,
-"footer": {
-"columns": null
-}
+  "indexingEnabled": false,
+  "footer": {
+    "columns": null
+  },
+  "openGraph": {
+    "image": "/media/open-graph/css.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "CSS lettering over students sitting together on a campus lawn."
+  },
+  "hero": {
+    "overlay": {
+      "color": "var(--uh-green)",
+      "opacity": 0.33
+    }
+  }
 }

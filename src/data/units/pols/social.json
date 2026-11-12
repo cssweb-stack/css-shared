@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC0jQ4DacaR9LsPURVcXJXDQ",
+      "icon": "social/youtube"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/uhmpolisci/",
+      "icon": "social/facebook"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/uhmpolisci/",
+      "icon": "social/instagram"
+    },
+    {
       "label": "X",
       "url": "https://x.com/uhmpolisci",
       "icon": "social/twitter-x"

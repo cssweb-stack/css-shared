@@ -1,9 +1,9 @@
-{% for group in associated_faculty.groups %}
+{% for group in facultyGroups | default(associated_faculty.groups) %}
 <section aria-labelledby="associated-group-{{ loop.index }}">
 <h2 id="associated-group-{{ loop.index }}">{{ group.title | escape }}</h2>
 <ul>
 {% for member in group.members %}
-<li>{{ member.name | escape }}{% if member.email %} (<a href="mailto:{{ member.email | escape }}">{{ member.email | escape }}</a>){% endif %}{% if member.description %} - {{ member.description | escape }}{% endif %}</li>
+<li>{{ member.name | escape }}{% if member.email %} (<a href="mailto:{{ member.email | escape }}">{{ member.email | escape }}</a>){% endif %}{% if member.description %} - {{ member.description | escape }}{% endif %}{% if member.links | length %} — {% for link in member.links %}<a href="{{ link.url | url | escape }}">{{ link.label | escape }}</a>{% if not loop.last %} · {% endif %}{% endfor %}{% endif %}</li>
 {% endfor %}
 </ul>
 </section>

@@ -1,17 +1,11 @@
 <div class="graduate-student-directory">
 {% for student in students %}
-<article class="row gy-4 gx-0 gx-sm-5 gx-lg-5 graduate-student" aria-labelledby="student-heading-{{ loop.index }}">
-<div class="col-12 col-md-4 col-lg-3">
-<img class="photo-style" src="{{ student.photo | url }}" alt="{{ student.name | escape }}" width="212" height="212" loading="lazy" decoding="async">
+<article class="row gy-4 gx-0 gx-md-5 graduate-student" aria-labelledby="student-heading-{{ loop.index }}">
+<div class="col-12 col-md-4 student-photo-column">
+<img class="photo-style" src="{{ student.photo | url }}" alt="{{ student.name | escape }}" width="{{ student.photoWidth | default(212) }}" height="{{ student.photoHeight | default(212) }}" loading="lazy" decoding="async">
 </div>
-<div class="col-12 col-md-8 col-lg-9">
+<div class="col-12 col-md-8 student-details-column">
 <h2 id="student-heading-{{ loop.index }}">{{ student.name | escape }}</h2>
-{% if student.email %}
-<p class="profile-email"><a class="profile-contact-link" href="mailto:{{ student.email | escape }}">
-<span class="profile-contact-icon" aria-hidden="true">{% include "media/icons/envelope.svg" %}</span>
-<span><span class="visually-hidden">Email: </span>{{ student.email | escape }}</span>
-</a></p>
-{% endif %}
 {% if student.program or student.studyArea %}
 <p class="student-program">{% if student.program %}{{ student.program | escape }}{% endif %}{% if student.program and student.studyArea %} – {% endif %}{% if student.studyArea %}{{ student.studyArea | escape }}{% endif %}</p>
 {% endif %}
@@ -19,6 +13,13 @@
 <p class="student-research">{{ student.research | escape }}</p>
 {% endif %}
 {% set advisors = student.advisors | default([], true) %}
+{% if student.email or advisors | length %}<hr class="profile-contact-divider">{% endif %}
+{% if student.email %}
+<p class="profile-email"><a class="profile-contact-link" href="mailto:{{ student.email | escape }}">
+<span class="profile-contact-icon" aria-hidden="true">{% include "media/icons/envelope.svg" %}</span>
+<span><span class="visually-hidden">Email: </span>{{ student.email | escape }}</span>
+</a></p>
+{% endif %}
 {% if advisors | length %}
 <p class="student-advisors"><span>{% if advisors | length > 1 %}Advisors{% else %}Advisor{% endif %}:</span>
 {% for advisor in advisors %}{% if advisor.url %}<a href="{{ advisor.url | url | escape }}">{{ advisor.name | escape }}</a>{% else %}{{ advisor.name | escape }}{% endif %}{% if not loop.last %}{% if loop.revindex0 == 1 %} and {% else %}, {% endif %}{% endif %}{% endfor %}</p>

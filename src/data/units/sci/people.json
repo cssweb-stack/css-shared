@@ -1,0 +1,1023 @@
+[
+  {
+    "name": "Wayne Buente",
+    "lastName": "Buente",
+    "slug": "wayne-buente",
+    "url": "/faculty/wayne-buente.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/wayne-buente.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Professor",
+    "programs": [
+      "communication"
+    ],
+    "roles": [
+      "Chair, SCI",
+      "Graduate Chair, Communication"
+    ],
+    "office": "Crawford 304",
+    "email": "wbuente@hawaii.edu",
+    "phone": "(808) 956-3360",
+    "phoneHref": "+18089563360",
+    "affiliations": [
+      {
+        "label": "Communication",
+        "url": "/programs/communication/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0002-2468-7308"
+      }
+    ],
+    "additionalLinks": [
+      {
+        "label": "Scholars",
+        "url": "https://scholars.org/scholar/wayne-buente"
+      }
+    ]
+  },
+  {
+    "name": "Patricia A.K. Amaral",
+    "lastName": "Amaral",
+    "slug": "patricia-a-k-amaral",
+    "url": "/faculty/patricia-a-k-amaral.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/patricia-buskirk.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Associate Professor",
+    "programs": [
+      "communication"
+    ],
+    "office": "Crawford 327",
+    "email": "pamaral@hawaii.edu",
+    "phone": "(808) 956-3335",
+    "phoneHref": "+18089563335",
+    "affiliations": [
+      {
+        "label": "Communication",
+        "url": "/programs/communication/"
+      }
+    ]
+  },
+  {
+    "name": "Julien Gorbach",
+    "lastName": "Gorbach",
+    "slug": "julien-gorbach",
+    "url": "/faculty/julien-gorbach.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/julien-gorbach.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Associate Professor",
+    "programs": [
+      "journalism"
+    ],
+    "office": "Crawford 303",
+    "email": "gorbach@hawaii.edu",
+    "phone": "(808) 956-3356",
+    "phoneHref": "+18089563356",
+    "affiliations": [
+      {
+        "label": "Journalism",
+        "url": "/programs/journalism/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Academia.edu",
+        "url": "https://manoa-hawaii.academia.edu/JulienGorbach"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?hl=en&user=NakbTQ0AAAAJ"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Julien-Gorbach/research"
+      }
+    ]
+  },
+  {
+    "name": "Ji Young Kim",
+    "lastName": "Kim",
+    "slug": "ji-young-kim",
+    "url": "/faculty/ji-young-kim.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/ji-young-kim.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Associate Professor",
+    "programs": [
+      "communication"
+    ],
+    "office": "Crawford 309",
+    "email": "jkim22@hawaii.edu",
+    "phone": "(808) 956-3353",
+    "phoneHref": "+18089563353",
+    "affiliations": [
+      {
+        "label": "Communication",
+        "url": "/programs/communication/"
+      }
+    ]
+  },
+  {
+    "name": "Hanae Kramer",
+    "lastName": "Kramer",
+    "slug": "hanae-kramer",
+    "url": "/faculty/hanae-kramer.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/hanae-kramer.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Associate Professor",
+    "programs": [
+      "communication"
+    ],
+    "roles": [
+      "Program Director, COM"
+    ],
+    "office": "Crawford 330",
+    "email": "hanae@hawaii.edu",
+    "phone": "(808) 956-3780",
+    "phoneHref": "+18089563780",
+    "affiliations": [
+      {
+        "label": "Communication",
+        "url": "/programs/communication/"
+      }
+    ]
+  },
+  {
+    "name": "Rachel Neo",
+    "lastName": "Neo",
+    "slug": "rachel-neo",
+    "url": "/faculty/rachel-neo.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/rachel-neo.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Associate Professor",
+    "programs": [
+      "communication"
+    ],
+    "roles": [
+      "Undergraduate Chair, Communication"
+    ],
+    "office": "Crawford 307",
+    "email": "rneo@hawaii.edu",
+    "phone": "(808) 956-3332",
+    "phoneHref": "+18089563332",
+    "affiliations": [
+      {
+        "label": "Communication",
+        "url": "/programs/communication/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?hl=en&user=_I5jjyUAAAAJ&view_op=list_works&sortby=pubdate"
+      }
+    ]
+  },
+  {
+    "name": "Jenifer Sunrise Winter",
+    "lastName": "Winter",
+    "slug": "jenifer-sunrise-winter",
+    "url": "/faculty/jenifer-sunrise-winter.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/jenifer-winter.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Professor",
+    "programs": [
+      "communication"
+    ],
+    "roles": [
+      "CIS Graduate Chair"
+    ],
+    "office": "Crawford 325",
+    "email": "jwinter@hawaii.edu",
+    "phone": "(808) 956-3784",
+    "phoneHref": "+18089563784",
+    "affiliations": [
+      {
+        "label": "Communication",
+        "url": "/programs/communication/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=50TXeb8AAAAJ&hl=en"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0002-6393-6637"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Jenifer-Winter"
+      }
+    ],
+    "awards": [
+      {
+        "name": "Regents’ Medal for Excellence in Teaching",
+        "year": "2011"
+      }
+    ]
+  },
+  {
+    "name": "Dan Milz",
+    "lastName": "Milz",
+    "slug": "dan-milz",
+    "url": "/faculty/dan-milz.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/dan-milz.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Associate Professor",
+    "programs": [
+      "matsunaga-institute-for-peace"
+    ],
+    "office": "Saunders 107C",
+    "email": "dmilz@hawaii.edu",
+    "phone": "(808) 956-6866",
+    "phoneHref": "+18089566866",
+    "affiliations": [
+      {
+        "label": "Matsunaga Institute for Peace",
+        "url": "/programs/matsunaga-institute-for-peace/"
+      },
+      {
+        "label": "Urban and Regional Planning",
+        "url": ""
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=wv_MNvAAAAAJ&hl=en"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Dan_Milz"
+      }
+    ]
+  },
+  {
+    "name": "Maya Soetoro",
+    "lastName": "Soetoro-Ng",
+    "slug": "maya-soetoro",
+    "url": "/faculty/maya-soetoro.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/maya-soetoro-ng.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Associate Specialist",
+    "programs": [
+      "matsunaga-institute-for-peace"
+    ],
+    "roles": [
+      "Graduate Chair"
+    ],
+    "office": "Saunders 723",
+    "email": "soetoro@hawaii.edu",
+    "phone": "(808) 956-6433",
+    "phoneHref": "+18089566433",
+    "affiliations": [
+      {
+        "label": "Matsunaga Institute for Peace",
+        "url": "/programs/matsunaga-institute-for-peace/"
+      }
+    ]
+  },
+  {
+    "name": "Jessica Gasiorek",
+    "lastName": "Gasiorek",
+    "slug": "jessica-gasiorek",
+    "url": "/faculty/jessica-gasiorek.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/jessica-gasiorek.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Professor",
+    "programs": [
+      "communicology"
+    ],
+    "roles": [
+      "Graduate Chair"
+    ],
+    "office": "George 332",
+    "email": "gasiorek@hawaii.edu",
+    "phone": "(808) 956-8407",
+    "phoneHref": "+18089568407",
+    "affiliations": [
+      {
+        "label": "Communicology",
+        "url": "/programs/communicology/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=TyoDdaMAAAAJ"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0002-8449-8867"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Jessica-Gasiorek"
+      }
+    ]
+  },
+  {
+    "name": "Amy Hubbard",
+    "lastName": "Hubbard",
+    "slug": "amy-hubbard",
+    "url": "/faculty/amy-hubbard.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/amy-hubbard.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Professor",
+    "programs": [
+      "communicology"
+    ],
+    "office": "George 333",
+    "email": "aebesu@hawaii.edu",
+    "phone": "(808) 956-3321",
+    "phoneHref": "+18089563321",
+    "affiliations": [
+      {
+        "label": "Communicology",
+        "url": "/programs/communicology/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?hl=en&user=bWCGcVgAAAAJ&inst=18159185193906785217"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0001-9657-0662"
+      }
+    ],
+    "awards": [
+      {
+        "name": "Regents’ Medal for Excellence in Teaching",
+        "year": "2002"
+      }
+    ]
+  },
+  {
+    "name": "Min-Sun Kim",
+    "lastName": "Kim",
+    "slug": "min-sun-kim",
+    "url": "/faculty/min-sun-kim.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/min-sun-kim.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Professor",
+    "programs": [
+      "communicology"
+    ],
+    "roles": [
+      "Minor Advisor"
+    ],
+    "office": "George 331",
+    "email": "kmin@hawaii.edu",
+    "phone": "(808) 956-8052",
+    "phoneHref": "+18089568052",
+    "affiliations": [
+      {
+        "label": "Communicology",
+        "url": "/programs/communicology/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=mKTsjWoAAAAJ&pagesize=80"
+      }
+    ]
+  },
+  {
+    "name": "Emiko Taniguchi-Dorios",
+    "lastName": "Taniguchi-Dorios",
+    "slug": "emiko-taniguchi-dorios",
+    "url": "/faculty/emiko-taniguchi-dorios.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/emiko-taniguchi-dorios.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Associate Professor",
+    "programs": [
+      "communicology"
+    ],
+    "office": "George 330",
+    "email": "emikotan@hawaii.edu",
+    "phone": "(808) 956-8911",
+    "phoneHref": "+18089568911",
+    "affiliations": [
+      {
+        "label": "Communicology",
+        "url": "/programs/communicology/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?hl=en&user=HyBjmlgAAAAJ"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Emiko-Taniguchi-Dorios"
+      }
+    ],
+    "awards": [
+      {
+        "name": "College of Social Sciences Award for Excellence in Teaching",
+        "year": "2023"
+      }
+    ]
+  },
+  {
+    "name": "Meera Garud",
+    "lastName": "Garud",
+    "slug": "meera-garud",
+    "url": "/faculty/meera-garud.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/meera-garud.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Instructor",
+    "programs": [
+      "library-and-information-science"
+    ],
+    "office": "Hamilton Library 003B",
+    "email": "meera@hawaii.edu",
+    "phone": "(808) 956-5807",
+    "phoneHref": "+18089565807",
+    "affiliations": [
+      {
+        "label": "Library and Information Science",
+        "url": "/programs/library-and-information-science/"
+      }
+    ]
+  },
+  {
+    "name": "Rich Gazan",
+    "lastName": "Gazan",
+    "slug": "rich-gazan",
+    "url": "/faculty/rich-gazan.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/rich-gazan.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Professor",
+    "programs": [
+      "library-and-information-science"
+    ],
+    "roles": [
+      "Program Chair, CIS"
+    ],
+    "office": "Hamilton Library 002A",
+    "email": "gazan@hawaii.edu",
+    "phone": "(808) 956-5094",
+    "phoneHref": "+18089565094",
+    "affiliations": [
+      {
+        "label": "Library and Information Science",
+        "url": "/programs/library-and-information-science/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=b8pOXakAAAAJ&hl=en"
+      },
+      {
+        "label": "ORCID",
+        "url": "http://orcid.org/0000-0003-0741-9050"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Rich_Gazan"
+      },
+      {
+        "label": "Scopus Author ID",
+        "url": "https://www.scopus.com/authid/detail.uri?authorId=6507896728"
+      }
+    ]
+  },
+  {
+    "name": "Andrew Wertheimer",
+    "lastName": "Wertheimer",
+    "slug": "andrew-wertheimer",
+    "url": "/faculty/andrew-wertheimer.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/andrew-wertheimer.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Associate Professor",
+    "programs": [
+      "library-and-information-science"
+    ],
+    "roles": [
+      "Program Director, LIS"
+    ],
+    "office": "Hamilton Library 003D",
+    "email": "wertheim@hawaii.edu",
+    "phone": "(808) 956-5810",
+    "phoneHref": "+18089565810",
+    "affiliations": [
+      {
+        "label": "Library and Information Science",
+        "url": "/programs/library-and-information-science/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=hEEvWnUAAAAJ&hl=en"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0003-1108-8717"
+      },
+      {
+        "label": "Scopus Author ID",
+        "url": "https://www.scopus.com/authid/detail.uri?authorId=57023408200"
+      }
+    ]
+  },
+  {
+    "name": "Cassandra Tengan",
+    "lastName": "Tengan",
+    "slug": "cassandra-tengan",
+    "url": "/faculty/cassandra-tengan.html",
+    "type": "staff",
+    "showInFacultyDirectory": false,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/cassandra-tengan.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Administrative Staff",
+    "programs": [],
+    "office": "George 326",
+    "email": "tenganca@hawaii.edu",
+    "phone": "(808) 956-3316",
+    "phoneHref": "+18089563316"
+  },
+  {
+    "name": "Colin Moore",
+    "lastName": "Moore",
+    "slug": "colin-moore",
+    "url": "/faculty/colin-moore.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/colin-moore.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Associate Professor",
+    "programs": [
+      "matsunaga-institute-for-peace"
+    ],
+    "roles": [
+      "Program Director, PACE"
+    ],
+    "office": "Saunders 723",
+    "email": "cdmoore@hawaii.edu",
+    "phone": "(808) 956-8016",
+    "phoneHref": "+18089568016",
+    "affiliations": [
+      {
+        "label": "Matsunaga Institute for Peace",
+        "url": "/programs/matsunaga-institute-for-peace/"
+      },
+      {
+        "label": "UHERO",
+        "url": ""
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=nRin4nEAAAAJ&hl=en&oi=ao"
+      }
+    ]
+  },
+  {
+    "name": "Mandi Hull",
+    "lastName": "Hull",
+    "slug": "mandi-hull",
+    "url": "/faculty/mandi-hull.html",
+    "type": "staff",
+    "showInFacultyDirectory": false,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/mandi-hull.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Program Coordinator",
+    "programs": [
+      "library-and-information-science"
+    ],
+    "office": "Hamilton Library 002",
+    "email": "hullm7@hawaii.edu",
+    "phone": "(808) 956-7321",
+    "phoneHref": "+18089567321"
+  },
+  {
+    "name": "Krystyna Aune",
+    "lastName": "Aune",
+    "slug": "krystyna-aune",
+    "url": "/faculty/krystyna-aune.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/krystyna-aune.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Professor",
+    "programs": [
+      "communicology"
+    ],
+    "roles": [
+      "Program Director, COMG"
+    ],
+    "office": "George 334",
+    "email": "krystyna@hawaii.edu",
+    "phone": "(808) 956-3313",
+    "phoneHref": "+18089563313",
+    "affiliations": [
+      {
+        "label": "Communicology",
+        "url": "/programs/communicology/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0001-9047-9569"
+      }
+    ],
+    "awards": [
+      {
+        "name": "Regents’ Medal for Excellence in Teaching",
+        "year": "2003"
+      }
+    ]
+  },
+  {
+    "name": "Jay Stout",
+    "lastName": "Stout",
+    "slug": "jay-stout",
+    "url": "/faculty/jay-stout.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/jay-stout.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Instructor",
+    "programs": [
+      "communicology"
+    ],
+    "office": "George 316",
+    "email": "jaystout@hawaii.edu",
+    "phone": "(808) 956-3323",
+    "phoneHref": "+18089563323",
+    "affiliations": [
+      {
+        "label": "Communicology",
+        "url": "/programs/communicology/"
+      }
+    ]
+  },
+  {
+    "name": "Keahiahi Long",
+    "lastName": "Long",
+    "slug": "keahiahi-long",
+    "url": "/faculty/keahiahi-long.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/keahiahi-long.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Assistant Professor",
+    "programs": [
+      "library-and-information-science"
+    ],
+    "office": "Hamilton Library 003C",
+    "email": "keahiahi@hawaii.edu",
+    "phone": "(808) 956-6703",
+    "phoneHref": "+18089566703",
+    "affiliations": [
+      {
+        "label": "Library and Information Science",
+        "url": "/programs/library-and-information-science/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=F-E3NHkAAAAJ"
+      }
+    ]
+  },
+  {
+    "name": "John Temple",
+    "lastName": "Temple",
+    "slug": "john-temple",
+    "url": "/faculty/john-temple.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/john-temple.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Professor",
+    "programs": [
+      "journalism"
+    ],
+    "roles": [
+      "Program Director, JOUR"
+    ],
+    "office": "Crawford 314",
+    "email": "john.temple@hawaii.edu",
+    "affiliations": [
+      {
+        "label": "Journalism",
+        "url": "/programs/journalism/"
+      }
+    ]
+  },
+  {
+    "name": "Youjeong Kim",
+    "lastName": "Kim",
+    "slug": "youjeong-kim",
+    "url": "/faculty/youjeong-kim.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/youjeong-kim.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Associate Professor",
+    "programs": [
+      "journalism"
+    ],
+    "office": "Crawford 312",
+    "email": "ykim77@hawaii.edu",
+    "affiliations": [
+      {
+        "label": "Journalism",
+        "url": "/programs/journalism/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=9wVxhYwAAAAJ&hl=en"
+      }
+    ]
+  },
+  {
+    "name": "Micah R. Fisher",
+    "lastName": "Fisher",
+    "slug": "micah-r-fisher",
+    "url": "/faculty/micah-r-fisher.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/micah-r-fisher.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Assistant Professor",
+    "programs": [
+      "matsunaga-institute-for-peace"
+    ],
+    "office": "Saunders 412",
+    "email": "micahrf@hawaii.edu",
+    "phone": "(808) 956-3340",
+    "phoneHref": "+18089563340",
+    "affiliations": [
+      {
+        "label": "Matsunaga Institute for Peace",
+        "url": "/programs/matsunaga-institute-for-peace/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=nX11dGIAAAAJ&hl=en"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Micah-Fisher"
+      }
+    ]
+  },
+  {
+    "name": "Jingyi Gu",
+    "lastName": "Gu",
+    "slug": "jingyi-gu",
+    "url": "/faculty/jingyi-gu.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/jingyi-gu.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Assistant Professor",
+    "programs": [
+      "communication"
+    ],
+    "office": "Crawford 324",
+    "email": "jingyigu@hawaii.edu",
+    "affiliations": [
+      {
+        "label": "Communication",
+        "url": "/programs/communication/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0002-0613-1146"
+      }
+    ]
+  },
+  {
+    "name": "Petrice Flowers",
+    "lastName": "Flowers",
+    "slug": "petrice-flowers",
+    "url": "/faculty/petrice-flowers.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/petrice-flowers.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Professor",
+    "programs": [
+      "matsunaga-institute-for-peace"
+    ],
+    "office": "Saunders 612",
+    "email": "pflowers@hawaii.edu",
+    "phone": "(808) 956-8494",
+    "phoneHref": "+18089568494",
+    "affiliations": [
+      {
+        "label": "Matsunaga Institute for Peace",
+        "url": "/programs/matsunaga-institute-for-peace/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Petrice_Flowers"
+      }
+    ]
+  },
+  {
+    "name": "Alexandria Rayburn",
+    "lastName": "Rayburn",
+    "slug": "alexandria-rayburn",
+    "url": "/faculty/alexandria-rayburn.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/alexandria-rayburn.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Assistant Professor",
+    "programs": [
+      "library-and-information-science"
+    ],
+    "office": "Hamilton Library 002F",
+    "email": "arayburn@hawaii.edu",
+    "phone": "(808) 956-5821",
+    "phoneHref": "+18089565821",
+    "affiliations": [
+      {
+        "label": "Library and Information Science",
+        "url": "/programs/library-and-information-science/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=5IwoYeoAAAAJ&hl=en&oi=sra"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0003-3940-841X"
+      }
+    ]
+  },
+  {
+    "name": "Janelle Osaki",
+    "lastName": "Osaki",
+    "slug": "janelle-osaki",
+    "url": "/faculty/janelle-osaki.html",
+    "type": "staff",
+    "showInFacultyDirectory": false,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/janelle-osaki.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Administrative Staff",
+    "programs": [],
+    "office": "Crawford 320",
+    "email": "jmurakaw@hawaii.edu",
+    "phone": "(808) 956-8927",
+    "phoneHref": "+18089568927"
+  },
+  {
+    "name": "Ava Kikut-Stein",
+    "lastName": "Kikut-Stein",
+    "slug": "ava-kikut-stein",
+    "url": "/faculty/ava-kikut-stein.html",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "photo": "/media/units/sci/faculty-staff/ava-kikut-stein.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "title": "Assistant Professor",
+    "programs": [
+      "communicology"
+    ],
+    "office": "George 329",
+    "email": "akstein@hawaii.edu",
+    "phone": "(808) 956-0769",
+    "phoneHref": "+18089560769",
+    "affiliations": [
+      {
+        "label": "Communicology",
+        "url": "/programs/communicology/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=HLsTuuMAAAAJ&hl=en"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0002-1805-1020"
+      }
+    ],
+    "websites": [
+      {
+        "label": "Personal Website",
+        "url": "https://sites.google.com/d/1Y1kI6UiZFGLXaUWicfaJNW3nL4QKkOem/p/1ZPIrneaO6mme2CsXG03w3njcTNEuW_vE/edit"
+      }
+    ]
+  }
+]

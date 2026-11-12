@@ -1,0 +1,1342 @@
+{
+  "date": "2026-11-12",
+  "scope": "SSRI red-flag accessibility review; Siteimprove remains the comprehensive scanner",
+  "versions": {
+    "axe": "4.14.0",
+    "chromium": "157.0.8103.52"
+  },
+  "baselinePages": [
+    {
+      "url": "/contact/",
+      "width": 1800,
+      "label": "/contact/ @ 1800",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 61
+        },
+        {
+          "id": "frame-tested",
+          "nodeCount": 1
+        }
+      ],
+      "passedRuleCount": 49,
+      "structure": {
+        "title": "Contact SSRI | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Contact SSRI"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": [
+          {
+            "title": "Google Map showing Saunders Hall at UH Mānoa",
+            "src": "https://www.google.com/maps?q=Saunders%20Hall%2C%202424%20Maile%20Way%2C%20Honolulu%2C%20HI%2096822&output=embed"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/directory/",
+      "width": 1800,
+      "label": "/directory/ @ 1800",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 61
+        }
+      ],
+      "passedRuleCount": 46,
+      "structure": {
+        "title": "Directory | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Directory"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/",
+      "width": 1800,
+      "label": "/ @ 1800",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 61
+        }
+      ],
+      "passedRuleCount": 48,
+      "structure": {
+        "title": "Research and Grant Services | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "SSRI: Research and Grant Services"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/john-jack-barile/",
+      "width": 1800,
+      "label": "/john-jack-barile/ @ 1800",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 61
+        }
+      ],
+      "passedRuleCount": 47,
+      "structure": {
+        "title": "John (Jack) Barile | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "John (Jack) Barile"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/privacy.html",
+      "width": 1800,
+      "label": "/privacy.html @ 1800",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 61
+        }
+      ],
+      "passedRuleCount": 47,
+      "structure": {
+        "title": "Privacy Policy | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Privacy Policy"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/research/ham.html",
+      "width": 1800,
+      "label": "/research/ham.html @ 1800",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 61
+        }
+      ],
+      "passedRuleCount": 46,
+      "structure": {
+        "title": "Hui ʻĀina Momona (HAM) | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Hui ʻĀina Momona (HAM)"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/research/hcri.html",
+      "width": 1800,
+      "label": "/research/hcri.html @ 1800",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 61
+        }
+      ],
+      "passedRuleCount": 46,
+      "structure": {
+        "title": "Hawaiʻi Coral Reef Initiative (HCRI) | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Hawaiʻi Coral Reef Initiative (HCRI)"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/research/",
+      "width": 1800,
+      "label": "/research/ @ 1800",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 61
+        }
+      ],
+      "passedRuleCount": 46,
+      "structure": {
+        "title": "Research | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Research"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/research/oenas.html",
+      "width": 1800,
+      "label": "/research/oenas.html @ 1800",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 61
+        }
+      ],
+      "passedRuleCount": 47,
+      "structure": {
+        "title": "Office for Evaluation and Needs Assessment Services (OENAS) | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Office for Evaluation and Needs Assessment Services (OENAS)"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/research/tasi-phidc.html",
+      "width": 1800,
+      "label": "/research/tasi-phidc.html @ 1800",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 61
+        }
+      ],
+      "passedRuleCount": 47,
+      "structure": {
+        "title": "TASI/PHIDC | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "TASI/PHIDC"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/support/boilerplate.html",
+      "width": 1800,
+      "label": "/support/boilerplate.html @ 1800",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 61
+        }
+      ],
+      "passedRuleCount": 46,
+      "structure": {
+        "title": "Boilerplate Descriptions | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Boilerplate Descriptions"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/support/fiscal-compliance.html",
+      "width": 1800,
+      "label": "/support/fiscal-compliance.html @ 1800",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 61
+        }
+      ],
+      "passedRuleCount": 47,
+      "structure": {
+        "title": "Fiscal/Compliance | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Fiscal/Compliance"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/support/grant-development.html",
+      "width": 1800,
+      "label": "/support/grant-development.html @ 1800",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 61
+        }
+      ],
+      "passedRuleCount": 47,
+      "structure": {
+        "title": "Grant Development | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Grant Development"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/support/research-services.html",
+      "width": 1800,
+      "label": "/support/research-services.html @ 1800",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 61
+        }
+      ],
+      "passedRuleCount": 47,
+      "structure": {
+        "title": "Research Services | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Research Services"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/contact/",
+      "width": 390,
+      "label": "/contact/ @ 390",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        },
+        {
+          "id": "frame-tested",
+          "nodeCount": 1
+        }
+      ],
+      "passedRuleCount": 42,
+      "structure": {
+        "title": "Contact SSRI | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Contact SSRI"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": [
+          {
+            "title": "Google Map showing Saunders Hall at UH Mānoa",
+            "src": "https://www.google.com/maps?q=Saunders%20Hall%2C%202424%20Maile%20Way%2C%20Honolulu%2C%20HI%2096822&output=embed"
+          }
+        ]
+      }
+    },
+    {
+      "url": "/directory/",
+      "width": 390,
+      "label": "/directory/ @ 390",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        }
+      ],
+      "passedRuleCount": 39,
+      "structure": {
+        "title": "Directory | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Directory"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/",
+      "width": 390,
+      "label": "/ @ 390",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        }
+      ],
+      "passedRuleCount": 41,
+      "structure": {
+        "title": "Research and Grant Services | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "SSRI: Research and Grant Services"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/john-jack-barile/",
+      "width": 390,
+      "label": "/john-jack-barile/ @ 390",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        }
+      ],
+      "passedRuleCount": 40,
+      "structure": {
+        "title": "John (Jack) Barile | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "John (Jack) Barile"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/privacy.html",
+      "width": 390,
+      "label": "/privacy.html @ 390",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        }
+      ],
+      "passedRuleCount": 40,
+      "structure": {
+        "title": "Privacy Policy | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Privacy Policy"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/research/ham.html",
+      "width": 390,
+      "label": "/research/ham.html @ 390",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        }
+      ],
+      "passedRuleCount": 39,
+      "structure": {
+        "title": "Hui ʻĀina Momona (HAM) | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Hui ʻĀina Momona (HAM)"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/research/hcri.html",
+      "width": 390,
+      "label": "/research/hcri.html @ 390",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        }
+      ],
+      "passedRuleCount": 39,
+      "structure": {
+        "title": "Hawaiʻi Coral Reef Initiative (HCRI) | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Hawaiʻi Coral Reef Initiative (HCRI)"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/research/",
+      "width": 390,
+      "label": "/research/ @ 390",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        }
+      ],
+      "passedRuleCount": 39,
+      "structure": {
+        "title": "Research | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Research"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/research/oenas.html",
+      "width": 390,
+      "label": "/research/oenas.html @ 390",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        }
+      ],
+      "passedRuleCount": 40,
+      "structure": {
+        "title": "Office for Evaluation and Needs Assessment Services (OENAS) | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Office for Evaluation and Needs Assessment Services (OENAS)"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/research/tasi-phidc.html",
+      "width": 390,
+      "label": "/research/tasi-phidc.html @ 390",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        }
+      ],
+      "passedRuleCount": 40,
+      "structure": {
+        "title": "TASI/PHIDC | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "TASI/PHIDC"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/support/boilerplate.html",
+      "width": 390,
+      "label": "/support/boilerplate.html @ 390",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        }
+      ],
+      "passedRuleCount": 39,
+      "structure": {
+        "title": "Boilerplate Descriptions | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Boilerplate Descriptions"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/support/fiscal-compliance.html",
+      "width": 390,
+      "label": "/support/fiscal-compliance.html @ 390",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        }
+      ],
+      "passedRuleCount": 40,
+      "structure": {
+        "title": "Fiscal/Compliance | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Fiscal/Compliance"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/support/grant-development.html",
+      "width": 390,
+      "label": "/support/grant-development.html @ 390",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        }
+      ],
+      "passedRuleCount": 40,
+      "structure": {
+        "title": "Grant Development | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Grant Development"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    },
+    {
+      "url": "/support/research-services.html",
+      "width": 390,
+      "label": "/support/research-services.html @ 390",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        }
+      ],
+      "passedRuleCount": 40,
+      "structure": {
+        "title": "Research Services | Social Science Research Institute",
+        "lang": "en",
+        "h1": [
+          "Research Services"
+        ],
+        "main": 1,
+        "overflow": false,
+        "iframes": []
+      }
+    }
+  ],
+  "baselineInteractionStates": [
+    {
+      "url": null,
+      "width": null,
+      "label": "desktop Support open",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 66
+        }
+      ],
+      "passedRuleCount": 48,
+      "structure": {}
+    },
+    {
+      "url": null,
+      "width": null,
+      "label": "mobile navigation open",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        }
+      ],
+      "passedRuleCount": 41,
+      "structure": {}
+    },
+    {
+      "url": null,
+      "width": null,
+      "label": "mobile search open",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "nodes": [
+            {
+              "html": "<button class=\"btn btn-outline-secondary\" type=\"submit\">Search</button>",
+              "target": [
+                ".mobile-search-form > .btn.btn-outline-secondary[type=\"submit\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #6c757d, background color: #f7f7f7, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#6c757d",
+                    "bgColor": "#f7f7f7",
+                    "contrastRatio": 4.37,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"unit-name\">",
+                      "target": [
+                        ".unit-name"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.37 (foreground color: #6c757d, background color: #f7f7f7, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": []
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        }
+      ],
+      "passedRuleCount": 48,
+      "structure": {}
+    }
+  ],
+  "finalTargetedStates": [
+    {
+      "url": null,
+      "width": null,
+      "label": "desktop Support open",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 66
+        }
+      ],
+      "passedRuleCount": 48,
+      "structure": {}
+    },
+    {
+      "url": null,
+      "width": null,
+      "label": "mobile navigation open",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        }
+      ],
+      "passedRuleCount": 41,
+      "structure": {}
+    },
+    {
+      "url": null,
+      "width": null,
+      "label": "mobile search open",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodeCount": 55
+        }
+      ],
+      "passedRuleCount": 48,
+      "structure": {}
+    }
+  ],
+  "keyboardBefore": {
+    "firstTab": {
+      "tag": "A",
+      "text": "Skip to main content",
+      "className": "skip-link",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "width": 185.1875,
+        "height": 49.59375,
+        "top": 16,
+        "right": 201.1875,
+        "bottom": 65.59375,
+        "left": 16
+      }
+    },
+    "skipActivation": {
+      "hash": "#main-content",
+      "active": "",
+      "mainTop": 165.859375,
+      "headerBottom": 234.859375
+    },
+    "afterSkip": {
+      "tag": "A",
+      "text": "research",
+      "insideMain": true,
+      "rect": {
+        "x": 648.375,
+        "y": 541.671875,
+        "width": 73.125,
+        "height": 21,
+        "top": 541.671875,
+        "right": 721.5,
+        "bottom": 562.671875,
+        "left": 648.375
+      },
+      "outline": "rgb(10, 88, 202) solid 3px"
+    },
+    "Support": {
+      "onFocus": {
+        "expanded": "false",
+        "menuVisible": true,
+        "activeText": "Support",
+        "focusInMenu": false
+      },
+      "onEnter": {
+        "expanded": "true",
+        "menuVisible": true,
+        "activeText": "Support",
+        "focusInMenu": false
+      },
+      "onArrow": {
+        "expanded": "true",
+        "menuVisible": true,
+        "activeText": "Research Services",
+        "focusInMenu": true
+      },
+      "onEscape": {
+        "expanded": "false",
+        "menuVisible": true,
+        "activeText": "Support",
+        "focusInMenu": false
+      }
+    },
+    "mobileMenu": {
+      "expanded": "true",
+      "navVisible": true
+    },
+    "mobileDropdown": {
+      "active": "Research Services",
+      "expanded": "true"
+    },
+    "mobileDropdownEscape": {
+      "expanded": "false",
+      "visibility": "none"
+    },
+    "mobileSearch": {
+      "active": "",
+      "expanded": "true",
+      "label": "Search SSRI website"
+    }
+  },
+  "keyboardAfter": {
+    "firstTab": {
+      "tag": "A",
+      "text": "Skip to main content",
+      "className": "skip-link",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "width": 185.1875,
+        "height": 49.59375,
+        "top": 16,
+        "right": 201.1875,
+        "bottom": 65.59375,
+        "left": 16
+      }
+    },
+    "skipActivation": {
+      "hash": "#main-content",
+      "active": "",
+      "mainTop": 165.859375,
+      "headerBottom": 234.859375
+    },
+    "afterSkip": {
+      "tag": "A",
+      "text": "research",
+      "insideMain": true,
+      "rect": {
+        "x": 648.375,
+        "y": 498.671875,
+        "width": 73.125,
+        "height": 21,
+        "top": 498.671875,
+        "right": 721.5,
+        "bottom": 519.671875,
+        "left": 648.375
+      },
+      "outline": "rgb(10, 88, 202) solid 3px"
+    },
+    "Support": {
+      "onFocus": {
+        "expanded": "false",
+        "menuVisible": false,
+        "activeText": "Support",
+        "focusInMenu": false
+      },
+      "onEnter": {
+        "expanded": "true",
+        "menuVisible": true,
+        "activeText": "Support",
+        "focusInMenu": false
+      },
+      "onArrow": {
+        "expanded": "true",
+        "menuVisible": true,
+        "activeText": "Research Services",
+        "focusInMenu": true
+      },
+      "onEscape": {
+        "expanded": "false",
+        "menuVisible": false,
+        "activeText": "Support",
+        "focusInMenu": false
+      }
+    },
+    "mobileMenu": {
+      "expanded": "true",
+      "navVisible": true
+    },
+    "mobileDropdown": {
+      "active": "Research Services",
+      "expanded": "true"
+    },
+    "mobileDropdownEscape": {
+      "expanded": "false",
+      "visibility": "none"
+    },
+    "mobileSearch": {
+      "active": "",
+      "expanded": "true",
+      "label": "Search SSRI website"
+    },
+    "hoverOpen": {
+      "expanded": "true",
+      "visible": true
+    },
+    "hoverEscape": {
+      "expanded": "false",
+      "visible": false
+    }
+  },
+  "reflowAndSpacingChecks": [
+    {
+      "url": "/contact/",
+      "width": 320,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/contact/",
+      "width": 768,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/contact/",
+      "width": 1200,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/contact/",
+      "width": 390,
+      "mode": "text-spacing",
+      "overflow": false
+    },
+    {
+      "url": "/directory/",
+      "width": 320,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/directory/",
+      "width": 768,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/directory/",
+      "width": 1200,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/directory/",
+      "width": 390,
+      "mode": "text-spacing",
+      "overflow": false
+    },
+    {
+      "url": "/",
+      "width": 320,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/",
+      "width": 768,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/",
+      "width": 1200,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/",
+      "width": 390,
+      "mode": "text-spacing",
+      "overflow": false
+    },
+    {
+      "url": "/john-jack-barile/",
+      "width": 320,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/john-jack-barile/",
+      "width": 768,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/john-jack-barile/",
+      "width": 1200,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/john-jack-barile/",
+      "width": 390,
+      "mode": "text-spacing",
+      "overflow": false
+    },
+    {
+      "url": "/privacy.html",
+      "width": 320,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/privacy.html",
+      "width": 768,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/privacy.html",
+      "width": 1200,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/privacy.html",
+      "width": 390,
+      "mode": "text-spacing",
+      "overflow": false
+    },
+    {
+      "url": "/research/ham.html",
+      "width": 320,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/research/ham.html",
+      "width": 768,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/research/ham.html",
+      "width": 1200,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/research/ham.html",
+      "width": 390,
+      "mode": "text-spacing",
+      "overflow": false
+    },
+    {
+      "url": "/research/hcri.html",
+      "width": 320,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/research/hcri.html",
+      "width": 768,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/research/hcri.html",
+      "width": 1200,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/research/hcri.html",
+      "width": 390,
+      "mode": "text-spacing",
+      "overflow": false
+    },
+    {
+      "url": "/research/",
+      "width": 320,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/research/",
+      "width": 768,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/research/",
+      "width": 1200,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/research/",
+      "width": 390,
+      "mode": "text-spacing",
+      "overflow": false
+    },
+    {
+      "url": "/research/oenas.html",
+      "width": 320,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/research/oenas.html",
+      "width": 768,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/research/oenas.html",
+      "width": 1200,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/research/oenas.html",
+      "width": 390,
+      "mode": "text-spacing",
+      "overflow": false
+    },
+    {
+      "url": "/research/tasi-phidc.html",
+      "width": 320,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/research/tasi-phidc.html",
+      "width": 768,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/research/tasi-phidc.html",
+      "width": 1200,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/research/tasi-phidc.html",
+      "width": 390,
+      "mode": "text-spacing",
+      "overflow": false
+    },
+    {
+      "url": "/support/boilerplate.html",
+      "width": 320,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/support/boilerplate.html",
+      "width": 768,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/support/boilerplate.html",
+      "width": 1200,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/support/boilerplate.html",
+      "width": 390,
+      "mode": "text-spacing",
+      "overflow": false
+    },
+    {
+      "url": "/support/fiscal-compliance.html",
+      "width": 320,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/support/fiscal-compliance.html",
+      "width": 768,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/support/fiscal-compliance.html",
+      "width": 1200,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/support/fiscal-compliance.html",
+      "width": 390,
+      "mode": "text-spacing",
+      "overflow": false
+    },
+    {
+      "url": "/support/grant-development.html",
+      "width": 320,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/support/grant-development.html",
+      "width": 768,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/support/grant-development.html",
+      "width": 1200,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/support/grant-development.html",
+      "width": 390,
+      "mode": "text-spacing",
+      "overflow": false
+    },
+    {
+      "url": "/support/research-services.html",
+      "width": 320,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/support/research-services.html",
+      "width": 768,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/support/research-services.html",
+      "width": 1200,
+      "mode": "reflow",
+      "overflow": false
+    },
+    {
+      "url": "/support/research-services.html",
+      "width": 390,
+      "mode": "text-spacing",
+      "overflow": false
+    }
+  ],
+  "mobileSearchContrast": {
+    "before": 4.37,
+    "after": 15.71,
+    "foreground": "rgb(29, 29, 31)",
+    "background": "rgb(247, 247, 247)"
+  },
+  "contrastFollowUp": {
+    "footerConservativeBound": 5.44,
+    "note": "75%-opacity white text against the lightest possible 10%-opacity white pattern over #024731; this is a source-color bound, not a screenshot measurement."
+  },
+  "externalContentNotAudited": [],
+  "limitations": [
+    "Not a full WCAG conformance evaluation or a screen-reader audit.",
+    "Cross-origin Google Maps contents excluded.",
+    "Pseudo-element backgrounds prevent axe from resolving some navigation/footer contrast; basic colors reviewed separately.",
+    "Development guides disabled in audit CSS only; source settings unchanged."
+  ]
+}

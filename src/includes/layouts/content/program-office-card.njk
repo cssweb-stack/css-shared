@@ -1,0 +1,16 @@
+{% from "layouts/profiles/contact-links.njk" import contactLinks %}
+<article class="profile-card" aria-labelledby="contact-{{ program.id | escape }}">
+{% if program.office.photo %}<img class="profile-directory-photo program-office-photo photo-style" src="{{ program.office.photo.src | url }}" alt="{{ program.office.photo.alt | escape }}" width="{{ program.office.photo.width }}" height="{{ program.office.photo.height }}" loading="lazy" decoding="async">{% endif %}
+<h2 class="profile-name" id="contact-{{ program.id | escape }}">{{ program.name | escape }}</h2>
+<div class="profile-titles"><p class="profile-job-title">Main Office</p></div>
+<div class="profile-contact">
+<address class="contact-address">
+{% for line in program.office.address %}<p class="profile-office">{{ line | escape }}</p>{% endfor %}
+</address>
+{{ contactLinks(program.office.email.label, program.office.email.href, program.office.phone.label, program.office.phone.href) }}
+</div>
+{% for director in people %}{% if director.slug == program.directorSlug %}
+<div class="profile-titles mt-3"><p class="profile-job-title">Program Director</p></div>
+<p class="profile-office"><a href="{{ director.url | url }}">{{ director.name | escape }}</a></p>
+{% endif %}{% endfor %}
+</article>

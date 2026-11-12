@@ -1,0 +1,131 @@
+{
+  "defaultHero": "/media/heroes/students/41.webp",
+  "pages": {
+    "/": {
+      "image": "/media/heroes/students/30.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/about-wgss/alumni.html": {
+      "image": "/media/heroes/students/29.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/about-wgss/colloquia.html": {
+      "image": "/media/heroes/students/09.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/certificate.html": {
+      "image": "/media/heroes/students/59.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/queer-studies.html": {
+      "image": "/media/heroes/students/48.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/major-ba/": {
+      "image": "/media/heroes/students/43.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/major-ba/transnational-courses.html": {
+      "image": "/media/heroes/students/61.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/major-ba-online.html": {
+      "image": "/media/heroes/students/08.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/double-majors.html": {
+      "image": "/media/heroes/students/44.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/honors-track.html": {
+      "image": "/media/heroes/students/28.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/graduate-certificate.html": {
+      "image": "/media/heroes/students/01.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/support-wgss.html": {
+      "image": "/media/heroes/students/35.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/contact.html": {
+      "image": "/media/heroes/students/18.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/funding-sources.html": {
+      "image": "/media/heroes/students/04.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/about-wgss/why-study-wgss.html": {
+      "image": "/media/heroes/students/62.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/student-learning-outcomes.html": {
+      "image": "/media/heroes/students/49.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/applications-admissions.html": {
+      "image": "/media/heroes/students/17.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/wgss-courses.html": {
+      "image": "/media/heroes/students/37.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/privacy.html": {
+      "image": "/media/heroes/students/19.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/core-faculty.html": {
+      "image": "/media/heroes/students/32.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/faculty/associated-faculty.html": {
+      "image": "/media/heroes/students/02.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    }
+  }
+}

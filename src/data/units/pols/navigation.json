@@ -22,13 +22,13 @@
   },
   {
     "label": "Courses",
-    "url": "/about-pols/pols-courses.html"
+    "url": "/pols-courses.html"
   },
   {
     "label": "Undergraduate",
     "children": [
       {
-        "label": "Certificate (Law and Society)",
+        "label": "Certificate (Law & Society)",
         "url": "/undergraduate/certificate-law-society.html",
         "icon": "award",
         "iconColor": null

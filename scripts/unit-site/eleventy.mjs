@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createSharedSource } from './shared-source.mjs';
+import { generateRedirects } from './url-migration.mjs';
 import { configurePrivacy } from './privacy.mjs';
 import { resolveFacultyPerson } from './faculty-profiles.mjs';
 export function configureUnitSite(eleventyConfig, project) {
@@ -24,8 +25,15 @@ eleventyConfig.setLibrary('njk', environment);
 configurePrivacy(eleventyConfig, project);
 const eventDate = createRequire(import.meta.url)(path.join(sharedIncludes, 'layouts/events/event-date.cjs'));
 eleventyConfig.addFilter('eventDate', eventDate);
+eleventyConfig.addFilter('peopleForProgram', (people, programId) => (people || []).filter(person => (person.programs || []).includes(programId)));
+eleventyConfig.addFilter('peopleOfType', (people, type) => (people || []).filter(person => person.type === type));
 eleventyConfig.addFilter('contactFaculty', people => people.filter(person => person.contactOrder).sort((a, b) => a.contactOrder - b.contactOrder));
-eleventyConfig.addFilter('telephone', value => String(value || '').replace(/[^\d+]/g, ''));
+eleventyConfig.addFilter('telephone', value => {
+const cleaned = String(value || '').replace(/[^\d+]/g, '');
+if (/^\d{10}$/.test(cleaned)) return '+1' + cleaned;
+if (/^1\d{10}$/.test(cleaned)) return '+' + cleaned;
+return cleaned;
+});
 eleventyConfig.addFilter('navIconColor', name => {
 const palette = { blue: 'var(--color-blue)', gold: 'var(--color-gold)', teal: 'var(--color-teal)', purple: 'var(--color-purple)', gray: 'var(--mid-gray)' };
 if (!palette[name]) throw new Error(`Unknown navigation icon color: ${name}`);
@@ -46,7 +54,7 @@ eleventyConfig.addGlobalData('common', () => loadCommon());
 eleventyConfig.addGlobalData('uh', () => loadUH());
 eleventyConfig.addGlobalData('eleventyComputed', {
 person: resolveFacultyPerson,
-canonicalUrl: data => (data.site.canonicalSections || []).some(prefix => data.page.url.startsWith(prefix)) ? data.site.url + data.page.url : undefined
+canonicalUrl: data => !data.isNotFound && (data.site.canonicalSections || []).some(prefix => data.page.url.startsWith(prefix)) ? data.site.url + data.page.url : undefined
 });
 for (const key of Object.keys(loadUnit())) eleventyConfig.addGlobalData(key, () => key === 'site' ? { ...loadUnit().site, stylesheet } : loadUnit()[key]);
 // Preserve established page variable names while filenames become descriptive.
@@ -97,6 +105,7 @@ return { path: './' + relative + suffix, external: true };
 }]
 });
 });
+eleventyConfig.on('eleventy.after', () => generateRedirects({ project, migration: loadUnit().url_migration, siteUrl: loadUnit().site.url, prefix: process.env.SITE_PATH_PREFIX || '/' }));
 // Publish images/fonts/scripts only; JSON, templates and helper modules stay private to the build.
 for (const root of [sharedDir, sourceDir]) {
 for (const folder of ['assets', 'media']) {

@@ -1,0 +1,377 @@
+{
+  "groups": [
+    {
+      "title": "Affiliate Faculty",
+      "members": [
+        {
+          "name": "Tamara Albertini",
+          "description": "Philosophy"
+        },
+        {
+          "name": "Barbara Andaya",
+          "description": "Asian Studies"
+        },
+        {
+          "name": "Cristina Bacchilega",
+          "description": "English"
+        },
+        {
+          "name": "Christine Beaule",
+          "description": "Languages and Literatures of Europe and the Americas"
+        },
+        {
+          "name": "Penny-Bee Bovard",
+          "description": "Student-Athlete Academic Services"
+        },
+        {
+          "name": "Marie Alohalani Brown",
+          "description": "Religion"
+        },
+        {
+          "name": "Colette Browne",
+          "description": "Social Work"
+        },
+        {
+          "name": "Jan Brunson",
+          "description": "Anthropology"
+        },
+        {
+          "name": "Nandini Chandra",
+          "description": "English"
+        },
+        {
+          "name": "Elizabeth Colwill",
+          "description": "American Studies"
+        },
+        {
+          "name": "Nancy Cooper",
+          "description": "Anthropology"
+        },
+        {
+          "name": "Vrinda Dalmiya",
+          "description": "Philosophy"
+        },
+        {
+          "name": "Jonna Eagle",
+          "description": "American Studies"
+        },
+        {
+          "name": "Petrice Flowers",
+          "description": "Political Science"
+        },
+        {
+          "name": "Cynthia Franklin",
+          "description": "English"
+        },
+        {
+          "name": "Konia Freitas",
+          "description": "School of Hawaiian Knowledge"
+        },
+        {
+          "name": "Monica Ghosh",
+          "description": "Librarian"
+        },
+        {
+          "name": "Meripa Godinet",
+          "description": "Social Work"
+        },
+        {
+          "name": "Jonathan Goldberg-Hiller",
+          "description": "Political Science"
+        },
+        {
+          "name": "Noelani Goodyear-Ka'opua",
+          "description": "Political Science"
+        },
+        {
+          "name": "Vernadette Gonzalez",
+          "description": "American Studies"
+        },
+        {
+          "name": "Jairus Grove",
+          "description": "Political Science"
+        },
+        {
+          "name": "Nicole Grove",
+          "description": "Political Science"
+        },
+        {
+          "name": "Jing Guo",
+          "description": "Social Work"
+        },
+        {
+          "name": "Katharina Heyer",
+          "description": "Political Science"
+        },
+        {
+          "name": "Derrick Higginbotham",
+          "description": "English"
+        },
+        {
+          "name": "Ruth Hsu",
+          "description": "English"
+        },
+        {
+          "name": "Katherine Irwin",
+          "description": "Sociology"
+        },
+        {
+          "name": "Kristiana Kahakauwila",
+          "description": "English"
+        },
+        {
+          "name": "Yung-Hee Kim",
+          "description": "East Asian Languages and Literatures"
+        },
+        {
+          "name": "Aya Kimura",
+          "description": "Sociology"
+        },
+        {
+          "name": "Kathleen Kane",
+          "description": "Center for Teaching Excellence"
+        },
+        {
+          "name": "Marina Karides",
+          "description": "Geography and Environment"
+        },
+        {
+          "name": "Vina Lanzona",
+          "description": "History"
+        },
+        {
+          "name": "Laura Lyons",
+          "description": "English"
+        },
+        {
+          "name": "Hannah Manshel",
+          "description": "English"
+        },
+        {
+          "name": "December Maxwell",
+          "description": "Social Work and Public Health"
+        },
+        {
+          "name": "Brandy McDougall",
+          "description": "American Studies"
+        },
+        {
+          "name": "Laurel Mei-Singh",
+          "description": "Ethnic Studies"
+        },
+        {
+          "name": "Noreen Mokuau",
+          "description": "Social Work"
+        },
+        {
+          "name": "Jamaica Heolimeleikalani Osorio",
+          "description": "Political Science"
+        },
+        {
+          "name": "Lorenzo Perillo",
+          "description": "Theater and Dance"
+        },
+        {
+          "name": "Carole Petersen",
+          "description": "Law"
+        },
+        {
+          "name": "Kathy Phillips",
+          "description": "English"
+        },
+        {
+          "name": "Sarita Rai",
+          "description": "Study Abroad Program"
+        },
+        {
+          "name": "Andrew Reilly",
+          "description": "Fashion, Design and Merchandising"
+        },
+        {
+          "name": "Noukahauoli Revilla",
+          "description": "English"
+        },
+        {
+          "name": "Kastue Reynolds",
+          "description": "Japanese"
+        },
+        {
+          "name": "Lilia Santiago",
+          "description": "Indo-Pacific languages and literatures"
+        },
+        {
+          "name": "Jace Kaholokula Saplan",
+          "description": "Music"
+        },
+        {
+          "name": "Danielle Seid",
+          "description": "English"
+        },
+        {
+          "name": "Noenoe Silva",
+          "description": "Political Science"
+        },
+        {
+          "name": "Caroline Sinavaiana",
+          "description": "English"
+        },
+        {
+          "name": "Nancy K. Stalker",
+          "description": "History"
+        },
+        {
+          "name": "Miriam Stark",
+          "description": "Anthropology"
+        },
+        {
+          "name": "Carolyn Stephenson",
+          "description": "Political Science"
+        },
+        {
+          "name": "Rebecca Stotzer",
+          "description": "Social Work"
+        },
+        {
+          "name": "Ty Tengan",
+          "description": "Ethnic Studies, Anthropology"
+        },
+        {
+          "name": "Kevin Tomita",
+          "description": "Counseling and Student Development Center"
+        },
+        {
+          "name": "Joyce Warren",
+          "description": "English"
+        },
+        {
+          "name": "Sarah Marie Wiebe",
+          "description": "Political Science"
+        },
+        {
+          "name": "Christine Yano",
+          "description": "Anthropology"
+        },
+        {
+          "name": "Allison Yap",
+          "description": "UHM National Student Exchange"
+        },
+        {
+          "name": "Mari Yoshihara",
+          "description": "American Studies"
+        },
+        {
+          "name": "Ming-Bao Yue",
+          "description": "East Asian Languages and Literatures"
+        }
+      ]
+    },
+    {
+      "title": "Cooperating Graduate Faculty",
+      "members": [
+        {
+          "name": "Jan Brunson",
+          "description": "Anthropology"
+        },
+        {
+          "name": "Elizabeth Colwill",
+          "description": "American Studies"
+        },
+        {
+          "name": "Jonna Eagle",
+          "description": "American Studies"
+        },
+        {
+          "name": "Cynthia Franklin",
+          "description": "English"
+        },
+        {
+          "name": "Noelani Goodyear-Ka'opua",
+          "description": "Political Science"
+        },
+        {
+          "name": "Vernadette Gonzalez",
+          "description": "American Studies"
+        },
+        {
+          "name": "Aya Kimura",
+          "description": "Sociology"
+        },
+        {
+          "name": "Andrew Reilly",
+          "description": "Fashion, Design and Merchandising"
+        }
+      ]
+    },
+    {
+      "title": "Lecturers",
+      "members": [
+        {
+          "name": "Shirley Buchanan"
+        },
+        {
+          "name": "Nicholas Chagnon"
+        },
+        {
+          "name": "Chiyeon Hwang"
+        },
+        {
+          "name": "Bianca Isaki"
+        },
+        {
+          "name": "Angela Krattiger"
+        },
+        {
+          "name": "Alexandra Kisitu"
+        },
+        {
+          "name": "Trina Kudlacek"
+        },
+        {
+          "name": "Ava Ladner"
+        },
+        {
+          "name": "Jacqueline Lasky"
+        },
+        {
+          "name": "Hannah Liebreich"
+        },
+        {
+          "name": "Monique Mironesco"
+        },
+        {
+          "name": "Stacy Nojima"
+        },
+        {
+          "name": "Lisa Vallin"
+        },
+        {
+          "name": "Susan Wurtzburg"
+        },
+        {
+          "name": "Vera Zambonelli"
+        }
+      ]
+    },
+    {
+      "title": "Emeriti Faculty",
+      "members": [
+        {
+          "name": "Meda Chesney Lind",
+          "description": "Professor Emeritus",
+          "email": "meda@hawaii.edu",
+          "links": [
+            {
+              "label": "Biography",
+              "url": "/faculty/meda-chesney-lind.html"
+            }
+          ]
+        },
+        {
+          "name": "Ruth Dawson",
+          "description": "Professor Emeritus",
+          "email": "dawson@hawaii.edu"
+        }
+      ]
+    }
+  ]
+}

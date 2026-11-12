@@ -1,0 +1,57 @@
+{
+  "reviewed": "2026-11-12",
+  "redirects": [
+    {
+      "from": "/privacy-policy/",
+      "to": "/privacy.html",
+      "label": "Privacy Policy"
+    },
+    {
+      "from": "/grant-development/",
+      "to": "/support/grant-development.html",
+      "label": "Grant Development"
+    },
+    {
+      "from": "/fiscal-compliance/",
+      "to": "/support/fiscal-compliance.html",
+      "label": "Fiscal/Compliance"
+    },
+    {
+      "from": "/research-services/",
+      "to": "/support/research-services.html",
+      "label": "Research Services"
+    },
+    {
+      "from": "/hcri/",
+      "to": "/research/hcri.html",
+      "label": "HCRI"
+    },
+    {
+      "from": "/tasi-phidc/",
+      "to": "/research/tasi-phidc.html",
+      "label": "TASI/PHIDC"
+    },
+    {
+      "from": "/oenas/",
+      "to": "/research/oenas.html",
+      "label": "OENAS"
+    },
+    {
+      "from": "/ham/",
+      "to": "/research/ham.html",
+      "label": "HAM"
+    },
+    {
+      "from": "/boilerplate/",
+      "to": "/support/boilerplate.html",
+      "label": "Boilerplate"
+    }
+  ],
+  "retired": [],
+  "unresolved": [
+    {
+      "from": "/rtrf-fy2019/",
+      "note": "Historical RTRF FY2019 report; awaiting retain/archive/retire decision."
+    }
+  ]
+}

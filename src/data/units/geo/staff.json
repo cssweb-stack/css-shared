@@ -1,33 +1,33 @@
 [
-{
-"name": "Dawn Nishida",
-"slug": "dawn-nishida",
-"lastName": "Nishida",
-"photo": "/media/shared/advisors/dawn-nishida.webp",
-"email": "nishidad@hawaii.edu",
-"title": "General Education Advisor",
-"showOnContact": false
-},
-{
-"name": "David Olsen",
-"slug": "david-olsen",
-"lastName": "Olsen",
-"photo": "/media/units/geo/faculty-staff/david-olsen.webp",
-"title": "GIS Lab Coordinator",
-"office": "PSB 312C",
-"email": "dolsen@hawaii.edu",
-"phone": "1 (808) 956-3526",
-"phoneHref": "+18089563526"
-},
-{
-"name": "Elizabeth Tajima",
-"slug": "elizabeth-tajima",
-"lastName": "Tajima",
-"photo": "/media/units/geo/faculty-staff/elizabeth-tajima.webp",
-"title": "Administrative Assistant",
-"office": "Saunders 445C",
-"email": "etajima3@hawaii.edu",
-"phone": "1 (808) 956-8465",
-"phoneHref": "+18089568465"
-}
+  {
+    "name": "Dawn Nishida",
+    "slug": "dawn-nishida",
+    "lastName": "Nishida",
+    "photo": "/media/shared/advisors/dawn-nishida.webp",
+    "email": "nishidad@hawaii.edu",
+    "title": "General Education Advisor",
+    "showOnContact": false
+  },
+  {
+    "name": "David Olsen",
+    "slug": "david-olsen",
+    "lastName": "Olsen",
+    "photo": "/media/units/geo/faculty-staff/david-olsen.webp",
+    "title": "GIS Lab Coordinator",
+    "office": "PSB 312C",
+    "email": "dolsen@hawaii.edu",
+    "phone": "(808) 956-3526",
+    "phoneHref": "+18089563526"
+  },
+  {
+    "name": "Elizabeth Tajima",
+    "slug": "elizabeth-tajima",
+    "lastName": "Tajima",
+    "photo": "/media/units/geo/faculty-staff/elizabeth-tajima.webp",
+    "title": "Administrative Assistant",
+    "office": "Saunders 445C",
+    "email": "etajima3@hawaii.edu",
+    "phone": "(808) 956-8465",
+    "phoneHref": "+18089568465"
+  }
 ]

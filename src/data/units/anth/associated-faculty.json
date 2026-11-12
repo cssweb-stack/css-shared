@@ -1,0 +1,195 @@
+{
+  "groups": [
+    {
+      "title": "Adjunct Faculty",
+      "members": [
+        {
+          "name": "Jonathan D. Baker (Lecturer)",
+          "description": "Medical and nutritional anthropology, anthropology of food, ethnopharmacology, science and technology studies; Oceania"
+        },
+        {
+          "name": "Nancy Cooper (Lecturer)",
+          "description": "Socio-cultural anthropology, performance, gender, expressive culture, ritual and religion; Southeast Asia, Indonesia, Java, Singapore"
+        },
+        {
+          "name": "Lisa X. Gollin (Pacific International Center for High Technology Research, Cultural Resources Management Principal Investigator; LX Gollin Research Hawaiʻi, LLC)",
+          "description": "Medical anthropology, ethnopharmacology, ethnobotany and biology, natural-cultural resource program oversight and management (Wahi Kūpuna Stewardship); Indonesia and Hawaiʻi"
+        },
+        {
+          "name": "Jennie JH Jin, (Joint POW/MIA Accounting Command",
+          "description": "Central Identification Lab (JPAC-CIL)) - Zooarchaeology, vertebrate taphonomy, human skeletal biology, forensic anthropology, paleoanthropology; China, Korea"
+        },
+        {
+          "name": "Jan Rensel, (Center for Pacific Islands Studies)",
+          "description": "Socioeconomic history, housing change, migrant communities; Polynesia"
+        },
+        {
+          "name": "Paul J. Ross, (APRN, ANP, MA, MSN,OCN, Hawaiʻi Medical Center)",
+          "description": "Quantitative methods, nutritional and medical anthropology, human ecology, medical systems, field methods in cultural anthropology; West Africa"
+        }
+      ]
+    },
+    {
+      "title": "Affiliate Graduate Faculty",
+      "members": [
+        {
+          "name": "A. Antonites, PhD",
+          "description": "Archaeology, African Iron Age, African complex societies and their hinterlands, networks of exchange, craft production"
+        },
+        {
+          "name": "A.R. Antonites, PhD",
+          "description": "African archaeology, zooarchaeology, foodways, early complex societies, collections-based research, museum studies"
+        },
+        {
+          "name": "J. S. Athens, PhD",
+          "description": "evolutionary and agricultural ecology, origin of agriculture, development of complex societies, tropical paleoenvironmental (Ecuador, Oceania), archaeology of Ecuador, Micronesia, and Hawaiʻi, CRM issues, management and administration"
+        },
+        {
+          "name": "C. Berrey, PhD",
+          "description": "archaeology, complex societies, social inequality, settlement demography, interaction studies, comparative and multiscalar analysis, quantitative and spatial analysis; Central America, South America, and Mesoamerica"
+        },
+        {
+          "name": "J. E. Byrd, PhD",
+          "description": "statistical approaches to forensic evidence; forensic anthropology"
+        },
+        {
+          "name": "S. Collins, PhD",
+          "description": "archaeology, human and faunal osteology, historic preservation compliance and practice; Hawaiʻi and the Pacific"
+        },
+        {
+          "name": "C. Chapman, PhD",
+          "description": "medical anthropology, medical sociology, caregiving, personhood, institutions, family dynamics, equity, exclusion, biomedicine, mental health, ethics/morality, social welfare, substance use, ethnography, participatory methods, Asia-Pacific"
+        },
+        {
+          "name": "T. Dye, PhD",
+          "description": "archaeology; Hawaiʻi and the Pacific"
+        },
+        {
+          "name": "J. S. Field, PhD",
+          "description": "archaeological method and theory; human evolutionary theory; island ecology and human prehistory; human behavioral ecology; transition from foraging to food production; conflict and warfare; Pacific Islands prehistory"
+        },
+        {
+          "name": "C. Filimoehala, PhD",
+          "description": "spatial analysis, remote sensing, and evolutionary approaches to the archaeological record; Senior Manager and VP at International Archaeology, Inc."
+        },
+        {
+          "name": "P. Heng, PhD",
+          "description": "archaeology, pre- and early modern Southeast Asia, Cambodia, political economy, interactions, organization changes, religious changes, settlement patterns, artifact distribution, history"
+        },
+        {
+          "name": "R. Ikehara-Quebral, PhD",
+          "description": "skeletal biology and morphometry, intentional cranial and dental modification, health and social status, biocultural adaptation, biodistance and forensic studies"
+        },
+        {
+          "name": "Charles \"Kale\" Langlas, PhD",
+          "description": "Pacific Islands ethnography (New Guinea, Hawaii), oral history, decision analysis as an approach to social organization, cultural resource management, nineteenth-century Hawaiian language texts"
+        },
+        {
+          "name": "C.C. Manthey, PhD",
+          "description": "molecular medical and biological anthropology; genomics; maternal, reproductive, and child health; Indigenous Data Sovereignty; embodiment"
+        },
+        {
+          "name": "H.L. McMillen, PhD",
+          "description": "Medical and environmental anthropology, biocultural approaches, Indigenous and local ecological knowledge systems, community-based natural resource management"
+        },
+        {
+          "name": "B. A. Meilleur, PhD",
+          "description": "ethnobotanist and ethnoecologist with interests in Hawaiian agricultural production, especially components of spatial organization, rare plant conservation, and crop diversity"
+        },
+        {
+          "name": "J. Moniz Nakamura, Ph.D",
+          "description": "Hawaiʻi and Pacific Islands archaeology, vertebrate taphonomy, Historic archaeology and History"
+        },
+        {
+          "name": "A. E. Morrison, PhD",
+          "description": "Pacific Island and South American Archaeology, computational modeling, geoarchaeology, remote sensing, geographical information systems, Bayesian chronological modeling, applied zooarchaeology, historic preservation practice, human behavioral ecology"
+        },
+        {
+          "name": "J. A. Peterson, PhD",
+          "description": "archaeology, historical ecology, landscapes, historical archaeology; Hawaiʻi-Pacific, Philippines, American Southwest"
+        },
+        {
+          "name": "G. Pigliasco, PhD",
+          "description": "cultural and legal anthropology, visual anthropology, ritual and performance commodification and tourism; Oceania, Fiji"
+        },
+        {
+          "name": "M. Sharma, PhD (Emeritus)",
+          "description": "political economy, development, class formation and gender relations, radical feminist theory; India"
+        },
+        {
+          "name": "G. Shelach-Lavi",
+          "description": "archaeology, early agriculture, complex societies, household archaeology, settlement patterns, interregional interaction; China, Mongolia"
+        },
+        {
+          "name": "C.K. Work, PhD",
+          "description": "sociocultural anthropology, anthropology of religion, development, and the anthropocene, Southeast Asian state formation, political economies of subsistence animists, interdimensional communication systems and rituals in Southeast Asia and Austronesia, Climate Change politics"
+        }
+      ]
+    },
+    {
+      "title": "Cooperating Graduate Faculty",
+      "members": [
+        {
+          "name": "C. Beaule, PhD",
+          "description": "Andean/Latin American archaeology, household organization, origins of complexity, Colonialism"
+        },
+        {
+          "name": "D. Brown, PhD",
+          "description": "physical anthropology, medical anthropology; Polynesia"
+        },
+        {
+          "name": "W. Chapman, PhD",
+          "description": "historic preservation, historical archaeology, history of anthropology"
+        },
+        {
+          "name": "C. Clayton, PhD",
+          "description": "cultural anthropology; sovereignty and colonialism; nationalisms and transnationalisms; history, memory and place-making; China and East Asia"
+        },
+        {
+          "name": "A. Gruenthal-Rankin, PhD",
+          "description": "biological and forensic anthropology; structural violence; pediatric osteology and trauma; Developmental Origins of Health and Disease; community-based research and practice"
+        },
+        {
+          "name": "M. Hamnett, PhD",
+          "description": "applied policy research, economic development, research management; Oceania"
+        },
+        {
+          "name": "S. Kikiloi, PhD",
+          "description": "Hawaiian resource management, indigenous knowledge, traditional society, genealogies, cultural revitalization, and community empowerment"
+        },
+        {
+          "name": "R. Labrador, PhD",
+          "description": "cultural anthropology, identity, immigration political economy, globalization and diaspora; Hawaiʻi/Pacific, Philippines, Filipina/American and Asia Pacific America"
+        },
+        {
+          "name": "A. Mawyer, PhD",
+          "description": "language and culture, landscapes, spatial cognition, French Polynesia, French nuclear testing"
+        },
+        {
+          "name": "C. Mello, PhD",
+          "description": "applied cultural anthropology, community-engaged research, community health and food, environmental wellbeing, social entrepreneurship, tourism, digital anthropology and visual methods, Hawaiʻi and N. America"
+        },
+        {
+          "name": "P. Mills, PhD",
+          "description": "archaeology, culture contact, lithic analysis, ethnohistory; Polynesia, North Pacific, North America"
+        },
+        {
+          "name": "J. Y. Okamura, PhD",
+          "description": "ethnicity and ethnic relations, Asian American studies; Philippines, Hawaiʻi"
+        },
+        {
+          "name": "Y. A. Park, PhD",
+          "description": "media, social movements; refugee; South Korea; North Korea"
+        },
+        {
+          "name": "F. A. Reed, PhD",
+          "description": "Human evolution, population genetics, population structure and adaptation."
+        },
+        {
+          "name": "J. A. Swift, PhD",
+          "description": "environmental archaeology, Polynesia, zooarchaeology, biomolecular methods, anthropocene"
+        }
+      ]
+    }
+  ]
+}

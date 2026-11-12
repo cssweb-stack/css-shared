@@ -1,0 +1,15 @@
+{% macro contactLinks(email, emailHref, phone, phoneHref) %}
+{% if email or phone %}<hr class="profile-contact-divider">{% endif %}
+{% if email %}
+<p class="profile-email"><a class="profile-contact-link" href="{{ emailHref | escape }}">
+<span class="profile-contact-icon" aria-hidden="true">{% include "media/icons/envelope.svg" %}</span>
+<span><span class="visually-hidden">Email: </span>{{ email | escape }}</span>
+</a></p>
+{% endif %}
+{% if phone %}
+<p class="profile-phone"><a class="profile-contact-link" href="{{ phoneHref | escape }}">
+<span class="profile-contact-icon" aria-hidden="true">{% include "media/icons/telephone.svg" %}</span>
+<span><span class="visually-hidden">Telephone: </span>{{ phone | escape }}</span>
+</a></p>
+{% endif %}
+{% endmacro %}

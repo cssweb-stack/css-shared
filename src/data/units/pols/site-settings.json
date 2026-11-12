@@ -4,10 +4,10 @@
   "stylesheet": "/pols.css",
   "url": "https://politicalscience.manoa.hawaii.edu",
   "openGraph": {
-    "image": "/media/open-graph/psy.jpg",
+    "image": "/media/open-graph/pols.jpg",
     "width": 1200,
     "height": 630,
-    "alt": "UH Mānoa student enjoying her studies at campus center."
+    "alt": "POLS lettering over two people reading together in front of a colorful mural."
   },
   "hero": {
     "enabled": true,
@@ -21,8 +21,8 @@
     "showLocation": false,
     "showAttribution": false,
     "overlay": {
-      "color": "var(--sepia)",
-      "opacity": 0.05
+      "color": "var(--uh-green)",
+      "opacity": 0.33
     }
   }
 }

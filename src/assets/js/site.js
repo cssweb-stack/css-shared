@@ -1,4 +1,31 @@
-// Bootstrap handles navigation and search; hover behavior is in shell.css.
+// Bootstrap owns dropdown visibility and aria-expanded for mouse and keyboard.
+// Desktop hover uses the same state, so Escape can dismiss a hovered menu too.
+(() => {
+const desktopHover = window.matchMedia('(min-width: 1200px) and (hover: hover)');
+document.querySelectorAll('.unit-nav .dropdown').forEach(dropdown => {
+const trigger = dropdown.querySelector('[data-bs-toggle="dropdown"]');
+if (!trigger) return;
+const controller = () => window.bootstrap?.Dropdown.getOrCreateInstance(trigger);
+dropdown.addEventListener('pointerenter', () => {
+if (desktopHover.matches) controller()?.show();
+});
+dropdown.addEventListener('pointerleave', () => {
+if (desktopHover.matches && !dropdown.contains(document.activeElement)) controller()?.hide();
+});
+dropdown.addEventListener('focusout', () => {
+setTimeout(() => {
+if (!dropdown.contains(document.activeElement)) controller()?.hide();
+}, 0);
+});
+});
+document.addEventListener('keydown', event => {
+if (event.key !== 'Escape') return;
+document.querySelectorAll('.unit-nav .dropdown-menu.show').forEach(menu => {
+const trigger = menu.parentElement.querySelector('[data-bs-toggle="dropdown"]');
+if (trigger) window.bootstrap?.Dropdown.getOrCreateInstance(trigger).hide();
+});
+});
+})();
 
 // One load-based fade for every framed content photo, including lazy-loaded photos.
 // No scroll observer, movement, or hidden state; images work without JavaScript.

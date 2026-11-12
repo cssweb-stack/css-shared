@@ -1,0 +1,6 @@
+{% from "layouts/content/button.njk" import button %}
+<nav class="course-resources course-resources--two mb-3" aria-label="Anthropology course planning">
+<div class="row g-3 course-resource-grid">
+{% for resource in course_planning.links %}<div class="col-12">{{ button(resource.label, resource.url, "teal" if loop.first else "blue", resource.icon) }}</div>{% endfor %}
+</div>
+</nav>

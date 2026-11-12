@@ -1,0 +1,17 @@
+/* Shared 404 display mark; the H1 carries its meaning for assistive technology. */
+.not-found-code-column {
+container-type: inline-size;
+}
+
+.site-main .not-found-code {
+margin: 0;
+width: 100%;
+font-family: 'Inter', 'Arial', sans-serif;
+font-size: 4rem;
+font-size: 50cqi;
+font-weight: 900;
+font-variant-numeric: tabular-nums;
+line-height: 1.5;
+color: var(--accent-cool);
+text-box-trim: trim-both;
+}

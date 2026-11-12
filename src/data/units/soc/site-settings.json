@@ -3,11 +3,11 @@
   "layoutGuides": true,
   "stylesheet": "/soc.css",
   "url": "https://sociology.manoa.hawaii.edu",
-    "openGraph": {
+  "openGraph": {
     "image": "/media/open-graph/soc.jpg",
     "width": 1200,
     "height": 630,
-    "alt": "A smiling woman sitting and holding a young child wrapped in a colorful blanket."
+    "alt": "SOC lettering over a woman holding a young child."
   },
   "hero": {
     "enabled": true,
@@ -21,8 +21,8 @@
     "showLocation": false,
     "showAttribution": false,
     "overlay": {
-      "color": "var(--sepia)",
-      "opacity": 0.05
+      "color": "var(--uh-green)",
+      "opacity": 0.33
     }
   }
 }

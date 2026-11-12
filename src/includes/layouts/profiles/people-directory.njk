@@ -1,7 +1,8 @@
 {# People records share one markup structure across all responsive layouts. #}
+{% from "layouts/content/section-heading.njk" import sectionHeading with context %}
 {% for group in directoryGroups | default(people.directoryGroups) %}
 <section class="people-directory-section" aria-labelledby="directory-{{ group.id }}">
-<h2 id="directory-{{ group.id }}">{{ group.title | escape }}</h2>
+{{ sectionHeading(group.title, "directory-" + group.id) }}
 <div class="people-directory{% if not group.showTelephone %} people-directory--no-phone{% endif %}">
 <div class="people-directory-head" aria-hidden="true">
 <span>Name</span><span>Title</span><span>Office</span>{% if group.showTelephone %}<span>Telephone</span>{% endif %}<span>Email</span>

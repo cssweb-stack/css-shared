@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-12",
+  "sourceFilename": "export-all-urls-eJ4wft5lYccrzVPHikm8.json",
+  "sourceSHA256": "f14ebce9d326efa228273a9bd1191e08cd444e8b6fc0bbb189ec76648c72bdf4",
+  "counts": {
+    "moved": 9,
+    "unchanged": 5,
+    "unmatched": 1,
+    "merged": 0,
+    "confirmedRetired": 0
+  },
+  "ordinaryCurrentPages": 14,
+  "newErrorPage": "/404.html",
+  "records": [
+    {
+      "oldTitle": "Privacy Policy",
+      "oldUrl": "https://ssri.manoa.hawaii.edu/privacy-policy/",
+      "oldPath": "/privacy-policy/",
+      "status": "moved",
+      "newPath": "/privacy.html",
+      "newUrl": "https://ssri.manoa.hawaii.edu/privacy.html",
+      "sourceFile": "privacy.html",
+      "note": "Existing content has a confirmed current destination."
+    },
+    {
+      "oldTitle": "Home",
+      "oldUrl": "https://ssri.manoa.hawaii.edu/",
+      "oldPath": "/",
+      "status": "unchanged",
+      "newPath": "/",
+      "newUrl": "https://ssri.manoa.hawaii.edu/",
+      "sourceFile": "index.html",
+      "note": "Same URL retained."
+    },
+    {
+      "oldTitle": "Contact",
+      "oldUrl": "https://ssri.manoa.hawaii.edu/contact/",
+      "oldPath": "/contact/",
+      "status": "unchanged",
+      "newPath": "/contact/",
+      "newUrl": "https://ssri.manoa.hawaii.edu/contact/",
+      "sourceFile": "contact.html",
+      "note": "Same URL retained."
+    },
+    {
+      "oldTitle": "Directory",
+      "oldUrl": "https://ssri.manoa.hawaii.edu/directory/",
+      "oldPath": "/directory/",
+      "status": "unchanged",
+      "newPath": "/directory/",
+      "newUrl": "https://ssri.manoa.hawaii.edu/directory/",
+      "sourceFile": "directory.html",
+      "note": "Same URL retained."
+    },
+    {
+      "oldTitle": "Research",
+      "oldUrl": "https://ssri.manoa.hawaii.edu/research/",
+      "oldPath": "/research/",
+      "status": "unchanged",
+      "newPath": "/research/",
+      "newUrl": "https://ssri.manoa.hawaii.edu/research/",
+      "sourceFile": "research/index.html",
+      "note": "Same URL retained."
+    },
+    {
+      "oldTitle": "Grant Development",
+      "oldUrl": "https://ssri.manoa.hawaii.edu/grant-development/",
+      "oldPath": "/grant-development/",
+      "status": "moved",
+      "newPath": "/support/grant-development.html",
+      "newUrl": "https://ssri.manoa.hawaii.edu/support/grant-development.html",
+      "sourceFile": "support/grant-development.html",
+      "note": "Existing content has a confirmed current destination."
+    },
+    {
+      "oldTitle": "Fiscal/Compliance",
+      "oldUrl": "https://ssri.manoa.hawaii.edu/fiscal-compliance/",
+      "oldPath": "/fiscal-compliance/",
+      "status": "moved",
+      "newPath": "/support/fiscal-compliance.html",
+      "newUrl": "https://ssri.manoa.hawaii.edu/support/fiscal-compliance.html",
+      "sourceFile": "support/fiscal-compliance.html",
+      "note": "Existing content has a confirmed current destination."
+    },
+    {
+      "oldTitle": "Research Services",
+      "oldUrl": "https://ssri.manoa.hawaii.edu/research-services/",
+      "oldPath": "/research-services/",
+      "status": "moved",
+      "newPath": "/support/research-services.html",
+      "newUrl": "https://ssri.manoa.hawaii.edu/support/research-services.html",
+      "sourceFile": "support/research-services.html",
+      "note": "Existing content has a confirmed current destination."
+    },
+    {
+      "oldTitle": "HCRI",
+      "oldUrl": "https://ssri.manoa.hawaii.edu/hcri/",
+      "oldPath": "/hcri/",
+      "status": "moved",
+      "newPath": "/research/hcri.html",
+      "newUrl": "https://ssri.manoa.hawaii.edu/research/hcri.html",
+      "sourceFile": "research/hcri.html",
+      "note": "Existing content has a confirmed current destination."
+    },
+    {
+      "oldTitle": "TASI/PHIDC",
+      "oldUrl": "https://ssri.manoa.hawaii.edu/tasi-phidc/",
+      "oldPath": "/tasi-phidc/",
+      "status": "moved",
+      "newPath": "/research/tasi-phidc.html",
+      "newUrl": "https://ssri.manoa.hawaii.edu/research/tasi-phidc.html",
+      "sourceFile": "research/tasi-phidc.html",
+      "note": "Existing content has a confirmed current destination."
+    },
+    {
+      "oldTitle": "OENAS",
+      "oldUrl": "https://ssri.manoa.hawaii.edu/oenas/",
+      "oldPath": "/oenas/",
+      "status": "moved",
+      "newPath": "/research/oenas.html",
+      "newUrl": "https://ssri.manoa.hawaii.edu/research/oenas.html",
+      "sourceFile": "research/oenas.html",
+      "note": "Existing content has a confirmed current destination."
+    },
+    {
+      "oldTitle": "HAM",
+      "oldUrl": "https://ssri.manoa.hawaii.edu/ham/",
+      "oldPath": "/ham/",
+      "status": "moved",
+      "newPath": "/research/ham.html",
+      "newUrl": "https://ssri.manoa.hawaii.edu/research/ham.html",
+      "sourceFile": "research/ham.html",
+      "note": "Existing content has a confirmed current destination."
+    },
+    {
+      "oldTitle": "Boilerplate",
+      "oldUrl": "https://ssri.manoa.hawaii.edu/boilerplate/",
+      "oldPath": "/boilerplate/",
+      "status": "moved",
+      "newPath": "/support/boilerplate.html",
+      "newUrl": "https://ssri.manoa.hawaii.edu/support/boilerplate.html",
+      "sourceFile": "support/boilerplate.html",
+      "note": "Existing content has a confirmed current destination."
+    },
+    {
+      "oldTitle": "rtrf-fy2019",
+      "oldUrl": "https://ssri.manoa.hawaii.edu/rtrf-fy2019/",
+      "oldPath": "/rtrf-fy2019/",
+      "status": "unmatched",
+      "newPath": null,
+      "newUrl": null,
+      "sourceFile": null,
+      "note": "Historical Research and Training Revolving Fund (RTRF), FY2019 report; keep/retire/archive decision pending."
+    },
+    {
+      "oldTitle": "John (Jack) Barile",
+      "oldUrl": "https://ssri.manoa.hawaii.edu/john-jack-barile/",
+      "oldPath": "/john-jack-barile/",
+      "status": "unchanged",
+      "newPath": "/john-jack-barile/",
+      "newUrl": "https://ssri.manoa.hawaii.edu/john-jack-barile/",
+      "sourceFile": "john-jack-barile.html",
+      "note": "Same URL retained."
+    }
+  ]
+}

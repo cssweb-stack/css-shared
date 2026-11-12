@@ -1,0 +1,13 @@
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 gy-4 gx-0 gx-md-5 grid-spaced faculty-portrait-grid program-directors-grid">
+{% set profileIdentityPrefix = "program-director" %}
+{% for program in programs %}
+{% for person in people %}{% if person.slug == program.directorSlug %}
+<div class="col">
+<section aria-labelledby="support-{{ program.id | escape }}">
+<h2 id="support-{{ program.id | escape }}">{{ program.name | escape }}</h2>
+{% include "layouts/profiles/profile-card.njk" %}
+</section>
+</div>
+{% endif %}{% endfor %}
+{% endfor %}
+</div>

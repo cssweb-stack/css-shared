@@ -1,3 +1,28 @@
 {
-"indexingEnabled": false
+  "indexingEnabled": false,
+  "layoutGuides": true,
+  "stylesheet": "/anth.css",
+  "url": "https://anthropology.manoa.hawaii.edu",
+  "openGraph": {
+    "image": "/media/open-graph/anth.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "ANTH lettering over a group gathered for an outdoor presentation in a tropical garden."
+  },
+  "hero": {
+    "enabled": true,
+    "variant": "compact",
+    "height": {
+      "desktop": 210,
+      "tablet": 165,
+      "mobile": 145
+    },
+    "decorative": true,
+    "showLocation": false,
+    "showAttribution": false,
+    "overlay": {
+      "color": "var(--uh-green)",
+      "opacity": 0.33
+    }
+  }
 }

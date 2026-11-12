@@ -3,16 +3,14 @@
     "name": "Noenoe Silva",
     "lastName": "Silva",
     "slug": "noenoe-silva",
+    "photo": "/media/units/pols/faculty-staff/noenoe-silva.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "url": "/faculty/noenoe-silva.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
     "title": "Professor",
-    "roles": [
-      "Interim Undergraduate Chair"
-    ],
+  "roles": [],
     "office": "Saunders 640C",
-    "phone": "1 (808) 956-8030",
+    "phone": "(808) 956-8030",
     "phoneHref": "+18089568030",
     "email": "noenoe@hawaii.edu",
     "awards": [
@@ -24,19 +22,22 @@
         "name": "College of Social Sciences Award for Excellence in Teaching",
         "year": "2008"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Carolyn Stephenson",
     "lastName": "Stephenson",
     "slug": "carolyn-stephenson",
     "url": "/faculty/carolyn-stephenson.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
+    "photo": "/media/units/pols/faculty-staff/carolyn-stephenson.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "title": "Associate Professor",
     "office": "Saunders 618",
-    "phone": "1 (808) 956-8195",
+    "phone": "(808) 956-8195",
     "phoneHref": "+18089568195",
     "email": "cstephen@hawaii.edu",
     "publicationProfiles": [
@@ -44,22 +45,25 @@
         "label": "ResearchGate",
         "url": "https://www.researchgate.net/profile/Carolyn_Stephenson"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Dean Saranillio",
     "lastName": "Saranillio",
     "slug": "dean-saranillio",
     "url": "/faculty/dean-saranillio.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
+    "photo": "/media/units/pols/faculty-staff/dean-saranillio.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "title": "Associate Professor",
     "roles": [
       "Graduate Chair"
     ],
     "office": "Saunders 613",
-    "phone": "1 (808) 956-3688",
+    "phone": "(808) 956-3688",
     "phoneHref": "+18089563688",
     "email": "dsaranil@hawaii.edu",
     "publicationProfiles": [
@@ -67,19 +71,22 @@
         "label": "Academia.edu",
         "url": "https://manoa-hawaii.academia.edu/DeanSaranillio"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": true
   },
   {
     "name": "Debbie Samaniego",
     "lastName": "Samaniego",
     "slug": "debbie-samaniego",
     "url": "/faculty/debbie-samaniego.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
+    "photo": "/media/units/pols/faculty-staff/debbie-samaniego.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "title": "Assistant Professor",
     "office": "Saunders 614",
-    "phone": "1 (808) 956-7180",
+    "phone": "(808) 956-7180",
     "phoneHref": "+18089567180",
     "email": "dsamanie@hawaii.edu",
     "publicationProfiles": [
@@ -87,19 +94,22 @@
         "label": "Google Scholar",
         "url": "https://scholar.google.com/citations?user=MRyYSXYAAAAJ&hl=en"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Felix Mantz",
     "lastName": "Mantz",
     "slug": "felix-mantz",
     "url": "/faculty/felix-mantz.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
+    "photo": "/media/units/pols/faculty-staff/felix-mantz.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "title": "Assistant Professor",
     "office": "Saunders 611",
-    "phone": "1 (808) 956-8357",
+    "phone": "(808) 956-8357",
     "phoneHref": "+18089568357",
     "email": "fmantz@hawaii.edu",
     "publicationProfiles": [
@@ -107,24 +117,27 @@
         "label": "ResearchGate",
         "url": "https://www.researchgate.net/profile/Felix-Mantz"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Kathy Ferguson",
     "lastName": "Ferguson",
     "slug": "kathy-ferguson",
     "url": "/faculty/kathy-ferguson.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
+    "photo": "/media/units/pols/faculty-staff/kathy-ferguson.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "title": "Professor",
     "office": "Saunders 640E",
-    "phone": "1 (808) 956-6933",
+    "phone": "(808) 956-6933",
     "phoneHref": "+18089566933",
     "email": "kferguso@hawaii.edu",
     "websites": [
       {
-        "label": "Anarchist Women website",
+        "label": "Anarchist Women",
         "url": "http://www2.hawaii.edu/~kferguso/"
       }
     ],
@@ -147,19 +160,22 @@
         "name": "Regents’ Medal for Excellence in Teaching",
         "year": "2003"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Nicole Sunday Grove",
     "lastName": "Grove",
     "slug": "nicole-sunday-grove",
     "url": "/faculty/nicole-sunday-grove.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
+    "photo": "/media/units/pols/faculty-staff/nicole-grove.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "title": "Associate Professor",
     "office": "Saunders 640",
-    "phone": "1 (808) 956-8357",
+    "phone": "(808) 956-8357",
     "phoneHref": "+18089568357",
     "email": "nsgrove@hawaii.edu",
     "websites": [
@@ -179,33 +195,39 @@
         "name": "College of Social Sciences Award for Excellence in Teaching",
         "year": "2020"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Nevzat Soguk",
     "lastName": "Soguk",
     "slug": "nevzat-soguk",
     "url": "/faculty/nevzat-soguk.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
+    "photo": "/media/units/pols/faculty-staff/nevzat-soguk.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "title": "Professor",
     "office": "Saunders 619",
-    "phone": "1 (808) 956-8929",
+    "phone": "(808) 956-8929",
     "phoneHref": "+18089568929",
-    "email": "nevzat@hawaii.edu"
+    "email": "nevzat@hawaii.edu",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Lawrence Nitz",
     "lastName": "Nitz",
     "slug": "lawrence-nitz",
     "url": "/faculty/lawrence-nitz.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
+    "photo": "/media/units/pols/faculty-staff/lawrence-nitz.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "title": "Professor",
     "office": "Saunders 633A",
-    "phone": "1 (808) 956-8665",
+    "phone": "(808) 956-8665",
     "phoneHref": "+18089568665",
     "email": "lnitz@hawaii.edu",
     "awards": [
@@ -213,7 +235,10 @@
         "name": "College of Social Sciences Award for Excellence in Application",
         "year": "2017"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Jamaica Heolimeleikalani Osorio",
@@ -221,17 +246,23 @@
     "slug": "jamaica-osorio",
     "email": "osorio2@hawaii.edu",
     "url": "/faculty/jamaica-osorio.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
+    "photo": "/media/units/pols/faculty-staff/jamaica-osorio.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "title": "Associate Professor",
-    "phone": "1 (808) 956-8357",
+    "phone": "(808) 956-8357",
     "phoneHref": "+18089568357",
     "websites": [
       {
         "label": "Website",
         "url": "https://jamaicaosorio.wordpress.com"
       }
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": true,
+    "roles": [
+      "Undergraduate Chair"
     ]
   },
   {
@@ -239,12 +270,12 @@
     "lastName": "Goodyear-Kaʻōpua",
     "slug": "noelani-goodyear-kaopua",
     "url": "/faculty/noelani-goodyear-kaopua.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
+    "photo": "/media/units/pols/faculty-staff/noelani-goodyear-kaopua.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "title": "Professor",
     "office": "Saunders 634A",
-    "phone": "1 (808) 956-8928",
+    "phone": "(808) 956-8928",
     "phoneHref": "+18089568928",
     "email": "goodyear@hawaii.edu",
     "websites": [
@@ -268,19 +299,22 @@
         "name": "Chancellor's Teaching Award",
         "year": "2013"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Debora Halbert",
     "lastName": "Halbert",
     "slug": "debora-halbert",
     "url": "/faculty/debora-halbert.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
+    "photo": "/media/units/pols/faculty-staff/debora-halbert.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "title": "Professor",
     "office": "Sinclair Annex 1 Rm 5",
-    "phone": "1 (808) 956-9404",
+    "phone": "(808) 956-9404",
     "phoneHref": "+18089569404",
     "email": "halbert@hawaii.edu",
     "publicationProfiles": [
@@ -292,19 +326,22 @@
         "label": "ResearchGate",
         "url": "https://www.researchgate.net/profile/Debora_Halbert"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Sankaran Krishna",
     "lastName": "Krishna",
     "slug": "sankaran-krishna",
     "url": "/faculty/sankaran-krishna.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
+    "photo": "/media/units/pols/faculty-staff/sankaran-krishna.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "title": "Professor",
     "office": "Saunders 640D",
-    "phone": "1 (808) 956-8841",
+    "phone": "(808) 956-8841",
     "phoneHref": "+18089568841",
     "email": "krishna@hawaii.edu",
     "publicationProfiles": [
@@ -318,33 +355,39 @@
         "name": "Chancellor's Teaching Award",
         "year": "2008"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Kate Zhou",
     "lastName": "Zhou",
     "slug": "kate-zhou",
     "url": "/faculty/kate-zhou.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
+    "photo": "/media/units/pols/faculty-staff/kate-zhou.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "title": "Professor",
     "office": "Saunders 609",
-    "phone": "1 (808) 956-8777",
+    "phone": "(808) 956-8777",
     "phoneHref": "+18089568777",
-    "email": "katezhou@hawaii.edu"
+    "email": "katezhou@hawaii.edu",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Ehito Kimura",
     "lastName": "Kimura",
     "slug": "ehito-kimura",
     "url": "/faculty/ehito-kimura.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
+    "photo": "/media/units/pols/faculty-staff/ehito-kimura.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "title": "Associate Professor",
     "office": "Saunders 610",
-    "phone": "1 (808) 956-8630",
+    "phone": "(808) 956-8630",
     "phoneHref": "+18089568630",
     "email": "ehito@hawaii.edu",
     "publicationProfiles": [
@@ -358,19 +401,22 @@
         "name": "College of Social Sciences Award for Excellence in Teaching",
         "year": "2020"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Katharina Heyer",
     "lastName": "Heyer",
     "slug": "katharina-heyer",
     "url": "/faculty/katharina-heyer.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
+    "photo": "/media/units/pols/faculty-staff/katharina-heyer.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "title": "Associate Professor",
     "office": "Saunders 615",
-    "phone": "1 (808) 956-7512",
+    "phone": "(808) 956-7512",
     "phoneHref": "+18089567512",
     "email": "heyer@hawaii.edu",
     "publicationProfiles": [
@@ -382,22 +428,25 @@
         "label": "Google Scholar",
         "url": "https://scholar.google.com/citations?user=L6D5CQoAAAAJ&hl"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Jonathan Goldberg-Hiller",
     "lastName": "Goldberg-Hiller",
     "slug": "jonathan-goldberg-hiller",
     "url": "/faculty/jonathan-goldberg-hiller.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
+    "photo": "/media/units/pols/faculty-staff/jonathan-goldberg-hiller.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "title": "Professor",
     "roles": [
       "Department Chair"
     ],
     "office": "Saunders 632B",
-    "phone": "1 (808) 956-8563",
+    "phone": "(808) 956-8563",
     "phoneHref": "+18089568563",
     "email": "hiller@hawaii.edu",
     "awards": [
@@ -409,19 +458,22 @@
         "name": "Presidential Citation for Meritorious Teaching",
         "year": "1997"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": true
   },
   {
     "name": "Jairus Grove",
     "lastName": "Grove",
     "slug": "jairus-grove",
     "url": "/faculty/jairus-grove.html",
-    "photo": "/media/units/pols/faculty-staff/temp.jpg",
-    "photoWidth": 400,
-    "photoHeight": 400,
+    "photo": "/media/units/pols/faculty-staff/jairus-grove.webp",
+    "photoWidth": 500,
+    "photoHeight": 500,
     "title": "Professor",
     "office": "Saunders 617A",
-    "phone": "1 (808) 956-8743",
+    "phone": "(808) 956-8743",
     "phoneHref": "+18089568743",
     "email": "jairusg@hawaii.edu",
     "websites": [
@@ -441,6 +493,25 @@
         "name": "Peter V. Garrod Distinguished Graduate Mentoring Award",
         "year": "2020"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
+  },
+  {
+    "name": "Laurie Onizuka",
+    "lastName": "Onizuka",
+    "slug": "laurie-onizuka",
+    "type": "staff",
+    "showInFacultyDirectory": false,
+    "showInKeyContacts": true,
+    "title": "Administrative Assistant",
+    "office": "Saunders 640",
+    "email": "lonizuka@hawaii.edu",
+    "phone": "(808) 956-3689",
+    "phoneHref": "+18089563689",
+    "photo": "/media/units/pols/faculty-staff/laurie-onizuka.webp",
+    "photoWidth": 500,
+    "photoHeight": 500
   }
 ]

@@ -1,0 +1,18 @@
+{% for program in programs %}
+{% set directoryPeople = people | peopleForProgram(program.id) %}
+{% set profileIdentityPrefix = "faculty-" + program.id %}
+{% if directoryPeople | length %}
+<section aria-labelledby="program-{{ program.id | escape }}" class="mb-5">
+<h2 id="program-{{ program.id | escape }}">{{ program.name | escape }}</h2>
+{% include "layouts/profiles/people-grid.njk" %}
+</section>
+{% endif %}
+{% endfor %}
+{% set directoryPeople = people | peopleOfType("staff") %}
+{% set profileIdentityPrefix = "faculty-staff" %}
+{% if directoryPeople | length %}
+<section aria-labelledby="school-staff">
+<h2 id="school-staff">School Staff</h2>
+{% include "layouts/profiles/people-grid.njk" %}
+</section>
+{% endif %}

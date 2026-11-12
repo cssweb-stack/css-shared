@@ -7,7 +7,7 @@
     "image": "/media/open-graph/puba.jpg",
     "width": 1200,
     "height": 630,
-    "alt": "PUBA graduate wearing a graduation cap and flower lei at commencement."
+    "alt": "PUBA lettering over a smiling graduate wearing a graduation cap and flower lei."
   },
   "hero": {
     "enabled": true,
@@ -21,7 +21,7 @@
     "showLocation": false,
     "showAttribution": false,
     "overlay": {
-      "color": "var(--color-blue)",
+      "color": "var(--uh-green)",
       "opacity": 0.33
     }
   }

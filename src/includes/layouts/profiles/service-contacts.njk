@@ -1,7 +1,8 @@
 {# Service assignments reuse the people-directory styles and central people records. #}
+{% from "layouts/content/section-heading.njk" import sectionHeading with context %}
 {% for group in people.serviceGroups[servicePage] %}
 <section class="people-directory-section" aria-labelledby="directory-{{ group.id }}">
-<h2 id="directory-{{ group.id }}">{{ group.title | escape }}</h2>
+{{ sectionHeading(group.title, "directory-" + group.id) }}
 <div class="people-directory people-directory--service{% if group.showSupport %} people-directory--assignments{% endif %}">
 <div class="people-directory-head" aria-hidden="true">
 <span>Name</span><span>Email</span>{% if group.showSupport %}<span>Providing support for</span>{% endif %}

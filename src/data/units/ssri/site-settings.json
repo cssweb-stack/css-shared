@@ -1,27 +1,29 @@
 {
-"indexingEnabled": false,
-"stylesheet": "/ssri.css",
-"url": "https://ssri.manoa.hawaii.edu",
-"openGraph": {
-"image": "/media/open-graph/ssri.jpg",
-"width": 1200,
-"height": 630,
-"alt": "Scenic photo of Waikiki, Honolulu."
-},
-"hero": {
-"enabled": true,
-"variant": "compact",
-"height": {
-"desktop": 145,
-"tablet": 145,
-"mobile": 145
-},
-"decorative": true,
-"showLocation": false,
-"showAttribution": false,
-"overlay": {
-"color": "var(--uh-green)",
-"opacity": 0.33
-}
-}
+  "indexingEnabled": false,
+  "canonicalSections": ["/"],
+  "mainContentDividers": true,
+  "stylesheet": "/ssri.css",
+  "url": "https://ssri.manoa.hawaii.edu",
+  "openGraph": {
+    "image": "/media/open-graph/ssri.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "SSRI lettering over a panoramic view of Waikīkī and Honolulu."
+  },
+  "hero": {
+    "enabled": true,
+    "variant": "compact",
+    "height": {
+      "desktop": 145,
+      "tablet": 145,
+      "mobile": 145
+    },
+    "decorative": true,
+    "showLocation": false,
+    "showAttribution": false,
+    "overlay": {
+      "color": "var(--uh-green)",
+      "opacity": 0.33
+    }
+  }
 }

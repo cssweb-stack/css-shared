@@ -1,3 +1,15 @@
 {
-"indexingEnabled": false
+  "indexingEnabled": false,
+  "openGraph": {
+    "image": "/media/open-graph/econ.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "ECON lettering over a person standing among city office buildings."
+  },
+  "hero": {
+    "overlay": {
+      "color": "var(--uh-green)",
+      "opacity": 0.33
+    }
+  }
 }

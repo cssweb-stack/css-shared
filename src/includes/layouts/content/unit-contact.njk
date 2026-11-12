@@ -1,30 +1,26 @@
+{% from "layouts/profiles/contact-links.njk" import contactLinks %}
 {% set building = common.buildings[site.building] %}
 {% set buildingPhoto = site.buildingPhoto | default(building.photo, true) %}
 {% if building %}
-<section class="row gy-4 grid-spaced unit-contact gx-0 gx-sm-5 gx-lg-5" aria-label="Main office location and directions">
-<div class="col-12 col-md-4 col-lg-3 unit-contact-office">
+<section class="row gy-4 grid-spaced unit-contact gx-0 gx-md-5" aria-label="Main office location and directions">
+<div class="col-12 col-md-4 unit-contact-office">
 <div class="sidebar-group">
 {% if buildingPhoto and buildingPhoto.src %}
 <img class="photo-style" src="{{ buildingPhoto.src | url }}" alt="{{ buildingPhoto.alt | escape }}" width="{{ buildingPhoto.width }}" height="{{ buildingPhoto.height }}" loading="lazy" decoding="async">
 {% endif %}
 <h2>Main Office</h2>
+<div class="profile-contact">
 <address class="contact-address">
 {% if site.address | length %}
 {% for line in site.address %}<p>{{ line | escape }}</p>{% endfor %}
 {% endif %}
 </address>
-<div class="contact-links">
-{% if site.phone %}
-<p class="phone"><span class="icon-text"><a href="{{ site.phone.href | escape }}"><span class="visually-hidden">Telephone: </span>{{ site.phone.label | escape }}</a></span></p>
-{% endif %}
-{% if site.email %}
-<p class="email"><span class="icon-text"><a href="{{ site.email.contactHref | default(site.email.href) | escape }}"><span class="visually-hidden">Email: </span>{{ site.email.label | escape }}</a></span></p>
-{% endif %}
+{{ contactLinks(site.email.label, site.email.contactHref | default(site.email.href), site.phone.label, site.phone.href) }}
 </div>
 </div>
 </div>
 {% if building.mapEmbedUrl %}
-<div class="col-12 col-md-8 col-lg-9 unit-contact-map">
+<div class="col-12 col-md-8 unit-contact-map">
 <iframe class="map-embed" title="Google Map showing {{ building.name | escape }} at UH Mānoa" src="{{ building.mapEmbedUrl | escape }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
 </div>
 {% endif %}

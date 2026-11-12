@@ -3,6 +3,8 @@
 Navigation Review POLS column and Sheet2, refined by the user walkthrough, define
 the draft. Shared JSON/media/templates live in css-shared; page sources in pols.
 No source images were downloaded. Faculty and students use supplied temp JPEGs.
+Courses is a top-level navigation destination and source page: `src/pols-courses.html`,
+published at `/pols-courses.html`, not inside About.
 Why Study combines all About and Undergraduate/Graduate Program HTML without images.
 Tables keep their imported rows, cells, captions, and spans.
 

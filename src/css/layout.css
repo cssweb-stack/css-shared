@@ -1,3 +1,77 @@
+/* Responsive video embeds retain usable controls at narrow widths. */
+.video-embed {
+max-width: 56rem;
+min-height: 200px;
+margin-block: 1.5rem;
+}
+
+/* Reusable image-and-text rows; keep page content in the calling HTML file. */
+.image-text-row + .image-text-row,
+.image-text-item + .image-text-item {
+margin-top: 3rem;
+}
+
+.image-text-media,
+.image-text-content {
+min-width: 0;
+}
+
+.image-text-media > img,
+.image-text-media-link {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.image-text-media-link > img {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.image-text-media > .image-text-lead-photo {
+margin-bottom: 1.5rem;
+}
+
+.site-main .image-text-content > :last-child {
+margin-bottom: 0;
+}
+
+@media (min-width: 1600px) {
+.image-text-row > .image-text-media {
+width: 16.66666667%;
+}
+
+.image-text-row > .image-text-content {
+width: 83.33333333%;
+}
+
+.image-text-row--reverse > .image-text-media {
+width: 25%;
+}
+
+.image-text-row--reverse > .image-text-content {
+width: 75%;
+}
+
+.image-text-row--landscape:not(.image-text-row--reverse) > .image-text-media {
+width: 20%;
+}
+
+.image-text-row--landscape:not(.image-text-row--reverse) > .image-text-content {
+width: 80%;
+}
+}
+
+@media (max-width: 767.98px) {
+.image-text-media > img,
+.image-text-media-link {
+width: 75%;
+max-width: 75%;
+margin-inline: 0;
+}
+}
+
 /* Shared shell geometry: all inner containers use these same controls.
    The maximum is the usable content width, excluding the side gutters.
    Keep university-specific dimensions here when the reference is confirmed. */

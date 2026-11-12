@@ -1,0 +1,16 @@
+oldTitle,oldUrl,oldPath,status,newPath,newUrl,sourceFile,note
+Privacy Policy,https://ssri.manoa.hawaii.edu/privacy-policy/,/privacy-policy/,moved,/privacy.html,https://ssri.manoa.hawaii.edu/privacy.html,privacy.html,Existing content has a confirmed current destination.
+Home,https://ssri.manoa.hawaii.edu/,/,unchanged,/,https://ssri.manoa.hawaii.edu/,index.html,Same URL retained.
+Contact,https://ssri.manoa.hawaii.edu/contact/,/contact/,unchanged,/contact/,https://ssri.manoa.hawaii.edu/contact/,contact.html,Same URL retained.
+Directory,https://ssri.manoa.hawaii.edu/directory/,/directory/,unchanged,/directory/,https://ssri.manoa.hawaii.edu/directory/,directory.html,Same URL retained.
+Research,https://ssri.manoa.hawaii.edu/research/,/research/,unchanged,/research/,https://ssri.manoa.hawaii.edu/research/,research/index.html,Same URL retained.
+Grant Development,https://ssri.manoa.hawaii.edu/grant-development/,/grant-development/,moved,/support/grant-development.html,https://ssri.manoa.hawaii.edu/support/grant-development.html,support/grant-development.html,Existing content has a confirmed current destination.
+Fiscal/Compliance,https://ssri.manoa.hawaii.edu/fiscal-compliance/,/fiscal-compliance/,moved,/support/fiscal-compliance.html,https://ssri.manoa.hawaii.edu/support/fiscal-compliance.html,support/fiscal-compliance.html,Existing content has a confirmed current destination.
+Research Services,https://ssri.manoa.hawaii.edu/research-services/,/research-services/,moved,/support/research-services.html,https://ssri.manoa.hawaii.edu/support/research-services.html,support/research-services.html,Existing content has a confirmed current destination.
+HCRI,https://ssri.manoa.hawaii.edu/hcri/,/hcri/,moved,/research/hcri.html,https://ssri.manoa.hawaii.edu/research/hcri.html,research/hcri.html,Existing content has a confirmed current destination.
+TASI/PHIDC,https://ssri.manoa.hawaii.edu/tasi-phidc/,/tasi-phidc/,moved,/research/tasi-phidc.html,https://ssri.manoa.hawaii.edu/research/tasi-phidc.html,research/tasi-phidc.html,Existing content has a confirmed current destination.
+OENAS,https://ssri.manoa.hawaii.edu/oenas/,/oenas/,moved,/research/oenas.html,https://ssri.manoa.hawaii.edu/research/oenas.html,research/oenas.html,Existing content has a confirmed current destination.
+HAM,https://ssri.manoa.hawaii.edu/ham/,/ham/,moved,/research/ham.html,https://ssri.manoa.hawaii.edu/research/ham.html,research/ham.html,Existing content has a confirmed current destination.
+Boilerplate,https://ssri.manoa.hawaii.edu/boilerplate/,/boilerplate/,moved,/support/boilerplate.html,https://ssri.manoa.hawaii.edu/support/boilerplate.html,support/boilerplate.html,Existing content has a confirmed current destination.
+rtrf-fy2019,https://ssri.manoa.hawaii.edu/rtrf-fy2019/,/rtrf-fy2019/,unmatched,,,,"Historical Research and Training Revolving Fund (RTRF), FY2019 report; keep/retire/archive decision pending."
+John (Jack) Barile,https://ssri.manoa.hawaii.edu/john-jack-barile/,/john-jack-barile/,unchanged,/john-jack-barile/,https://ssri.manoa.hawaii.edu/john-jack-barile/,john-jack-barile.html,Same URL retained.

@@ -51,12 +51,37 @@ border-left-color: var(--color-gold);
 background: var(--surface-gold);
 }
 
-/* Keep the three links equal-height when the prefix instruction wraps. */
+/* Respond to available content width, including future shell-width changes. */
+.course-resources {
+container-name: course-resources;
+container-type: inline-size;
+}
+
+@container course-resources (min-width: 60rem) {
+.course-resources--three > .course-resource-grid > .col-12 {
+width: 33.33333333%;
+}
+}
+
+@container course-resources (min-width: 40rem) {
+.course-resources--two > .course-resource-grid > .col-12 {
+width: 50%;
+}
+}
+
+/* Stack the entire group until every button has comfortable label space. */
 .course-resources .button {
 height: 100%;
 width: 100%;
 font-size: 1rem;
 font-weight: 500;
+}
+
+.site-main .course-resources-note {
+margin: 0.75rem 0 0;
+font-size: 1rem;
+justify-content: center;
+text-align: center;
 }
 
 /* Callout typography */

@@ -48,6 +48,12 @@
       "position": "center center",
       "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
       "credit": false
+    },
+    "/404.html": {
+      "image": "/media/heroes/saunders-mural/01.webp",
+      "position": "center center",
+      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "credit": false
     }
   }
 }

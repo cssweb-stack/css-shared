@@ -1,19 +1,10 @@
+{% from "layouts/profiles/contact-links.njk" import contactLinks %}
 {% if person.office or person.phone or person.email %}
 <address class="profile-contact">
 {% if person.office %}
+{% if profileView == "profile" and (person.title or person.roles | length) %}<hr class="profile-contact-divider">{% endif %}
 <p class="profile-office">{{ person.office | escape }}</p>
 {% endif %}
-{% if person.email %}
-<p class="profile-email"><a class="profile-contact-link" href="mailto:{{ person.email | escape }}">
-<span class="profile-contact-icon" aria-hidden="true">{% include "media/icons/envelope.svg" %}</span>
-<span><span class="visually-hidden">Email: </span>{{ person.email | escape }}</span>
-</a></p>
-{% endif %}
-{% if person.phone %}
-<p class="profile-phone"><a class="profile-contact-link" href="tel:{{ (person.phoneHref | default(person.phone | telephone)) | escape }}">
-<span class="profile-contact-icon" aria-hidden="true">{% include "media/icons/telephone.svg" %}</span>
-<span><span class="visually-hidden">Telephone: </span>{{ person.phone | escape }}</span>
-</a></p>
-{% endif %}
+{{ contactLinks(person.email, 'mailto:' + person.email, person.phone, 'tel:' + (person.phoneHref | default(person.phone | telephone))) }}
 </address>
 {% endif %}

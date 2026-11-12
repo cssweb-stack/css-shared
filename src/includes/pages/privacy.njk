@@ -1,3 +1,4 @@
+{% from "layouts/content/section-heading.njk" import sectionHeading with context %}
 <div class="page-section">
 <div class="container content-section">
 <div class="row gx-0 gx-sm-5 gx-lg-5">
@@ -6,22 +7,22 @@
 <p>Last updated: <time datetime="2026-11-08">November 8, 2026</time></p>
 <p>This shared privacy policy applies to College of Social Sciences department, school, center, and program websites at the University of Hawaiʻi at Mānoa that link to it, including this website. Other university websites and external services may have their own privacy policies.</p>
 
-<h2>Website analytics</h2>
+{{ sectionHeading("Website analytics") }}
 <p>We use Google Analytics to understand how visitors find and use our websites, improve content and navigation, and prepare aggregate reports for department and college leadership. Analytics may collect information such as pages viewed, links selected, files downloaded, referring websites, approximate location, and browser and device details.</p>
 <p>Google Analytics uses cookies and similar technologies to distinguish visitors and measure website activity. Google processes this information. For details, see <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from sites and apps that use its services</a> and <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>.</p>
 
-<h2>Your privacy choices</h2>
+{{ sectionHeading("Your privacy choices") }}
 <p>You can limit Google Analytics collection in a supported browser by installing the <a href="https://tools.google.com/dlpage/gaoptout">Google Analytics Opt-out Browser Add-on</a>. The add-on applies to the browser where it is installed; it does not prevent information from reaching the website itself or control other services.</p>
 <p>You can also use your browser settings to block or delete cookies and manage tracking protection. Blocking cookies does not necessarily prevent all analytics requests. Settings may need to be adjusted separately for each browser and device.</p>
 
-<h2>Information you provide</h2>
+{{ sectionHeading("Information you provide") }}
 <p>If you contact us by email or submit information through a website form, we receive the information you choose to provide. We use it to respond to your inquiry or provide the requested service and may share it with university staff who can help. Individual forms or services may provide additional privacy information.</p>
 
-<h2>Other services and websites</h2>
+{{ sectionHeading("Other services and websites") }}
 <p>Website hosting and security services may process technical information about requests, such as IP addresses and access times. Our websites also link to other sites and may load resources or embedded content from external providers. Your browser sends technical information when requesting those resources; those providers’ privacy policies describe their processing.</p>
 <p>For additional university information, see the <a href="https://manoa.hawaii.edu/privacy/">UH Mānoa Privacy Statement</a>, including its link to the university’s notice for people in the European Economic Area.</p>
 
-<h2>Questions and updates</h2>
+{{ sectionHeading("Questions and updates") }}
 <p>For questions about this policy, contact <a href="mailto:{{ uh.footer.webmaster.email | escape }}">{{ uh.footer.webmaster.email | escape }}</a>. We may update this page as website services or practices change. The date above identifies the latest revision.</p>
 </div>
 </div>

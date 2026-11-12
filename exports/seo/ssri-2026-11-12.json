@@ -1,0 +1,194 @@
+{
+  "unit": "ssri",
+  "pages": 14,
+  "mode": "prelaunch",
+  "indexingEnabled": false,
+  "errors": [],
+  "notes": [
+    "/research/oenas.html: Long rendered title; review meaning, do not truncate to an arbitrary limit"
+  ],
+  "pageMetadata": [
+    {
+      "url": "/contact/",
+      "title": "Contact SSRI | Social Science Research Institute",
+      "titleLength": 48,
+      "h1": "Contact SSRI",
+      "description": "Contact SSRI at the University of Hawaiʻi at Mānoa. Find the Saunders Hall office, email, phone number, office hours and map.",
+      "descriptionLength": 125,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ssri.manoa.hawaii.edu/contact/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/directory/",
+      "title": "Directory | Social Science Research Institute",
+      "titleLength": 45,
+      "h1": "Directory",
+      "description": "Find SSRI faculty and staff at the University of Hawaiʻi at Mānoa, including roles, offices, phone numbers and email addresses.",
+      "descriptionLength": 127,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ssri.manoa.hawaii.edu/directory/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/",
+      "title": "Research and Grant Services | Social Science Research Institute",
+      "titleLength": 63,
+      "h1": "SSRI: Research and Grant Services",
+      "description": "Research and grant services from the Social Science Research Institute (SSRI), College of Social Sciences, University of Hawaiʻi at Mānoa.",
+      "descriptionLength": 138,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ssri.manoa.hawaii.edu/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/john-jack-barile/",
+      "title": "John (Jack) Barile | Social Science Research Institute",
+      "titleLength": 54,
+      "h1": "John (Jack) Barile",
+      "description": "Learn about John (Jack) Barile, director of SSRI at UH Mānoa, and his research on community health, quality of life and social inequities.",
+      "descriptionLength": 138,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ssri.manoa.hawaii.edu/john-jack-barile/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/privacy.html",
+      "title": "Privacy Policy | Social Science Research Institute",
+      "titleLength": 50,
+      "h1": "Privacy Policy",
+      "description": "How College of Social Sciences websites use Google Analytics and visitor information, and how to manage your privacy choices.",
+      "descriptionLength": 125,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ssri.manoa.hawaii.edu/privacy.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/research/ham.html",
+      "title": "Hui ʻĀina Momona (HAM) | Social Science Research Institute",
+      "titleLength": 58,
+      "h1": "Hui ʻĀina Momona (HAM)",
+      "description": "Explore Hui ʻĀina Momona’s interdisciplinary work on natural and cultural resource management, community engagement and sustainability in Hawaiʻi.",
+      "descriptionLength": 146,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ssri.manoa.hawaii.edu/research/ham.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/research/hcri.html",
+      "title": "Hawaiʻi Coral Reef Initiative (HCRI) | Social Science Research Institute",
+      "titleLength": 72,
+      "h1": "Hawaiʻi Coral Reef Initiative (HCRI)",
+      "description": "Learn how the Hawaiʻi Coral Reef Initiative supports coral reef research, evaluation, education and sustainable management of Hawaiʻi’s marine resources.",
+      "descriptionLength": 153,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ssri.manoa.hawaii.edu/research/hcri.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/research/",
+      "title": "Research | Social Science Research Institute",
+      "titleLength": 44,
+      "h1": "Research",
+      "description": "Explore SSRI’s research programs in Hawaiʻi and the Pacific, including coral reefs, health policy, resource management, evaluation and economic research.",
+      "descriptionLength": 153,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ssri.manoa.hawaii.edu/research/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/research/oenas.html",
+      "title": "Office for Evaluation and Needs Assessment Services (OENAS) | Social Science Research Institute",
+      "titleLength": 95,
+      "h1": "Office for Evaluation and Needs Assessment Services (OENAS)",
+      "description": "Explore OENAS program evaluation, needs assessment, training and consultation services for public agencies and nonprofit organizations in Hawaiʻi.",
+      "descriptionLength": 146,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ssri.manoa.hawaii.edu/research/oenas.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/research/tasi-phidc.html",
+      "title": "TASI/PHIDC | Social Science Research Institute",
+      "titleLength": 46,
+      "h1": "TASI/PHIDC",
+      "description": "Explore TASI/PHIDC research, policy and training in telecommunications, health information technology, telehealth and health data in Hawaiʻi and the Pacific.",
+      "descriptionLength": 157,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ssri.manoa.hawaii.edu/research/tasi-phidc.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/support/boilerplate.html",
+      "title": "Boilerplate Descriptions | Social Science Research Institute",
+      "titleLength": 60,
+      "h1": "Boilerplate Descriptions",
+      "description": "Find background descriptions of UH Mānoa, the College of Social Sciences and SSRI for grant applications. Content is dated October 2020.",
+      "descriptionLength": 136,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ssri.manoa.hawaii.edu/support/boilerplate.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/support/fiscal-compliance.html",
+      "title": "Fiscal/Compliance | Social Science Research Institute",
+      "titleLength": 53,
+      "h1": "Fiscal/Compliance",
+      "description": "Find fiscal and compliance support from SSRI’s FOCUS team, including grant review, purchasing, contracts and College of Social Sciences research administration.",
+      "descriptionLength": 160,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ssri.manoa.hawaii.edu/support/fiscal-compliance.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/support/grant-development.html",
+      "title": "Grant Development | Social Science Research Institute",
+      "titleLength": 53,
+      "h1": "Grant Development",
+      "description": "Get grant development support for UH Mānoa College of Social Sciences faculty, including funding searches, proposal preparation, budgets and submissions.",
+      "descriptionLength": 153,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ssri.manoa.hawaii.edu/support/grant-development.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/support/research-services.html",
+      "title": "Research Services | Social Science Research Institute",
+      "titleLength": 53,
+      "h1": "Research Services",
+      "description": "Find SSRI research services contacts for procurement, budgets, contracts and human resource support for College of Social Sciences departments and programs.",
+      "descriptionLength": 156,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ssri.manoa.hawaii.edu/support/research-services.html"
+      ],
+      "robots": "noindex, nofollow"
+    }
+  ]
+}

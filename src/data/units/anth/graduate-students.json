@@ -1,0 +1,451 @@
+[
+  {
+    "name": "Maizie Anders",
+    "lastName": "Anders",
+    "slug": "maizie-anders",
+    "program": "MA",
+    "studyArea": "Applied Cultural Anthropology",
+    "research": "Emergency Management, Southeast Asia, Philippines, Disaster Anthropology",
+    "email": "maiziea@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/maizie-anders.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Jan Brunson",
+        "url": "/faculty/jan-brunson.html"
+      }
+    ]
+  },
+  {
+    "name": "Mary Bannister",
+    "lastName": "Bannister",
+    "slug": "mary-bannister",
+    "program": "PhD",
+    "studyArea": "Cultural Anthropology",
+    "research": "Community-based Tourism, Anthropology of Adventure, Walking Ethnography, Indigeneity, Gender, Nepal, Himalayas, Dolpo",
+    "email": "marybann@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/mary-bannister.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Jan Brunson",
+        "url": "/faculty/jan-brunson.html"
+      }
+    ]
+  },
+  {
+    "name": "Teaghan Carruth",
+    "lastName": "Carruth",
+    "slug": "teaghan-carruth",
+    "program": "MA",
+    "studyArea": "Applied Archaeology",
+    "research": "Community-based Archaeology, Mariana Islands, Micronesia",
+    "email": "teaghan@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/teaghan-carruth.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "James M. Bayman",
+        "url": "/faculty/james-m-bayman.html"
+      }
+    ]
+  },
+  {
+    "name": "Yiying Chen",
+    "lastName": "Chen",
+    "slug": "yiying-chen",
+    "program": "PhD",
+    "studyArea": "Biological Anthropology",
+    "research": "Paleoanthropology, Taphonomy, Paleopathology",
+    "email": "cheny6@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/yiying-chen.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Christopher J. Bae",
+        "url": "/faculty/christopher-j-bae.html"
+      }
+    ]
+  },
+  {
+    "name": "Brendan Flanagan",
+    "lastName": "Flanagan",
+    "slug": "brendan-flanagan",
+    "program": "PhD",
+    "studyArea": "Environmental Anthropology",
+    "research": "Conservation Ethics, Human/Forest Relations, Local Knowledge Dynamics, Ethnic Insurgency, Alternative Economies, Burma/Myanmar",
+    "email": "flanag2@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/brendan-flanagan.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Jonathan Padwe",
+        "url": "/faculty/jonathan-padwe.html"
+      }
+    ]
+  },
+  {
+    "name": "Carola (Kaho) Franzen",
+    "lastName": "Franzen",
+    "slug": "carola-kaho-franzen",
+    "program": "PhD",
+    "studyArea": "Archaeology",
+    "research": "Regional Settlement & Demography, Spatial & Quantitative Analysis, (Semi-)Pastoralism, Secondary State Formation, Imperialism, Fortification, NE China, Korean Peninsula, Mongolia, Pre- & Protohistory",
+    "email": "cfranzen@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/carola-franzen.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Christian E. Peterson",
+        "url": "/faculty/christian-e-peterson.html"
+      }
+    ]
+  },
+  {
+    "name": "Ahkmad Haris",
+    "lastName": "Haris",
+    "slug": "ahkmad-haris",
+    "program": "PhD",
+    "studyArea": "Cultural Anthropology",
+    "research": "Land Tenure, Rural Development, Commons, Community Organizing",
+    "email": "aa283@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/ahkmad-haris.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Ty P. Kāwika Tengan",
+        "url": "/faculty/ty-p-kawika-tengan.html"
+      }
+    ]
+  },
+  {
+    "name": "Elena Hughes",
+    "lastName": "Hughes",
+    "slug": "elena-hughes",
+    "program": "PhD",
+    "studyArea": "Biological Anthropology",
+    "research": "Forensic Anthropology, Osteology, Skeletal Trauma, Criminal Dismemberment, Taphonomy",
+    "email": "ehughes6@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/elena-hughes.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Christopher J. Bae",
+        "url": "/faculty/christopher-j-bae.html"
+      }
+    ]
+  },
+  {
+    "name": "Emily Tarbet Hust",
+    "lastName": "Hust",
+    "slug": "emily-tarbet-hust",
+    "program": "PhD",
+    "studyArea": "Biological Anthropology",
+    "research": "Forensic Anthropology, Osteology, Bioarchaeology, Age Estimation Methods, Bone Toxicology, Skeletal Markers of Physiological Stress",
+    "email": "etarbet@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/emily-tarbet-hust.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Christopher J. Bae",
+        "url": "/faculty/christopher-j-bae.html"
+      }
+    ]
+  },
+  {
+    "name": "Phirum Kem",
+    "lastName": "Kem",
+    "slug": "phirum-kem",
+    "program": "MA",
+    "studyArea": "Applied Archaeology",
+    "research": "LiDAR, GIS Data Analyses, GIS Databases, History Evidence, Settlement Patterns, Southeast Asia Study, Artifacts, Urbanism, Infrastructure, Epigraphic Studies",
+    "email": "phirumpk@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/phirum-kem.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Miriam Stark",
+        "url": "/faculty/miriam-stark.html"
+      }
+    ]
+  },
+  {
+    "name": "Yi-Yu Lai",
+    "lastName": "Lai",
+    "slug": "yi-yu-lai",
+    "program": "PhD",
+    "studyArea": "Cultural Anthropology",
+    "research": "Southeast Asia (the Philippines), Political Anthropology, Anthropology of State, Indigeneity, Indigenous Politics, Resistance, Cultural Activism",
+    "email": "yiyulai@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/yi-yu-lai.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Alex Golub",
+        "url": "/faculty/alex-golub.html"
+      }
+    ]
+  },
+  {
+    "name": "Jiawei Liu",
+    "lastName": "Liu",
+    "slug": "jiawei-liu",
+    "program": "PhD",
+    "studyArea": "Medical Anthropology",
+    "research": "Reproduction Health, Gender and Sexuality, Feminism, Women's Health, China",
+    "email": "jiaweil3@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/jiawei-liu.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Jan Brunson",
+        "url": "/faculty/jan-brunson.html"
+      }
+    ]
+  },
+  {
+    "name": "Ci Yan Sara Loh",
+    "lastName": "Loh",
+    "slug": "ci-yan-sara-loh",
+    "program": "PhD",
+    "studyArea": "Environmental Anthropology",
+    "research": "Cultural and Political Ecology, Local and Indigenous Knowledge, Climate Change, Resilience and Adaptation, Environmental Policy, Development, Southeast Asia",
+    "email": "cysloh@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/ci-yan-sara-loh.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Jonathan Padwe",
+        "url": "/faculty/jonathan-padwe.html"
+      }
+    ]
+  },
+  {
+    "name": "Erin McConkey",
+    "lastName": "McConkey",
+    "slug": "erin-mcconkey",
+    "program": "PhD",
+    "studyArea": "Medical Anthropology",
+    "research": "Science and Technology Studies, Animal Studies, Snakebite Envenomation, Pharmaceuticals, Thailand",
+    "email": "emcconke@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/erin-mcconkey.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Eirik Saethre",
+        "url": "/faculty/eirik-saethre.html"
+      }
+    ]
+  },
+  {
+    "name": "Jacy Miller",
+    "lastName": "Miller",
+    "slug": "jacy-miller",
+    "program": "PhD",
+    "studyArea": "Archaeology",
+    "research": "Western Pacific, Guam's Latte Period, Settlement Pattern, Subsistence Economy, Landscape Archaeology, Ceramic Ecology",
+    "email": "jacym@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/jacy-miller.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "James M. Bayman",
+        "url": "/faculty/james-m-bayman.html"
+      }
+    ]
+  },
+  {
+    "name": "Chan Dariya Nguon",
+    "lastName": "Nguon",
+    "slug": "chan-dariya-nguon",
+    "program": "MA",
+    "studyArea": "Applied Archaeology",
+    "research": "Settlement Patterns, Southeast Asia Study, Religious Change, Urbanism, Archaeobotany, Ceramics, Historical Evidence, LiDAR, GIS ",
+    "email": "nguoncd@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/chan-dariya-nguon.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Miriam Stark",
+        "url": "/faculty/miriam-stark.html"
+      }
+    ]
+  },
+  {
+    "name": "Leihiwahiwa Ritte",
+    "lastName": "Ritte",
+    "slug": "leihiwahiwa-ritte",
+    "program": "MA",
+    "studyArea": "Applied Archaeology",
+    "research": "Hawaiʻi, Wahi Kūpuna, Spatial Analysis, GIS, LiDAR, Community Archaeology",
+    "email": "lritte@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/leihiwahiwa-ritte.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Patrick V. Kirch",
+        "url": "/faculty/patrick-v-kirch.html"
+      }
+    ]
+  },
+  {
+    "name": "Isaac Rosenbaum",
+    "lastName": "Rosenbaum",
+    "slug": "isaac-rosenbaum",
+    "program": "PhD",
+    "studyArea": "Cultural Anthropology",
+    "research": "Mining, Bougainville Island, Political Anthropology",
+    "email": "irosen@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/isaac-rosenbaum.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Alex Golub",
+        "url": "/faculty/alex-golub.html"
+      }
+    ]
+  },
+  {
+    "name": "Alessandra Shea",
+    "lastName": "Shea",
+    "slug": "alessandra-shea",
+    "program": "PhD",
+    "studyArea": "Environmental Anthropology",
+    "research": "Political Ecology, Local and Indigenous Knowledge, Marine Policy, Seascapes, Tahiti",
+    "email": "agshea@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/alessandra-shea.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Alex Mawyer"
+      }
+    ]
+  },
+  {
+    "name": "Bailie Smith",
+    "lastName": "Smith",
+    "slug": "bailie-smith",
+    "program": "PhD",
+    "studyArea": "Cultural Anthropology",
+    "research": "Demilitarization, Hawaiʻi, Kuleana Anthropology, Oral History Interviewing",
+    "email": "bsmith96@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/bailie-smith.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Ty P. Kāwika Tengan",
+        "url": "/faculty/ty-p-kawika-tengan.html"
+      }
+    ]
+  },
+  {
+    "name": "Taylor Suka",
+    "lastName": "Suka",
+    "slug": "taylor-suka",
+    "program": "MA",
+    "studyArea": "Applied Archaeology",
+    "research": "Artifact Analysis, Material Culture, Tokelau, Interaction Spheres, Geochemical Analysis",
+    "email": "tsuka@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/taylor-suka.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Seth Quintus",
+        "url": "/faculty/seth-quintus.html"
+      }
+    ]
+  },
+  {
+    "name": "Jaratnapa Surinlert",
+    "lastName": "Surinlert",
+    "slug": "jaratnapa-surinlert",
+    "program": "PhD",
+    "studyArea": "Archaeology",
+    "research": "Prehistoric Archaeology, Southeast Asia, Paleolithic, Mesolithic, Human Behavior, Hunter-Gatherer, Environmental Archaeology, Late-Pleistocene to Early Holocene Period, Lithic Analysis",
+    "email": "jsurinle@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/jaratnapa-surinlert.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Christian E. Peterson",
+        "url": "/faculty/christian-e-peterson.html"
+      }
+    ]
+  },
+  {
+    "name": "Rachel Tjoeng",
+    "lastName": "Tjoeng",
+    "slug": "rachel-tjoeng",
+    "program": "PhD",
+    "studyArea": "Medical Anthropology",
+    "research": "Community Based Vaccination Programs, Nursing in Biomedicine, Social Determinants of Health, Food Sovereignty, Racial Bias in Medicine, Mothering/ Mother-child Dynamics",
+    "email": "rtjoeng@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/rachel-tjoeng.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Jan Brunson",
+        "url": "/faculty/jan-brunson.html"
+      }
+    ]
+  },
+  {
+    "name": "Rosalyn Wadsworth",
+    "lastName": "Wadsworth",
+    "slug": "rosalyn-wadsworth",
+    "program": "MA",
+    "studyArea": "Archaeology",
+    "research": "Complex Societies, Social Change, Household Analysis, Landscape Archaeology, Spatial Analysis and GIS, Social Boundaries, Social Network Analysis, and South Asia",
+    "email": "rnw2@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/rosalyn-wadsworth.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Christian E. Peterson",
+        "url": "/faculty/christian-e-peterson.html"
+      }
+    ]
+  },
+  {
+    "name": "Ruisi Xiao",
+    "lastName": "Xiao",
+    "slug": "ruisi-xiao",
+    "program": "PhD",
+    "studyArea": "Archaeology",
+    "research": "Household Archaeology, Quantitative Methods, Complex Societies, Food studies, Feminist Archaeology, Public Archaeology, Southern Africa and East Asia",
+    "email": "xiaoruis@hawaii.edu",
+    "photo": "/media/units/anth/graduate-students/ruisi-xiao.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "advisors": [
+      {
+        "name": "Christian E. Peterson",
+        "url": "/faculty/christian-e-peterson.html"
+      }
+    ]
+  }
+]

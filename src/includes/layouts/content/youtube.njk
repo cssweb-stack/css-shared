@@ -1,0 +1,5 @@
+{% macro youtubeEmbed(src, title, origin) %}
+<div class="ratio ratio-16x9 video-embed">
+<iframe src="{{ src | escape }}{% if '?' in src %}&amp;{% else %}?{% endif %}enablejsapi=1&amp;origin={{ origin | escape }}" title="{{ title | escape }}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+{% endmacro %}

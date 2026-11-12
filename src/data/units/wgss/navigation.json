@@ -1,103 +1,116 @@
 [
-{
-"label": "Home",
-"url": "/"
-},
-{
-"label": "About",
-"children": [
-{
-"label": "Why Study WGSS",
-"url": "/about-wgss/why-study-wgss.html",
-"icon": "question-circle",
-"iconColor": null
-},
-{
-"label": "Job Prospects",
-"url": "/about-wgss/jobs-prospects.html",
-"iconColor": null,
-"icon": "briefcase"
-},
-{
-"label": "Alumni",
-"url": "/about-wgss/alumni.html",
-"iconColor": null,
-"icon": "people"
-},
-{
-"label": "Colloquia",
-"url": "/about-wgss/colloquia.html",
-"iconColor": null,
-"icon": "calendar3"
-}
-]
-},
-{
-"label": "Courses",
-"url": "/about-wgss/wgss-courses.html"
-},
-{
-"label": "Undergraduate",
-"children": [
-{
-"label": "WGSS Certificate",
-"url": "/undergraduate/certificate.html",
-"iconColor": null,
-"icon": "award"
-},
-{
-"label": "Queer Studies Certificate",
-"url": "/undergraduate/queer-studies.html",
-"iconColor": null,
-"icon": "award"
-},
-{
-"label": "Major (BA)",
-"url": "/undergraduate/major-ba.html",
-"iconColor": null,
-"icon": "mortarboard"
-},
-{
-"label": "Major (BA) Online",
-"url": "/undergraduate/major-ba-online.html",
-"iconColor": null,
-"icon": "mortarboard"
-},
-{
-"label": "Double Majors",
-"url": "/undergraduate/double-majors.html",
-"iconColor": null,
-"icon": "mortarboard"
-},
-{
-"label": "Honors Track",
-"url": "/undergraduate/honors-track.html",
-"iconColor": null,
-"icon": "star"
-}
-]
-},
-{
-"label": "Graduate",
-"children": [
-{
-"label": "WGSS Certificate",
-"url": "/graduate/graduate-certificate.html",
-"iconColor": null,
-"icon": "award"
-}
-]
-},
-{
-"label": "Faculty",
-"url": "/faculty/"
-},
-{
-"label": "Support WGSS",
-"url": "/support-wgss/"
-},
-{
-"label": "Contact",
-"url": "/contact/"
-}
+  {
+    "label": "Home",
+    "url": "/"
+  },
+  {
+    "label": "About",
+    "children": [
+      {
+        "label": "Why Study WGSS",
+        "url": "/about-wgss/why-study-wgss.html",
+        "icon": "question-circle",
+        "iconColor": null
+      },
+      {
+        "label": "Alumni",
+        "url": "/about-wgss/alumni.html",
+        "iconColor": null,
+        "icon": "people"
+      },
+      {
+        "label": "Colloquia",
+        "url": "/about-wgss/colloquia.html",
+        "iconColor": null,
+        "icon": "calendar3"
+      }
+    ]
+  },
+  {
+    "label": "Courses",
+    "url": "/wgss-courses.html"
+  },
+  {
+    "label": "Undergraduate",
+    "children": [
+      {
+        "label": "WGSS Certificate",
+        "url": "/undergraduate/certificate.html",
+        "iconColor": null,
+        "icon": "award"
+      },
+      {
+        "label": "Queer Studies Certificate",
+        "url": "/undergraduate/queer-studies.html",
+        "iconColor": null,
+        "icon": "award"
+      },
+      {
+        "label": "Major (BA)",
+        "url": "/undergraduate/major-ba/",
+        "iconColor": null,
+        "icon": "mortarboard"
+      },
+      {
+        "label": "Major (BA) Online",
+        "url": "/undergraduate/major-ba-online.html",
+        "iconColor": null,
+        "icon": "mortarboard"
+      },
+      {
+        "label": "Double Majors",
+        "url": "/undergraduate/double-majors.html",
+        "iconColor": null,
+        "icon": "mortarboard"
+      },
+      {
+        "label": "Honors Track",
+        "url": "/undergraduate/honors-track.html",
+        "iconColor": null,
+        "icon": "star"
+      }
+    ]
+  },
+  {
+    "label": "Graduate",
+    "children": [
+      {
+        "label": "WGSS Certificate",
+        "url": "/graduate/graduate-certificate.html",
+        "iconColor": null,
+        "icon": "award"
+      },
+      {
+        "label": "Applications & Admissions",
+        "url": "/graduate/applications-admissions.html",
+        "icon": "door-open",
+        "iconColor": null
+      }
+    ]
+  },
+  {
+    "label": "Faculty",
+    "children": [
+      {
+        "label": "Core Faculty",
+        "url": "/faculty/core-faculty.html",
+        "icon": "people",
+        "iconColor": null
+      },
+      {
+        "label": "Associated Faculty",
+        "url": "/faculty/associated-faculty.html",
+        "icon": "people",
+        "iconColor": null
+      }
+    ]
+  },
+  {
+    "label": "Support WGSS",
+    "url": "/support-wgss.html"
+  },
+  {
+    "label": "Contact",
+    "url": "/contact.html"
+  }
 ]

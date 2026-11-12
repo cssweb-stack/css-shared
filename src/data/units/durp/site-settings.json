@@ -1,3 +1,15 @@
 {
-"indexingEnabled": false
+  "indexingEnabled": false,
+  "openGraph": {
+    "image": "/media/open-graph/durp.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "DURP lettering over a person working with maps and planning drawings at an illuminated table."
+  },
+  "hero": {
+    "overlay": {
+      "color": "var(--uh-green)",
+      "opacity": 0.33
+    }
+  }
 }

@@ -1,0 +1,162 @@
+[
+{
+"label": "Home",
+"url": "/"
+},
+{
+"label": "About",
+"children": [
+{
+"label": "Why Study SCI",
+"url": "/about-sci/why-study-sci.html",
+"icon": "question-circle",
+"iconColor": null
+},
+{
+"label": "Alumni",
+"url": "/about-sci/alumni.html",
+"iconColor": null,
+"icon": "people"
+},
+{
+"label": "School News",
+"url": "/about-sci/school-news.html",
+"icon": "newspaper",
+"iconColor": null
+}
+]
+},
+{
+"label": "Courses",
+"url": "/courses/"
+},
+{
+"label": "Programs",
+"children": [
+{
+"label": "Communication",
+"url": "/programs/communication.html",
+"iconColor": null,
+"icon": "chat-dots"
+},
+{
+"label": "Communicology",
+"url": "/programs/communicology.html",
+"iconColor": null,
+"icon": "chat-left-text"
+},
+{
+"label": "Journalism",
+"url": "/programs/journalism.html",
+"iconColor": null,
+"icon": "newspaper"
+},
+{
+"label": "Library & Information Science",
+"url": "/programs/library-and-information-science.html",
+"iconColor": null,
+"icon": "collection"
+},
+{
+"label": "Matsunaga Institute for Peace",
+"url": "/programs/matsunaga-institute-for-peace.html",
+"iconColor": null,
+"icon": "globe"
+}
+]
+},
+{
+"label": "Undergraduate",
+"children": [
+{
+"label": "Peace Studies Certificate",
+"url": "/undergraduate/peace-studies-certificate.html",
+"iconColor": null,
+"icon": "award"
+},
+{
+"label": "COMG Minor",
+"url": "/undergraduate/comg-minor.html",
+"iconColor": null,
+"icon": "book"
+},
+{
+"label": "COM Major (BA)",
+"url": "/undergraduate/com-major-ba.html",
+"iconColor": null,
+"icon": "mortarboard"
+},
+{
+"label": "COMG Major (BA)",
+"url": "/undergraduate/comg-major-ba.html",
+"iconColor": null,
+"icon": "mortarboard"
+},
+{
+"label": "Interdisciplinary (BA)",
+"url": "/undergraduate/interdisciplinary-ba.html",
+"iconColor": null,
+"icon": "mortarboard"
+},
+{
+"label": "JOUR Major (BA)",
+"url": "/undergraduate/jour-major-ba.html",
+"iconColor": null,
+"icon": "mortarboard"
+},
+{
+"label": "COMG BA/MA Pathway (BAM)",
+"url": "/undergraduate/comg-bam.html",
+"iconColor": null,
+"icon": "signpost-2"
+}
+]
+},
+{
+"label": "Graduate",
+"children": [
+{
+"label": "Certificate in Conflict Resolution",
+"url": "/graduate/certificate-conflict-resolution.html",
+"iconColor": null,
+"icon": "award"
+},
+{
+"label": "COM Master’s (MA)",
+"url": "/graduate/com-master-ma.html",
+"iconColor": null,
+"icon": "mortarboard"
+},
+{
+"label": "COMG Master’s (MA)",
+"url": "/graduate/comg-master-ma.html",
+"iconColor": null,
+"icon": "mortarboard"
+},
+{
+"label": "Master in LIS (MLIS)",
+"url": "/graduate/master-mlis.html",
+"iconColor": null,
+"icon": "mortarboard"
+},
+{
+"label": "CIS Interdisciplinary (PhD)",
+"url": "/graduate/cis-interdisciplinary-phd.html",
+"iconColor": null,
+"icon": "mortarboard"
+}
+]
+},
+{
+"label": "Faculty",
+"url": "/faculty/"
+},
+{
+"label": "Support SCI",
+"url": "/support-sci/"
+},
+{
+"label": "Contact",
+"url": "/contact/"
+}
+]

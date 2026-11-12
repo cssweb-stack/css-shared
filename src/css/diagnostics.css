@@ -25,12 +25,12 @@ box-shadow: inset 0 0 0 3px pink;
 /* Bootstrap and existing shared grid columns: red on all four sides.
  * Skip the redundant footer parent when it only wraps another Bootstrap row.
  */
-.site-main .row > [class*="col-"],
-.uh-brand .row > [class*="col-"],
-.unit-name .row > [class*="col-"],
-.unit-nav .row > [class*="col-"],
-.hero-attribution .row > [class*="col-"],
-.site-footer .row > [class*="col-"]:not(:has(> .row)),
+.site-main .row > :is(.col, [class*="col-"]),
+.uh-brand .row > :is(.col, [class*="col-"]),
+.unit-name .row > :is(.col, [class*="col-"]),
+.unit-nav .row > :is(.col, [class*="col-"]),
+.hero-attribution .row > :is(.col, [class*="col-"]),
+.site-footer .row > :is(.col, [class*="col-"]):not(:has(> .row)),
 .site-main :is(.grid-welcome, .grid-two, .grid-three, .grid-four, .grid-five,
 .grid-profile, .grid-standard, .grid-compact, .grid-advisors) > * {
 box-shadow: inset 0 0 0 3px red;

@@ -1,0 +1,462 @@
+[
+  {
+    "name": "Christopher J. Bae",
+    "lastName": "Bae",
+    "slug": "christopher-j-bae",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "title": "Professor",
+    "roles": [],
+    "office": "Dean 211",
+    "email": "cjbae@hawaii.edu",
+    "photo": "/media/units/anth/faculty-staff/christopher-j-bae.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "phone": "(808) 956-8193",
+    "phoneHref": "+18089568193",
+    "url": "/faculty/christopher-j-bae.html",
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=SbUfs0UAAAAJ&hl=en"
+      }
+    ],
+    "awards": [
+      {
+        "name": "Regents’ Medal for Excellence in Research",
+        "year": "2012"
+      }
+    ]
+  },
+  {
+    "name": "James M. Bayman",
+    "lastName": "Bayman",
+    "slug": "james-m-bayman",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "title": "Professor",
+    "roles": [],
+    "office": "Dean 205",
+    "email": "jbayman@hawaii.edu",
+    "photo": "/media/units/anth/faculty-staff/james-m-bayman.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "phone": "(808) 956-8511",
+    "phoneHref": "+18089568511",
+    "url": "/faculty/james-m-bayman.html"
+  },
+  {
+    "name": "Jan Brunson",
+    "lastName": "Brunson",
+    "slug": "jan-brunson",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": true,
+    "title": "Professor",
+    "roles": [
+      "Graduate Chair"
+    ],
+    "office": "Saunders 309",
+    "email": "jbrunson@hawaii.edu",
+    "photo": "/media/units/anth/faculty-staff/jan-brunson.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "phone": "(808) 956-2007",
+    "phoneHref": "+18089562007",
+    "url": "/faculty/jan-brunson.html",
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=2Fy9SocAAAAJ&hl=en"
+      },
+      {
+        "label": "Academia.edu",
+        "url": "https://manoa-hawaii.academia.edu/JanBrunson"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Jan_Brunson"
+      }
+    ],
+    "websites": [
+      {
+        "label": "Jan Brunson",
+        "url": "https://janbrunsonphd.com/"
+      }
+    ],
+    "awards": [
+      {
+        "name": "College of Social Sciences Award for Excellence in Teaching",
+        "year": "2019"
+      }
+    ]
+  },
+  {
+    "name": "Alex Golub",
+    "lastName": "Golub",
+    "slug": "alex-golub",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "title": "Associate Professor",
+    "roles": [],
+    "office": "Saunders 322",
+    "email": "golub@hawaii.edu",
+    "photo": "/media/units/anth/faculty-staff/alex-golub.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "phone": "(808) 956-6575",
+    "phoneHref": "+18089566575",
+    "url": "/faculty/alex-golub.html",
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=jJTzaqEAAAAJ&hl=en"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Alex_Golub"
+      }
+    ],
+    "websites": [
+      {
+        "label": "Alex Golub",
+        "url": "https://alex.golub.name/"
+      }
+    ]
+  },
+  {
+    "name": "Patrick V. Kirch",
+    "lastName": "Kirch",
+    "slug": "patrick-v-kirch",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "title": "Professor",
+    "roles": [],
+    "office": "Dean 101",
+    "email": "kirch@hawaii.edu",
+    "photo": "/media/units/anth/faculty-staff/pat-kirch.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "phone": "(808) 956-3366",
+    "phoneHref": "+18089563366",
+    "url": "/faculty/patrick-v-kirch.html",
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=m93f6bUAAAAJ&hl=en&oi=sra"
+      },
+      {
+        "label": "Academia.edu",
+        "url": "https://manoa-hawaii.academia.edu/PatrickKirch"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Patrick_Kirch"
+      }
+    ]
+  },
+  {
+    "name": "Jonathan Padwe",
+    "lastName": "Padwe",
+    "slug": "jonathan-padwe",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "title": "Associate Professor",
+    "roles": [],
+    "office": "Dean 207",
+    "email": "padwe@hawaii.edu",
+    "photo": "/media/units/anth/faculty-staff/jonathan-padwe.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "phone": "(808) 956-2707",
+    "phoneHref": "+18089562707",
+    "url": "/faculty/jonathan-padwe.html",
+    "publicationProfiles": [
+      {
+        "label": "Academia.edu",
+        "url": "https://manoa-hawaii.academia.edu/JonathanPadwe"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0002-7357-7439"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Jonathan_Padwe"
+      }
+    ],
+    "websites": [
+      {
+        "label": "Jonathan Padwe",
+        "url": "https://www.meatradio.com/"
+      }
+    ],
+    "awards": [
+      {
+        "name": "College of Social Sciences Award for Excellence in Teaching",
+        "year": "2015"
+      }
+    ]
+  },
+  {
+    "name": "Christian E. Peterson",
+    "lastName": "Peterson",
+    "slug": "christian-e-peterson",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "title": "Professor",
+    "roles": [],
+    "office": "Dean 204",
+    "email": "cepeter@hawaii.edu",
+    "photo": "/media/units/anth/faculty-staff/christian-e-peterson.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "phone": "(808) 956-8460",
+    "phoneHref": "+18089568460",
+    "url": "/faculty/christian-e-peterson.html",
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=Cp70GA8AAAAJ&hl=en"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0002-7630-3572"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Christian_Peterson"
+      }
+    ],
+    "websites": [
+      {
+        "label": "Christian E. Peterson",
+        "url": "https://eresonis.github.io/"
+      }
+    ]
+  },
+  {
+    "name": "Seth Quintus",
+    "lastName": "Quintus",
+    "slug": "seth-quintus",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": true,
+    "title": "Professor",
+    "roles": [
+      "Department Chair"
+    ],
+    "office": "Saunders 346E",
+    "email": "squintus@hawaii.edu",
+    "photo": "/media/units/anth/faculty-staff/seth-quintus.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "phone": "(808) 956-8193",
+    "phoneHref": "+18089568193",
+    "url": "/faculty/seth-quintus.html",
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=O8cgQoMAAAAJ&hl=en"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Seth_Quintus"
+      }
+    ],
+    "awards": [
+      {
+        "name": "College of Social Sciences Award for Excellence in Teaching",
+        "year": "2024"
+      }
+    ]
+  },
+  {
+    "name": "Eirik Saethre",
+    "lastName": "Saethre",
+    "slug": "eirik-saethre",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "title": "Professor",
+    "roles": [],
+    "office": "Saunders 306",
+    "email": "saethre@hawaii.edu",
+    "photo": "/media/units/anth/faculty-staff/eirik-saethre.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "phone": "(808) 956-3995",
+    "phoneHref": "+18089563995",
+    "url": "/faculty/eirik-saethre.html",
+    "publicationProfiles": [
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0001-8616-4281"
+      }
+    ]
+  },
+  {
+    "name": "Ty P. Kāwika Tengan",
+    "lastName": "Tengan",
+    "slug": "ty-p-kawika-tengan",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": true,
+    "title": "Professor",
+    "roles": [
+      "Undergraduate Chair"
+    ],
+    "office": "Saunders 314",
+    "email": "ttengan@hawaii.edu",
+    "photo": "/media/units/anth/faculty-staff/ty-tengan.webp",
+    "photoWidth": 300,
+    "photoHeight": 300,
+    "phone": "(808) 956-7831",
+    "phoneHref": "+18089567831",
+    "url": "/faculty/ty-p-kawika-tengan.html",
+    "publicationProfiles": [
+      {
+        "label": "Academia.edu",
+        "url": "http://manoa-hawaii.academia.edu/TyTengan"
+      }
+    ],
+    "awards": [
+      {
+        "name": "Board of Regents’ Medal for Teaching Excellence",
+        "year": "2018"
+      }
+    ]
+  },
+  {
+    "name": "Miriam Stark",
+    "lastName": "Stark",
+    "slug": "miriam-stark",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "title": "Professor",
+    "roles": [],
+    "office": "Dean 203C",
+    "email": "miriams@hawaii.edu",
+    "photo": "/media/units/anth/faculty-staff/miriam-stark.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "phone": "(808) 956-7552",
+    "phoneHref": "+18089567552",
+    "url": "/faculty/miriam-stark.html",
+    "publicationProfiles": [
+      {
+        "label": "Academia.edu",
+        "url": "https://manoa-hawaii.academia.edu/MiriamStark"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Miriam_Stark"
+      }
+    ],
+    "awards": [
+      {
+        "name": "Chancellor's Citation for Meritorious Teaching",
+        "year": "2016"
+      }
+    ]
+  },
+  {
+    "name": "Elizabeth Agey",
+    "lastName": "Agey",
+    "slug": "elizabeth-agey",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "title": "Assistant Professor",
+    "roles": [],
+    "office": "Dean 201",
+    "email": "eagey@hawaii.edu",
+    "photo": "/media/units/anth/faculty-staff/elizabeth-agey.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "phone": "(808) 956-9820",
+    "phoneHref": "+18089569820",
+    "url": "/faculty/elizabeth-agey.html",
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=n25fOvoAAAAJ&hl=en"
+      }
+    ],
+    "websites": [
+      {
+        "label": "Elizabeth Agey",
+        "url": "http://www.anthroliz.com"
+      }
+    ]
+  },
+  {
+    "name": "Summer Moore",
+    "lastName": "Moore",
+    "slug": "summer-moore",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false,
+    "title": "Instructor",
+    "roles": [],
+    "office": "Dean 206",
+    "email": "smoore26@hawaii.edu",
+    "photo": "/media/units/anth/faculty-staff/summer-moore.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "phone": "(808) 956-6652",
+    "phoneHref": "+18089566652",
+    "url": "/faculty/summer-moore.html",
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=GeWd9JwAAAAJ&hl=en"
+      },
+      {
+        "label": "Academia.edu",
+        "url": "https://manoa-hawaii.academia.edu/SummerMoore/Papers"
+      }
+    ]
+  },
+  {
+    "name": "Marti Kerton",
+    "lastName": "Kerton",
+    "slug": "marti-kerton",
+    "type": "staff",
+    "showInFacultyDirectory": false,
+    "showInKeyContacts": true,
+    "title": "Graduate Specialist / Student and Fiscal Support",
+    "roles": [],
+    "office": "Saunders 346C",
+    "email": "kerton@hawaii.edu",
+    "photo": "/media/units/anth/faculty-staff/marti-kerton.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "phone": "(808) 956-7153",
+    "phoneHref": "+18089567153"
+  },
+  {
+    "name": "Dona Takushi-Hyun",
+    "lastName": "Takushi-Hyun",
+    "slug": "dona-takushi-hyun",
+    "type": "staff",
+    "showInFacultyDirectory": false,
+    "showInKeyContacts": true,
+    "title": "Administrative Assistant",
+    "roles": [],
+    "office": "Saunders 346D",
+    "email": "donal3@hawaii.edu",
+    "photo": "/media/units/anth/faculty-staff/dona-takushi-hyun.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "phone": "(808) 956-8415",
+    "phoneHref": "+18089568415"
+  }
+]

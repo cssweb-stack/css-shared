@@ -1,5 +1,16 @@
 # Shared faculty directory grid
 
+Current standard, locked November 11, 2026: `faculty-directory.njk` delegates to
+`people-grid.njk`; POLS Key Contacts uses that same grid and profile cards. Five
+equal columns at 1600px+, four at 1200–1599px, three at 992–1199px, two at
+768–991px, one below 768px. This supersedes the three-stage trial after measured
+contact-text crowding. Mobile photos use 75%
+of the column width, left-aligned, while text remains full width.
+Keep normal shared gaps. Text sizing and individual bio portraits are separate
+follow-up decisions. POLS reads its unified people.json; other units retain their
+existing faculty data until migrated. The original implementation history below
+does not supersede this current standard.
+
 Established November 10, 2026. The main faculty landing pages for GEO, PSY, SOC,
 and PUBA include `layouts/profiles/faculty-directory.njk` from shared.
 
@@ -27,9 +38,10 @@ Neither directory implementation changes any hero assignments.
 
 ## Layout
 
-The shared Bootstrap row uses `gy-4 gx-0 gx-sm-5 gx-lg-5` with equal
-`col-12 col-sm-6 col-lg-3` children: one column below 576px, two from 576px, four
-from 992px. Existing image cards stretch to their column width through a scoped
+The shared Bootstrap row uses `gy-4 gx-0 gx-md-5` and
+`row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4` with equal `col` children;
+shared CSS enables five 20% columns from 1600px.
+Existing image cards stretch to their column width through a scoped
 rule in shared `profile.css`. The existing GEO flex directory remains available
 for other consumers; this change does not rewrite Associated Faculty pages.
 

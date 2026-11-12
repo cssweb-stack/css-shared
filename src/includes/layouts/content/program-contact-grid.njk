@@ -1,0 +1,10 @@
+{% from "layouts/profiles/contact-links.njk" import contactLinks %}
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 gy-4 gx-0 gx-md-5 grid-spaced faculty-portrait-grid">
+{% for program in programs %}
+{% if program.office %}
+<div class="col">
+{% include "layouts/content/program-office-card.njk" %}
+</div>
+{% endif %}
+{% endfor %}
+</div>

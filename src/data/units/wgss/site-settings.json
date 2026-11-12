@@ -1,3 +1,28 @@
 {
-"indexingEnabled": false
+  "indexingEnabled": false,
+  "layoutGuides": true,
+  "stylesheet": "/wgss.css",
+  "url": "https://wgss.manoa.hawaii.edu",
+  "openGraph": {
+    "image": "/media/open-graph/wgss.jpg",
+    "width": 1200,
+    "height": 630,
+    "alt": "WGSS lettering over a smiling student in a classroom."
+  },
+  "hero": {
+    "enabled": true,
+    "variant": "compact",
+    "height": {
+      "desktop": 210,
+      "tablet": 165,
+      "mobile": 145
+    },
+    "decorative": true,
+    "showLocation": false,
+    "showAttribution": false,
+    "overlay": {
+      "color": "var(--uh-green)",
+      "opacity": 0.33
+    }
+  }
 }

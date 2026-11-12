@@ -184,6 +184,7 @@ stroke: none;
 
 .desktop-search button[type="submit"],
 .mobile-search-form button[type="submit"] {
+--bs-btn-color: var(--black);
 display: inline-flex;
 align-items: center;
 justify-content: center;
@@ -305,8 +306,6 @@ pointer-events: none;
 transition: clip-path 250ms ease-in-out, visibility 0s linear 250ms;
 }
 
-.unit-nav .dropdown:hover > .dropdown-menu,
-.unit-nav .dropdown:focus-within > .dropdown-menu,
 .unit-nav .dropdown-menu.show {
 visibility: visible;
 clip-path: inset(0 -32px -32px -32px);

@@ -1,0 +1,21 @@
+{% macro imageTextRow(src, width=600, height=600, alt="", reverse=false, href="", imageClass="photo-style", leadImage=none, landscape=false) %}
+{% set rowContent = caller() %}
+<div class="row gy-4 gx-0 gx-md-5 image-text-row{% if reverse %} image-text-row--reverse{% endif %}{% if landscape %} image-text-row--landscape{% endif %}">
+{% if reverse %}
+<div class="col-12 col-md-8 col-lg-9 image-text-content">
+{{ rowContent | safe }}
+</div>
+{% endif %}
+<div class="col-12 col-md-4 col-lg-3 image-text-media">
+{% if leadImage %}<img class="photo-style image-text-lead-photo" src="{{ leadImage.src | url }}" alt="{{ leadImage.alt | default('') | escape }}" width="{{ leadImage.width }}" height="{{ leadImage.height }}" loading="lazy" decoding="async">{% endif %}
+{% if href %}<a class="image-text-media-link" href="{{ href | url | escape }}">{% endif %}
+<img class="{{ imageClass | escape }}" src="{{ src | url }}" alt="{{ alt | escape }}" width="{{ width }}" height="{{ height }}" loading="lazy" decoding="async">
+{% if href %}</a>{% endif %}
+</div>
+{% if not reverse %}
+<div class="col-12 col-md-8 col-lg-9 image-text-content">
+{{ rowContent | safe }}
+</div>
+{% endif %}
+</div>
+{% endmacro %}

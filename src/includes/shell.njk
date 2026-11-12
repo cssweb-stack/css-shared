@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 {% include "analytics.njk" -%}
-{% if not site.indexingEnabled %}<meta name="robots" content="noindex, nofollow">{% endif %}
+{% if isNotFound or not site.indexingEnabled %}<meta name="robots" content="noindex, nofollow">{% endif %}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preload" href="{{ '/assets/fonts/InterVariable.woff2' | url }}" as="font" type="font/woff2" crossorigin>
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/media/branding/favicon/apple-touch-icon.png' | url }}">

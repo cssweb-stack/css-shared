@@ -1,9 +1,10 @@
-{% set profileUrl = person.url | default(site.facultyBasePath + person.slug + '.html') %}
+{% set profileUrl = person.url %}
+{% if person.url is not defined and person.type != "staff" %}{% set profileUrl = site.facultyBasePath + person.slug + '.html' %}{% endif %}
 {% if profileView == "directory" %}
-<a class="profile-link" href="{{ profileUrl | url }}">
+{% if profileUrl %}<a class="profile-link" href="{{ profileUrl | url }}">{% else %}<div class="profile-link">{% endif %}
 {% if person.photo %}<img class="profile-directory-photo photo-style" src="{{ person.photo | url }}" alt="{{ person.name | escape }}" width="{{ person.photoWidth | default(400) }}" height="{{ person.photoHeight | default(400) }}" loading="lazy" decoding="async">{% endif %}
-<h2 id="faculty-{{ person.slug | escape }}" class="profile-name">{{ person.name | escape }}</h2>
-</a>
+<h2 id="{{ profileIdentityPrefix | default('faculty') | escape }}-{{ person.slug | escape }}" class="profile-name">{{ person.name | escape }}</h2>
+{% if profileUrl %}</a>{% else %}</div>{% endif %}
 {% else %}
 {% if person.photo %}<img class="profile-photo photo-style" src="{{ person.photo | url }}" alt="{{ person.name | escape }}" width="{{ person.photoWidth | default(400) }}" height="{{ person.photoHeight | default(400) }}" decoding="async">{% endif %}
 <h1 class="profile-name">{{ person.name | escape }}</h1>

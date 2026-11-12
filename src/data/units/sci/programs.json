@@ -1,0 +1,142 @@
+[
+  {
+    "id": "communication",
+    "name": "Communication",
+    "office": {
+      "address": [
+        "Crawford Hall 320",
+        "2550 Campus Road",
+        "Honolulu, HI 96822"
+      ],
+      "email": {
+        "label": "comm@hawaii.edu",
+        "href": "mailto:comm@hawaii.edu"
+      },
+      "phone": {
+        "label": "(808) 956-8881",
+        "href": "tel:+18089568881"
+      },
+      "photo": {
+        "src": "/media/units/sci/programs/com.webp",
+        "width": 600,
+        "height": 400,
+        "alt": ""
+      }
+    },
+    "directorSlug": "hanae-kramer",
+    "contactSource": "https://sci.manoa.hawaii.edu/programs/communication/",
+    "url": "/programs/communication/"
+  },
+  {
+    "id": "communicology",
+    "name": "Communicology",
+    "office": {
+      "address": [
+        "George Hall 326",
+        "2560 Campus Road",
+        "Honolulu, HI 96822"
+      ],
+      "email": {
+        "label": "comg@hawaii.edu",
+        "href": "mailto:comg@hawaii.edu"
+      },
+      "phone": {
+        "label": "(808) 956-8202",
+        "href": "tel:+18089568202"
+      },
+      "photo": {
+        "src": "/media/units/sci/programs/comg.webp",
+        "width": 600,
+        "height": 400,
+        "alt": ""
+      }
+    },
+    "directorSlug": "krystyna-aune",
+    "contactSource": "https://sci.manoa.hawaii.edu/programs/communicology/",
+    "url": "/programs/communicology/"
+  },
+  {
+    "id": "journalism",
+    "name": "Journalism",
+    "office": {
+      "address": [
+        "Crawford Hall 320",
+        "2550 Campus Road",
+        "Honolulu, HI 96822"
+      ],
+      "email": {
+        "label": "jour@hawaii.edu",
+        "href": "mailto:jour@hawaii.edu"
+      },
+      "phone": {
+        "label": "(808) 956-8881",
+        "href": "tel:+18089568881"
+      },
+      "photo": {
+        "src": "/media/units/sci/programs/jour.webp",
+        "width": 600,
+        "height": 400,
+        "alt": ""
+      }
+    },
+    "directorSlug": "john-temple",
+    "contactSource": "https://sci.manoa.hawaii.edu/programs/journalism/",
+    "url": "/programs/journalism/"
+  },
+  {
+    "id": "library-and-information-science",
+    "name": "Library and Information Science",
+    "office": {
+      "address": [
+        "Hamilton Library 002",
+        "2550 McCarthy Mall",
+        "Honolulu, HI 96822"
+      ],
+      "email": {
+        "label": "lisinfo@hawaii.edu",
+        "href": "mailto:lisinfo@hawaii.edu"
+      },
+      "phone": {
+        "label": "(808) 956-7321",
+        "href": "tel:+18089567321"
+      },
+      "photo": {
+        "src": "/media/units/sci/programs/lis.webp",
+        "width": 600,
+        "height": 400,
+        "alt": ""
+      }
+    },
+    "directorSlug": "andrew-wertheimer",
+    "contactSource": "https://sci.manoa.hawaii.edu/programs/library-and-information-science/",
+    "url": "/programs/library-and-information-science/"
+  },
+  {
+    "id": "matsunaga-institute-for-peace",
+    "name": "Matsunaga Institute for Peace",
+    "office": {
+      "address": [
+        "Saunders Hall 723",
+        "2424 Maile Way",
+        "Honolulu, HI 96822"
+      ],
+      "email": {
+        "label": "uhip@hawaii.edu",
+        "href": "mailto:uhip@hawaii.edu"
+      },
+      "phone": {
+        "label": "(808) 956-6433",
+        "href": "tel:+18089566433"
+      },
+      "photo": {
+        "src": "/media/units/sci/programs/pace.webp",
+        "width": 600,
+        "height": 400,
+        "alt": ""
+      }
+    },
+    "directorSlug": "colin-moore",
+    "contactSource": "https://sci.manoa.hawaii.edu/programs/matsunaga-institute-for-peace/",
+    "url": "/programs/matsunaga-institute-for-peace/"
+  }
+]

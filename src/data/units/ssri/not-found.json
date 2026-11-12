@@ -1,0 +1,20 @@
+{
+  "quickLinks": [
+    {
+      "label": "SSRI homepage",
+      "url": "/"
+    },
+    {
+      "label": "Research programs",
+      "url": "/research/"
+    },
+    {
+      "label": "Faculty and staff directory",
+      "url": "/directory/"
+    },
+    {
+      "label": "Contact SSRI",
+      "url": "/contact/"
+    }
+  ]
+}

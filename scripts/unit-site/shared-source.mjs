@@ -20,6 +20,13 @@ if (entry.isSymbolicLink()) throw new Error(`Unit data cannot be a symbolic link
 if (entry.isFile() && entry.name.endsWith('.json')) records[entry.name.slice(0, -5).replaceAll('-', '_')] = JSON.parse(fs.readFileSync(path.join(directory, entry.name), 'utf8'));
 }
 if (!records.unit_details?.name || !Array.isArray(records.navigation)) throw new Error('Selected unit requires unit-details.json with a name and navigation.json with an array.');
+// Units migrate to one editable people array; view collections contain references,
+// never independently maintained copies. Legacy units retain their existing data.
+if (Array.isArray(records.people)) {
+if (records.faculty || records.staff) throw new Error('Use people.json alone; remove duplicate faculty/staff data.');
+records.faculty = records.people.filter(person => person.showInFacultyDirectory === true);
+records.key_contacts = records.people.filter(person => person.showInKeyContacts === true);
+}
 const common = loadCommon();
 records.site = {
 ...records.unit_details,

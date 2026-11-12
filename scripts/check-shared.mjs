@@ -62,6 +62,7 @@ console.log(`Checked ${count} shared files: JSON, source CSS assets, literal inc
 
 // Unit identity/contact data is independent of optional social accounts.
 const unitsDirectory = path.join(root, 'data/units');
+const standardHeroOverlay = JSON.parse(fs.readFileSync(path.join(unitsDirectory, 'ssri/site-settings.json'), 'utf8')).hero.overlay;
 const buildings = JSON.parse(fs.readFileSync(path.join(root, 'data/common/buildings.json'), 'utf8'));
 for (const [key, building] of Object.entries(buildings)) {
 if (!building.name || !Array.isArray(building.address) || !building.address.length) throw new Error(`Invalid building identity/address: ${key}`);
@@ -79,6 +80,10 @@ const siteFile = path.join(unitDirectory, 'unit-details.json');
 if (!fs.existsSync(siteFile)) continue;
 const site = JSON.parse(fs.readFileSync(siteFile, 'utf8'));
 const fail = message => { throw new Error(`${entry.name}/unit-details.json: ${message}`); };
+if (entry.name !== 'geo') {
+const overlay = JSON.parse(fs.readFileSync(path.join(unitDirectory, 'site-settings.json'), 'utf8')).hero?.overlay;
+if (overlay?.color !== standardHeroOverlay.color || overlay?.opacity !== standardHeroOverlay.opacity) throw new Error(`${entry.name}/site-settings.json: Hero overlay must match SSRI; Geography is the documented exception.`);
+}
 if (!site.building || !buildings[site.building]) fail('A valid shared building reference is required.');
 if (!site.name || !site.shortName || seenNames.has(site.name)) fail('Name and abbreviation are required; unit names must be unique.');
 seenNames.add(site.name);
@@ -132,6 +137,7 @@ const navFile = path.join(dir, 'navigation.json');
 function checkNav(items) {
 for (const item of items) {
 if (!item.label || (!item.url && !item.children)) throw new Error('Navigation requires label and destination or children.');
+if (/\band\b/i.test(item.label)) throw new Error(`${entry.name}/navigation.json: use & instead of and in navigation label "${item.label}".`);
 if (item.icon && !fs.existsSync(path.join(root, 'media/icons', item.icon + '.svg'))) throw new Error(`Unknown navigation icon: ${item.icon}`);
 if (item.iconColor && !palette.has(item.iconColor)) throw new Error(`Unknown navigation color: ${item.iconColor}`);
 if (item.children) checkNav(item.children);
@@ -142,7 +148,7 @@ const directoryFile = path.join(dir, 'people.json');
 if (fs.existsSync(directoryFile)) {
 const directory = JSON.parse(fs.readFileSync(directoryFile, 'utf8'));
 const groupIds = new Set();
-for (const group of directory.directoryGroups) {
+for (const group of directory.directoryGroups || []) {
 if (!/^[a-z0-9-]+$/.test(group.id) || !group.title || groupIds.has(group.id) || !Array.isArray(group.members) || new Set(group.members).size !== group.members.length) throw new Error(`Invalid directory group: ${entry.name}/${group.id}`);
 groupIds.add(group.id);
 for (const member of group.members) {
@@ -160,10 +166,12 @@ if ((!member.vacant && !directory.records[member.person]) || (group.showSupport 
 }
 }
 }
-for (const filename of ['faculty.json', 'staff.json', 'graduate-students.json']) {
+for (const filename of ['people.json', 'faculty.json', 'staff.json', 'graduate-students.json']) {
 const file = path.join(dir, filename);
 if (!fs.existsSync(file)) continue;
 const people = JSON.parse(fs.readFileSync(file, 'utf8'));
+if (!Array.isArray(people)) continue;
+if (filename === 'people.json' && (fs.existsSync(path.join(dir, 'faculty.json')) || fs.existsSync(path.join(dir, 'staff.json')))) throw new Error(`Duplicate people data in ${entry.name}`);
 const slugs = new Set();
 for (const person of people) {
 if (!person.name || !person.lastName || !person.slug || slugs.has(person.slug)) throw new Error(`Invalid/duplicate person in ${entry.name}/${filename}`);

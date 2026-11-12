@@ -4,19 +4,30 @@
 {% set publicationProfiles = person.publicationProfiles | default([], true) %}
 {% set awards = person.awards | default([], true) %}
 {% set additionalLinks = person.additionalLinks | default([], true) %}
-{% if websites | length or publicationProfiles | length or awards | length or additionalLinks | length %}
+{% set affiliations = person.affiliations | default([], true) %}
+{% if websites | length or publicationProfiles | length or awards | length or additionalLinks | length or affiliations | length %}
 
 <div class="profile-supplemental">
-<hr class="profile-divider">
+{% if affiliations | length %}
+<hr class="profile-contact-divider">
+<section class="profile-supplemental-section" aria-labelledby="profile-affiliations-heading">
+<h2 id="profile-affiliations-heading">Affiliations</h2>
+<ul class="profile-supplemental-links">
+{% for affiliation in affiliations %}<li>{% if affiliation.url %}<a href="{{ affiliation.url | url | escape }}">{{ affiliation.label | escape }}</a>{% else %}{{ affiliation.label | escape }}{% endif %}</li>{% endfor %}
+</ul>
+</section>
+{% endif %}
 {% if websites | length %}
+<hr class="profile-contact-divider">
 <section class="profile-supplemental-section" aria-labelledby="profile-websites-heading">
 <h2 id="profile-websites-heading">{% if websites | length == 1 %}Website{% else %}Websites{% endif %}</h2>
-<ul class="profile-supplemental-links profile-website-links">
-{% for website in websites %}<li><img class="profile-website-icon" src="{{ '/media/icons/globe.svg' | url }}" alt="" width="20" height="20" aria-hidden="true"><a href="{{ website.url | escape }}">{{ website.label | escape }}<span class="visually-hidden"> — {{ person.name | escape }}</span></a></li>{% endfor %}
+<ul class="profile-supplemental-links">
+{% for website in websites %}<li><a class="website-link" href="{{ website.url | escape }}"><span class="special-text-icon" aria-hidden="true">{% include "media/icons/globe.svg" %}</span><span>{{ website.label | escape }}<span class="visually-hidden"> — {{ person.name | escape }}</span></span></a></li>{% endfor %}
 </ul>
 </section>
 {% endif %}
 {% if publicationProfiles | length %}
+<hr class="profile-contact-divider">
 <section class="profile-supplemental-section" aria-labelledby="profile-publications-heading">
 <h2 id="profile-publications-heading">Publications</h2>
 <ul class="profile-supplemental-links">
@@ -25,6 +36,7 @@
 </section>
 {% endif %}
 {% if awards | length %}
+<hr class="profile-contact-divider">
 <section class="profile-supplemental-section" aria-labelledby="profile-awards-heading">
 <h2 id="profile-awards-heading">Awards</h2>
 <ul class="profile-awards-list">
@@ -33,6 +45,7 @@
 </section>
 {% endif %}
 {% if additionalLinks | length %}
+<hr class="profile-contact-divider">
 <section class="profile-supplemental-section" aria-labelledby="profile-additional-links-heading">
 <h2 id="profile-additional-links-heading">Additional Links</h2>
 <ul class="profile-supplemental-links">

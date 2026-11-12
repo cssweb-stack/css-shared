@@ -1,39 +1,40 @@
 {
-"name": "Department of Women, Gender, and Sexuality Studies",
-"shortName": "WGSS",
-"showShortName": true,
-"prefix": "Department of",
-"logo": {
-"alt": "Department of Women, Gender, and Sexuality Studies, University of Hawaiʻi at Mānoa",
-"variants": {
-"whiteHorz": {
-"src": "/media/branding/logos/wgss-logo-horz-white.svg",
-"width": 500,
-"height": 145
-},
-"whiteVert": {
-"src": "/media/branding/logos/wgss-logo-vert-white.svg",
-"width": 500,
-"height": 320
-}
-}
-},
-"building": "saunders-hall",
-"address": [
-"Saunders Hall 722",
-"2424 Maile Way",
-"Honolulu, HI 96822"
-],
-"phone": {
-"label": "(808) 956-7464",
-"href": "tel:+18089567464"
-},
-"email": {
-"label": "wgss@hawaii.edu",
-"href": "mailto:wgss@hawaii.edu"
-},
-"footerIdentity": {
-"prefix": "Department of",
-"name": "Women, Gender, and Sexuality Studies"
-}
+  "name": "Department of Women, Gender, and Sexuality Studies",
+  "shortName": "WGSS",
+  "showShortName": true,
+  "prefix": "Department of",
+  "logo": {
+    "alt": "Department of Women, Gender, and Sexuality Studies, University of Hawaiʻi at Mānoa",
+    "variants": {
+      "whiteHorz": {
+        "src": "/media/branding/logos/wgss-logo-horz-white.svg",
+        "width": 500,
+        "height": 145
+      },
+      "whiteVert": {
+        "src": "/media/branding/logos/wgss-logo-vert-white.svg",
+        "width": 500,
+        "height": 320
+      }
+    }
+  },
+  "building": "saunders-hall",
+  "address": [
+    "Saunders Hall 722",
+    "2424 Maile Way",
+    "Honolulu, HI 96822"
+  ],
+  "phone": {
+    "label": "(808) 956-7464",
+    "href": "tel:+18089567464"
+  },
+  "email": {
+    "label": "wgss@hawaii.edu",
+    "href": "mailto:wgss@hawaii.edu"
+  },
+  "footerIdentity": {
+    "prefix": "Department of",
+    "name": "Women, Gender, and Sexuality Studies"
+  },
+  "facultyBasePath": "/faculty/"
 }
