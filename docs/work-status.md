@@ -2,6 +2,12 @@
 
 Updated November 12, 2026 (Pacific/Honolulu).
 
+## November 12: SSRI helper lines off
+
+- Set SSRI site-settings.json layoutGuides to false; other units unchanged.
+- User confirmed deployed redirects and custom 404 work on the live site.
+- Repository: css-shared. Push and rebuild SSRI to publish the guide setting.
+
 ## November 12: Sidebar divider optical spacing
 
 - Browser measured all sidebar dividers at identical 12px above/8px below.
