@@ -16,12 +16,12 @@
 <div class="row footer-grid gx-0 gx-sm-5 gx-lg-5">
 <div class="col-12 col-lg-3 footer-unit-column">
 <div class="row footer-unit-layout gx-0 gx-sm-5 gx-lg-5">
-<div class="col-12 col-sm-4 col-lg-12 footer-unit-acronym">
+<div class="col-12 col-sm-12 col-lg-12 footer-unit-acronym">
 {% if site.shortName %}
 <p class="footer-unit-short-name">{{ site.shortName | escape }}</p>
 {% endif %}
 </div>
-<div class="col-12 col-sm-4 col-lg-12 footer-unit-identity">
+<div class="col-12 col-sm-6 col-lg-12 footer-unit-identity">
 <p class="footer-unit-name">{% if site.footerIdentity.prefix %}<span class="footer-unit-prefix">{{ site.footerIdentity.prefix | escape }}</span> {% endif %}{{ site.footerIdentity.name | default(site.name) | escape }}</p>
 <div class="footer-parent-links">
 {% if site.shortName != 'CSS' %}
@@ -33,7 +33,7 @@
 <address class="footer-address">{% for line in site.address %}<p>{{ line | escape }}</p>{% endfor %}</address>
 {% endif %}
 </div>
-<address class="col-12 col-sm-4 col-lg-12 footer-contact">
+<address class="col-12 col-sm-6 col-lg-12 footer-contact">
 {% if site.phone or site.email %}
 <div class="footer-contact-links">
 {% if site.phone %}

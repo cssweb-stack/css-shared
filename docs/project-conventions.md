@@ -540,5 +540,31 @@ checks. Defer importing the news posts so this work can continue. The inspected
 Posts export contains 54 published posts, two drafts, and 74 attachment records;
 all 54 published URLs match the pending inventory. Drafts stay unpublished.
 Deferral is not retirement: preserve access to the existing WordPress news archive
-when planning any production-domain switch. Post-folder and shortened-slug ideas
-remain proposals, not accepted URL changes.
+when planning any production-domain switch.
+
+Agreed subsequently: preserve all existing published PUBA post slugs and public
+URLs during migration. This supersedes the proposal to shorten old slugs and
+avoids a separate rename/redirect step. Source files may be grouped independently
+of public URLs; source-folder selection remains an implementation detail.
+For future articles supplied by the user for publication, choose a concise,
+descriptive, lowercase hyphenated slug using editorial judgment rather than
+copying every word of the headline. Keep the headline independently descriptive;
+check slug uniqueness before publishing. Rename an existing post URL only when
+explicitly requested, with its old address accounted for.
+
+## Approved tablet footer arrangement (November 12, 2026)
+
+Shared footers at 576–991.98px place the unit acronym on its own full-width row,
+then identity/address and contact in equal halves below, with the standard 1.5rem
+stack gap. The user explicitly approved this arrangement after reviewing PUBA.
+It supersedes the earlier equal-thirds tablet layout: it prevents large acronym
+overlap and improves the grouping of footer information. Phone and desktop
+stacking, fixed acronym sizes, and colors remain unchanged. Applies to all
+consumers of the shared footer; no unit-specific exceptions agreed.
+
+Subsequent decision: remove the footer acronym text shadow across shared consumers,
+retaining solid #c4d1cb and no text opacity. This supersedes preserving its shadow
+above. The user considers the shadow unnecessary; the next Siteimprove scan will
+test whether removing it clears the contrast-review warning. That cause remains
+unconfirmed until a fresh scan. Do not change the acronym to white or add a solid
+background as part of this experiment.

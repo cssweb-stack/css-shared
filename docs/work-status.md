@@ -2,6 +2,48 @@
 
 Updated November 12, 2026 (Pacific/Honolulu).
 
+## November 12: Footer acronym shadow removed
+
+- Removed only the shared acronym text-shadow declaration. Retained #c4d1cb,
+  no text opacity, existing background, text trimming, and approved tablet layout.
+  Shadow token remains defined but unused; no unrelated shadow cleanup.
+- Shared checks and PUBA/SSRI builds passed; both output acronym rules verified
+  shadow-free with the original color token. Local only; no commit/push/deploy.
+- Next: publish css-shared, rebuild PUBA/SSRI, and rerun Siteimprove. Whether the
+  shadow caused its contrast-review warning remains unconfirmed pending scan.
+
+## November 12: Footer acronym overlap corrected
+
+- User explicitly approved the improved tablet arrangement as the shared standard;
+  recorded in project conventions.
+
+- Shared tablet footer now gives the acronym its own row, with identity/contact
+  in halves below (576–991.98px). Replaces equal thirds that allowed PUBA to
+  overlap its program name. Existing font sizes, colors, shadow, and phone /
+  desktop arrangement preserved; no solid acronym backdrop added.
+- Shared checks and PUBA build passed. Chrome verified no acronym/identity
+  overlap or horizontal page overflow at 320/390/575/576/700/768/991/992/1200/1800px.
+- Local css-shared change only; no commit/push/deployment. Publish shared change
+  and rebuild consuming sites to apply remotely. Hero-review change remains
+  separate in ../puba.
+
+## November 12: PUBA hero review restored
+
+- Restored ../puba/src/hero-review.njk output at /hero-review.html after the
+  user reported the preview URL returned 404. Remains noindex/nofollow and
+  excluded from collections/navigation. Supersedes its audit-time exclusion.
+- PUBA build passed; generated review heading, hero assets, and noindex checked.
+  Local only; no commit/push/deploy. Push puba and rerun its publishing workflow
+  to restore https://cssweb-stack.github.io/puba/hero-review.html remotely.
+
+## November 12: PUBA news URL decision
+
+- Preserve existing published post URLs/slugs when migration resumes; no historical
+  slug-shortening pass or resulting redirects needed. Future articles receive
+  concise descriptive slugs independent of headline length; check uniqueness.
+- Recorded in project conventions. News import remains deferred. Documentation
+  only for this decision; diff whitespace check passed. No commit/push/deployment.
+
 ## November 12: PUBA audits and launch preparation
 
 - User confirmed all current pages reviewed/approved; news migration explicitly

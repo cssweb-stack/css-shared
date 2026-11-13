@@ -36,9 +36,12 @@ One main `.container.footer-inner` contains a Bootstrap row:
 - University links: `col-12 col-lg-9`.
 - Languages: `col-12`, underneath both.
 
-Within the unit block, acronym, identity/address, and contact each use
-`col-12 col-sm-4 col-lg-12`: stacked on phones and desktop, equal thirds on
-576–991.98px tablets. They have a 1.5rem gap when stacked, except after the last.
+Within the unit block, acronym uses `col-12 col-sm-12 col-lg-12`;
+identity/address and contact use `col-12 col-sm-6 col-lg-12`. At 576–991.98px,
+the acronym occupies its own row, with identity/contact in equal halves beneath
+and a 1.5rem row gap. This supersedes equal tablet thirds: fixed-size PUBA text
+overflowed its third and overlapped the identity. Phones and desktop retain
+stacked groups with a 1.5rem gap except after the last.
 
 University links are one list: 2 visual columns below 576px, 3 above. Languages
 are one list of 16 links: 2 columns below 576px, 3 at 576–1199.98px, and 8 from
@@ -53,6 +56,8 @@ breakpoints or legacy language-band rules remain.
 Acronym font sizes are three adjacent media rules: phone 4rem, tablet 4.667rem,
 desktop 4rem. These are fixed values with no JavaScript fitting. Native text-box
 trimming removes leading where supported. Older browsers may retain that leading.
+The acronym uses solid `--footer-abbreviation: #c4d1cb`, no text opacity, and
+no text shadow (removed at user request to isolate the contrast-review warning).
 
 The identity column has three groups with a single 0.625rem inter-group gap:
 
