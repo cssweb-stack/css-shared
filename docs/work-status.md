@@ -2,6 +2,44 @@
 
 Updated November 12, 2026 (Pacific/Honolulu).
 
+## November 12: PUBA course availability note
+
+- Added the user’s final wording after the Courses opening paragraph, before
+  course groups: “The information below provides an overview of typical course offerings;
+  specific courses and topics offered vary by semester based on scheduling and
+  instructional resources.”
+- PUBA build passed before this final wording adjustment; final source wording
+  and diff whitespace checked afterward.
+- Local ../puba content change only; no commit/push/deployment.
+
+## November 12: SSRI deploy artifact lookup failure
+
+- Inspected run 43348253584/job 131632734036 via public GitHub API. Shared checks,
+  install, site build, Configure Pages, and Upload site all succeeded; Deploy alone
+  failed. Three error annotations report the same missing-artifact lookup.
+- Run API lists unexpired github-pages artifact 14003280181 (13,768,777 bytes),
+  created 15:54:14 HST; deploy failed at 15:54:15. Upload was not missing. Suspect
+  artifact-service visibility/timing, not a confirmed workflow version mismatch.
+  Node20 deprecation and Ubuntu migration annotations are separate warnings.
+- No workflow changes made on this evidence. Next: rerun failed job and verify
+  live footer; if recurrent, inspect deploy artifact lookup/logs before changing
+  workflow. Existing terminal authentication limitation still prevents triggering
+  reruns here. This documentation update is local only.
+
+## November 12: Live footer deployment mismatch identified
+
+- Verified local/remote main revisions match: css-shared 4adf9eb, PUBA 2b36564,
+  SSRI 440364a. Shared white/no-shadow and tablet layout changes are pushed.
+- Direct live CSS checks: PUBA has tablet folding but #c4d1cb; SSRI has old tablet
+  layout and #c4d1cb. Neither live stylesheet contains the current white token.
+- GitHub API: last successful PUBA run 43346360609 at 15:38 HST and SSRI run
+  43344973587 at 15:26 HST predate shared commit 4adf9eb at 15:45 HST. Both unit
+  workflows use css-shared/main; this is a deployment lag, not separate templates.
+- Terminal GitHub credential helper unavailable; no workflow dispatched. GitHub
+  connection suggested. Next: run existing deploy.yml workflow for PUBA and SSRI,
+  verify successful runs and live CSS/markup. Other consumers also need a rebuild
+  to pick up shared changes. No additional CSS/template changes made in this check.
+
 ## November 12: Footer abbreviation changed to white
 
 - User requested solid white; shared --footer-abbreviation is now #ffffff.
