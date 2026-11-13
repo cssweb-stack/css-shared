@@ -2,6 +2,15 @@
 
 Updated November 12, 2026 (Pacific/Honolulu).
 
+## November 12: Footer abbreviation changed to white
+
+- User requested solid white; shared --footer-abbreviation is now #ffffff.
+  No acronym opacity or text shadow; approved tablet layout unchanged. Supersedes
+  the previous pale-color experiment; conventions and footer documentation updated.
+- Shared checks and PUBA/SSRI builds passed; white token verified in both bundles.
+  Local only; no commit/push/deployment. Publish css-shared and rebuild consuming
+  sites, then request a fresh Siteimprove scan; no cleared warning claimed.
+
 ## November 12: Footer acronym shadow removed
 
 - Removed only the shared acronym text-shadow declaration. Retained #c4d1cb,

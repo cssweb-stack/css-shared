@@ -56,7 +56,7 @@ breakpoints or legacy language-band rules remain.
 Acronym font sizes are three adjacent media rules: phone 4rem, tablet 4.667rem,
 desktop 4rem. These are fixed values with no JavaScript fitting. Native text-box
 trimming removes leading where supported. Older browsers may retain that leading.
-The acronym uses solid `--footer-abbreviation: #c4d1cb`, no text opacity, and
+The acronym uses solid `--footer-abbreviation: #ffffff`, no text opacity, and
 no text shadow (removed at user request to isolate the contrast-review warning).
 
 The identity column has three groups with a single 0.625rem inter-group gap:

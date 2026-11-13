@@ -562,9 +562,9 @@ overlap and improves the grouping of footer information. Phone and desktop
 stacking, fixed acronym sizes, and colors remain unchanged. Applies to all
 consumers of the shared footer; no unit-specific exceptions agreed.
 
-Subsequent decision: remove the footer acronym text shadow across shared consumers,
-retaining solid #c4d1cb and no text opacity. This supersedes preserving its shadow
-above. The user considers the shadow unnecessary; the next Siteimprove scan will
-test whether removing it clears the contrast-review warning. That cause remains
-unconfirmed until a fresh scan. Do not change the acronym to white or add a solid
-background as part of this experiment.
+Subsequent decisions: footer acronyms across shared consumers use solid white
+(#ffffff), no text opacity, and no text shadow. The user explicitly requested
+white after the shadow-removal experiment. This supersedes both the original
+#c4d1cb color and the temporary instruction to retain that color during testing.
+Keep the existing footer background and approved tablet arrangement. Whether
+these changes clear Siteimprove’s contrast-review warning requires a fresh scan.
