@@ -12,7 +12,7 @@ or portrait-only layout branches. This replaces the earlier first-pass designs.
 
 ## Page and data ownership
 
-POLS now pilots one centralized `people.json` array for faculty and staff. Its
+POLS, PUBA, and SOC use one centralized `people.json` array per unit for faculty and staff. Its
 visibility flags select the faculty directory and mixed Key Contacts grid, while
 individual bios resolve the same record. `faculty.json` no longer exists for POLS.
 Other units keep the legacy data contract below until their approved migration.
@@ -106,3 +106,10 @@ The shared bio sidebar uses profile-contact-divider (1px, margin .75rem above an
 .5rem below) between titles and office, before email/phone, and before each visible
 supplemental section (websites, publications, awards, affiliations/additional links).
 No empty sections or dividers. The office divider applies to bios and all shared directory/contact profile cards.
+
+Profile identity typography has one owner near the top of src/css/profile.css:
+name 1.25rem/600; academic/job title 1rem/600; administrative subtitle 1rem/500.
+Both title lines are smaller than the name and normal 1.125rem paragraphs.
+This supersedes the preceding paragraph-size trial and temporary academic-title
+weight 500. Named profile tokens are the only editable controls; no unit-specific
+or later duplicate title/role rules. See profile-style-audit.md.

@@ -385,9 +385,10 @@ green component overrides. Shared profile contact markup renders office informat
 as plain, non-interactive text. Email and telephone retain their linked icon
 treatment. Shared person cards and bio sidebars give the primary academic/job
 title semibold (600), administrative roles medium (500), and office regular (400),
-with the primary title at 1.125rem and roles/office at 1rem. Bio, directory and
-contact names share 1.25rem/700 weight with 1.5 line-height; preserve the bio H1.
-Within these cards, reserve 700 for names; titles/roles do not use bold or italics.
+with both primary title and administrative roles at 1rem; office remains 1rem.
+The final size decision supersedes the intervening paragraph-size trial. Bio, directory and
+contact names share 1.25rem/600 weight with 1.5 line-height; preserve the bio H1.
+Within these cards, no text exceeds weight 600; titles/roles do not use bold or italics.
 Donation links: prefer an existing Foundation fund URL when its destination can
 be verified. Otherwise retain the unit's working supplied donation-form URL,
 including its designation ID and supplied parameters. Never substitute a campaign
@@ -568,3 +569,48 @@ white after the shadow-removal experiment. This supersedes both the original
 #c4d1cb color and the temporary instruction to retain that color during testing.
 Keep the existing footer background and approved tablet arrangement. Whether
 these changes clear Siteimprove’s contrast-review warning requires a fresh scan.
+
+## Sociology shared contact data (November 12, 2026)
+
+SOC now uses the shared three-section contact layout: white heading/hours, gray
+Main Office with shared Saunders Hall image/map and icon contact links, then
+white surname-sorted people grid. Fax is omitted. SOC’s people.json replaces
+faculty.json and owns all 14 faculty plus Lisa Nhomi-Koza; faculty directory,
+bios, and Key Contacts derive from those same records. Portraits live together
+in media/units/soc/faculty-staff. This supersedes SOC’s legacy faculty-only data
+contract. Confirmed Contact roster: Jennifer Darrah, Lisa Nhomi-Koza, Ashley
+Rubin, and Manfred B. Steger, sorted by surname. The user clarified Ashley only;
+this supersedes the earlier reply suggesting an additional Ashlyn/Ashland contact.
+
+## Profile academic-title weight (November 12, 2026)
+
+Final corrected hierarchy: name 1.25rem/600, academic/job title 1rem/600,
+administrative subtitle 1rem/500. Both title lines must be visibly smaller than
+the name; no independent breakpoint sizes. Normal paragraphs remain 1.125rem/400.
+The explicit smaller-title instruction supersedes the preceding paragraph-size
+trial and the temporary academic-weight-500 adjustment.
+
+All identity typography is owned by one block and its named tokens at the top of
+src/css/profile.css, used by the same profile-identity.njk for contact cards,
+faculty directories and individual bios. Do not add later duplicate rules, local
+unit overrides or inline formatting for these title/role classes. See the measured
+profile audit in docs/profile-style-audit.md.
+
+## Maximum regular-copy weight: 600 (November 12, 2026)
+
+The 600 maximum applies to regular page copy: headings, paragraphs, bullet items,
+profile names, academic titles, and administrative subtitles. Profile names are
+1.25rem/600, academic titles 1rem/600, and administrative subtitles 1rem/500;
+normal paragraphs remain 1.125rem/400. These sizes supersede the paragraph-size
+trial for title lines. Shared typography owns emphasis for strong and b.
+
+Explicit graphic exceptions: the footer acronym stays 800, and the decorative
+404 display stays 900. They function as graphics, not regular copy. The user
+explicitly corrected the overly broad cap; restore and preserve those graphic
+weights. This supersedes the prior no-exceptions instruction as interpreted in
+implementation. Footer color remains solid white and its shadow remains off.
+
+Shared checks enforce the regular-copy cap, exempting only those exact graphic
+selectors/weights and font-face capability metadata. Do not exempt whole files,
+ordinary footer copy, or the actual 404 heading. Direct font-variation overrides
+remain disallowed in authored styles.

@@ -1,0 +1,36 @@
+/* Existing general sidebar-group rules, relocated without redesign. */
+/* Sidebar groups: offices and people share a single heading and spacing treatment. */
+.sidebar-group {
+display: grid;
+gap: .5rem;
+min-width: 0;
+text-align: left;
+overflow-wrap: anywhere;
+}
+
+.sidebar-group > * {
+min-width: 0;
+}
+
+.site-main .sidebar-group > :is(h2, h3, p, address) {
+margin: 0;
+}
+
+.site-main .sidebar-group > :is(h2, h3) {
+font-size: 1.125rem;
+font-weight: 600;
+}
+
+.sidebar-group > img {
+/* Combined with the 0.5rem group gap: 1rem from photo to name. */
+margin-bottom: .5rem;
+}
+
+.sidebar-group + .sidebar-group {
+margin-top: var(--sidebar-block-gap);
+}
+
+.site-main .sidebar-group > .contact-address {
+margin-bottom: .5rem;
+}
+

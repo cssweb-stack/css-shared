@@ -1,0 +1,6 @@
+/* Shared interaction focus; typography.css owns text fundamentals only. */
+:focus-visible {
+outline: 3px solid var(--link-color);
+outline-offset: 2px;
+}
+

@@ -4,7 +4,7 @@
     "lastName": "Chai",
     "slug": "sun-ki-chai",
     "url": "/faculty/sun-ki-chai.html",
-    "photo": "/media/units/soc/faculty/sun-ki-chai.webp",
+    "photo": "/media/units/soc/faculty-staff/sun-ki-chai.webp",
     "photoWidth": 500,
     "photoHeight": 500,
     "title": "Professor",
@@ -17,14 +17,17 @@
         "label": "ResearchGate",
         "url": "https://www.researchgate.net/profile/Sun_Ki_Chai"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Jennifer Darrah",
     "lastName": "Darrah",
     "slug": "jennifer-darrah",
     "url": "/faculty/jennifer-darrah.html",
-    "photo": "/media/units/soc/faculty/jennifer-darrah.webp",
+    "photo": "/media/units/soc/faculty-staff/jennifer-darrah.webp",
     "photoWidth": 500,
     "photoHeight": 500,
     "title": "Associate Professor",
@@ -46,14 +49,17 @@
         "name": "Regents’ Medal for Excellence in Teaching",
         "year": "2019"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": true
   },
   {
     "name": "Katherine Irwin",
     "lastName": "Irwin",
     "slug": "katherine-irwin",
     "url": "/faculty/katherine-irwin.html",
-    "photo": "/media/units/soc/faculty/katherine-irwin.webp",
+    "photo": "/media/units/soc/faculty-staff/katherine-irwin.webp",
     "photoWidth": 500,
     "photoHeight": 500,
     "title": "Professor",
@@ -66,28 +72,34 @@
         "label": "Google Scholar",
         "url": "https://scholar.google.com/citations?hl=en&user=xgjb3aIAAAAJ"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "David Johnson",
     "lastName": "Johnson",
     "slug": "david-johnson",
     "url": "/faculty/david-johnson.html",
-    "photo": "/media/units/soc/faculty/david-johnson.webp",
+    "photo": "/media/units/soc/faculty-staff/david-johnson.webp",
     "photoWidth": 500,
     "photoHeight": 500,
     "title": "Professor",
     "office": "Saunders 217",
     "email": "davidjoh@hawaii.edu",
     "phone": "(808) 956-8462",
-    "phoneHref": "+18089568462"
+    "phoneHref": "+18089568462",
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Aya Kimura",
     "lastName": "Kimura",
     "slug": "aya-kimura",
     "url": "/faculty/aya-kimura.html",
-    "photo": "/media/units/soc/faculty/aya-kimura.webp",
+    "photo": "/media/units/soc/faculty-staff/aya-kimura.webp",
     "photoWidth": 500,
     "photoHeight": 500,
     "title": "Professor",
@@ -116,14 +128,17 @@
         "name": "President’s Award in Outstanding Teaching in Sustainability",
         "year": "2016"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Le Lin",
     "lastName": "Lin",
     "slug": "le-lin",
     "url": "/faculty/le-lin.html",
-    "photo": "/media/units/soc/faculty/le-lin.webp",
+    "photo": "/media/units/soc/faculty-staff/le-lin.webp",
     "photoWidth": 500,
     "photoHeight": 500,
     "title": "Associate Professor",
@@ -136,14 +151,17 @@
         "label": "Curriculum Vitae (CV)",
         "url": "https://docs.google.com/document/d/1zVgllQmglvxHcFq_oKNUwmpmZtLICtr6vbAOgYPY1TQ/edit?usp=sharing"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Krysia Mossakowski",
     "lastName": "Mossakowski",
     "slug": "krysia-mossakowski",
     "url": "/faculty/krysia-mossakowski.html",
-    "photo": "/media/units/soc/faculty/krysia-mossakowski.webp",
+    "photo": "/media/units/soc/faculty-staff/krysia-mossakowski.webp",
     "photoWidth": 500,
     "photoHeight": 500,
     "title": "Professor",
@@ -166,14 +184,17 @@
         "name": "Chancellor’s Citation for Meritorious Teaching",
         "year": "2015"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Eunjeong Paek",
     "lastName": "Paek",
     "slug": "eunjeong-paek",
     "url": "/faculty/eunjeong-paek.html",
-    "photo": "/media/units/soc/faculty/eunjeong-paek.webp",
+    "photo": "/media/units/soc/faculty-staff/eunjeong-paek.webp",
     "photoWidth": 500,
     "photoHeight": 500,
     "title": "Assistant Professor",
@@ -192,14 +213,17 @@
         "label": "Google Scholar",
         "url": "https://scholar.google.com/citations?user=Xw5zAaMAAAAJ&hl=en"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Ashley Rubin",
     "lastName": "Rubin",
     "slug": "ashley-rubin",
     "url": "/faculty/ashley-rubin.html",
-    "photo": "/media/units/soc/faculty/ashley-rubin.webp",
+    "photo": "/media/units/soc/faculty-staff/ashley-rubin.webp",
     "photoWidth": 500,
     "photoHeight": 500,
     "title": "Professor",
@@ -229,14 +253,17 @@
         "label": "ResearchGate",
         "url": "https://www.researchgate.net/profile/Ashley_Rubin"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": true
   },
   {
     "name": "Nandita Sharma",
     "lastName": "Sharma",
     "slug": "nandita-sharma",
     "url": "/faculty/nandita-sharma.html",
-    "photo": "/media/units/soc/faculty/nandita-sharma.webp",
+    "photo": "/media/units/soc/faculty-staff/nandita-sharma.webp",
     "photoWidth": 500,
     "photoHeight": 500,
     "title": "Professor",
@@ -249,14 +276,17 @@
         "label": "Website",
         "url": "http://nanditasharma.net/"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Manfred B. Steger",
     "lastName": "Steger",
     "slug": "manfred-b-steger",
     "url": "/faculty/manfred-b-steger.html",
-    "photo": "/media/units/soc/faculty/manfred-steger.webp",
+    "photo": "/media/units/soc/faculty-staff/manfred-steger.webp",
     "photoWidth": 500,
     "photoHeight": 500,
     "title": "Professor",
@@ -272,14 +302,17 @@
         "label": "Google Scholar",
         "url": "https://scholar.google.com/citations?hl=en&user=FD6qzOMAAAAJ"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": true
   },
   {
     "name": "Yue Sun",
     "lastName": "Sun",
     "slug": "yue-sun",
     "url": "/faculty/yue-sun.html",
-    "photo": "/media/units/soc/faculty/yue-sun.webp",
+    "photo": "/media/units/soc/faculty-staff/yue-sun.webp",
     "photoWidth": 500,
     "photoHeight": 500,
     "title": "Assistant Professor",
@@ -298,14 +331,17 @@
         "label": "Google Scholar",
         "url": "https://scholar.google.com/citations?user=ukhR5hkAAAAJ&hl=en"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Myungji Yang",
     "lastName": "Yang",
     "slug": "myungji-yang",
     "url": "/faculty/myungji-yang.html",
-    "photo": "/media/units/soc/faculty/myungji-yang.webp",
+    "photo": "/media/units/soc/faculty-staff/myungji-yang.webp",
     "photoWidth": 500,
     "photoHeight": 500,
     "title": "Professor",
@@ -318,14 +354,17 @@
         "label": "Google Scholar",
         "url": "https://scholar.google.com/citations?user=hMNsjH0AAAAJ&hl=en"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
   },
   {
     "name": "Wei Zhang",
     "lastName": "Zhang",
     "slug": "wei-zhang",
     "url": "/faculty/wei-zhang.html",
-    "photo": "/media/units/soc/faculty/wei-zhang.webp",
+    "photo": "/media/units/soc/faculty-staff/wei-zhang.webp",
     "photoWidth": 500,
     "photoHeight": 500,
     "title": "Professor",
@@ -351,6 +390,26 @@
         "name": "College of Social Sciences Award for Excellence in Teaching",
         "year": "2012"
       }
-    ]
+    ],
+    "type": "faculty",
+    "showInFacultyDirectory": true,
+    "showInKeyContacts": false
+  },
+  {
+    "name": "Lisa Nhomi-Koza",
+    "lastName": "Nhomi-Koza",
+    "slug": "lisa-nhomi-koza",
+    "type": "staff",
+    "showInFacultyDirectory": false,
+    "showInKeyContacts": true,
+    "url": null,
+    "photo": "/media/units/soc/faculty-staff/lisa-nhomi-koza.jpg",
+    "photoWidth": 400,
+    "photoHeight": 215,
+    "title": "Program Specialist",
+    "office": "Saunders 247",
+    "phone": "(808) 956-8943",
+    "phoneHref": "+18089568943",
+    "email": "lisayok@hawaii.edu"
   }
 ]

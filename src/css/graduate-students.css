@@ -1,0 +1,35 @@
+/* One graduate-student record per standard sidebar/content row. */
+@media (min-width: 1600px) {
+.graduate-student > .student-photo-column {
+width: 20%;
+}
+
+.graduate-student > .student-details-column {
+width: 80%;
+}
+}
+
+.graduate-student + .graduate-student {
+margin-top: 3rem;
+}
+
+.site-main .graduate-student h2 {
+margin-top: 0;
+}
+
+.site-main .graduate-student .student-program,
+.site-main .graduate-student .student-research,
+.site-main .graduate-student .student-advisors {
+font-style: normal;
+font-weight: 400;
+}
+
+
+@media (max-width: 767.98px) {
+.student-photo-column > img {
+width: 75%;
+max-width: 75%;
+height: auto;
+margin-inline: 0;
+}
+}

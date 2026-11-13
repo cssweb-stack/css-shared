@@ -22,6 +22,30 @@ if (file.endsWith('.json')) JSON.parse(fs.readFileSync(file, 'utf8'));
 // Captured third-party reference CSS is not part of our authored/published styles.
 if (file.endsWith('.css') && !name.startsWith('css/_uh-reference/')) {
 const css = fs.readFileSync(file, 'utf8').replace(/\/\*[\s\S]*?\*\//g, '');
+// Enforce component ownership before styles reach consuming sites.
+for (const [, selector, body] of css.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
+if (/\.(?:profile-[\w-]+|faculty-portrait-grid|program-directors-grid|program-office-photo|office-card|unit-contact(?:-[\w-]+)?|map-embed|contact-address|contact-links|advisor-name)\b/.test(selector) && name !== 'css/profile.css' && name !== 'css/diagnostics.css' && !(name === 'css/sidebar.css' && selector.trim() === '.site-main .sidebar-group > .contact-address')) throw new Error(`Profile styles belong in profile.css: ${name}: ${selector.trim()}`);
+if (/\.(?:graduate-student(?:-[\w-]+)?|student-photo-column|student-details-column)\b/.test(selector) && name !== 'css/graduate-students.css' && name !== 'css/diagnostics.css') throw new Error(`Graduate-student styles belong in graduate-students.css: ${name}`);
+if (name === 'css/profile.css' && /\.sidebar-group\b/.test(selector)) throw new Error('Generic sidebar rules belong in sidebar.css.');
+if (name === 'css/layout.css' && /(?:^|;)\s*(?:font(?:-[\w-]+)?|color|text-align|text-shadow|background(?:-[\w-]+)?|border(?:-[\w-]+)?|box-shadow|outline(?:-[\w-]+)?)\s*:/.test(body)) throw new Error('layout.css is structural only.');
+if (name === 'css/typography.css' && /\.(?:unit-|profile-|sidebar-|office-|map-|graduate-|student-)/.test(selector)) throw new Error('typography.css is foundational only.');
+}
+// Font-face ranges describe supported glyph weights, not applied typography.
+let appliedTypography = css.replace(/@font-face\s*\{[^}]*\}/g, '');
+// Explicit graphic exceptions only; ordinary footer/404 copy still has the cap.
+const graphicException = {
+'css/footer.css': ['.site-footer .footer-unit-short-name', '800'],
+'css/not-found.css': ['.site-main .not-found-code', '900']
+}[name];
+if (graphicException) appliedTypography = appliedTypography.replace(/([^{}]+)\{([^{}]*)\}/g, (block, selector, body) => {
+if (selector.trim() !== graphicException[0]) return block;
+return selector + '{' + body.replace(new RegExp('font-weight\\s*:\\s*' + graphicException[1] + '\\s*;'), '') + '}';
+});
+for (const [, property, raw] of appliedTypography.matchAll(/(?:^|[;{}])\s*(font-weight|--[\w-]*weight[\w-]*)\s*:\s*([^;{}]+)/g)) {
+const value = raw.replace(/\s*!important\s*$/, '').trim();
+if (/\b(?:bold|bolder)\b/i.test(value) || [...value.matchAll(/\b\d+(?:\.\d+)?\b/g)].some(m => Number(m[0]) > 600)) throw new Error(`Font weight exceeds the shared maximum 600: ${name}: ${property}: ${value}`);
+}
+if (/font-variation-settings\s*:/i.test(appliedTypography)) throw new Error(`Use font-weight within the shared 600 maximum, not font-variation-settings: ${name}`);
 for (const match of css.matchAll(/var\(\s*(--[\w-]+)\s*\)/g)) {
 if (!definedTokens.has(match[1])) throw new Error(`Undefined CSS token without a fallback: ${name}: ${match[1]}`);
 }
@@ -49,6 +73,27 @@ if (![path.join(root, 'includes', ref), path.join(root, ref)].some(p => fs.exist
 }
 count++;
 }
+// Profile title/role typography has one owner. Reject new competing selectors,
+// local shared-CSS overrides, and repeated declarations before they reach sites.
+const profileTypographyOwners = new Map([
+['.site-main .profile-titles p', 'font-size'],
+['.site-main .profile-titles .profile-job-title', 'font-weight'],
+['.site-main .profile-titles .profile-admin-title', 'font-weight']
+]);
+const seenProfileTypography = new Set();
+for (const file of sourceFiles.filter(file => file.endsWith('.css') && !file.includes('/_uh-reference/'))) {
+const css = fs.readFileSync(file, 'utf8').replace(/\/\*[\s\S]*?\*\//g, '');
+for (const [, rawSelector, body] of css.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
+const selector = rawSelector.trim().replace(/\s+/g, ' ');
+if (!/\.profile-(?:titles|job-title|admin-title)\b/.test(selector)) continue;
+for (const [, property] of body.matchAll(/(?:^|;)\s*(font(?:-size|-weight|-family|-style)?)\s*:/g)) {
+if (path.relative(root, file) !== 'css/profile.css' || profileTypographyOwners.get(selector) !== property || seenProfileTypography.has(selector)) throw new Error(`Competing profile typography: ${path.relative(root, file)}: ${selector}: ${property}. Edit the canonical profile.css block instead.`);
+seenProfileTypography.add(selector);
+}
+}
+}
+if (seenProfileTypography.size !== profileTypographyOwners.size) throw new Error('Missing canonical profile title/role typography rule.');
+
 for (const ref of ['css/common.css', 'css/footer.css', 'data/uh/header.json', 'data/uh/footer.json', 'data/uh/languages.json', 'includes/base.njk', 'includes/layouts/branding/footer/footer.njk', 'media/icons/chevron-right.svg']) {
 if (!fs.existsSync(path.join(root, ref))) throw new Error(`Missing shared file: ${ref}`);
 }

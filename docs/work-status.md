@@ -2,6 +2,71 @@
 
 Updated November 12, 2026 (Pacific/Honolulu).
 
+## November 12: Final regular-copy hierarchy and graphic exceptions
+
+- User clarified cap scope: regular headings/paragraphs/bullets/profile text never
+  exceed 600. Profile names 20px/600; academic titles 16px/600; role subtitles
+  16px/500. Supersedes 18px title/role trial and 700-weight names.
+- Restored footer acronym 800 and decorative 404 display 900 after explicitly
+  rejected broad cap. These are graphic exceptions; white/no-shadow footer and
+  approved tablet arrangement preserved. No other graphic changes authorized.
+- Shared guard exempts only those exact selectors/weights; ordinary footer and
+  404 copy remain capped. Source rules remain centralized in profile.css.
+- Shared checks and SOC/PUBA/SSRI builds passed; built weights/sizes and restored
+  graphic exceptions verified. Prior seven-site 48-case browser check measured
+  final 16px titles/roles and 600 names before restoring graphic exceptions.
+- Local only; no commit/push/deployment. Publish css-shared and rebuild consuming
+  sites to apply online. Existing SOC contact/data migration remains local too.
+
+## November 12: Shared profile typography audit (earlier size trial superseded)
+
+- Final user hierarchy: paragraph 400, academic/job title 600, administrative
+  subtitle 500; both title lines use the same paragraph-size token (1.125rem).
+  Name headings retain 1.25rem/700. Supersedes the prior academic-weight-500 trial.
+- Consolidated typography into one token-controlled block near the top of
+  src/css/profile.css. Removed duplicate smaller-role rules and obsolete unused
+  name/chair typography variants. Shared identity markup remains universal.
+- Added shared CSS ownership guard; negative fixtures prove competing/duplicate
+  role/title typography is rejected. Updated existing conventions rather than
+  retaining conflicting size/weight instructions. Audit: profile-style-audit.md.
+- Seven builds passed: SOC/PUBA/SSRI/PSY/POLS/GEO/SCI. Shared checks and existing
+  SOC/POLS verification passed. Chrome computed-style checks: 16 pages × three
+  widths = 48 cases, zero typography failures or horizontal overflow. Evidence:
+  exports/accessibility/profile-typography-2026-11-12.json.
+- New audit changes local to css-shared; no commit/push/deployment. Existing SOC
+  contact/data migration edits remain separate. Other units’ source edits preserved.
+  Publish shared changes and rebuild consuming sites before evaluating live output.
+
+## November 12: Profile academic titles softened (superseded)
+
+- Shared profile-job-title weight reduced 600 → 500; retained 1.125rem paragraph
+  size. Applies to academic titles in contact/directory cards and bio sidebars.
+  Name heading styling unchanged. Decision recorded in conventions.
+- Shared checks and SOC build/50-page verification passed; built CSS confirms
+  weight 500. Local css-shared change; no commit/push/deployment.
+
+## November 12: Sociology contact page shared layout
+
+- White Contact SOC/hours section, gray full-width shared Main Office/Saunders
+  Hall photo/map, then white shared contacts grid. Address starts Saunders Hall;
+  email/phone use icons and links; fax and legacy inline portraits removed.
+- SOC migrated to one shared people.json: existing 14 faculty records retained,
+  plus Lisa’s existing staff details/photo. Portraits centralized in faculty-staff;
+  bios/directories/contact now use the same records. Existing shared faculty
+  office/phone values remain authoritative over older Contact text.
+- User clarified Ashley only; there is no additional Ashlyn/Ashland contact.
+  Four contacts confirmed, sorted Darrah, Nhomi-Koza, Rubin, Steger. No fifth
+  card pending; earlier fifth-person clarification is superseded.
+- Shared checks and 50-page SOC build/verification passed. Verification excludes
+  Contact’s intentionally replaced imported prose from its old-text comparison;
+  targeted rendered checks cover the new content. Browser verified all three
+  sections, four cards/order, shared image paths, address/map, no fax, and reflow
+  at 320/390/768/1200/1800px. Main-content axe reported zero violations (external
+  map contents excluded). A fresh final build resolved transient stale output
+  during the data-file transition; final verification passed.
+- Local css-shared and ../soc changes only; no commit/push/deployment. Prior SOC
+  phone formatting edits preserved. Other local imported images remain untouched.
+
 ## November 12: PUBA course availability note
 
 - Added the user’s final wording after the Courses opening paragraph, before

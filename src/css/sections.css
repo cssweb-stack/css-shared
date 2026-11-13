@@ -1,0 +1,11 @@
+/* Page-section surfaces and content-divider appearance; geometry stays in layout.css. */
+.site-main { background: var(--white); }
+.page-section--gray {
+background-color: var(--surface-neutral);
+border-block: 6px solid var(--border-neutral);
+}
+@media (min-width: 576px) and (max-width: 991.98px) {
+.content-sidebar > .sidebar-resources::before {
+border-top: var(--content-divider-border);
+}
+}

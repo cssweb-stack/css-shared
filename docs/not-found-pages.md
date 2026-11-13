@@ -21,7 +21,7 @@ remains in the unit repository. Shared content/layout is in the include and
 
 - Existing shared profile geometry: 20/80 at 1600px+, 33/67 at intermediate
   widths, stacked below 768px. No independent breakpoint system.
-- Left: decorative 404, Inter variable font at its supported maximum weight 900,
+- Left: decorative 404, Inter variable font at weight 900 (explicit decorative-graphic exception),
   cool accent `var(--accent-cool)` (#006B8F). Text size follows the column width.
   It is aria-hidden because the right-column H1 supplies the full error message.
 - Right: H1, brief explanation of the site update/moved or retired pages,

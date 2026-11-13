@@ -4,7 +4,7 @@
 {% if building %}
 <section class="row gy-4 grid-spaced unit-contact gx-0 gx-md-5" aria-label="Main office location and directions">
 <div class="col-12 col-md-4 unit-contact-office">
-<div class="sidebar-group">
+<div class="office-card">
 {% if buildingPhoto and buildingPhoto.src %}
 <img class="photo-style" src="{{ buildingPhoto.src | url }}" alt="{{ buildingPhoto.alt | escape }}" width="{{ buildingPhoto.width }}" height="{{ buildingPhoto.height }}" loading="lazy" decoding="async">
 {% endif %}

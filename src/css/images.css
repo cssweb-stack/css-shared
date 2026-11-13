@@ -21,8 +21,7 @@ filter: grayscale(var(--photo-grayscale, 0%));
 }
 
 /* Sidebar images fill their column and preserve their intrinsic proportions. */
-.sidebar-media,
-.profile-photo {
+.sidebar-media {
 display: block;
 width: 100%;
 max-width: 100%;
