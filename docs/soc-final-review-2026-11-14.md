@@ -38,12 +38,12 @@ November 13 text/accessibility/SEO reports remain the full baseline.
   reviewed current sources and configured redirects. Original migration reports
   and source export evidence remain unchanged.
 - Created the standard shared 404 recovery page with SOC-specific quick links.
-  Prepared 63 immediate HTML redirects, including existing eight mappings,
+  Prepared 64 immediate HTML redirects, including existing eight mappings,
   clear reviewed old WordPress matches, restored emeritus/affiliate listings and
   the relocated Courses route. No redirect chains or overwrites of content pages.
   Former undergraduate/graduate landings go to Why Study; former supplementary
   faculty biographies go to the Faculty page containing their restored listings.
-  Colloquia Archive remains explicitly unresolved pending the question below.
+  All 57 original WordPress page URLs are now accounted for (two unchanged, 55 redirected), plus nine intermediate-route redirects.
 - Disabled SOC layout guides through its existing unit setting. Shared guides
   remain available to other units. Kept existing preview indexing settings.
 - Shared check and whitespace checks passed. SOC root and /soc/ builds passed;
@@ -52,14 +52,12 @@ November 13 text/accessibility/SEO reports remain the full baseline.
 ## Decisions and content still open
 
 - News and Events now uses Sociology's X link and events email-list contact; the
-  broken XDevelopers diagnostic was removed. No working X feed is claimed. This
-  fallback was announced while awaiting optional user preferences. Old News and
+  broken XDevelopers diagnostic was removed. No working X feed is claimed. The user approved this fallback. Old News and
   Events URLs now route here.
-- Colloquia Archive: historical content remains in the export; its route remains
-  explicitly unresolved. Not silently deleted or represented as preserved in the
-  new news page. This does not prevent preview scanning; resolve before cutover.
+- Colloquia Archive: historical content remains in the export; the user approved redirecting its old URL to News and Events. Original archive
+  content is not reproduced on the new news page.
 - Old Undergraduate Advising now routes to Contact for the individual advisors,
-  announced as the default; current advising functions span reviewed pages/widgets.
+  explicitly confirmed by the user; current advising functions span reviewed pages/widgets.
 - Courses: three placeholder images; Why Study: three placeholder images.
 - Le Lin: original final sentence remains unfinished pending his supplied text.
 - External funding and other external links: live Siteimprove scan after upload,
@@ -67,13 +65,16 @@ November 13 text/accessibility/SEO reports remain the full baseline.
 
 ## Release state
 
-Local changes only at report preparation. No commit, push, deployment or live
-Siteimprove submission performed. Resolve the archive route before production cutover.
+SOC changes committed locally as e95feff; shared changes committed as fb8ba4e,
+with the final archive decision and handoff in a subsequent shared commit. Both
+push attempts failed because this environment has no GitHub HTTPS credentials.
+Nothing was pushed or deployed; Siteimprove was not submitted.
 Production custom-404 HTTP status and prefix/social metadata must be checked on
 the actual deployed host; local output is not evidence of deployment.
 
 ## Evidence
 
+- exports/soc/SOC-final-routing-2026-11-14.json
 - exports/soc/SOC-code-cleanup-2026-11-14.json
 - exports/soc/SOC-seo-final-root-2026-11-14.json
 - exports/soc/SOC-seo-final-prefix-2026-11-14.json

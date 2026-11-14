@@ -2,6 +2,13 @@
 
 Updated November 14, 2026 (Pacific/Honolulu).
 
+## November 14: Final review complete; GitHub authentication blocks upload
+
+- User confirmed News uses department X link/email only, old Undergraduate Advising goes to Contact, and old Colloquia Archive goes to News and Events. Implemented all three. Migration now has 64 immediate HTML redirects: 55 original WordPress URLs plus nine intermediate routes. Two original URLs unchanged, no unresolved/retired routes. Historical archive content remains in the original export, not on the new news page.
+- Final local review: 60 content pages, 64 redirects; source cleanup, text/course/voice spot checks, shared checks, root/project-prefix builds, internal links/anchors/assets and SEO pass. Focused axe/reflow passed 30 cases; contrast incomplete remains manual follow-up. SOC helper lines off, preview noindex retained. Full report: soc-final-review-2026-11-14.md.
+- Known content follow-up: three Courses images, three Why Study images, Le Lin's unfinished ending. External funding links are deferred to Siteimprove. News fallback is complete and approved.
+- Local commits: SOC e95feff; shared fb8ba4e plus final routing/handoff follow-up. Both git push attempts failed with GitHub HTTPS authentication unavailable (could not read Username). No pushes, deployments, live 404/status validation or Siteimprove scan occurred. Origins were fetched before commits and were aligned; local branches now contain unpublished commits. Push shared main first, then SOC main using an authenticated Git client; SOC workflow builds with /soc/ preview prefix. No other consuming source repository committed.
+
 ## November 14: Final SOC review and preview preparation
 
 - Completed focused final review after page-by-page approval. Full report: soc-final-review-2026-11-14.md. Formatted 48 SOC sources and one shared include; all 60 HTML sources now flush-left without blank lines. Before/after parsed content and markup preserved on all 67 then-existing outputs.

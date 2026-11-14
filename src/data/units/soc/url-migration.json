@@ -339,14 +339,13 @@
       "from": "/events/",
       "to": "/about-soc/news-events.html",
       "label": "News and Events"
+    },
+    {
+      "from": "/colloquia-archive/",
+      "to": "/about-soc/news-events.html",
+      "label": "News and Events"
     }
   ],
   "retired": [],
-  "unresolved": [
-    {
-      "from": "/colloquia-archive/",
-      "label": "Colloquia-Archive",
-      "reason": "Historical colloquia archive is not imported. Confirm whether to preserve it and where; do not silently redirect archive content to a feed introduction."
-    }
-  ]
+  "unresolved": []
 }
