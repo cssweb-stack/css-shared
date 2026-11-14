@@ -5,6 +5,12 @@ not a claim that every older file has already been migrated.
 
 ## Scope and ownership
 
+Across college websites, order comparable items alphabetically by their displayed
+name, starting with the first word. Depart only for a clear reason, and explain
+the reason in the relevant documentation. Academic-program tiles are an accepted
+exception: minor, BA, BAM, MA, PhD follow academic progression. SOC homepage
+research-area tiles use alphabetical order. Confirmed November 14, 2026.
+
 Accessibility reviews here focus on major red flags and shared fixes; Siteimprove
 provides the comprehensive scan. Do not routinely repeat exhaustive viewport
 cross-products when a targeted check will answer the question. The user explicitly
@@ -34,6 +40,33 @@ Use lowercase repository folders. Psychology's local folder is `psy`, formerly
 `PSY`. Avoid introducing absolute paths tied to one computer.
 
 ## Page sources and metadata
+
+HTML/Nunjucks source formatting across consuming sites and shared templates:
+use flush-left source lines with no indentation and no blank lines from top to
+bottom. Keep formatting minimal and predictable: these public repositories must
+be readable and professional, and individual elements must be easy to locate
+for future manual editing. Structural
+opening and closing tags each start on their own line. In lists, opening ul/ol,
+each li, and closing ul/ol occupy separate consecutive lines; a simple li and its
+closing tag stay together. Do not join the first/last li to its list wrapper.
+Keep inline links/emphasis within their text line so formatting does not change
+word spacing. Preserve meaningful whitespace in pre/code, scripts, styles and
+template literals, and preserve front-matter values. Formatting does not change
+rendered spacing or authorize copy/layout edits. Include a separate source code
+cleanup pass in final review; see code-cleanup.md. Confirmed November 14, 2026.
+
+Course names in website prose and lists use SUBJECT NUMBER: Course Title, for
+example SOC 300: Principles of Sociological Inquiry. Keep a space between subject
+and number and after the colon. Code-only references (SOC 300), prerequisites
+and ranges do not acquire a colon or invented title. Preserve letter suffixes,
+cross-listings, topic designators, credits and substantive title wording until
+reviewed. Standard text review reports deviations and conflicting titles for the
+same code; punctuation cleanup does not authorize choosing an academic title.
+Confirmed November 14, 2026; SOC scan recorded in soc-course-format-review.md.
+SOC research-area Related Courses lists omit credit counts because they introduce
+topics rather than degree requirements. Academic requirement/program pages retain
+their existing credit values. Do not remove credits across all pages as a side
+effect of punctuation standardization.
 
 SSRI main-content H2s use `<hr class="section-divider">` between content groups.
 Do not add a leading HR when an H2 opens a new page section/band or biography
@@ -103,6 +136,13 @@ nonpublished diagnostic templates are not standalone content pages.
 
 ## Site settings and shared components
 
+Reusable decorative SVG backgrounds live under src/media/shared/backgrounds/.
+SOC academic homepage tiles opt into the shared tile-pattern-jigsaw modifier;
+it sets the existing --tile-background variable rather than a separate overlay
+implementation. Preserve the supplied SVG's transparent line geometry; filled
+paths can represent thin outlines and must not be blindly changed to fill=none.
+GEO's legacy local contour-lines.svg stays in place pending its separate cleanup.
+
 For GitHub Pages preview builds, set SITE_ORIGIN to the GitHub Pages origin and
 SITE_PATH_PREFIX to the project path. Social page/image URLs use that deployment
 host/path; production canonicals still use the unit’s configured site.url. Omitting
@@ -171,7 +211,71 @@ clobbering local changes, then read `AGENTS.md` and the handoff. Shared and site
 changes may need to travel together. A shared-source CI configuration pinned to a
 remote ref also needs the corresponding shared changes available remotely.
 
+## Shared five-column tile grid
+
+The shared grid-five layout uses five tiles across at 1400px and above,
+three across from 768px through 1399.98px, and one below 768px. Never introduce
+four or two across. These November 14, 2026 breakpoints supersede the earlier
+992px/576px transitions. Centering placement for incomplete rows applies only
+inside the three-across media range, preventing implicit columns on mobile.
+This applies to both photo and academic-program tiles across consuming sites.
+
 ## Sociology and URL migration inventories
+
+Research-area descriptions preserve source scope, concepts and topics. Short
+landing summaries lead with varied third-person present-tense verbs (Explores,
+Examines, Investigates, Studies, Traces), with the research-area heading supplying
+an understood singular subject. This keeps their descriptive role consistent
+with institutional prose rather than addressing the reader. The user delegated
+selection of the grammatical form to the editor, not approval of an -ing form.
+This supersedes the incorrectly recorded participial trial and prior subject-led
+short-description trial. Long descriptions use natural third-person prose without
+identical template openings. Rebuild from supplied source when requested rather
+than continuing to revise rejected drafts.
+During the authorized November 14, 2026 editorial review, displaced original
+statements stay verbatim under Material for Review immediately below the long
+description. Each excerpt must have its own specific reason explaining what was
+separated, why, and which substantive material remains in the revised description.
+A blanket explanation is insufficient. Do not silently delete them or treat them as approved final copy;
+await user decisions. Faculty-specific material has an approved destination:
+relocate it to an introductory sentence immediately below Research Area Faculty,
+above the cards, and remove its displaced upper review entry. Preserve source
+claims without implying fresh verification. Flag areas lacking source material
+rather than inventing an introduction. Field-level or interpretive review items
+remain individually explained above. See soc-research-descriptions.md.
+
+SOC Courses belongs at the root: source `../soc/src/courses.html`, published
+`/courses.html`. November 14, 2026 correction supersedes the original migration
+placement under About. Navigation and hero assignment follow the root route.
+
+SOC research-area faculty memberships live in unit research-areas.json as person
+slugs referencing people.json. Related Courses sections have an HR before the
+heading and use shared list-columns-two: two equal flowing columns from 992px,
+one below, with items kept intact. Preserve course wording and source order.
+The list fills down the first column then the second, like footer link lists.
+Faculty memberships use
+the shared people grid/card, alphabetized
+by surname, in a full-width gray band after each area's descriptions and related
+courses. Never duplicate faculty identity/contact/photo records into area data.
+Memberships reflect existing page lists unless the user supplies a roster update.
+
+SOC homepage uses five research-area tiles in a gray band followed by five
+academic-program tiles on white: minor, BA, BAM, MA, PhD. Honors remains available
+elsewhere but is excluded from this promotional grid. Undergraduate program tiles
+use shared teal; graduate tiles use shared purple; BAM splits those colors evenly.
+Research tiles now use the supplied shared SOC research-area images with readable
+HTML labels, decorative empty alt text and white text on a padded black label
+band aligned to the tile bottom at 80% black opacity, with labels at weight 400,
+0.9375rem normally and 0.875rem at 1600px+. The shared photo-tile component
+reserves two text lines plus uniform padding controlled by one variable,
+`--photo-tile-label-padding` (0.5rem). This replaces the oversized fixed 6rem
+trial. Bands align at equal height when labels occupy up to two lines; longer
+labels can expand at narrow widths or increased text size rather than clip.
+Avoid container-relative label font sizing: changing tile padding previously
+enlarged labels. See photo-tiles.md for reusable markup and controls.
+This supersedes the initial full-photo dark overlay and opaque label band to retain image color
+and brightness. Reuse the shared
+five-column grid and tile styles used by Geography rather than local copies.
 
 Sociology follows the reviewed hierarchy and content merges in
 [`soc-migration.md`](soc-migration.md). Treat that approved walkthrough as the
@@ -291,6 +395,19 @@ PUBA's fixed Main/Associated directory banners remain separate from its profiles
 
 ## One faculty biography template
 
+SOC contact terminology: Sociology Undergraduate Advising is no longer a defined
+office or entity. Do not use it as an office label in revised copy. Pending a
+confirmed AKD contact, route Alpha Kappa Delta membership inquiries to the general
+Department of Sociology contact page. The unit may supply a specific recipient
+later. Confirmed November 14, 2026.
+
+Shared profile website/social-link heading is Online, not Website/Websites.
+Use destination labels such as Website, Website / CV (only for a combined
+destination), Research Lab or the platform name. SOC Ashley Rubin's existing
+Twitter link is labeled X and appears under Online after Website; preserve the
+account link unless removal is requested. Person names remain only in the hidden
+accessible link context, not redundant visible labels. Confirmed November 14, 2026.
+
 POLS is the pilot for unified unit `people.json` (an array). It replaces POLS
 `faculty.json` and contains faculty and staff once each, with `type`,
 `showInFacultyDirectory`, and `showInKeyContacts` fields. Edit a name, title, photo,
@@ -338,7 +455,22 @@ never infer a URL over an explicit null. WGSS Ayu is an intentional example.
 “Standard text cleanup” means the scoped, source-preserving checklist in
 `text-cleanup.md`, followed by a unit-specific `text-cleanup-report-template.md`
 report with measured counts, examples, verification and explicit action-needed status.
-House style uses spaces around em dashes. Correct unmistakable
+Superseded November 14, 2026: the former spaced-em-dash house style no longer
+applies. Do not use dashes to separate clauses or introduce explanations in
+new or revised website prose across any unit. Use sentences, commas, colons or
+parentheses instead. Preserve technical hyphens in URLs/code and legitimate
+compound words and ranges; do not sweep retained source-comparison copy.
+Spell out University of Hawaiʻi at Mānoa in new or revised prose rather than
+abbreviating it to UH Mānoa. Preserve Hawaiian diacritics. Present study options
+from smaller to larger: minor, BA, MA, PhD. Why Study SOC's new opening is one
+paragraph. These directions do not authorize a wholesale rewrite of other pages.
+Department website prose uses third-person institutional voice: students,
+faculty, and the department. Do not switch to second-person reader address
+(you/your/you’ll), imperative promotional openings, or first-person institutional
+we/our in new or revised narrative copy. Confirmed November 14, 2026 after the
+SOC draft incorrectly changed voice. Retained source comparison and attributed
+quotations remain distinct from newly written department prose.
+Correct unmistakable
 Hawaiʻi/University of Hawaiʻi at Mānoa spelling in prose; do not change URLs,
 attributes, filenames, original export snapshots, code or table structure.
 Flag ambiguous dash, quote, wording and encoding choices instead of guessing.
@@ -789,8 +921,10 @@ page-label convention, not a replacement of ordinary application/admission prose
 
 ## Sociology Funding Sources entry format
 
-Use name — description for funding award/resource list entries, with spaced em
-dashes and a capitalized description opening. Link the resource name where a
+Use name: description for new or revised funding award/resource list entries,
+with a capitalized description opening. The November 14, 2026 prohibition on
+prose dash separators supersedes the earlier spaced-em-dash format; existing
+entries await scoped review. Link the resource name where a
 destination exists; avoid extra application-explanation links when the name can
 carry that destination. STAR (UH Foundation Scholarships) is a General Funding
 Resources bullet, not a separate example-based section. Preserve hyphens in

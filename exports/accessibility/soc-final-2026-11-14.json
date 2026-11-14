@@ -1,0 +1,396 @@
+{
+  "date": "2026-11-14",
+  "scope": "15 changed/representative pages at phone and desktop; baseline full-site audit retained",
+  "results": [
+    {
+      "url": "/",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 73
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/",
+      "width": 1800,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 81
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/faculty/",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 58
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/faculty/",
+      "width": 1800,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 66
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/faculty/ashley-rubin.html",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 58
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/faculty/ashley-rubin.html",
+      "width": 1800,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 66
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/about-soc/research-areas/",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 58
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/about-soc/research-areas/",
+      "width": 1800,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 66
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 58
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html",
+      "width": 1800,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 66
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/courses.html",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 58
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/courses.html",
+      "width": 1800,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 66
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/about-soc/why-study-soc.html",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 58
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/about-soc/why-study-soc.html",
+      "width": 1800,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 66
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/alpha-kappa-delta.html",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 58
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/alpha-kappa-delta.html",
+      "width": 1800,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 66
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/undergraduate/academic-planning.html",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 58
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/undergraduate/academic-planning.html",
+      "width": 1800,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 66
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/undergraduate/major/requirements-fall-2022-and-earlier.html",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 58
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/undergraduate/major/requirements-fall-2022-and-earlier.html",
+      "width": 1800,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 66
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/graduate/annual-review.html",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 58
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/graduate/annual-review.html",
+      "width": 1800,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 66
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/graduate/master-ma/",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 58
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/graduate/master-ma/",
+      "width": 1800,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 66
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/graduate/doctorate-phd/",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 58
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/graduate/doctorate-phd/",
+      "width": 1800,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 66
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/graduate/funding-sources/sakihara-scholarship.html",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 58
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/graduate/funding-sources/sakihara-scholarship.html",
+      "width": 1800,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 66
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/404.html",
+      "width": 320,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 58
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    },
+    {
+      "url": "/404.html",
+      "width": 1800,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 66
+        }
+      ],
+      "overflow": false,
+      "diagnostics": false
+    }
+  ]
+}

@@ -44,3 +44,21 @@ publication. Repositories to publish together: soc and css-shared.
 The shared navigation now occupies its own white section and column between the
 intro and gray content section on every degree page. Intro content and navigation
 styling remain unchanged; visual treatment will be decided separately.
+
+## November 14: Shared navigation treatment
+
+Annual Review is shared by both degrees and uses one two-item navigation:
+Master’s (MA) and Doctorate (PhD), linking to their overview pages and matching
+the global dropdown labels. This supersedes the initial two full-menu treatment.
+The annualReview record in degree-navigation.json reuses the same include and
+styling. Standard col-12 wrappers provide red diagnostic guides; buttons are not
+layout columns.
+
+The shared degree-navigation include now uses reusable degree-navigation classes
+in buttons.css. Compact light-gray rounded boxes become white on hover/focus;
+the current page has a white surface, visible border and weight 600 with
+aria-current retained. Links use 0.9375rem text, 44px minimum height, 0.375rem
+row/column gaps and compact padding. Both MA and PhD fit one row at tested
+desktop widths of 1200, 1400 and 1800px. Tablet widths wrap naturally; below
+576px each item fills a row. No horizontal scrolling, fixed navigation height,
+or per-page style copies. This supersedes the pending visual-treatment note above.

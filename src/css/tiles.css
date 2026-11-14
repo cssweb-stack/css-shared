@@ -17,10 +17,10 @@ z-index: 0;
 pointer-events: none;
 border-radius: inherit;
 background-image: var(--tile-background, none);
-background-size: 200% auto;
+background-size: var(--tile-background-size, 200% auto);
 background-position: center;
-background-repeat: no-repeat;
-opacity: 0.2;
+background-repeat: var(--tile-background-repeat, no-repeat);
+opacity: var(--tile-background-opacity, 0.2);
 filter: invert(1) drop-shadow(.4px 0 0 var(--white)) drop-shadow(-.4px 0 0 var(--white));
 }
 
@@ -30,6 +30,13 @@ z-index: 1;
 }
 
 /* Homepage Program Tiles: Square Layout */
+.tile-pattern-jigsaw {
+--tile-background: url("../media/shared/backgrounds/jigsaw.svg");
+--tile-background-size: 96px 96px;
+--tile-background-repeat: repeat;
+--tile-background-opacity: 0.1;
+}
+
 .program-tile {
 container-type: inline-size;
 display: grid;
@@ -105,6 +112,65 @@ min-height: 2.8em;
 font-size: clamp(.75rem, 7.5cqi, 1.75rem);
 font-weight: 600;
 color: inherit;
+}
+
+/* Photo tiles reuse program-tile interaction and tile-style framing.
+   Reserve two label lines; one token controls padding on every side.
+   Longer labels may grow rather than clip at narrow widths or text zoom. */
+.photo-tile {
+--photo-tile-label-padding: 0.5rem;
+--photo-tile-label-lines: 2;
+aspect-ratio: auto;
+padding: 0;
+align-content: end;
+}
+
+.photo-tile > .photo-tile-image {
+position: absolute;
+inset: 0;
+z-index: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+/* A square sizing track can grow when enlarged labels need more room. */
+.photo-tile::before {
+content: "";
+position: static;
+grid-area: 1 / 1;
+width: 100%;
+aspect-ratio: 1;
+background: none;
+filter: none;
+}
+
+.photo-tile > .photo-tile-label {
+grid-area: 1 / 1;
+align-self: end;
+z-index: 1;
+box-sizing: border-box;
+width: 100%;
+min-height: calc(var(--photo-tile-label-lines) * 1.5em + 2 * var(--photo-tile-label-padding));
+display: block;
+align-content: center;
+padding: var(--photo-tile-label-padding);
+background: rgb(0 0 0 / 80%);
+color: var(--white);
+font-size: 0.9375rem;
+font-weight: 400;
+line-height: 1.5;
+overflow-wrap: anywhere;
+}
+
+@media (min-width: 1600px) {
+.photo-tile > .photo-tile-label {
+font-size: 0.875rem;
+}
+}
+
+.tile-split-teal-purple {
+background: linear-gradient(90deg, var(--color-teal) 50%, var(--color-purple) 50%);
 }
 
 /* Event-Only Tiles */

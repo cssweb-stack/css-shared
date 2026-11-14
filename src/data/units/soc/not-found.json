@@ -1,0 +1,24 @@
+{
+  "quickLinks": [
+    {
+      "label": "Sociology homepage",
+      "url": "/"
+    },
+    {
+      "label": "Academic Planning",
+      "url": "/undergraduate/academic-planning.html"
+    },
+    {
+      "label": "Faculty",
+      "url": "/faculty/"
+    },
+    {
+      "label": "Research Areas",
+      "url": "/about-soc/research-areas/"
+    },
+    {
+      "label": "Contact the Department of Sociology",
+      "url": "/contact.html"
+    }
+  ]
+}

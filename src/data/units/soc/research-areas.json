@@ -1,0 +1,50 @@
+{
+  "asia-pacific-hawaii-regional-global-contexts": {
+    "facultySlugs": [
+      "sun-ki-chai",
+      "jennifer-darrah",
+      "katherine-irwin",
+      "david-johnson",
+      "aya-kimura",
+      "le-lin",
+      "manfred-b-steger",
+      "myungji-yang",
+      "wei-zhang"
+    ]
+  },
+  "crime-law-social-control": {
+    "facultySlugs": [
+      "katherine-irwin",
+      "david-johnson",
+      "ashley-rubin"
+    ]
+  },
+  "health-aging-medical-sociology": {
+    "facultySlugs": [
+      "aya-kimura",
+      "krysia-mossakowski",
+      "wei-zhang"
+    ]
+  },
+  "nationalism-globalization-sustainability": {
+    "facultySlugs": [
+      "aya-kimura",
+      "le-lin",
+      "nandita-sharma",
+      "manfred-b-steger",
+      "myungji-yang"
+    ]
+  },
+  "race-ethnicity-gender-class": {
+    "facultySlugs": [
+      "sun-ki-chai",
+      "jennifer-darrah",
+      "katherine-irwin",
+      "aya-kimura",
+      "krysia-mossakowski",
+      "eunjeong-paek",
+      "nandita-sharma",
+      "myungji-yang"
+    ]
+  }
+}

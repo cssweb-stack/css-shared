@@ -1,5 +1,10 @@
 # One shared faculty biography layout
 
+Website/social links appear under Online in the shared sidebar. Data continues
+to use websites; link labels identify the destination (Website, Website / CV,
+Research Lab, X). SOC Ashley Rubin's X entry now belongs in this collection,
+not Additional Links. Existing hidden person-name context on links is retained.
+
 SCI's people-only phase uses the same layout and one shared `people.json` array.
 Its five-program directory selects the same records using a `programs` ID array;
 it does not copy records or introduce program-specific bio templates. Optional

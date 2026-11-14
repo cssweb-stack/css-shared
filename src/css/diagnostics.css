@@ -36,6 +36,17 @@ box-shadow: inset 0 0 0 3px pink;
 box-shadow: inset 0 0 0 3px red;
 }
 
+/* Photo layers cover parent inset shadows; draw the same guide above them. */
+.site-main .photo-tile::after {
+content: "";
+position: absolute;
+inset: 0;
+z-index: 2;
+border-radius: inherit;
+pointer-events: none;
+box-shadow: inset 0 0 0 3px red;
+}
+
 /* Navigation's desktop surface overlays its contents; draw guides above it. */
 .unit-nav > .container,
 .unit-nav .row > .col-12 {

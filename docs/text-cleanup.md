@@ -1,5 +1,10 @@
 # Standard text cleanup
 
+Final review also includes a separate [source code cleanup](code-cleanup.md):
+consecutive structural lines, separate list wrappers/items, and no blank source
+lines. Keep source formatting distinct from prose edits and report its completion
+separately.
+
 Reusable request: **“Run standard text cleanup for [UNIT].”** Follow this checklist
 and produce a unit-specific report using [the report template](text-cleanup-report-template.md).
 For multiple units, give each its own counts and findings. State explicitly whether
@@ -50,6 +55,16 @@ directories or Contact cards. Record routing changes in the cleanup report.
 
 ## Review rather than automatically rewrite
 
+- **Course-reference format:** named courses use `SUBJECT NUMBER: Course Title`,
+  with one space before the number and after the colon. Report missing colons,
+  inconsistent spacing, title separators and trailing punctuation. Leave code-only
+  references, prerequisites and ranges alone. Preserve suffixes (476L), cross-listed
+  codes, topic markers such as (Alpha), and credit values. Report variant titles
+  for the same code separately; these need source review, not automatic synonym,
+  punctuation or capitalization changes. Record scope and counts in the report.
+  SOC research-area course lists omit credits; academic pages retain existing
+  values. Keep this scoped distinction when reporting or correcting credits.
+
 - **Institutional-name capitalization:** flag inconsistent use of Department /
   department, College / college, University / university and similar references.
   Distinguish full official names from generic references and sentence openings.
@@ -65,6 +80,13 @@ directories or Contact cards. Record routing changes in the cleanup report.
   Record the page, excerpt, and voice concern in the report. Do not choose a
   site-wide voice or rewrite pronouns without consulting the user. This is a
   report-only review item, not an automatic replacement rule.
+  This review can also be requested separately as a focused voice check, with
+  its own unit report. Apply the recorded institutional third-person convention
+  to department narrative; separate biographies, quotes, policies and functional
+  instructions. A pronoun scan is only candidate collection: inspect context,
+  exclude Roman numerals/acronyms/name fragments, and check promotional imperatives
+  such as Build/Explore/Deepen even when no you/your appears. A request to scan
+  does not itself authorize wholesale prose changes.
 
 - Look for **missing** Hawaiian diacritics as well as wrong-character lookalikes.
   The standard tool includes a report-only `diacritic_review` list in findings.json.

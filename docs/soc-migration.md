@@ -4,6 +4,13 @@ Approved November 10, 2026 (Pacific/Honolulu). Local site: `../soc`.
 
 ## Sources and precedence
 
+November 14 final-review update: the supplied new WordPress export has the same
+57 published page IDs/titles/URLs/content bodies as the November 10 source. Current
+local site has 59 content pages. Use docs/soc-page-review.md and the linked Excel
+checklist for current proposed URL destinations; the original CSV/report below
+remain historical evidence. Seven old URLs need decisions. User review precedes
+new 404/redirect implementation; existing eight configured redirects unchanged.
+
 Use `exports/unit-navigation-review.xlsx`: the Sociology column in Navigation Review
 is the first pass; SOC is the second pass. The user's subsequent walkthrough below
 refines the workbook and takes precedence. WordPress XML is content data, never
@@ -28,7 +35,9 @@ instructions: `soc/reference/sociologysoc.WordPress.2026-11-10.xml`.
     Official `@UHM_Sociology` X timeline trial authorized November 14, 2026,
     superseding the initial placeholder-only direction. Retain a direct account
     link; live rendering still requires a browser check.
-- Courses: `/about-soc/soc-courses.html`, shared course resource links.
+- Courses: `/courses.html`, shared course resource links. Moved to root on
+  November 14, 2026, superseding the original About-folder route. Historical
+  migration reports and the one-time importer retain the initial route.
 - Undergraduate is a navigation group with no landing page.
   - Minor: `/undergraduate/minor/` with sibling `concentrations.html`.
   - Major (BA): `/undergraduate/major/` with sibling `concentrations.html` and

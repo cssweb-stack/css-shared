@@ -2,6 +2,396 @@
 
 Updated November 14, 2026 (Pacific/Honolulu).
 
+## November 14: Final SOC review and preview preparation
+
+- Completed focused final review after page-by-page approval. Full report: soc-final-review-2026-11-14.md. Formatted 48 SOC sources and one shared include; all 60 HTML sources now flush-left without blank lines. Before/after parsed content and markup preserved on all 67 then-existing outputs.
+- Fixed remaining documented punctuation, diacritics, inline spacing and TMS definition issues; retained Le Lin's unfinished ending pending his reply. Courses/Why Study each retain three placeholder images. News now has the real Sociology X link and email-list contact, with the broken XDevelopers test removed; this conservative fallback was announced while optional preferences were pending.
+- Added shared-standard SOC 404 and 63 static HTML redirects (not HTTP 301). Undergraduate Advising goes to Contact; former supplementary faculty bios go to the restored Faculty listings. Colloquia Archive is the sole unresolved old route; export content preserved, no silent retirement. Original review workbook untouched.
+- Updated stale SOC verifier to use current source permalinks/redirect configuration. Root and /soc/ preview builds, internal links/anchors/assets, SEO (zero errors), shared checks and whitespace checks passed. Focused axe/reflow: 15 pages at 320/1800px, zero violations/overflow; contrast incomplete remains manual follow-up. SSRI/PUBA/GEO regression builds passed; their unrelated source edits preserved.
+- SOC guides disabled with its existing per-unit flag; other sites retain their settings. Noindex/nofollow retained. Two benign SEO notes (full Asia/Pacific title, shortened Courses title) preserved. Funding external-link work remains for Siteimprove.
+- Fetched shared and SOC origins successfully; both were on main with no pre-existing ahead/behind commits. Current changes prepared locally for GitHub preview; commit/push/deployment follow below when verified. No Siteimprove access or scan run claimed.
+
+## November 14: Sakihara Scholarship requirements
+
+- Moved Requirements and its five-item list to the bottom of ../soc/src/graduate/funding-sources/sakihara-scholarship.html in a separate full-width gray section using standard container/row/col-12 wrappers. Requirements is now H2. Selection committee paragraph follows the list inside the gray section, restoring its original order after clarification; substantive text retained. Touched source uses flush-left consecutive lines and separate list wrappers.
+- SOC build passed (59 pages, 8 existing redirects). Local source/documentation edits only; no commit, push or deployment.
+
+## November 14: Source formatting rule and pending cleanup
+
+- Recorded shared HTML/Nunjucks formatting rules in project-conventions.md and new code-cleanup.md: flush-left with no indentation or blank source lines; structural tags on separate lines; ul/ol wrappers and each li on consecutive separate lines. Public GitHub readability and future manual editing are explicit reasons. Preserve inline word spacing, whitespace-sensitive content, front matter and template semantics.
+- Added the separate code-cleanup pass to final-review guidance in text-cleanup.md. SOC sweep remains pending the user's review phase (requested for roughly 20 minutes later); no sweep, scheduling, page edits or builds performed for this documentation task. Local documentation changes only, not committed/pushed/deployed.
+
+## November 14: Emeritus and affiliate faculty restored
+
+- Added simple Emeritus Faculty and Affiliate Graduate Faculty lists below the gray directory band on ../soc/src/faculty/index.html. Retained all four supplied names, emails and research interests; no photos, redundant rank titles or italics. Emeritus entries sorted by surname. Used the requested dash separator for these directory entries only.
+- Current navigation already has no separate emeritus/affiliate item; no new page/menu item created. Faculty anchors emeritus-faculty and affiliate-graduate-faculty provide potential migration targets. The old Hagen Koo, Patricia Steinhoff and Yean-Ju Lee URL decisions can now be reviewed against this restored content; workbook and redirects unchanged pending review.
+- SOC build passed (59 pages, 8 existing redirects); whitespace checks passed. Local changes only; no commit, push or deployment.
+
+## November 14: Degree navigation bottom spacing
+
+- Corrected component selector specificity in buttons.css so generic content UL/LI margins no longer override the navigation's zero margins. Flex gap alone now controls button separation; no negative margins or diagnostic changes.
+- SOC build passed. Chrome verified both degrees at nine widths from 320 to 1800px: list/item margins zero, navigation bottom gap zero, desktop single-row fit and responsive wrapping preserved. Local shared changes only; not committed, pushed or deployed.
+
+## November 14: Annual Review navigation correction
+
+- Annual Review now uses one two-item navigation linking to Master’s (MA) and Doctorate (PhD) overviews, with exact dropdown labels. Supersedes the two full MA/PhD menus. Added SOC annualReview navigation data; shared include/CSS and standard col-12 diagnostic wrapper retained.
+- SOC build, shared checks and whitespace checks passed. Verified the built page has one navigation with exactly these two overview links. Previous responsive component checks apply to the unchanged shared styling.
+- Local shared/SOC changes only; no commit, push or deployment.
+
+## November 14: MA and PhD navigation styling
+
+- Styled the shared degree-navigation include with reusable classes in buttons.css: subtle gray rounded boxes, white hover/focus and current-page treatment, compact spacing, 44px minimum targets. Removed the former utility-only list treatment and extra nav top margin. Degree destinations and labels retained.
+- SOC build passed (59 pages, 8 existing redirects). Headless Chrome checked MA/PhD at 320, 390, 576, 768, 992, 1024, 1200, 1400 and 1800px: one row from 1200px, natural tablet wrapping, full-width rows below 576px, no navigation overflow, one current item per overview. Shared checks and whitespace checks passed.
+- Local shared changes only for this task; no commit, push or deployment. Ready for visual review across degree subpages.
+
+## November 14: Academic Planning links
+
+- In ../soc/src/undergraduate/academic-planning.html, updated the Law and Society certificate link to the supplied Political Science URL. Linked Minor and Certificates labels to the supplied catalog programs page and removed both trailing complete-list sentences. Other copy retained.
+- SOC build passed (59 pages plus 8 existing redirects); whitespace checks passed. Local edits only, not committed, pushed, or deployed. Funding page accepted as consolidated; external-link review remains for Siteimprove after publication.
+
+## November 14: AKD membership contact
+
+- In ../soc/src/alpha-kappa-delta.html, replaced the obsolete Sociology Undergraduate Advising label with contact the Department of Sociology, retaining the general contact-page destination. No specific AKD recipient is confirmed; routing can change when the unit supplies one.
+- Added the shared photo-style class to the AKD sidebar logo for the standard border, radius, and shadow treatment. No new CSS.
+- Local source edits only; no commit, push, or deployment. Verified the link and image class in source and whitespace checks.
+
+## November 14: SOC earlier BA requirements review
+
+- Updated only the gray section in ../soc/src/undergraduate/major/requirements-fall-2022-and-earlier.html: Course Requirements heading now includes the 30 upper-division SOC credit requirement; removed the redundant sentence. Converted numbered labels to unnumbered H3s, removed label colons, and added shared my-3 dividers above Prerequisites and Additional Notes. Course lists and academic requirements retained.
+- SOC build passed (59 pages and 8 existing redirects). Local source changes only; not committed, pushed, or deployed.
+
+## November 14: Shared profile Online heading
+
+- Renamed shared Website/Websites section Online. Ashley Rubin's Twitter entry
+  now labeled X and moved into websites after Website; existing URL retained.
+  SOC Website/CV label spaced Website / CV. SSRI Jack Barile's Faculty Website
+  label simplified to Website; Research Lab unchanged. No link destinations removed.
+- SOC, SSRI and PUBA builds passed. Checked Ashley's ordered Online links and
+  preserved X URL; SSRI Online heading present; PUBA profiles have no affected
+  website section. Shared/whitespace checks passed. Earlier unrelated SSRI/PUBA
+  changes preserved; no source edits in those consuming repositories this task.
+- Local css-shared changes only for this task; no commit/push/deploy. Commit/push
+  shared alongside existing SOC work and rerun SOC and SSRI deployments to publish
+  shared heading; PUBA rebuild passed with no affected profile heading.
+
+## November 14: SOC Courses layout during page review
+
+- Separated H1/intro into its own white section. Lower/Upper/Graduate Division
+  now use three shared image-left rows in an independent full-width gray band,
+  with shared decorative placeholders pending images. Course-resource widget and
+  its preceding sentence are in a separate white section below. All copy retained.
+- SOC build and whitespace checks passed; verified three rows, one gray band,
+  one H1 and unchanged paragraphs. Local soc/css-shared handoff only; no push or
+  deployment. Existing Excel workbook untouched so user review notes are safe.
+
+## November 14: Sociology final review workbook ready
+
+- Compared new WordPress export with saved November 10 source: same 57 published
+  page IDs/titles/URLs and raw page bodies; 242 total items, no posts. Matched
+  against 59 current local content pages. Updated stale destination proposals,
+  checked local targets/fragments and recorded known merges/splits/editorial
+  changes. No new content/media imported and no website source edited in this task.
+- Excel: exports/soc/SOC-page-review-2026-11-14.xlsx. Five tabs: Page Review (59
+  current pages, From/To local and GitHub links, status dropdown, notes), Old URLs
+  (57), URL Decisions (7), Route Changes (8 existing plus Courses proposal), Read Me.
+  Decisions: three unmatched faculty bios, colloquia archive, News, Events and
+  Undergraduate Advising. No retirement assumed. News page still has XDevelopers
+  diagnostic; advising functions are distributed, so primary target needs review.
+- Old URLs: 2 unchanged, 40 moved proposals, 8 merged proposals, 7 undecided.
+  All 57 originals and 59 current pages accounted for; all nonblank proposed paths/
+  anchors resolve. SOC build, workbook ZIP/XML/rows/dropdown/360 hyperlink checks
+  and both whitespace checks passed. Report docs/soc-page-review.md; machine plan,
+  CSV, workbook data and validation in exports/soc. Not a fresh factual-content,
+  text/voice, accessibility or SEO audit; live preview freshness not verified.
+- User reviews workbook first. New 404/redirect edits deferred; existing eight
+  mappings unchanged. No 404 created. Follow with agreed decisions and final audits.
+  Local css-shared artifacts/docs only for this task; earlier soc/shared work
+  preserved. No commit/push/deploy; no synchronization claimed. Keep annotated
+  workbook intact. Eventually commit/push soc and css-shared, rerun SOC deployment.
+
+## November 14: Shared Jigsaw degree-tile overlay
+
+- User approved 96px repeat size; reduced Jigsaw opacity to 0.1 for subtler
+  linework. SOC rebuild passed. Local only; no commit/push/deploy.
+- Scaled Jigsaw to 96×96px and repeated it at user request. Existing shared
+  overlay now accepts size/repeat/opacity variables with original fallbacks;
+  Jigsaw modifier owns these settings (opacity 0.2). GEO defaults unchanged.
+  SOC build/shared and whitespace checks passed; no new browser pass for this
+  size adjustment. Local only, no commit/push/deploy.
+- Inspected supplied src/media/shared/backgrounds/jigsaw.svg: one black path,
+  no background rectangle/image/script; thin filled line geometry left intact.
+  Added reusable tile-pattern-jigsaw modifier setting existing --tile-background;
+  applied only to SOC's five academic tiles. Existing filter makes black paths
+  white at 20% overlay opacity, retaining teal/purple/BAM split colors.
+- SOC build/shared and whitespace checks passed. Browser verifies all five
+  computed background URLs/opacity and SVG transparent pixels; photo tiles and
+  GEO's local contour asset unchanged. Local soc/css-shared only, no commit,
+  push or deployment. Commit/push both and rerun SOC when ready.
+
+- Homepage first paragraph after H1 now uses existing shared tagline class.
+  Copy unchanged; SOC build passed. Local only, no commit/push/deploy.
+
+## November 14: Health research description finalized for review
+
+- User accepted life course sentence; retained lowercase. Added closing sentence
+  about medical sociology as an established academic specialization and its ASA
+  scholarly community, explaining section in ordinary language. Avoided unverified
+  current growth/largest ranking; ASA membership form confirms topical groups.
+- Removed both resolved Health review excerpts/reasons. No research-area review
+  blocks remain. Courses/faculty unchanged. SOC build/whitespace checks passed.
+  Local soc/css-shared notes only; no commit/push/deploy. User review of closing
+  wording next; department approval not implied.
+
+- Race research description: changed second-sentence opening from Research
+  addresses to Areas of inquiry include, removing adjacent repeated openings.
+  Topics unchanged; SOC build passed. Local only, no commit/push/deploy.
+
+## November 14: Nationalism research description approved
+
+- User approved the revised Nationalism, Globalization, and Sustainability
+  description. Kept its wording and removed the resolved Material for Review
+  excerpt/reason. Courses, faculty intro and grid unchanged. Health's two review
+  excerpts remain unresolved; Nationalism meaning review is complete.
+- SOC build and whitespace checks passed. Local soc/css-shared notes only;
+  no commit, push or deployment.
+
+## November 14: Crime research field clarification
+
+- Added “the fields of” before the three named specializations and a brief
+  Punishment and Society definition between the other two explanations, at user
+  direction. Generic field context supported by SAGE handbook description;
+  not attributed to department source text or additional faculty capabilities.
+  Retained capitalization. Notes in docs/soc-research-descriptions.md.
+- SOC build and whitespace checks passed. Courses, faculty intro and memberships
+  unchanged. Local soc/css-shared notes only; no commit, push or deployment.
+  Department review of edited description remains pending.
+
+## November 14: Sociology institutional voice cleanup complete
+
+- Revised News, Contact, Courses, Faculty landing, Admissions, Hörmann Prize and
+  Honors Track to third-person institutional prose. Courses' promotional commands
+  now have third-person subjects; revised intro spells out the university name.
+  Personal biographies, original review quotes, shared policy/instructions and
+  external titles unchanged. No academic requirements or numeric facts changed.
+- Rebuilt SOC and rescanned 59 rendered pages: no targeted institutional pronoun
+  issues remain. Candidate blocks 67 to 57; remaining matches classified as
+  intentional/contextual or Roman numeral/name false positives. Verified tags,
+  attributes/links/templates/numbers unchanged on seven edited pages and preserved
+  biography/quote content against baseline. Shared and whitespace checks pass.
+- Report docs/soc-voice-review.md; after evidence in exports/voice. No new browser,
+  accessibility or SEO audit. Local soc/css-shared changes only; no commit/push/
+  deployment. Commit/push both and rerun SOC deployment when ready; course-title
+  discrepancies and remaining research-review statements still await decisions.
+
+## November 14: Sociology voice scan
+
+- Reviewed 59 rendered main-content pages and corresponding source; searched
+  shared SOC JSON. Found 11 actionable first-/second-person blocks on seven
+  department pages: News, Contact, Courses, Faculty, Admissions, Hörmann, Honors.
+  Homepage/Why Study/research descriptions are consistent; Courses needs the
+  clearest paragraph-level alignment. No website copy changed.
+- Separated personal faculty biographies, shared Privacy, procedural guidance,
+  external title and retained review quote; excluded Roman-I/name false positives.
+  Report docs/soc-voice-review.md; evidence exports/voice/soc-voice-2026-11-14.json.
+  Voice review already belongs in text cleanup; documented dedicated scan option
+  and contextual/manual limitations. Course-format check remains in checklist.
+- Diff whitespace check passed. Read-only website task; no build/accessibility/
+  SEO rerun. Local css-shared report/evidence changes only, no commit/push/deploy.
+  Next: user-directed institutional-copy cleanup; preserve personal author voice.
+
+## November 14: Research faculty introduction polish
+
+- Revised five Research Area Faculty introductions using the main faculty page's
+  contextual-opening pattern: Drawing on, Across, Using, From, Through. Kept
+  third-person institutional prose and original expertise/method/publication/
+  geographic claims, without repeatedly opening with Faculty. Main faculty page
+  untouched; its supplied first-person model informed structure, not a global
+  voice change. Retained claims were not independently reverified.
+- SOC build/shared checks and whitespace checks passed. Source comparison proves
+  only the five intro paragraphs changed; research descriptions, review items,
+  courses and faculty grids/memberships unchanged. Local soc/css-shared records;
+  no commit/push/deploy. Refresh locally for copy review.
+
+## November 14: Research Areas landing image rows
+
+- Added one source-grounded institutional intro to Research Areas landing and
+  moved all five entries into a separate full-width gray band. Reused shared
+  imageTextRow with the same 600×600 images as homepage, empty decorative alt,
+  linked headings and unchanged short descriptions. Alphabetical order retained.
+  No new local CSS. Detail pages, memberships and course lists unchanged.
+- SOC build/shared checks and whitespace checks passed; verified five resolved
+  shared images, original summaries/links, one H1 and balanced independent bands.
+  Chrome checked 1800, 992, 768, 390 and 320px: image-left/stacked layouts fit
+  and all five images load.
+  Local soc/css-shared records only; no commit, push or deployment.
+
+## November 14: Sociology direct catalog destination
+
+- Changed SOC catalog settings to catalogKey sociology, reusing the shared
+  direct entity link (catoid=4, ent_oid=707) already stored in uh-catalog.json.
+  Replaces legacy category URL; Course Descriptions remains the separate main
+  course-search destination with SOC prefix guidance. User approved stored URL.
+- SOC build/shared checks and whitespace checks passed; built course-resource
+  links verified. External catalog fetch returned 403, so destination contents
+  were not verified. Local css-shared change; no commit, push or deployment.
+  Commit/push css-shared with existing soc work, then rerun SOC deployment.
+
+## November 14: Sociology course-format sweep completed
+
+- Swept all 59 HTML sources and checked shared SOC JSON for course text. Fixed
+  57 missing colons, three additional named-course prose references, two Honors
+  code-description separators, three BAM trailing commas and S0C typo. Removed
+  60 credit counts from all five research-area lists; academic credits retained.
+- Rescan finds no confirmed missing named-course colons. Combined-lab, cross-list
+  and Alpha notation retained; conflicting academic titles unchanged for review.
+  Report: docs/soc-course-format-review.md. No new course names/codes inferred.
+- SOC build/shared checks and whitespace checks pass. Verified HTML structure,
+  attributes/links/template code and academic credit annotations unchanged.
+  No browser rerun for text-only changes. Prior shared/site work preserved.
+- Local soc/css-shared changes; no commit, push or deployment. Commit/push both
+  and rerun SOC deployment when ready. Academic-title discrepancies still need
+  source verification; not a blocker to the completed punctuation sweep.
+
+## November 14: Sociology course-format scan
+
+- Read-only course-title list scan across 59 SOC HTML sources, with contextual
+  review. Confirmed 57 missing-colon entries across five pages (Crime 17, Race 19,
+  BAM 11, BA concentrations 5, minor concentrations 5). Most entries use colons.
+- Separate issues: variant titles for same codes, lab/cross-list/Alpha notation,
+  inconsistent credit display, BAM trailing commas and S0C typo in Honors prose.
+  No academic titles or credits verified/changed; scan is not exhaustive of all
+  prose/tables/shared JSON. Report: docs/soc-course-format-review.md.
+- Recorded SUBJECT NUMBER: Course Title convention and added report-only course
+  review to text-cleanup checklist/template. No SOC edits for this scan; no build
+  needed. Shared docs local only, no commit/push/deploy. Next: punctuation cleanup
+  if requested; academic-title reconciliation remains a separate review.
+
+## November 14: Research-area course-list layout
+
+- Added HR before Related Courses on all five SOC detail pages. Added shared
+  list-columns-two utility using footer-style CSS multicolumn flow: two equal
+  columns at 992px+, one below, 3rem gap, no splitting individual list items.
+  Course text and source order verified byte-identical apart from UL class.
+- SOC build, shared checks and whitespace checks pass. Local soc/css-shared
+  changes only; no commit, push or deployment. Existing review notes retained.
+  Chrome verified all five lists at 1800, 992, 991, 390 and 320px: expected
+  column counts, visible divider element and viewport containment pass.
+
+## November 14: Photo-tile diagnostic guides
+
+- Fixed missing red helper outlines on research photo tiles: image/label layers
+  covered the parent inset shadow. Added a foreground, pointer-transparent guide
+  in diagnostics.css only, following the existing navigation-guide approach.
+  These guides indicate grid geometry, not validation failures. Production tile
+  styling and the diagnostics toggle remain unchanged.
+- Chrome verified all five foreground guides, no pointer interception, and
+  identical geometry for all ten tiles with the new guides enabled/disabled.
+  SOC build/shared checks and whitespace checks passed. Local css-shared change;
+  no commit, push or deployment. Rebuild consuming sites to see the guide fix.
+
+## November 14: Research-area faculty introductions
+
+- Renamed all five grid headings Research Area Faculty and added one introduction
+  based on each area's existing faculty material. All five have source material;
+  no missing-introduction placeholders. Moved related upper review statements
+  into faculty intros, retaining original expertise/accomplishment claims.
+- Asia: area/language expertise, comparative strengths and Hawaiʻi/Oceania
+  commitment; Crime: named expertise; Health: methods and publications; Nationalism:
+  local-to-global research settings; Race: theoretical/methodological depth/breadth.
+  Faculty-focused methods/scales removed from upper prose where relocated.
+- Remaining upper review items: Health major-advances and field-size/growth claims;
+  Nationalism sustainability-premise meaning check. Each retains its own reason.
+  These are field-level/interpretive issues rather than department faculty intros.
+- SOC build, shared checks and both whitespace checks passed. Verified all five
+  intros, unchanged course sections and unchanged membership/card markup. No new
+  browser pass for text relocation. Claims retained, not independently verified.
+- Local soc/css-shared changes only; no commit, push or deployment. User reviews
+  remaining three excerpts next. Commit/push both and rerun SOC when ready.
+
+## November 14: Sociology research-description source reset
+
+- User rejected the repetitive and subsequent subject-led short-description
+  drafts. Rebuilt five short/long descriptions fresh from supplied soc-areas.txt.
+  Alphabetical landing summaries use third-person present-tense openings: Explores,
+  Examines, Investigates, Studies, Traces; each names source research topics.
+  This supersedes the -ing trial. User delegated selection of grammatical form
+  to the editor; corrected the earlier misattribution of that choice to the user.
+  Long paragraphs use institutional third-person prose and preserve source scope.
+- At that stage nine original source sentences were retained for review; faculty
+  claims have since moved under Research Area Faculty as recorded above. Each remaining excerpt
+  now has its own specific reason, identifying reputation/capability claims versus
+  research subjects, unsupported time-sensitive prominence claims, or the precise
+  sustainability-premise ambiguity. No generic blanket explanation. Removed
+  duplicate criminal-justice topic only; no new academic claims or topics.
+- SOC build, shared checks and both whitespace checks passed. Verified original
+  excerpts against supplied text, individual reasons, consistent short openings,
+  alphabetical landing order, third-person long paragraphs and no prose dashes.
+  Course sections and subsequent faculty-grid markup byte-identical to pre-reset
+  sources. No new browser pass for this text-only revision; prior layout checks
+  remain documented below. Review guide: docs/soc-research-descriptions.md.
+- Local only in soc/css-shared; no commit, push or deployment. Prior unrelated
+  work preserved. User review of new descriptions and retained claims is next.
+  Commit/push both repositories and rerun SOC deployment after copy is settled.
+
+## November 14: Sociology research-area faculty grids
+
+- Replaced inline faculty lists on all five detail pages with shared people-grid
+  cards in separate full-width gray bands after descriptions/courses. Existing
+  prose/course markup preserved exactly. Cards use central people.json names,
+  photos, titles and contacts, sorted by surname; no duplicated identity data.
+- Added SOC-only research-areas.json membership references: Asia/Pacific 9,
+  Crime 3, Health 3, Nationalism 5, Race 8. Shared optional loader resolves slugs
+  to original people objects, rejecting duplicate/unresolved memberships. Canonical
+  names replace inconsistent spellings in old inline lists. No roster additions.
+- SOC build/shared checks pass; verified all memberships/order, portrait/profile
+  targets and exact preservation of nonfaculty prose/courses. Browser checked all
+  five pages at 1800, 1200, 768, 390 and 320px: directory column counts, viewport
+  containment, separate gray sections and unique IDs pass. Uses established people
+  grid breakpoints (five from 1600px), not homepage tile breakpoints.
+- Local only in soc and css-shared; prior homepage/Why Study/Courses changes
+  preserved. No commit, push or deployment. Commit/push both repositories then
+  rerun SOC deployment when ready. Membership currency awaits unit review;
+  current implementation faithfully follows existing page assignments.
+
+## November 14: Sociology homepage, Why Study and shared tile review
+
+- Moved SOC Courses source from about-soc/soc-courses.html to root courses.html,
+  updated permalink, shared navigation and preserved hero assignment. No redirect
+  added. Historical import report/importer retain initial route as evidence.
+  SOC build/shared checks and whitespace checks passed; verified root output
+  and navigation, removed stale local old-route output. Local only, not deployed.
+- Alphabetized homepage research tiles by full displayed name: Asia/Pacific,
+  Crime, Health, Nationalism, Race. Images and destinations travel with each tile.
+  Degree progression retained as an explained exception. Recorded alphabetical
+  default across college sites. SOC build and whitespace checks passed.
+- Homepage has source-grounded third-person introduction, research photo grid on
+  gray and academic tile grid on white. Programs: minor/BA teal, BAM split
+  teal/purple, MA/PhD purple. Old comparison content/video link removed. Five
+  supplied research images are shared assets; user still selecting final photos.
+- Why Study has one-paragraph introduction, undergraduate/graduate image-left
+  rows on gray and Career Directions image-left row on white. Three decorative
+  shared placeholders remain. Original comparison removed; study anchor IDs kept.
+  Career wording uses broad categories from supplied ASA 2008 bachelor's report
+  and department graduate copy, without outcome statistics or guarantees.
+- Shared grid-five uses one below 768px, three from 768–1399.98px, five from
+  1400px. Middle-range centering rules are isolated to prevent implicit mobile
+  columns. Shared photo-tile CSS reuses framing, interaction and grids; no local
+  styles or Sociology-specific selectors. docs/photo-tiles.md documents reuse.
+- Labels use one 0.5rem padding control, two-line minimum bands, 400 weight,
+  stable rem sizing and 80% black background (worst-case white-text contrast
+  12.63:1). Final review found 200% text clipping with outer aspect ratio; square
+  sizing track now allows enlarged label content to expand the tile. No forced
+  line clamp. Earlier full-overlay, fixed-height and container-font trials retired.
+- SOC and GEO builds, shared checks and both edited-repository whitespace checks
+  passed. Chrome checks: both SOC grids at ten widths 320–1800px have expected
+  5/3/1 counts and contained tiles. Photo labels checked at ten widths with 16px
+  and 32px root text: no clipping, equal four-side padding, weight 400. Keyboard
+  focus and reduced-motion checks passed. Not a comprehensive accessibility audit.
+- Local changes in soc and css-shared; no commit, push or deployment. Existing
+  unrelated GEO work preserved; GEO build output regenerated for verification.
+  Commit/push soc and css-shared, then rerun SOC deployment when approved for
+  publication. Other grid-five consumers inherit updated breakpoints on rebuild.
+
 ## November 14: Sociology X timeline trial
 
 - User screenshot confirms XDevelopers follow button renders successfully.

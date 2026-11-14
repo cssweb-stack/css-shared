@@ -1,0 +1,21 @@
+{
+  "workbook": "SOC-page-review-2026-11-14.xlsx",
+  "sha256": "c45f12ddcf1fb9da7b70599e6173ad9a1ded0bbe839c81491ed965e16ee9c1ed",
+  "sheets": {
+    "Page Review": 59,
+    "Old URLs": 57,
+    "URL Decisions": 7,
+    "Route Changes": 9,
+    "Read Me": 14
+  },
+  "clickableHyperlinks": 360,
+  "uniqueOriginalUrls": 57,
+  "uniqueCurrentPages": 59,
+  "sourceBodyChanges": 0,
+  "activeRedirectConfigurationUnchanged": true,
+  "new404Created": false,
+  "zipAndXmlIntegrity": "pass",
+  "rowContentsAndDropdown": "pass",
+  "localDestinationsAndFragments": "pass (validated during data generation)",
+  "publication": "local only; no commit/push/deploy; live preview freshness not verified"
+}

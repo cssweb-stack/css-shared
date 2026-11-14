@@ -27,6 +27,18 @@ if (records.faculty || records.staff) throw new Error('Use people.json alone; re
 records.faculty = records.people.filter(person => person.showInFacultyDirectory === true);
 records.key_contacts = records.people.filter(person => person.showInKeyContacts === true);
 }
+// Optional unit research-area membership references the same central people.
+if (records.research_areas) {
+records.research_areas = Object.fromEntries(Object.entries(records.research_areas).map(([slug, area]) => {
+if (!Array.isArray(area.facultySlugs) || new Set(area.facultySlugs).size !== area.facultySlugs.length) throw new Error(`Research area requires unique facultySlugs: ${slug}`);
+const faculty = area.facultySlugs.map(personSlug => {
+const matches = (records.people || []).filter(person => person.slug === personSlug && person.type === 'faculty');
+if (matches.length !== 1) throw new Error(`Expected one research-area faculty record: ${slug}/${personSlug}`);
+return matches[0];
+});
+return [slug, { ...area, faculty }];
+}));
+}
 const common = loadCommon();
 records.site = {
 policiesProceduresUrl: '/policies-procedures.html',

@@ -236,11 +236,9 @@
       {
         "label": "Website",
         "url": "https://ashleytrubin.com"
-      }
-    ],
-    "additionalLinks": [
+      },
       {
-        "label": "Twitter",
+        "label": "X",
         "url": "https://twitter.com/ashleytrubin"
       }
     ],
@@ -322,7 +320,7 @@
     "phoneHref": "+18089564861",
     "websites": [
       {
-        "label": "Website/CV",
+        "label": "Website / CV",
         "url": "https://sites.google.com/view/ysun27/home"
       }
     ],

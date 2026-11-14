@@ -30,6 +30,9 @@ All helper lines are 3px thick. Container guides are pink; column guides are red
 - Content inners: pink on all four sides.
 - Footer inner containers: pink on all four sides.
 - Grid columns: red on all four sides.
+- Photo tiles draw the same red guide on a foreground ::after layer because
+  cover images obscure parent inset shadows. The guide ignores pointer events
+  and changes no dimensions. Its rule exists only in diagnostics.css.
 - Redundant footer row parents are excluded.
 - No diagnostic background fills; existing page backgrounds show through.
 
@@ -72,3 +75,9 @@ visibility/service problem is suspected, not confirmed. Recommend re-running all
 jobs to produce a fresh artifact; investigate upload/deploy logs if it recurs.
 No workflow edits, rerun, push, or deployment performed during this diagnosis.
 Node20 deprecation messages were warnings; the failed step was artifact lookup.
+
+## Sociology preview release, November 14
+
+SOC sets site-settings.json layoutGuides to false, using the existing per-unit
+build switch. Its built stylesheet excludes diagnostics; the shared import
+remains available for other units. This does not alter layout geometry.

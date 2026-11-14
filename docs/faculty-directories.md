@@ -1,5 +1,25 @@
 # Shared faculty directory grid
 
+## Sociology research-area faculty
+
+SOC's five research detail pages use the same people-grid.njk and profile-card.njk
+as its faculty directory and Key Contacts, in a full-width gray band after the
+description and related courses. Each band uses Research Area Faculty and a
+source-based faculty introduction immediately above the cards. No separate grid
+styles or duplicated cards.
+The existing five-column directory breakpoint is retained (1600px+), distinct
+from the homepage tile grid's five/three/one layout.
+
+Membership is editable in src/data/units/soc/research-areas.json: each area slug
+has a facultySlugs array referencing the unit's people.json. No names, portraits
+or contacts are copied into membership data. The optional unit loader resolves
+each slug to the same person object and rejects duplicate or unresolved slugs.
+The shared grid sorts by lastName, so JSON order does not control display order.
+Memberships were taken from the five existing research-page lists on November
+14, 2026; this is not independent confirmation of current faculty assignments.
+
+## Directory standard
+
 Current standard, locked November 11, 2026: `faculty-directory.njk` delegates to
 `people-grid.njk`; POLS Key Contacts uses that same grid and profile cards. Five
 equal columns at 1600px+, four at 1200–1599px, three at 992–1199px, two at

@@ -41,6 +41,10 @@ never copy another unit's counts into this report.
 
 ## Observations deliberately left unchanged
 
+Include course-reference formatting counts/examples and separately flag conflicting
+titles for the same code. Preserve suffixes, cross-listings, credits and topic
+designators. State explicitly if course-reference review was not performed.
+
 Include the report-only missing-diacritics findings here, separated into
 recommended corrections, context-dependent names/titles and other lookalike
 characters. Count visible text and repeated human-readable alt/aria-label values

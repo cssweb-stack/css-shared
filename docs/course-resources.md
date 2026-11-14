@@ -18,7 +18,11 @@ For PUBA the unit file contains:
 ```
 
 GEO uses `GEO` and `geographyAndEnvironment`. Other units can adopt the same shape
-as their panels are added. Course Descriptions links to the unfiltered main page
+as their panels are added. SOC uses `SOC` and `sociology`, referencing the shared
+direct Sociology entity page (catoid=4, ent_oid=707) rather than its retired
+manoa.hawaii.edu catalog category URL. Automated destination verification remains
+blocked by the catalog's HTTP 403; user approved the stored link November 14, 2026.
+Course Descriptions links to the unfiltered main page
 and shows `(filter by prefix PUBA)` or the configured unit prefix. No filtered
 per-unit Course Descriptions URL is required. Existing direct `catalog` records
 remain supported if no `catalogKey` is supplied. Units without a catalog record

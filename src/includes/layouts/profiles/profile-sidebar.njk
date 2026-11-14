@@ -6,23 +6,26 @@
 {% set additionalLinks = person.additionalLinks | default([], true) %}
 {% set affiliations = person.affiliations | default([], true) %}
 {% if websites | length or publicationProfiles | length or awards | length or additionalLinks | length or affiliations | length %}
-
 <div class="profile-supplemental">
 {% if affiliations | length %}
 <hr class="profile-contact-divider">
 <section class="profile-supplemental-section" aria-labelledby="profile-affiliations-heading">
 <h2 id="profile-affiliations-heading">Affiliations</h2>
 <ul class="profile-supplemental-links">
-{% for affiliation in affiliations %}<li>{% if affiliation.url %}<a href="{{ affiliation.url | url | escape }}">{{ affiliation.label | escape }}</a>{% else %}{{ affiliation.label | escape }}{% endif %}</li>{% endfor %}
+{% for affiliation in affiliations %}
+<li>{% if affiliation.url %}<a href="{{ affiliation.url | url | escape }}">{{ affiliation.label | escape }}</a>{% else %}{{ affiliation.label | escape }}{% endif %}</li>
+{% endfor %}
 </ul>
 </section>
 {% endif %}
 {% if websites | length %}
 <hr class="profile-contact-divider">
 <section class="profile-supplemental-section" aria-labelledby="profile-websites-heading">
-<h2 id="profile-websites-heading">{% if websites | length == 1 %}Website{% else %}Websites{% endif %}</h2>
+<h2 id="profile-websites-heading">Online</h2>
 <ul class="profile-supplemental-links">
-{% for website in websites %}<li><a class="website-link" href="{{ website.url | escape }}"><span class="special-text-icon" aria-hidden="true">{% include "media/icons/globe.svg" %}</span><span>{{ website.label | escape }}<span class="visually-hidden"> — {{ person.name | escape }}</span></span></a></li>{% endfor %}
+{% for website in websites %}
+<li><a class="website-link" href="{{ website.url | escape }}"><span class="special-text-icon" aria-hidden="true">{% include "media/icons/globe.svg" %}</span><span>{{ website.label | escape }}<span class="visually-hidden"> — {{ person.name | escape }}</span></span></a></li>
+{% endfor %}
 </ul>
 </section>
 {% endif %}
@@ -31,7 +34,9 @@
 <section class="profile-supplemental-section" aria-labelledby="profile-publications-heading">
 <h2 id="profile-publications-heading">Publications</h2>
 <ul class="profile-supplemental-links">
-{% for publication in publicationProfiles %}<li><a href="{{ publication.url | escape }}">{{ publication.label | escape }}<span class="visually-hidden"> — {{ person.name | escape }}</span></a></li>{% endfor %}
+{% for publication in publicationProfiles %}
+<li><a href="{{ publication.url | escape }}">{{ publication.label | escape }}<span class="visually-hidden"> — {{ person.name | escape }}</span></a></li>
+{% endfor %}
 </ul>
 </section>
 {% endif %}
@@ -40,7 +45,9 @@
 <section class="profile-supplemental-section" aria-labelledby="profile-awards-heading">
 <h2 id="profile-awards-heading">Awards</h2>
 <ul class="profile-awards-list">
-{% for award in awards %}<li>{{ award.name | escape }}{% if award.year %} ({{ award.year | escape }}){% endif %}</li>{% endfor %}
+{% for award in awards %}
+<li>{{ award.name | escape }}{% if award.year %} ({{ award.year | escape }}){% endif %}</li>
+{% endfor %}
 </ul>
 </section>
 {% endif %}
@@ -49,7 +56,9 @@
 <section class="profile-supplemental-section" aria-labelledby="profile-additional-links-heading">
 <h2 id="profile-additional-links-heading">Additional Links</h2>
 <ul class="profile-supplemental-links">
-{% for link in additionalLinks %}<li><a href="{{ link.url | escape }}">{{ link.label | escape }}<span class="visually-hidden"> — {{ person.name | escape }}</span></a></li>{% endfor %}
+{% for link in additionalLinks %}
+<li><a href="{{ link.url | escape }}">{{ link.label | escape }}<span class="visually-hidden"> — {{ person.name | escape }}</span></a></li>
+{% endfor %}
 </ul>
 </section>
 {% endif %}

@@ -60,5 +60,18 @@
         "url": "/graduate/annual-review.html"
       }
     ]
+  },
+  "annualReview": {
+    "label": "Graduate program",
+    "pages": [
+      {
+        "label": "Master’s (MA)",
+        "url": "/graduate/master-ma/"
+      },
+      {
+        "label": "Doctorate (PhD)",
+        "url": "/graduate/doctorate-phd/"
+      }
+    ]
   }
 }
