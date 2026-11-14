@@ -5,6 +5,11 @@ consecutive structural lines, separate list wrappers/items, and no blank source
 lines. Keep source formatting distinct from prose edits and report its completion
 separately.
 
+For link review, run `python3 scripts/link-replacements.py UNIT` to find obsolete
+URLs in the shared replacement registry. This is report-only unless `--apply`
+is supplied for an authorized link-correction pass. Keep these explicit URL
+changes separate from prose cleanup's normal link-preservation guarantee.
+
 Reusable request: **“Run standard text cleanup for [UNIT].”** Follow this checklist
 and produce a unit-specific report using [the report template](text-cleanup-report-template.md).
 For multiple units, give each its own counts and findings. State explicitly whether

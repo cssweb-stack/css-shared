@@ -41,6 +41,16 @@ Use lowercase repository folders. Psychology's local folder is `psy`, formerly
 
 ## Page sources and metadata
 
+Retain user-confirmed external URL moves in src/data/common/url-replacements.json
+so they can be reused across unit sites. Check a unit with
+`python3 scripts/link-replacements.py UNIT`; apply those exact known replacements
+with `--apply` when link correction is authorized. Match only the recorded old
+paths, including their HTTP/HTTPS and www variants where configured; retain query
+strings, fragments and link wording. Do not guess replacements for unlisted
+Graduate Division pages or modify other units during a unit-specific task.
+These are outbound-link corrections, not redirects installed on UH's servers.
+Five Graduate Division mappings supplied November 14, 2026 are recorded there.
+
 HTML/Nunjucks source formatting across consuming sites and shared templates:
 use flush-left source lines with no indentation and no blank lines from top to
 bottom. Keep formatting minimal and predictable: these public repositories must
@@ -949,3 +959,28 @@ courseResourcesPrefix; otherwise it uses the unit catalog_courses.prefix.
 Sociology Honors Track alone sets SOC or HON so students can find both subjects
 in course descriptions. Keep this exception page-specific, not a unit-wide prefix
 change, and do not duplicate the course widget template for it.
+
+## Reusable Siteimprove dismissal text
+
+When Bill asks for “no crawl dismiss forever text,” “dismiss forever,” or the
+crawler-blocked link dismissal wording, return the saved text below. Use this
+version when the link has been manually verified in a browser and the reported
+error is due to automated-access restrictions. Do not rewrite it for a specific
+provider unless requested. Saved November 14, 2026.
+
+> Verified working in a browser. The destination restricts automated access, causing a false positive in the link checker. Dismissed permanently because the reported error reflects crawler access restrictions rather than a broken link.
+
+### Hostname-resolution failure
+
+Retrieval phrases: “hostname dismiss forever text” or “can’t resolve hostname.”
+This records a decision to retain the form, not a claim of verified availability.
+
+> External form retained intentionally. Persistent hostname-resolution errors from the automated checker are excluded from further review. Dismissed permanently.
+
+### Reported 404, manually available
+
+Retrieval phrases: “false 404 dismiss forever text” or “404 but works.” Use when
+the user has repeatedly verified that the destination is available in a browser;
+do not infer a specific technical cause for the checker’s differing result.
+
+> Repeated manual checks confirm that this link is available in a browser despite the automated checker reporting 404. Retained intentionally and dismissed permanently as a recurring false positive.

@@ -1,0 +1,36 @@
+{
+  "description": "User-confirmed external link replacements. These update our links; they do not install redirects on the destination university website.",
+  "confirmed": "2026-11-14",
+  "replacements": [
+    {
+      "label": "Committee composition",
+      "from": "http://www.manoa.hawaii.edu/graduate/content/committee-composition-potential-members",
+      "to": "https://manoa.hawaii.edu/graduate/committee-composition/index.php",
+      "matchHttpHttpsAndWwwVariants": true
+    },
+    {
+      "label": "Research and publication",
+      "from": "http://www.manoa.hawaii.edu/graduate/content/research-publication",
+      "to": "https://manoa.hawaii.edu/graduate/research-publication/index.php",
+      "matchHttpHttpsAndWwwVariants": true
+    },
+    {
+      "label": "Fellowships and scholarships",
+      "from": "http://www.manoa.hawaii.edu/graduate/content/fellowships-scholarships",
+      "to": "https://manoa.hawaii.edu/graduate/fellowships-scholarships/index.php",
+      "matchHttpHttpsAndWwwVariants": true
+    },
+    {
+      "label": "Financial support",
+      "from": "http://www.manoa.hawaii.edu/graduate/content/financial-support",
+      "to": "https://manoa.hawaii.edu/graduate/financial-support/index.php",
+      "matchHttpHttpsAndWwwVariants": true
+    },
+    {
+      "label": "Academic progress",
+      "from": "http://www.manoa.hawaii.edu/graduate/content/academic-progress",
+      "to": "https://manoa.hawaii.edu/graduate/academic-progress/index.php",
+      "matchHttpHttpsAndWwwVariants": true
+    }
+  ]
+}

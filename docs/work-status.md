@@ -2,6 +2,19 @@
 
 Updated November 14, 2026 (Pacific/Honolulu).
 
+## November 14: Graduate Division outbound URL replacements
+
+- Saved all five user-supplied old/new pairs in src/data/common/url-replacements.json: committee composition, research/publication, fellowships/scholarships, financial support and academic progress. New scripts/link-replacements.py provides unit-scoped report/apply modes and recognizes HTTP/HTTPS and www variants. Added it to conventions and link-review guidance for future sites.
+- Updated five links in five SOC sources: funding, MA requirements/thesis, PhD requirements/dissertation. The other two supplied mappings have no current SOC matches but remain saved. Link labels and surrounding copy unchanged; other units and original exports untouched.
+- Helper fixtures passed for report-only behavior, four scheme/host variants, trailing slash, query/fragment retention, unrelated paths/hosts and repeat runs. SOC replacement scan now finds zero old links. Shared checker passed. SOC build/verify passed (60 content pages, 64 redirects); both whitespace checks passed. These replacements are user-confirmed, not a fresh live external-availability audit.
+- Local changes only for this task; not committed, pushed or deployed. Earlier local commits and saved dismissal documentation preserved.
+
+## November 14: Saved crawler dismissal wording
+
+- Saved the reusable Siteimprove crawler-blocked link dismissal in project-conventions.md under Reusable Siteimprove dismissal text. Retrieval phrases include no crawl dismiss forever text and dismiss forever. Return the exact provider-neutral wording for manually verified links blocked to crawlers.
+- Also saved the approved hostname-resolution dismissal and a separate false-404 statement for links repeatedly verified manually. Retrieval phrases include hostname dismiss forever text and false 404 dismiss forever text.
+- Documentation only; whitespace check passed. Local changes, not committed or pushed.
+
 ## November 14: Final review complete; GitHub authentication blocks upload
 
 - User confirmed News uses department X link/email only, old Undergraduate Advising goes to Contact, and old Colloquia Archive goes to News and Events. Implemented all three. Migration now has 64 immediate HTML redirects: 55 original WordPress URLs plus nine intermediate routes. Two original URLs unchanged, no unresolved/retired routes. Historical archive content remains in the original export, not on the new news page.
