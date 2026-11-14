@@ -247,8 +247,8 @@ Hawaiʻi at Mānoa” as the shared-bank description; preserve decorative semant
 
 The student bank folder was renamed from `shared/` to `students/`; PSY and SOC
 assignments now use that path without reshuffling. PUBA alone uses the fixed
-faculty directory images: `/faculty/` uses `/media/heroes/faculty/main.webp` and
-`/faculty/associated.html` uses `/media/heroes/faculty/associated.webp`.
+faculty directory images: `/faculty/` uses `/media/heroes/hawaii-hall/01.webp` and
+`/faculty/associated.html` uses `/media/heroes/hawaii-hall/02.webp`.
 These assignments live in PUBA's `heroes.json` and are excluded from randomization.
 Correction: GEO was briefly included in this change, then explicitly excluded by
 the user. GEO retains its established satellite imagery, including Kaunakakai on
@@ -494,6 +494,18 @@ a shared units/<unit>/policies-procedures.njk appendix below the core. No append
 means no unit-specific block. Never show another department's position statements
 as universal policy. Anthropology's race/racism statement is its own appendix.
 
+Agreed November 13, 2026: Policies & Procedures belongs on every unit/college/
+research site, including CSS and SSRI, with a footer link available on every page.
+Keep the common university policy body, including clearly labeled student-related
+sections; non-degree sites do not need a separate trimmed policy copy. All policy
+pages use /media/heroes/hawaii-hall/01.webp, selected November 13. The shared
+common/page-heroes.json assignment overrides unit hero choices for this URL. This does not authorize changes to unrelated page hero assignments.
+
+Graduate Division resources are grouped under a Graduate Division H2 in the shared
+policy body, with linked H3 entries for Academic Progress and Conduct Code.
+Keep their graduate-specific scope clear; retain the university-wide Student
+Conduct Code as a separate entry.
+
 ## Standard contact-page section backgrounds
 
 Use white for the contact H1/intro, full-width gray for the shared main office /
@@ -614,3 +626,167 @@ Shared checks enforce the regular-copy cap, exempting only those exact graphic
 selectors/weights and font-face capability metadata. Do not exempt whole files,
 ordinary footer copy, or the actual 404 heading. Direct font-variation overrides
 remain disallowed in authored styles.
+
+Hero bank formerly named faculty is now hawaii-hall (plain ASCII, lowercase and
+hyphenated). Former main.webp is 01.webp; associated.webp is 02.webp. PUBA’s saved
+faculty-directory assignments follow the rename without changing their images.
+Every Policies & Procedures page uses 01.webp, including college/research sites
+and policy pages on sites whose other heroes are disabled. Other page assignments,
+including GEO satellite imagery, remain unchanged.
+
+## Graduate students share profile styling (November 13, 2026)
+
+Graduate-student profiles belong to profile.css alongside faculty/staff profiles,
+building cards and profile columns. This supersedes the graduate-students.css
+separation; that file/import is removed. Student names use profile-name (20px/600),
+program lines use profile-titles/profile-job-title (16px/600), and research/adviser
+lines use profile-detail (16px/400), also used for faculty office details. Shared
+name/detail/divider gap tokens own spacing. Contact links and dividers retain the
+existing shared classes. Do not create independent student typography rules.
+Keep student fields/data and responsive cohort row geometry intact.
+
+## Copy changes require consultation (November 13, 2026)
+
+Do not rewrite website copy without first consulting the user and receiving
+consent. Layout requests authorize structural changes, not rewritten paragraphs
+or factual/name corrections. The user may separately approve new H2s, specific
+spelling fixes, or a scoped standard mechanical cleanup; limit changes to that
+approval. No silent editorial improvements, name normalization, or factual updates.
+For the Hörmann Prize page, the approved edits are the intro/gray section split,
+Awards / Eligibility and Submission / Selection and Publication H2s, and Monitary
+→ Monetary. Subsequently, the user approved Hörmann throughout the prize page’s
+visible text, supported by the supplied LCH family tribute and existing university
+fund wording. Keep /hormann-prize.html unchanged.
+
+Standard text cleanup includes a report-only voice/pronoun consistency review,
+including we/us/our, I/me/my and potentially inconsistent you/your. Context matters:
+faculty biographies, attributed quotations and testimonials may intentionally
+use first person. Flag mixed voice with page/excerpt; never automatically replace
+pronouns or adopt a global voice without user consultation. This adds review
+coverage, not permission to rewrite copy. Procedure/report template updated.
+
+## Preserve every original WordPress site (November 13, 2026)
+
+For every site being migrated/cleaned up, retain both a downloaded full WordPress
+backup (database plus files, including uploads) and a Tools → Export → All content
+WXR/XML export. These are complementary: the full backup supports restoration;
+XML supports direct inspection and content import but does not embed media files.
+Record unit, date, source URL, backup tool/format, archive locations, scope and
+verification state. Keep copies independent of the retiring host; do not place
+raw backups containing private data/configuration in published media or public Git.
+Capture before deleting old content and refresh before final retirement if the
+source changed. Confirm both archives cover the site and that recovery is feasible
+before shutting it down; never infer completeness from the download filename.
+This is a required migration checklist item, not a claim backups already exist.
+
+## Role-based inquiries go to Contact (November 13, 2026)
+
+When prose directs readers to a current chair, undergraduate/graduate chair,
+director or comparable unit role, link the role reference to that unit’s Contact
+page, not a named person’s biography or a hard-coded personal/role email link.
+The Contact page is the maintained source for current role holders. Include this
+in standard text cleanup and report unresolved cases if a role is missing there.
+Personal email links in faculty bios, directories and Contact cards remain valid;
+this rule concerns role-based inquiry instructions in prose. Preserve wording
+when changing the link target; consult before any copy rewrite.
+
+Standard text cleanup includes report-only institutional-name capitalization
+consistency (Department/department, College/college, University/university).
+Distinguish official names and sentence beginnings from generic references;
+consult before adopting a capitalization policy or normalizing existing copy.
+
+## Tables and a single supporting gray section (November 13, 2026)
+
+Place content tables in a full-width gray page section. Prefer a short white intro
+followed by one gray supporting section per page; any further supporting content
+can follow on white. Multiple gray sections are possible exceptions, not the
+default, and should not be introduced merely to alternate backgrounds. Preserve
+existing table content/structure unless its conversion or restructuring is
+explicitly authorized. This refines the lead-off/supporting-band convention.
+
+For the proposed Sociology degree split, overview-page gray sections are reserved
+for learning outcomes. Suggested Timeline belongs on a separate page whose gray
+section holds its table. This is agreed design direction; the page split and
+timeline-table implementation were initially planning only. The user subsequently
+authorized the MA split (five pages: overview, requirements/progress, suggested
+timeline, Plan A thesis, Plan B research report), including brief new subpage
+intros and converting the existing semester sequence to a table. Original program
+requirements/procedures remain verbatim. PhD restructuring is still deferred.
+Use one reusable degree-navigation include and shared per-degree page list at the
+top of each page only; retain aria-current without a visible “current” label.
+At the bottom use the unit’s standard course-resources include, without Back to
+top links or a repeated degree-navigation block. Preserve old MA URL
+and section bookmarks through the shared generated-redirect mechanism. Details:
+docs/soc-ma-pages.md.
+
+Degree page navigation does not show the word “current”; retain aria-current on
+the selected item. A future button navigation treatment is only proposed, not
+authorization to implement its colors/interactions yet. MA pathway headings and
+labels use Plan A: Thesis and Plan B: Research Report (colon), not dash variants.
+This supersedes the temporary visible current-page text marker.
+
+MA academic subpages use Sociology’s standard course-resources include at the
+bottom (class availability, descriptions, UH catalog). The user subsequently
+rejected Back to top links; do not include them. This supersedes the initial
+repeated top/bottom degree navigation and the temporary back-link treatment.
+Do not maintain a second copy of the course-resource links in page prose.
+
+Use full default HR spacing (2rem each side) between major content chunks. A
+subsection divider within the same topic can use the existing Bootstrap my-3
+spacing utility (1rem each side), preserving the standard line appearance and
+width. Do not borrow the profile-contact-divider style for ordinary page prose.
+Applied to the divider before MA Coursework Notes; other dividers unchanged.
+
+## Reusable undergraduate advising widget
+
+Agreed November 13, 2026: advising uses a shared data-driven component, with
+Undergraduate Chair first and General Education Advisor second (role order rather
+than alphabetical order). Wide layouts use photo/text/photo/text in 20/30/20/30
+proportions after gutters; smaller screens stack the advisor groups. Reuse profile
+text/contact styles; keep layout-only rules in layout.css. Unit people data owns
+the chair identity; common advisor data owns shared advisors such as Jason Higa.
+Jason is appointment-only through Navigate360, with the existing destinations
+and user-approved concise instructions; no phone/email is shown. See advising-widget.md. The Sociology Minor page uses this widget as its sole advising section after
+user review. The BA overview also includes the same widget above course resources;
+BAM uses the same widget with its own JSON variant: Undergraduate Chair, Graduate
+Chair, then General Education Advisor. The Undergraduate Chair uses the same description on BA, Minor and BAM:
+undergraduate course selection, program requirements and planning. The Graduate
+Chair uses the corresponding graduate description on BAM. Omit SOC in these
+descriptions and do not assign declaration approvals. Jason’s general education/appointment guidance is unchanged.
+
+## Sociology admissions page naming
+
+Use Applications & Admissions consistently for the Sociology page title,
+navigation label, cross-link labels and the BAM application section heading.
+Use &amp; in HTML and & in JSON/front matter. Supersedes earlier labels using
+Applications and Admissions or singular Application and Admission. This is a
+page-label convention, not a replacement of ordinary application/admission prose.
+
+## Sociology Funding Sources entry format
+
+Use name — description for funding award/resource list entries, with spaced em
+dashes and a capitalized description opening. Link the resource name where a
+destination exists; avoid extra application-explanation links when the name can
+carry that destination. STAR (UH Foundation Scholarships) is a General Funding
+Resources bullet, not a separate example-based section. Preserve hyphens in
+compound words and use en dashes for ranges. This presentation decision does
+not authorize guessing eligibility, deadlines, contacts or benefit guarantees.
+
+## Sociology funding descriptions: general resource directory
+
+Agreed November 13, 2026: Funding Sources is a concise directory to providers,
+not a duplicate of their current application terms. Use name — short description.
+Keep broad audience/purpose distinctions, but omit dollar amounts, annual deadlines,
+old award years, quotas, GPA/credit thresholds, specific named contacts, detailed
+application procedures and benefit promises. Direct students to linked providers
+for current availability and terms. This supersedes retaining those imported
+specifics on the combined page; it does not authorize deleting detail-page content
+or claiming an award is currently available without verification.
+
+## Course widget page-specific prefix
+
+The shared course-resources include accepts optional page front matter
+courseResourcesPrefix; otherwise it uses the unit catalog_courses.prefix.
+Sociology Honors Track alone sets SOC or HON so students can find both subjects
+in course descriptions. Keep this exception page-specific, not a unit-wide prefix
+change, and do not duplicate the course widget template for it.

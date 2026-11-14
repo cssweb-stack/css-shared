@@ -518,3 +518,29 @@ margin-block: 0;
 .sidebar-stack > .sidebar-group + .sidebar-group {
 margin-top: 0;
 }
+
+/* Paired advisors: photo/text, photo/text; four columns on wide screens. */
+.advising-grid,
+.advising-person {
+display: grid;
+gap: 1.5rem;
+align-items: start;
+}
+.advising-grid { gap: 3rem; }
+.advising-person,
+.advising-photo,
+.advising-details { min-width: 0; }
+.advising-photo { width: min(50%, 200px); }
+@media (min-width: 768px) {
+.advising-person { grid-template-columns: minmax(0, 1fr) minmax(0, 4fr); }
+.advising-photo { width: auto; }
+}
+@media (min-width: 1200px) {
+.advising-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.advising-person { grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); }
+}
+
+/* Opt-in jump destinations clear the measured sticky header. */
+.page-jump-target {
+scroll-margin-top: calc(var(--sticky-header-height, 16rem) + 1rem);
+}

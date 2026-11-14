@@ -113,3 +113,8 @@ Both title lines are smaller than the name and normal 1.125rem paragraphs.
 This supersedes the preceding paragraph-size trial and temporary academic-title
 weight 500. Named profile tokens are the only editable controls; no unit-specific
 or later duplicate title/role rules. See profile-style-audit.md.
+
+Graduate-student listings use these same profile-name, profile-titles,
+profile-job-title, profile-detail, contact-link and divider styles in profile.css.
+The separate graduate-students.css was removed; cohort-specific CSS is limited
+to its row/photo layout. Student data and names remain in graduate-students.json.

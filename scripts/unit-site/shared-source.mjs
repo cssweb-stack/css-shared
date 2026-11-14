@@ -29,6 +29,7 @@ records.key_contacts = records.people.filter(person => person.showInKeyContacts 
 }
 const common = loadCommon();
 records.site = {
+policiesProceduresUrl: '/policies-procedures.html',
 ...records.unit_details,
 ...records.site_settings,
 search: records.search,
@@ -46,6 +47,24 @@ if (records.site.googleTagId && !/^(?:G|GT|GTM)-[A-Z0-9]+$/.test(records.site.go
 if (!Array.isArray(records.site.analyticsHostnames) || records.site.analyticsHostnames.some(host => typeof host !== 'string' || !/^(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z]{2,}$/.test(host))) throw new Error('Analytics allowedHostnames must contain production DNS hostnames.');
 if (records.site.googleTagId && !records.site.analyticsHostnames.length) throw new Error('A configured Google tag requires production allowedHostnames.');
 if (records.site.searchConsoleVerificationToken && !/^[A-Za-z0-9_-]+$/.test(records.site.searchConsoleVerificationToken)) throw new Error('Invalid Search Console verification token.');
+// Role-ordered advising widgets reuse unit people and common advisor records.
+if (records.advising_widget?.people) {
+const resolveAdvisingGroup = group => ({
+...group,
+people: group.people.map(reference => {
+const source = reference.source === 'shared-advisors' ? common.advisors : records[reference.source];
+const matches = (source || []).filter(person => reference.matchRole
+? person.roles?.includes(reference.matchRole)
+: person.slug === reference.slug);
+if (matches.length !== 1) throw new Error(`Expected one advising widget person: ${reference.source}/${reference.matchRole || reference.slug}`);
+return { ...matches[0], advisingRole: reference.role, advisingDescription: reference.description };
+}),
+});
+records.advising_widget = {
+...resolveAdvisingGroup(records.advising_widget),
+variants: Object.fromEntries(Object.entries(records.advising_widget.variants || {}).map(([key, group]) => [key, resolveAdvisingGroup(group)])),
+};
+}
 if (records.advising?.people) records.advising = { ...records.advising, people: records.advising.people.map(reference => {
 const person = records[reference.source]?.find(person => person.slug === reference.slug);
 if (!person) throw new Error(`Unresolved advisor: ${reference.source}/${reference.slug}`);

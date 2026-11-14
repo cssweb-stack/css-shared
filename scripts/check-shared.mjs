@@ -25,7 +25,7 @@ const css = fs.readFileSync(file, 'utf8').replace(/\/\*[\s\S]*?\*\//g, '');
 // Enforce component ownership before styles reach consuming sites.
 for (const [, selector, body] of css.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
 if (/\.(?:profile-[\w-]+|faculty-portrait-grid|program-directors-grid|program-office-photo|office-card|unit-contact(?:-[\w-]+)?|map-embed|contact-address|contact-links|advisor-name)\b/.test(selector) && name !== 'css/profile.css' && name !== 'css/diagnostics.css' && !(name === 'css/sidebar.css' && selector.trim() === '.site-main .sidebar-group > .contact-address')) throw new Error(`Profile styles belong in profile.css: ${name}: ${selector.trim()}`);
-if (/\.(?:graduate-student(?:-[\w-]+)?|student-photo-column|student-details-column)\b/.test(selector) && name !== 'css/graduate-students.css' && name !== 'css/diagnostics.css') throw new Error(`Graduate-student styles belong in graduate-students.css: ${name}`);
+if (/\.(?:graduate-student(?:-[\w-]+)?|student-photo-column|student-details-column)\b/.test(selector) && name !== 'css/profile.css' && name !== 'css/diagnostics.css') throw new Error(`Graduate-student profile styles belong in profile.css: ${name}`);
 if (name === 'css/profile.css' && /\.sidebar-group\b/.test(selector)) throw new Error('Generic sidebar rules belong in sidebar.css.');
 if (name === 'css/layout.css' && /(?:^|;)\s*(?:font(?:-[\w-]+)?|color|text-align|text-shadow|background(?:-[\w-]+)?|border(?:-[\w-]+)?|box-shadow|outline(?:-[\w-]+)?)\s*:/.test(body)) throw new Error('layout.css is structural only.');
 if (name === 'css/typography.css' && /\.(?:unit-|profile-|sidebar-|office-|map-|graduate-|student-)/.test(selector)) throw new Error('typography.css is foundational only.');

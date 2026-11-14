@@ -1,0 +1,8 @@
+{# One accessible navigation block, reused on every page of a degree. #}
+<nav class="mt-4" aria-label="{{ degreeNavigation.label | escape }} pages">
+<ul class="list-unstyled d-flex flex-wrap gap-3 mb-0">
+{% for item in degreeNavigation.pages %}
+<li>{% if page.url == item.url %}<span aria-current="page">{{ item.label | escape }}</span>{% else %}<a href="{{ item.url | url }}">{{ item.label | escape }}</a>{% endif %}</li>
+{% endfor %}
+</ul>
+</nav>

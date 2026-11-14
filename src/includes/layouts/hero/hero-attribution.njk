@@ -1,5 +1,6 @@
 {# Full-width imagery credit immediately above the footer. #}
-{% set assignedHero = heroes.pages[page.url] %}
+{% set assignedHero = common['page-heroes'].pages[page.url] %}
+{% if not assignedHero %}{% set assignedHero = heroes.pages[page.url] %}{% endif %}
 {% if not assignedHero %}{% set assignedHero = faculty_heroes.pages[page.url] %}{% endif %}
 {% set heroCredit = assignedHero.credit | default(heroes.credit, true) %}
 {% if assignedHero and assignedHero.credit != false and site.hero.showAttribution != false and heroCredit.source and heroCredit.url %}

@@ -40,8 +40,27 @@ export function generateRedirects({ project, migration, siteUrl, prefix = '/' })
     const file = path.join(root, outputPath(entry.from));
     if (fs.existsSync(file) && !fs.readFileSync(file, 'utf8').includes(marker)) throw new Error(`Redirect would overwrite a real page: ${entry.from}`);
     const destination = external ? entry.to : deploymentPrefix + entry.to;
+    // Split pages can retain old bookmarks by mapping each old fragment to
+    // its new page. Plain redirects remain byte-for-byte unchanged.
+    let fragmentScript = '';
+    if (entry.fragmentTargets) {
+      if (external || typeof entry.fragmentTargets !== 'object' || Array.isArray(entry.fragmentTargets)) throw new Error('Fragment targets require an internal redirect and a fragment-to-URL object.');
+      const targets = {};
+      for (const [fragment, value] of Object.entries(entry.fragmentTargets)) {
+        if (!/^[A-Za-z][A-Za-z0-9_-]*$/.test(fragment) || typeof value !== 'string' || !value.startsWith('/') || value.startsWith('//')) throw new Error(`Invalid redirect fragment mapping: ${entry.from}`);
+        const targetUrl = new URL(value, 'https://migration.invalid');
+        if (targetUrl.search || !/^#[A-Za-z][A-Za-z0-9_-]*$/.test(targetUrl.hash) || sources.has(targetUrl.pathname)) throw new Error(`Invalid fragment destination: ${value}`);
+        const targetFile = path.join(root, outputPath(targetUrl.pathname));
+        if (!fs.existsSync(targetFile)) throw new Error(`Missing fragment destination: ${value}`);
+        const targetHtml = fs.readFileSync(targetFile, 'utf8');
+        if (targetHtml.includes(marker) || ![`id="${targetUrl.hash.slice(1)}"`, `id='${targetUrl.hash.slice(1)}'`].some(id => targetHtml.includes(id))) throw new Error(`Missing fragment anchor: ${value}`);
+        targets[fragment] = deploymentPrefix + targetUrl.pathname + targetUrl.hash;
+      }
+      const safeJson = value => JSON.stringify(value).replace(/</g, String.fromCharCode(92) + 'u003c');
+      fragmentScript = `<script>const targets=${safeJson(targets)};const fragment=location.hash.slice(1);location.replace(Object.prototype.hasOwnProperty.call(targets,fragment)?targets[fragment]:${safeJson(destination)}+location.hash);</script>`;
+    }
     const canonical = new URL(entry.to, siteUrl).href;
-    return { file, relative: outputPath(entry.from), html: `${marker}\n<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=${escape(destination)}"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="canonical" href="${escape(canonical)}"><title>Page moved</title></head><body><h1>Page moved</h1><p>This page has moved. <a href="${escape(destination)}">Continue to ${escape(entry.label || 'the new page')}</a>.</p></body></html>\n` };
+    return { file, relative: outputPath(entry.from), html: `${marker}\n<!doctype html>\n<html lang="en"><head><meta charset="utf-8">${fragmentScript}<meta http-equiv="refresh" content="0; url=${escape(destination)}"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="canonical" href="${escape(canonical)}"><title>Page moved</title></head><body><h1>Page moved</h1><p>This page has moved. <a href="${escape(destination)}">Continue to ${escape(entry.label || 'the new page')}</a>.</p></body></html>\n` };
   });
   for (const relative of previous) {
     outputPath('/' + relative);

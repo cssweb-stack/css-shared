@@ -73,44 +73,8 @@
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/undergraduate/funding-sources.html": {
-      "image": "/media/heroes/students/08.webp",
-      "position": "center center",
-      "alt": "Students at the University of Hawaiʻi at Mānoa",
-      "credit": false
-    },
-    "/undergraduate/advising-support/": {
-      "image": "/media/heroes/students/45.webp",
-      "position": "center center",
-      "alt": "Students at the University of Hawaiʻi at Mānoa",
-      "credit": false
-    },
-    "/undergraduate/advising-support/academic-planning.html": {
-      "image": "/media/heroes/students/28.webp",
-      "position": "center center",
-      "alt": "Students at the University of Hawaiʻi at Mānoa",
-      "credit": false
-    },
-    "/graduate/master-ma.html": {
-      "image": "/media/heroes/students/29.webp",
-      "position": "center center",
-      "alt": "Students at the University of Hawaiʻi at Mānoa",
-      "credit": false
-    },
-    "/graduate/doctorate-phd.html": {
-      "image": "/media/heroes/students/46.webp",
-      "position": "center center",
-      "alt": "Students at the University of Hawaiʻi at Mānoa",
-      "credit": false
-    },
     "/graduate/current-cohort.html": {
       "image": "/media/heroes/students/38.webp",
-      "position": "center center",
-      "alt": "Students at the University of Hawaiʻi at Mānoa",
-      "credit": false
-    },
-    "/graduate/funding-sources/": {
-      "image": "/media/heroes/students/57.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
@@ -127,7 +91,7 @@
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/graduate/gssa.html": {
+    "/graduate/student-organizations.html": {
       "image": "/media/heroes/students/07.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
@@ -135,12 +99,6 @@
     },
     "/graduate/annual-review.html": {
       "image": "/media/heroes/students/24.webp",
-      "position": "center center",
-      "alt": "Students at the University of Hawaiʻi at Mānoa",
-      "credit": false
-    },
-    "/graduate/course-identification.html": {
-      "image": "/media/heroes/students/32.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
@@ -213,6 +171,96 @@
     },
     "/privacy.html": {
       "image": "/media/heroes/students/35.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/master-ma/": {
+      "image": "/media/heroes/students/29.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/master-ma/requirements.html": {
+      "image": "/media/heroes/students/29.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/master-ma/timeline.html": {
+      "image": "/media/heroes/students/29.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/master-ma/thesis.html": {
+      "image": "/media/heroes/students/29.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/master-ma/research-report.html": {
+      "image": "/media/heroes/students/29.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/graduate-course-categories.html": {
+      "image": "/media/heroes/students/32.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/doctorate-phd/": {
+      "image": "/media/heroes/students/46.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/doctorate-phd/requirements.html": {
+      "image": "/media/heroes/students/46.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/doctorate-phd/timeline.html": {
+      "image": "/media/heroes/students/46.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/doctorate-phd/qualifying-review.html": {
+      "image": "/media/heroes/students/46.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/doctorate-phd/comprehensive-exam.html": {
+      "image": "/media/heroes/students/46.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/graduate/doctorate-phd/dissertation.html": {
+      "image": "/media/heroes/students/46.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/major/requirements-fall-2022-and-earlier.html": {
+      "image": "/media/heroes/students/48.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/academic-planning.html": {
+      "image": "/media/heroes/students/28.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/funding-sources.html": {
+      "image": "/media/heroes/students/08.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false

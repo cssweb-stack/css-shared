@@ -39,7 +39,32 @@ code/preformatted text unchanged.
 - House style uses spaced em dashes: `word — word`. Normalize existing em-dash
   spacing; do not blanket-convert hyphens or numeric ranges into em dashes.
 
+## Role-based contact routing
+
+When prose says to contact a chair, undergraduate/graduate chair, director or
+similar unit role, link that existing role label to the unit’s Contact page.
+Replace stale role-based personal-email/bio destinations without rewriting the
+surrounding copy. Contact owns the current role-holder listing. Flag a missing
+role there for review. Do not remove personal email links from biographies,
+directories or Contact cards. Record routing changes in the cleanup report.
+
 ## Review rather than automatically rewrite
+
+- **Institutional-name capitalization:** flag inconsistent use of Department /
+  department, College / college, University / university and similar references.
+  Distinguish full official names from generic references and sentence openings.
+  Report examples for review; do not impose a capitalization policy or silently
+  normalize copy until the user agrees to that policy.
+
+- **Voice/pronoun consistency:** flag first-person wording such as we, us, our,
+  ours, I, me, my, and mine (including contractions), and second-person you/your
+  where it may signal a change of voice. Read the surrounding paragraph/page for
+  mixed institutional third-person and first-person wording; a pronoun alone is
+  not an error. Separate ordinary institutional copy from faculty biographies,
+  attributed quotations, testimonials, and other intentional first-person text.
+  Record the page, excerpt, and voice concern in the report. Do not choose a
+  site-wide voice or rewrite pronouns without consulting the user. This is a
+  report-only review item, not an automatic replacement rule.
 
 - Look for **missing** Hawaiian diacritics as well as wrong-character lookalikes.
   The standard tool includes a report-only `diacritic_review` list in findings.json.
@@ -70,3 +95,29 @@ Finish each sweep with a readable findings report: correction counts, concrete
 before/after examples, items deliberately left for review, and checks actually run.
 
 November 11, 2026: first cleanup applied to ANTH; see work-status.md for counts.
+
+### Voice and tone example: timeline advice
+
+The PhD timeline’s “Consult with your advisor on this” and surrounding second-person
+acceleration advice were changed with explicit user approval to third-person
+student/advisor planning guidance on November 13, 2026. Flag similarly conversational
+or vague instructions during voice review; do not automatically rewrite them.
+
+## Sociology-specific acronym check
+
+For Sociology only, review Theory, Methods, and Statistics references for TMS
+usage. Prefer the full wording; where TMS is used, verify that the first occurrence
+on that page defines it as Theory, Methods, and Statistics (TMS). A definition on
+another page is insufficient. Flag undefined or inconsistent usage for correction;
+do not introduce TMS automatically. This is not an all-sites rule.
+
+## Sociology-specific department and degree naming review
+
+Inventory how Sociology names its department and degrees across page titles,
+headings, navigation, prose and shared SOC data. Record variants such as Department
+of Sociology / Sociology department, Sociology BA / BA in Sociology, Major (BA),
+and BA alone, plus analogous MA/PhD labels. Distinguish useful short navigation
+labels from formal names in prose; variation is not automatically an error.
+Report examples and proposed context-specific naming conventions for user review.
+No preferred form has been approved; do not automatically rename or rewrite.
+This audit item applies to Sociology only.

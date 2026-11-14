@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "jason-higa",
+    "name": "Jason Higa",
+    "title": "Academic Advisor",
+    "photo": "/media/shared/advisors/jason-higa.webp",
+    "photoWidth": 215,
+    "photoHeight": 215,
+    "appointmentInstructions": [
+      {
+        "before": "Current and continuing UH Mānoa students should schedule advising appointments through ",
+        "label": "Navigate360",
+        "url": "https://manoahawaii.campus.eab.com/",
+        "after": "."
+      },
+      {
+        "before": "Learn how to ",
+        "label": "schedule an appointment",
+        "url": "https://docs.google.com/document/d/1S1To4AbuIoAh9yVXl3Vg-XNeL-XI526SFgyIYxaggSE/edit?tab=t.0",
+        "after": "."
+      },
+      {
+        "before": "Explore additional ",
+        "label": "advising options",
+        "url": "https://socialsciences.manoa.hawaii.edu/study-at-css/advising-and-support/academic-advising/",
+        "after": ""
+      }
+    ]
+  }
+]

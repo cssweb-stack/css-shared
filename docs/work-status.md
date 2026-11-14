@@ -1,6 +1,1155 @@
 # Current work handoff
 
-Updated November 12, 2026 (Pacific/Honolulu).
+Updated November 13, 2026 (Pacific/Honolulu).
+
+## November 13: Research summaries moved to Research Areas
+
+- Replaced Research Areas landing page’s bare link list with the five original
+  linked H2s and descriptions from Why Study SOC, preserving all wording/order.
+- Removed the About Sociology/research block and Department History link from
+  Why Study SOC. Both undergraduate/graduate overviews remain for the planned
+  new intro and image/text grid treatment; no new copy or images chosen yet.
+- Local ../soc edits only; no builds/tests, commit, push or deployment.
+
+## November 13: Why Study graduate overview restored
+
+- Restored Graduate Study H2 and its two original introductory paragraphs/degree
+  links after clarifying the intended cutoff. Old graduate image/link blocks remain
+  removed. Undergraduate overview and AKD navigation unchanged. Column/table
+  treatment remains pending. Local ../soc edit only; no builds/tests, commit,
+  push or deployment.
+
+## November 13: Why Study SOC reduction and AKD access
+
+- Removed everything beneath the Undergraduate Study overview paragraphs on
+  Why Study SOC, including old images/link blocks and duplicate graduate overview
+  material already represented on degree pages. Existing upper research material
+  and undergraduate explanation remain unchanged.
+- AKD remains linked from Graduate > Student Organizations. Added direct Alpha
+  Kappa Delta link after Honors Track in Undergraduate navigation so both audiences
+  can reach it after removing the old Why Study links.
+- Local soc/css-shared edits only; no builds/tests, commit, push or deployment.
+
+## November 13: Honors-only course widget prefix
+
+- Removed the standalone HON Class Descriptions link. Honors Track alone now
+  sets courseResourcesPrefix: SOC or HON. Shared course widget uses that optional
+  override, falling back to unit prefix everywhere else; buttons unchanged.
+- Recorded the page-specific override in project-conventions.md. Local soc and
+  css-shared edits only; no builds/tests, commit, push or deployment.
+
+## November 13: Honors semester labels
+
+- Changed Semester 1/2 labels beneath HON 496 to regular paragraphs, removing
+  italics and using spaced em dashes. Wording/course lists unchanged.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Honors course group labels
+
+- Converted the four bold paragraph labels beneath Honors and Sociology Courses
+  to plain H3s, each preceded by the existing smaller my-3 HR. Label text and course
+  descriptions unchanged; semester italic labels left for separate review.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Honors intro sidebar logo
+
+- Added shared media/units/soc/undergraduate/honors-program.png (283x391) to the
+  Honors Track intro’s right column, matching the narrow AKD sidebar grid.
+  Uses the user-requested classic photo-style border/shadow treatment and
+  descriptive logo alt text; original intro prose unchanged.
+  Removed the duplicate imported bottom logo instance; media file not deleted.
+- Local ../soc edit only; inspected image dimensions; no builds/tests, commit,
+  push or deployment.
+
+## November 13: Honors Track intro/gray split
+
+- Read Honors Track and separated its H1/three opening overview paragraphs into
+  the white intro. Gray starts at Participation and Requirements and includes
+  Honors and Sociology Courses plus the existing image/HON descriptions link.
+  Removed the leading HR at that boundary; course widget remains separate below.
+- Wording and other markup unchanged. Further heading/voice cleanup deferred.
+  Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Funding white sections combined
+
+- Combined undergraduate and graduate funding into one continuous white section,
+  with a standard HR before Graduate Funding Opportunities. Existing audience
+  headings and all content unchanged. Later funding topics remain in that section.
+- User accepts the consolidated resource-directory approach for now. Local ../soc
+  edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Funding descriptions generalized
+
+- Rewrote root funding list entries as concise name — purpose/resource summaries,
+  as authorized. Removed named contacts/mailto links, amounts, deadlines, award
+  years, quotas, GPA/credit thresholds and detailed application/benefit claims.
+  Native Hawaiian items describe resources rather than recurring deadlines.
+- Shortened Graduate Assistantships and Student Employment separately; intro
+  directs readers to providers for current terms and availability. Broad audience
+  distinctions retained; listed resources and detail pages preserved. Provider
+  URLs were not audited and current availability is not asserted.
+- Recorded the general-directory convention and updated soc-funding-text-cleanup.md.
+  Local soc/css-shared edits only; no builds/tests, browser review, commit, push
+  or deployment.
+
+## November 13: Funding Sources focused text cleanup
+
+- Standardized award/resource entries to name — description; cleaned obvious
+  punctuation, range formatting and Hawaiian-character issues. STAR is one linked
+  General Funding Resources bullet; removed its extra section, application prose
+  and JTB example. Other specifics retained for the next editorial pass.
+- Recorded entry format in project-conventions.md and focused findings in
+  soc-funding-text-cleanup.md. Flagged stale 2023 award/deadlines, named contacts,
+  EPIC’s our website wording, uncertain details and remaining naming differences.
+- Local soc/css-shared edits only; no full-site script, builds/tests, browser audit,
+  commit, push or deployment. Next: simplify descriptions and review stale details
+  with the user; no current eligibility verification claimed.
+
+## November 13: Undergraduate funding landing page retired
+
+- Undergraduate menu now points to /funding-sources.html, matching Graduate.
+  Deleted ../soc/src/undergraduate/funding-sources.html; updated Why Study links
+  and removed the obsolete fragment. Removed old hero assignment, configured
+  old-URL redirect and removed stale generated page to permit redirect output.
+- Both former funding landing sources are retired. Combined page awaits cleanup.
+  Local soc/css-shared edits only; no builds/tests, commit, push or deployment.
+
+## November 13: Final undergraduate funding section moved
+
+- Moved Specialized Funded Programs Affiliated with UH, all six entries unchanged,
+  beneath Student Employment on root Funding Sources with a standard HR.
+  Audience/dated content review remains pending; no eligibility claims added.
+- Old undergraduate source now only retains its intro; its navigation/retirement
+  remains pending approval. Local soc/css-shared edits only; no builds/tests,
+  commit, push or deployment. Next: cleanup/reconciliation of the combined page.
+
+## November 13: Funding shared/STAR/native moves and Hörmann merge
+
+- Study Abroad Center scholarships moved to General Funding Resources; STAR is
+  a dedicated H3 at the bottom of gray, combining its general resource description
+  and former STAR example content. Removed duplicate general STAR listing.
+- Moved Native Hawaiian Funding unchanged below graduate funding, before Student
+  Employment. Merged Hörmann descriptions into one concise departmental entry,
+  preserving core award/history facts and dedicated-page link; removed old copy.
+- Old undergraduate source now retains only Specialized Funded Programs and its
+  intro (six entries pending review). See soc-funding-consolidation.md for details.
+- Local soc/css-shared edits only; no builds/tests, commit, push or deployment.
+
+## November 13: Graduate funding landing page retired
+
+- Deleted ../soc/src/graduate/funding-sources/index.html after consolidation.
+  Graduate navigation and Why Study funding links now use /funding-sources.html.
+  Removed its old hero assignment and configured an old-URL redirect; removed
+  stale generated index to permit redirect output. Sakihara detail page retained.
+- Undergraduate funding page/menu remain pending review of uncertain leftovers.
+  Local soc/css-shared edits only; no builds/tests, commit, push or deployment.
+
+## November 13: Graduate funding staged move
+
+- Added Graduate Funding Opportunities to the root funding page, with Graduate
+  Assistantships first and Scholarships and Financial Support second. Moved the
+  remaining graduate resources and GA prose intact from the old graduate source.
+- Split hourly Student Employment into its own H2, preserving the two original
+  sentences/SECE link rather than conflating jobs with graduate assistantships.
+- Old graduate page now holds only its intro; old undergraduate uncertainties
+  remain flagged in soc-funding-consolidation.md. Navigation/redirects unchanged.
+  Local soc/css-shared edits only; no builds/tests, commit, push or deployment.
+
+## November 13: Undergraduate funding staged move
+
+- Added a white Undergraduate Funding Opportunities section to the root funding
+  page, grouped into scholarships/support, research/travel/study abroad, paper
+  awards. Moved twelve entries from the old undergraduate page; combined its two
+  UROP descriptions without losing listed services. Combined duplicate general
+  Financial Aid Services entries as separately authorized.
+- Mixed/unclear audience material remains on the old undergraduate page for review
+  (including JASC/FLAS/Boren, Native Hawaiian programs, and alternate Hörmann copy).
+  See soc-funding-consolidation.md for exact moved/remaining topics.
+- Dated 2023 paper-award copy retained for review; no eligibility/deadline audit.
+  Both old pages/navigation remain. Local soc/css-shared edits only; no builds/tests,
+  commit, push or deployment. Next: classify remaining shared material and move
+  the clearly graduate section, then reconcile and review before retiring old URLs.
+
+## November 13: Root Funding Sources staged consolidation
+
+- Created ../soc/src/funding-sources.html with white intro and gray Residency,
+  Departmental Funding Sources, General Funding Resources. Moved shared/broad
+  material out of both old pages; consolidated near-identical departmental Hörmann
+  and residency copies, retaining WUE and original prose. Both FAS summaries remain
+  for review. See soc-funding-consolidation.md for moved/remaining inventory.
+- Old undergraduate/graduate pages remain with their unmoved material. Navigation
+  and old URLs unchanged; full merge/retirement deliberately deferred per steering.
+  Added the new page’s hero assignment. No eligibility audit or substantive rewrite.
+- Local soc/css-shared edits only; no builds/tests, commit, push or deployment.
+  Next: review new gray section and progressively reconcile remaining content.
+
+## November 13: Undergraduate funding color split
+
+- Applied white intro, gray Residency/Departmental Funding, then white from Other
+  Scholarship Opportunities through Paper Awards. No leading divider at the new
+  white section. Existing funding descriptions unchanged.
+- User flagged duplicate Hörmann Prize entries; both retained pending choice of
+  description/consolidation. Local ../soc edit only; no builds/tests, commit,
+  push or deployment.
+
+## November 13: Undergraduate funding duplicate opening removed
+
+- Removed the opening HRs, Additional Undergraduate Funding/Undergraduate Funding
+  headings and duplicate financial-assistance sentence. Funding Sources H1/intro
+  now lead directly to Residency for Tuition Purposes. Remaining text unchanged.
+- Suggested gray Residency/Departmental Funding, white from Other Scholarship
+  Opportunities; color-section split not yet implemented pending user choice.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Undergraduate funding reordered
+
+- Moved the appended undergraduate funding block (Residency for Tuition Purposes,
+  Departmental Funding Sources and Other Scholarship Opportunities) above STAR.
+  Existing block headings/intro and all wording retained for subsequent cleanup.
+  Page now ends with the final Paper Awards item. No other restructuring.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Academic Planning intro and gray section
+
+- Separated H1/new cohesive intro into white; everything from Planning Tools
+  through Career Planning is gray. Removed the leading HR at that section boundary;
+  later dividers retained. Intro summarizes tools, advising, degree combinations,
+  study abroad, internships and careers. All supporting content unchanged.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Academic Planning replaces Advising & Support
+
+- Replaced Undergraduate navigation’s Advising & Support with Academic Planning.
+  Moved the page to ../soc/src/undergraduate/academic-planning.html and preserved
+  the remaining ASA careers-article link under Career Planning. Existing planning
+  copy unchanged, including outdated links pending later review.
+- Retired the old Advising & Support landing source; mission/services were already
+  incorporated into the shared BA/Minor advising intro. Updated Why Study planning
+  links; remaining contact-oriented advising links now point to Contact.
+- Moved hero assignment and configured old landing/planning URLs to redirect to
+  the new page; removed stale generated files that could collide with redirects.
+- Local soc/css-shared edits only; no builds/tests, commit, push or deployment.
+
+## November 13: BA/Minor advising introduction
+
+- Added shared default advising intro beneath Undergraduate Advising on BA/Minor,
+  encouraging work with advisors toward graduation and preserving the service
+  topics from the Advising & Support mission paragraph: courses, requirements,
+  planning, careers, graduate school, declarations, minor verification and paperwork.
+- Existing template supplies HR before the two people. Services remain collective,
+  not assigned to either advisor; BAM’s separate introduction is unchanged.
+  Advising & Support page remains pending retirement. Local css-shared edit only;
+  no builds/tests, commit, push or deployment.
+
+## November 13: BAM intro approved and admissions label standardized
+
+- Applied the approved BAM intro presenting teaching as one possible career path.
+  Standardized Applications & Admissions in the BAM H2/link and MA/Why Study links;
+  page title/H1/global navigation already used that form.
+- Recorded the Sociology page-label convention in project-conventions.md.
+  Local soc/css-shared edits only; no builds/tests, commit, push or deployment.
+
+## November 13: BAM application section streamlined
+
+- Replaced duplicated application-component explanation with the approved short
+  paragraph linking Applications and Admissions, retaining January 15 junior-year
+  deadline and fall admission timing. Three bullets cover notification, dual
+  enrollment/double-counted tuition, and temporary advisor/Plan A or B choice.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: BAM advising introduction relocated
+
+- Removed the final second-person advising paragraph from the BAM intro. Added
+  a general explanation under the advising widget H2 about coordinating
+  undergraduate, graduate and general education advising across both degrees,
+  followed by an HR. Stored as BAM’s optional JSON intro; BA/Minor unaffected.
+- Local soc/css-shared edits only; no builds/tests, commit, push or deployment.
+
+## November 13: Advisor wording unified
+
+- Undergraduate Chair uses the same undergraduate course selection, program
+  requirements and planning description on BA, Minor and BAM. Graduate Chair
+  uses the equivalent graduate wording on BAM. Removed SOC; Jason unchanged.
+- Supersedes the prior general-SOC/default versus BAM-specific wording distinction.
+  Local css-shared edits only; no builds/tests, commit, push or deployment.
+
+## November 13: Advisor descriptions generalized and BAM variant
+
+- Default BA/Minor chair description now says For guidance on SOC course
+  selections, program requirements and planning, without declaration ownership.
+- Added BAM JSON variant with Undergraduate Chair, Graduate Chair, then Jason.
+  First two use undergraduate/graduate SOC guidance descriptions respectively;
+  Jason unchanged. Shared loader resolves both chairs by role from people.json;
+  same widget and typography/layout, two chairs first desktop row, Jason second.
+- Local soc/css-shared edits only; no builds/tests, commit, push or deployment.
+
+## November 13: BAM intro flow and terminology
+
+- Merged existing career paragraphs into the opening paragraph; added Program
+  features and planning considerations include before the bullets. Lowercased
+  students/master’s, clarified Sociology BA/MA program links, expanded UHCC to
+  University of Hawaiʻi Community Colleges, and corrected Kaʻieʻie/UH Mānoa.
+- Other instructions and requirements unchanged. Local ../soc edit only;
+  no builds/tests, commit, push or deployment.
+
+## November 13: BAM double-counted course headings
+
+- Replaced the three selection lead-ins with H3s: Undergraduate Course (select
+  one), Quantitative or Qualitative Methods (select one), and Sociological Theory
+  (select one). Course lists and selection requirements unchanged.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: BAM plan labels aligned
+
+- Renamed the tracks heading Plan A: Thesis or Plan B: Research Report, matching
+  the MA page labels/colon punctuation. Catalog Plan B link now also says
+  Plan B: Research Report. Other text unchanged. Local ../soc edit only;
+  no builds/tests, commit, push or deployment.
+
+## November 13: BAM catalog plan links
+
+- Removed the obsolete Sample Five-Year Plans link/page-bottom note from
+  double-counted courses. Added the two catalog links at the end of the tracks
+  section: Plan A Thesis poid=1843, Plan B Non-Thesis poid=2105, as confirmed
+  by the user. Catalog content blocked automated viewing; mapping is user supplied.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: BAM dividers and direct plan links
+
+- Added standard HRs before the three later gray-section H2s, none before
+  Eligibility Requirements. Linked Plan A/Plan B at the start of their detailed
+  bullets to the existing MA thesis/research-report pages and removed the redundant
+  details-of-these-tracks sentence. Intro’s brief plan-choice bullet retained.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: BAM intro and gray sections
+
+- Kept BAM H1 through the paragraph before Eligibility Requirements in the white
+  intro. Eligibility Requirements through the remaining pathway content now sits
+  in a separate gray section. Advising and course widgets remain separate below.
+- Wording unchanged. Local ../soc edit only; no builds/tests, commit, push
+  or deployment.
+
+## November 13: BAM section headings and footer cleanup
+
+- Converted Eligibility Requirements, Application and Admission, Plan A Thesis
+  or Plan B Non-Thesis Tracks, and Options for Double-Counted Courses to H2s.
+- Removed the bottom For more information/contact paragraph, image, standalone
+  Undergraduate Advising link and surrounding HRs. Shared advising/course widgets
+  and other content remain unchanged. Local ../soc edit only;
+  no builds/tests, commit, push or deployment.
+
+## November 13: Graduation guidance consolidated on BA
+
+- Added a final BA Graduation Requirements bullet linking the full phrase
+  step-by-step guidance on the graduation process to the existing CSS graduation
+  resource, with concise College of Social Sciences attribution.
+- Removed Preparing for Graduation, its preceding HR, Jason’s old photo/details,
+  and everything below from Advising & Support. Its intro and early links remain
+  pending the user-directed eventual retirement; page not yet deleted.
+- Local ../soc edits only; no builds/tests, commit, push or deployment.
+
+## November 13: BAM advising widget
+
+- Inserted the same shared advising widget directly above the course widget on
+  ../soc/src/undergraduate/bam.html. Reuses central identity/role/appointment data;
+  no other BAM content changed. Local soc/css-shared edits only;
+  no builds/tests, commit, push or deployment.
+
+## November 13: Major Concentrations intro aligned
+
+- Replaced the awkward Optional, our opening with a Minor-style explanation of
+  optional topic-based course groupings, example areas, and career/graduate-school
+  preparation. Retained the link to the BA overview within the introduction.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: BA catalog terminology updated
+
+- Replaced the outdated Program Sheet/STAR paragraph with a catalog reference
+  grounded in the user-supplied transition notice: from 2025–26 onward, program
+  requirements and sample four-year plans are in Undergraduate Programs A–Z.
+  Retained the supplied direct Sociology catalog destination. Did not reproduce
+  the old webpage’s archive notice as though it described this new site.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: BA program link and naming review item
+
+- Replaced the BA Graduation Requirements Program Sheet destination with the
+  supplied catalog.manoa.hawaii.edu program URL. Visible wording unchanged.
+  Research browser encountered the destination’s JS/anti-bot screen, so its
+  program content was not independently verified.
+- Recorded a Sociology-only department/degree naming inventory in text-cleanup.md
+  and the SOC cleanup report. Context-specific recommendations require review;
+  no canonical naming or bulk changes adopted, and inventory not yet run.
+- Reviewed Graduation Requirements prose: consistent third-person voice; some
+  wordiness and potentially outdated Program Sheet terminology flagged to user,
+  without rewriting. Local soc/css-shared edits only; no builds/tests, commit,
+  push or deployment.
+
+## November 13: BA graduation footer clutter removed
+
+- Removed the image, standalone outcomes/advising links, both HRs, and Related
+  Resources list beneath Graduation Requirements. Graduation prose/links remain
+  unchanged, followed by declaration, advising widget and course widget sections.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: BA repeated credit sentence removed
+
+- Removed the redundant 30-credit/introductory-course sentence above Required
+  Courses. Credit total remains in H2; introductory-course requirement remains
+  in the list. Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: BA requirement headings and notes
+
+- Removed the superseded intro bullets and HR. Current requirement heading now
+  matches Minor: Course Requirements (at least 30 credits). Earlier-requirement
+  link is an info paragraph followed by my-3 HR; credit sentence is regular text.
+- Required, methods/statistics and elective labels are plain unnumbered H3s without
+  trailing colons. Prerequisites and Additional Notes are H3s with smaller dividers.
+  Requirement wording otherwise preserved. Local ../soc edit only;
+  no builds/tests, commit, push or deployment.
+
+## November 13: BA outcomes intro link
+
+- Added the approved final intro sentence linking Student Learning Outcomes and
+  explaining its purpose. Other BA content unchanged. Local ../soc edit only;
+  no builds/tests, commit, push or deployment.
+
+## November 13: BA concentrations intro sentence
+
+- Added the Minor-matching final intro sentence describing optional major
+  concentrations as suggested topic-based course groupings for career and graduate
+  school preparation, linked to Major Concentrations. Other content unchanged.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: BA introduction grounded in course descriptions
+
+- Replaced the generic BA intro/advising sentence with a general description of
+  social relationships/institutions, required theory/research foundations, methods
+  and statistics choices, and example upper-division elective topics.
+- Read the supplied SOC.docx descriptions for SOC 100, 300, 321, 475, 476/L and
+  478; elective themes draw on the previously reviewed 300/400-level descriptions.
+  Wording presents options/examples rather than promising every topic or method.
+- Local ../soc edit only; requirements untouched; no builds/tests, commit, push
+  or deployment.
+
+## November 13: Current BA course requirements gray section
+
+- Wrapped the Spring 2023-and-later BA course requirements through their final
+  additional note in a gray page section, including the earlier-requirements link.
+  Intro content stays white; Graduation Requirements begins a separate white
+  section. Other content and wording unchanged. Graduation requirements describe
+  broader degree completion, not only the current Sociology course-credit block.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Earlier BA requirements separated
+
+- Moved the complete Fall 2022-and-before major requirements unchanged into
+  ../soc/src/undergraduate/major/requirements-fall-2022-and-earlier.html, titled
+  BA Requirements: Fall 2022 and Earlier. White intro/back-link, original content
+  in gray, separate standard course widget. Uses the existing BA hero.
+- Main BA page links to the new page beside current requirements; retained its
+  section-2 anchor on the notice for old bookmarks. Graduation requirements and
+  all other existing BA content unchanged; intro revision remains pending.
+- Local soc/css-shared edits only; no builds/tests, commit, push or deployment.
+
+## November 13: Minor Concentrations quick links
+
+- Added the same Explore the Concentrations heading, explanation and seven
+  vertical jump links between the intro and gray content on Minor Concentrations.
+  Existing H2 IDs use page-jump-target for the shared sticky-header offset.
+- Content and course lists unchanged. Local ../soc edit only; no builds/tests,
+  commit, push or deployment.
+
+## November 13: Concentration jump destinations and label
+
+- Added Explore the Concentrations H2 and a short explanation above the jump list.
+  Link fragments match the existing seven H2 IDs. Targets now opt into
+  page-jump-target scroll spacing to clear the sticky header.
+- Shared site.js measures header height with ResizeObserver (resize fallback),
+  and corrects incoming bookmarks after load. Layout CSS provides measured header
+  offset plus 1rem, with a no-JS fallback. Other targets/pages are unaffected.
+- Local soc/css-shared edits only; source inspected, no browser verification,
+  builds/tests, commit, push or deployment. User to confirm landing positions.
+
+## November 13: Major Concentrations quick links trial
+
+- Added a vertical list of seven concentration jump links in its own white section
+  between the intro and gray content. Each targets the existing H2 ID; content
+  stays visible and unchanged. No new CSS or accordion behavior added.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Major Concentrations course resources
+
+- Retained the last Research Methods and Statistics elective notes (four/five
+  substantive-area courses depending on admission date). Removed the following
+  image and plain availability/description links; added the shared course widget
+  in its own white section below gray. Local ../soc edit only;
+  no builds/tests, commit, push or deployment.
+
+## November 13: Major Concentrations info notes and dividers
+
+- Converted each concentration’s two admission-date elective bullets into separate
+  info/icon-text paragraphs, preserving wording. Removed the following HR so the
+  elective course lists follow directly. Added standard HRs before concentration
+  H2s 2–7, with none above the first concentration.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Major Concentrations initial structure
+
+- Separated H1/existing opening paragraph into a white section; remaining content
+  is gray. Shortened all seven description openings to Designed for.
+- Converted numbered italic core/methods/statistics/electives labels to plain H3s,
+  without numeric prefixes or trailing colons. Lists, elective rules, nested notes
+  and remaining footer content unchanged; further elective work deferred.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: BA declaration moved
+
+- Removed Declaring a Sociology Major from Advising & Support and added it in a
+  standalone white section immediately above the BA advising widget. Reworded to
+  match the Minor’s online-form/academic-plan approach; retained both declaration
+  routes and the original expectation of meeting an advisor before the form.
+- Local ../soc edits only; no builds/tests, commit, push or deployment.
+
+## November 13: BA advising widget
+
+- Inserted the existing shared advising widget directly above the course widget
+  on ../soc/src/undergraduate/major/index.html. Same central data and layout as
+  Minor; no other BA content changed. Minor accepted as done for now by the user.
+- Local soc/css-shared edits only; no builds/tests, commit, push or deployment.
+
+## November 13: Minor advising scope clarified
+
+- Changed Jennifer’s widget description to SOC Course Selections as requested.
+  Declaration advice covers sociology course choices and now ends with how the
+  minor fits into their overall academic plan, per the user’s final wording.
+- Course-widget button labels untouched. Local soc/css-shared edits only;
+  no builds/tests, commit, push or deployment.
+
+## November 13: Advisor widget approved and shortened
+
+- Removed the old Advising block and preceding HR beneath the Minor declaration
+  paragraph. Shared widget remains in its own section above course resources.
+- Shortened Jennifer/Jason role descriptions as approved, omitting repeated titles.
+  Jason’s help line now reads Learn how to schedule an appointment, with the same
+  link. No further changes to advising responsibilities were inferred.
+- Local soc/css-shared edits only; no builds/tests, commit, push or deployment.
+
+## November 13: Reusable advisor widget on Minor
+
+- Added shared layouts/profiles/advising-widget.njk and SOC advising-widget.json;
+  inserted the widget directly above the Minor course widget, in its own section.
+  Existing advising content remains intact for comparison as requested.
+- Chair resolves by role from SOC people.json (currently Jennifer Darrah), using
+  existing office/email/phone rendering. Jason Higa resolves from new common
+  advisors.json, with the shared 215x215 photo and exact three appointment
+  instruction paragraphs/links from Advising & Support; no phone/email displayed.
+- Layout-only CSS in layout.css: desktop 20/30/20/30, stacked advisor groups on
+  tablet/mobile. Existing profile.css name rule extended to H3; existing profile
+  typography/contact/frame styles reused. Legacy GEO advising loader unchanged.
+- Recorded role-order/data conventions in project-conventions.md and component
+  documentation in advising-widget.md. Local soc/css-shared edits only; no build,
+  tests, browser review, commit, push or deployment. Next: user comparison before
+  removing old advising text or adopting elsewhere.
+
+## November 13: Advising & Support footer resources removed
+
+- Removed the plain SOC Class Availability/Class Descriptions links and the entire
+  Related Resources section through Alpha Kappa Delta. Earlier content preserved.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Minor declaration wording modernized
+
+- Described the Kuali declaration as an online form, removed the processing/STAR
+  explanation, and explicitly encouraged advising before submission. Form link
+  and declaration requirement unchanged. Local ../soc edit only;
+  no builds/tests, commit, push or deployment.
+
+## November 13: Minor declaration placement refined
+
+- Moved declaration content out of the gray course section into the white section
+  immediately before Advising, with an HR between the two H2s. Removed the former
+  course/declaration divider. Tightened declaration/form/STAR wording and retained
+  the recommendation to meet an undergraduate advisor for course planning.
+- Supersedes the preceding gray-section placement. Local ../soc edit only;
+  no builds/tests, commit, push or deployment.
+
+## November 13: Minor declaration moved into degree page
+
+- Moved Declaring a Sociology Minor H2 and its original paragraph/form link from
+  Advising & Support into the Minor page’s gray section below course requirements,
+  separated by a standard HR. Removed that section from Advising & Support.
+- Local ../soc edits only; no copy rewriting, builds/tests, commit, push or deployment.
+
+## November 13: Minor requirement headings
+
+- Added Course Requirements (at least 15 credits) H2 and removed the repeated
+  credit minimum from the lead-in. Required Course, Four Elective SOC Courses,
+  Prerequisites and Additional Notes are plain H3s without numbering or colons.
+- Used existing my-3 dividers before Prerequisites and Additional Notes.
+  Course requirements otherwise unchanged. Local ../soc edit only;
+  no builds/tests, commit, push or deployment.
+
+## November 13: Minor page section structure
+
+- Minor now has separate white intro, gray coursework/prerequisites/notes,
+  white Advising, and white course-widget sections, in that order.
+- Removed the bottom image, Related Resources/concentrations link and its HR.
+  Existing text and course labels retained; heading/style refinements deferred.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Minor concentration description openings
+
+- Shortened all seven description openings to Designed for students interested
+  in, including the existing Thus typo. Remaining descriptions unchanged.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Minor Concentrations leading divider
+
+- Removed the HR before the first Criminology H2; dividers between subsequent
+  concentration sections remain. Local ../soc edit only; no builds/tests,
+  commit, push or deployment.
+
+## November 13: Minor Concentrations course resources
+
+- Removed the bottom image, standalone Undergraduate Advising and plain SOC
+  availability/description links. Added the standard course-resources widget in
+  its own white section beneath the gray concentration content.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Minor Concentrations sections
+
+- Separated H1/new approved-scope introductory paragraph into a white section;
+  remaining content is gray. Intro links minor in Sociology to the Minor page
+  and describes the optional topic-based course groupings and preparation purpose.
+- Added HR before each concentration H2; converted numbered italic Core Course
+  and Electives labels to unnumbered plain H3s. Existing course lists, concentration
+  descriptions and footer content preserved.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Minor concentrations intro link
+
+- Added a final intro sentence describing optional minor concentrations as
+  suggested topic-based course groupings for career/graduate-school preparation.
+  Linked the existing concentrations page and removed the superseded standalone
+  promotional bullet and extra HR. Other content unchanged.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Minor intro and advising
+
+- Replaced the Minor intro with the exact approved research/elective summary.
+  Moved its advising purpose to a new Advising H2 near the bottom, distinguishing
+  Sociology coursework/minor guidance from general education/degree planning.
+  Undergraduate Chair links to Contact; declaration/graduation guidance links to
+  Advising & Support. Existing requirements and other structure remain untouched.
+- Read Geography’s advising examples and SOC Advising & Support as references.
+  Local ../soc edits only; no builds/tests, commit, push or deployment.
+
+## November 13: Undergraduate landing-page course resources
+
+- Added the shared Sociology course-resources include as a standalone final white
+  section on Minor, Major, BAM and Honors Track, outside existing content columns.
+- Removed superseded plain SOC availability/description links; retained Honors
+  course-description link and all other content. Local ../soc edits only;
+  no builds/tests, commit, push or deployment.
+
+## November 13: History decorative sidebar photo
+
+- History now uses the same 10/2 desktop, 9/3 tablet, stacked mobile columns as
+  Alpha Kappa Delta. Moved the photo to the right column and switched to shared
+  media/units/soc/history/hawaii-hall.webp (240x446), with photo-style and empty
+  alt for decoration. Original prose and white-only section retained.
+- Local ../soc edit only; read shared image dimensions; no builds/tests, commit,
+  push or deployment. Old imported history image remains unused in local media.
+
+## November 13: Application checklist capitalization
+
+- Capitalized the six lowercase checklist openings on Sociology Applications &
+  Admissions, including linked Official TOEFL. Other wording unchanged.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Student Organizations AKD description
+
+- Kept the linked Alpha Kappa Delta H2 and replaced its duplicate body link with
+  a sentence about academic recognition, travel awards and paper competitions,
+  grounded in the existing AKD page. Local ../soc edit only; no builds/tests,
+  commit, push or deployment.
+
+## November 13: AKD introduction and narrower logo column
+
+- Added the requested student membership introduction immediately below H1,
+  before the attributed quote. Defines AKD and identifies the honor society.
+- Switched intro to the existing Bootstrap 10/2 desktop, 9/3 tablet grid,
+  stacked on mobile. Shared 200px logo uses img-fluid to avoid enlargement.
+  No new CSS. Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Alpha Kappa Delta sections
+
+- Replaced the italic intro with the exact purpose text supplied by the user,
+  in a semantic blockquote with a visible homepage attribution. Shared AKD logo
+  now occupies the intro’s right column using the existing Foundation-row pattern.
+- Removed the repeated founded-in-1920 sentence and bottom image; existing
+  membership paragraph and links moved to gray under Membership Benefits.
+- Local ../soc edit only; no CSS changes, builds/tests, commit, push or deployment.
+
+## November 13: Student organization order
+
+- Reordered the two Student Organizations rows: Alpha Kappa Delta first, GSSA
+  second. Content and image treatment unchanged. Local ../soc edit only;
+  no builds/tests, commit, push or deployment.
+
+## November 13: Student organization image treatment
+
+- Applied the existing photo-style class to both Student Organizations images
+  for the standard border/shadow treatment. Removed the GSSA Facebook sentence
+  at the user’s request; no replacement text or CSS added.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Shared student organization logos
+
+- Student Organizations now uses both 200x200 PNGs from shared
+  src/media/units/soc/student-organizations/. Updated AKD and Why Study SOC image
+  references too, including Why Study’s old GSSA destination.
+- Permanently deleted all four imported GSSA/AKD image copies from
+  ../soc/src/media/content/ at the user’s request. Other media preserved.
+- Local soc/css-shared changes only; inspected source references and shared image
+  dimensions; no builds/tests, commit, push or deployment.
+
+## November 13: Degree overview intros simplified
+
+- Merged the two intro paragraphs on MA and PhD overview pages. Removed the five
+  individual research-area links while preserving their wording; each combined
+  paragraph ends with See Research Areas linking to /about-soc/research-areas/.
+- Local ../soc edits only; no builds/tests, commit, push or deployment.
+
+## November 13: Degree navigation separated from intros
+
+- Moved shared degree navigation out of the intro on all five MA and six PhD
+  pages. Each now has a separate white page-section/container/row/column between
+  the intro and gray content section. Navigation markup/styles/content unchanged.
+- Local ../soc edits only; no builds/tests, commit, push or deployment.
+
+## November 13: Sociology TMS check recorded
+
+- Added a Sociology-only cleanup item: spell out Theory, Methods, and Statistics
+  or define TMS on first use on each page. Recorded in text-cleanup.md and the
+  SOC cleanup report; no site-wide scan or content changes performed this turn.
+- Local css-shared documentation only; no tests, commit, push or deployment.
+
+## November 13: MA timeline readability
+
+- Matched the PhD pattern: existing opening sentence, two guidance bullets, and
+  Graduate Course Categories as a separate sentence. All wording/table retained.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: PhD timeline readability
+
+- Broke the example-progress paragraph into its original opening sentence and
+  six bullets. Only the approved acceleration/advisor wording was rewritten into
+  third person; conservative-plan qualification and all other details retained.
+  Graduate Course Categories is a separate sentence after the list; table unchanged.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: PhD split implemented
+
+- Split ../soc/src/graduate/doctorate-phd.html into doctorate-phd/index.html plus
+  requirements, timeline, qualifying-review, comprehensive-exam and dissertation.
+  See soc-phd-pages.md for the content map and migration details.
+- Preserved substantive prose; added short intros, plain H3s, gray content bands,
+  shared PhD navigation ending in the existing Annual Review, and separate white
+  course-resource sections. Timeline retains all twelve semesters in the shared
+  responsive table. No CSS changes.
+- Updated global/Why Study links and hero assignments; configured old PhD URL
+  and fragment redirects. Corrected two Phase I links from advising to Coursework.
+- Local soc/css-shared changes only; no build, tests, browser review, commit,
+  push or deployment. Next: user review, then MA/PhD cross-check; old SOC verifier
+  inventory still needs separate upkeep when verification is requested.
+
+## November 13: MA overview course resources placement
+
+- Moved the MA overview’s course-resources include out of the prose column into
+  its own white section beneath the content, matching Annual Review placement.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Annual Review course resources
+
+- Added the shared Sociology course-resources include in its own white section
+  beneath Annual Review’s gray content section. Existing prose unchanged.
+- Local ../soc edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Student Organizations
+
+- Moved GSSA content unchanged to ../soc/src/graduate/student-organizations.html,
+  with a white intro and gray shared image/text rows for GSSA and Alpha Kappa Delta.
+  Added a short AKD introduction linking to its unchanged root-level page.
+- Added Graduate navigation item after Funding Sources, updated the PhD resource
+  link, carried over the GSSA hero, and configured the old GSSA URL redirect.
+  Removed the MA Related Resources section and its leading HR; standard course
+  resources remain. Local soc/css-shared changes only; no builds/tests, commit,
+  push or deployment.
+
+## November 13: MA overview refinements
+
+- Final section title is Degree Options (supersedes Programs of Study); used existing my-3 HR spacing
+  before Plan B and Choosing a Plan. Full divider before PhD admission retained.
+- Standardized the PhD admission heading/first sentence to MA; replaced deadline
+  and external application guidance with a local Applications and Admissions link.
+  Removed the image and standalone Annual Student Review link. Annual Review
+  remains in degree navigation and Related Resources.
+- Local ../soc source edits only; no builds/tests, commit, push or deployment.
+
+## November 13: MA overview plan headings
+
+- Renamed the overview section Programs of Study (Plan A and Plan B).
+  Separated its introductory paragraph from Plan A’s description and added
+  H3s: Plan A, Plan B, Choosing a Plan. Existing prose and anchors preserved.
+- Local ../soc source edit only; no builds/tests, commit, push or deployment.
+
+## November 13: Graduate Division policy group
+
+- Added Graduate Division H2 with linked Academic Progress and Conduct Code H3s
+  and short source-based summaries in the shared Policies & Procedures body.
+  Read both official pages; retained existing university-wide policy entries.
+- Replaced Annual Review’s three inline external policy links with one local
+  Policies & Procedures link; existing policy references and prose preserved.
+  Local css-shared/soc edits only; no builds/tests, commit, push or deployment.
+
+## November 13: Annual Review navigation and sections
+
+- Added Annual Review last in the shared MA navigation, linking to the existing
+  /graduate/annual-review.html. Reuse that destination in the future PhD page
+  navigation; the unsplit PhD page does not yet have a degree-navigation block.
+- Annual Review now has a white H1/first-sentence intro, followed by gray Review
+  Process and Outcomes starting at “Although students.” Converted manual A/B/C
+  labels to ol type=A; remaining wording/links preserved.
+- Local soc/css-shared edits only; no builds/checks, commit, push or deployment.
+
+## November 13: Degree overview research-area links
+
+- Added the approved research-area paragraph as a second paragraph below the
+  existing MA and PhD intros. Five research areas link to their existing pages.
+  Original degree intro text and navigation placement preserved.
+- Possible future navigation column is a user idea, not implemented or locked in.
+  Local ../soc edits only; no build/checks, commit, push or deployment.
+
+## November 13: TMS defined on first use
+
+- Added (TMS) after Theory, Methods, Statistics in the Graduate Course Categories
+  intro. Other text unchanged. Local ../soc edit only; no build/checks,
+  commit, push or deployment.
+
+## November 13: Graduate Course Categories sections
+
+- White H1/existing intro; all category listings and explanations in gray.
+  Theory, Research Methods, Statistics and Substantive Courses are plain H2s.
+  Added HRs before Research Methods/Statistics; retained the existing standard
+  HR before Substantive Courses. No wording or course-list changes.
+- Local ../soc edit only; no build/checks, commit, push or deployment.
+
+## November 13: Graduate Course Categories renamed
+
+- Renamed ../soc/src/graduate/course-identification.html to
+  graduate-course-categories.html; title/H1/permalink use Graduate Course Categories.
+  Body content and structure unchanged.
+- Updated six links: MA overview/requirements/timeline and three on the existing
+  PhD page. No other PhD content changed. Preserved hero assignment; configured
+  old URL redirect and removed stale local generated output to permit its rebuild.
+- Local soc/css-shared changes only; no builds/checks, commit, push or deployment.
+
+## November 13: MA Back to top links removed
+
+- Removed Back to top links and their now-unused page-top H1 IDs from all five MA
+  pages. Top degree navigation and bottom course-resource includes retained.
+  Supersedes the immediately prior back-link treatment; conventions updated.
+- Local source edits only; no builds/checks, commit, push or deployment.
+
+## November 13: MA bottom navigation simplified
+
+- All five MA pages retain degree navigation at top only. Replaced the bottom
+  repeat with SOC’s existing course-resources include and one Back to top link,
+  targeting an explicit page-top H1 ID. Existing SOC catalog settings reused.
+- Removed the overview’s duplicate old availability/description links; other
+  content retained. No new CSS. Local soc/css-shared edits only; no build/checks,
+  commit, push or deployment.
+
+## November 13: Advising subsection divider tightened
+
+- Applied the same my-3 HR spacing between Temporary Advisor and Formal Advisor
+  on MA requirements. Major-section dividers unchanged. Local ../soc edit only;
+  no build/checks, commit, push or deployment.
+
+## November 13: Coursework Notes divider tightened
+
+- Added existing my-3 spacing utility to the HR before Coursework Notes: 1rem
+  above/below instead of 2rem. Line width/style and major-section dividers
+  unchanged. No new CSS. Local soc/css-shared edits; no builds/checks,
+  commit, push or deployment.
+
+## November 13: MA requirements headings refined
+
+- MA Coursework → Coursework; Advisor → Advising; Coursework notes: → Coursework
+  Notes. Removed trailing colons on requirements-page H3s. Candidacy, Human
+  Subjects and all body text retained. User-approved heading edits only.
+- Local ../soc edit only; no build/checks, commit, push or deployment.
+
+## November 13: MA timeline explanatory wording
+
+- Applied the user-approved gray-section lead-in: one possible sequence, not a
+  required schedule; strongly encouraged first-year Theory/Methods/Statistics
+  and relevant Substantive coursework. Original intro and third-semester thesis
+  proposal recommendation retained. Table unchanged.
+- Local ../soc edit only; no build/checks, commit, push or deployment.
+
+## November 13: MA navigation wording and pathway punctuation
+
+- Removed visible “(current)” from shared degree navigation; aria-current retained.
+  No button styling added. Standardized MA Plan A/Plan B gray H2 labels to colons,
+  matching page titles/navigation; dashes were inherited from the original source.
+- No new Plan B lead-in copy inserted; user asked for advice only on that point.
+  Local soc/css-shared edits; no builds/checks, commit, push or deployment.
+
+## November 13: MA subsection headings made plain H3s
+
+- Converted the 11 inherited italic paragraph labels into proper, unformatted
+  H3s across MA requirements, thesis and research-report pages. Removed italic
+  wrappers from any MA H3s; text and other content preserved. PhD untouched.
+- Local ../soc edits only; no builds/visual checks, commit, push or deployment.
+
+## November 13: SOC MA split into five pages
+
+- Created ../soc/src/graduate/master-ma/ with index, requirements, timeline,
+  thesis and research-report HTML pages. Existing section blocks moved intact;
+  only new subpage intros/navigation labels and approved timeline-table markup
+  added. Original overview intro and resource content retained. PhD untouched.
+- One gray section per page: overview outcomes; timeline responsive table; other
+  pages their assigned requirements/procedures. Overview Plan A/B explanation
+  and MA-to-PhD information follow outcomes in white supporting content.
+- Shared degree navigation appears top/bottom with current-page indication.
+  Updated MA global menu and BAM/Why Study links, saved the same MA hero for all
+  five routes. Old master-ma.html URL plus section-1…10 mapped through generated
+  redirects; shared engine supports validated fragmentTargets for split pages.
+- Source edits only; no build/visual checks or broad verification. Old fixed SOC
+  verifier inventory predates this split; update separately when checks requested.
+- Local soc/css-shared only; no commit/push/deployment. Full map and preservation
+  details: soc-ma-pages.md. User reviews locally; PhD remains for a later task.
+
+## November 13: SOC degree-page layout planning
+
+- Reviewed MA/PhD source pages; user remains in planning stage. No degree pages
+  split or rewritten. Discussed overview, requirements, timelines and completion
+  stages, with consistent navigation between a degree’s pages.
+- User’s standing layout rule: tables go in gray; prefer one gray section beneath
+  each short white intro. Degree overview gray sections hold outcomes; timeline
+  tables should have their own pages/gray sections. Recorded in conventions.
+- Documentation only; no builds/checks, commit, push or deployment. Next: agree
+  final page map/navigation before moving content or converting timeline lists.
+
+## November 13: SOC admissions intro simplified into four bullets
+
+- Retained the competitiveness/research-fit sentence as the short intro. Moved
+  undergraduate-degree and MA/PhD information intact into two bullets before
+  existing Fall-deadline and no-Spring-admission bullets. Four bullets total;
+  all qualifications and gray-section content preserved.
+- Local ../soc source edit only; no build/checks, commit, push or deployment.
+
+## November 13: SOC admissions intro merged
+
+- User authorized merging the opening and two General Requirements paragraphs.
+  One paragraph now retains competitiveness/research fit, no required sociology
+  BA, required make-up coursework beyond usual requirements, no MA prerequisite
+  for PhD, encouragement to apply directly, and eligibility for an en-route MA.
+- Removed redundant General Requirements H2/HR and conversational “On a similar
+  note.” Existing deadline/no-Spring bullets follow, unchanged. Gray content intact.
+- User accepted HRs above the two H3s; no special H3 CSS needed.
+- Local ../soc edit only; no build/checks, commit, push or deployment.
+
+## November 13: SOC application subsection dividers
+
+- Added an HR immediately before each application H3 (Graduate Division and
+  Sociology). Semantic hierarchy and existing H3 styling retained; optional
+  special heading treatment deferred until the user reviews the dividers.
+- Local ../soc edit only; no build/checks, commit, push or deployment.
+
+## November 13: SOC application heading hierarchy
+
+- Added Application Requirements H2 and the approved two-part application lead-in
+  sentence in gray. Graduate Division and Sociology headings now H3s, with the
+  redundant 1)/2) removed. All other text preserved.
+- Local ../soc edit only; no build/checks, commit, push or deployment.
+
+## November 13: SOC admissions sections
+
+- Moved General Requirements H2 and both paragraphs from the bottom into the
+  opening white section. Application steps 1) UH Mānoa Graduate Division and
+  2) Department of Sociology, including all contents, now in full-width gray.
+- Wording, links, lists and emphasis preserved. No copy rewrite. Local ../soc
+  edit only; no build/checks, commit, push or deployment.
+
+## November 13: Graduate funding intro and capitalization review
+
+- Rewrote only the requested SOC graduate Funding Sources opening paragraph:
+  retains departmental encouragement and summarizes scholarships, awards,
+  assistantships, student employment, and travel/development support.
+- Added report-only institutional-name capitalization review to cleanup procedure,
+  report template and conventions. No Department/department policy imposed or
+  site-wide capitalization edits made.
+- Local soc/css-shared edits only; no build/checks, commit, push or deployment.
+
+## November 13: Professional travel/development funding entry
+
+- Expanded the SOC graduate Funding Sources inquiry entry using approved draft:
+  possible departmental travel/development funds via Contact SOC, plus the CSS
+  Travel Award for Professional Development in Research, administered by SSRI.
+- User supplied the Kuali application URL; award name links there with UH login
+  required noted. No attempt to inspect or submit the authenticated form.
+- Local ../soc edit only; no build/checks, commit, push or deployment.
+
+## November 13: SOC graduate Funding Sources restructured
+
+- White H1/existing intro; gray Residency and Departmental Funding; white External
+  Funding with no leading HR. Added Graduate Assistantships and Student Employment
+  H2 above the unchanged jobs paragraph. Removed Department Travel Funds through
+  the old page end, including detailed procedures and redundant related links.
+- Departmental entries now Sakihara, Hörmann, then travel inquiry. Replaced the
+  obsolete travel availability summary with the supplied inquiry wording linked
+  to Contact SOC. Remaining copy/links preserved. No separate travel page made.
+- Local ../soc change only; no rebuild/visual checks, commit, push or deployment.
+
+## November 13: Role inquiry routing and graduate funding plan
+
+- Added rule/checklist/report item: role-based inquiry prose links to unit Contact,
+  not named chair emails/bios. Personal contact links on bios/cards remain valid.
+- Read SOC graduate Funding Sources for requested plan only. Proposed white intro;
+  gray Residency/Departmental Funding; white External Funding, followed by proposed
+  Graduate Assistantships and Student Employment H2 over existing jobs paragraph.
+  User wants Department Travel Funds through page end removed; page edits paused
+  under explicit “don’t change anything yet.” No new travel page to be created.
+- Existing short travel summary still claims funding availability; recommend
+  inquiry-only Contact link when approved. No page text/link changes made here.
+- Documentation only; no builds/checks, commit, push or deployment.
+
+## November 13: Original-site backup workflow agreed
+
+- Every migrating WordPress site needs a downloaded full backup (database/files)
+  plus an All content WXR/XML export, labeled by unit/date/source and kept off-host.
+  Check scope/recoverability before retirement; refresh if the original changes.
+- Recorded as a durable migration requirement. No backups created or verified
+  in this discussion; existing exports do not establish full-backup coverage.
+- Documentation only, local; no build/checks, commit, push or deployment.
+
+## November 13: Voice check added to text-cleanup checklist
+
+- Added report-only pronoun/voice review to text-cleanup.md and its report template:
+  flag mixed institutional voice, distinguish intentional biographies/quotations,
+  and consult before any rewrite. No website copy or cleanup script changed.
+- Documentation only; no builds/checks, commit, push or deployment. Applies to
+  future requested cleanup passes; no site-wide voice audit performed here.
+
+## November 13: Hörmann Prize remaining bold removed
+
+- Removed remaining strong/b wrappers from the prize page, retaining all words,
+  headings, lists and journal-title italics. Local edit only; no build/visual
+  checks, commit, push or deployment.
+
+## November 13: Hörmann Prize item 3 readability
+
+- Kept item 3’s opening sentence, then nested its seven remaining sentences as
+  bullets. Removed bold/italic wrappers within item 3 and fixed the missing space
+  after Mānoa by separating the sentences into list items. Word order and wording
+  preserved exactly; only markup and whitespace changed. Other items unchanged.
+- Local source edit only; no build/visual checks, commit, push or deployment.
+
+## November 13: Hörmann Prize section split
+
+- White H1/first-paragraph intro; remaining content in gray with approved H2s:
+  Awards, Eligibility and Submission, Selection and Publication. Corrected only
+  the approved Monitary → Monetary typo. Remaining paragraphs/list preserved.
+- User supplied the LCH family tribute identifying Bernhard as the UH sociology
+  professor, then approved Hörmann throughout this page. Updated visible surname
+  and prize/committee references; /hormann-prize.html unchanged.
+- Recorded explicit consultation-before-copy-rewriting rule in conventions.
+  Local soc/css-shared edits only; no build/checks, commit/push/deployment.
+
+## November 13: Graduate-student profiles consolidated
+
+- Moved cohort row/photo CSS into profile.css and deleted graduate-students.css
+  and its import. Ownership guard now requires student profile rules there too.
+- Shared student template reuses faculty profile-name, profile-titles/job-title,
+  profile-detail, email/contact-link and divider classes. Names 20px/600, program
+  16px/600, research/advisers 16px/400. Faculty office uses the same detail class.
+- Name/detail/divider spacing tokens centralized in profile.css. Student roster,
+  field text, links, portraits and responsive row proportions preserved.
+- Source edits only; no builds, visual checks, commit/push/deployment. Changes
+  apply to all consumers of the shared student-directory template when rebuilt.
+
+## November 13: Hawaii Hall heroes and universal policy pages
+
+- Renamed shared media/heroes/faculty → hawaii-hall; main.webp → 01.webp and
+  associated.webp → 02.webp. Updated PUBA directory references without changing
+  their actual pictures. Common page-heroes.json centrally assigns 01 to every
+  /policies-procedures.html; hero and attribution use that assignment first.
+- Shared footer link default enabled. Added local policy pages where absent in
+  ../es, ../geo, ../pols, ../psy, ../soc, ../ssri, ../sci, ../wgss, ../uhero;
+  ../anth and ../puba already had them. All include the shared body. Existing
+  Anthropology appendix retained; its old per-unit policy hero removed.
+- Policy hero remains visible even on a site with other heroes disabled. Other
+  saved heroes, heights, overlays, and GEO satellite assignments unchanged.
+- Source edits only; no builds/visual checks, commit/push/deployment. Shared and
+  consuming-site changes must be published together. Future scaffolds still need
+  their own local policy metadata page; the shared assignment/footer is ready.
+
+## November 13: Universal Policies & Procedures direction
+
+- User wants the shared university policy page on all sites, including college
+  and research units, linked from every page’s footer, with one common hero image.
+- Initial discussion identified partial adoption. Completed above: selected
+  Hawaii Hall 01 and added current-site page/footer adoption.
+- Recorded scope in conventions. Image selected and current-site implementation completed above.
+
+## November 12: Sociology site-wide text cleanup
+
+- Standard mechanical cleanup across 50 HTML sources and shared SOC text fields:
+  38 HTML files edited; 32 intro classes, 85 NBSPs, 30 ʻokina variants, one full
+  university-name correction, one Mānoa correction, four repeated spaces.
+  No heading-formatting wrappers or empty paragraphs found; shared JSON unchanged.
+- Preserved links/attributes (except intro), tables, templates, original exports,
+  and existing local layout edits. Eight visible missing-diacritic candidates
+  left for optional editorial review; permalink watchlist false positive ignored.
+- Report: soc-text-cleanup-report.md; findings: exports/soc/text-cleanup-2026-11-12.json.
+  No build, visual audit, broad checks or second scan, per user workflow.
+- Local soc/css-shared edits only; no commit/push/deployment.
+
+## November 12: Sociology faculty list removed
+
+- Removed the redundant text-link list and its wrappers below the shared faculty
+  grid in ../soc/src/faculty/index.html. Grid and opening content retained.
+- Local only; no build/checks, commit, push or deployment.
+
+## November 12: Sociology Support layout
+
+- Support SOC now uses the established reverse imageTextRow: heading/paragraph
+  left, shared Foundation SVG right. Removed the old inline figure. Preserved
+  donation copy and destination. Local ../soc edit; no build, visual check,
+  commit, push or deployment, per user’s requested editing workflow.
+
+## November 12: Profile CSS ownership finalized
+
+- profile.css owns faculty/person cards, office/building cards/maps, profile-page
+  columns, profile photos and profile contact-link styling. Main Office now has
+  an explicit office-card class instead of borrowing generic sidebar-group rules.
+- layout.css retains structure/containment; typography.css retains fundamental
+  text rules. Header title, global focus, HR and section-surface rules moved to
+  their owners. Generic sidebar-group rules relocated unchanged to sidebar.css;
+  broader sidebar audit/design remains deferred. Cohort rows moved unchanged to
+  graduate-students.css. Ownership checks enforce these source boundaries.
+- Before the user stopped further checking: seven builds passed and 24 before/
+  after browser cases had zero computed-style differences. No further checking
+  requested; do not repeat visual audits for routine edits without instruction.
+- Local css-shared changes; no commit/push/deployment. Earlier profile typography
+  settings remain: name 20px/600, title 16px/600, subtitle 16px/500. Footer acronym
+  800 and decorative 404 mark 900 remain explicit graphic exceptions.
+
 
 ## November 12: Final regular-copy hierarchy and graphic exceptions
 

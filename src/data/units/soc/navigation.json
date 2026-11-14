@@ -64,14 +64,20 @@
         "icon": "star"
       },
       {
+        "label": "Alpha Kappa Delta",
+        "url": "/alpha-kappa-delta.html",
+        "iconColor": null,
+        "icon": "award"
+      },
+      {
         "label": "Funding Sources",
-        "url": "/undergraduate/funding-sources.html",
+        "url": "/funding-sources.html",
         "iconColor": null,
         "icon": "cash-coin"
       },
       {
-        "label": "Advising & Support",
-        "url": "/undergraduate/advising-support/",
+        "label": "Academic Planning",
+        "url": "/undergraduate/academic-planning.html",
         "iconColor": null,
         "icon": "compass"
       }
@@ -82,13 +88,13 @@
     "children": [
       {
         "label": "Master’s (MA)",
-        "url": "/graduate/master-ma.html",
+        "url": "/graduate/master-ma/",
         "iconColor": null,
         "icon": "mortarboard"
       },
       {
         "label": "Doctorate (PhD)",
-        "url": "/graduate/doctorate-phd.html",
+        "url": "/graduate/doctorate-phd/",
         "iconColor": null,
         "icon": "mortarboard"
       },
@@ -100,9 +106,15 @@
       },
       {
         "label": "Funding Sources",
-        "url": "/graduate/funding-sources/",
+        "url": "/funding-sources.html",
         "iconColor": null,
         "icon": "cash-coin"
+      },
+      {
+        "label": "Student Organizations",
+        "url": "/graduate/student-organizations.html",
+        "icon": "people",
+        "iconColor": null
       },
       {
         "label": "Applications & Admissions",

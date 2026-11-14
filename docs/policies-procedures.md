@@ -66,3 +66,12 @@ Its unit policies-procedures.json selects that supplementalTemplate. Other units
 without this optional record receive only the shared core. PUBA no longer displays
 Anthropology's position statement. Future unit-specific policy content follows the
 same opt-in pattern. Earlier comparison-stage notes are historical.
+
+## Graduate Division resources (November 13)
+
+The shared gray section now groups Academic Progress and Conduct Code as linked
+H3 entries under Graduate Division (H2). Short summaries draw on the official
+pages supplied by the user; the university-wide Student Conduct Code remains
+separate. Existing policy wording is unchanged. The Sociology Annual Review page now points to its local Policies & Procedures
+page instead of maintaining three external policy links. Existing prose references
+to the policies remain intact.

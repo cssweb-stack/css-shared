@@ -3,7 +3,7 @@
 <address class="profile-contact">
 {% if person.office %}
 {% if person.title or person.roles | length %}<hr class="profile-contact-divider">{% endif %}
-<p class="profile-office">{{ person.office | escape }}</p>
+<p class="profile-office profile-detail">{{ person.office | escape }}</p>
 {% endif %}
 {{ contactLinks(person.email, 'mailto:' + person.email, person.phone, 'tel:' + (person.phoneHref | default(person.phone | telephone))) }}
 </address>

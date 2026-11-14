@@ -116,13 +116,13 @@
       "credit": false
     },
     "/faculty/": {
-      "image": "/media/heroes/faculty/main.webp",
+      "image": "/media/heroes/hawaii-hall/01.webp",
       "position": "center center",
       "alt": "Black-and-white detail of campus building columns and palm trees at the University of Hawaiʻi at Mānoa.",
       "credit": false
     },
     "/faculty/associated.html": {
-      "image": "/media/heroes/faculty/associated.webp",
+      "image": "/media/heroes/hawaii-hall/02.webp",
       "position": "center center",
       "alt": "Black-and-white view of Hawaiʻi Hall and palm trees at the University of Hawaiʻi at Mānoa.",
       "credit": false

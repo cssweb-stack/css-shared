@@ -1,0 +1,38 @@
+{% set selectedAdvising = advisingWidget | default(advising_widget) %}
+{# Unit data selects role order; identity/contact details remain in shared people data. #}
+{% if selectedAdvising and selectedAdvising.people | length %}
+<div class="page-section">
+<div class="container content-section">
+<h2>{{ selectedAdvising.heading | escape }}</h2>
+{% if selectedAdvising.intro %}
+<p>{{ selectedAdvising.intro | escape }}</p>
+<hr>
+{% endif %}
+<div class="advising-grid">
+{% for person in selectedAdvising.people %}
+<section class="advising-person" aria-labelledby="advisor-{{ person.slug | escape }}">
+<div class="advising-photo">
+{% if person.photo %}<img class="photo-style" src="{{ person.photo | url }}" alt="{{ person.name | escape }}" width="{{ person.photoWidth | default(400) }}" height="{{ person.photoHeight | default(400) }}" loading="lazy" decoding="async">{% endif %}
+</div>
+<div class="advising-details">
+<h3 class="profile-name" id="advisor-{{ person.slug | escape }}">{% if person.url %}<a href="{{ person.url | url }}">{{ person.name | escape }}</a>{% else %}{{ person.name | escape }}{% endif %}</h3>
+<div class="profile-titles">
+{% if person.title %}<p class="profile-job-title">{{ person.title | escape }}</p>{% endif %}
+<p class="profile-admin-title">{{ person.advisingRole | escape }}</p>
+</div>
+<p>{{ person.advisingDescription | escape }}</p>
+{% if person.appointmentInstructions %}
+<hr class="profile-contact-divider">
+{% for instruction in person.appointmentInstructions %}
+<p>{{ instruction.before | escape }}<a href="{{ instruction.url | url | escape }}">{{ instruction.label | escape }}</a>{{ instruction.after | escape }}</p>
+{% endfor %}
+{% else %}
+{% include "layouts/profiles/profile-contact.njk" %}
+{% endif %}
+</div>
+</section>
+{% endfor %}
+</div>
+</div>
+</div>
+{% endif %}

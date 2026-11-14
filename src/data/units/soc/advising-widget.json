@@ -1,0 +1,44 @@
+{
+  "heading": "Undergraduate Advising",
+  "people": [
+    {
+      "source": "people",
+      "matchRole": "Undergraduate Chair",
+      "role": "Undergraduate Chair",
+      "description": "For guidance on undergraduate course selection, program requirements and planning."
+    },
+    {
+      "source": "shared-advisors",
+      "slug": "jason-higa",
+      "role": "General Education Advisor",
+      "description": "For guidance on general education requirements and graduation planning."
+    }
+  ],
+  "variants": {
+    "bam": {
+      "heading": "Undergraduate and Graduate Advising",
+      "people": [
+        {
+          "source": "people",
+          "matchRole": "Undergraduate Chair",
+          "role": "Undergraduate Chair",
+          "description": "For guidance on undergraduate course selection, program requirements and planning."
+        },
+        {
+          "source": "people",
+          "matchRole": "Graduate Chair",
+          "role": "Graduate Chair",
+          "description": "For guidance on graduate course selection, program requirements and planning."
+        },
+        {
+          "source": "shared-advisors",
+          "slug": "jason-higa",
+          "role": "General Education Advisor",
+          "description": "For guidance on general education requirements and graduation planning."
+        }
+      ],
+      "intro": "Because the BAM pathway spans both undergraduate and graduate degrees, students are strongly encouraged to work closely with their undergraduate, graduate, and general education advisors to plan their coursework and progress through the program."
+    }
+  },
+  "intro": "Students are strongly encouraged to work closely with advisors to plan a meaningful path through their program and toward graduation. Advising can help with course selection, program requirements, academic planning, career paths, graduate school, declarations, minor verification, and graduation paperwork."
+}

@@ -1,0 +1,162 @@
+{
+  "files": [
+    "../soc/src/index.html",
+    "../soc/src/hormann-prize.html",
+    "../soc/src/alpha-kappa-delta.html",
+    "../soc/src/faculty/index.html",
+    "../soc/src/faculty/krysia-mossakowski.html",
+    "../soc/src/faculty/yue-sun.html",
+    "../soc/src/faculty/manfred-b-steger.html",
+    "../soc/src/faculty/le-lin.html",
+    "../soc/src/faculty/jennifer-darrah.html",
+    "../soc/src/about-soc/soc-courses.html",
+    "../soc/src/about-soc/why-study-soc.html",
+    "../soc/src/about-soc/news-events.html",
+    "../soc/src/about-soc/history.html",
+    "../soc/src/graduate/gssa.html",
+    "../soc/src/graduate/applications-admissions.html",
+    "../soc/src/graduate/course-identification.html",
+    "../soc/src/graduate/annual-review.html",
+    "../soc/src/graduate/current-cohort.html",
+    "../soc/src/graduate/doctorate-phd.html",
+    "../soc/src/graduate/master-ma.html",
+    "../soc/src/undergraduate/honors-track.html",
+    "../soc/src/undergraduate/bam.html",
+    "../soc/src/undergraduate/funding-sources.html",
+    "../soc/src/undergraduate/major/index.html",
+    "../soc/src/undergraduate/major/concentrations.html",
+    "../soc/src/undergraduate/major/student-learning-outcomes.html",
+    "../soc/src/undergraduate/advising-support/index.html",
+    "../soc/src/undergraduate/advising-support/academic-planning.html",
+    "../soc/src/undergraduate/minor/index.html",
+    "../soc/src/undergraduate/minor/concentrations.html",
+    "../soc/src/graduate/funding-sources/index.html",
+    "../soc/src/graduate/funding-sources/sakihara-scholarship.html",
+    "../soc/src/about-soc/research-areas/index.html",
+    "../soc/src/about-soc/research-areas/health-aging-medical-sociology.html",
+    "../soc/src/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html",
+    "../soc/src/about-soc/research-areas/crime-law-social-control.html",
+    "../soc/src/about-soc/research-areas/nationalism-globalization-sustainability.html",
+    "../soc/src/about-soc/research-areas/race-ethnicity-gender-class.html"
+  ],
+  "counts": {
+    "intro_classes": 32,
+    "university_name": 1,
+    "empty_paragraphs": 0,
+    "okina": 30,
+    "kahako": 1,
+    "nonbreaking_spaces": 85,
+    "double_spaces": 4
+  },
+  "diacritic_review": [
+    {
+      "file": "../soc/src/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html",
+      "location": "text",
+      "line": 1,
+      "original": "hawaii",
+      "suggested": "Hawaiʻi",
+      "kind": "possible_missing_diacritic",
+      "context": "ink: \"/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html\" ---"
+    },
+    {
+      "file": "../soc/src/faculty/wei-zhang.html",
+      "location": "text",
+      "line": 10,
+      "original": "Hawaii",
+      "suggested": "Hawaiʻi",
+      "kind": "possible_missing_diacritic",
+      "context": "s related to these vulnerable social groups. Hawaii is among the states that have the highest percentages of immigrant/migrant, mul"
+    },
+    {
+      "file": "../soc/src/faculty/wei-zhang.html",
+      "location": "text",
+      "line": 10,
+      "original": "Hawaii",
+      "suggested": "Hawaiʻi",
+      "kind": "possible_missing_diacritic",
+      "context": "of health for immigrants and aging adults in Hawaii and beyond, including the United States and the Asia-Pacific. Please contact me"
+    },
+    {
+      "file": "../soc/src/hormann-prize.html",
+      "location": "text",
+      "line": 15,
+      "original": "Manoa",
+      "suggested": "Mānoa",
+      "kind": "possible_missing_diacritic",
+      "context": "ial Sciences at the University of Hawai'i at Manoa."
+    },
+    {
+      "file": "../soc/src/index.html",
+      "location": "text",
+      "line": 24,
+      "original": "Hawaii",
+      "suggested": "Hawaiʻi",
+      "kind": "possible_missing_diacritic",
+      "context": "view, Department of Sociology, University of Hawaii at Manoa"
+    },
+    {
+      "file": "../soc/src/index.html",
+      "location": "text",
+      "line": 24,
+      "original": "Manoa",
+      "suggested": "Mānoa",
+      "kind": "possible_missing_diacritic",
+      "context": "rtment of Sociology, University of Hawaii at Manoa"
+    },
+    {
+      "file": "../soc/src/undergraduate/advising-support/academic-planning.html",
+      "location": "text",
+      "line": 33,
+      "original": "Manoa",
+      "suggested": "Mānoa",
+      "kind": "possible_missing_diacritic",
+      "context": "Manoa Political Internships"
+    },
+    {
+      "file": "../soc/src/undergraduate/bam.html",
+      "location": "text",
+      "line": 20,
+      "original": "Manoa",
+      "suggested": "Mānoa",
+      "kind": "possible_missing_diacritic",
+      "context": "of dual enrollment with UH Manoa."
+    },
+    {
+      "file": "../soc/src/undergraduate/funding-sources.html",
+      "location": "text",
+      "line": 17,
+      "original": "Hawaii",
+      "suggested": "Hawaiʻi",
+      "kind": "possible_missing_diacritic",
+      "context": "JTB Hawaii, Inc. Scholarship Endowment provides scholarships to students at UHM who are pu"
+    },
+    {
+      "file": "../soc/src/undergraduate/funding-sources.html",
+      "location": "text",
+      "line": 64,
+      "original": "Hawaii",
+      "suggested": "Hawaiʻi",
+      "kind": "possible_missing_diacritic",
+      "context": "he Hormann Prize for Best Sociology Paper on Hawaii was established in 1973 in honor of Emeritus Professor Bernhard Hormann of the"
+    },
+    {
+      "file": "../soc/src/undergraduate/funding-sources.html",
+      "location": "text",
+      "line": 64,
+      "original": "Hawaii",
+      "suggested": "Hawaiʻi",
+      "kind": "possible_missing_diacritic",
+      "context": "relations, ethnic cultures, and religion in Hawaii. He had a life-long interest in China, where he was born of missionary parents."
+    },
+    {
+      "file": "../soc/src/undergraduate/funding-sources.html",
+      "location": "text",
+      "line": 84,
+      "original": "Manoa",
+      "suggested": "Mānoa",
+      "kind": "possible_missing_diacritic",
+      "context": "UH Manoa STAR Scholarships"
+    }
+  ],
+  "heading_formatting": []
+}

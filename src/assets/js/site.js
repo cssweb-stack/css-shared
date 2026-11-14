@@ -44,3 +44,23 @@ else image.addEventListener('load', fade, { once: true });
 document.querySelectorAll("[data-copyright-year]").forEach(element => {
 element.textContent = new Date().getFullYear();
 });
+
+// Keep opted-in page jump headings visible below the responsive sticky header.
+(() => {
+const header = document.querySelector('.sticky-header');
+if (!header || !document.querySelector('.page-jump-target')) return;
+const updateOffset = () => {
+document.documentElement.style.setProperty('--sticky-header-height', `${header.getBoundingClientRect().height}px`);
+};
+updateOffset();
+if ('ResizeObserver' in window) new ResizeObserver(updateOffset).observe(header);
+else window.addEventListener('resize', updateOffset);
+// Also correct an incoming bookmark after images and fonts establish page layout.
+window.addEventListener('load', () => {
+updateOffset();
+let id;
+try { id = decodeURIComponent(window.location.hash.slice(1)); } catch { return; }
+const target = document.getElementById(id);
+if (target?.classList.contains('page-jump-target')) target.scrollIntoView({ behavior: 'instant', block: 'start' });
+}, { once: true });
+})();

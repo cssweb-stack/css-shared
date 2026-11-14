@@ -1,0 +1,64 @@
+{
+  "ma": {
+    "label": "Sociology MA",
+    "pages": [
+      {
+        "label": "MA Overview",
+        "url": "/graduate/master-ma/"
+      },
+      {
+        "label": "Requirements and Progress",
+        "url": "/graduate/master-ma/requirements.html"
+      },
+      {
+        "label": "Suggested Timeline",
+        "url": "/graduate/master-ma/timeline.html"
+      },
+      {
+        "label": "Plan A: Thesis",
+        "url": "/graduate/master-ma/thesis.html"
+      },
+      {
+        "label": "Plan B: Research Report",
+        "url": "/graduate/master-ma/research-report.html"
+      },
+      {
+        "label": "Annual Review",
+        "url": "/graduate/annual-review.html"
+      }
+    ]
+  },
+  "phd": {
+    "label": "Sociology PhD",
+    "pages": [
+      {
+        "label": "PhD Overview",
+        "url": "/graduate/doctorate-phd/"
+      },
+      {
+        "label": "Requirements and Progress",
+        "url": "/graduate/doctorate-phd/requirements.html"
+      },
+      {
+        "label": "Suggested Timeline",
+        "url": "/graduate/doctorate-phd/timeline.html"
+      },
+      {
+        "label": "Qualifying Review",
+        "url": "/graduate/doctorate-phd/qualifying-review.html"
+      },
+      {
+        "label": "Comprehensive Exam",
+        "url": "/graduate/doctorate-phd/comprehensive-exam.html"
+      },
+      {
+        "label": "Dissertation",
+        "url": "/graduate/doctorate-phd/dissertation.html"
+      },
+      {
+        "label": "Annual Review",
+        "url": "/graduate/annual-review.html"
+      }
+    ]
+  }
+}

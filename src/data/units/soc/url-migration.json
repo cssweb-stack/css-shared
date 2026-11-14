@@ -1,0 +1,71 @@
+{
+  "redirects": [
+    {
+      "from": "/graduate/master-ma.html",
+      "to": "/graduate/master-ma/",
+      "label": "Master’s (MA)",
+      "fragmentTargets": {
+        "section-1": "/graduate/master-ma/#section-1",
+        "section-2": "/graduate/master-ma/timeline.html#section-2",
+        "section-3": "/graduate/master-ma/requirements.html#section-3",
+        "section-4": "/graduate/master-ma/#section-4",
+        "section-5": "/graduate/master-ma/requirements.html#section-5",
+        "section-6": "/graduate/master-ma/requirements.html#section-6",
+        "section-7": "/graduate/master-ma/thesis.html#section-7",
+        "section-8": "/graduate/master-ma/research-report.html#section-8",
+        "section-9": "/graduate/master-ma/#section-9",
+        "section-10": "/graduate/master-ma/requirements.html#section-10"
+      }
+    },
+    {
+      "from": "/graduate/course-identification.html",
+      "to": "/graduate/graduate-course-categories.html",
+      "label": "Graduate Course Categories"
+    },
+    {
+      "from": "/graduate/gssa.html",
+      "to": "/graduate/student-organizations.html",
+      "label": "Student Organizations"
+    },
+    {
+      "from": "/graduate/doctorate-phd.html",
+      "to": "/graduate/doctorate-phd/",
+      "label": "Doctorate (PhD)",
+      "fragmentTargets": {
+        "phd-1": "/graduate/doctorate-phd/#phd-1",
+        "phd-2": "/graduate/doctorate-phd/timeline.html#phd-2",
+        "phd-3": "/graduate/doctorate-phd/requirements.html#phd-3",
+        "phd-4": "/graduate/doctorate-phd/requirements.html#phd-4",
+        "phd-5": "/graduate/doctorate-phd/requirements.html#phd-5",
+        "phd-6": "/graduate/doctorate-phd/qualifying-review.html#phd-6",
+        "phd-7": "/graduate/doctorate-phd/dissertation.html#phd-7",
+        "phd-8": "/graduate/doctorate-phd/comprehensive-exam.html#phd-8",
+        "phd-9": "/graduate/doctorate-phd/dissertation.html#phd-9",
+        "phd-10": "/graduate/doctorate-phd/dissertation.html#phd-10",
+        "phd-11": "/graduate/doctorate-phd/requirements.html#phd-11"
+      }
+    },
+    {
+      "from": "/undergraduate/advising-support/",
+      "to": "/undergraduate/academic-planning.html",
+      "label": "Academic Planning"
+    },
+    {
+      "from": "/undergraduate/advising-support/academic-planning.html",
+      "to": "/undergraduate/academic-planning.html",
+      "label": "Academic Planning"
+    },
+    {
+      "from": "/graduate/funding-sources/",
+      "to": "/funding-sources.html",
+      "label": "Funding Sources"
+    },
+    {
+      "from": "/undergraduate/funding-sources.html",
+      "to": "/funding-sources.html",
+      "label": "Funding Sources"
+    }
+  ],
+  "retired": [],
+  "unresolved": []
+}

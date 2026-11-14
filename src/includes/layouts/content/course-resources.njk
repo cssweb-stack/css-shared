@@ -15,5 +15,6 @@
 </div>
 {% endif %}
 </div>
-{% if catalog_courses.prefix %}<p class="info course-resources-note"><span>For course descriptions, filter by prefix <strong>{{ catalog_courses.prefix | escape }}</strong>.</span></p>{% endif %}
+{% set coursePrefix = courseResourcesPrefix | default(catalog_courses.prefix) %}
+{% if coursePrefix %}<p class="info course-resources-note"><span>For course descriptions, filter by prefix <strong>{{ coursePrefix | escape }}</strong>.</span></p>{% endif %}
 </nav>

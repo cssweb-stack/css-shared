@@ -22,8 +22,22 @@ never copy another unit's counts into this report.
 | Invisible characters / soft hyphens | [count] | [actual example] |
 | Empty paragraphs | [count] | [actual example] |
 | Bold/italic wrappers inside headings | [count] | [actual example] |
+| Role-based inquiries routed to Contact | [count] | [role/email/bio link → unit Contact page] |
 
 [Explain any overlapping counts or other interpretation needed.]
+
+## Voice/pronoun review (report only)
+
+- [Pages reviewed and pronoun/voice findings, or explicitly “not checked.”]
+- [Page and excerpt showing a possible first-/third-person or other voice shift.]
+- [Separate intentional faculty biography, quotation, or testimonial voice.]
+- [No pronouns/copy rewritten without consultation; no global voice assumed.]
+
+## Institutional-name capitalization (report only)
+
+- [Inconsistent Department/department or comparable references, with excerpts.]
+- [Distinguish official names, generic references, and sentence beginnings.]
+- [No capitalization normalization without an agreed policy.]
 
 ## Observations deliberately left unchanged
 

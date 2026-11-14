@@ -44,7 +44,7 @@
 {% include "layouts/branding/header/unit-name.njk" -%}
 {% include "layouts/branding/header/unit-nav.njk" -%}
 </header>
-{% if site.hero.enabled != false %}{% include "layouts/hero/hero.njk" %}{% endif -%}
+{% if site.hero.enabled != false or common['page-heroes'].pages[page.url] %}{% include "layouts/hero/hero.njk" %}{% endif -%}
 {# One universal content parent; site-main owns page-edge spacing. #}
 <main id="main-content" class="site-main" tabindex="-1">
 {{ content | safe }}

@@ -5,12 +5,14 @@
 <img class="photo-style" src="{{ student.photo | url }}" alt="{{ student.name | escape }}" width="{{ student.photoWidth | default(212) }}" height="{{ student.photoHeight | default(212) }}" loading="lazy" decoding="async">
 </div>
 <div class="col-12 col-md-8 student-details-column">
-<h2 id="student-heading-{{ loop.index }}">{{ student.name | escape }}</h2>
+<h2 class="profile-name" id="student-heading-{{ loop.index }}">{{ student.name | escape }}</h2>
 {% if student.program or student.studyArea %}
-<p class="student-program">{% if student.program %}{{ student.program | escape }}{% endif %}{% if student.program and student.studyArea %} – {% endif %}{% if student.studyArea %}{{ student.studyArea | escape }}{% endif %}</p>
+<div class="profile-titles">
+<p class="profile-job-title student-program">{% if student.program %}{{ student.program | escape }}{% endif %}{% if student.program and student.studyArea %} – {% endif %}{% if student.studyArea %}{{ student.studyArea | escape }}{% endif %}</p>
+</div>
 {% endif %}
 {% if student.research %}
-<p class="student-research">{{ student.research | escape }}</p>
+<p class="profile-detail student-research">{{ student.research | escape }}</p>
 {% endif %}
 {% set advisors = student.advisors | default([], true) %}
 {% if student.email or advisors | length %}<hr class="profile-contact-divider">{% endif %}
@@ -21,7 +23,7 @@
 </a></p>
 {% endif %}
 {% if advisors | length %}
-<p class="student-advisors"><span>{% if advisors | length > 1 %}Advisors{% else %}Advisor{% endif %}:</span>
+<p class="profile-detail student-advisors"><span>{% if advisors | length > 1 %}Advisors{% else %}Advisor{% endif %}:</span>
 {% for advisor in advisors %}{% if advisor.url %}<a href="{{ advisor.url | url | escape }}">{{ advisor.name | escape }}</a>{% else %}{{ advisor.name | escape }}{% endif %}{% if not loop.last %}{% if loop.revindex0 == 1 %} and {% else %}, {% endif %}{% endif %}{% endfor %}</p>
 {% endif %}
 </div>
