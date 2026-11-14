@@ -1,6 +1,54 @@
 # Current work handoff
 
-Updated November 13, 2026 (Pacific/Honolulu).
+Updated November 14, 2026 (Pacific/Honolulu).
+
+## November 14: Sociology X timeline trial
+
+- User screenshot confirms XDevelopers follow button renders successfully.
+  Current page replaces that button with the user's XDevelopers timeline test:
+  dark theme, 666px width/height, in the full-width gray section, one loader at
+  platform.x.com/widgets.js. SOC rebuild and output/whitespace checks passed.
+  Timeline browser result pending; working follow button confirms the browser
+  can render some X widgets despite earlier Sociology timeline HTTP 429 failures.
+- User requires an entirely free ongoing solution. SociableKIT's current X page
+  explicitly limits free updates to manual sync; automatic sync requires upgrade.
+  Recommendation: stop that provider trial rather than add manual upkeep. Bluesky
+  is under discussion; no migration or account creation authorized yet.
+- User Console screenshot confirms widgets.js runs but X syndication returns
+  HTTP 429 even after login. Login alone did not solve it; cause of the upstream
+  rate limit is unknown. Grammarly warnings are separate. No successful live embed.
+- Applied user-supplied widget variant: one light 600px timeline, noborders,
+  correct Sociology profile/script URLs, shared white 500px-wide container with
+  UH green top border and 600px minimum height to make its location visible.
+  Removed duplicate old widget and malformed user-added script/profile URLs.
+  This remains an embed trial, not a confirmed fix for post retrieval.
+- Public legacy `/news/` inspection succeeded without login: Smash Balloon Pro
+  2.11.1 renders 20 post cards directly into HTML, including text, original post
+  links and image URLs. First card matches the supplied Terrell Carver screenshot.
+  Public JS uses WordPress AJAX for pagination/background work. Broken settings
+  export is not needed to read already-published posts. No private credentials read.
+- A build-time fetch/parser could bridge these posts into static cards, retaining
+  the last good snapshot on fetch failure. Not implemented or scheduled: continued
+  updates would depend on the legacy WordPress installation/license remaining
+  reachable at a known address after launch; this is not independent X access.
+- Replaced News and Events feed placeholder with the official async X timeline
+  for `@UHM_Sociology`, 700px high, with do-not-track requested and the separate
+  direct account link retained. No Smash Balloon export or credentials needed.
+- At user request, isolated the Sociology timeline in its own shared gray section
+  below the introductory content, labeled “Posts from UHM Sociology”; removed
+  the user-added XDevelopers test and extra loader. Rebuild and output checks pass.
+  Corrected section nesting afterward: intro and gray band are sibling sections,
+  with the gray background outside the intro container for full-width display.
+- SOC build passed; generated HTML checked for timeline, one script loader,
+  persistent profile link and removed placeholder. Both diff whitespace checks
+  passed. Public oEmbed returned account markup; timeline endpoint returned HTTP
+  429. These responses do not establish whether visitors can see live posts.
+- User browser screenshot shows both Sociology and XDevelopers as plain fallback
+  links, with no rendered timelines. Browser control unavailable here; script/network
+  failure cause remains unconfirmed. Recheck the isolated Sociology feed. If it fails,
+  investigate a supported static-site feed service before selecting a provider.
+- Local changes only in soc and css-shared; no commit, push or deployment.
+  Commit/push both repositories and rerun SOC deployment to test the hosted page.
 
 ## November 13: Sociology SEO cleanup and Open Graph diagnosis
 

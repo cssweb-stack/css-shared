@@ -25,7 +25,9 @@ instructions: `soc/reference/sociologysoc.WordPress.2026-11-10.xml`.
   - History: `/about-soc/history.html`.
   - News and Events: `/about-soc/news-events.html`, merging News and Colloquia/
     Department News into one navigation destination, using the newspaper icon.
-    Placeholder for `@UHM_Sociology` on X; do not implement a feed yet.
+    Official `@UHM_Sociology` X timeline trial authorized November 14, 2026,
+    superseding the initial placeholder-only direction. Retain a direct account
+    link; live rendering still requires a browser check.
 - Courses: `/about-soc/soc-courses.html`, shared course resource links.
 - Undergraduate is a navigation group with no landing page.
   - Minor: `/undergraduate/minor/` with sibling `concentrations.html`.

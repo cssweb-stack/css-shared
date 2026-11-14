@@ -175,7 +175,15 @@ remote ref also needs the corresponding shared changes available remotely.
 
 Sociology follows the reviewed hierarchy and content merges in
 [`soc-migration.md`](soc-migration.md). Treat that approved walkthrough as the
-reference when refining SOC. Its feed remains a placeholder until requested.
+reference when refining SOC. On November 14, 2026, the user authorized trying
+the official X timeline for `@UHM_Sociology` on News and Events, superseding the
+placeholder-only restriction. Keep a direct account link available. This is a
+local integration trial; reliable live post rendering has not been confirmed.
+
+SOC social-feed replacement must be entirely free, including ongoing updates
+(November 14, 2026). Paid subscriptions and trials that require payment for the
+required ongoing behavior are outside scope. A Bluesky migration is a proposed
+alternative, not yet an instruction to create an account or replace the feed.
 
 Agreed November 13, 2026: keep SOC’s working source free of the unused original
 inline-image imports. Current site images come from shared media. Quarantine the

@@ -107,3 +107,14 @@ margin-bottom: 0.375rem;
 .site-main .callout > :last-child {
 margin-bottom: 0;
 }
+.uhm-twitter-feed {
+max-width: 500px;
+width: 100%;
+min-height: 600px;
+margin: 20px auto;
+border: 1px solid #e1e8ed;
+border-top: 4px solid #024731;
+border-radius: 8px;
+overflow: hidden;
+background-color: #fff;
+}
