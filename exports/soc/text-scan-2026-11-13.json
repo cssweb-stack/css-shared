@@ -1,0 +1,153 @@
+{
+  "files": [],
+  "counts": {
+    "empty_paragraphs": 0
+  },
+  "diacritic_review": [
+    {
+      "file": "soc/src/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html",
+      "location": "text",
+      "line": 1,
+      "original": "hawaii",
+      "suggested": "Hawaiʻi",
+      "kind": "possible_missing_diacritic",
+      "context": "ink: \"/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html\" ---"
+    },
+    {
+      "file": "soc/src/faculty/wei-zhang.html",
+      "location": "text",
+      "line": 10,
+      "original": "Hawaii",
+      "suggested": "Hawaiʻi",
+      "kind": "possible_missing_diacritic",
+      "context": "s related to these vulnerable social groups. Hawaii is among the states that have the highest percentages of immigrant/migrant, mul"
+    },
+    {
+      "file": "soc/src/faculty/wei-zhang.html",
+      "location": "text",
+      "line": 10,
+      "original": "Hawaii",
+      "suggested": "Hawaiʻi",
+      "kind": "possible_missing_diacritic",
+      "context": "of health for immigrants and aging adults in Hawaii and beyond, including the United States and the Asia-Pacific. Please contact me"
+    },
+    {
+      "file": "soc/src/undergraduate/academic-planning.html",
+      "location": "text",
+      "line": 40,
+      "original": "Manoa",
+      "suggested": "Mānoa",
+      "kind": "possible_missing_diacritic",
+      "context": "Manoa Political Internships"
+    }
+  ],
+  "heading_formatting": [],
+  "scope": {
+    "html_sources": 59,
+    "unit_json_files": 15,
+    "rendered_html_files": 67
+  },
+  "source_inventory": [
+    "../soc/src/about-soc/history.html",
+    "../soc/src/about-soc/news-events.html",
+    "../soc/src/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html",
+    "../soc/src/about-soc/research-areas/crime-law-social-control.html",
+    "../soc/src/about-soc/research-areas/health-aging-medical-sociology.html",
+    "../soc/src/about-soc/research-areas/index.html",
+    "../soc/src/about-soc/research-areas/nationalism-globalization-sustainability.html",
+    "../soc/src/about-soc/research-areas/race-ethnicity-gender-class.html",
+    "../soc/src/about-soc/soc-courses.html",
+    "../soc/src/about-soc/why-study-soc.html",
+    "../soc/src/alpha-kappa-delta.html",
+    "../soc/src/contact.html",
+    "../soc/src/faculty/ashley-rubin.html",
+    "../soc/src/faculty/aya-kimura.html",
+    "../soc/src/faculty/david-johnson.html",
+    "../soc/src/faculty/eunjeong-paek.html",
+    "../soc/src/faculty/index.html",
+    "../soc/src/faculty/jennifer-darrah.html",
+    "../soc/src/faculty/katherine-irwin.html",
+    "../soc/src/faculty/krysia-mossakowski.html",
+    "../soc/src/faculty/le-lin.html",
+    "../soc/src/faculty/manfred-b-steger.html",
+    "../soc/src/faculty/myungji-yang.html",
+    "../soc/src/faculty/nandita-sharma.html",
+    "../soc/src/faculty/sun-ki-chai.html",
+    "../soc/src/faculty/wei-zhang.html",
+    "../soc/src/faculty/yue-sun.html",
+    "../soc/src/funding-sources.html",
+    "../soc/src/graduate/annual-review.html",
+    "../soc/src/graduate/applications-admissions.html",
+    "../soc/src/graduate/current-cohort.html",
+    "../soc/src/graduate/doctorate-phd/comprehensive-exam.html",
+    "../soc/src/graduate/doctorate-phd/dissertation.html",
+    "../soc/src/graduate/doctorate-phd/index.html",
+    "../soc/src/graduate/doctorate-phd/qualifying-review.html",
+    "../soc/src/graduate/doctorate-phd/requirements.html",
+    "../soc/src/graduate/doctorate-phd/timeline.html",
+    "../soc/src/graduate/funding-sources/sakihara-scholarship.html",
+    "../soc/src/graduate/graduate-course-categories.html",
+    "../soc/src/graduate/master-ma/index.html",
+    "../soc/src/graduate/master-ma/requirements.html",
+    "../soc/src/graduate/master-ma/research-report.html",
+    "../soc/src/graduate/master-ma/thesis.html",
+    "../soc/src/graduate/master-ma/timeline.html",
+    "../soc/src/graduate/student-organizations.html",
+    "../soc/src/hormann-prize.html",
+    "../soc/src/index.html",
+    "../soc/src/policies-procedures.html",
+    "../soc/src/privacy.html",
+    "../soc/src/support-soc.html",
+    "../soc/src/undergraduate/academic-planning.html",
+    "../soc/src/undergraduate/bam.html",
+    "../soc/src/undergraduate/honors-track.html",
+    "../soc/src/undergraduate/major/concentrations.html",
+    "../soc/src/undergraduate/major/index.html",
+    "../soc/src/undergraduate/major/requirements-fall-2022-and-earlier.html",
+    "../soc/src/undergraduate/major/student-learning-outcomes.html",
+    "../soc/src/undergraduate/minor/concentrations.html",
+    "../soc/src/undergraduate/minor/index.html"
+  ],
+  "unit_data_inventory": [
+    "src/data/units/soc/advising-widget.json",
+    "src/data/units/soc/analytics.json",
+    "src/data/units/soc/catalog-courses.json",
+    "src/data/units/soc/degree-navigation.json",
+    "src/data/units/soc/faculty-heroes.json",
+    "src/data/units/soc/graduate-students.json",
+    "src/data/units/soc/heroes.json",
+    "src/data/units/soc/navigation.json",
+    "src/data/units/soc/people.json",
+    "src/data/units/soc/search-console.json",
+    "src/data/units/soc/search.json",
+    "src/data/units/soc/site-settings.json",
+    "src/data/units/soc/social.json",
+    "src/data/units/soc/unit-details.json",
+    "src/data/units/soc/url-migration.json"
+  ],
+  "inline_missing_space": [
+    {
+      "file": "../soc/src/faculty/le-lin.html",
+      "line": 36,
+      "text": "My research centers on political economy, organizations, economic sociology and social stratification, especially where these areas intersect with education, healthcare and digital technology in China, the U.S. and global context. Employing sociological insight and mixed methods, I study schools, hospitals and platforms as organizations, and educators, physicians and tech workers as occupations, as well as how education, healthcare and digital technology sectors impact social inequality and stratification. My book, The Fruits of Opportunism: Noncompliance and the Evolution of China's Supplemental Education Industry, was published by the University of Chicago Press in October 2022. This book draws on the 40 years' emergence and transformation of China's massive supplemental education sector to shed new light on state-market-society relationship, organizational change and China's turn to market capitalism. It won the Honorable Mention of the Asia/Transnational Book Award, American Sociological Association (ASA) in 2023. My articles have appeared in journals such as Socio-Economic Review, Higher Educationand Global Perspectives, and have won awards from the American Sociological Association and the Society for the Advancement of Socio-Economic"
+    },
+    {
+      "file": "../soc/src/hormann-prize.html",
+      "line": 47,
+      "text": "The Department reserves the right to publish the winning paper(s) in Social Process in Hawai′ior a similar journal, with the author's or authors' permission."
+    }
+  ],
+  "repeated_words": [],
+  "tms": [
+    {
+      "file": "../soc/src/graduate/graduate-course-categories.html",
+      "line": 13,
+      "text": "The following are considered to be Theory, Methods, Statistics (TMS) courses for the purposes of graduate study."
+    },
+    {
+      "file": "../soc/src/graduate/graduate-course-categories.html",
+      "line": 51,
+      "text": "TMS courses listed above"
+    }
+  ]
+}

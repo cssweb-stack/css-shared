@@ -1,0 +1,779 @@
+{
+  "unit": "soc",
+  "pages": 59,
+  "mode": "prelaunch",
+  "indexingEnabled": false,
+  "errors": [],
+  "notes": [
+    "/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html: Long rendered title; review meaning, do not truncate to an arbitrary limit"
+  ],
+  "pageMetadata": [
+    {
+      "url": "/about-soc/history.html",
+      "title": "History | Department of Sociology",
+      "titleLength": 33,
+      "h1": "History",
+      "description": "Learn about the history of sociology at UH Mānoa, from Romanzo Adams and early social research in Hawaiʻi to the department’s later development.",
+      "descriptionLength": 144,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/about-soc/history.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about-soc/news-events.html",
+      "title": "News and Events | Department of Sociology",
+      "titleLength": 41,
+      "h1": "News and Events",
+      "description": "Find UH Mānoa Sociology news and event announcements through the department’s X account and events email list.",
+      "descriptionLength": 110,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/about-soc/news-events.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html",
+      "title": "Asia, Pacific, and Hawaiʻi in Regional and Global Contexts | Department of Sociology",
+      "titleLength": 84,
+      "h1": "Asia, Pacific, and Hawaiʻi in Regional and Global Contexts",
+      "description": "Explore UH Mānoa Sociology research on Hawaiʻi, Asia, and the Pacific in regional and global contexts, with related faculty and courses.",
+      "descriptionLength": 136,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about-soc/research-areas/crime-law-social-control.html",
+      "title": "Crime, Law, and Social Control | Department of Sociology",
+      "titleLength": 56,
+      "h1": "Crime, Law, and Social Control",
+      "description": "Explore UH Mānoa Sociology research on crime, law, punishment, and social control, including faculty expertise and related courses.",
+      "descriptionLength": 131,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/about-soc/research-areas/crime-law-social-control.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about-soc/research-areas/health-aging-medical-sociology.html",
+      "title": "Health, Aging, and Medical Sociology | Department of Sociology",
+      "titleLength": 62,
+      "h1": "Health, Aging, and Medical Sociology",
+      "description": "Explore UH Mānoa Sociology research on health, aging, illness, and the life course, with related faculty and medical sociology courses.",
+      "descriptionLength": 135,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/about-soc/research-areas/health-aging-medical-sociology.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about-soc/research-areas/",
+      "title": "Research Areas | Department of Sociology",
+      "titleLength": 40,
+      "h1": "Research Areas",
+      "description": "Explore the five research areas of UH Mānoa Sociology, spanning social inequality, health, crime, globalization, and Hawaiʻi, Asia, and the Pacific.",
+      "descriptionLength": 148,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/about-soc/research-areas/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about-soc/research-areas/nationalism-globalization-sustainability.html",
+      "title": "Nationalism, Globalization, and Sustainability | Department of Sociology",
+      "titleLength": 72,
+      "h1": "Nationalism, Globalization, and Sustainability",
+      "description": "Explore UH Mānoa Sociology research on nationalism, globalization, migration, and sustainability, including related faculty and courses.",
+      "descriptionLength": 136,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/about-soc/research-areas/nationalism-globalization-sustainability.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about-soc/research-areas/race-ethnicity-gender-class.html",
+      "title": "Race, Ethnicity, Gender, and Class | Department of Sociology",
+      "titleLength": 60,
+      "h1": "Race, Ethnicity, Gender, and Class",
+      "description": "Explore UH Mānoa Sociology research on race, ethnicity, gender, class, and social inequality, with related faculty and courses.",
+      "descriptionLength": 127,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/about-soc/research-areas/race-ethnicity-gender-class.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about-soc/soc-courses.html",
+      "title": "Courses | Department of Sociology",
+      "titleLength": 33,
+      "h1": "Courses",
+      "description": "Find Sociology class availability, course descriptions, and UH Mānoa catalog resources for planning undergraduate and graduate coursework.",
+      "descriptionLength": 138,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/about-soc/soc-courses.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about-soc/why-study-soc.html",
+      "title": "Why Study SOC | Department of Sociology",
+      "titleLength": 39,
+      "h1": "Why Study SOC",
+      "description": "Discover what sociology studies and explore undergraduate and graduate study options in the UH Mānoa Department of Sociology.",
+      "descriptionLength": 125,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/about-soc/why-study-soc.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/alpha-kappa-delta.html",
+      "title": "Alpha Kappa Delta | Department of Sociology",
+      "titleLength": 43,
+      "h1": "Alpha Kappa Delta",
+      "description": "Learn about Alpha Kappa Delta, the international sociology honor society, and membership benefits for UH Mānoa undergraduate and graduate students.",
+      "descriptionLength": 147,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/alpha-kappa-delta.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/contact.html",
+      "title": "Contact SOC | Department of Sociology",
+      "titleLength": 37,
+      "h1": "Contact SOC",
+      "description": "Find office hours, location, telephone and email details, and key faculty and staff contacts for the UH Mānoa Department of Sociology.",
+      "descriptionLength": 134,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/contact.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/ashley-rubin.html",
+      "title": "Ashley Rubin | Department of Sociology",
+      "titleLength": 38,
+      "h1": "Ashley Rubin",
+      "description": "Explore Ashley Rubin’s background, teaching, and research on criminal punishment, penal change, prisons, and law and society.",
+      "descriptionLength": 125,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/faculty/ashley-rubin.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/aya-kimura.html",
+      "title": "Aya Kimura | Department of Sociology",
+      "titleLength": 36,
+      "h1": "Aya Kimura",
+      "description": "Explore Aya Kimura’s background, teaching, and research on food, technoscience, sustainability, citizen science, and feminist political ecology.",
+      "descriptionLength": 144,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/faculty/aya-kimura.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/david-johnson.html",
+      "title": "David Johnson | Department of Sociology",
+      "titleLength": 39,
+      "h1": "David Johnson",
+      "description": "Learn about David Johnson’s background, teaching, and research on criminal justice, comparative law and society, and the death penalty.",
+      "descriptionLength": 135,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/faculty/david-johnson.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/eunjeong-paek.html",
+      "title": "Eunjeong Paek | Department of Sociology",
+      "titleLength": 39,
+      "h1": "Eunjeong Paek",
+      "description": "Explore Eunjeong Paek’s background, teaching, and research on inequality, gender, work, family, and social policy.",
+      "descriptionLength": 114,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/faculty/eunjeong-paek.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/",
+      "title": "Faculty | Department of Sociology",
+      "titleLength": 33,
+      "h1": "Faculty",
+      "description": "Meet UH Mānoa Sociology faculty and explore their biographies, research interests, teaching, and contact information.",
+      "descriptionLength": 117,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/faculty/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/jennifer-darrah.html",
+      "title": "Jennifer Darrah | Department of Sociology",
+      "titleLength": 41,
+      "h1": "Jennifer Darrah",
+      "description": "Explore Jennifer Darrah’s background, teaching, and research on urban sociology, housing, homelessness, race, ethnicity, and Indigenous communities.",
+      "descriptionLength": 148,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/faculty/jennifer-darrah.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/katherine-irwin.html",
+      "title": "Katherine Irwin | Department of Sociology",
+      "titleLength": 41,
+      "h1": "Katherine Irwin",
+      "description": "Learn about Katherine Irwin’s background, teaching, and research on gender inequality, youth violence, and alternatives to punitive policies.",
+      "descriptionLength": 141,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/faculty/katherine-irwin.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/krysia-mossakowski.html",
+      "title": "Krysia Mossakowski | Department of Sociology",
+      "titleLength": 44,
+      "h1": "Krysia Mossakowski",
+      "description": "Explore Krysia Mossakowski’s background, teaching, and medical sociology research on stress, mental health, discrimination, and social support.",
+      "descriptionLength": 143,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/faculty/krysia-mossakowski.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/le-lin.html",
+      "title": "Le Lin | Department of Sociology",
+      "titleLength": 32,
+      "h1": "Le Lin",
+      "description": "Explore Le Lin’s background, teaching, and research on political economy, organizations, social inequality, education, and healthcare in China.",
+      "descriptionLength": 143,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/faculty/le-lin.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/manfred-b-steger.html",
+      "title": "Manfred B. Steger | Department of Sociology",
+      "titleLength": 43,
+      "h1": "Manfred B. Steger",
+      "description": "Explore Manfred B. Steger’s background, teaching, and scholarship in social theory, globalization, and Global Studies.",
+      "descriptionLength": 118,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/faculty/manfred-b-steger.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/myungji-yang.html",
+      "title": "Myungji Yang | Department of Sociology",
+      "titleLength": 38,
+      "h1": "Myungji Yang",
+      "description": "Explore Myungji Yang’s background, teaching, and research on political sociology, social movements, democracy, and far-right politics in South Korea.",
+      "descriptionLength": 149,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/faculty/myungji-yang.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/nandita-sharma.html",
+      "title": "Nandita Sharma | Department of Sociology",
+      "titleLength": 40,
+      "h1": "Nandita Sharma",
+      "description": "Explore Nandita Sharma’s background, teaching, and research on migration, migrant labor, nationalism, racism, and social movements for justice.",
+      "descriptionLength": 143,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/faculty/nandita-sharma.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/sun-ki-chai.html",
+      "title": "Sun-Ki Chai | Department of Sociology",
+      "titleLength": 37,
+      "h1": "Sun-Ki Chai",
+      "description": "Explore Sun-Ki Chai’s background, teaching, and research on culture, behavior, identity-based conflict, and computational approaches to social science.",
+      "descriptionLength": 151,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/faculty/sun-ki-chai.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/wei-zhang.html",
+      "title": "Wei Zhang | Department of Sociology",
+      "titleLength": 35,
+      "h1": "Wei Zhang",
+      "description": "Explore Wei Zhang’s background, teaching, and medical sociology research on health disparities, aging, social conditions, and Asian American populations.",
+      "descriptionLength": 153,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/faculty/wei-zhang.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/yue-sun.html",
+      "title": "Yue Sun | Department of Sociology",
+      "titleLength": 33,
+      "h1": "Yue Sun",
+      "description": "Explore Yue Sun’s background, teaching, and research on population health, spatial demography, environmental sociology, and geographic health disparities.",
+      "descriptionLength": 154,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/faculty/yue-sun.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/funding-sources.html",
+      "title": "Funding Sources | Department of Sociology",
+      "titleLength": 41,
+      "h1": "Funding Sources",
+      "description": "Explore departmental and university funding resources, scholarships, travel support, and tuition guidance for UH Mānoa Sociology students.",
+      "descriptionLength": 138,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/funding-sources.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/annual-review.html",
+      "title": "Annual Review | Department of Sociology",
+      "titleLength": 39,
+      "h1": "Annual Review",
+      "description": "Review UH Mānoa Sociology’s annual graduate student review process, progress categories, faculty evaluation, and notification procedures.",
+      "descriptionLength": 137,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/graduate/annual-review.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/applications-admissions.html",
+      "title": "Applications & Admissions | Department of Sociology",
+      "titleLength": 51,
+      "h1": "Applications & Admissions",
+      "description": "Review application requirements, materials, deadlines, and admissions guidance for the UH Mānoa Sociology MA and PhD programs.",
+      "descriptionLength": 126,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/graduate/applications-admissions.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/current-cohort.html",
+      "title": "Current SOC MA and PhD Students | Department of Sociology",
+      "titleLength": 57,
+      "h1": "Current SOC MA and PhD Students",
+      "description": "Meet UH Mānoa Sociology graduate students and explore their research interests, programs, and faculty advisors.",
+      "descriptionLength": 111,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/graduate/current-cohort.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/doctorate-phd/comprehensive-exam.html",
+      "title": "PhD Comprehensive Exam | Department of Sociology",
+      "titleLength": 48,
+      "h1": "PhD Comprehensive Exam",
+      "description": "Review preparation, written and oral examination procedures, and evaluation for the comprehensive exam in the UH Mānoa Sociology PhD program.",
+      "descriptionLength": 141,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/graduate/doctorate-phd/comprehensive-exam.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/doctorate-phd/dissertation.html",
+      "title": "PhD Dissertation | Department of Sociology",
+      "titleLength": 42,
+      "h1": "PhD Dissertation",
+      "description": "Review committee formation, proposal preparation, dissertation research, oral defense, and graduation procedures for the UH Mānoa Sociology PhD.",
+      "descriptionLength": 144,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/graduate/doctorate-phd/dissertation.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/doctorate-phd/",
+      "title": "Doctorate (PhD) | Department of Sociology",
+      "titleLength": 41,
+      "h1": "Doctorate (PhD)",
+      "description": "Explore the UH Mānoa Sociology PhD program, its research areas, student learning outcomes, and preparation for research, teaching, and other careers.",
+      "descriptionLength": 149,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/graduate/doctorate-phd/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/doctorate-phd/qualifying-review.html",
+      "title": "PhD Qualifying Review | Department of Sociology",
+      "titleLength": 47,
+      "h1": "PhD Qualifying Review",
+      "description": "Learn how the qualifying review evaluates research papers and readiness to advance to Phase II of the UH Mānoa Sociology PhD program.",
+      "descriptionLength": 133,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/graduate/doctorate-phd/qualifying-review.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/doctorate-phd/requirements.html",
+      "title": "PhD Requirements and Progress | Department of Sociology",
+      "titleLength": 55,
+      "h1": "PhD Requirements and Progress",
+      "description": "Review coursework, advising, guidance committee formation, and human subjects requirements for the UH Mānoa Sociology PhD program.",
+      "descriptionLength": 130,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/graduate/doctorate-phd/requirements.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/doctorate-phd/timeline.html",
+      "title": "PhD Suggested Timeline | Department of Sociology",
+      "titleLength": 48,
+      "h1": "PhD Suggested Timeline",
+      "description": "Explore a suggested six-year Sociology PhD timeline at UH Mānoa, including coursework, qualifying review, examinations, and dissertation milestones.",
+      "descriptionLength": 148,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/graduate/doctorate-phd/timeline.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/funding-sources/sakihara-scholarship.html",
+      "title": "Sakihara Scholarship | Department of Sociology",
+      "titleLength": 46,
+      "h1": "Sakihara Scholarship",
+      "description": "Learn about the Gary Kazuo Sakihara Memorial Scholarship, including nomination guidance and selection criteria for Sociology PhD dissertation research.",
+      "descriptionLength": 151,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/graduate/funding-sources/sakihara-scholarship.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/graduate-course-categories.html",
+      "title": "Graduate Course Categories | Department of Sociology",
+      "titleLength": 52,
+      "h1": "Graduate Course Categories",
+      "description": "Find theory, research methods, statistics, and substantive course categories used to plan graduate study in UH Mānoa Sociology.",
+      "descriptionLength": 127,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/graduate/graduate-course-categories.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/master-ma/",
+      "title": "Master’s (MA) | Department of Sociology",
+      "titleLength": 39,
+      "h1": "Master’s (MA)",
+      "description": "Explore the UH Mānoa Sociology MA program, student learning outcomes, Plan A thesis and Plan B research report options, and pathways to doctoral study.",
+      "descriptionLength": 151,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/graduate/master-ma/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/master-ma/requirements.html",
+      "title": "MA Requirements and Progress | Department of Sociology",
+      "titleLength": 54,
+      "h1": "MA Requirements and Progress",
+      "description": "Review coursework, advising, candidacy, and human subjects guidance for the UH Mānoa Sociology MA program.",
+      "descriptionLength": 106,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/graduate/master-ma/requirements.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/master-ma/research-report.html",
+      "title": "MA Plan B: Research Report | Department of Sociology",
+      "titleLength": 52,
+      "h1": "MA Plan B: Research Report",
+      "description": "Review guidance committee formation and applied research report expectations for Plan B of the UH Mānoa Sociology MA program.",
+      "descriptionLength": 125,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/graduate/master-ma/research-report.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/master-ma/thesis.html",
+      "title": "MA Plan A: Thesis | Department of Sociology",
+      "titleLength": 43,
+      "h1": "MA Plan A: Thesis",
+      "description": "Review committee formation, proposal preparation, thesis research, oral defense, and graduation procedures for Plan A of the UH Mānoa Sociology MA.",
+      "descriptionLength": 147,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/graduate/master-ma/thesis.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/master-ma/timeline.html",
+      "title": "MA Suggested Timeline | Department of Sociology",
+      "titleLength": 47,
+      "h1": "MA Suggested Timeline",
+      "description": "Explore a suggested two-year Sociology MA timeline at UH Mānoa, including coursework, thesis committee formation, proposal, and defense milestones.",
+      "descriptionLength": 147,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/graduate/master-ma/timeline.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/student-organizations.html",
+      "title": "Student Organizations | Department of Sociology",
+      "titleLength": 47,
+      "h1": "Student Organizations",
+      "description": "Explore Alpha Kappa Delta and the Graduate Student Sociological Association, offering recognition, connection, and professional development in sociology.",
+      "descriptionLength": 153,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/graduate/student-organizations.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/hormann-prize.html",
+      "title": "Hörmann Prize | Department of Sociology",
+      "titleLength": 39,
+      "h1": "Hörmann Prize",
+      "description": "Learn about the Hörmann Prize for undergraduate and graduate Sociology papers, including award purposes, eligibility, submission, and selection.",
+      "descriptionLength": 144,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/hormann-prize.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/",
+      "title": "Sociology at the University of Hawaiʻi | Department of Sociology",
+      "titleLength": 64,
+      "h1": "Sociology at the University of Hawaiʻi",
+      "description": "Explore sociology at UH Mānoa, including undergraduate and graduate programs, faculty research, social justice, and the department’s five research areas.",
+      "descriptionLength": 153,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/policies-procedures.html",
+      "title": "Policies & Procedures | Department of Sociology",
+      "titleLength": 47,
+      "h1": "Policies & Procedures",
+      "description": "University policies and procedures covering academic integrity, conduct, equal opportunity, student records, and responsibilities at UH Mānoa.",
+      "descriptionLength": 142,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/policies-procedures.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/privacy.html",
+      "title": "Privacy Policy | Department of Sociology",
+      "titleLength": 40,
+      "h1": "Privacy Policy",
+      "description": "How College of Social Sciences websites use Google Analytics and visitor information, and how to manage your privacy choices.",
+      "descriptionLength": 125,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/privacy.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/support-soc.html",
+      "title": "Support SOC | Department of Sociology",
+      "titleLength": 37,
+      "h1": "Support SOC",
+      "description": "Support UH Mānoa Sociology through the Friends of Sociology Fund, which helps sustain department programs, visiting speakers, and special events.",
+      "descriptionLength": 145,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/support-soc.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/academic-planning.html",
+      "title": "Academic Planning | Department of Sociology",
+      "titleLength": 43,
+      "h1": "Academic Planning",
+      "description": "Explore academic planning tools, advising, degree combinations, internships, study abroad, and career resources for UH Mānoa Sociology students.",
+      "descriptionLength": 144,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/undergraduate/academic-planning.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/bam.html",
+      "title": "BA/MA Pathway (BAM) | Department of Sociology",
+      "titleLength": 45,
+      "h1": "BA/MA Pathway (BAM)",
+      "description": "Explore UH Mānoa’s combined Sociology BA/MA pathway, including eligibility, applications, shared coursework, degree options, and advising.",
+      "descriptionLength": 138,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/undergraduate/bam.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/honors-track.html",
+      "title": "Honors Track | Department of Sociology",
+      "titleLength": 38,
+      "h1": "Honors Track",
+      "description": "Learn about the UH Mānoa Sociology Honors Program, including participation requirements, honors coursework, research preparation, and the senior project.",
+      "descriptionLength": 153,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/undergraduate/honors-track.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/major/concentrations.html",
+      "title": "Major Concentrations | Department of Sociology",
+      "titleLength": 46,
+      "h1": "Major Concentrations",
+      "description": "Explore optional Sociology BA concentrations at UH Mānoa, with suggested course groupings in crime, inequality, health, organizations, and research methods.",
+      "descriptionLength": 156,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/undergraduate/major/concentrations.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/major/",
+      "title": "Major (BA) | Department of Sociology",
+      "titleLength": 36,
+      "h1": "Major (BA)",
+      "description": "Explore the Sociology BA at UH Mānoa, including coursework, methods and statistics options, graduation requirements, major declaration, and advising.",
+      "descriptionLength": 149,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/undergraduate/major/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/major/requirements-fall-2022-and-earlier.html",
+      "title": "BA Requirements: Fall 2022 and Earlier | Department of Sociology",
+      "titleLength": 64,
+      "h1": "BA Requirements: Fall 2022 and Earlier",
+      "description": "Review UH Mānoa Sociology BA course requirements for students admitted in Fall 2022 or earlier, including core courses, methods, and electives.",
+      "descriptionLength": 143,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/undergraduate/major/requirements-fall-2022-and-earlier.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/major/student-learning-outcomes.html",
+      "title": "Student Learning Outcomes | Department of Sociology",
+      "titleLength": 51,
+      "h1": "Student Learning Outcomes",
+      "description": "Review learning outcomes for the UH Mānoa Sociology BA in sociological theory, research and data analysis, and clear written and verbal communication.",
+      "descriptionLength": 150,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/undergraduate/major/student-learning-outcomes.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/minor/concentrations.html",
+      "title": "Minor Concentrations | Department of Sociology",
+      "titleLength": 46,
+      "h1": "Minor Concentrations",
+      "description": "Explore optional Sociology minor concentrations at UH Mānoa, including suggested electives in crime, social policy, inequality, health, and research methods.",
+      "descriptionLength": 157,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/undergraduate/minor/concentrations.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/minor/",
+      "title": "Minor | Department of Sociology",
+      "titleLength": 31,
+      "h1": "Minor",
+      "description": "Explore the Sociology minor at UH Mānoa, including required coursework, electives, prerequisites, minor declaration, and undergraduate advising.",
+      "descriptionLength": 144,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://sociology.manoa.hawaii.edu/undergraduate/minor/"
+      ],
+      "robots": "noindex, nofollow"
+    }
+  ]
+}

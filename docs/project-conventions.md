@@ -103,6 +103,14 @@ nonpublished diagnostic templates are not standalone content pages.
 
 ## Site settings and shared components
 
+For GitHub Pages preview builds, set SITE_ORIGIN to the GitHub Pages origin and
+SITE_PATH_PREFIX to the project path. Social page/image URLs use that deployment
+host/path; production canonicals still use the unit’s configured site.url. Omitting
+SITE_ORIGIN with a project prefix can advertise nonexistent production paths.
+SOC’s workflow now sets both explicitly; root production builds retain site.url
+as the social origin fallback. Do not enable indexing merely for preview sharing.
+
+
 Horizontal research-list photographs can use the shared imageTextRow macro with
 `landscape=true`: 20/80 at 1600px+, then the existing 25/75 and 33/67 intermediate
 splits, stacked on mobile with images at 75%. Square POLS-style course rows keep
@@ -168,6 +176,15 @@ remote ref also needs the corresponding shared changes available remotely.
 Sociology follows the reviewed hierarchy and content merges in
 [`soc-migration.md`](soc-migration.md). Treat that approved walkthrough as the
 reference when refining SOC. Its feed remains a placeholder until requested.
+
+Agreed November 13, 2026: keep SOC’s working source free of the unused original
+inline-image imports. Current site images come from shared media. Quarantine the
+unused local imports and retired downloader in root `_remove/`, outside `src`,
+ignored by Git, for the user to move out and retain. Do not rerun the original
+media downloader or restore these images as a side effect of migration work.
+Keep source exports and URL/migration inventories as evidence; they do not
+constitute instructions to reimport. This supersedes keeping the original downloaded
+SOC images under `src/media/content/`; active shared assets are unaffected.
 
 For site migrations, keep an inventory comparing old WordPress URLs with new
 published paths, including unchanged, moved, merged, and unresolved sources.

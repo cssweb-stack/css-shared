@@ -1,0 +1,295 @@
+{
+  "date": "2026-11-13",
+  "unit": "soc",
+  "purpose": "Reversible quarantine of unreferenced imported media, retired downloader and Finder metadata.",
+  "files": [
+    {
+      "original": "src/media/.DS_Store",
+      "archived": "_remove/src/media/.DS_Store",
+      "bytes": 6148,
+      "sha256": "71e7af07685095c210d63eb11e8054521c90974eb7559f143cb881698be40228"
+    },
+    {
+      "original": "src/media/content/.DS_Store",
+      "archived": "_remove/src/media/content/.DS_Store",
+      "bytes": 10244,
+      "sha256": "4c0139a12ef479b8cbdc1c3febfa9f024f1429c19c172ca2688416542538affd"
+    },
+    {
+      "original": "src/media/content/0a5e3267-honors-program-full.png",
+      "archived": "_remove/src/media/content/0a5e3267-honors-program-full.png",
+      "bytes": 12332,
+      "sha256": "78849b9af10d87fd90cb226943619d569dc26540ac0a8ec7bbf1418579f846c3"
+    },
+    {
+      "original": "src/media/content/0a77531a-other-saunders-hall.jpg",
+      "archived": "_remove/src/media/content/0a77531a-other-saunders-hall.jpg",
+      "bytes": 76523,
+      "sha256": "e2718744a4b8b23eb1bdcf883b729283c292ee71ab2f6576c87a851840355202"
+    },
+    {
+      "original": "src/media/content/0cd43849-funding.png",
+      "archived": "_remove/src/media/content/0cd43849-funding.png",
+      "bytes": 1700,
+      "sha256": "4d0edc1c9c314d1bce5af87184508134696c96238a66d5b3461f9823747e50b0"
+    },
+    {
+      "original": "src/media/content/1ba2b9e5-Krysia-Mossakowski.jpg",
+      "archived": "_remove/src/media/content/1ba2b9e5-Krysia-Mossakowski.jpg",
+      "bytes": 45612,
+      "sha256": "d73f5f3e0ae9210e3ae3254fcabb5cc87489fdbab7c610e0bd02d944060b0a71"
+    },
+    {
+      "original": "src/media/content/1f5557c1-David-Johnson.jpg",
+      "archived": "_remove/src/media/content/1f5557c1-David-Johnson.jpg",
+      "bytes": 42197,
+      "sha256": "b90c23403c50c6f9d5d19c5991653e34f2c90de317f4a97e083b28ac8a4c57c3"
+    },
+    {
+      "original": "src/media/content/2602f6aa-planning.png",
+      "archived": "_remove/src/media/content/2602f6aa-planning.png",
+      "bytes": 1487,
+      "sha256": "37a1a37dd6bd2f4b03b51d7751392a856e0ba3ddbcb921ce636b264e3dc5f05d"
+    },
+    {
+      "original": "src/media/content/2a4a5ed1-logo-research-gate.png",
+      "archived": "_remove/src/media/content/2a4a5ed1-logo-research-gate.png",
+      "bytes": 2852,
+      "sha256": "71ca4243a66469e2b481c0b787ed9cd70d5af874604ad38a8e4ca138307e98cb"
+    },
+    {
+      "original": "src/media/content/332a12cf-grad-main4-1.jpg",
+      "archived": "_remove/src/media/content/332a12cf-grad-main4-1.jpg",
+      "bytes": 25211,
+      "sha256": "e76140b612ce6ae2e486e94f9ed23fff3d27e5d990cd05e93396cbae70eacc17"
+    },
+    {
+      "original": "src/media/content/337b803a-logo-academia-edu.png",
+      "archived": "_remove/src/media/content/337b803a-logo-academia-edu.png",
+      "bytes": 3147,
+      "sha256": "53f98b3e9f31f69ec77ca4c1d5328b1b614917e1e1ada0b0676826b0b6c386a4"
+    },
+    {
+      "original": "src/media/content/3405df06-Myungji-Yang-2.jpg",
+      "archived": "_remove/src/media/content/3405df06-Myungji-Yang-2.jpg",
+      "bytes": 30181,
+      "sha256": "59c792625d7f4cd0f909e6c56e83e3d105b46fbef4778f092e02bfa6ba770d42"
+    },
+    {
+      "original": "src/media/content/473e44af-undergraduate-sociology.jpg",
+      "archived": "_remove/src/media/content/473e44af-undergraduate-sociology.jpg",
+      "bytes": 14725,
+      "sha256": "6f5bf304e8e0f90124e5518c552c8247528f62e811d7def04c82219ffbe38e74"
+    },
+    {
+      "original": "src/media/content/486a930e-graduate-students.png",
+      "archived": "_remove/src/media/content/486a930e-graduate-students.png",
+      "bytes": 5297,
+      "sha256": "1b75078410ac848320e703440173b69fb759bd883dc79fbbb759ddbf8c09b362"
+    },
+    {
+      "original": "src/media/content/52f7ee56-logo-google-scholar.png",
+      "archived": "_remove/src/media/content/52f7ee56-logo-google-scholar.png",
+      "bytes": 4669,
+      "sha256": "713989d10908fddc483fcfb3b8d45f8169efe42b452dbb3c061e4daaa010e0b7"
+    },
+    {
+      "original": "src/media/content/5a642277-Lisa-Nhomi-Koza.jpg",
+      "archived": "_remove/src/media/content/5a642277-Lisa-Nhomi-Koza.jpg",
+      "bytes": 9333,
+      "sha256": "de848432d39e50405c4e816b5fa6b5c422f3c9981a684d9cb532eb06dc294f68"
+    },
+    {
+      "original": "src/media/content/6d719581-under-main-2.jpg",
+      "archived": "_remove/src/media/content/6d719581-under-main-2.jpg",
+      "bytes": 23430,
+      "sha256": "1cd288399384f6bbcc082c4a8623a5ef07669889fd900e03401ab0bb24b8c594"
+    },
+    {
+      "original": "src/media/content/6f0cea12-Le-Lin.jpg",
+      "archived": "_remove/src/media/content/6f0cea12-Le-Lin.jpg",
+      "bytes": 28516,
+      "sha256": "31f614fb4633238012ac261656b1be308d7460f7eb3a1b2b1bebd27238131c86"
+    },
+    {
+      "original": "src/media/content/7bcdce6f-wei-zhang.jpg",
+      "archived": "_remove/src/media/content/7bcdce6f-wei-zhang.jpg",
+      "bytes": 60211,
+      "sha256": "b67a9b7941e8c553e524a3593e4df4d0ce2da6df45d1a1ebae919db2a6e5336d"
+    },
+    {
+      "original": "src/media/content/8d5b0522-uh-award-winnner.png",
+      "archived": "_remove/src/media/content/8d5b0522-uh-award-winnner.png",
+      "bytes": 6547,
+      "sha256": "f712840c1a36e082d61211ab6019d8bfb1e16c51c5e9b8f5090b86ec51b90db2"
+    },
+    {
+      "original": "src/media/content/94daf68a-Katherine-Irwin-v2.jpg",
+      "archived": "_remove/src/media/content/94daf68a-Katherine-Irwin-v2.jpg",
+      "bytes": 13527,
+      "sha256": "0079dedeedfb6781696ea9597c90a62991a7b7642e659eadbf273c8c3d0d3e0a"
+    },
+    {
+      "original": "src/media/content/99752f44-Jason-Higa-jpg.webp",
+      "archived": "_remove/src/media/content/99752f44-Jason-Higa-jpg.webp",
+      "bytes": 4632,
+      "sha256": "c48db3cae4b6d77eee2c5b7f0a0f51411f73665a8e8db57c294a19456ccd86b4"
+    },
+    {
+      "original": "src/media/content/9dbf804b-honors-program.png",
+      "archived": "_remove/src/media/content/9dbf804b-honors-program.png",
+      "bytes": 2509,
+      "sha256": "c0e1dd5ae4b84854752fa88e6f202a7a490a94ed4d16a945c035465805707d40"
+    },
+    {
+      "original": "src/media/content/New Folder With Items/0f1f543b-Jaeho-Kook.jpg",
+      "archived": "_remove/src/media/content/New Folder With Items/0f1f543b-Jaeho-Kook.jpg",
+      "bytes": 9131,
+      "sha256": "599aeaf9df74803249b4ffb6d6bd3820494284c6413805ab236cad52cd8f3a1c"
+    },
+    {
+      "original": "src/media/content/New Folder With Items/282b4762-Liam-Burke.jpg",
+      "archived": "_remove/src/media/content/New Folder With Items/282b4762-Liam-Burke.jpg",
+      "bytes": 15098,
+      "sha256": "70f07bba8d02debb0b81a04e3ad077cde96fde22ad8912ea88e52b2cb0ed4708"
+    },
+    {
+      "original": "src/media/content/New Folder With Items/3b3fe7c6-Carlie-Peterson-Mosher.jpg",
+      "archived": "_remove/src/media/content/New Folder With Items/3b3fe7c6-Carlie-Peterson-Mosher.jpg",
+      "bytes": 15562,
+      "sha256": "8a7a685125cfaaba1e1c33f2c9060ff3b58de00b865283ce8c528ace7fc806ac"
+    },
+    {
+      "original": "src/media/content/New Folder With Items/3d26ad3b-Amanda-Bonesteel-Kratt.jpg",
+      "archived": "_remove/src/media/content/New Folder With Items/3d26ad3b-Amanda-Bonesteel-Kratt.jpg",
+      "bytes": 8068,
+      "sha256": "c3751a94e153f177e06a0328eef3f76f21bc345dcaa05e9f5b7d16d642cf8ed3"
+    },
+    {
+      "original": "src/media/content/New Folder With Items/4b0c91a0-IMG_2266.jpg",
+      "archived": "_remove/src/media/content/New Folder With Items/4b0c91a0-IMG_2266.jpg",
+      "bytes": 33957,
+      "sha256": "23198370a88bae3922c1ed00efa5c83d029df352148acc4ca8b7265ed24980c9"
+    },
+    {
+      "original": "src/media/content/New Folder With Items/64200e1e-Kotone-Ishida.jpg",
+      "archived": "_remove/src/media/content/New Folder With Items/64200e1e-Kotone-Ishida.jpg",
+      "bytes": 11318,
+      "sha256": "db949a58bf3f9ee451803da9a4dd6bd25191a5f3a34b44b52a522000acb18ddb"
+    },
+    {
+      "original": "src/media/content/New Folder With Items/7be7891a-S.-M.-Anowarul-Kayes-Shimul-Shimul.jpg",
+      "archived": "_remove/src/media/content/New Folder With Items/7be7891a-S.-M.-Anowarul-Kayes-Shimul-Shimul.jpg",
+      "bytes": 13230,
+      "sha256": "22b97cdbc122b9c51fc908e7f15335709e6299cb74787965633bfb37e727c4d4"
+    },
+    {
+      "original": "src/media/content/New Folder With Items/7f91591c-Yuka-Koitabashi.jpg",
+      "archived": "_remove/src/media/content/New Folder With Items/7f91591c-Yuka-Koitabashi.jpg",
+      "bytes": 32319,
+      "sha256": "9d1dcafb0ac08e5867b152ab271f723a069a15c42b0b8ab5246654b9976b6235"
+    },
+    {
+      "original": "src/media/content/New Folder With Items/8cb99b3c-Kelly-Duong.jpg",
+      "archived": "_remove/src/media/content/New Folder With Items/8cb99b3c-Kelly-Duong.jpg",
+      "bytes": 12528,
+      "sha256": "1531b3a69ce948e6b1900cab3d3151204dad52d9f772972a2040a757caae879f"
+    },
+    {
+      "original": "src/media/content/New Folder With Items/a08857a3-AyaShirayama.jpg",
+      "archived": "_remove/src/media/content/New Folder With Items/a08857a3-AyaShirayama.jpg",
+      "bytes": 10079,
+      "sha256": "12a3b05afe3f18de9e60345e4dff37e239df06d6ce53628db56914953ef3eff6"
+    },
+    {
+      "original": "src/media/content/New Folder With Items/c30d3f90-Tingyan-Zhu.jpg",
+      "archived": "_remove/src/media/content/New Folder With Items/c30d3f90-Tingyan-Zhu.jpg",
+      "bytes": 14644,
+      "sha256": "e77d37be6987cdbb13ff69a0f14a2dd863c6ca220312b4a74be41612a543c28c"
+    },
+    {
+      "original": "src/media/content/New Folder With Items/e579af63-Matthieu-Kalua.jpg",
+      "archived": "_remove/src/media/content/New Folder With Items/e579af63-Matthieu-Kalua.jpg",
+      "bytes": 30118,
+      "sha256": "54c0077e75500c2ad883da0af9f78cd9ca5e0ba81633016916f89ee8796f01b1"
+    },
+    {
+      "original": "src/media/content/aaee56a5-Ashley-Rubin.jpg",
+      "archived": "_remove/src/media/content/aaee56a5-Ashley-Rubin.jpg",
+      "bytes": 11715,
+      "sha256": "65fb4cd3e712e61c8392610518a7593ae234ed73c42801b08bf0e48683d17984"
+    },
+    {
+      "original": "src/media/content/bc8d1f78-Yue-Sun.jpg",
+      "archived": "_remove/src/media/content/bc8d1f78-Yue-Sun.jpg",
+      "bytes": 7970,
+      "sha256": "32eb1615f2e323f59a5e389783ef68eb1c9efc3244950a32064e7d8732eea138"
+    },
+    {
+      "original": "src/media/content/ccf26274-Aya-Kimura-2.jpg",
+      "archived": "_remove/src/media/content/ccf26274-Aya-Kimura-2.jpg",
+      "bytes": 7860,
+      "sha256": "a09bfd1415b8310c5f2d763d67b08b53f45df9c3a8e39a0db8743f8bccc9388d"
+    },
+    {
+      "original": "src/media/content/cff3fe36-Sun-Ki-Chai.jpg",
+      "archived": "_remove/src/media/content/cff3fe36-Sun-Ki-Chai.jpg",
+      "bytes": 37075,
+      "sha256": "13b021853fde757e62d5f75fcce9404c6bc9d821ba889cbaeb31f41f24b9df4d"
+    },
+    {
+      "original": "src/media/content/d1f607f4-history.jpg",
+      "archived": "_remove/src/media/content/d1f607f4-history.jpg",
+      "bytes": 24422,
+      "sha256": "9a0e993b6f2ab3edb8042bf4f0bf0432a1574efb52d13e597ff40c8a4fa5d52e"
+    },
+    {
+      "original": "src/media/content/e1c93254-Eunjeong-Paek.jpg",
+      "archived": "_remove/src/media/content/e1c93254-Eunjeong-Paek.jpg",
+      "bytes": 27197,
+      "sha256": "5f09688ae1a13abc8103e27997efd833f625564586a24bbe070359776f5d3747"
+    },
+    {
+      "original": "src/media/content/e6760022-Manfred-Steger2.jpg",
+      "archived": "_remove/src/media/content/e6760022-Manfred-Steger2.jpg",
+      "bytes": 20911,
+      "sha256": "9f00cc55b6d148021f801c98be045d28abb85806c15af7598f34e2798f19c763"
+    },
+    {
+      "original": "src/media/content/ecf841f8-Jennifer-Darrah.jpg",
+      "archived": "_remove/src/media/content/ecf841f8-Jennifer-Darrah.jpg",
+      "bytes": 31732,
+      "sha256": "fcf7bd064d3575ca31aa36ff7f35f6217495e93ab647a54aba5d5861deb72a8a"
+    },
+    {
+      "original": "src/media/content/f0321dc7-Nandita-Sharma.jpg",
+      "archived": "_remove/src/media/content/f0321dc7-Nandita-Sharma.jpg",
+      "bytes": 47384,
+      "sha256": "ec2f75c33d7b48f76507540f84e14636a14078967d14989362a99c7b1371f365"
+    },
+    {
+      "original": "scripts/download-media.py",
+      "archived": "_remove/scripts/download-media.py",
+      "bytes": 1372,
+      "sha256": "4de2b2e28face815658d2a0ca93243bf5362ce468a063fac6a69e734bd32b49d"
+    },
+    {
+      "original": ".DS_Store",
+      "archived": "_remove/.DS_Store",
+      "bytes": 8196,
+      "sha256": "3b5dd8afec118674f30879a9ec96a8867b2d3e7a5786e89d9491a85e0ae07fb4"
+    },
+    {
+      "original": "src/.DS_Store",
+      "archived": "_remove/src/.DS_Store",
+      "bytes": 6148,
+      "sha256": "ef76ddb3063fa1f159512447b1acadc2a6c44c8253b6e6d7d8e56b55a9f85107"
+    }
+  ],
+  "verification": {
+    "retained_output_files_byte_identical": 582,
+    "local_asset_references_resolved": 485,
+    "clean_build": "passed",
+    "quarantine_published": false
+  }
+}

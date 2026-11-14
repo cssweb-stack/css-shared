@@ -1,0 +1,1806 @@
+{
+  "date": "2026-11-13",
+  "origin": "http://127.0.0.1:8096",
+  "browser": "157.0.8103.52",
+  "results": [
+    {
+      "url": "/alpha-kappa-delta.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/alpha-kappa-delta.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/alpha-kappa-delta.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/contact.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/contact.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          },
+          {
+            "id": "frame-tested",
+            "nodes": 1
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/contact.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          },
+          {
+            "id": "frame-tested",
+            "nodes": 1
+          }
+        ]
+      }
+    },
+    {
+      "url": "/funding-sources.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/funding-sources.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/funding-sources.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/hormann-prize.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/hormann-prize.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/hormann-prize.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/ mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/ desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/policies-procedures.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/policies-procedures.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/policies-procedures.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/privacy.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/privacy.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/privacy.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/support-soc.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/support-soc.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/support-soc.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/about-soc/history.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/about-soc/history.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/about-soc/history.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/about-soc/news-events.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/about-soc/news-events.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/about-soc/news-events.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/about-soc/soc-courses.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/about-soc/soc-courses.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/about-soc/soc-courses.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/about-soc/why-study-soc.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/about-soc/why-study-soc.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/about-soc/why-study-soc.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/ashley-rubin.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/ashley-rubin.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/ashley-rubin.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/aya-kimura.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/aya-kimura.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/aya-kimura.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/david-johnson.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/david-johnson.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/david-johnson.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/eunjeong-paek.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/eunjeong-paek.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/eunjeong-paek.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/ mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/ desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/jennifer-darrah.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/jennifer-darrah.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/jennifer-darrah.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/katherine-irwin.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/katherine-irwin.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/katherine-irwin.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/krysia-mossakowski.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/krysia-mossakowski.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/krysia-mossakowski.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/le-lin.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/le-lin.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/le-lin.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/manfred-b-steger.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/manfred-b-steger.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/manfred-b-steger.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/myungji-yang.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/myungji-yang.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/myungji-yang.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/nandita-sharma.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/nandita-sharma.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/nandita-sharma.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/sun-ki-chai.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/sun-ki-chai.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/sun-ki-chai.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/wei-zhang.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/wei-zhang.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/wei-zhang.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/faculty/yue-sun.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/faculty/yue-sun.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/faculty/yue-sun.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate/annual-review.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate/annual-review.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate/annual-review.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate/applications-admissions.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate/applications-admissions.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate/applications-admissions.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate/current-cohort.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate/current-cohort.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate/current-cohort.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate/graduate-course-categories.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate/graduate-course-categories.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate/graduate-course-categories.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate/student-organizations.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate/student-organizations.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate/student-organizations.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/undergraduate/academic-planning.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/undergraduate/academic-planning.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/undergraduate/academic-planning.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/undergraduate/bam.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/undergraduate/bam.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/undergraduate/bam.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/undergraduate/honors-track.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/undergraduate/honors-track.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/undergraduate/honors-track.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/about-soc/research-areas/crime-law-social-control.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/about-soc/research-areas/crime-law-social-control.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/about-soc/research-areas/crime-law-social-control.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/about-soc/research-areas/health-aging-medical-sociology.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/about-soc/research-areas/health-aging-medical-sociology.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/about-soc/research-areas/health-aging-medical-sociology.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/about-soc/research-areas/",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/about-soc/research-areas/ mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/about-soc/research-areas/ desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/about-soc/research-areas/nationalism-globalization-sustainability.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/about-soc/research-areas/nationalism-globalization-sustainability.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/about-soc/research-areas/nationalism-globalization-sustainability.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/about-soc/research-areas/race-ethnicity-gender-class.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/about-soc/research-areas/race-ethnicity-gender-class.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/about-soc/research-areas/race-ethnicity-gender-class.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate/doctorate-phd/comprehensive-exam.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate/doctorate-phd/comprehensive-exam.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate/doctorate-phd/comprehensive-exam.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate/doctorate-phd/dissertation.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate/doctorate-phd/dissertation.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate/doctorate-phd/dissertation.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate/doctorate-phd/",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate/doctorate-phd/ mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate/doctorate-phd/ desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate/doctorate-phd/qualifying-review.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate/doctorate-phd/qualifying-review.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate/doctorate-phd/qualifying-review.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate/doctorate-phd/requirements.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate/doctorate-phd/requirements.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate/doctorate-phd/requirements.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate/doctorate-phd/timeline.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate/doctorate-phd/timeline.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate/doctorate-phd/timeline.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate/funding-sources/sakihara-scholarship.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate/funding-sources/sakihara-scholarship.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate/funding-sources/sakihara-scholarship.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate/master-ma/",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate/master-ma/ mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate/master-ma/ desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate/master-ma/requirements.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate/master-ma/requirements.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate/master-ma/requirements.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate/master-ma/research-report.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate/master-ma/research-report.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate/master-ma/research-report.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate/master-ma/thesis.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate/master-ma/thesis.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate/master-ma/thesis.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/graduate/master-ma/timeline.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/graduate/master-ma/timeline.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/graduate/master-ma/timeline.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/undergraduate/major/concentrations.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/undergraduate/major/concentrations.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/undergraduate/major/concentrations.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/undergraduate/major/",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/undergraduate/major/ mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/undergraduate/major/ desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/undergraduate/major/requirements-fall-2022-and-earlier.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/undergraduate/major/requirements-fall-2022-and-earlier.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/undergraduate/major/requirements-fall-2022-and-earlier.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/undergraduate/major/student-learning-outcomes.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/undergraduate/major/student-learning-outcomes.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/undergraduate/major/student-learning-outcomes.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/undergraduate/minor/concentrations.html",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/undergraduate/minor/concentrations.html mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/undergraduate/minor/concentrations.html desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    },
+    {
+      "url": "/undergraduate/minor/",
+      "structure": {
+        "h1": 1,
+        "main": 1,
+        "imagesMissingAlt": [],
+        "brokenImages": []
+      },
+      "overflow": [],
+      "mobile": {
+        "label": "/undergraduate/minor/ mobile",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 58
+          }
+        ]
+      },
+      "desktop": {
+        "label": "/undergraduate/minor/ desktop",
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 66
+          }
+        ]
+      }
+    }
+  ],
+  "axeVersion": "4.14.0",
+  "scope": {
+    "widths": [
+      320,
+      1800
+    ],
+    "excluded": "8 generated migration redirects; external Google Maps internals",
+    "blocked_requests": [
+      "google-analytics",
+      "googletagmanager",
+      "google.com/maps"
+    ],
+    "layout_guides": "Existing development guide CSS retained",
+    "structural_review": {
+      "pages": 59,
+      "duplicate_ids": 0,
+      "missing_lang": 0,
+      "untitled_iframes": 0,
+      "tables_with_valid_label_references": 2
+    }
+  }
+}

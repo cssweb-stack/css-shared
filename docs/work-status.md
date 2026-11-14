@@ -2,6 +2,85 @@
 
 Updated November 13, 2026 (Pacific/Honolulu).
 
+## November 13: Sociology SEO cleanup and Open Graph diagnosis
+
+- Completed 59-page metadata review. Replaced 57 placeholder descriptions with
+  distinct content-based summaries; preserved two good descriptions, all titles,
+  H1s, URLs and page bodies. Verified edited-body hashes unchanged.
+- Added production self-canonicals in shared SOC settings; indexing remains off.
+  Root and /soc/ preview builds/checker pass: zero errors, one intentional long
+  research-area title advisory. Shared checks and diff whitespace checks pass.
+  Restored root build for local preview after prefix verification.
+- Confirmed live Open Graph bug: GitHub preview advertises production host plus
+  /soc/ image path, returning HTML (HTTP 200), while correct GitHub image returns
+  JPEG (HTTP 200), matching local export. Added SITE_ORIGIN to SOC deploy build;
+  all 59 prefix-build social page/image URLs verified correct. Not deployed yet.
+- Report: `docs/soc-seo-audit.md`; before/after/prefix/live evidence in exports/seo.
+- Tomorrow: final text/accessibility/SEO sweeps after edits and Le Lin’s reply;
+  recheck deployed social tags, URL migration/custom 404/live HTTP behavior, fix
+  stale migration verifier inventory, and retain manual contrast/map follow-up.
+  No indexing launch, sitemap, Search Console action or cache refresh performed.
+- Local soc and css-shared changes; earlier cleanup/audits preserved. No commit,
+  push or deployment. Commit/push both, then rerun SOC deployment. Local ignored
+  `_remove/` archive needs manual transfer if wanted on another machine.
+
+## November 13: Sociology accessibility scan
+
+- Local axe review complete: 59 content pages at 320/1800px, zero confirmed
+  violations in 118 scans. All have one H1/main, language, image alt attributes,
+  no duplicate IDs, no observed broken eager images and no page overflow.
+- Keyboard skip/main focus, desktop dropdown keys/hover/Escape, mobile menu/search
+  and three open-state axe checks passed. Text spacing passed on eight pages;
+  768/1200px reflow passed on seven representative pages. Both timeline tables
+  retain scoped column headers and valid accessible labels.
+- Report: `docs/soc-accessibility-audit.md`; measured evidence under
+  `exports/accessibility/soc*-2026-11-13.json`. Axe contrast remains incomplete
+  in 118 scans; external map/frame review incomplete in two. No full screen-reader
+  session, comprehensive conformance claim or Siteimprove run.
+- SOC build and shared check passed; no accessibility source changes needed.
+  Stale migration verifier remains as previously recorded. SEO next, then live
+  Open Graph diagnosis/final launch and accessibility follow-up after edits.
+- User contacted Le Lin about incomplete paragraph; may receive reply November 14.
+  Wait for supplied wording; no further action needed from user for this scan.
+- Local css-shared report/evidence/handoff changes only for this task; prior
+  SOC/shared folder-cleanup and text-audit work preserved. No commit/push/deploy.
+
+## November 13: Sociology working-folder cleanup
+
+- Audited SOC source/root files, image references across local/shared active source,
+  build copy rules and scripts. Moved all 42 unused imported images, the retired
+  downloader and four Finder metadata files to local ignored `../soc/_remove/`.
+  Original paths/hash manifest preserved; user can move the folder out intact.
+- No local source media remain. Active shared images unchanged. Kept source pages,
+  WordPress XML, migration/URL evidence, build/deploy/check scripts, dependency
+  files and Git metadata. Updated SOC README and accepted cleanup convention.
+- Clean pre/post builds passed: all 582 retained generated files byte-identical;
+  42 imported images absent from output. All 485 checked local HTML/CSS asset
+  references resolve; quarantine not published and confirmed ignored by Git.
+  Moved-file SHA-256 hashes verified; both repositories’ diff whitespace checks pass.
+- Inventory: `exports/soc/folder-cleanup-2026-11-13.json`; topic notes in
+  `docs/soc-migration.md`. Stale full verifier remains as previously reported;
+  no accessibility/SEO/live Open Graph scan performed in this folder task.
+- Local changes in soc and css-shared; prior text report/artifacts preserved.
+  No commit, push or deployment. Commit/push both repositories and rerun SOC
+  deployment after syncing shared. `_remove/` is local only and will not sync.
+
+## November 13: Sociology whole-site text scan
+
+- Scanned 59 current HTML sources and 15 shared SOC JSON files; standard tool
+  proposed zero mechanical patches and found zero heading wrappers. Saved measured
+  findings and text extracted from all 67 rendered HTML pages (eight redirects).
+- Report: `docs/soc-text-scan-2026-11-13.md`. Flags two missing inline spaces,
+  Le Lin’s apparently truncated sentence, prime/missing diacritics, one repeated
+  research topic, TMS wording, and voice/degree/department naming for review.
+  No source copy edited; naming suggestions are not accepted conventions.
+- SOC build passed. `npm run verify` stops on stale missing graduate/gssa.html
+  inventory; remaining verification did not complete. Checker update remains.
+- Accessibility, SEO, live Open Graph diagnosis and final scans remain next, per
+  user’s choice to start with text only. No claim about GitHub/cache cause.
+- Local css-shared report/artifacts/handoff only; no commit, push or deployment.
+  Both repository working trees were clean at start; remote sync not checked.
+
 ## November 13: Research summaries moved to Research Areas
 
 - Replaced Research Areas landing page’s bare link list with the five original

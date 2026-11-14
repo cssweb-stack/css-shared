@@ -95,3 +95,23 @@ python3 ../css-shared/scripts/migrations/soc-wordpress.py reference/sociologysoc
 
 It is a one-time importer that overwrites generated pages and SOC hero assignments.
 Do not rerun after editorial work without reviewing and preserving those edits.
+
+## November 13: unused imported media retired
+
+A complete SOC folder/reference scan found all 42 remaining local imported images
+unused. They were moved, hash-verified, into local ignored `../soc/_remove/`,
+along with the retired `scripts/download-media.py` and four Finder metadata files.
+The folder preserves original relative paths and a manifest for the user to move
+out. This supersedes the original downloaded-media retention described above;
+current images are supplied by shared media. Do not rerun the downloader/importer
+to recreate the retired images. Original WordPress XML and migration/URL evidence
+remain under `reference/`; scripts/configuration needed for builds remain active.
+
+Clean builds before/after passed. All 582 retained output files were byte-identical;
+42 imported images disappeared from published output. All 485 local HTML/CSS asset
+references checked resolve; `_remove` is not published. The earlier text scan
+identified a stale inventory in `scripts/verify-site.py`; that broader migration
+verifier was not repaired or claimed passing in this folder cleanup.
+
+Measured move/hash inventory and verification:
+[`folder-cleanup-2026-11-13.json`](../exports/soc/folder-cleanup-2026-11-13.json).

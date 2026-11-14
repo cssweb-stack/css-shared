@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-13",
+  "preview_url": "https://cssweb-stack.github.io/soc/",
+  "preview_http_status": 200,
+  "advertised_og_url": "https://sociology.manoa.hawaii.edu/soc/",
+  "advertised_og_image": "https://sociology.manoa.hawaii.edu/soc/media/open-graph/soc.jpg",
+  "advertised_image_response": {
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "correct_preview_image": "https://cssweb-stack.github.io/soc/media/open-graph/soc.jpg",
+  "correct_image_response": {
+    "status": 200,
+    "content_type": "image/jpeg",
+    "jpeg_signature_valid": true,
+    "matches_local_export_sha256": true
+  },
+  "fix": "SOC deployment build sets SITE_ORIGIN=https://cssweb-stack.github.io alongside SITE_PATH_PREFIX=/soc/.",
+  "fix_deployed": false,
+  "root_build_restored": true
+}
