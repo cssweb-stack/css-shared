@@ -26,12 +26,15 @@ with zipfile.ZipFile(a.output,'w',zipfile.ZIP_DEFLATED) as z:
     if rownum>1 and value.startswith(('https://','http://')) and '\n' not in value:
      style=2;rid='rId'+str(len(rels)+1);rels.append(f'<Relationship Id="{rid}" Type="{rel}/hyperlink" Target={quoteattr(value)} TargetMode="External"/>');links.append(f'<hyperlink ref="{ref}" r:id="{rid}"/>')
     cells.append(f'<c r="{ref}" s="{style}" t="inlineStr"><is><t xml:space="preserve">{escape(value)}</t></is></c>')
-   height=32 if rownum==1 else (64 if name!='Read Me' else 58)
+   height=32 if rownum==1 else sheet.get('row_height',64 if name!='Read Me' else 58)
    xmlrows.append(f'<row r="{rownum}" ht="{height}" customHeight="1">'+''.join(cells)+'</row>')
   cols=''.join(f'<col min="{j}" max="{j}" width="{w}" customWidth="1"/>' for j,w in enumerate(sheet['widths'],1))
   validation=''
   if name=='Page Review' and rows:validation=f'<dataValidations count="1"><dataValidation type="list" allowBlank="1" showErrorMessage="1" errorTitle="Choose a review status" error="Use the dropdown or add details in Your notes." sqref="A2:A{len(rows)+1}"><formula1>"Not reviewed,In progress,Done,Needs follow-up,Deferred"</formula1></dataValidation></dataValidations>'
-  body=f'<worksheet xmlns="{ns}" xmlns:r="{rel}"><dimension ref="A1:{end}"/><sheetViews><sheetView workbookViewId="0"><pane xSplit="2" ySplit="1" topLeftCell="C2" activePane="bottomRight" state="frozen"/></sheetView></sheetViews><sheetFormatPr defaultRowHeight="18"/><cols>{cols}</cols><sheetData>'+''.join(xmlrows)+f'</sheetData><autoFilter ref="A1:{end}"/>'+validation+('<hyperlinks>'+''.join(links)+'</hyperlinks>' if links else '')+'<pageMargins left="0.3" right="0.3" top="0.5" bottom="0.5" header="0.2" footer="0.2"/></worksheet>'
+  frozen=sheet.get('freeze_columns',2)
+  pane=f'<pane xSplit="{frozen}" ySplit="1" topLeftCell="{col(frozen+1)}2" activePane="{"bottomRight" if frozen else "bottomLeft"}" state="frozen"/>'
+  auto_filter=f'<autoFilter ref="A1:{end}"/>' if sheet.get('auto_filter',True) else ''
+  body=f'<worksheet xmlns="{ns}" xmlns:r="{rel}"><dimension ref="A1:{end}"/><sheetViews><sheetView workbookViewId="0">{pane}</sheetView></sheetViews><sheetFormatPr defaultRowHeight="18"/><cols>{cols}</cols><sheetData>'+''.join(xmlrows)+'</sheetData>'+auto_filter+validation+('<hyperlinks>'+''.join(links)+'</hyperlinks>' if links else '')+'<pageMargins left="0.3" right="0.3" top="0.5" bottom="0.5" header="0.2" footer="0.2"/></worksheet>'
   z.writestr(f'xl/worksheets/sheet{i}.xml',body)
   if rels:z.writestr(f'xl/worksheets/_rels/sheet{i}.xml.rels','<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'+''.join(rels)+'</Relationships>')
   sheets.append(f'<sheet name={quoteattr(name)} sheetId="{i}" r:id="rId{i}"/>');wrels.append(f'<Relationship Id="rId{i}" Type="{rel}/worksheet" Target="worksheets/sheet{i}.xml"/>');types.append(f'<Override PartName="/xl/worksheets/sheet{i}.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>')

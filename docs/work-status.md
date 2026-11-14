@@ -2,6 +2,23 @@
 
 Updated November 14, 2026 (Pacific/Honolulu).
 
+## November 14: Simple Ethnic Studies review sheet
+
+- Created exports/es/ES-page-checklist-2026-11-14.xlsx from the supplied November 14 WordPress export and 27 current ES source pages. One worksheet, two name-only columns. Matched pairs first (25 rows covering 24 original pages; Directory maps to Core Faculty and Associated Faculty), followed by nine unmatched published news posts and two new-only pages (ES Courses, Policies & Procedures). Blank separators only; no URLs, notes, status fields, filters, dropdowns or additional tabs.
+- Excluded drafts, attachments, theme/plugin entries and custom-field definitions. All 33 published page/post entries and all 27 new pages accounted for. No content, redirects or 404 changed. Fuller migration comparison deferred until after review.
+- Shared workbook writer now supports optional compact rows, header-only freeze and disabled filtering; checked existing defaults remain intact. Validated XLSX ZIP/XML, one sheet/two columns, exact names/group order and no extra fields. Whitespace check passed. Local shared artifact/docs/helper edits only; no commit, push or deployment. ES repository unchanged.
+
+## November 14: Security architecture added to services draft
+
+- Added an eighteenth service to the private portfolio Page and its estimating prompt: intentional platform simplification and attack surface reduction through static publishing. Preserved the distinction between new static output and legacy WordPress exposure until retirement; no claim of a security audit, certification or quantified savings. Recorded this durable objective in project-conventions.md.
+- Private Page edits confirmed by readback. Documentation only; no website source/security settings changed, no builds needed. Local documentation changes, not committed or pushed.
+
+## November 14: Private portfolio services draft
+
+- Prepared and read back a private Pages draft with a portfolio services checklist and neutral external-cost estimating prompt. Counted 10 implemented unit codebases containing 405 HTML sources, plus a 17-source style guide and shared system. Counts include utility pages and incomplete material; not 10 completed launches or 405 rewritten pages. Excluded configuration-only units.
+- Distinguished shared work charged once, incremental unit work, completed versus outstanding scope, and documented accessibility/SEO passes versus inherited shared improvements. No dollar estimate, price research, meeting invitation or reminder created. No website source changes in this task.
+- Private draft: https://chatgpt.com/space/page_269823331584819198b855e432d09d1b. Saved content read back successfully; no visual Page preview tool used. This handoff edit is local, not committed/pushed.
+
 ## November 14: Graduate Division outbound URL replacements
 
 - Saved all five user-supplied old/new pairs in src/data/common/url-replacements.json: committee composition, research/publication, fellowships/scholarships, financial support and academic progress. New scripts/link-replacements.py provides unit-scoped report/apply modes and recognizes HTTP/HTTPS and www variants. Added it to conventions and link-review guidance for future sites.

@@ -41,6 +41,15 @@ Use lowercase repository folders. Psychology's local folder is `psy`, formerly
 
 ## Page sources and metadata
 
+Page-review run sheets default to a simple Excel workbook with one worksheet and
+two columns only: Old page and New page, containing page names rather than URLs.
+List matched pairs first, then old pages without a new match, then new pages
+without an old match; leave the absent side empty. A source page split across
+two new pages may appear twice to show both matches. Keep route analysis,
+statuses, notes and redirect/404 decisions out of this run sheet; prepare the
+fuller comparison separately when requested. Preserve reviewed workbooks rather
+than overwriting them. Confirmed November 14, 2026 for ES and future review sheets.
+
 Retain user-confirmed external URL moves in src/data/common/url-replacements.json
 so they can be reused across unit sites. Check a unit with
 `python3 scripts/link-replacements.py UNIT`; apply those exact known replacements
@@ -984,3 +993,14 @@ the user has repeatedly verified that the destination is available in a browser;
 do not infer a specific technical cause for the checker’s differing result.
 
 > Repeated manual checks confirm that this link is available in a browser despite the automated checker reporting 404. Retained intentionally and dismissed permanently as a recurring false positive.
+
+## Security objective of static publishing
+
+The shared static publishing architecture intentionally reduces reliance on a
+publicly exposed CMS, database and plugin runtime. Platform simplification and
+attack surface reduction are explicit project objectives and belong in the
+services inventory. Describe this as an architectural risk-reduction measure,
+not a penetration test, security certification, quantified incident reduction or
+monetary loss avoided. Legacy WordPress installations retain their own exposure
+until retired; hosting/deployment accounts, build dependencies and third-party
+scripts still require security maintenance. Confirmed November 14, 2026.
