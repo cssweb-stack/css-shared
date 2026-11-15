@@ -271,7 +271,7 @@ add(ROOT/'exports/anth/policies-and-procedures.html','<h1>Policies and Procedure
 policy=section('<h1>Policies and Procedures</h1><p>University policies and procedures collected from Public Administration and Anthropology. Unit-specific wording is retained below.</p>')+section('<h2>Public Administration</h2>'+re.sub(r'<h2\b','<h3',re.sub(r'</h2>','</h3>',no_h1(puba))))+section('<h2>Anthropology</h2>'+re.sub(r'<h([2-5])\b',lambda m:'<h'+str(int(m[1])+1),re.sub(r'</h([2-5])>',lambda m:'</h'+str(int(m[1])+1)+'>',anth_policy)))
 add(ROOT/'src/includes/pages/policies-procedures.njk',policy)
 
-student_bank=sorted('/'+str(p.relative_to(ROOT/'src')) for p in (ROOT/'src/media/heroes/students').glob('*.webp'))
+student_bank=sorted('/'+str(p.relative_to(ROOT/'src')) for p in (ROOT/'src/media/heroes/students').rglob('*.webp'))
 mural_bank=sorted('/'+str(p.relative_to(ROOT/'src')) for p in (ROOT/'src/media/heroes/saunders-mural').glob('*.webp'))
 rng=random.Random(11011);rng.shuffle(student_bank);rng.shuffle(mural_bank)
 data('heroes.json',{'defaultHero':student_bank[0],'pages':{url:{'image':student_bank[i%len(student_bank)],'position':'center center','alt':'Students at the University of Hawaiʻi at Mānoa','credit':False} for i,url in enumerate(published) if url not in {p['url'] for p in people if p.get('url')}}})

@@ -111,7 +111,7 @@ settings = json.loads((ROOT / 'src/data/units/wgss/site-settings.json').read_tex
 settings.update(stylesheet='/sci.css', url='https://sci.manoa.hawaii.edu', openGraph=json.loads((UNIT / 'site-settings.json').read_text())['openGraph'])
 data('site-settings.json', settings)
 unit = json.loads((UNIT / 'unit-details.json').read_text()); unit['facultyBasePath'] = '/faculty/'; data('unit-details.json', unit)
-students = sorted('/' + str(p.relative_to(ROOT / 'src')) for p in (ROOT / 'src/media/heroes/students').glob('*.webp'))
+students = sorted('/' + str(p.relative_to(ROOT / 'src')) for p in (ROOT / 'src/media/heroes/students').rglob('*.webp'))
 murals = sorted('/' + str(p.relative_to(ROOT / 'src')) for p in (ROOT / 'src/media/heroes/saunders-mural').glob('*.webp'))
 rng = random.Random(1112); rng.shuffle(students); rng.shuffle(murals)
 bio_urls = {p['url'] for p in people}

@@ -135,7 +135,7 @@ unit=json.loads((UNIT/'unit-details.json').read_text());unit['facultyBasePath']=
 settings=json.loads((ROOT/'src/data/units/anth/site-settings.json').read_text());settings.update(stylesheet='/wgss.css',url='https://wgss.manoa.hawaii.edu',openGraph=json.loads((UNIT/'site-settings.json').read_text())['openGraph']);data('site-settings.json',settings)
 data('catalog-courses.json',{'prefix':'WGSS','catalogKey':'womenGenderAndSexualityStudies'})
 data('social.json',{'links':[{'label':'X','url':'https://twitter.com/uhm_wgss?lang=en','icon':'social/twitter-x'}]})
-student_bank=sorted('/'+str(p.relative_to(ROOT/'src')) for p in (ROOT/'src/media/heroes/students').glob('*.webp'));murals=sorted('/'+str(p.relative_to(ROOT/'src')) for p in (ROOT/'src/media/heroes/saunders-mural').glob('*.webp'));rng=random.Random(1111);rng.shuffle(student_bank);rng.shuffle(murals)
+student_bank=sorted('/'+str(p.relative_to(ROOT/'src')) for p in (ROOT/'src/media/heroes/students').rglob('*.webp'));murals=sorted('/'+str(p.relative_to(ROOT/'src')) for p in (ROOT/'src/media/heroes/saunders-mural').glob('*.webp'));rng=random.Random(1111);rng.shuffle(student_bank);rng.shuffle(murals)
 bio_urls={p['url'] for p in people if p.get('url')}
 data('heroes.json',{'defaultHero':student_bank[0],'pages':{url:{'image':student_bank[i%len(student_bank)],'position':'center center','alt':'Students at the University of Hawaiʻi at Mānoa','credit':False} for i,url in enumerate(published) if url not in bio_urls}})
 data('faculty-heroes.json',{'pages':{p['url']:{'image':murals[i%len(murals)],'position':'center center','alt':'Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa','credit':False} for i,p in enumerate(people) if p.get('url')}})

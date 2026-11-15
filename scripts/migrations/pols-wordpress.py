@@ -188,7 +188,7 @@ settings=json.loads((SHARED/'src/data/units/psy/site-settings.json').read_text()
 data('social.json',{'links':[{'label':'X','url':'https://x.com/uhmpolisci','icon':'social/twitter-x'}]})
 data('search.json',{'provider':'google-site-restricted','domain':'politicalscience.manoa.hawaii.edu','label':'POLS'})
 data('catalog-courses.json',{'prefix':'POLS','catalog':{'label':'UH Mānoa Catalog (POLS)','url':'https://manoa.hawaii.edu/catalog/category/social-sciences/pols/'}})
-student_bank=sorted('/'+str(p.relative_to(SHARED/'src')) for p in (SHARED/'src/media/heroes/students').glob('*.webp'));mural_bank=sorted('/'+str(p.relative_to(SHARED/'src')) for p in (SHARED/'src/media/heroes/saunders-mural').glob('*.webp'));random.Random(42).shuffle(student_bank)
+student_bank=sorted('/'+str(p.relative_to(SHARED/'src')) for p in (SHARED/'src/media/heroes/students').rglob('*.webp'));mural_bank=sorted('/'+str(p.relative_to(SHARED/'src')) for p in (SHARED/'src/media/heroes/saunders-mural').glob('*.webp'));random.Random(42).shuffle(student_bank)
 data('heroes.json',{'defaultHero':student_bank[0],'pages':{url:{'image':student_bank[i%len(student_bank)],'position':'center center','alt':'Students at the University of Hawaiʻi at Mānoa','credit':False} for i,url in enumerate(published) if not url.startswith('/faculty/') or url=='/faculty/'}})
 data('faculty-heroes.json',{'pages':{p['url']:{'image':mural_bank[i%len(mural_bank)],'position':'center center','alt':'Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa','credit':False} for i,p in enumerate(faculty)}})
 for f in ['scripts/shared-bootstrap.mjs','scripts/shared-settings.mjs','scripts/shared-source.mjs','eleventy.config.js','.gitignore','AGENTS.md']:

@@ -170,7 +170,7 @@ for item in social['links']:
     if item['label']=='Instagram':item['url']='https://www.instagram.com/uhm_ethnicstudies/'
     if item['label']=='X':item['url']='https://x.com/uhm_es'
 data('social.json',social)
-bank=sorted('/'+str(p.relative_to(SHARED/'src')) for p in (SHARED/'src/media/heroes/students').glob('*.webp'));random.Random(43).shuffle(bank)
+bank=sorted('/'+str(p.relative_to(SHARED/'src')) for p in (SHARED/'src/media/heroes/students').rglob('*.webp'));random.Random(43).shuffle(bank)
 murals=sorted('/'+str(p.relative_to(SHARED/'src')) for p in (SHARED/'src/media/heroes/saunders-mural').glob('*.webp'))
 data('heroes.json',{'defaultHero':bank[0],'pages':{url:{'image':bank[j%len(bank)],'position':'center center','alt':'Students at the University of Hawaiʻi at Mānoa','credit':False} for j,url in enumerate(outputs) if url not in [p['url'] for p in faculty]}})
 data('faculty-heroes.json',{'pages':{p['url']:{'image':murals[j%len(murals)],'position':'center center','alt':'Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa','credit':False} for j,p in enumerate(faculty)}})

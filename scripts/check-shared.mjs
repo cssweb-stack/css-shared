@@ -238,9 +238,9 @@ console.log('Checked universal Policies, Privacy and 404 hero images.');
 const rejectedStudentHeroes = ['03.webp', '05.webp', '06.webp', '11.webp', '49.webp', '53.webp', '59.webp'];
 for (const filename of rejectedStudentHeroes) {
 const image = `/media/heroes/students/${filename}`;
-if (fs.existsSync(path.join(root, image.slice(1)))) throw new Error(`Rejected student hero restored: ${image}`);
+if (sourceFiles.some(file => file.startsWith(path.join(root, 'media/heroes/students') + path.sep) && path.basename(file) === filename)) throw new Error(`Rejected student hero restored: ${image}`);
 for (const file of sourceFiles.filter(file => file.endsWith('.json') && file.includes('/data/'))) {
-if (fs.readFileSync(file, 'utf8').includes(image)) throw new Error(`Rejected student hero referenced: ${path.relative(root, file)}`);
+if (['', 'general/', 'graduate/'].some(folder => fs.readFileSync(file, 'utf8').includes('/media/heroes/students/' + folder + filename))) throw new Error(`Rejected student hero referenced: ${path.relative(root, file)}`);
 }
 }
 console.log('Checked rejected student heroes stay removed and unassigned.');
