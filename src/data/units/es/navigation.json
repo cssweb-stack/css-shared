@@ -8,25 +8,25 @@
     "children": [
       {
         "label": "Why Study ES?",
-        "url": "/about-es/why-study-es.html",
+        "url": "/about/why-study-es.html",
         "icon": "question-circle",
         "iconColor": null
       },
       {
         "label": "Our History - Our Way",
-        "url": "/about-es/our-history-our-way.html",
+        "url": "/about/our-history-our-way.html",
         "iconColor": null,
         "icon": "clock-history"
       },
       {
         "label": "Island Connections",
-        "url": "/about-es/island-connections.html",
+        "url": "/about/island-connections.html",
         "iconColor": null,
         "icon": "sun"
       },
       {
         "label": "Ethnic Studies Student Association",
-        "url": "/about-es/ethnic-studies-student-association.html",
+        "url": "/about/ethnic-studies-student-association.html",
         "iconColor": null,
         "icon": "people"
       }

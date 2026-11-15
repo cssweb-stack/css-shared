@@ -1149,3 +1149,5 @@ Agreed November 14, 2026: across unit sites, use a bold label followed by a colo
 ## Review utility site
 
 Agreed November 14, 2026: maintain a minimal sibling ../review site with redirects-404s and heroes sections, one page per active shared unit. Redirect/retired-page lists are bullets from actual shared unit mappings, with honest no-mapping/unresolved labels. Link tests target GitHub previews; local changes require uploading before those tests can pass. Hero pages show normal paragraph labels/paths and images, grouped main pages, faculty, policies/privacy and alphabetized within groups. Add units as their shared records/sites become available. No interactive dashboard or style-guide redesign; preserve ../style-guide. Rebuild the generated review pages when unit records change.
+
+Ethnic Studies uses `about/` for its About pages, replacing `about-es/` (November 14, 2026). The unit is already identified by its site root; the extra suffix is unnecessary. Preserve old published paths with direct redirects.

@@ -2,10 +2,22 @@
 
 Updated November 14, 2026 (Pacific/Honolulu).
 
+## November 14: ES About folder shortened
+
+- Renamed ../es/src/about-es to about; updated navigation, hero mappings, permalinks, current URL inventory, editorial mapping and title inventory. Original preserved-content snapshot untouched; verifier maps its old keys. Added four old about-es URL redirects directly to new pages, alongside updated original WordPress destinations. Clean ES build and verification passed: 29 pages, 31 redirects, nine bios, 21 preserved bodies. Review rebuilt. Local only, not committed/pushed/deployed.
+
+## November 14: ES statement anchor landing fixed
+
+- Added existing page-jump-target class to all three statement headings. Reuses shared measured sticky-header offset and load-time bookmark correction; no new CSS/JavaScript. ES rebuilt. Chrome followed all three old URLs locally: each heading landed at 251px, 16px below the 235px sticky header. Local only, not pushed/deployed.
+
+## November 14: ES 404 quick link correction
+
+- Removed misleading Academic programs quick link, which pointed only to the BA page. Remaining recovery links are homepage, Faculty and Contact. ES rebuilt locally; no commit/push/deployment.
+
 ## November 14: Review go workflow corrected
 
-- Added missing clean script to ../review/package.json so the user's existing go workflow can run clean/build/dev. Clean removes only generated _site. Tested npm run clean followed by npm run build: ten units per section rebuilt successfully.
-- Stopped the agent-owned preview server (session 19759) to release port 8090 before the user starts go. No live server is left by this fix; npm run dev/go starts it. Local Review package/shared handoff only; not committed/pushed/deployed.
+- The user's go command runs clean then dev. Updated ../review/package.json so dev builds first, then serves _site on port 8090. Clean removes only generated _site. Rebuilt the pages and verified the existing server returns HTTP 200 at localhost:8090; the user can refresh without restarting.
+- Supersedes the earlier assumption that go runs build separately. Local changes only; no commit, push or deployment performed.
 
 ## November 14: Minimal Review site delivered and ES URL mapping implemented
 

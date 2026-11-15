@@ -37,7 +37,7 @@
     },
     {
       "from": "/our-history-our-way/",
-      "to": "/about-es/our-history-our-way.html",
+      "to": "/about/our-history-our-way.html",
       "label": "Our History - Our Way"
     },
     {
@@ -77,7 +77,7 @@
     },
     {
       "from": "/academic-program/",
-      "to": "/about-es/why-study-es.html",
+      "to": "/about/why-study-es.html",
       "label": "Academic Program"
     },
     {
@@ -92,12 +92,12 @@
     },
     {
       "from": "/essa/",
-      "to": "/about-es/ethnic-studies-student-association.html",
+      "to": "/about/ethnic-studies-student-association.html",
       "label": "Ethnic Studies Student Association"
     },
     {
       "from": "/island-connections/",
-      "to": "/about-es/island-connections.html",
+      "to": "/about/island-connections.html",
       "label": "Island Connections"
     },
     {
@@ -134,6 +134,26 @@
       "from": "/courses/",
       "to": "/courses.html",
       "label": "ES Courses"
+    },
+    {
+      "from": "/about-es/ethnic-studies-student-association.html",
+      "to": "/about/ethnic-studies-student-association.html",
+      "label": "Ethnic Studies Student Association"
+    },
+    {
+      "from": "/about-es/island-connections.html",
+      "to": "/about/island-connections.html",
+      "label": "Island Connections"
+    },
+    {
+      "from": "/about-es/our-history-our-way.html",
+      "to": "/about/our-history-our-way.html",
+      "label": "Our History Our Way"
+    },
+    {
+      "from": "/about-es/why-study-es.html",
+      "to": "/about/why-study-es.html",
+      "label": "Why Study Es"
     }
   ],
   "retired": [
