@@ -181,7 +181,7 @@ data('navigation.json',[nav('Home','/'),{'label':'About','children':[nav('Why St
 unit=json.loads((SHARED/'src/data/units/psy/unit-details.json').read_text())
 unit.update(name='Department of Political Science',shortName='POLS',building='saunders-hall',address=['Saunders 640','2424 Maile Way','Honolulu, HI 96822'],phone={'label':'(808) 956-8357','href':'tel:+18089568357'},email={'label':'polisci@hawaii.edu','href':'mailto:polisci@hawaii.edu'},footerIdentity={'prefix':'Department of','name':'Political Science'},facultyBasePath='/faculty/')
 unit['logo']['alt']='Department of Political Science, University of Hawaiʻi at Mānoa'
-unit['buildingPhoto']={'src':'/media/shared/other/saunders-hall.webp','alt':'Saunders Hall at the University of Hawaiʻi at Mānoa','width':300,'height':162}
+unit['buildingPhoto']={'src':'/media/shared/buildings/saunders-hall.webp','alt':'Saunders Hall at the University of Hawaiʻi at Mānoa','width':300,'height':162}
 for v in unit['logo']['variants'].values():v['src']=v['src'].replace('psy-','pols-')
 data('unit-details.json',unit)
 settings=json.loads((SHARED/'src/data/units/psy/site-settings.json').read_text());settings.update(stylesheet='/pols.css',url='https://politicalscience.manoa.hawaii.edu');data('site-settings.json',settings)

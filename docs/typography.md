@@ -65,3 +65,11 @@ styles it with a 1px `--border-neutral` top border, 2rem block margins, and full
 opacity. SSRI Boilerplate, OENAS, and TASI/PHIDC now use explicit rules before
 each formerly spaced H2 after the first. The former heading-spacing class and
 selector have been removed; profile/sidebar headings are unaffected.
+
+## Shared heading scale, November 14, 2026
+
+The unit identity and page H1 previously both reached 32px/600 on desktop; H2 was only 20.4px/600. The shared content scale is now H1 1.75rem/500, H2 1.5rem/500, H3 1.25rem/500, H4 1.125rem/500 (normally 28/24/20/18px). Below 576px H1 is 1.625rem and H2 1.375rem (26/22px); H3/H4 remain 20/18px. This supersedes the old H1 32/30/28px breakpoints and H2 20.4px/H3 18px values. Body remains 18px/400 at every width. Existing 1.6 heading line-height, margins and specialized component typography remain unchanged. Unit-name branding keeps its existing responsive 24–32px/600 style. All runtime changes are confined to typography.css.
+
+The scale is a design choice, not a claim of a mandated H1/H2 ratio. Heading markup still communicates document structure; size alone is not a replacement. Reference: https://www.w3.org/WAI/tips/writing/ (use headings to convey meaning and structure).
+
+ES/SOC builds and their page verifiers passed; PUBA/SSRI builds and shared checker passed. Chrome checked ES Certificate, SOC BA, PUBA MPA and SSRI Research Services at 320, 768, 1200 and 1800px (16 cases), including generic heading/body fixtures in each actual built stylesheet. Measured sizes/weights match the scale, unit name retains 600, and representative pages have no horizontal overflow. Evidence: exports/heading-scale-2026-11-14.json. This is not a new complete accessibility audit or user visual approval; other consuming sites receive the shared change when rebuilt.

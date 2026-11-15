@@ -1,0 +1,66 @@
+[
+  {
+    "source": "404.html",
+    "title": "Page Not Found | SSRI | UH Mānoa"
+  },
+  {
+    "source": "contact.html",
+    "title": "Contact | SSRI | UH Mānoa"
+  },
+  {
+    "source": "directory.html",
+    "title": "Directory | SSRI | UH Mānoa"
+  },
+  {
+    "source": "index.html",
+    "title": "Research and Grant Services | SSRI | UH Mānoa"
+  },
+  {
+    "source": "john-jack-barile.html",
+    "title": "John (Jack) Barile | SSRI | UH Mānoa"
+  },
+  {
+    "source": "policies-procedures.html",
+    "title": "Policies & Procedures | SSRI | UH Mānoa"
+  },
+  {
+    "source": "privacy.html",
+    "title": "Privacy Policy | SSRI | UH Mānoa"
+  },
+  {
+    "source": "research/ham.html",
+    "title": "Hui ʻĀina Momona (HAM) | SSRI | UH Mānoa"
+  },
+  {
+    "source": "research/hcri.html",
+    "title": "Hawaiʻi Coral Reef Initiative (HCRI) | SSRI | UH Mānoa"
+  },
+  {
+    "source": "research/index.html",
+    "title": "Research | SSRI | UH Mānoa"
+  },
+  {
+    "source": "research/oenas.html",
+    "title": "Evaluation and Needs Assessment Services (OENAS) | SSRI | UH Mānoa"
+  },
+  {
+    "source": "research/tasi-phidc.html",
+    "title": "TASI/PHIDC | SSRI | UH Mānoa"
+  },
+  {
+    "source": "support/boilerplate.html",
+    "title": "Boilerplate Descriptions | SSRI | UH Mānoa"
+  },
+  {
+    "source": "support/fiscal-compliance.html",
+    "title": "Fiscal & Compliance | SSRI | UH Mānoa"
+  },
+  {
+    "source": "support/grant-development.html",
+    "title": "Grant Development | SSRI | UH Mānoa"
+  },
+  {
+    "source": "support/research-services.html",
+    "title": "Research Services | SSRI | UH Mānoa"
+  }
+]

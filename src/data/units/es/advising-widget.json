@@ -1,0 +1,50 @@
+{
+  "heading": "Undergraduate Advising",
+  "intro": "Students are strongly encouraged to work closely with advisors to plan their coursework, meet program requirements, and prepare for graduation. Ethnic Studies undergraduate advisors provide guidance on the certificate, major, and double majors, while general education advising supports broader degree requirements.",
+  "people": [
+    {
+      "source": "people",
+      "slug": "ethan-caldwell",
+      "role": "Undergraduate Advisor",
+      "description": "For guidance on undergraduate course selection, program requirements and planning."
+    },
+    {
+      "source": "people",
+      "slug": "monisha-das-gupta",
+      "role": "Undergraduate Advisor",
+      "description": "For guidance on undergraduate course selection, program requirements and planning."
+    },
+    {
+      "source": "shared-advisors",
+      "slug": "dawn-nishida",
+      "role": "General Education Advisor",
+      "description": "For guidance on general education requirements and graduation planning."
+    }
+  ],
+  "variants": {
+    "bam": {
+      "heading": "BAM Advising",
+      "intro": "Students should work with Ethnic Studies undergraduate advisors to plan major requirements and coordinate coursework across the two degrees. For graduate admission, graduate requirements, and pathway-specific advising, students should also contact the graduate program offering their selected pathway. General education advising supports broader undergraduate degree requirements.",
+      "people": [
+        {
+          "source": "people",
+          "slug": "ethan-caldwell",
+          "role": "Undergraduate Advisor",
+          "description": "For guidance on undergraduate course selection, program requirements and planning."
+        },
+        {
+          "source": "people",
+          "slug": "monisha-das-gupta",
+          "role": "Undergraduate Advisor",
+          "description": "For guidance on undergraduate course selection, program requirements and planning."
+        },
+        {
+          "source": "shared-advisors",
+          "slug": "dawn-nishida",
+          "role": "General Education Advisor",
+          "description": "For guidance on general education requirements and graduation planning."
+        }
+      ]
+    }
+  }
+}

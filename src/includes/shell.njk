@@ -13,11 +13,12 @@
 {% if canonicalUrl -%}
 <link rel="canonical" href="{{ canonicalUrl | escape }}">
 {% endif -%}
-<title>{{ title | default(site.name) | escape }} | {{ site.name }}</title>
+{% set documentTitle = seoTitle | default((searchTitle | default(title | default(site.name))) + " | " + (site.titleSuffix | default(site.name))) %}
+<title>{{ documentTitle | escape }}</title>
 {% if site.openGraph.image and site.url %}
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{{ site.name | escape }}">
-<meta property="og:title" content="{{ title | default(site.name) | escape }} | {{ site.name | escape }}">
+<meta property="og:title" content="{{ documentTitle | escape }}">
 <meta property="og:description" content="{{ description | default(site.name) | escape }}">
 <meta property="og:url" content="{{ page.url | socialUrl | escape }}">
 <meta property="og:image" content="{{ site.openGraph.image | socialUrl | escape }}">
@@ -26,7 +27,7 @@
 <meta property="og:image:height" content="{{ site.openGraph.height }}">
 <meta property="og:image:alt" content="{{ site.openGraph.alt | escape }}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ title | default(site.name) | escape }} | {{ site.name | escape }}">
+<meta name="twitter:title" content="{{ documentTitle | escape }}">
 <meta name="twitter:description" content="{{ description | default(site.name) | escape }}">
 <meta name="twitter:image" content="{{ site.openGraph.image | socialUrl | escape }}">
 <meta name="twitter:image:alt" content="{{ site.openGraph.alt | escape }}">

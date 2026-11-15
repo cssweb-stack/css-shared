@@ -280,8 +280,7 @@ Memberships reflect existing page lists unless the user supplies a roster update
 
 SOC homepage uses five research-area tiles in a gray band followed by five
 academic-program tiles on white: minor, BA, BAM, MA, PhD. Honors remains available
-elsewhere but is excluded from this promotional grid. Undergraduate program tiles
-use shared teal; graduate tiles use shared purple; BAM splits those colors evenly.
+elsewhere but is excluded from this promotional grid. Academic-program palette updated November 14: undergraduate tiles use shared blue; graduate tiles use shared purple; BAM splits blue/purple evenly. This supersedes the original teal undergraduate palette because teal competes visually with UH green. Applied to ES and SOC; older GEO instances await their next palette update. Do not recolor unrelated teal components as part of this decision.
 Research tiles now use the supplied shared SOC research-area images with readable
 HTML labels, decorative empty alt text and white text on a padded black label
 band aligned to the tile bottom at 80% black opacity, with labels at weight 400,
@@ -359,6 +358,19 @@ PSY, GEO, and SOC cohort records and portraits now follow this shared model. PSY
 and SOC cohort pages use the shared renderer instead of imported hard-coded rosters.
 
 ## Hero imagery across sites
+
+ES is an explicit exception to the general student-pool default below. The user’s
+reviewed workbook USE column is authoritative for the current ES-specific
+assignments. Faculty biographies are the approved exception within ES: select
+Saunders mural heroes once and save those choices, never randomize per build. Its
+existing website heroes were deliberately selected and must be mapped from the
+original WordPress assignments and template rules into the new site when the
+unit assets are supplied/renamed. Do not replace those choices with arbitrary
+shared-pool images. Source featured images are not always hero backgrounds:
+faculty featured images are portraits, while their original banner is defined
+by the Hero-Faculty template. November 14 mapping evidence and a three-column
+review sheet are in exports/es/. Current temporary shared assignments remain
+until the actual remapping is requested.
 
 Agreed November 10, 2026: unit-specific hero photography is not the default.
 Use a common pool of generic student, youth, and campus imagery across sites.
@@ -664,6 +676,14 @@ portrait folders for new units. PUBA now follows this standard.
 
 ## Shared policies with optional unit appendices
 
+ES retains its three published racial-justice statements as an ES-only appendix
+below the shared policies, using the existing supplementalTemplate mechanism.
+Use original post titles as H2s, original dates and complete copy, with HRs between
+statements. Preserve historical wording and resource links; dated statements use
+newest-first order rather than the usual alphabetical list order. The statements
+remain available independently of the retired news feature. Confirmed November
+14, 2026.
+
 Policies & Procedures uses one core body in pages/policies-procedures.njk for all
 consumers. Optional per-unit policies-procedures.json supplementalTemplate selects
 a shared units/<unit>/policies-procedures.njk appendix below the core. No appendix
@@ -807,7 +827,10 @@ Hero bank formerly named faculty is now hawaii-hall (plain ASCII, lowercase and
 hyphenated). Former main.webp is 01.webp; associated.webp is 02.webp. PUBA’s saved
 faculty-directory assignments follow the rename without changing their images.
 Every Policies & Procedures page uses 01.webp, including college/research sites
-and policy pages on sites whose other heroes are disabled. Other page assignments,
+and policy pages on sites whose other heroes are disabled. Every shared Privacy
+Policy page at /privacy.html uses hawaii-hall/02.webp through the same common
+page-heroes.json assignment. This overrides per-unit selections and remains
+visible when other heroes are disabled. Confirmed November 14, 2026. Other page assignments,
 including GEO satellite imagery, remain unchanged.
 
 ## Graduate students share profile styling (November 13, 2026)
@@ -1004,3 +1027,106 @@ not a penetration test, security certification, quantified incident reduction or
 monetary loss avoided. Legacy WordPress installations retain their own exposure
 until retired; hosting/deployment accounts, build dependencies and third-party
 scripts still require security maintenance. Confirmed November 14, 2026.
+
+## Ethnic Studies faculty label
+
+The ES dropdown entry, faculty landing H1 and page title use ES Faculty, with
+uppercase ES. Source remains ../es/src/faculty/index.html and URL /faculty/;
+this is a label change, not a route change. Supersedes Core Faculty for this
+unit. Other units retain their own labels. Confirmed November 14, 2026.
+
+## Ethnic Studies contact roster
+
+ES uses one people.json array for faculty/staff identity and photos. The mixed
+Contact Key Contacts grid contains ʻAnoʻilani Aga, Ethan Caldwell, M. Kunmi Yu
+Danico, Monisha Das Gupta and Ulla Hasager, sorted by surname. Staff belong on
+Contact, not ES Faculty; Aga has showInFacultyDirectory false. Existing faculty
+rank and administrative roles remain visible. This supersedes the temporary
+Staff section on ES Faculty. Confirmed November 14, 2026.
+
+## Shared building photographs
+
+Building photographs belong in src/media/shared/buildings/, with lowercase
+building filenames such as george-hall.webp. This replaces the vague shared/other
+folder. Common buildings.json owns the default photograph, dimensions and alt
+text; unit overrides are for real exceptions. ES uses the common George Hall
+photo rather than an empty override. Confirmed November 14, 2026.
+
+ES Associated Faculty uses a white H1/one-paragraph intro followed by a full-width
+gray listing section. Emeritus/Retired Faculty precedes Affiliate Faculty by
+explicit request; members within each group are alphabetical by surname. Preserve
+their supplied interest descriptions pending the separate text cleanup. Confirmed
+November 14, 2026.
+
+Shared Policies & Procedures uses compact my-3 HRs between individual policy
+items, including the Graduate Division subitems. A standard larger-spaced HR
+separates Tobacco Products Policy from the Graduate Division group. This is the
+shared policy page's explicit spacing hierarchy rather than a large divider
+before every policy H2. ES statement separators are compact too. ES Associated
+Faculty uses a standard HR above Affiliate Faculty; its group record enables
+dividerBefore in the reusable include without changing other units' listings.
+Confirmed November 14, 2026.
+
+## Support page appreciation line
+
+Support intros end with a separate non-italic paragraph using exactly
+“Contributions of any size are sincerely appreciated.” Apply the shared
+appreciation class with its icon-text span so the smiley-face treatment matches
+PUBA. Do not append it as italic text inside the preceding paragraph or vary the
+wording by unit. Applied to SOC and ES November 14, 2026; follow this convention
+as other support pages are reviewed.
+
+ES Support is an explicit equal-weight funds layout: white H1/intro/appreciation
+with the Foundation logo on the right through reverse imageTextRow, then a
+full-width gray Available Funds section listing all funds alphabetically. Do not
+promote a single ES fund into the intro. Other units may retain their approved
+featured-fund arrangement. Confirmed November 14, 2026.
+
+## Acronyms in narrative copy
+
+Normally omit a parenthetical acronym if it will not be used again on the same
+page. A one-time name can simply be written in full. Define an acronym at first
+use on each page where it recurs; a definition elsewhere on the site is not a
+substitute. Preserve official degree labels, useful branding/navigation
+abbreviations and verbatim quotations. Include this review in standard text
+cleanup; do not count image filenames or logo artwork as repeated prose use.
+ES Center for Oral History now links the full name in its first paragraph,
+omitting the unused COH and the redundant Visit paragraph. Confirmed November
+14, 2026.
+
+ES has no news feature: remove the Department News landing and homepage news
+heading rather than keeping an empty placeholder. The three historical position
+statements belong under Policies & Procedures; remaining news posts are not to
+be imported into the new site. Preserve original exports and account for old URLs
+in the final migration/404 review. Footer social links are independent and remain.
+Confirmed November 14, 2026.
+
+## ES homepage heading
+
+Agreed November 14, 2026: ES homepage H1 is “ES: What World Do You Want to Make?” with no separate tagline. This supersedes the interim university-name H1 and separate question tagline. The unit bar already identifies the department and university; the acronym/purpose heading intentionally follows PUBA’s approach. This is an ES homepage decision, not a requirement to abbreviate headings throughout the sites.
+
+## Homepage institutional identification
+
+Agreed November 14, 2026: the opening homepage paragraph explicitly identifies the full unit name, the College of Social Sciences, and the University of Hawaiʻi at Mānoa. Updated November 14: start with “E komo mai — Welcome to the [full unit name] within the College of Social Sciences at the University of Hawaiʻi at Mānoa.” This supersedes the earlier declarative opening and the interim English-only welcome. The welcome can end with a period before the remaining introduction. An abbreviated/purpose-led H1 does not replace this identification. Apply during homepage editing/review; this instruction does not authorize an immediate portfolio-wide rewrite. After the welcome, intro prose follows the existing third-person institutional voice. The user approved “E komo mai — Welcome to…” on November 14. Its em dash is an explicit exception to the general prohibition on prose dashes. SOC’s H1 was subsequently approved as “SOC: Understanding Society, Inspiring Change” for the current design, subject to department review.
+
+## Academic-program page names and search titles
+
+Agreed November 14, 2026: degree, minor and certificate overview H1s identify the full credential and subject, e.g. Minor in Sociology, Bachelor of Arts in Ethnic Studies, or Graduate Certificate in Public Policy. Avoid standalone Minor, Major or Certificate as program-page H1s. Navigation/tile labels may stay short. Double-major and combined-degree pathways must describe their actual scope without inventing a separate credential. Superseded later November 14: HTML titles now follow Page name | Unit name | UH Mānoa, using the abridged unit name without Department of/Program; program pages follow the same suffix as every other page. H1 remains the full credential/subject. This is a clarity/search-context convention, not a ranking guarantee or a requirement to repeat the institution in every H1.
+
+The intermediate seoTitle full-university overrides were applied to four ES, five SOC and three PUBA overviews. SOC, ES and PUBA have now been converted to the approved shared-suffix pattern; their intermediate full-university seoTitle overrides have been removed. Unit titleSuffix supplies the stable unit/campus ending, and optional page searchTitle supplies the approved page-specific part. The shell reuses the composed result for HTML and social titles. Legacy seoTitle remains supported until those reviewed conversions. URLs, navigation labels and subpage headings were not changed.
+
+## Complete title-list review in SEO checks
+
+Agreed November 14, 2026: SEO review must explicitly assess the complete page-title inventory, semantic labels, unit/campus suffix consistency and excessive repetition/length, not only the presence of metadata. Supply a plain proposed title list when requested and obtain the user's review before applying it. Audit configured suffixes mechanically after building. Maintain concise unit labels (Sociology, Ethnic Studies, Public Administration), UH Mānoa campus branding, and Page name first. Policies & Procedures and Graduate Applications & Admissions use ampersands; research-area names retain their conjunctions. SOC's approved Asia title is shortened to Asia, Pacific, and Hawaiʻi while its full H1 stays unchanged.
+
+SSRI title inventory approved and applied November 14, 2026 with SSRI | UH Mānoa suffix. Retain recognizable program acronyms alongside names (HAM, HCRI, OENAS); use TASI/PHIDC alone where expanded names are impractically long. This is a deliberate page-title recognition exception to omitting unused acronyms in body prose, not evidence of measured search demand.
+
+PUBA title inventory approved and applied November 14, 2026 with Public Administration | UH Mānoa suffix. Certificate HTML titles use Public Policy Certificate and Nonprofit Management Certificate while their H1s retain the full Graduate Certificate in… credential names. The program overview retains Master of Public Administration (MPA).
+
+## Content heading scale and unit identity
+
+Agreed November 14, 2026: keep the unit identity and page heading visually distinct. Unit branding retains its responsive 24–32px/600 style. Shared content H1/H2/H3/H4 use 28/24/20/18px at weight 500 (rem equivalents), with H1/H2 reduced to 26/22px below 576px. Body remains 18px/400. This supersedes previous generic H1 32/30/28px and H2 20.4px/600 defaults. Keep existing line-height/margins and intentional component styles. Implement centrally in src/css/typography.css, not page overrides. Hierarchical heading markup remains semantic; no fixed numeric heading ratio is required by this design. See docs/typography.md for rationale and measured checks.
+
+## ES course-group descriptive labels
+
+Agreed November 14, 2026: Certificate/BA Group 1 and Group 2 descriptions are strong paragraphs beneath H3 group labels, using sentence case, no trailing period, and and rather than an ampersand. Their wording was compared and is identical apart from original case/punctuation. Preserve meaning; this does not authorize rewriting official course names or changing the credit requirements (six credits per group Certificate, twelve BA).

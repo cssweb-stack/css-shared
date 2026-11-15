@@ -30,9 +30,7 @@ All helper lines are 3px thick. Container guides are pink; column guides are red
 - Content inners: pink on all four sides.
 - Footer inner containers: pink on all four sides.
 - Grid columns: red on all four sides.
-- Photo tiles draw the same red guide on a foreground ::after layer because
-  cover images obscure parent inset shadows. The guide ignores pointer events
-  and changes no dimensions. Its rule exists only in diagnostics.css.
+- Main-content Bootstrap columns and program/photo tiles draw the same red guide on a foreground ::after layer because images and surfaces obscure parent inset shadows. Column positioning anchors the overlay without adding spacing; the overlay ignores pointer events. Its rule exists only in diagnostics.css.
 - Redundant footer row parents are excluded.
 - No diagnostic background fills; existing page backgrounds show through.
 

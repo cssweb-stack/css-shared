@@ -1,4 +1,6 @@
 {
-"catalog": null,
-"courseDescriptions": null
+  "catalog": null,
+  "courseDescriptions": null,
+  "catalogKey": "ethnicStudies",
+  "prefix": "ES"
 }

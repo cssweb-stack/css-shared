@@ -130,6 +130,17 @@ acceleration advice were changed with explicit user approval to third-person
 student/advisor planning guidance on November 13, 2026. Flag similarly conversational
 or vague instructions during voice review; do not automatically rewrite them.
 
+## Acronym usefulness across sites
+
+In narrative copy, normally omit a parenthetical abbreviation when it is not
+used again on the same page. Use the full name alone. When an abbreviation is
+reused, define it at first use on that page rather than relying on a definition
+elsewhere on the website. Do not count filenames, logo artwork or hidden
+attributes as later prose use. Preserve official degree/credential labels,
+recognizable navigation/branding abbreviations and verbatim quotations where
+they serve their established purpose. Flag uncertain cases for review rather
+than stripping abbreviations globally.
+
 ## Sociology-specific acronym check
 
 For Sociology only, review Theory, Methods, and Statistics references for TMS

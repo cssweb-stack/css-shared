@@ -36,12 +36,19 @@ box-shadow: inset 0 0 0 3px pink;
 box-shadow: inset 0 0 0 3px red;
 }
 
-/* Photo layers cover parent inset shadows; draw the same guide above them. */
-.site-main .photo-tile::after {
+/* Foreground column/tile guides remain visible above images and surfaces.
+ * Relative positioning anchors only the diagnostic overlay; no spacing is added.
+ */
+.site-main .row > :is(.col, [class*="col-"]) {
+position: relative;
+}
+
+.site-main .row > :is(.col, [class*="col-"])::after,
+.site-main .program-tile::after {
 content: "";
 position: absolute;
 inset: 0;
-z-index: 2;
+z-index: 100;
 border-radius: inherit;
 pointer-events: none;
 box-shadow: inset 0 0 0 3px red;

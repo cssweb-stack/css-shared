@@ -4,9 +4,7 @@ Request: **“Run the quick SEO review for [UNIT].”**
 
 1. Build the unit's current sources. Read each page's primary content, title, H1
    and description. Use rendered output for pages with shared includes.
-2. Keep titles descriptive, unique and faithful to the H1. The shared shell adds
-   the site-name suffix once; do not paste that suffix into local front matter.
-   A shortened title can intentionally omit an acronym already covered by branding.
+2. Review a plain list of proposed titles for every current page before finalizing metadata. Confirm a consistent abridged unit/campus suffix: Page name | Unit name | UH Mānoa. Keep the page-specific portion descriptive, unique and faithful to the H1; use familiar ampersands in compact administrative titles and preserve research-area names. Long titles are review prompts, not automatic failures. Unit site-settings.json owns titleSuffix; page searchTitle optionally supplies a concise page-specific label without changing the visible H1/title. The shell composes the title and social titles consistently. Legacy seoTitle overrides remain only until each unit's reviewed conversion; do not mix patterns after conversion. Confirm ALL rendered page suffixes and compare the complete list with approved wording, not merely metadata presence. Program H1s still identify full credential/subject; their HTML titles use the same shared suffix as other pages. This supersedes the interim full-university program-title exception.
 3. Replace description placeholders only when an SEO/copy pass is authorized.
    Write a specific summary supported by that page's content. Preserve good
    existing descriptions; do not copy one generic description across a unit.

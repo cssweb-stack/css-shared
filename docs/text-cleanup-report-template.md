@@ -33,6 +33,12 @@ never copy another unit's counts into this report.
 - [Separate intentional faculty biography, quotation, or testimonial voice.]
 - [No pronouns/copy rewritten without consultation; no global voice assumed.]
 
+## Acronym usefulness (report only)
+
+- [Unnecessary parenthetical acronyms used only once on a page.]
+- [Repeated acronyms missing a first-use definition on that page.]
+- [Official labels, branding, credentials and quotations intentionally retained.]
+
 ## Institutional-name capitalization (report only)
 
 - [Inconsistent Department/department or comparable references, with excerpts.]

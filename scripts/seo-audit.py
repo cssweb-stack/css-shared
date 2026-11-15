@@ -44,7 +44,9 @@ for file in files:
  descriptions=scan.metas['description']
  if len(descriptions)!=1 or not descriptions[0] or 'This will be the meta description' in descriptions[0]:issue('Missing, duplicate or placeholder description')
  title=scan.titles[0] if scan.titles else '';h1=scan.h1s[0] if scan.h1s else '';description=descriptions[0] if descriptions else ''
- base=title.removesuffix(' | '+identity['name'])
+ suffix=settings.get('titleSuffix',identity['name'])
+ base=title.removesuffix(' | '+suffix)
+ if settings.get('titleSuffix') and not title.endswith(' | '+suffix):issue('Title missing configured unit/campus suffix')
  normalize=lambda s:re.sub(r'\s+',' ',s.casefold()).strip()
  shortened=h1.removeprefix(identity['shortName']+': ')
  title_match=normalize(base) in [normalize(h1),normalize(shortened)]

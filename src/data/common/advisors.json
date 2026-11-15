@@ -26,5 +26,15 @@
         "after": ""
       }
     ]
+  },
+  {
+    "slug": "dawn-nishida",
+    "name": "Dawn Nishida",
+    "title": "Academic Advisor",
+    "photo": "/media/shared/advisors/dawn-nishida.webp",
+    "office": "Saunders Hall 605",
+    "phone": "(808) 956-0658",
+    "phoneHref": "+18089560658",
+    "email": "nishidad@hawaii.edu"
   }
 ]

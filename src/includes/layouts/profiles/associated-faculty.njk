@@ -1,4 +1,7 @@
 {% for group in facultyGroups | default(associated_faculty.groups) %}
+{% if group.dividerBefore %}
+<hr>
+{% endif %}
 <section aria-labelledby="associated-group-{{ loop.index }}">
 <h2 id="associated-group-{{ loop.index }}">{{ group.title | escape }}</h2>
 <ul>

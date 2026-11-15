@@ -1,7 +1,9 @@
 {
   "indexingEnabled": false,
   "layoutGuides": true,
-  "canonicalSections": ["/"],
+  "canonicalSections": [
+    "/"
+  ],
   "mainContentDividers": true,
   "stylesheet": "/ssri.css",
   "url": "https://ssri.manoa.hawaii.edu",
@@ -26,5 +28,6 @@
       "color": "var(--uh-green)",
       "opacity": 0.33
     }
-  }
+  },
+  "titleSuffix": "SSRI | UH Mānoa"
 }

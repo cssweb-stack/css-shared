@@ -63,3 +63,15 @@ summarizing the former Advising & Support mission/services paragraph and encoura
 close coordination toward graduation. An HR separates it from the people. Services
 are described collectively; responsibility is not assigned to either advisor.
 BAM retains its own cross-degree advising introduction unchanged.
+
+## Ethnic Studies adoption
+
+Certificate, Major (BA), and Double Majors use the shared widget before bottom course resources. ES unit data orders Ethan Caldwell, Monisha Das Gupta, then Dawn Nishida. Department advisors precede general education advising as an intentional role-based exception to alphabetical ordering. Dawn's shared identity/contact record is in common/advisors.json; the existing GEO staff contract remains separate. No BAM placement was requested for ES.
+
+## Embedded use
+
+An existing content section may set advisingEmbedded = true before including the widget and reset it afterward. This suppresses only the widget's outer page-section/container wrappers, keeping its H2/intro/people grid unchanged. ES Double Majors uses this to place its short intro and advising together, separated by standard HR. Default standalone behavior remains unchanged for Certificate, BA and SOC pages. Do not duplicate the advising markup or add page-specific spacing CSS.
+
+## ES BAM advising
+
+ES BAM now selects advising_widget.variants.bam: same two undergraduate advisors and Dawn last, with BAM-specific introductory guidance to contact the graduate program offering the selected pathway for graduate admission/requirements/advising. No Education/PUBA advisor identities are duplicated in ES. Other ES pages keep the default undergraduate advising intro.

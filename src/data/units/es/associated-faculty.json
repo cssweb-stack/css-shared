@@ -19,14 +19,14 @@
           "description": "Hawaiian, Land, Culture, Governance, Nature"
         },
         {
-          "name": "Richard C. Rath",
-          "email": "rrath@hawaii.edu",
-          "description": "Sound Studies, New Media, Atlantic World"
-        },
-        {
           "name": "Jonathan Y. Okamura",
           "email": "okamuraj@hawaii.edu",
           "description": "Race/Ethnicity, Ethnic Identity, Asian Americans"
+        },
+        {
+          "name": "Richard C. Rath",
+          "email": "rrath@hawaii.edu",
+          "description": "Sound Studies, New Media, Atlantic World"
         }
       ]
     },
@@ -65,7 +65,8 @@
           "name": "John Rosa",
           "description": "History (20th-century Hawai‘i, Asians and Pacific Islanders in the U.S.)"
         }
-      ]
+      ],
+      "dividerBefore": true
     }
   ]
 }

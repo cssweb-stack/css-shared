@@ -44,21 +44,21 @@ line-height: 1.6;
 }
 
 .site-main h1 {
-font-size: 2rem;
-font-weight: 600;
+font-size: 1.75rem;
+font-weight: 500;
 margin-top: 0;
 margin-bottom: 1rem;
 }
 
 .site-main h2 {
-font-size: 1.275rem;
-font-weight: 600;
+font-size: 1.5rem;
+font-weight: 500;
 margin-top: 0;
 margin-bottom: 1rem;
 }
 
 .site-main h3 {
-font-size: 1.125rem;
+font-size: 1.25rem;
 font-weight: 500;
 margin-top: 0;
 margin-bottom: 1rem;
@@ -103,14 +103,13 @@ b {
 font-weight: 500;
 }
 
-@media (min-width: 576px) and (max-width: 1199.98px) {
-.site-main h1 {
-font-size: 1.875rem;
-}
-}
-
+/* Keep the same heading order on phones without reducing reading text. */
 @media (max-width: 575.98px) {
 .site-main h1 {
-font-size: 1.75rem;
+font-size: 1.625rem;
+}
+
+.site-main h2 {
+font-size: 1.375rem;
 }
 }

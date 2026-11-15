@@ -2,6 +2,312 @@
 
 Updated November 14, 2026 (Pacific/Honolulu).
 
+## November 14: ES BAM page structure and cross-program advising
+
+- Generalized BAM intro to cover Ethnic Studies paired with education or public administration, eligible double-counting, undergraduate tuition rates and potential completion in about five years, qualified by pathway. All three existing pathway descriptions retained, third credential corrected to Master of Public Administration. Intro/pathway list remain white; obsolete Contact Us/course shortcuts/Additional Details removed.
+- Gray full-width BAM Pathway Advantages lists Save money, Save time, Gain a competitive advantage with concise third-person descriptions; removed guaranteed job-placement/quantified savings rhetoric. White BAM Pathway Requirements follows; retained existing application timing, three eligibility bullets and all three ES course alternatives. Replaced Education-only application-review attribution with instruction to confirm procedures/deadlines with the offering graduate program, avoiding incorrect routing for PUBA. Requirements/application timing still merit unit confirmation in final review.
+- Added ES BAM advising variant: Ethan and Monisha for undergraduate guidance, Dawn last for general education; intro directs students to the offering graduate program for graduate admission/requirements/advising. No external program advisors duplicated. Existing default advising variants elsewhere unchanged. No new CSS or added BAM course bar.
+- ES build/26-page verifier and shared 847-file checker passed. Source/rendered assertions confirmed section order, legacy removal, three-advisor order and graduate-host guidance. Explicit source verifier retains checks on all pathways, education links and eligibility details while recognizing approved copy replacements. Whitespace checks passed. No new browser test.
+- Local ES source/verifier/shared advising data/docs only; not committed/pushed/deployed.
+
+## November 14: Double Majors intro and embedded advising
+
+- Replaced weak second-person intro with a concise third-person opening The 30-credit Ethnic Studies major can be paired with a second major…; mentions Ethnic Studies once and uses lowercase major throughout prose. Retained disciplines, interdisciplinary/community focus and qualified source financial-aid sentence. Removed unsupported distinct advantage/aligns smoothly claims and trailing advisor-prompt paragraph. Full-site text review remains pending.
+- Intro and advising now share one white page-section/container/column, separated by standard HR. Added optional advisingEmbedded wrapper suppression to the existing shared widget; identity/content/grid unaffected and default standalone behavior remains for Certificate/BA/SOC. Bottom course resources remain separate. No CSS changes.
+- ES build/26-page verifier and SOC shared-template regression build/60-page/64-redirect verifier passed. Parsed rendered ancestry confirms H1 and advising share a single content-section. Original snapshot retained; verifier explicitly recognizes the rewritten two-paragraph source body. Whitespace checks passed. No new browser layout test.
+- Local ES source/verifier/shared template/docs only; not committed/pushed/deployed.
+
+## November 14: Certificate/BA group-label consistency
+
+- Compared both Group 1 and Group 2 descriptions word for word. Group 1 differed only in case/trailing period; Group 2 was identical on both pages. No substantive differences found.
+- Both pages now use identical sentence-case descriptive paragraphs, no final periods, and and instead of &. H3 group labels, course lists and six/twelve-credit distinctions unchanged. Recorded ES group-label convention and updated source verifier's narrow case/punctuation normalization.
+- ES build/26-page verification and whitespace checks passed. No layout/CSS changes or browser test needed for these text-only edits. Local ES source/verifier/shared docs only; not committed/pushed/deployed.
+
+## November 14: BA four-year plan catalog destination
+
+- Replaced obsolete program-sheets paragraph with third bullet beneath Degree Requirements: Ethnic Studies, B.A. Four-year Plan, linking to the user-supplied https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1735&returnto=1018. Actual href uses HTML-escaped ampersands. Existing two requirement bullets unchanged.
+- Retrieved catalog destination but received JavaScript anti-bot verification, so page contents were not independently verified; used user's supplied destination/label. Updated explicit source-verifier exception and new-link check. ES build/26-page verifier and whitespace checks passed. Local source/verifier/shared handoff only, not committed/pushed/deployed.
+
+## November 14: ES BA page rebuilt to certificate structure
+
+- BA H1/two intro paragraphs now occupy their own white section with one merged paragraph and unchanged sentence wording. Removed obsolete Contact Us/contact data/course shortcuts/Additional Details. Gray requirements section has H2 Degree Requirements and HR-separated H3 Introductory Courses, Group 1, Group 2, General Education Designations. Group descriptions use strong paragraphs followed by 12-credit instructions and shared two-column course lists. Preserved all courses/credits and program-sheets URL, explicitly left for user correction. Removed duplicate inline UH Catalog link in favor of bottom widget.
+- Compared BA Skills and Knowledge/Job Prospects against material already moved to Why Study: same substantive nine skills/eight career entries, only capitalization and skill versus skills differ. Removed BA duplicates without adding another copy. Verifier checks their original text against Why Study with only those normalizations.
+- Added separate white Declaring an Ethnic Studies Major section immediately before Undergraduate Advising, matching certificate/SOC pattern and existing common Kuali form destination/login-required notice. Existing advising and bottom course resources retained. No new CSS; semantic subgroup headings stay H3 under requirements H2.
+- ES build/26-page verifier passed. Source assertions confirmed intro, heading sequence, duplicate removal, two list modifiers, retained program-sheets link and declaration order. Chrome at 320/768/992/1800px confirmed shared heading styles, one/two-column transition at 992px, no overflow. Whitespace checks passed. Course punctuation/diacritics and source title discrepancies remain for later text review.
+- Local ES source/verifier/shared handoff only; not committed/pushed/deployed.
+
+## November 14: Certificate requirements heading hierarchy
+
+- Certificate Requirements remains H2 with the existing three general-requirement bullets immediately below. Standard HRs now introduce H3 Introductory Course, Group 1, Group 2 and General Education Designations. Each group has its existing full description in a strong paragraph below the short H3, then the six-credit requirement and unchanged two-column course list. Introductory ES 101/301 content retained. Used Designations rather than Requirements because DH/DL/DS are definitions, not additional requirements.
+- Removed redundant inline UH Catalog paragraph; bottom ES-specific catalog/resource widget remains. No new CSS or course/credit changes. Source verifier recognizes explicit group-description/credit reordering and catalog paragraph removal, retaining all substantive source checks.
+- ES build/26-page verification passed. Source assertions confirmed H3 sequence, group pattern, two column lists and duplicate catalog removal; whitespace checks passed. No browser review rerun. Local ES source/verifier/shared handoff only; not committed/pushed/deployed.
+
+## November 14: Shared heading hierarchy revised
+
+- Changed only src/css/typography.css at runtime: H1/H2/H3 now 28/24/20px, weight 500; H4 remains 18px/500. Phones below 576px use H1 26px/H2 22px, H3/H4 unchanged. Removed superseded tablet-only H1 breakpoint. Body remains 18px/400; unit-name responsive 24–32px/600 and existing margins/line-height unchanged. No page markup/layout edits in this task.
+- Reviewed W3C WAI heading guidance; chosen numeric scale is a design choice, while heading levels retain semantic structure. Updated shared typography documentation/conventions, superseding prior defaults.
+- Shared checker passed (847 files). ES build/26-page verifier, SOC build/60-page/64-redirect verifier, PUBA build, SSRI build passed. Chrome tested representative content pages on each site at 320/768/1200/1800px (16 cases), confirming all generic heading/body sizes/weights, unit-name weight and no horizontal overflow. Evidence exports/heading-scale-2026-11-14.json. No full accessibility audit or browser zoom test performed.
+- Local shared CSS/docs/report plus local regenerated outputs only; not committed/pushed/deployed. Shared consumer styles change on rebuild; other sites not rebuilt in this task. User visual review remains next before returning to ES undergraduate work.
+
+## November 14: PUBA approved titles applied
+
+- Applied approved 31-page PUBA title list via searchTitle plus Public Administration | UH Mānoa unit suffix. Removed three superseded full-university seoTitle overrides. Preserved full credential H1s on MPA/certificate pages; clarified Why Study Public Administration? and MPA Practicum Placements H1s. Remaining H1s, nav, URLs and copy retained. Shared typography unchanged.
+- Saved exports/seo/puba-approved-titles-2026-11-14.json and puba-titles-2026-11-14.json. PUBA build passed. All 31 reviewed pages' exact rendered HTML/social titles and single H1s passed explicit checks. Whitespace checks passed.
+- Full SEO scan also includes existing development-only hero-review.njk, currently emitting /hero-review.html despite older audit documentation saying disabled. Its nine metadata errors and one canonical note are isolated to that utility, not the reviewed 31 pages; retained its source/config untouched pending user review. Eight title/H1 wording notes on current pages reflect approved labels. Do not claim full SEO audit clean. Preview indexing remains off.
+- Local PUBA source/shared settings/docs/reports only; not committed/pushed/deployed. Existing homepage welcome/local program changes preserved. Next: shared H1/unit-name visual hierarchy, then ES undergraduate review.
+
+## November 14: SSRI titles applied; PUBA list pending
+
+- Applied approved 16-page SSRI title inventory using searchTitle plus SSRI | UH Mānoa unit suffix. H1s/content, URLs, descriptions and nav unchanged; no H1/unit-bar typography changes. Retained HAM/HCRI/OENAS and compact TASI/PHIDC as explicitly approved. SSRI working tree was clean before this task.
+- Saved exports/seo/ssri-approved-titles-2026-11-14.json and ssri-titles-2026-11-14.json. SSRI build passed, SEO audit zero errors/four intentional title-H1 shortening notes. All 16 exact rendered titles and one H1/page checked. Preview indexing remains off; whitespace checks passed.
+- PUBA's 31-page source inventory read and proposed title list supplied for approval; its previous local changes preserved. No PUBA title conversion or shared typography change performed. Local SSRI source/shared settings/docs/reports only; not committed/pushed/deployed.
+
+## November 14: ES titles approved and both H1 inventories reviewed
+
+- Applied all 26 approved ES titles with Ethnic Studies | UH Mānoa suffix, removing four superseded full-university seoTitle overrides. Saved exports/seo/es-approved-titles-2026-11-14.json and measured exports/seo/es-titles-2026-11-14.json. Existing page title/frontmatter and navigation labels otherwise retained.
+- Reviewed all rendered SOC/ES pages' single H1s, including shared profile/policy/404 headings. Earlier degree H1 expansions remain. Clarified SOC Why Study Sociology?, Graduate Annual Review, Graduate Applications & Admissions, Current MA and PhD Students, Graduate Student Organizations, BA Student Learning Outcomes. ES Why Study Ethnic Studies? and Our History, Our Way replace abbreviated/dash versions. Full research H1s, faculty names and approved homepage H1s unchanged.
+- ES build/26-page verifier and SOC build/60-page/64-redirect verifier passed. Exact-title/single-H1 assertions passed on all 86 current pages. Whitespace checks passed. ES SEO audit is NOT clean: 25 placeholder descriptions plus duplicate-description error; 26 canonical review notes and nine intentional H1/title wording notes. These existing ES final-SEO tasks were surfaced, not silently waived. Preview indexing stays off.
+- Local ES/SOC source, ES verifier, shared unit settings/docs/reports only; not committed/pushed/deployed. PUBA title conversion not performed. No broader SEO completion claimed.
+
+## November 14: SOC approved title inventory and SEO process correction
+
+- Applied all 60 approved SOC title labels, using Policies & Procedures and Graduate Applications & Admissions and retaining conjunctions in research titles. Unit titleSuffix Sociology | UH Mānoa composes with each page's searchTitle. Removed SOC's five superseded full-university seoTitle overrides. H1s, URLs, nav labels and descriptions unchanged. Shared shell supports searchTitle/titleSuffix while preserving legacy defaults/overrides for unconverted units.
+- Saved approved inventory exports/seo/soc-approved-titles-2026-11-14.json and measured audit exports/seo/soc-titles-2026-11-14.json. All 60 rendered titles exactly match the approved list. SOC build/60-page/64-redirect verification passed. SEO audit: zero errors, 15 intentional title/H1 wording-review notes corresponding to approved shortenings/context/credential labels. Preview indexing remains off.
+- Corrected SEO workflow gap: require complete plain title-list review, unit/campus suffix consistency and semantic/length review; metadata presence alone is insufficient. Shared SEO checker now understands configured suffixes and flags missing suffixes instead of misreporting every composed title/H1 pair. Conventions updated to supersede earlier full-university program-title exception.
+- Shared shell regression: ES build/26-page verification passed without converting its titles yet. Proposed ES list supplied in chat for approval. No PUBA title conversion performed. Whitespace checks passed. Local source/shared data/template/checker/docs/reports only; not committed/pushed/deployed.
+
+## November 14: Academic H1 and university-qualified search titles
+
+- ES: expanded four overview H1s to Undergraduate Certificate in Ethnic Studies, Bachelor of Arts in Ethnic Studies, Double Majors in Ethnic Studies, Combined Bachelor’s and Master’s Pathways in Ethnic Studies (BAM). Broad BAM label covers the supplied education/public administration pathways without calling them all MA degrees.
+- SOC: expanded Minor, BA, BAM, MA and PhD overview H1s to credential/subject names. PUBA's three existing full program H1s retained. Across all 12 overviews, page-level seoTitle adds at the University of Hawaiʻi at Mānoa. URLs/nav labels unchanged; subpages not swept.
+- Shared shell supports optional seoTitle consistently in HTML/social titles; existing title-plus-site-name fallback remains for other pages. Updated naming convention/SEO procedure. ES verifier handles approved source H1 replacements; original source snapshot unchanged.
+- ES and SOC builds/verifiers passed; PUBA build passed; shared-source readiness check passed. Rendered assertions verified all 12 exact university-qualified titles, single H1s and matching available social titles. Whitespace checks passed. No ranking claims or live-search verification; no browser typography check in this pass. Existing ES placeholder descriptions remain for final SEO review.
+- Local ES/SOC/PUBA source, ES verifier, shared shell/docs only; not committed/pushed/deployed. Existing unrelated changes retained.
+
+## November 14: Certificate career content moved to Why Study
+
+- Moved certificate Skills and Knowledge and Job Prospects sections, retaining all nine skill and eight career entries/wording, to a new white section at the bottom of Why Study ES. Standard HR separates their H2s. Existing learning outcomes remain gray.
+- Certificate gray block now ends after requirements/designations/catalog note. Separate white declaration section directly precedes shared Undergraduate Advising. Heading Declaring an Ethnic Studies Certificate and concise wording follow SOC's Declaring a Sociology Major/Minor pattern; existing Kuali destination and login-required notice retained, advisor guidance points conceptually to the widget below instead of general faculty directory.
+- Updated verifier to check every moved source chunk on Why Study rather than Certificate, and declaration heading/form destination. ES build/26-page verification and whitespace checks passed. No browser check rerun. Local ES source/verifier/shared handoff only, not committed/pushed/deployed. Equivalent legacy material still on BA page pending its review.
+
+## November 14: Certificate delivery paragraph and course columns
+
+- Merged Course Delivery Options into one paragraph without wording changes; added standard HR before Certificate Requirements. Applied existing list-columns-two to Group 1 and Group 2 long course lists only. Short requirements/introductory/nested lists unchanged. No new CSS.
+- ES build/26-page verification passed. Chrome at 320/768/992/1800px confirmed both H2s have identical 20.4px/600 styles, long lists use one column below 992 and two above, and no document overflow. Existing break-inside avoid keeps each course item together; names wrap within their columns. Initial temporary browser script syntax error corrected before successful run. Whitespace checks passed.
+- Local certificate source/shared handoff only; not committed/pushed/deployed.
+
+## November 14: Certificate intro and gray program details
+
+- ../es/src/undergraduate/certificate-es.html has H1 and merged single-paragraph intro in its own white section. Intro sentence wording retained. Removed obsolete Contact Us/email/phone, old ES Courses shortcuts and generic Additional Details heading; existing shared advising/resource widgets supply the current contacts/course links.
+- Course Delivery Options starts a full-width gray section through How to Apply, ending before white Undergraduate Advising. Promoted existing Course Delivery Options, Certificate Requirements, Skills and Knowledge, Job Prospects and How to Apply labels to H2; requirements, course lists, credit counts and supporting content retained. Standard section/row/column wrappers, no CSS added.
+- ES build/26-page verification passed with explicit exceptions for only the approved obsolete sidebar labels/contact data. Source assertions confirmed one intro paragraph, gray boundaries and advising placement. Whitespace checks passed. Local source/verifier/docs only; not committed/pushed/deployed.
+
+## November 14: SOC degree palette and foreground layout guides
+
+- SOC homepage degree tiles now use blue undergraduate, purple graduate and blue/purple BAM, retaining Jigsaw artwork and all links/geometry. Research-photo fallback palette unchanged.
+- Extended existing diagnostic foreground-guide technique from photo tiles to main-content Bootstrap columns and all program tiles. Pointer-transparent ::after with z-index 100 draws red guides above image/tile surfaces; relative column positioning anchors the overlay, without dimensions/padding changes. Only diagnostics.css changed; existing per-site toggle remains respected (SOC guides remain off). Updated diagnostics documentation.
+- SOC build/60-page/64-redirect verification and ES build/26-page verification passed. Chrome checked ES homepage at 320, 768, 1200 and 1800px: all 11 column/tile overlays present, pointer-events none, no viewport overflow, identical measured geometry when overlays hidden/shown. Whitespace checks passed.
+- Local SOC source/shared CSS/docs only; not committed/pushed/deployed. Other unrelated site work retained.
+
+## November 14: Blue/purple academic tile palette
+
+- ES homepage Certificate, BA and Double Majors tiles now use existing shared tile-blue. BAM uses new reusable tile-split-blue-purple modifier with existing brand color tokens. No geometry, typography or link changes.
+- Updated academic tile palette convention: blue undergraduate, purple graduate, blue/purple combined; supersedes teal because of visual competition with UH green. Other teal components unchanged. SOC/GEO not edited in this pass; their existing palette remains pending review/update.
+- ES build and 26-page verifier passed; whitespace checks passed. Local ES source/shared CSS/docs only, not committed/pushed/deployed.
+
+## November 14: ES academic-program row completed
+
+- ES homepage gray Academic Programs row now starts with a col-lg-4 introduction, followed by the existing four col-lg-2 tiles. This fills the desktop row at one-third text/two-thirds tiles without enlarging tiles. Intro stacks above tiles below 992px; existing four/two/one tile breakpoints retained. Standard Bootstrap grid only, no CSS added.
+- Added concise description: Flexible pathways connect undergraduate study in ethnic studies with diverse academic interests and opportunities for graduate study. Links, colors and tile labels unchanged.
+- ES build and 26-page verifier passed; whitespace checks passed. No new browser layout check. Local homepage/docs edits only; not committed/pushed/deployed.
+
+## November 14: Sociology H1 approved
+
+- User approved SOC: Understanding Society, Inspiring Change for the homepage H1, subject to later department review. Applied to ../soc/src/index.html; welcome, existing tagline, page metadata and remaining content unchanged. Updated conventions to supersede the pending-H1 note.
+- SOC build and 60-page/64-redirect verifier passed; whitespace checks passed. Local source/docs only; not committed/pushed/deployed. Unrelated Support edit preserved.
+
+## November 14: Sociology homepage welcome and tagline order
+
+- ../soc/src/index.html now has the standard E komo mai — Welcome to the Department of Sociology within the College of Social Sciences at the University of Hawaiʻi at Mānoa. Existing tagline follows that welcome; subsequent paragraph starts Sociology connects to avoid immediately repeating the university name. Other text/layout unchanged.
+- Suggested SOC: Understanding Society, Inspiring Change in chat as a candidate H1; not adopted pending user choice. Current H1 retained. Existing unrelated Support edit preserved.
+- SOC build and verifier passed (60 content pages, 64 redirects, internal links/anchors, image alt attributes/CSS). Whitespace checks passed. Local SOC homepage/shared handoff only; not committed/pushed/deployed.
+
+## November 14: PUBA homepage welcome
+
+- ../puba/src/index.html now uses E komo mai — Welcome to the Public Administration Program (PUBA) within the College of Social Sciences at the University of Hawaiʻi at Mānoa. A full stop precedes This innovative graduate-level program is dedicated to the enhancement of public service and institutions. Changed our program to the program in that opening paragraph; other homepage content/layout retained.
+- PUBA Git status was clean before this edit. Build passed; rendered exact opening/sentence boundary and whitespace checked. No wider text/accessibility/browser audit rerun. Local PUBA source/shared handoff only; not committed/pushed/deployed.
+
+## November 14: Approved bilingual homepage welcome
+
+- ES homepage intro now starts E komo mai — Welcome to the Department of Ethnic Studies within the College of Social Sciences at the University of Hawaiʻi at Mānoa. Remaining content/layout unchanged.
+- Updated existing homepage convention: bilingual welcome approved, superseding tentative/English-only versions. User-specified em dash is an explicit exception to the prose-dash rule. No other sites edited.
+- ES build/26-page verification and whitespace checks passed. Local source/verifier/docs only; not committed/pushed/deployed.
+
+## November 14: Homepage welcome opening
+
+- ES homepage paragraph now begins Welcome to the Department of Ethnic Studies within the College of Social Sciences at the University of Hawaiʻi at Mānoa. The next sentence begins The department provides a home; remaining copy/layout unchanged.
+- Updated the existing institutional-intro convention to begin Welcome to, superseding its earlier declarative example. E komo mai remains tentative while the user investigates; not inserted or adopted as a standard. Other sites unchanged.
+- ES build/26-page verification and whitespace checks passed. Local source/verifier/docs only; not committed/pushed/deployed.
+
+## November 14: ES homepage institutional identification and voice
+
+- ES opening paragraph now starts with The Department of Ethnic Studies within the College of Social Sciences at the University of Hawaiʻi at Mānoa. Converted remaining our/we/you references in that paragraph to third-person departmental/student wording, preserving its existing claims. H1 and layout unchanged.
+- Recorded full unit/college/university identification as the shared homepage-intro convention for future review. No other unit homepage changed; SOC catchline remains pending.
+- ES build and 26-page verifier passed with explicit approved identity/voice substitutions; whitespace checks passed. Local source/verifier/docs only, not committed/pushed/deployed.
+
+## November 14: Final ES homepage H1 choice
+
+- Changed ../es/src/index.html H1 to ES: What World Do You Want to Make? and removed the separate tagline. Intro, logo and program tiles unchanged. Recorded the approved ES-specific acronym/purpose heading and supersession in conventions.
+- Updated original-content verification for the relocated/title-cased question. ES build and 26-page verification passed; whitespace checks passed. Local source/verifier/docs only, not committed/pushed/deployed.
+
+## November 14: ES homepage introduction and academic tiles
+
+- Homepage H1 now Ethnic Studies at the University of Hawaiʻi at Mānoa. Existing question What world do you want to make? is a separate tagline paragraph. Remaining original introduction retained. Shared profile-page provides 80/20 wide-desktop text/logo layout with supplied 633x633 es-history-logo.png, visually checked and given descriptive alt.
+- Added gray Academic Programs section with Certificate, Major (BA), Double Majors, BA/MA Pathways (BAM) links in academic progression order. Reused program-tile/tile-style, teal undergraduate and split teal/purple BAM. Bootstrap col-lg-2 makes each tile one-sixth of the desktop row rather than one-quarter, leaving deliberate open space; tablet four across, small screens two, narrow phones one. No custom CSS or duplicated grid system.
+- ES build and 26-page verifier passed, preserving original introduction text with approved H1 exception. Whitespace checks passed. Browser layout review remains pending; tile sizing is a first visual pass for user review. Local source/verifier/docs only, not committed/pushed/deployed.
+
+## November 14: Why Study ES voice and outcomes section
+
+- Recast ../es/src/about-es/why-study-es.html intro into third-person departmental voice, retaining its existing claims and single-paragraph structure. Removed four degree/program link paragraphs. Intro stays white; unchanged Student Learning Outcomes heading, introductory sentence and all six outcomes now occupy a separate full-width gray section using standard wrappers. No new CSS.
+- Outcome applicability to BA versus other programs remains unconfirmed; no BA-only label added. Existing outcome wording/typography retained for later text review.
+- ES preservation verifier allows the specific approved voice substitutions/link removals and still checks all outcomes. Build and 26-page verification passed; whitespace checks passed. No new browser test. Local source/verifier/docs changes only, not committed/pushed/deployed.
+
+## November 14: ESSA intro/logo and photo section
+
+- Rebuilt ../es/src/about-es/ethnic-studies-student-association.html with full name/acronym in H1, ESSA opening the intro, and unused ES acronym removed. Otherwise existing intro and closing wording retained. Shared profile-page places supplied ESSA logo right at 80/20 wide desktop and stacks on mobile.
+- Separate full-width gray section contains supplied essa-01/02/03 photos in order across three desktop columns, stacking below 768px, then closing paragraph and plain Find us on Facebook. info link. No promotional Facebook graphic or archive/activity disclaimer. Reused Bootstrap/shared styles; no new CSS.
+- Inspected all three photographs visually and supplied descriptive alt text; logo has full-name alt. Actual dimensions 900x506 photos and 300x207 logo retained.
+- ES build/26-page verifier passed with explicit approved acronym exception; original evidence untouched. Rendered assertions checked photo order, closing-copy placement and acronym cleanup; whitespace checks passed. No new browser layout test. Local source/verifier/docs only, not committed/pushed/deployed.
+
+## November 14: Island Connections archive links grouped
+
+- Added standard HR below the info sentence, followed by Episodes and Archives H2 and two bullets: Visit Island Connections on YouTube, then View the show archive. White layout and right logo retained; no gray box. Host attribution remains omitted following the preceding simplification; current host was not verified.
+- Preservation verifier recognizes approved link-label/order changes and explicitly checks both original destinations remain present. ES build and 26-page verification passed; whitespace checks passed. Local source/verifier/docs only, not committed/pushed/deployed.
+
+## November 14: Island Connections viewing-information link
+
+- Added user-supplied https://www.hawaii.edu/its/uhcable/ to the existing Island Connections info sentence: Friday schedule for broadcast times, UH Cable viewing information for channels/service providers. Retrieved the ITS page and confirmed its purpose. Provider names/channel numbers remain maintained at UH, not duplicated locally.
+- ES build and 26-page verification passed; whitespace checks passed. Local source/docs only, not committed/pushed/deployed.
+
+## November 14: Island Connections simplified
+
+- ../es/src/about-es/island-connections.html uses the shared profile-page 80/20 wide-desktop layout with the supplied branding/island-connections.png in the right sidebar. Logo visually inspected; actual 360x172 dimensions and descriptive alt supplied. No CSS added.
+- Retained a concise program introduction, archive and YouTube links. Replaced Oceanic/QAM channel list, named-host and recurring airtime/rebroadcast details with an info link to https://www.uhonline.hawaii.edu/cablefriday. Retrieved UH Online page lists the show but is dated August–December 2025; no current schedule claimed locally.
+- Updated preservation verifier only for the approved removed legacy intro/schedule/list, retaining original snapshot evidence. ES build and 26-page verification passed; rendered logo/alt/schedule destination and absence of Oceanic checked. Whitespace checks passed. No browser layout test. Local edits only; not committed/pushed/deployed.
+
+## November 14: Our History, Our Way logo/sidebar
+
+- ../es/src/about-es/our-history-our-way.html now uses the existing profile-page 80/20 wide-desktop layout, stacking on mobile, with the supplied ES branding logo in the right sidebar. Preserved history wording and destination; visit sentence now uses shared info/icon-text treatment. No new CSS.
+- Inspected the logo visually, used its actual 666x668 dimensions and descriptive alt text Department of Ethnic Studies logo. Alt-text review remains part of accessibility checks; no user clarification needed for this identifiable logo.
+- ES build and 26-page verifier passed, including preserved source text and asset checks. Whitespace checks passed. No new browser test performed. Local source/docs changes only; not committed, pushed or deployed.
+
+## November 14: ES undergraduate advising and course resources
+
+- Added shared advising widget and bottom course resources to Certificate, Major (BA), and Double Majors in ../es/src/undergraduate/. Reused existing templates and CSS; existing academic content retained, empty headings removed. BAM unchanged.
+- ES advising data references Ethan Caldwell and Monisha Das Gupta from people.json, then Dawn Nishida last as General Education Advisor. Added Dawn to common advisor data using her existing shared photo/email and user-supplied office/phone. GEO's older staff record remains unchanged.
+- ES catalog configuration uses the existing common ethnicStudies destination (ent_oid=702) and ES prefix. The bottom resource bar follows advising directly above the footer on all three pages.
+- ES build and 26-page verifier passed. Rendered assertions checked advisor ordering, Dawn contacts, catalog destination and resource/footer placement on all three pages. No browser check or live external-link verification in this pass. Local changes only; not committed, pushed or deployed.
+
+## November 14: ES news removed
+
+- Removed ../es/src/department-news.html and stale generated output, plus the homepage Department News heading and empty Find us on label. No active news routes/menu links remain in source/unit data. Kept the homepage introduction, shared footer social links and all three statements under Policies & Procedures. Original export and annotated worksheets unchanged.
+- Verifier excludes the expressly retired news snapshot and recognizes the removed homepage labels without altering original evidence. ES build/verification passed: 26 pages, nine biographies, 21 preserved active content bodies, links/assets/anchors, metadata/heroes. Whitespace and statement-anchor checks passed.
+- Final old-URL/404 work must account for the retired news landing/remaining posts and the three statement moves; no new redirect decision implemented in this task. Local ES source/verifier and shared docs changes only; no commit/push/deployment.
+
+## November 14: Center for Oral History linked name and logo
+
+- Linked Center for Oral History in its opening paragraph to the existing center URL, removed unused (COH) and the separate Visit paragraph. Other introductory copy retained. Applied the shared profile-page biography/sidebar layout with the supplied /media/units/es/coh/coh-logo.svg on the right (80/20 wide desktop, 67/33 intermediate, stacked mobile). No new CSS.
+- SVG inspection: valid 666x666 viewBox, vector circles/paths only, no scripts, event attributes, external resources, embedded files, DOCTYPE or entities. Artwork unchanged. Logo has full-name alt text and explicit dimensions.
+- Added general acronym-usefulness checks to conventions, text-cleanup procedure and report template, with exceptions for established labels/branding/credentials/quotes. ES verifier recognizes the approved abbreviation/CTA changes while preserving original evidence.
+- ES build/27-page verification and whitespace checks passed. Rendered name link/logo/no redundant CTA checked. Chrome verified SVG decoding and standard column ratios/stacking at 320, 768, 1200 and 1800px without overflow. Local ES source/verifier and shared asset/docs edits only; not committed/pushed/deployed.
+
+## November 14: Targeted ES grid consistency check
+
+- Confirmed Support uses reverse imageTextRow, Contact uses shared unit-contact plus people-grid, and ES Faculty uses shared faculty-directory/people-grid; no local grid CSS.
+- Chrome checked each page at 320, 768, 992, 1200, 1600 and 1800px (18 cases). Support: 75/25 text/logo desktop, 67/33 tablet, stacked phone. Office/map: 20/80 at 1600+, 33/67 tablet/smaller desktop, stacked phone. People grids use standard 5/4/3/2/1 columns with five contacts and nine faculty. All stayed within viewport; no document overflow.
+- No layout corrections needed. Evidence: exports/es/ES-grid-check-2026-11-14.json. Local report/handoff edits only; no website source edits, rebuild, commit, push or deployment in this check.
+
+## November 14: Support ES intro and Available Funds
+
+- Rebuilt Support ES with the shared reverse imageTextRow: H1, unchanged intro and appreciation on white, linked Foundation logo on the right. Separate full-width gray section starts with Available Funds and contains all four fund descriptions/links at equal list weight, alphabetized by displayed title. No featured fund in the intro. No new CSS.
+- Preserved all four link/description records; verifier allows the approved alphabetical fund order while checking source text remains. ES build/27-page verification and whitespace checks passed. Confirmed rendered intro/gray boundary, logo row and four list entries.
+- Local ES source/verifier and shared documentation changes only; no commit/push/deployment.
+
+## November 14: SOC and ES support appreciation
+
+- SOC Support's closing italic sentence and ES Support's We sincerely appreciate sentence now use the exact separate paragraph Contributions of any size are sincerely appreciated., with shared appreciation/icon-text classes for the smiley icon. No new CSS. Other support copy, fund links and images retained.
+- Recorded the common support-page treatment. ES verifier recognizes the explicitly approved wording replacement without editing the preserved source snapshot. ES/SOC builds and verification passed; both rendered paragraphs checked for exact wording, structure and no italics. All whitespace checks passed.
+- Local SOC/ES source, ES verifier and shared docs changes only; no commit/push/deployment.
+
+## November 14: Associated Faculty and policy dividers
+
+- Added standard HR above ES Affiliate Faculty using an optional dividerBefore group flag in the shared associated-faculty include. Other units do not receive new listing dividers unless configured.
+- Shared policy core now uses nine compact my-3 item dividers and one standard divider between Tobacco Products Policy and Graduate Division. ES's two statement separators also use the compact treatment. Reused existing HR styles; no CSS or wording changes.
+- Shared/whitespace checks passed; ES build/27-page verification and PUBA regression build passed. Checked rendered separator counts and exact placements on both policy pages and ES Associated Faculty. Local shared template/data/docs edits only; not committed/pushed/deployed.
+
+## November 14: Associated Faculty intro and gray listings
+
+- Added one ES-specific intro paragraph grounded in the existing keywords: humanities/social sciences, race/ethnicity, Indigenous cultures, political economy, social justice and Hawaiʻi/beyond. H1/intro occupy white; existing listings now occupy their own full-width gray section.
+- Kept Emeritus/Retired Faculty first, Affiliate Faculty second as requested. Alphabetized members by surname; all 13 member records, emails and research descriptions unchanged. Deferred dash/diacritic editing. ES verifier checks associated source text presence without imposing the superseded legacy list order; other source preservation checks remain ordered.
+- Shared check, ES build/27-page verifier and whitespace checks passed. Confirmed section placement, group order and 13 retained names. Local ES source/verifier and shared listing-data/docs edits only; no commit/push/deployment.
+
+## November 14: Shared buildings folder and George Hall
+
+- Renamed src/media/shared/other to src/media/shared/buildings, retaining all three files and their bytes: george-hall.webp, sakamaki-hall.webp, saunders-hall.webp. Updated common buildings.json, POLS unit override and its migration helper; no active old-path references remain in shared source/scripts or consuming sources. Historical path-map evidence retained.
+- Common George Hall now uses the supplied george-hall.webp (300x162) with correct alt text instead of the Saunders placeholder. Removed ES's empty buildingPhoto override so its Contact page inherits the real building image. Existing addresses/maps unchanged; other building selections retained.
+- Shared check and whitespace checks passed. ES build/27-page verifier passed; POLS and PSY builds passed. Verified ES/POLS/PSY contact photo URLs resolve to copied buildings assets, with ES using George Hall. No browser/layout change needed for a path/photo assignment.
+- Local shared assets/data/helper/docs changes only; no commit, push or deployment. Earlier ES edits and workbook preserved. Consuming builds generated ignored output only.
+
+## November 14: ES Contact Key Contacts
+
+- Added the shared mixed five-person people grid below Contact's office/map: Aga, Caldwell, Danico, Das Gupta and Hasager, in surname order. Preserved existing titles and roles (including academic advising, department chair, oral history and civic engagement) and contact details. Moved Aga off the faculty page; no staff section remains there.
+- Merged the existing nine faculty plus one staff record into ES people.json; showInKeyContacts selects the five contacts and showInFacultyDirectory selects nine faculty. Removed old faculty.json/staff.json to avoid duplicate identity records. Biographies still resolve the loader's derived faculty collection. ES verifier follows that same selection.
+- Contact uses the agreed three-section layout: white intro, gray office/map, white contacts. No new CSS. Shared checks, ES build/27-page verifier and whitespace checks passed; exact roster/order, below-map placement and staff exclusion from faculty verified. Chrome verified five contacts with loaded portraits, one across at 320px and five across at 1800px.
+- Local ES source/verifier and shared people/docs changes only; no commit, push or deployment. Existing hero assignments and workbook remain untouched.
+
+## November 14: Courses and Why Study ES hero swap
+
+- Applied chat override to the workbook assignment: Courses now uses ES hero-15.webp; Why Study ES uses hero-14.webp. Updated applied-mapping evidence; original workbook unchanged.
+- ES build passed; checked both rendered hero URLs. Local shared data/evidence/handoff changes only; not committed/pushed/deployed.
+
+## November 14: ES workbook hero assignments applied
+
+- Read the reviewed workbook USE column without altering it. Assigned all 15 selected non-profile pages to the supplied media/heroes/es/hero-01.webp through hero-15.webp files. Core Faculty workbook label resolves to ES Faculty /faculty/. Double Majors' hero-08.avif entry resolves to the supplied hero-08.webp. All 15 assets exist; supplied files retain their names/bytes.
+- Assigned nine biography heroes from the seven Saunders mural images using a shuffled selection saved in faculty-heroes.json; choices do not vary at runtime/build. Kept common Policies 01 and Privacy 02. Default is ES hero-04; Department News is N/A in the workbook and uses the fallback while awaiting removal. Other old posts remain unmapped/no new pages created.
+- Updated ES verifier to include common hero precedence, unit fallback and current source-page count instead of hard-coded 26. Root and /es/ builds/verification passed: 27 pages, nine bios, 22 preserved content bodies, internal links/assets/anchors, metadata and heroes. All 26 explicit/common assignments match rendered image URLs and real copied files. Shared and whitespace checks passed. No new visual/browser audit in this data-assignment task.
+- Evidence: exports/es/ES-applied-heroes-2026-11-14.json. Reviewed workbook unchanged. Local shared data/assets/docs/evidence and ES verifier edits only; no commit, push or deployment. Existing ES page and portrait work preserved.
+
+## November 14: Shared Privacy Policy hero
+
+- Added /privacy.html to common page-heroes.json with /media/heroes/hawaii-hall/02.webp, alongside Policies & Procedures using 01.webp. Existing shared hero precedence enforces it across unit sites and shows it even where other heroes are disabled; no per-unit assignments needed. Style guide's separate /privacy/ reference information page is not the shared policy.
+- Shared checks and representative ES/SOC builds passed; both built privacy pages use 02 while policies use 01. Local shared data/docs edits only; not committed/pushed/deployed. Other sites receive it when rebuilt.
+
+## November 14: ES statements below shared policies
+
+- Extracted three complete dated statements from the supplied November 14 export into src/includes/units/es/policies-procedures.njk, selected only by ES policies-procedures.json. They appear on white below shared gray university policies: Atlanta/anti-Asian violence (March 22, 2021), Black Lives Matter/racial justice (June 4, 2020), and anti-Asian/Chinese racism/COVID-19 (April 2, 2020). Newest-first is intentional for dated historical statements. Each title is H2 with a stable anchor and date; two HRs separate statements.
+- Body wording, attributions, paragraphs and all 11 resource links preserved; removed WordPress wrappers/classes and source attribution italics. Further Resources is subordinate H3; resource list retained. Preservation evidence: exports/es/ES-statements-preservation-2026-11-14.json. Source date/context and first-person institutional wording remain historical, not freshly rewritten policy claims.
+- Earlier analogous appendix is Anthropology's Position Statement on Race and Racism. Shared core/template mechanism unchanged; PUBA regression build confirms no ES statements leak into other units. ES build/shared/whitespace checks passed; built page checked for three titles/dates, order and rules.
+- User intends to remove department news; this task preserves the statements independently first. Other news posts and the empty Department News placeholder were not imported or removed here; their route handling remains for the later full migration/404 review. No worksheet overwritten. Local shared content/data/docs/evidence edits only, not committed/pushed/deployed.
+
+## November 14: ES Faculty label
+
+- Changed Core Faculty to ES Faculty in the ES dropdown and faculty landing title/H1. Confirmed source ../es/src/faculty/index.html and existing /faculty/ permalink; no route or redirect change. Existing links and hero mapping keys remain valid. Review workbooks left untouched while open for annotation.
+- Shared check, ES build and whitespace checks passed; verified built dropdown/title/H1. Local shared and ES changes only, not committed/pushed/deployed.
+
+## November 14: ES original hero filename checklist
+
+- Created exports/es/ES-page-checklist-with-heroes-2026-11-14.xlsx as a new copy, preserving the original two-column workbook and its row order/names. Added only column C, Original hero image. One worksheet, 39 rows including headers/separators; original-side blank means hero blank for new-only pages.
+- Resolved thumbnail IDs to attachment filenames for all 33 published page/post entries in the supplied November 14 export. Used exported GeneratePress template rules to distinguish actual heroes from featured portraits: nine Faculty-category pages use DSC0922-jpg.webp; nine ES Post entries use hero-directory2-jpg.webp; remaining pages use their featured images through the dynamic Hero template. Original Directory supplies the source filename for both new faculty listing rows.
+- Saved original featured and hero filenames together in exports/es/ES-original-image-map-2026-11-14.json for later remapping. Recorded ES's unit-specific hero exception. No downloads, image renaming, hero assignment changes, content edits, redirects or builds in this task.
+- XLSX ZIP/XML, exact three-column contents, original two-column preservation and template/attachment resolution checked. Mapping reflects export configuration, not a live-site visual audit. Local shared workbook/evidence/docs edits only; not committed, pushed or deployed. Earlier portrait changes preserved.
+
+## November 14: ES supplied faculty and staff portraits
+
+- Renamed all ten supplied WebPs in shared src/media/units/es/faculty-staff to lowercase person slugs, removing jpg suffixes and inconsistent naming. Actual image bytes preserved. Nine faculty.json photo assignments now feed all biography and directory views; nine portraits are 333x333, Ty Tengan is 300x300. Staff portrait is 333x333.
+- Added central staff.json for ʻAnoʻilani Aga and replaced the old inline Staff text on ../es/src/faculty/index.html with the shared people-grid/profile-card treatment, preserving her title/contact details. No new biography route. No active temp.jpg references; user-deleted placeholder stays removed.
+- Shared check and ES build passed (27 pages); targeted source checks confirm ten assignments and all nine biography references. Existing full ES verifier still fails on its stale 26-page assumption and missing hero assignment for the pre-existing Policies & Procedures page; observed before portrait edits. Do not claim that full verification passed. Chrome verified all ten directory portraits and all nine biography portraits decode at their recorded dimensions and fit at 320px and 1800px (20 page/width checks).
+- Local shared and ES edits only; no commit, push or deployment. Other user edits preserved; Contact was not edited in this task.
+
 ## November 14: Simple Ethnic Studies review sheet
 
 - Created exports/es/ES-page-checklist-2026-11-14.xlsx from the supplied November 14 WordPress export and 27 current ES source pages. One worksheet, two name-only columns. Matched pairs first (25 rows covering 24 original pages; Directory maps to Core Faculty and Associated Faculty), followed by nine unmatched published news posts and two new-only pages (ES Courses, Policies & Procedures). Blank separators only; no URLs, notes, status fields, filters, dropdowns or additional tabs.

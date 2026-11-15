@@ -38,7 +38,7 @@
   },
   "facultyBasePath": "/faculty/",
   "buildingPhoto": {
-    "src": "/media/shared/other/saunders-hall.webp",
+    "src": "/media/shared/buildings/saunders-hall.webp",
     "alt": "Saunders Hall at the University of Hawaiʻi at Mānoa",
     "width": 300,
     "height": 162

@@ -1,8 +1,10 @@
 {% set selectedAdvising = advisingWidget | default(advising_widget) %}
 {# Unit data selects role order; identity/contact details remain in shared people data. #}
 {% if selectedAdvising and selectedAdvising.people | length %}
+{% if not advisingEmbedded %}
 <div class="page-section">
 <div class="container content-section">
+{% endif %}
 <h2>{{ selectedAdvising.heading | escape }}</h2>
 {% if selectedAdvising.intro %}
 <p>{{ selectedAdvising.intro | escape }}</p>
@@ -33,6 +35,8 @@
 </section>
 {% endfor %}
 </div>
+{% if not advisingEmbedded %}
 </div>
 </div>
+{% endif %}
 {% endif %}

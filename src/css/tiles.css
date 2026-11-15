@@ -169,6 +169,10 @@ font-size: 0.875rem;
 }
 }
 
+.tile-split-blue-purple {
+background: linear-gradient(90deg, var(--color-blue) 50%, var(--color-purple) 50%);
+}
+
 .tile-split-teal-purple {
 background: linear-gradient(90deg, var(--color-teal) 50%, var(--color-purple) 50%);
 }

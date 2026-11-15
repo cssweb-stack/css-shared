@@ -73,7 +73,7 @@
     "label": "Faculty",
     "children": [
       {
-        "label": "Core Faculty",
+        "label": "ES Faculty",
         "url": "/faculty/",
         "icon": "people",
         "iconColor": null

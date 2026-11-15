@@ -36,9 +36,5 @@
     "prefix": "Department of",
     "name": "Ethnic Studies"
   },
-  "facultyBasePath": "/faculty/",
-  "buildingPhoto": {
-    "src": "",
-    "alt": "George Hall at the University of Hawaiʻi at Mānoa"
-  }
+  "facultyBasePath": "/faculty/"
 }
