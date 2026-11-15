@@ -2,7 +2,7 @@
   "defaultHero": "/media/heroes/students/12.webp",
   "pages": {
     "/directory/": {
-      "image": "/media/heroes/students/06.webp",
+      "image": "/media/heroes/students/01.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false

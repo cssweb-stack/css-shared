@@ -3,6 +3,14 @@
 Established November 10, 2026 (Pacific/Honolulu). These are working agreements,
 not a claim that every older file has already been migrated.
 
+## Website construction and startup
+
+The accepted [website build rules](website-build-rules.md) govern folder structure,
+explicit HTML addresses, editable sources, shared components, startup and route
+verification. Review pages use `/heroes/es.html`, never an automatically created
+`/heroes/es/index.html`. Existing intentional section indexes remain exceptions;
+this is not authorization to relocate them indiscriminately.
+
 ## Scope and ownership
 
 Across college websites, order comparable items alphabetically by their displayed
@@ -406,8 +414,8 @@ Hawaiʻi at Mānoa” as the shared-bank description; preserve decorative semant
 
 The student bank folder was renamed from `shared/` to `students/`; PSY and SOC
 assignments now use that path without reshuffling. PUBA alone uses the fixed
-faculty directory images: `/faculty/` uses `/media/heroes/hawaii-hall/01.webp` and
-`/faculty/associated.html` uses `/media/heroes/hawaii-hall/02.webp`.
+faculty directory images: `/faculty/` uses `/media/heroes/hawaii-hall/hero-01.webp` and
+`/faculty/associated.html` uses `/media/heroes/hawaii-hall/hero-02.webp`.
 These assignments live in PUBA's `heroes.json` and are excluded from randomization.
 Correction: GEO was briefly included in this change, then explicitly excluded by
 the user. GEO retains its established satellite imagery, including Kaunakakai on
@@ -693,7 +701,7 @@ Agreed November 13, 2026: Policies & Procedures belongs on every unit/college/
 research site, including CSS and SSRI, with a footer link available on every page.
 Keep the common university policy body, including clearly labeled student-related
 sections; non-degree sites do not need a separate trimmed policy copy. All policy
-pages use /media/heroes/hawaii-hall/01.webp, selected November 13. The shared
+pages use /media/heroes/saunders-mural/03.webp (November 14 selection supersedes the November 13 Hawaiʻi Hall image). The shared
 common/page-heroes.json assignment overrides unit hero choices for this URL. This does not authorize changes to unrelated page hero assignments.
 
 Graduate Division resources are grouped under a Graduate Division H2 in the shared
@@ -823,14 +831,14 @@ ordinary footer copy, or the actual 404 heading. Direct font-variation overrides
 remain disallowed in authored styles.
 
 Hero bank formerly named faculty is now hawaii-hall (plain ASCII, lowercase and
-hyphenated). Former main.webp is 01.webp; associated.webp is 02.webp. PUBA’s saved
+hyphenated). Former main.webp is now hero-01.webp; associated.webp is now hero-02.webp. PUBA’s saved
 faculty-directory assignments follow the rename without changing their images.
-Every Policies & Procedures page uses 01.webp, including college/research sites
-and policy pages on sites whose other heroes are disabled. Every shared Privacy
-Policy page at /privacy.html uses hawaii-hall/02.webp through the same common
-page-heroes.json assignment. This overrides per-unit selections and remains
-visible when other heroes are disabled. Confirmed November 14, 2026. Other page assignments,
-including GEO satellite imagery, remain unchanged.
+Universal shared-page heroes now use the Saunders mural bank: Policies and
+Procedures uses 03.webp; Privacy Policy uses 06.webp; 404 uses 02.webp.
+The common assignment overrides per-unit selections and remains visible when
+other heroes are disabled. This supersedes the earlier Hawaiʻi Hall policy,
+privacy and 404 choices. Faculty landing-page selections are unchanged.
+
 
 ## Graduate students share profile styling (November 13, 2026)
 
@@ -1153,3 +1161,11 @@ Agreed November 14, 2026: maintain a minimal sibling ../review site with redirec
 All sites use lowercase `about/` for About pages, matching the About navigation label (November 14, 2026). No unit acronym suffix: the site root already identifies the unit. This supersedes the earlier ES-only scope and legacy about-soc/about-geo/about-pols/about-psy/about-anth/about-wgss folders. Preserve old published paths with direct redirects; sites without About content need no empty folder.
 
 Review follows the existing unit startup model: npm clean/build/dev with Eleventy serving locally and a copyable localhost URL printed after listening. Do not substitute a custom development server for an established working workflow without user agreement. Confirmed November 14, 2026.
+
+Review is a consumer of the shared presentation system, not a separately styled utility (November 14, 2026). Use the shared Review shell/common CSS, blue CSS Review banner, university-gray primary navigation and existing degree-navigation component for unit switching. Omit UH brand header/footer. Primary links are Home, Redirects and 404s, Heroes; expand only as requested. Keep review-specific presentation in css-shared, not a private local theme.
+
+Hero images in Review show the original image without fixed-height cropping, stretching, enlargement or the production overlay. Constrain to the shared content width while preserving native aspect ratio with max-width:100%, width:auto and height:auto. Production site hero cropping is separate. Confirmed November 14, 2026.
+
+Review hero inspection groups repeated main-page images together before Single Use, in descending use frequency, with HRs above Title Case H2s. Faculty Landing Pages and Faculty Bio Pages are separate sections; directory precedes associated landing pages. Privacy and Policies is the final section and includes 404. Counts are scoped separately to main, faculty landing, faculty bio and shared-page categories so intentional shared images do not inflate main-page duplication. Keep actual image dimensions/aspect ratios. The common 404 image is Saunders mural 02.webp; see the universal assignment rule below. Confirmed November 14, 2026.
+
+Universal hero assignments for all consuming websites use `/media/heroes/saunders-mural/`: Policies and Procedures → `03.webp`; Privacy Policy → `06.webp`; 404 → `02.webp`; faculty biography pages → `07.webp`. Common page-heroes.json owns these settings and overrides unit choices. Faculty bios are identified by personSlug; faculty landing and associated-directory page selections remain independent and unchanged. This supersedes the earlier Hawaiʻi Hall assignments and distinct per-person mural assignments. Confirmed November 14, 2026.

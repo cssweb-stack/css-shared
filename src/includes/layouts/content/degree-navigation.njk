@@ -2,7 +2,7 @@
 <nav class="degree-navigation" aria-label="{{ degreeNavigation.label | escape }} pages">
 <ul class="degree-navigation-list">
 {% for item in degreeNavigation.pages %}
-<li>{% if page.url == item.url %}<span aria-current="page">{{ item.label | escape }}</span>{% else %}<a href="{{ item.url | url }}">{{ item.label | escape }}</a>{% endif %}</li>
+<li{% if item.groupStart %} class="degree-navigation-group-start"{% endif %}>{% if page.url == item.url %}<span aria-current="page">{{ item.label | escape }}</span>{% else %}<a href="{{ item.url | url }}">{{ item.label | escape }}</a>{% endif %}</li>
 {% endfor %}
 </ul>
 </nav>

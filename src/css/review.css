@@ -1,0 +1,29 @@
+@import url("./common.css");
+
+/* Review identity only; geometry, navigation and type come from shared CSS. */
+.review-banner {
+background: var(--color-blue);
+}
+.review-banner .unit-name-link,
+.review-banner .unit-menu-toggle {
+color: var(--white);
+}
+.hero-entry {
+margin-top: 2rem;
+margin-bottom: 3rem;
+}
+.degree-navigation .degree-navigation-list > .degree-navigation-group-start {
+margin-inline-start: 1.5rem;
+}
+@media (max-width: 575.98px) {
+.degree-navigation .degree-navigation-list > .degree-navigation-group-start {
+margin-inline-start: 0;
+margin-top: 1.5rem;
+}
+}
+.review-hero-image {
+display: block;
+max-width: 100%;
+width: auto;
+height: auto;
+}

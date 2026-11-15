@@ -34,6 +34,7 @@ aria-expanded="false">{% if item.icon %}<span class="nav-main-icon"{% if item.ic
 {% endif -%}
 {% endfor -%}
 {# Same university data as the green bar, presented within the collapsed menu. #}
+{% if site.showUHLinks != false %}
 <li class="nav-item dropdown d-xl-none">
 <button class="nav-link dropdown-toggle nav-trigger" type="button"
 id="{{ headerIdPrefix }}uhLinksToggle" data-bs-toggle="dropdown" aria-expanded="false">UH links</button>
@@ -43,6 +44,7 @@ id="{{ headerIdPrefix }}uhLinksToggle" data-bs-toggle="dropdown" aria-expanded="
 {% endfor %}
 </ul>
 </li>
+{% endif %}
 </ul>
 </div>
 </div>

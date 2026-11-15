@@ -2,6 +2,90 @@
 
 Updated November 14, 2026 (Pacific/Honolulu).
 
+## November 14: SOC top-ten hero selections applied
+
+- Applied user choices: Home17, WhyStudy61, BA20, Faculty60, ResearchAreas04, BAM56, Minor55, Courses51, Applications24, Contact41 (students bank). BA archived requirements shares20. Seven other existing holders received displaced images through reciprocal swap chains, avoiding new duplicate assignments. Default follows homepage17. MA54/PhD57 and universal mural settings unchanged.
+- SOC build and verifier passed; all 18 changed rendered hero paths checked. Review rebuilt. Local shared mapping/Review output only, not committed/pushed/deployed.
+
+## November 14: SOC graduate/undergraduate student hero swaps
+
+- Swapped students-bank pairs bidirectionally in SOC: 07↔28, 32↔02, 37↔14. Six assignments changed: academic planning/student organizations, minor/graduate course categories, Why Study/applications-admissions. No image files renamed; shared Saunders constants unchanged. SOC build passed and all six rendered hero paths checked. Review rebuilt. Local only, not committed/pushed/deployed.
+
+## November 14: Universal Saunders bio and shared-page heroes
+
+- User superseded Hawaiʻi Hall selections: Saunders mural 07.webp for every faculty bio; 06 privacy; 03 policies/procedures; 02 404. Common page-heroes.json owns facultyBio plus shared URL choices. Shared hero/attribution includes use the common bio assignment when personSlug is present; shell displays it even when other heroes are off. Current faculty-heroes records and explicit known bio mappings normalized. Faculty landing-page assignments untouched. Review honors these same common settings.
+- Ten unit builds, shared checker and Review build passed. Verified rendered heroes for all 129 faculty bios and 24 existing policy/privacy/404 pages across ten sites. Inspected supplied images and set descriptive mural alt. Shared checker protects all four constants. No new 404 source pages or asset deletions. Local shared/Review changes only, not committed/pushed/deployed.
+
+## November 14: SOC hero review split by page audience
+
+- Sociology only: main heroes split into General Pages, Undergraduate Pages, Graduate Pages (H2), with duplicate-frequency groups retained as H3s. Faculty Landing Pages, Faculty Bio Pages, Privacy and Policies remain separate afterward. Undergrad covers undergraduate/ plus Alpha Kappa Delta; graduate covers graduate/; mixed-audience funding/prize/Courses remain General. BAM remains undergrad by its section/applicant route. No images or source page content changed.
+- Review built; all 60 SOC entries retained exactly once (15 general, 10 undergraduate, 17 graduate, one faculty landing, 14 bios, three shared). Live localhost headings confirmed; ES retains existing grouping. Local only, not committed/pushed/deployed.
+
+## November 14: Three more rejected student heroes deleted
+
+- Deleted students/05.webp, 06.webp and 11.webp plus obsolete generated copies. Replaced 14 assignments across ANTH, POLS, PSY, SCI, SOC and WGSS with remaining images not already assigned within each site. Added new-swap markers to all three SOC replacements (News 18, BA outcomes 19, Courses 21). Expanded the existing rejected-image guard to seven filenames. All active shared JSON and affected built HTML scanned: no rejected references.
+- Six affected builds, shared check and Review build passed. Local only, not committed/pushed/deployed. Original historical migration evidence not rewritten.
+
+## November 14: SOC replacement heroes marked in Review
+
+- Added reviewNewSwapIn flags to the four SOC replacement assignments (minor, BA outcomes, health research area, Courses). Review displays * New swap-in beside their labels; no production visual change. Rebuilt and checked exactly four marked SOC entries and none in other unit pages. Local only, not committed/pushed/deployed.
+
+## November 14: Four rejected student heroes deleted
+
+- User explicitly authorized deletion of students/03.webp, 49.webp, 53.webp and 59.webp. Deleted source assets and obsolete generated copies. Replaced 12 stored assignments across SOC, POLS, WGSS and ANTH with other bank images unused in each site; left selected graduate 54/57 unchanged. Shared checker rejects reintroduced files or data references. No other similarly numbered hero banks touched.
+- All four affected site builds passed; SOC verifier passed; scanned affected built HTML for rejected paths with none remaining. Shared check passed. Review rebuilt after removing stale copies. Local deletions/mappings only, not committed/pushed/deployed.
+
+## November 14: Universal Hawaiʻi Hall policy/privacy/404 heroes locked
+
+- Common page-heroes.json now enforces Policies and Procedures → hawaii-hall/hero-01.webp, Privacy → hero-02.webp, 404 → hero-03.webp for all consuming sites. User renamed/supplied those files; inspected hero-03 and supplied descriptive alt. Updated PUBA references to renamed assets; common settings override per-unit choices. Review now prioritizes the common assignment even if a unit’s built page is older. Shared checker explicitly validates all three paths/files. Updated the existing convention and superseded the pending 404 selection.
+- All ten unit builds and Review build passed. Verified all 24 existing policy/privacy/404 output pages use their correct shared image with copied assets; missing 404 sources on unfinished sites were not invented. Running ES Review displays the new names. Shared check and SOC verifier passed. ES broader preservation verifier separately flags Our History, Our Way source-body wording differing from its historical snapshot; no content modified or blanket ES pass claimed. Not caused by hero mapping; leave for editorial reconciliation.
+- Local shared/Review changes only; no commit/push/deployment performed in this task.
+
+## November 14: Hero review grouped for duplicate inspection
+
+- Main images now group by frequency descending (Triple Use, Double Use, Single Use, or numbered Uses above three), with matching image paths adjacent and titles alphabetized within each image group. Each H2 has an HR. Faculty Landing Pages lists directory before associated pages, separate from Faculty Bio Pages (duplicate image groups adjacent). Privacy and Policies is last and includes privacy, policies/procedures and 404. Existing 404 image retained pending user’s shared replacement.
+- Counts now compare within each of those four categories, excluding intentional shared pages from main-page duplication. This supersedes the whole-unit count below: ES homepage/News hero-04 show (2) together under Double Use, while 404 is separately (1) under Privacy and Policies. Tooltips state count scope. Review rebuilt all 23 pages; verified current four units’ section orders, HRs, nine ES bios, two ES landing pages, all 29 ES entries retained and correct scoped counts. Local only, not committed/pushed/deployed.
+
+## November 14: Review group gap and actual image-use counts
+
+- Group-gap selector now outranks the shared li margin reset, preserving 1.5rem between current/remaining units. Hero counts now count actual rendered unit page uses of each full image path, including inherited defaults, across all hero groups. Supersedes JSON-literal reference counting: ES hero-04.webp is used by homepage, 404 and News, so all show (3). Tooltip states pages using image in this unit. Review rebuilt. Local only, not committed/pushed/deployed.
+- Desktop Chrome confirmed 24px group margin. Running watch process continued overwriting newer labels with cached content; added standard watch-mode cache opt-out and restarted only the confirmed Review server (old PID 57041). New preview session 88548 serves localhost:8090; HTTP response confirms three hero-04.webp (3) labels. This server remains running. No other site server stopped.
+
+## November 14: Duplicate Review index navigation removed
+
+- Removed Current review/Remaining sites bullet lists from both section indexes. One shared grouped button navigation remains, retaining the current-unit-first order and gap. Review rebuilt; both output indexes checked for exactly one button navigation and absence of duplicate lists. Supersedes the index-list portion of the grouping change below. Local only, not committed/pushed/deployed.
+
+## November 14: Review units grouped by current work
+
+- Shared data/common/review-units.json records current units ES/PUBA/SOC/SSRI. Both section indexes show Current review and Remaining sites; unit submenus show those four alphabetically first, followed by a visible gap and remaining units alphabetically. Gap becomes vertical on phones. Shared degree-navigation gets optional groupStart metadata; existing degree navigation unchanged without it. This is review grouping, not certification of deployment/completion.
+- Review built all 23 pages; verified order ES, PUBA, SOC, SSRI | ANTH, GEO, POLS, PSY, SCI, WGSS and one group gap. Shared check passed (860 files). Local only, not committed/pushed/deployed. No additional unspecified page created.
+
+## November 14: Hero review labels use visible H1
+
+- Review hero labels now read the rendered page’s first H1, falling back to source H1 then metadata title. Alphabetical sorting uses that heading too. Rebuilt all 23 pages and confirmed PUBA shows Why Study Public Administration? with its question mark. Unit page content unchanged. Local only, not committed/pushed/deployed.
+
+## November 14: Review heroes show original image proportions
+
+- Replaced fixed-height/cover/background/overlay previews with plain img.review-hero-image. Shared Review CSS uses max-width:100%, width:auto, height:auto: shrink to container, retain native ratio, never enlarge smaller images. Applies to all unit hero review pages; production hero treatment untouched. Review rebuilt. Local only, not committed/pushed/deployed.
+
+## November 14: Review converted to shared presentation
+
+- Review now renders through shared layouts/review/shell.njk and bundles shared css/review.css importing common.css. Reuses Bootstrap/shared containers, typography, unit navigation and degree-navigation submenu. Removed standalone generated review styling. Full-width shared blue banner says CSS Review; shared university gray bar contains Home, Redirects and 404s, Heroes. Heroes and redirect pages offer ten unit submenu links. No UH brand header/footer. Shared nav adds opt-out showUHLinks:false for Review; default department behavior unchanged.
+- Kept explicit .html addresses, hero labels/counts and all 23 pages. Shared check passed (859 files). All 23 output pages have one H1 and resolving local links/assets. Chrome at 1440/320px confirmed blue #354d67, nav #f7f7f7, Inter, working mobile menu, three primary links, ten submenu items, 29 ES heroes and no horizontal overflow. Running localhost:8090 reviewed; no fresh full axe certification claimed. Screenshots /tmp/review-shared-1440.png and /tmp/review-shared-320.png.
+- Local Review/shared changes only, not committed/pushed/deployed. Future Review content still prepares from unit records; presentation is shared, not an independent theme.
+
+## November 14: Review hero filenames and JSON reference counts
+
+- Hero labels now show page name · linked page path · image basename (count). Count is exact image-path references in the supplying JSON, including a defaultHero reference if present, not a claim of total runtime page uses. Hover text identifies the JSON filename. Applied to all ten unit hero pages; existing explicit .html routes preserved. Build passed; checked all 29 ES labels and all ten unit outputs; running ES Review page serves updated labels. Local only, not committed/pushed/deployed.
+
+## November 14: Plain-English website build rules recorded
+
+- Added docs/website-build-rules.md covering established Eleventy/go workflow, actual startup URL, explicit .html filenames, no unnecessary per-page folders, about/root Courses conventions, editable source ownership, shared reuse and concrete route verification. Retained intentional existing section-index exceptions. Linked from project conventions and AGENTS.md so future build/routing work must read it. No website code changed in this task; documentation checked for consistency with the agreed workflow. Local only, not committed/pushed/deployed.
+
+## November 14: Review explicit HTML routes repaired
+
+- Eleventy default directory URLs had turned heroes/es.html into heroes/es/index.html while links retained .html. Added computed permalinks preserving every prepared HTML filename. Rebuilt all 23 pages; verified the user’s exact localhost:8090/heroes/es.html returns HTTP 200 and all local page/image links resolve. Local only, not committed/pushed/deployed.
+
 ## November 14: Review startup restored to Eleventy model
 
 - Replaced custom Python server/launcher with standard npm clean/build/dev and Eleventy --serve --port=8090. Python now only prepares content under ignored _generated; Eleventy renders 23 HTML pages and copies CSS/media. Installed cached dependencies with the same Eleventy/Nunjucks setup as unit sites; removed scripts/dev.py. Startup callback visibly prints actual localhost URL after listening.

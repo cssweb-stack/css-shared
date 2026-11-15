@@ -1,16 +1,28 @@
 {
   "pages": {
     "/policies-procedures.html": {
-      "image": "/media/heroes/hawaii-hall/01.webp",
+      "image": "/media/heroes/saunders-mural/03.webp",
       "position": "center center",
-      "alt": "Black-and-white detail of Hawaiʻi Hall columns and palm trees at the University of Hawaiʻi at Mānoa.",
+      "alt": "Black-and-white detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa.",
       "credit": false
     },
     "/privacy.html": {
-      "image": "/media/heroes/hawaii-hall/02.webp",
+      "image": "/media/heroes/saunders-mural/06.webp",
       "position": "center center",
-      "alt": "Black-and-white view of Hawaiʻi Hall and palm trees at the University of Hawaiʻi at Mānoa.",
+      "alt": "Black-and-white detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa.",
+      "credit": false
+    },
+    "/404.html": {
+      "image": "/media/heroes/saunders-mural/02.webp",
+      "position": "center center",
+      "alt": "Black-and-white detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa.",
       "credit": false
     }
+  },
+  "facultyBio": {
+    "image": "/media/heroes/saunders-mural/07.webp",
+    "position": "center center",
+    "alt": "Black-and-white detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa.",
+    "credit": false
   }
 }

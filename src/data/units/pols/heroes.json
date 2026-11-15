@@ -2,13 +2,13 @@
   "defaultHero": "/media/heroes/students/48.webp",
   "pages": {
     "/": {
-      "image": "/media/heroes/students/53.webp",
+      "image": "/media/heroes/students/02.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/about/specializations/": {
-      "image": "/media/heroes/students/05.webp",
+      "image": "/media/heroes/students/10.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
@@ -20,7 +20,7 @@
       "credit": false
     },
     "/undergraduate/minor.html": {
-      "image": "/media/heroes/students/11.webp",
+      "image": "/media/heroes/students/12.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
@@ -134,7 +134,7 @@
       "credit": false
     },
     "/colloquia.html": {
-      "image": "/media/heroes/students/49.webp",
+      "image": "/media/heroes/students/04.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
@@ -146,7 +146,7 @@
       "credit": false
     },
     "/about/specializations/comparative-politics.html": {
-      "image": "/media/heroes/students/03.webp",
+      "image": "/media/heroes/students/08.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
@@ -164,7 +164,7 @@
       "credit": false
     },
     "/about/specializations/law-and-policy.html": {
-      "image": "/media/heroes/students/06.webp",
+      "image": "/media/heroes/students/17.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
@@ -194,7 +194,7 @@
       "credit": false
     },
     "/privacy.html": {
-      "image": "/media/heroes/students/59.webp",
+      "image": "/media/heroes/students/09.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false

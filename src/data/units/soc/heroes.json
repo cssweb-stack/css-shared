@@ -1,68 +1,71 @@
 {
-  "defaultHero": "/media/heroes/students/61.webp",
+  "defaultHero": "/media/heroes/students/17.webp",
   "pages": {
     "/about/why-study-soc.html": {
-      "image": "/media/heroes/students/14.webp",
-      "position": "center center",
-      "alt": "Students at the University of Hawaiʻi at Mānoa",
-      "credit": false
-    },
-    "/about/research-areas/": {
-      "image": "/media/heroes/students/52.webp",
-      "position": "center center",
-      "alt": "Students at the University of Hawaiʻi at Mānoa",
-      "credit": false
-    },
-    "/about/news-events.html": {
-      "image": "/media/heroes/students/05.webp",
-      "position": "center center",
-      "alt": "Students at the University of Hawaiʻi at Mānoa",
-      "credit": false
-    },
-    "/": {
       "image": "/media/heroes/students/61.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/about/history.html": {
-      "image": "/media/heroes/students/56.webp",
+    "/about/research-areas/": {
+      "image": "/media/heroes/students/04.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/undergraduate/minor/": {
-      "image": "/media/heroes/students/59.webp",
+    "/about/news-events.html": {
+      "image": "/media/heroes/students/18.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
-      "credit": false
+      "credit": false,
+      "reviewNewSwapIn": true
     },
-    "/undergraduate/minor/concentrations.html": {
-      "image": "/media/heroes/students/55.webp",
-      "position": "center center",
-      "alt": "Students at the University of Hawaiʻi at Mānoa",
-      "credit": false
-    },
-    "/undergraduate/major/": {
-      "image": "/media/heroes/students/48.webp",
-      "position": "center center",
-      "alt": "Students at the University of Hawaiʻi at Mānoa",
-      "credit": false
-    },
-    "/undergraduate/major/concentrations.html": {
+    "/": {
       "image": "/media/heroes/students/17.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/undergraduate/major/student-learning-outcomes.html": {
-      "image": "/media/heroes/students/53.webp",
+    "/about/history.html": {
+      "image": "/media/heroes/students/01.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
+    "/undergraduate/minor/": {
+      "image": "/media/heroes/students/55.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false,
+      "reviewNewSwapIn": true
+    },
+    "/undergraduate/minor/concentrations.html": {
+      "image": "/media/heroes/students/32.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/major/": {
+      "image": "/media/heroes/students/20.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/major/concentrations.html": {
+      "image": "/media/heroes/students/37.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/major/student-learning-outcomes.html": {
+      "image": "/media/heroes/students/19.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false,
+      "reviewNewSwapIn": true
+    },
     "/undergraduate/bam.html": {
-      "image": "/media/heroes/students/60.webp",
+      "image": "/media/heroes/students/56.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
@@ -86,19 +89,19 @@
       "credit": false
     },
     "/graduate/applications-admissions.html": {
-      "image": "/media/heroes/students/37.webp",
+      "image": "/media/heroes/students/24.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/student-organizations.html": {
-      "image": "/media/heroes/students/07.webp",
+      "image": "/media/heroes/students/28.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/annual-review.html": {
-      "image": "/media/heroes/students/24.webp",
+      "image": "/media/heroes/students/14.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
@@ -110,7 +113,7 @@
       "credit": false
     },
     "/alpha-kappa-delta.html": {
-      "image": "/media/heroes/students/51.webp",
+      "image": "/media/heroes/students/21.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
@@ -122,7 +125,7 @@
       "credit": false
     },
     "/contact.html": {
-      "image": "/media/heroes/students/01.webp",
+      "image": "/media/heroes/students/41.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
@@ -134,19 +137,20 @@
       "credit": false
     },
     "/about/research-areas/nationalism-globalization-sustainability.html": {
-      "image": "/media/heroes/students/20.webp",
+      "image": "/media/heroes/students/48.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/about/research-areas/health-aging-medical-sociology.html": {
-      "image": "/media/heroes/students/49.webp",
+      "image": "/media/heroes/students/10.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
-      "credit": false
+      "credit": false,
+      "reviewNewSwapIn": true
     },
     "/about/research-areas/race-ethnicity-gender-class.html": {
-      "image": "/media/heroes/students/04.webp",
+      "image": "/media/heroes/students/52.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
@@ -158,16 +162,17 @@
       "credit": false
     },
     "/faculty/": {
-      "image": "/media/heroes/students/41.webp",
+      "image": "/media/heroes/students/60.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/courses.html": {
-      "image": "/media/heroes/students/03.webp",
+      "image": "/media/heroes/students/51.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
-      "credit": false
+      "credit": false,
+      "reviewNewSwapIn": true
     },
     "/privacy.html": {
       "image": "/media/heroes/students/35.webp",
@@ -176,85 +181,85 @@
       "credit": false
     },
     "/graduate/master-ma/": {
-      "image": "/media/heroes/students/29.webp",
+      "image": "/media/heroes/students/54.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/master-ma/requirements.html": {
-      "image": "/media/heroes/students/29.webp",
+      "image": "/media/heroes/students/54.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/master-ma/timeline.html": {
-      "image": "/media/heroes/students/29.webp",
+      "image": "/media/heroes/students/54.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/master-ma/thesis.html": {
-      "image": "/media/heroes/students/29.webp",
+      "image": "/media/heroes/students/54.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/master-ma/research-report.html": {
-      "image": "/media/heroes/students/29.webp",
+      "image": "/media/heroes/students/54.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/graduate-course-categories.html": {
-      "image": "/media/heroes/students/32.webp",
+      "image": "/media/heroes/students/02.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/doctorate-phd/": {
-      "image": "/media/heroes/students/46.webp",
+      "image": "/media/heroes/students/57.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/doctorate-phd/requirements.html": {
-      "image": "/media/heroes/students/46.webp",
+      "image": "/media/heroes/students/57.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/doctorate-phd/timeline.html": {
-      "image": "/media/heroes/students/46.webp",
+      "image": "/media/heroes/students/57.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/doctorate-phd/qualifying-review.html": {
-      "image": "/media/heroes/students/46.webp",
+      "image": "/media/heroes/students/57.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/doctorate-phd/comprehensive-exam.html": {
-      "image": "/media/heroes/students/46.webp",
+      "image": "/media/heroes/students/57.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate/doctorate-phd/dissertation.html": {
-      "image": "/media/heroes/students/46.webp",
+      "image": "/media/heroes/students/57.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/major/requirements-fall-2022-and-earlier.html": {
-      "image": "/media/heroes/students/48.webp",
+      "image": "/media/heroes/students/20.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/academic-planning.html": {
-      "image": "/media/heroes/students/28.webp",
+      "image": "/media/heroes/students/07.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false

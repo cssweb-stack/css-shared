@@ -2,9 +2,9 @@
   "defaultHero": "/media/heroes/saunders-mural/01.webp",
   "pages": {
     "/john-jack-barile/": {
-      "image": "/media/heroes/saunders-mural/01.webp",
+      "image": "/media/heroes/saunders-mural/07.webp",
       "position": "center center",
-      "alt": "Detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa",
+      "alt": "Black-and-white detail of the mural in Saunders Hall at the University of Hawaiʻi at Mānoa.",
       "credit": false
     },
     "/": {

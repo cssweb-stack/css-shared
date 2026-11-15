@@ -225,3 +225,26 @@ slugs.add(person.slug);
 }
 }
 console.log('Checked common links, navigation icons/colors, and people records.');
+
+// Universal policy/privacy/404 hero assignments must remain valid for every site.
+const universalHeroes = JSON.parse(fs.readFileSync(path.join(root, 'data/common/page-heroes.json'), 'utf8')).pages;
+for (const [url, filename] of Object.entries({ '/policies-procedures.html': '03.webp', '/privacy.html': '06.webp', '/404.html': '02.webp' })) {
+const expected = `/media/heroes/saunders-mural/${filename}`;
+if (universalHeroes[url]?.image !== expected || !fs.existsSync(path.join(root, expected.slice(1)))) throw new Error(`Invalid universal hero assignment: ${url}`);
+}
+console.log('Checked universal Policies, Privacy and 404 hero images.');
+
+// User-rejected student heroes must not return to the selectable image bank.
+const rejectedStudentHeroes = ['03.webp', '05.webp', '06.webp', '11.webp', '49.webp', '53.webp', '59.webp'];
+for (const filename of rejectedStudentHeroes) {
+const image = `/media/heroes/students/${filename}`;
+if (fs.existsSync(path.join(root, image.slice(1)))) throw new Error(`Rejected student hero restored: ${image}`);
+for (const file of sourceFiles.filter(file => file.endsWith('.json') && file.includes('/data/'))) {
+if (fs.readFileSync(file, 'utf8').includes(image)) throw new Error(`Rejected student hero referenced: ${path.relative(root, file)}`);
+}
+}
+console.log('Checked rejected student heroes stay removed and unassigned.');
+
+const facultyBioHero = JSON.parse(fs.readFileSync(path.join(root, 'data/common/page-heroes.json'), 'utf8')).facultyBio;
+if (facultyBioHero?.image !== '/media/heroes/saunders-mural/07.webp' || !fs.existsSync(path.join(root, facultyBioHero.image.slice(1)))) throw new Error('Invalid universal faculty bio hero.');
+console.log('Checked universal faculty bio hero.');

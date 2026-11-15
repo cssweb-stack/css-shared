@@ -3,6 +3,7 @@
 Before changing this repository or a consuming site, read:
 - `docs/project-conventions.md` for accepted rules and their rationale.
 - `docs/work-status.md` for the latest handoff, verification, and remaining work.
+- `docs/website-build-rules.md` before changing routes, folders, builds or local servers.
 - Relevant existing topic documentation under `docs/`.
 
 Keep these records current as part of the work, without waiting for a separate request.
