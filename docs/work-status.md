@@ -2,6 +2,12 @@
 
 Updated November 14, 2026 (Pacific/Honolulu).
 
+## November 14: Student hero bank split; extra-image review added
+
+- Moved all 52 remaining student heroes into graduate (8:02/14/24/28/38/42/54/57) and general (44), based on current approved SOC graduate assignments. No image edits or quality classification. Updated six units’ active hero data and migration bank discovery to nested paths; removed old generated flat copies. Rejected-image guard now checks nested banks too. Updated hero-bank README to supersede obsolete pool/profile guidance.
+- Added /heroes/extra-students.html and primary nav link Extra Student Images using shared Review shell/styles. It lists exactly 18 images not selected by Sociology, keeping original proportions; other-site use is explicitly noted. Review now builds 24 pages.
+- Six affected site builds, shared check and SOC verifier passed. Scanned active JSON and affected output for old flat paths: none. Each new referenced student asset exists. Local shared/Review changes only, not committed/pushed/deployed. Featured/supporting split remains for the next user review.
+
 ## November 14: SOC top-ten hero selections applied
 
 - Applied user choices: Home17, WhyStudy61, BA20, Faculty60, ResearchAreas04, BAM56, Minor55, Courses51, Applications24, Contact41 (students bank). BA archived requirements shares20. Seven other existing holders received displaced images through reciprocal swap chains, avoiding new duplicate assignments. Default follows homepage17. MA54/PhD57 and universal mural settings unchanged.

@@ -4,22 +4,29 @@ Add approved shared hero images here. Unit heroes.json records reference them wi
 
 Set alt for the image description. Set location when relevant. Set credit to false when no imagery attribution should be shown, or to an object with source and url to override the unit credit. GEO satellite imagery remains in GEO/src/media/heroes/.
 
-## Student and faculty collections
+## Student collections
 
-`students/` contains the general student image bank (59 WebP files at initial
-assignment). Use these for non-profile pages, including faculty directory landing
-pages. Default description: “Students at the University of Hawaiʻi at Mānoa.”
+Student heroes are split into `students/graduate/` and `students/general/`.
+The first split follows the user's Sociology review: graduate contains 02, 14,
+24, 28, 38, 42, 54 and 57.webp; the other 44 remaining images are general.
+These are approved visual-use categories, not claims about pictured people's
+actual ages or enrollment. Featured/supporting sorting has not been performed.
 
-`saunders-mural/` contains seven mural images used for individual faculty profiles.
-For Psychology and Sociology, `heroes.json` owns non-profile assignments and
-`faculty-heroes.json` owns individual profile assignments in each shared unit data
-directory. Keep the URL keys disjoint; the template reads `heroes.json` first.
-Random selection happens once during assignment, and the selected image paths are
-saved. Do not randomize at runtime or reshuffle existing pages without a request.
-Use each bank image once per site before repeating; balance mural reuse across
-profiles. Existing hero height/overlay settings remain in `site-settings.json`.
-These banners are currently decorative and hidden from screen readers.
+Keep filenames stable. When moving a file, update all active references before
+removing the old path. Existing assignments are saved in shared unit heroes.json;
+selection must not reshuffle on every build. Migration inventory scripts discover
+both nested folders. The Review page `/heroes/extra-students.html` shows images
+not selected by Sociology; they may still be assigned to other sites.
 
-`faculty/main.webp` and `faculty/associated.webp` are fixed directory banners,
-currently assigned to PUBA only. GEO retains its satellite imagery. Do not include them in the random student or
-mural pools. Before removing a bank image, update every referencing assignment.
+## Faculty and universal shared pages
+
+`common/page-heroes.json` owns universal Saunders mural choices: faculty bios use
+`saunders-mural/07.webp`; Privacy uses 06.webp; Policies and Procedures uses
+03.webp; 404 uses 02.webp. These override individual unit assignments. Faculty
+landing pages remain independently selected in unit heroes.json. GEO retains its
+other satellite imagery. These shared banners are currently decorative and hidden
+from screen readers; descriptive alt metadata remains available in the records.
+
+The retired students-bank images 03, 05, 06, 11, 49, 53 and 59.webp must not be
+restored or selected; the shared checker rejects them. Those exclusions apply only
+to the students bank, not to similarly numbered Saunders mural images.
