@@ -8,6 +8,15 @@ function outputPath(url) {
   return url.endsWith('/') ? url.slice(1) + 'index.html' : url.slice(1);
 }
 
+function internalDestination(url) {
+  if (typeof url !== 'string' || !url.startsWith('/') || url.startsWith('//')) throw new Error(`Invalid internal migration destination: ${url}`);
+  const parsed = new URL(url, 'https://migration.invalid');
+  if (parsed.search || (parsed.hash && !/^#[A-Za-z][A-Za-z0-9_-]*$/.test(parsed.hash))) throw new Error(`Invalid internal migration destination: ${url}`);
+  if (url !== parsed.pathname + parsed.hash) throw new Error(`Noncanonical internal migration destination: ${url}`);
+  outputPath(parsed.pathname);
+  return parsed;
+}
+
 function isExternal(url) {
   if (typeof url !== 'string' || !url.startsWith('https://')) return false;
   const parsed = new URL(url);
@@ -23,19 +32,21 @@ export function generateRedirects({ project, migration, siteUrl, prefix = '/' })
   const redirects = migration?.redirects || [];
   const sources = new Set();
   for (const entry of redirects) {
-    outputPath(entry.from); if (!isExternal(entry.to)) outputPath(entry.to);
+    outputPath(entry.from); if (!isExternal(entry.to)) internalDestination(entry.to);
     if (entry.from === '/' || entry.from === '/404.html' || sources.has(entry.from)) throw new Error(`Duplicate or protected redirect source: ${entry.from}`);
     sources.add(entry.from);
   }
   const deploymentPrefix = prefix.replace(/\/$/, '');
   if (deploymentPrefix && !/^\/(?:[a-zA-Z0-9_-]+\/)*[a-zA-Z0-9_-]+$/.test(deploymentPrefix)) throw new Error('Invalid redirect deployment prefix.');
   const plans = redirects.map(entry => {
-    if (sources.has(entry.to)) throw new Error(`Redirect chains or loops are not allowed: ${entry.from}`);
+    if (sources.has(isExternal(entry.to) ? entry.to : internalDestination(entry.to).pathname)) throw new Error(`Redirect chains or loops are not allowed: ${entry.from}`);
     if ((migration.retired || []).some(item => item.from === entry.from) || (migration.unresolved || []).some(item => item.from === entry.from)) throw new Error(`Conflicting migration status: ${entry.from}`);
     const external = isExternal(entry.to);
     if (!external) {
-      const target = path.join(root, outputPath(entry.to));
+      const targetUrl = internalDestination(entry.to);
+      const target = path.join(root, outputPath(targetUrl.pathname));
       if (!fs.existsSync(target) || fs.readFileSync(target, 'utf8').includes(marker)) throw new Error(`Redirect destination is not a real built page: ${entry.to}`);
+      if (targetUrl.hash && ![`id="${targetUrl.hash.slice(1)}"`, `id='${targetUrl.hash.slice(1)}'`].some(id => fs.readFileSync(target, 'utf8').includes(id))) throw new Error(`Missing redirect destination anchor: ${entry.to}`);
     }
     const file = path.join(root, outputPath(entry.from));
     if (fs.existsSync(file) && !fs.readFileSync(file, 'utf8').includes(marker)) throw new Error(`Redirect would overwrite a real page: ${entry.from}`);
@@ -59,7 +70,9 @@ export function generateRedirects({ project, migration, siteUrl, prefix = '/' })
       const safeJson = value => JSON.stringify(value).replace(/</g, String.fromCharCode(92) + 'u003c');
       fragmentScript = `<script>const targets=${safeJson(targets)};const fragment=location.hash.slice(1);location.replace(Object.prototype.hasOwnProperty.call(targets,fragment)?targets[fragment]:${safeJson(destination)}+location.hash);</script>`;
     }
-    const canonical = new URL(entry.to, siteUrl).href;
+    const canonicalUrl = new URL(entry.to, siteUrl);
+    canonicalUrl.hash = '';
+    const canonical = canonicalUrl.href;
     return { file, relative: outputPath(entry.from), html: `${marker}\n<!doctype html>\n<html lang="en"><head><meta charset="utf-8">${fragmentScript}<meta http-equiv="refresh" content="0; url=${escape(destination)}"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="canonical" href="${escape(canonical)}"><title>Page moved</title></head><body><h1>Page moved</h1><p>This page has moved. <a href="${escape(destination)}">Continue to ${escape(entry.label || 'the new page')}</a>.</p></body></html>\n` };
   });
   for (const relative of previous) {

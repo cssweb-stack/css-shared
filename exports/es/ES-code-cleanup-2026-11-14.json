@@ -1,0 +1,20 @@
+{
+  "unit": "es",
+  "mode": "applied",
+  "filesReviewed": 28,
+  "filesChanged": [
+    "es/src/about-es/our-history-our-way.html",
+    "es/src/faculty/ethan-caldwell.html",
+    "es/src/faculty/kyle-kajihiro.html",
+    "es/src/faculty/m-kunmi-yu-danico.html",
+    "es/src/faculty/maile-arvin.html",
+    "es/src/faculty/ryan-moran.html",
+    "es/src/faculty/ulla-hasager.html",
+    "es/src/index.html",
+    "es/src/undergraduate/certificate-es.html",
+    "es/src/undergraduate/major-ba.html",
+    "es/src/undergraduate/student-learning-outcomes.html",
+    "css-shared/src/includes/units/es/policies-procedures.njk"
+  ],
+  "sourceEventPreservation": true
+}

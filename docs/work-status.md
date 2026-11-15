@@ -2,6 +2,101 @@
 
 Updated November 14, 2026 (Pacific/Honolulu).
 
+## November 14: Review go workflow corrected
+
+- Added missing clean script to ../review/package.json so the user's existing go workflow can run clean/build/dev. Clean removes only generated _site. Tested npm run clean followed by npm run build: ten units per section rebuilt successfully.
+- Stopped the agent-owned preview server (session 19759) to release port 8090 before the user starts go. No live server is left by this fix; npm run dev/go starts it. Local Review package/shared handoff only; not committed/pushed/deployed.
+
+## November 14: Minimal Review site delivered and ES URL mapping implemented
+
+- Created sibling ../review with zero-dependency Python build, package scripts and two review sections: redirects-404s and heroes. Ten active shared units each have one page in both sections, plus indexes (23 HTML pages). Redirects/retired paths use plain bullet links to GitHub unit previews; units without mapping files are explicitly marked. Heroes show page title/path and supplied images, grouped main/faculty/policy/privacy and alphabetized by name. Images copied into generated output; no paid service or interaction layer. Existing style-guide unchanged. README explains rebuild/test destination.
+- Review built successfully and all local links/image files checked. Local server running on port 8090 (session 19759), HTTP 200 verified with network-permitted request. No GitHub repository creation, commit, push or deployment performed.
+- ES now has shared custom 404 source/quick links and url-migration.json. Compared all 33 published original URLs in the user-supplied November 14 WXR: 26 moves (including three statements to retained policy anchors), six retired news stories approved for genuine 404, one unchanged homepage. Added interim /courses/ → /courses.html redirect, for 27 generated redirects total. Source Courses remains root-level; only generated legacy redirect uses the old directory. All decisions recorded in exports/es/ES-url-migration-2026-11-14.json; original exports/workbooks untouched.
+- Shared redirect generator now accepts and validates anchored internal destinations; canonical excludes fragment while refresh/fallback retain it. ES verifier distinguishes 29 real pages from 27 generated redirects and validates every destination/anchor plus absence of retired outputs. Local missing-path request returned genuine HTTP 404. Final ES verification passed. Production/preview redirect clicks remain user-review work after upload.
+- Local changes span ../review, ../es and css-shared. No synchronization claimed. User rejected overbuilding: keep future Review work to simple lists/hero images. Next: user visual Review and GitHub preview checks after publishing; no further utility features required.
+
+## November 14: Instagram profile embed experiment
+
+- User paused 404/redirect work before any mappings or 404 sources were changed, then requested an Instagram trial using the account already in ES social.json. Restored ../es/src/department-news.html as a new News and Updates test page, sourcing https://www.instagram.com/uhm_ethnicstudies/ from social.links. Uses official embed.js/profile blockquote plus permanent plain fallback link. Not added to navigation pending user test; no retired-story redirects changed.
+- Fresh logged-out Chrome session loaded embed.js and profile iframe with HTTP 200, showing the account card and six post thumbnails. Confirmed visually. This proves display in this test, not universal availability or guaranteed future refresh behavior. No paid widget, Meta app or access token used.
+- Instagram's injected 326px minimum initially overflowed at 320px viewport. Added opt-in instagram-profile wrapper/styles in shared images.css overriding only injected iframe/block width/min/max. Retest: desktop iframe 540px, phone iframe 288px, no document overflow; profile content remains visible. Scoped style does not affect other components.
+- ES build/28-page verification passed. Evidence exports/es/ES-instagram-test-2026-11-14.json. New page added to current title inventory; existing hero fallback applies pending hero approval. Broader final-review reports describe the preceding 27-page baseline and do not certify the third-party widget.
+- Local ES source/shared CSS/report/docs only; not committed/pushed/deployed. Local ES server confirmed listening on port 8088 for user review at /department-news.html. 404/redirect task remains paused; recommend genuine 404s for retired stories without content replacements, and eventual statement redirects to retained policy anchors. Hero review site still pending.
+
+## November 14: ES final text/code/accessibility/SEO passes
+
+- Completed authorized whole-ES text/voice review: nine institutional paragraphs revised; named courses use colon-space; run-in career/benefit/fund labels use bold plus colon; corrected whitespace and known Hawaiian characters; preserved all nine authored bios and three dated statements. User resolved ES 318 as Asian America and ES 370 as Literatures of Hawaiʻi, applied to both academic lists. All 106 named course-list items pass separator check; academic code/credit counts and source href/src destinations unchanged. BAM nav/tile labels corrected to cover MEd/MPA routes. One diacritic candidate (personal name Willy Kauai) intentionally retained; no required copy decision remains.
+- Code: new report-only-by-default scripts/code-cleanup.py reviewed 28 unit HTML/Nunjucks sources and formatted 12. All 27 rendered outputs preserve tags/attributes/text through formatting. Rescan proposes zero edits. Original exports/snapshots/workbooks unchanged. Updated text-cleanup tool to stop obsolete em-dash rewriting; ES reference/editorial-text-replacements.json explicitly records authorized narrative replacements for the preservation verifier.
+- Accessibility: Chrome/axe 4.14.0, zero violations on 27 mobile pages and eight representative desktop pages. H1/main/alt/eager-image checks, keyboard/skip/disclosure states, eight mobile text-spacing cases and seven tablet/small-desktop reflow pages passed. Color contrast/frame rules retain incomplete results; external maps, full screen-reader/zoom testing and comprehensive Siteimprove review remain outside this pass. No shared accessibility fix was needed.
+- SEO: replaced 25 placeholder descriptions; all 27 approved titles/social metadata checked; self-canonicals use existing production ES origin. Audit zero errors, ten intentional title/H1 wording notes. Preview indexing remains off and guides remain on for review. No live-search/rank claims.
+- Final ES build/27-page verifier, shared 850-file checker, text/code rescans, registry-link scan and whitespace checks passed. Reports: docs/es-text-cleanup-report.md and docs/es-final-review-2026-11-14.md; measured evidence under exports/es, exports/accessibility and exports/seo.
+- Local ../es and css-shared changes only, not committed/pushed/deployed. Preserve unrelated edits and user Excel lock file. Next release tasks: hero approval/review tool, old/new URL mapping/custom 404/redirects, publishing decisions, then live checks/Siteimprove. Do not claim those launch tasks complete.
+
+## November 14: ES Courses final supplied photos
+
+- Replaced Courses placeholders in order: Lower Division uses /media/units/es/courses/course-01.webp; Upper Division uses course-02.webp. Visually inspected both supplied photos, set actual 600x600 dimensions and descriptive alt text without inventing identities/event details. Shared image-row treatment unchanged.
+- ES build/27-page verification and whitespace checks passed. Local ES source/shared handoff only, not committed/pushed/deployed. No Courses image placeholders remain.
+
+## November 14: Compact ES requirement subgroup dividers
+
+- Certificate/BA now use existing hr.my-3 above Introductory Course(s), Group 1 and Group 2, reducing divider margins from 2rem to 1rem per side. Other dividers/content unchanged. No CSS added.
+- ES build completed. Initial verifier raced generated media availability and reported George Hall/temporary image paths missing; files were present immediately afterward and rerun 27-page verification passed. Source assertions confirmed three compact dividers per page. Whitespace checks passed. Local ES source/shared handoff only, not committed/pushed/deployed.
+
+## November 14: Faculty H1 expanded; hero-review proposal
+
+- ES faculty landing H1 and source title now Ethnic Studies Faculty. Retained approved HTML title Faculty | Ethnic Studies | UH Mānoa, ES Faculty dropdown label, URL, intro and directory content. ES build/27-page verification and whitespace checks passed. Local ES source/shared handoff only; not committed/pushed/deployed.
+- User proposed the next review tool: separate lightweight review site with one page per unit, small page-name labels and each page's assigned hero displayed consecutively for quick visual approval. Recorded as upcoming proposal; not built/published and no hero assignments changed. Finish current page review first; use actual mappings/crops when implemented rather than a generic image pool.
+
+## November 14: Run-in label separator agreed
+
+- Recorded cross-site standard: bold, sentence-case explanatory label followed by colon/space. ES BAM advantage label-periods and Why Study career italics/dashes are pending cleanup to that pattern; no website source changed during current page review.
+- Updated text-cleanup procedure, including correcting its stale spaced-em-dash instruction to match the existing superseding no-prose-dashes agreement and approved welcome exception. No broad punctuation/italics replacement authorized; preserve headings, protected originals and real sentence punctuation.
+- Documentation whitespace check passed. No builds/tests needed for docs-only change. Local shared docs only; not committed/pushed/deployed.
+
+## November 14: ES Courses sections and readable source
+
+- Rebuilt ../es/src/courses.html using existing shared sections/imageTextRow: H1/current intro on white, Lower/Upper Division rows in full-width gray with temporary 500x500 shared images on left and HR between, shared course resources on white below. Preserved the user's current three course-description paragraphs verbatim. No new CSS or invented imagery; placeholder images use empty decorative alt.
+- Source is flush-left, no blank lines, one structural opening/closing tag per line; include/import/call directives each on their own line. Removed chained divs and stray indentation, following existing code-cleanup agreement. Broader code sweep remains pending.
+- ES build/27-page verification passed. Source assertions checked formatting, two shared image rows, section ordering and widget position. Whitespace checks passed. No new browser check; existing shared image-row layout reused unchanged.
+- Local ES source/shared handoff only, not committed/pushed/deployed. Two Courses images remain intentional placeholders for user replacement.
+
+## November 14: ES Courses moved to root
+
+- Moved ../es/src/courses/index.html to ../es/src/courses.html, published /courses.html. Removed now-empty source directory and stale generated /courses/index.html/directory. Updated shared ES navigation, assigned hero mapping (hero-15 unchanged) and current approved title inventory source path. Original workbook/history evidence retained unchanged; final redirect matching must account for any temporary /courses/ links if published previously.
+- Generalized the established root-level Courses convention across unit sites; no unrelated unit relocation. ES verifier now explicitly enforces root source/output path and absence of courses folders to prevent recurrence.
+- ES build/27-page verification and whitespace checks passed; active source/config scan has no /courses/ or courses/index references. Local source/verifier/shared data/docs only; not committed/pushed/deployed.
+
+## November 14: Unit-bar acronym matches full-name styling
+
+- Updated only shared header.css .unit-short-name to inherit color/weight as well as size, preserving parentheses. Both full name and acronym now use 600 and the same color; supersedes the visually separate gray/400 trial. No unit text/visibility changes.
+- ES build/27-page verification, SOC build/60-page/64-redirect verification and PUBA/SSRI builds passed. Chrome checked four sites at phone/desktop widths: same size, weight 600, inherited color, no overflow. Whitespace checks passed. Local shared CSS/docs/rebuilt output only; not committed/pushed/deployed.
+
+## November 14: Unit-bar acronyms in parentheses at full size
+
+- Shared unit-name template now renders (ES), (SOC), (PUBA), (SSRI), etc. where existing showShortName is enabled. Header CSS short-name size inherits from full unit name instead of 0.875em. Retained existing #555 gray/400 weight, full name 600, and all other typography/layout. Visibility flags/footer/search unchanged.
+- Recorded parenthetical same-size convention; current lighter color/weight remains available for user visual reassessment. ES/SOC builds and verifiers passed; PUBA/SSRI builds and 847-file shared checker passed.
+- Chrome checked all four homepages at 320/1800px (eight cases): exact parenthesized acronyms, same font family/size (24px phone, 32px desktop), gray/400 treatment, no horizontal overflow. Whitespace checks passed.
+- Local shared template/CSS/docs plus rebuilt local outputs only; not committed/pushed/deployed. Other consuming sites receive the shared treatment when rebuilt.
+
+## November 14: Why Study dropdown question marks
+
+- Shared ES/SOC/PUBA navigation labels now read Why Study ES?, Why Study SOC?, Why Study PUBA?. Verified existing H1s already spell out Ethnic Studies, Sociology and Public Administration with question marks; no page copy/H1 edits needed. URLs and unit-name-bar acronym styles unchanged.
+- Recorded short acronym navigation/full-subject H1 convention. PUBA build, SOC build/60-page/64-redirect verification, ES build/27-page verification passed; rendered nav labels checked on all three homepages. Whitespace checks passed.
+- Local shared navigation data/docs and regenerated local output only; not committed/pushed/deployed.
+
+## November 14: ES learning outcomes moved to dedicated academic page
+
+- Created ../es/src/undergraduate/student-learning-outcomes.html, H1 Student Learning Outcomes, with all six original outcomes and their introductory wording retained exactly. Added BA Student Learning Outcomes | Ethnic Studies | UH Mānoa title, descriptive metadata, and the BA page's assigned hero. BA introduction now ends with a sentence linking the outcomes. No additional nav/dropdown item or legacy redirect needed.
+- Why Study ES now has Skills and Knowledge in full-width gray, Job Prospects in a separate white section below; all nine skills/eight career entries retained. Removed redundant HR at the new section boundary. No CSS change.
+- User approved placing outcomes with BA based on their likely major-specific scope. Formal scope remains unverified and should be confirmed with the unit; no universal rule that every SLO applies only to a major was adopted. Original outcome claims were not rewritten.
+- Updated ES verifier to check every relocated outcome text chunk on its new page; original snapshot unchanged. Added new academic page to approved title inventory. ES build/27-page verification passed; assertions confirmed six outcomes, 17 skills/career entries and section order. Whitespace checks passed. No browser layout check rerun.
+- Local ES source/verifier/shared hero/title inventory/docs only; not committed/pushed/deployed. Final SEO/redirect inventory must include this new page; existing final-review items remain.
+
+## November 14: BAM bottom course resources
+
+- Added the existing shared ES course-resources section below BAM advising, directly above footer, matching Certificate/BA/Double Majors. Uses the configured ES catalog destination (ent_oid=702), class availability and course descriptions with ES prefix note. No new CSS/data duplication.
+- ES build/26-page verification passed; rendered placement/catalog assertions and whitespace checks passed. Local ES source/shared handoff only; not committed/pushed/deployed.
+
 ## November 14: ES BAM page structure and cross-program advising
 
 - Generalized BAM intro to cover Ethnic Studies paired with education or public administration, eligible double-counting, undergraduate tuition rates and potential completion in about five years, qualified by pathway. All three existing pathway descriptions retained, third credential corrected to Master of Public Administration. Intro/pathway list remain white; obsolete Contact Us/course shortcuts/Additional Details removed.

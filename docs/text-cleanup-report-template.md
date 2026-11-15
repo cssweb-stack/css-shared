@@ -16,7 +16,7 @@ never copy another unit's counts into this report.
 | Accidental non-breaking spaces | [count] | [actual example] |
 | Incorrect Hawaiʻi ʻokina characters | [count] | [actual example] |
 | University name / Mānoa spelling | [count] | [actual example] |
-| Em-dash spacing | [count] | [actual example] |
+| Run-in label separators | [count] | [bold label + colon example] |
 | Repeated spaces | [count] | [actual example] |
 | Spaces before punctuation | [count] | [actual example] |
 | Invisible characters / soft hyphens | [count] | [actual example] |

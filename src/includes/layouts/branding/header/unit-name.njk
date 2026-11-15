@@ -3,7 +3,7 @@
 <div class="row gx-0 gx-sm-5 gx-lg-5">
 <div class="col-12">
 <div class="unit-name-row">
-<a href="{{ "/" | url }}" class="unit-name-link">{{ site.name | escape }}{% if site.showShortName and site.shortName %} <span class="unit-short-name">{{ site.shortName | escape }}</span>{% endif %}</a>
+<a href="{{ "/" | url }}" class="unit-name-link">{{ site.name | escape }}{% if site.showShortName and site.shortName %} <span class="unit-short-name">({{ site.shortName | escape }})</span>{% endif %}</a>
 <div class="unit-actions">
 <form class="desktop-search" role="search" autocomplete="off" action="https://www.google.com/search" method="get">
 <label class="visually-hidden" for="{{ headerIdPrefix }}unit-search-desktop">Search {{ site.search.label | default(site.shortName) | escape }} website</label>

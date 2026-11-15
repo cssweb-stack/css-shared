@@ -1,0 +1,20 @@
+{
+  "quickLinks": [
+    {
+      "label": "Ethnic Studies homepage",
+      "url": "/"
+    },
+    {
+      "label": "Academic programs",
+      "url": "/undergraduate/major-ba.html"
+    },
+    {
+      "label": "Faculty",
+      "url": "/faculty/"
+    },
+    {
+      "label": "Contact Ethnic Studies",
+      "url": "/contact.html"
+    }
+  ]
+}

@@ -46,8 +46,8 @@ code/preformatted text unchanged.
 - Correct unmistakable Hawaiʻi backtick/apostrophe variants to U+02BB ʻokina;
   use University of Hawaiʻi at Mānoa for that institution's name in ordinary prose.
   Preserve all other Hawaiian spelling/diacritics; do not guess unfamiliar names.
-- House style uses spaced em dashes: `word — word`. Normalize existing em-dash
-  spacing; do not blanket-convert hyphens or numeric ranges into em dashes.
+- Superseded November 14: do not introduce prose dashes as clause/explanation separators. Preserve meaningful hyphens, numeric ranges, protected original/quoted text and explicitly approved “E komo mai — Welcome to…” treatment.
+- Run-in explanatory labels use sentence case and bold label plus colon: `<strong>Save money:</strong> Explanation.` Use this for benefits and career categories; replace mixed label-period/dash/italics during authorized cleanup. Preserve standalone headings and real sentence punctuation.
 
 ## Role-based contact routing
 
@@ -157,5 +157,5 @@ of Sociology / Sociology department, Sociology BA / BA in Sociology, Major (BA),
 and BA alone, plus analogous MA/PhD labels. Distinguish useful short navigation
 labels from formal names in prose; variation is not automatically an error.
 Report examples and proposed context-specific naming conventions for user review.
-No preferred form has been approved; do not automatically rename or rewrite.
+Subsequent November 14 program-page naming agreements now specify full credential/subject H1s, short navigation labels and the approved unit/campus title suffix. Apply those recorded decisions; flag other unreviewed naming changes rather than inventing a new policy.
 This audit item applies to Sociology only.

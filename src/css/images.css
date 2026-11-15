@@ -96,3 +96,15 @@ max-width: 100%;
 height: auto;
 }
 }
+
+/* Instagram injects inline minimum widths; constrain only this opt-in embed. */
+.instagram-profile {
+width: 100%;
+max-width: 540px;
+}
+
+.instagram-profile > :is(blockquote, iframe) {
+width: 100% !important;
+min-width: 0 !important;
+max-width: 100% !important;
+}

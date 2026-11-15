@@ -7,7 +7,7 @@
     "label": "About",
     "children": [
       {
-        "label": "Why Study ES",
+        "label": "Why Study ES?",
         "url": "/about-es/why-study-es.html",
         "icon": "question-circle",
         "iconColor": null
@@ -34,7 +34,7 @@
   },
   {
     "label": "Courses",
-    "url": "/courses/"
+    "url": "/courses.html"
   },
   {
     "label": "Undergraduate",
@@ -58,7 +58,7 @@
         "icon": "mortarboard"
       },
       {
-        "label": "BA/MA Pathway (BAM)",
+        "label": "BAM Pathways",
         "url": "/undergraduate/bam.html",
         "iconColor": null,
         "icon": "signpost-2"

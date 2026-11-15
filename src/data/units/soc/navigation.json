@@ -7,7 +7,7 @@
     "label": "About",
     "children": [
       {
-        "label": "Why Study SOC",
+        "label": "Why Study SOC?",
         "url": "/about-soc/why-study-soc.html",
         "icon": "question-circle",
         "iconColor": null

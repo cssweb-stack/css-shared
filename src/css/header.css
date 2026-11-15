@@ -125,9 +125,9 @@ font-weight: 600;
 }
 
 .unit-short-name {
-font-size: 0.875em;
-font-weight: 400;
-color: var(--dark-gray);
+font-size: inherit;
+font-weight: inherit;
+color: inherit;
 }
 
 .unit-name-link:hover,

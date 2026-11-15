@@ -32,8 +32,7 @@ def normalize(s):
  sub(r"Hawai[`‘’']i",'Hawaiʻi','okina')
  sub(r'University of Hawaii at Manoa','University of Hawaiʻi at Mānoa','university_name')
  sub(r'(?<=Hawaiʻi at )Manoa\b','Mānoa','kahako')
- sub(r'[ \t]*—[ \t]*',' — ','em_dash_spacing')
- # Count only dash changes, not already correctly spaced dashes.
+ # Do not restyle em dashes in authored/quoted text; current prose edits avoid them.
  sub(r'(?<=\S) {2,}(?=\S)',' ','double_spaces')
  sub(r'(?<=\w)[ \t]+([,.;:!?])',r'\1','space_before_punctuation')
  return s

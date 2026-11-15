@@ -116,8 +116,7 @@ follow the same editing convention as ordinary pages. Do not reintroduce a singl
 pagination template that owns metadata for all faculty pages.
 
 Titles follow the visible H1 as closely as practical. A homepage gets a descriptive
-title based on its H1, rather than “Home.” The shared shell appends ` | {site.name}`;
-do not manually add that suffix in the page title. If a page has no H1, retain a
+title based on its H1, rather than “Home.” Updated November 14: reviewed sites use a configured abridged-unit/campus titleSuffix and optional page searchTitle; the legacy ` | {site.name}` suffix remains only as a fallback for unconverted sites. Do not manually repeat the configured suffix in the page-specific title. If a page has no H1, retain a
 sensible existing title and note the missing heading instead of inventing content
 outside the requested scope.
 
@@ -1130,3 +1129,23 @@ Agreed November 14, 2026: keep the unit identity and page heading visually disti
 ## ES course-group descriptive labels
 
 Agreed November 14, 2026: Certificate/BA Group 1 and Group 2 descriptions are strong paragraphs beneath H3 group labels, using sentence case, no trailing period, and and rather than an ampersand. Their wording was compared and is identical apart from original case/punctuation. Preserve meaning; this does not authorize rewriting official course names or changing the credit requirements (six credits per group Certificate, twelve BA).
+
+## Why Study navigation and H1 naming
+
+Agreed November 14, 2026: Why Study dropdown labels use the established unit acronym and a question mark, e.g. Why Study ES?, Why Study SOC?, Why Study PUBA?. Page H1s spell out the full subject and retain the question mark. This keeps narrow navigation concise while the destination heading is descriptive; identical wording is not required. Applied to ES, SOC and PUBA. Other units adopt during their review; URLs remain unchanged. Existing unit-bar full-name/acronym styling is unchanged pending any separate visual decision.
+
+## Unit-bar acronym treatment
+
+Agreed November 14, 2026: when showShortName is enabled, render the full unit name followed by the acronym in parentheses, e.g. Department of Ethnic Studies (ES). Acronym uses the same font family and size as the unit name, superseding the previous 0.875em short-name size and unparenthesized markup. Updated after visual review: acronym now inherits the full unit name’s color and 600 weight, superseding the gray/400 treatment. Parentheses alone distinguish it. Implement once in the shared unit-name template/header.css; preserve each unit's existing visibility flag. Footer/search shorthand unchanged.
+
+## Root-level Courses pages
+
+Confirmed November 14, 2026: the main Courses page belongs at /courses.html, with source src/courses.html, across consuming unit sites. Do not create a courses/ folder or place Courses beneath About. This generalizes the earlier SOC-specific correction; applied to ES as well. Preserve individual course-related subpages where separately justified; existing unrelated sites are corrected during their review rather than silently swept. Update navigation, hero mappings and active URL/title inventories when relocating.
+
+## Run-in explanatory labels
+
+Agreed November 14, 2026: across unit sites, use a bold label followed by a colon and one space before its explanation, e.g. <strong>Save money:</strong> Approved coursework… or <strong>Business:</strong> Management…. Labels use sentence case, not italics. This supersedes the mixed standalone-period and dash separators used in ES BAM advantages/job prospects; those differences were not an intentional editorial distinction. Apply during the authorized text-cleanup sweep; do not change pages during the user's current page-by-page review. Existing course-code colon rules remain separate and unchanged. Preserve true sentence punctuation, standalone headings, official names, quoted/historical text and explicitly approved welcome em dash; do not mechanically turn every period/dash/italic into a label separator.
+
+## Review utility site
+
+Agreed November 14, 2026: maintain a minimal sibling ../review site with redirects-404s and heroes sections, one page per active shared unit. Redirect/retired-page lists are bullets from actual shared unit mappings, with honest no-mapping/unresolved labels. Link tests target GitHub previews; local changes require uploading before those tests can pass. Hero pages show normal paragraph labels/paths and images, grouped main pages, faculty, policies/privacy and alphabetized within groups. Add units as their shared records/sites become available. No interactive dashboard or style-guide redesign; preserve ../style-guide. Rebuild the generated review pages when unit records change.

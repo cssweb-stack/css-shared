@@ -1,0 +1,179 @@
+{
+  "redirects": [
+    {
+      "from": "/privacy-policy/",
+      "to": "/privacy.html",
+      "label": "Privacy Policy"
+    },
+    {
+      "from": "/contact/",
+      "to": "/contact.html",
+      "label": "Contact"
+    },
+    {
+      "from": "/directory/",
+      "to": "/faculty/",
+      "label": "Directory"
+    },
+    {
+      "from": "/give-a-gift/",
+      "to": "/support-es.html",
+      "label": "Give a Gift"
+    },
+    {
+      "from": "/undergraduate-certificate/",
+      "to": "/undergraduate/certificate-es.html",
+      "label": "Undergraduate Certificate"
+    },
+    {
+      "from": "/bachelor-of-arts-ba/",
+      "to": "/undergraduate/major-ba.html",
+      "label": "Bachelor of Arts (BA)"
+    },
+    {
+      "from": "/bachelors-masters-degree-bam/",
+      "to": "/undergraduate/bam.html",
+      "label": "Bachelor's & Master's Degree (BAM)"
+    },
+    {
+      "from": "/our-history-our-way/",
+      "to": "/about-es/our-history-our-way.html",
+      "label": "Our History - Our Way"
+    },
+    {
+      "from": "/ethan-caldwell/",
+      "to": "/faculty/ethan-caldwell.html",
+      "label": "Ethan Caldwell"
+    },
+    {
+      "from": "/monisha-das-gupta/",
+      "to": "/faculty/monisha-das-gupta.html",
+      "label": "Monisha Das Gupta"
+    },
+    {
+      "from": "/roderick-n-labrador/",
+      "to": "/faculty/roderick-n-labrador.html",
+      "label": "Roderick Labrador"
+    },
+    {
+      "from": "/ty-p-kawika-tengan/",
+      "to": "/faculty/ty-p-kawika-tengan.html",
+      "label": "Ty P. Kāwika Tengan"
+    },
+    {
+      "from": "/statement-on-anti-asian-violence-and-atlanta-shootings/",
+      "to": "/policies-procedures.html#statement-anti-asian-violence",
+      "label": "Statement on Anti-Asian Violence and Atlanta Shootings"
+    },
+    {
+      "from": "/statement-of-solidarity-on-black-lives-matter-and-racial-justice/",
+      "to": "/policies-procedures.html#statement-black-lives-matter",
+      "label": "Statement of Solidarity on Black Lives Matter and Racial Justice"
+    },
+    {
+      "from": "/ulla-hasager/",
+      "to": "/faculty/ulla-hasager.html",
+      "label": "Ulla Hasager"
+    },
+    {
+      "from": "/academic-program/",
+      "to": "/about-es/why-study-es.html",
+      "label": "Academic Program"
+    },
+    {
+      "from": "/department-news/",
+      "to": "/department-news.html",
+      "label": "Department News"
+    },
+    {
+      "from": "/center-for-oral-history/",
+      "to": "/center-for-oral-history.html",
+      "label": "Center for Oral History"
+    },
+    {
+      "from": "/essa/",
+      "to": "/about-es/ethnic-studies-student-association.html",
+      "label": "Ethnic Studies Student Association"
+    },
+    {
+      "from": "/island-connections/",
+      "to": "/about-es/island-connections.html",
+      "label": "Island Connections"
+    },
+    {
+      "from": "/kyle-kajihiro/",
+      "to": "/faculty/kyle-kajihiro.html",
+      "label": "Kyle Kajihiro"
+    },
+    {
+      "from": "/m-kunmi-yu-danico/",
+      "to": "/faculty/m-kunmi-yu-danico.html",
+      "label": "M. Kunmi Yu Danico"
+    },
+    {
+      "from": "/statement-on-anti-asian-chinese-racism-in-the-time-of-covid-19/",
+      "to": "/policies-procedures.html#statement-anti-asian-chinese-racism",
+      "label": "Statement on Anti-Asian/​Chinese Racism in the time of COVID-19"
+    },
+    {
+      "from": "/maile-arvin/",
+      "to": "/faculty/maile-arvin.html",
+      "label": "Maile Arvin"
+    },
+    {
+      "from": "/ryan-moran/",
+      "to": "/faculty/ryan-moran.html",
+      "label": "Ryan Moran"
+    },
+    {
+      "from": "/double-major/",
+      "to": "/undergraduate/double-majors.html",
+      "label": "Double Major with Ethnic Studies"
+    },
+    {
+      "from": "/courses/",
+      "to": "/courses.html",
+      "label": "ES Courses"
+    }
+  ],
+  "retired": [
+    {
+      "from": "/perseverance-rewarded/",
+      "label": "Perseverance Rewarded",
+      "note": "Retired news story. No replacement content retained; user approved genuine 404 response."
+    },
+    {
+      "from": "/esteem-for-ethnic-studies/",
+      "label": "Esteem for Ethnic Studies",
+      "note": "Retired news story. No replacement content retained; user approved genuine 404 response."
+    },
+    {
+      "from": "/kanaka-%ca%bboiwi-rapper-sets-sights-on-masters-wins-3rd-na-hoku/",
+      "label": "Kanaka ʻōiwi rapper sets sights on master’s, wins 3rd Nā Hōkū",
+      "note": "Retired news story. No replacement content retained; user approved genuine 404 response."
+    },
+    {
+      "from": "/major-impact/",
+      "label": "Major Impact",
+      "note": "Retired news story. No replacement content retained; user approved genuine 404 response."
+    },
+    {
+      "from": "/the-best-of-the-best/",
+      "label": "The Best of the Best",
+      "note": "Retired news story. No replacement content retained; user approved genuine 404 response."
+    },
+    {
+      "from": "/honoring-a-living-treasure/",
+      "label": "Honoring a Living Treasure",
+      "note": "Retired news story. No replacement content retained; user approved genuine 404 response."
+    }
+  ],
+  "unresolved": [],
+  "unchanged": [
+    {
+      "from": "/",
+      "label": "Home",
+      "type": "page"
+    }
+  ]
+}

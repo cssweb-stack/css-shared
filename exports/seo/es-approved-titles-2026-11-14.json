@@ -24,7 +24,7 @@
     "title": "Contact | Ethnic Studies | UH Mānoa"
   },
   {
-    "source": "courses/index.html",
+    "source": "courses.html",
     "title": "Courses | Ethnic Studies | UH Mānoa"
   },
   {
@@ -102,5 +102,17 @@
   {
     "source": "undergraduate/major-ba.html",
     "title": "BA in Ethnic Studies | Ethnic Studies | UH Mānoa"
+  },
+  {
+    "source": "undergraduate/student-learning-outcomes.html",
+    "title": "BA Student Learning Outcomes | Ethnic Studies | UH Mānoa"
+  },
+  {
+    "source": "department-news.html",
+    "title": "News and Updates | Ethnic Studies | UH Mānoa"
+  },
+  {
+    "source": "404.html",
+    "title": "Page Not Found | Ethnic Studies | UH Mānoa"
   }
 ]

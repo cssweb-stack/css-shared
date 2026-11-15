@@ -34,3 +34,7 @@ these. Report validation actually performed and preserve unrelated local edits.
 
 The rule applies to new edits immediately. The SOC sweep was completed November 14, 2026; see
 soc-final-review-2026-11-14.md for scope and preservation checks.
+
+## Repeatable formatter
+
+Run `python3 scripts/code-cleanup.py UNIT` for a report-only preview, then `--apply` within an authorized cleanup. Optional `--output PATH` records changed files. It reviews editable unit HTML/Nunjucks plus unit-owned shared includes, preserves front matter/preformatted code/comments, and asserts parsed source tags, attributes and text stay unchanged apart from insignificant whitespace. Still build and compare rendered output before/after: source equivalence alone is not a layout check. ES's 28-file pass on November 14 confirmed all 27 rendered outputs retained identical structure, text and attributes. Other units are not automatically swept.

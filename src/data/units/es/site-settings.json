@@ -25,5 +25,8 @@
       "opacity": 0.33
     }
   },
-  "titleSuffix": "Ethnic Studies | UH Mānoa"
+  "titleSuffix": "Ethnic Studies | UH Mānoa",
+  "canonicalSections": [
+    "/"
+  ]
 }

@@ -85,8 +85,14 @@
       "alt": "Department of Ethnic Studies at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/courses/": {
+    "/courses.html": {
       "image": "/media/heroes/es/hero-15.webp",
+      "position": "center center",
+      "alt": "Department of Ethnic Studies at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/student-learning-outcomes.html": {
+      "image": "/media/heroes/es/hero-05.webp",
       "position": "center center",
       "alt": "Department of Ethnic Studies at the University of Hawaiʻi at Mānoa",
       "credit": false
