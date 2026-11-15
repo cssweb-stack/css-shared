@@ -10,13 +10,16 @@ Student heroes are split into `students/graduate/` and `students/general/`.
 The first split follows the user's Sociology review: graduate contains 02, 14,
 24, 28, 38, 42, 54 and 57.webp; the other 44 remaining images are general.
 These are approved visual-use categories, not claims about pictured people's
-actual ages or enrollment. Featured/supporting sorting has not been performed.
+actual ages or enrollment. Approved general Featured selections live under `students/general/featured/`.
+All other general images have now been approved as Supporting and live under
+`students/general/supporting/`. Graduate Featured images are 42, 54 and 57.webp in `graduate/featured/`;
+the other four remain in `graduate/supporting/`. Image24 was reclassified as General Featured.
 
 Keep filenames stable. When moving a file, update all active references before
 removing the old path. Existing assignments are saved in shared unit heroes.json;
 selection must not reshuffle on every build. Migration inventory scripts discover
-both nested folders. The Review page `/heroes/extra-students.html` shows images
-not selected by Sociology; they may still be assigned to other sites.
+both nested folders. The completed Extra Student Images candidate page was removed.
+`/heroes/graduate-images.html` now displays the graduate bank for selection.
 
 ## Faculty and universal shared pages
 

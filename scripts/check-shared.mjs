@@ -240,7 +240,12 @@ for (const filename of rejectedStudentHeroes) {
 const image = `/media/heroes/students/${filename}`;
 if (sourceFiles.some(file => file.startsWith(path.join(root, 'media/heroes/students') + path.sep) && path.basename(file) === filename)) throw new Error(`Rejected student hero restored: ${image}`);
 for (const file of sourceFiles.filter(file => file.endsWith('.json') && file.includes('/data/'))) {
-if (['', 'general/', 'graduate/'].some(folder => fs.readFileSync(file, 'utf8').includes('/media/heroes/students/' + folder + filename))) throw new Error(`Rejected student hero referenced: ${path.relative(root, file)}`);
+const containsRejected = value => {
+if (typeof value === 'string') return value.startsWith('/media/heroes/students/') && path.posix.basename(value) === filename;
+if (Array.isArray(value)) return value.some(containsRejected);
+return value && typeof value === 'object' && Object.values(value).some(containsRejected);
+};
+if (containsRejected(JSON.parse(fs.readFileSync(file, 'utf8')))) throw new Error(`Rejected student hero referenced: ${path.relative(root, file)}`);
 }
 }
 console.log('Checked rejected student heroes stay removed and unassigned.');

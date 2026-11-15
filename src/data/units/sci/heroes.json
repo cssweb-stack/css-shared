@@ -1,104 +1,104 @@
 {
-  "defaultHero": "/media/heroes/students/general/12.webp",
+  "defaultHero": "/media/heroes/students/general/supporting/12.webp",
   "pages": {
     "/directory/": {
-      "image": "/media/heroes/students/general/01.webp",
+      "image": "/media/heroes/students/general/supporting/01.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/": {
-      "image": "/media/heroes/students/general/10.webp",
+      "image": "/media/heroes/students/general/featured/10.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/privacy.html": {
-      "image": "/media/heroes/students/graduate/38.webp",
+      "image": "/media/heroes/students/graduate/supporting/38.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/contact/": {
-      "image": "/media/heroes/students/general/12.webp",
+      "image": "/media/heroes/students/general/supporting/12.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/support-sci.html": {
-      "image": "/media/heroes/students/general/12.webp",
+      "image": "/media/heroes/students/general/supporting/12.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/programs/communication/": {
-      "image": "/media/heroes/students/general/23.webp",
+      "image": "/media/heroes/students/general/supporting/23.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/programs/communicology/": {
-      "image": "/media/heroes/students/graduate/24.webp",
+      "image": "/media/heroes/students/general/featured/24.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/programs/journalism/": {
-      "image": "/media/heroes/students/general/25.webp",
+      "image": "/media/heroes/students/general/featured/25.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/programs/library-and-information-science/": {
-      "image": "/media/heroes/students/general/26.webp",
+      "image": "/media/heroes/students/general/featured/26.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/programs/matsunaga-institute-for-peace/": {
-      "image": "/media/heroes/students/general/27.webp",
+      "image": "/media/heroes/students/general/featured/27.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/courses/communication.html": {
-      "image": "/media/heroes/students/general/39.webp",
+      "image": "/media/heroes/students/general/featured/39.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/courses/communicology.html": {
-      "image": "/media/heroes/students/general/40.webp",
+      "image": "/media/heroes/students/general/featured/40.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/courses/journalism.html": {
-      "image": "/media/heroes/students/general/41.webp",
+      "image": "/media/heroes/students/general/featured/41.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/courses/library-and-information-science.html": {
-      "image": "/media/heroes/students/graduate/42.webp",
+      "image": "/media/heroes/students/graduate/featured/42.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/courses/matsunaga-institute-for-peace.html": {
-      "image": "/media/heroes/students/general/43.webp",
+      "image": "/media/heroes/students/general/supporting/43.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/degrees/undergraduate.html": {
-      "image": "/media/heroes/students/general/41.webp",
+      "image": "/media/heroes/students/general/featured/41.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/degrees/graduate.html": {
-      "image": "/media/heroes/students/graduate/42.webp",
+      "image": "/media/heroes/students/graduate/featured/42.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false

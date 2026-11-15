@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Home",
+    "url": "/index.html"
+  },
+  {
+    "label": "Redirects and 404s",
+    "url": "/redirects-404s/index.html"
+  },
+  {
+    "label": "Heroes",
+    "url": "/heroes/index.html"
+  },
+  {
+    "label": "General Featured Images",
+    "url": "/heroes/general-featured.html"
+  },
+  {
+    "label": "Graduate Images",
+    "url": "/heroes/graduate-images.html"
+  },
+  {
+    "label": "PUBA Images",
+    "url": "/heroes/puba-images.html"
+  }
+]

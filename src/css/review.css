@@ -12,6 +12,12 @@ color: var(--white);
 margin-top: 2rem;
 margin-bottom: 3rem;
 }
+.review-hero-label {
+font-weight: 600;
+}
+.review-hero-label--featured {
+color: #aa0000;
+}
 .degree-navigation .degree-navigation-list > .degree-navigation-group-start {
 margin-inline-start: 1.5rem;
 }

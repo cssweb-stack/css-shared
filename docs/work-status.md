@@ -2,6 +2,98 @@
 
 Updated November 14, 2026 (Pacific/Honolulu).
 
+## November 14: Three PUBA heroes selected; unique-image gallery added
+
+- Applied only requested PUBA assignments: homepage graduate Featured57, Nonprofit Management certificate42, Public Policy certificate54. Default and other page selections unchanged. PUBA built and all three rendered hero paths checked.
+- Added /heroes/puba-images.html (Current PUBA Images) and PUBA Images primary-nav link. Gallery deduplicates the effective current hero paths, showing one original-proportions image per file with filename/folder. Uses shared Review presentation. Review rebuilt; live route/nav, unique images and assets verified. Local only, not committed/pushed/deployed.
+
+## November 14: Graduate gallery restored for PUBA selection
+
+- Restored /heroes/graduate-images.html and Graduate Images navigation link. Shared presentation shows three Featured and five Supporting images in separate H2 sections, filenames and native proportions. General Featured gallery retained. No PUBA assignments changed.
+- Review built25 pages; live gallery/menu and eight image files verified. Local only, not committed/pushed/deployed.
+
+## November 14: ES Support and Certificate heroes selected
+
+- Support ES uses General Featured60; Certificate ES uses General Featured55. ES built and both rendered hero paths verified; Review rebuilt. Local only, not committed/pushed/deployed.
+
+## November 14: Eight ES Featured hero selections applied
+
+- User selections applied: homepage48, News41, BA17, BA outcomes25, BAM51, Contact26, Double Majors20, Courses24, all General Featured bank. Default now follows homepage48. Existing other heroes and universal mural assignments unchanged.
+- ES build passed; all eight rendered hero paths/copied files verified. Review rebuilt. No broad editorial/a11y recertification claimed. Local shared mappings/outputs only, not committed/pushed/deployed.
+
+## November 14: General Featured gallery replaces completed galleries
+
+- Removed Graduate Images and General Supporting Images generation/output/nav entries. Added /heroes/general-featured.html with all19 General Featured files, filenames and original image proportions, using shared Review shell/styles. Primary nav now links General Featured Images. No unit assignments changed; user will select ES replacements next.
+- Review built24 pages. Live gallery/nav and all19 image files verified; removed gallery outputs absent. Local only, not committed/pushed/deployed.
+
+## November 14: Final SOC24/32 adjustment
+
+- User requested24 replace32 and32 remain Supporting/unused on SOC. Minor Concentrations now24. Because24 had been on Support SOC, assigned previously unused General Supporting22 there to preserve unique selection and leave32 unused. No bank files moved (32 was already Supporting). SOC build and both rendered hero paths checked; Review rebuilt. Local only, not committed/pushed/deployed.
+
+## November 14: SOC graduate/general image cycle completed
+
+- User requested42 to Applications and34 to the former42 page. Applied full cycle: Graduate Applications42, Sakihara Scholarship34, Support SOC24. Reclassified34 from General Supporting to Graduate Supporting, updating ANTH/SOC paths. Graduate bank is eight again; General Featured19/Supporting25. No new reuse introduced.
+- ANTH/SOC builds and shared check passed; three rendered SOC hero paths verified. Review rebuilt. Local only, not committed/pushed/deployed.
+
+## November 14: Image24 moved to General Featured
+
+- User confirmed moving24.webp from graduate/supporting to general/featured. Updated ANTH/SOC/PSY/SCI references while preserving which pages display it. Graduate pool now seven (three Featured, four Supporting); General Featured19. SOC Graduate Applications still displays24 and needs a newly selected unique graduate replacement; no reuse proposed or automatic substitute chosen.
+- Four affected site builds/shared check passed; Review rebuilt. Local only, not committed/pushed/deployed.
+
+## November 14: Image60 corrected to General Featured
+
+- User clarified60.webp is Featured. Moved general/supporting/60 to general/featured/60 and updated ANTH/SOC/PSY/POLS references; current SOC assignment remains faculty landing (Courses is51). Four builds passed; Review rebuilt to remove60 from Supporting gallery and show Featured label. User’s intended action for24 remains an open clarification; no24 changes made. Local only, not committed/pushed/deployed.
+
+## November 14: General Supporting image review page added
+
+- Added /heroes/general-supporting.html and shared navigation link General Supporting Images. Shows all 27 general/supporting files in filename order at natural proportions using shared Review shell/styles. No assignments/categories changed. User rejected reusing another graduate image as a substitute for finding an additional unique selection; do not propose that workaround again.
+- Review built 25 pages; live route/nav and all 27 assets verified. Local only, not committed/pushed/deployed.
+
+## November 14: Graduate heroes classified
+
+- User explicitly selected Graduate Featured57/54/42. Moved those three to graduate/featured and other five (02/14/24/28/38) to graduate/supporting, preserving assignments and updating six units’ paths. 38 remains Supporting because its upgrade was tentative; 24 remains graduate pending a decision about its possible general/undergraduate use. No additional approved graduate reserve identified.
+- Six affected builds and shared check passed; Review rebuilt with red Featured labels and Supporting labels on graduate selection page. Local only, not committed/pushed/deployed.
+
+## November 14: Eighth SOC replacement completed
+
+- User added Supporting37; replaced it with remaining unused Featured47 on BA Concentrations. SOC built and rendered hero path verified; Review rebuilt. All 17 General Featured images are now used by SOC. Local only, not committed/pushed/deployed.
+
+## November 14: Seven SOC Supporting assignments replaced
+
+- User identified seven Supporting images for replacement on SOC, not deletion: 43→26,09→27,18→31,56→25,21→36,07→39,19→40. Used seven previously unused General Featured files, preserving unique assignments. Shared Supporting files remain available. SOC rebuilt; seven rendered paths verified. Review rebuilt. Local only, not committed/pushed/deployed.
+
+## November 14: Review classification labels emphasized
+
+- Removed New swap-in output and obsolete SOC mapping flags. Featured labels now use shared Review CSS red #aa0000 and weight600; Supporting labels use explicit weight600. No hero choices changed. Review rebuilt. Local only, not committed/pushed/deployed.
+
+## November 14: General classification finished; graduate selection page added
+
+- Moved all 17 remaining unclassified general images to supporting, updating six unit mappings. General bank now has 17 Featured and 27 Supporting images. Graduate bank remains eight images awaiting classification. Removed Extra Student Images generation/output/nav link; added /heroes/graduate-images.html and Graduate Images nav link using shared Review presentation and natural image sizes.
+- Six affected site builds and shared check passed; Review rebuilt. No individual hero choices changed, only paths/categories. Local only, not committed/pushed/deployed.
+
+## November 14: Ten extra images approved as Supporting
+
+- Moved 22,23,29,30,44,45,46,50,58,62.webp to students/general/supporting. Updated assignments in ANTH/POLS/PSY/SCI/WGSS; Sociology selections unchanged. Review labels Supporting and excludes both classified general folders from Extra Student Images, leaving no unreviewed extra candidates. Other SOC-selected general images remain unclassified until directed.
+- Five affected site builds and shared check passed; all ten files exist and former active JSON paths absent. Review rebuilt. Local only, not committed/pushed/deployed.
+
+## November 14: Approved Featured images removed from candidate review
+
+- Extra Student Images now excludes all students/general/featured files in addition to images already used by SOC. Files/assignments retained; only candidate display filtered. Review rebuilt and checked ten remaining candidates with no Featured image paths. Local only, not committed/pushed/deployed.
+
+## November 14: Nine SOC general selections marked Featured
+
+- User approved 41,10,48,04,51,17,61,20,55.webp. Moved these nine to students/general/featured and updated all active references. General Featured now contains 17 approved files. Regular hero review labels now identify Featured images as well as the extra-image page; graduate assets unchanged.
+- Six affected builds, shared check and SOC verifier passed. No active JSON retains former paths. Review rebuilt with Featured labels. Local only, not committed/pushed/deployed.
+
+## November 14: Eight extra general images marked Featured
+
+- User approved 25,26,27,31,36,39,40,47.webp as Featured. Moved only those eight to students/general/featured and updated existing assignments in ANTH/POLS/PSY/SCI; other images remain unclassified. Extra Student Images discovers nested folders, retains filename order and labels these Featured. Rejected-file guard covers any nested bank category.
+- Four affected site builds and shared check passed; Review rebuilt. Local asset moves/data/Review changes only, not committed/pushed/deployed.
+
+## November 14: Review missing menu item corrected live
+
+- User screenshot and live HTTP confirmed the old three-item menu despite new page existing. Moved primary navigation to shared data/common/review-navigation.json, read dynamically and watched with resetConfig. Restarted only confirmed Review process PID57557. New preview session94781 serves port8090. Live HTTP now contains four links including Extra Student Images; its page returns200. No user restart required. Local only, not committed/pushed/deployed.
+
 ## November 14: Student hero bank split; extra-image review added
 
 - Moved all 52 remaining student heroes into graduate (8:02/14/24/28/38/42/54/57) and general (44), based on current approved SOC graduate assignments. No image edits or quality classification. Updated six units’ active hero data and migration bank discovery to nested paths; removed old generated flat copies. Rejected-image guard now checks nested banks too. Updated hero-bank README to supersede obsolete pool/profile guidance.

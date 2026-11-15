@@ -2,9 +2,9 @@
   "defaultHero": "/media/heroes/puba/01.webp",
   "pages": {
     "/": {
-      "image": "/media/heroes/puba/01.webp",
+      "image": "/media/heroes/students/graduate/featured/57.webp",
       "position": "center center",
-      "alt": "UH Students",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/about/why-study-puba.html": {
@@ -92,15 +92,15 @@
       "credit": false
     },
     "/graduate-certificate/nonprofit-management.html": {
-      "image": "/media/heroes/puba/02.webp",
+      "image": "/media/heroes/students/graduate/featured/42.webp",
       "position": "center center",
-      "alt": "UH Students",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/graduate-certificate/public-policy.html": {
-      "image": "/media/heroes/puba/01.webp",
+      "image": "/media/heroes/students/graduate/featured/54.webp",
       "position": "center center",
-      "alt": "UH Students",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/support-puba.html": {

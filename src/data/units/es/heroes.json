@@ -1,5 +1,5 @@
 {
-  "defaultHero": "/media/heroes/es/hero-04.webp",
+  "defaultHero": "/media/heroes/students/general/featured/48.webp",
   "pages": {
     "/faculty/": {
       "image": "/media/heroes/es/hero-09.webp",
@@ -14,9 +14,9 @@
       "credit": false
     },
     "/": {
-      "image": "/media/heroes/es/hero-04.webp",
+      "image": "/media/heroes/students/general/featured/48.webp",
       "position": "center center",
-      "alt": "Department of Ethnic Studies at the University of Hawaiʻi at Mānoa",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/about/why-study-es.html": {
@@ -44,27 +44,27 @@
       "credit": false
     },
     "/undergraduate/certificate-es.html": {
-      "image": "/media/heroes/es/hero-01.webp",
+      "image": "/media/heroes/students/general/featured/55.webp",
       "position": "center center",
-      "alt": "Department of Ethnic Studies at the University of Hawaiʻi at Mānoa",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/major-ba.html": {
-      "image": "/media/heroes/es/hero-05.webp",
+      "image": "/media/heroes/students/general/featured/17.webp",
       "position": "center center",
-      "alt": "Department of Ethnic Studies at the University of Hawaiʻi at Mānoa",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/double-majors.html": {
-      "image": "/media/heroes/es/hero-08.webp",
+      "image": "/media/heroes/students/general/featured/20.webp",
       "position": "center center",
-      "alt": "Department of Ethnic Studies at the University of Hawaiʻi at Mānoa",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/bam.html": {
-      "image": "/media/heroes/es/hero-10.webp",
+      "image": "/media/heroes/students/general/featured/51.webp",
       "position": "center center",
-      "alt": "Department of Ethnic Studies at the University of Hawaiʻi at Mānoa",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/center-for-oral-history.html": {
@@ -74,27 +74,33 @@
       "credit": false
     },
     "/support-es.html": {
-      "image": "/media/heroes/es/hero-03.webp",
+      "image": "/media/heroes/students/general/featured/60.webp",
       "position": "center center",
-      "alt": "Department of Ethnic Studies at the University of Hawaiʻi at Mānoa",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/contact.html": {
-      "image": "/media/heroes/es/hero-07.webp",
+      "image": "/media/heroes/students/general/featured/26.webp",
       "position": "center center",
-      "alt": "Department of Ethnic Studies at the University of Hawaiʻi at Mānoa",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/courses.html": {
-      "image": "/media/heroes/es/hero-15.webp",
+      "image": "/media/heroes/students/general/featured/24.webp",
       "position": "center center",
-      "alt": "Department of Ethnic Studies at the University of Hawaiʻi at Mānoa",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/undergraduate/student-learning-outcomes.html": {
-      "image": "/media/heroes/es/hero-05.webp",
+      "image": "/media/heroes/students/general/featured/25.webp",
       "position": "center center",
-      "alt": "Department of Ethnic Studies at the University of Hawaiʻi at Mānoa",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/department-news.html": {
+      "image": "/media/heroes/students/general/featured/41.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     }
   }
