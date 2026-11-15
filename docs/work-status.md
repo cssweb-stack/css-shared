@@ -2,6 +2,10 @@
 
 Updated November 14, 2026 (Pacific/Honolulu).
 
+## November 14: SOC homepage intro unified
+
+- Merged welcome, former tagline sentence and following prose into one standard opening paragraph on ../soc/src/index.html, preserving wording and removing tagline styling. SOC build passed; rendered opening paragraph contains all three parts and no tagline class. Local SOC source/output only, not committed/pushed/deployed.
+
 ## November 14: Three PUBA heroes selected; unique-image gallery added
 
 - Applied only requested PUBA assignments: homepage graduate Featured57, Nonprofit Management certificate42, Public Policy certificate54. Default and other page selections unchanged. PUBA built and all three rendered hero paths checked.
