@@ -18,6 +18,9 @@ font-weight: 600;
 .review-hero-label--featured {
 color: #aa0000;
 }
+.review-source-path {
+overflow-wrap: anywhere;
+}
 .degree-navigation .degree-navigation-list > .degree-navigation-group-start {
 margin-inline-start: 1.5rem;
 }

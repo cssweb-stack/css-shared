@@ -1,6 +1,54 @@
 # Current work handoff
 
-Updated November 14, 2026 (Pacific/Honolulu).
+Updated November 15, 2026 (Pacific/Honolulu).
+
+## November 15: Unit publishing changed to manual-only
+
+- Removed push and hourly schedule triggers from all ten ../UNIT/.github/workflows/deploy.yml files (ANTH/ES/GEO/POLS/PSY/PUBA/SCI/SOC/SSRI/WGSS). workflow_dispatch remains; deployment jobs and local development commands are unchanged. Shared validation workflow is unchanged.
+- Verified all ten trigger blocks are manual-only and the entire permissions/job portion is byte-for-byte unchanged. No site rebuild needed for trigger-only edits. No GitHub run started.
+- Local changes only, not committed/pushed/deployed. Existing GitHub schedules continue until each workflow change is pushed to its default branch. After source pushes, manually use Actions > Build and publish UNIT > Run workflow. Push shared changes first when needed; manually rebuild affected units afterward. Daily scheduling remains a future option, not enabled.
+
+## November 15: GitHub deployment failure diagnosis
+
+- Public SOC Actions API: latest30 runs contain28 successes and2 failures (runs43722908266 and43680359679). Both fail at Deploy with missing github-pages artifact; latest failed run passed shared validation, install, build and upload. API confirms its unexpired github-pages artifact actually exists. This supports an intermittent artifact-discovery problem at deployment; precise backend cause remains unconfirmed.
+- All ten unit deploy workflows schedule hourly at minute23, in addition to pushes/manual runs. This produces up to240 scheduled deployment attempts daily across ten units and amplifies failure notifications. Hourly scheduling exists to pick up shared-source changes; do not remove it without preserving an agreed refresh strategy.
+- Read-only diagnosis; no workflow changes, reruns, commits, pushes or deployments. Superseded next step: user chose manual-only publishing below; no retry mechanism added. Do not characterize website builds as failing when the failure is deployment-only.
+
+## November 15: Live preview crawler/indexing diagnosis
+
+- Read-only inspection: ES/SOC/PSY/PUBA/SSRI/GEO all have indexingEnabled:false and shared shell emits noindex,nofollow. Confirmed all six live GitHub homepages return HTTP200 with that meta directive and no X-Robots-Tag header; cssweb-stack.github.io/robots.txt returns404 (no domain-root robots exclusion file observed). Siteimprove documentation explicitly says it ignores noindex/nofollow for crawl discovery; these settings do not explain the three selective scan failures. Actual Siteimprove crawl-error details/IP-level behavior remain unknown.
+- Python HTTPS check initially failed due local certificate-store configuration; system curl verified TLS and all responses successfully. No indexing/code/settings changed; shared handoff note only.
+
+## November 15: SSRI Home/Directory heroes finalized
+
+- Home and Directory now Saunders05. Contact and Jack remain07. SSRI built; all four rendered assignments verified. Review rebuilt. Local only, not committed/pushed/deployed.
+
+## November 15: SSRI Research section aligned
+
+- Changed only Research landing hero from Saunders02 to01; all four research children already used01 via the existing default. SSRI built; all five rendered Research heroes verified01. Review rebuilt. Local only, not committed/pushed/deployed.
+
+## November 15: Remaining SSRI Support heroes selected
+
+- Fiscal Compliance now uses Saunders02; Research Services uses Saunders06. Grant Development/Boilerplate04 and Support ordering unchanged. SSRI built; both rendered assignments verified. Review rebuilt. Local only, not committed/pushed/deployed.
+
+## November 15: SSRI Grant Development and Boilerplate aligned
+
+- Both pages now use Saunders mural04.webp. Added explicit reviewOrder metadata so Support begins Grant Development then Boilerplate, adjacent, followed by other support pages. Other hero assignments unchanged.
+- SSRI and Review builds passed; both rendered hero paths and live Support order verified. Local only, not committed/pushed/deployed.
+
+## November 15: SSRI hero review grouped by section
+
+- SSRI-only gallery order is now Support (four pages), Research (five), Other Pages (three), followed by existing Faculty Bio Pages and Privacy and Policies. Alphabetical within each group; frequency sections omitted for SSRI. Existing image assignments and other unit groupings unchanged.
+- Review build passed; live /heroes/ssri.html checked for requested order, correct route membership, all16 entries exactly once. Review remains outside a Git repository; shared handoff updated locally. No commit/push/deployment.
+
+## November 14: H1 review shows source paths
+
+- Added always-visible relative src file paths beneath all136 headings, using small text and safe wrapping; kept four columns. No source URLs renamed. Review rebuilt; live page checked for136 visible paths. Local only, not committed/pushed/deployed.
+
+## November 14: Four-unit H1 review page added
+
+- Added /headings.html (Page Headings) and shared navigation link. Four responsive columns in requested order SSRI/SOC/ES/PUBA. Reads actual rendered H1s, follows clickable primary/dropdown navigation order Home→Contact, then lists all remaining source-defined content pages alphabetically under Other Pages. No titles/H1s edited; generated redirects excluded.
+- Review built27 pages. Inventory check confirms each of 136 pages exactly once (SSRI16, SOC60, ES29, PUBA31), no missing H1, correct first/last nav destinations. Live desktop/mobile layout/nav checked; four columns at desktop, no horizontal overflow. Local only, not committed/pushed/deployed.
 
 ## November 14: SOC homepage intro unified
 

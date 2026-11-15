@@ -11,6 +11,17 @@ verification. Review pages use `/heroes/es.html`, never an automatically created
 `/heroes/es/index.html`. Existing intentional section indexes remain exceptions;
 this is not authorization to relocate them indiscriminately.
 
+## Manual publishing during development
+
+Agreed November 15, 2026: all ten unit publishing workflows run only when
+manually started with GitHub Actions Run workflow. Remove automatic push and
+hourly schedule triggers. This supersedes hourly shared-source refreshes during
+the current development cycle. Develop locally, push source changes when ready,
+then manually publish each affected site after the required unit and shared
+changes are on GitHub. A shared push alone does not refresh published sites.
+A daily schedule may be considered later; it is not enabled or agreed now.
+Shared-source validation on pushes and pull requests remains separate.
+
 ## Scope and ownership
 
 Across college websites, order comparable items alphabetically by their displayed
