@@ -8,13 +8,13 @@
     "children": [
       {
         "label": "Why Study POLS",
-        "url": "/about-pols/why-study-pols.html",
+        "url": "/about/why-study-pols.html",
         "icon": "question-circle",
         "iconColor": null
       },
       {
         "label": "Specializations",
-        "url": "/about-pols/specializations/",
+        "url": "/about/specializations/",
         "icon": "layers",
         "iconColor": null
       }

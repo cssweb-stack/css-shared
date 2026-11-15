@@ -32,3 +32,7 @@ Evidence: [SEO measurements](../exports/seo/es-final-2026-11-14.json), [approved
 - Commit/push/deploy both `../es` and `css-shared` together, then perform live HTTP checks and Siteimprove scanning. No publishing was performed in this pass.
 
 Existing user edits and workbook/Excel temporary files were preserved. The current local changes are not evidence of synchronization with GitHub.
+
+## Follow-up qualification
+
+The user identified two editorial gaps after this review: ES Courses remained the Courses H1, and associated-faculty listings inherited hyphen separators from the shared template. Both were corrected and explicit rendered-output checks added. The prior SEO report itself records ES Courses; its zero-error result did not validate full-subject heading wording. Accessibility results establish the tested structural/interaction properties, not editorial quality. Source formatting preserved text and therefore did not correct these wording/separator defects. No fresh full accessibility run is claimed for these subsequent copy corrections.

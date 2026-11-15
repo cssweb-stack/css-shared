@@ -27,7 +27,7 @@ faculty_slugs = ['noenoe-silva','carolyn-stephenson','dean-saranillio','debbie-s
 specials=['alternative-futures','comparative-politics','indigenous-politics','international-relations','law-and-policy','political-theory']
 M={
  'home':('/', 'Political Science at the University of Hawaiʻi'),
- 'specializations':('/about-pols/specializations/','Specializations'),
+ 'specializations':('/about/specializations/','Specializations'),
  'certificate-in-law-and-society':('/undergraduate/certificate-law-society.html','Certificate (Law and Society)'),
  'minor':('/undergraduate/minor.html','Minor'), 'major':('/undergraduate/major-ba.html','Major (BA)'),
  'bam':('/undergraduate/bam.html','BA/MA Pathway (BAM)'), 'honors-track':('/undergraduate/honors-track.html','Honors Track'),
@@ -44,10 +44,10 @@ M={
  'give-a-gift':('/support-pols.html','Support POLS'), 'contact':('/contact.html','Contact POLS'),
  'pi-sigma-alpha':('/pi-sigma-alpha.html','Pi Sigma Alpha'),
  'news':('/news.html','News'), 'colloquia':('/colloquia.html','Colloquia')}
-for s in specials:M[s]=('/about-pols/specializations/'+s+'.html',pages[s].findtext('title'))
+for s in specials:M[s]=('/about/specializations/'+s+'.html',pages[s].findtext('title'))
 for s in faculty_slugs:M[s]=('/faculty/'+s+'.html',pages[s].findtext('title'))
 links={urlsplit(pages[s].findtext('link')).path.rstrip('/') or '/':dest for s,(dest,_) in M.items()}
-why='/about-pols/why-study-pols.html'
+why='/about/why-study-pols.html'
 for s in ['about','undergraduate-program','graduate-program']:links[urlsplit(pages[s].findtext('link')).path.rstrip('/')]=why
 links.update({'/faculty':'/faculty/','/privacy-policy':'/privacy.html'})
 unresolved=set(); image_inventory=[]

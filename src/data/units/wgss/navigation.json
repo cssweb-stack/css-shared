@@ -8,19 +8,19 @@
     "children": [
       {
         "label": "Why Study WGSS",
-        "url": "/about-wgss/why-study-wgss.html",
+        "url": "/about/why-study-wgss.html",
         "icon": "question-circle",
         "iconColor": null
       },
       {
         "label": "Alumni",
-        "url": "/about-wgss/alumni.html",
+        "url": "/about/alumni.html",
         "iconColor": null,
         "icon": "people"
       },
       {
         "label": "Colloquia",
-        "url": "/about-wgss/colloquia.html",
+        "url": "/about/colloquia.html",
         "iconColor": null,
         "icon": "calendar3"
       }

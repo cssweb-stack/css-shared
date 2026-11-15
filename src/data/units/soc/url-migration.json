@@ -67,12 +67,12 @@
     },
     {
       "from": "/undergraduate/",
-      "to": "/about-soc/why-study-soc.html",
+      "to": "/about/why-study-soc.html",
       "label": "Undergraduate"
     },
     {
       "from": "/graduate/",
-      "to": "/about-soc/why-study-soc.html",
+      "to": "/about/why-study-soc.html",
       "label": "Graduate"
     },
     {
@@ -262,37 +262,37 @@
     },
     {
       "from": "/history/",
-      "to": "/about-soc/history.html",
+      "to": "/about/history.html",
       "label": "History"
     },
     {
       "from": "/about/",
-      "to": "/about-soc/research-areas/",
+      "to": "/about/research-areas/",
       "label": "About"
     },
     {
       "from": "/asia-pacific-hawaii/",
-      "to": "/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html",
+      "to": "/about/research-areas/asia-pacific-hawaii-regional-global-contexts.html",
       "label": "Asia, Pacific, and Hawaiʻi in Regional and Global Contexts"
     },
     {
       "from": "/nationalism-globalization-sustainability/",
-      "to": "/about-soc/research-areas/nationalism-globalization-sustainability.html",
+      "to": "/about/research-areas/nationalism-globalization-sustainability.html",
       "label": "Nationalism, Globalization, and Sustainability"
     },
     {
       "from": "/health-aging-medical-sociology/",
-      "to": "/about-soc/research-areas/health-aging-medical-sociology.html",
+      "to": "/about/research-areas/health-aging-medical-sociology.html",
       "label": "Health, Aging, and Medical Sociology"
     },
     {
       "from": "/race-ethnicity-gender-class/",
-      "to": "/about-soc/research-areas/race-ethnicity-gender-class.html",
+      "to": "/about/research-areas/race-ethnicity-gender-class.html",
       "label": "Race, Ethnicity, Gender, and Class"
     },
     {
       "from": "/crime-law-social-control/",
-      "to": "/about-soc/research-areas/crime-law-social-control.html",
+      "to": "/about/research-areas/crime-law-social-control.html",
       "label": "Crime, Law, and Social Control"
     },
     {
@@ -321,7 +321,7 @@
       "label": "Yue Sun"
     },
     {
-      "from": "/about-soc/soc-courses.html",
+      "from": "/about/soc-courses.html",
       "to": "/courses.html",
       "label": "SOC Courses"
     },
@@ -332,18 +332,63 @@
     },
     {
       "from": "/news/",
-      "to": "/about-soc/news-events.html",
+      "to": "/about/news-events.html",
       "label": "News and Events"
     },
     {
       "from": "/events/",
-      "to": "/about-soc/news-events.html",
+      "to": "/about/news-events.html",
       "label": "News and Events"
     },
     {
       "from": "/colloquia-archive/",
-      "to": "/about-soc/news-events.html",
+      "to": "/about/news-events.html",
       "label": "News and Events"
+    },
+    {
+      "from": "/about-soc/why-study-soc.html",
+      "to": "/about/why-study-soc.html",
+      "label": "Why Study Soc"
+    },
+    {
+      "from": "/about-soc/news-events.html",
+      "to": "/about/news-events.html",
+      "label": "News Events"
+    },
+    {
+      "from": "/about-soc/history.html",
+      "to": "/about/history.html",
+      "label": "History"
+    },
+    {
+      "from": "/about-soc/research-areas/",
+      "to": "/about/research-areas/",
+      "label": "Research Areas"
+    },
+    {
+      "from": "/about-soc/research-areas/health-aging-medical-sociology.html",
+      "to": "/about/research-areas/health-aging-medical-sociology.html",
+      "label": "Health Aging Medical Sociology"
+    },
+    {
+      "from": "/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html",
+      "to": "/about/research-areas/asia-pacific-hawaii-regional-global-contexts.html",
+      "label": "Asia Pacific Hawaii Regional Global Contexts"
+    },
+    {
+      "from": "/about-soc/research-areas/crime-law-social-control.html",
+      "to": "/about/research-areas/crime-law-social-control.html",
+      "label": "Crime Law Social Control"
+    },
+    {
+      "from": "/about-soc/research-areas/nationalism-globalization-sustainability.html",
+      "to": "/about/research-areas/nationalism-globalization-sustainability.html",
+      "label": "Nationalism Globalization Sustainability"
+    },
+    {
+      "from": "/about-soc/research-areas/race-ethnicity-gender-class.html",
+      "to": "/about/research-areas/race-ethnicity-gender-class.html",
+      "label": "Race Ethnicity Gender Class"
     }
   ],
   "retired": [],

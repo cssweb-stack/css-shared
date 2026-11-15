@@ -8,25 +8,25 @@
     "children": [
       {
         "label": "Why Study SOC?",
-        "url": "/about-soc/why-study-soc.html",
+        "url": "/about/why-study-soc.html",
         "icon": "question-circle",
         "iconColor": null
       },
       {
         "label": "Research Areas",
-        "url": "/about-soc/research-areas/",
+        "url": "/about/research-areas/",
         "iconColor": null,
         "icon": "layers"
       },
       {
         "label": "History",
-        "url": "/about-soc/history.html",
+        "url": "/about/history.html",
         "iconColor": null,
         "icon": "clock-history"
       },
       {
         "label": "News & Events",
-        "url": "/about-soc/news-events.html",
+        "url": "/about/news-events.html",
         "icon": "newspaper",
         "iconColor": null
       }

@@ -48,9 +48,9 @@ specials = ['archaeology','biological-anthropology','cultural-anthropology','app
 associated = [('adjunct-faculty','Adjunct Faculty'),('affiliate-graduate-faculty','Affiliate Graduate Faculty'),('cooperating-graduate-faculty','Cooperating Graduate Faculty'),('emeritus-retired-faculty','Emeritus and Retired Faculty'),('emeriti-faculty-in-memoriam','Emeriti (In Memoriam)')]
 M = {
     'home': ('/', 'Anthropology at the University of Hawaiʻi'),
-    'overview': ('/about-anth/subfields-specializations/', 'Subfields and Specializations'),
-    'colloquia': ('/about-anth/colloquia.html','Colloquia'),
-    'department-news': ('/about-anth/department-news.html','Department News'),
+    'overview': ('/about/subfields-specializations/', 'Subfields and Specializations'),
+    'colloquia': ('/about/colloquia.html','Colloquia'),
+    'department-news': ('/about/department-news.html','Department News'),
     'minor': ('/undergraduate/minor-anth.html','Minor'),
     'minor-medical-anthropology': ('/undergraduate/medical-anthropology-minor.html','Medical Anthropology, Minor'),
     'ba': ('/undergraduate/major-ba.html','Major (BA)'),
@@ -72,8 +72,8 @@ M = {
     'lambda-alpha': ('/lambda-alpha.html','Lambda Alpha'),
     'policies-procedures': ('/policies-procedures.html','Policies and Procedures'),
 }
-for s in specials: M[s] = ('/about-anth/subfields-specializations/' + s + '.html', pages[s].findtext('title'))
-why, experiential = '/about-anth/why-study-anth.html', '/undergraduate/experiential-learning.html'
+for s in specials: M[s] = ('/about/subfields-specializations/' + s + '.html', pages[s].findtext('title'))
+why, experiential = '/about/why-study-anth.html', '/undergraduate/experiential-learning.html'
 links = {urlsplit(pages[s].findtext('link')).path.rstrip('/') or '/': dest for s,(dest,_) in M.items()}
 for s in ['undergraduate','graduate']: links[urlsplit(pages[s].findtext('link')).path.rstrip('/')] = why
 for s in ['practical-experience-internships','networking','field-schools']: links[urlsplit(pages[s].findtext('link')).path.rstrip('/')] = experiential

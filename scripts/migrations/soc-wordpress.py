@@ -13,7 +13,7 @@ items=ET.parse(SOURCE).findall('./channel/item')
 pages={wp(i,'post_name'):i for i in items if wp(i,'post_type')=='page' and wp(i,'status')=='publish'}
 M={
 'home':('/','Sociology at the University of Hawaiʻi'),
-'history':('/about-soc/history.html','History'),
+'history':('/about/history.html','History'),
 'minor-requirements':('/undergraduate/minor/','Minor'),
 'minor-concentrations':('/undergraduate/minor/concentrations.html','Minor Concentrations'),
 'ba-requirements':('/undergraduate/major/','Major (BA)'),
@@ -45,11 +45,11 @@ AREAS=[
 ('race-ethnicity-gender-class','race-ethnicity-gender-class','Race, Ethnicity, Gender, and Class'),
 ('crime-law-social-control','crime-law-social-control','Crime, Law, and Social Control')]
 FACULTY=[('Manfred B. Steger','manfred-b-steger'),('Nandita Sharma','nandita-sharma'),('Le Lin','le-lin'),('Jennifer Darrah','jennifer-darrah'),('Sun-Ki Chai','sun-ki-chai'),('Wei Zhang','wei-zhang'),('David Johnson','david-johnson'),('Katherine Irwin','katherine-irwin'),('Krysia Mossakowski','krysia-mossakowski'),('Ashley Rubin','ashley-rubin'),('Aya Kimura','aya-kimura'),('Myungji Yang','myungji-yang'),('Eunjeong Paek','eunjeong-paek'),('Yue Sun','yue-sun')]
-for slug,name,title in AREAS:M[slug]=('/about-soc/research-areas/'+name+'.html',title)
+for slug,name,title in AREAS:M[slug]=('/about/research-areas/'+name+'.html',title)
 for name,slug in FACULTY:M[slug]=('/faculty/'+slug+'.html',name)
 assert all(s in pages for s in M),set(M)-set(pages)
 links={urlsplit(pages[s].findtext('link')).path.rstrip('/') or '/':dest for s,(dest,title) in M.items()}
-merges={'about':('/about-soc/why-study-soc.html','about-sociology'),'undergraduate':('/about-soc/why-study-soc.html','undergraduate-study'),'graduate':('/about-soc/why-study-soc.html','graduate-study'),'news':('/about-soc/news-events.html',''),'events':('/about-soc/news-events.html',''),'undergraduate-funding':('/undergraduate/funding-sources.html','additional-undergraduate-funding'),'department-travel-funds':('/graduate/funding-sources/','department-travel-funds')}
+merges={'about':('/about/why-study-soc.html','about-sociology'),'undergraduate':('/about/why-study-soc.html','undergraduate-study'),'graduate':('/about/why-study-soc.html','graduate-study'),'news':('/about/news-events.html',''),'events':('/about/news-events.html',''),'undergraduate-funding':('/undergraduate/funding-sources.html','additional-undergraduate-funding'),'department-travel-funds':('/graduate/funding-sources/','department-travel-funds')}
 for slug,(dest,anchor) in merges.items():links[urlsplit(pages[slug].findtext('link')).path.rstrip('/')]=dest+('#'+anchor if anchor else '')
 links.update({'/faculty':'/faculty/','/privacy-policy':'/privacy.html'})
 ids={wp(i,'post_id'):links.get(urlsplit(i.findtext('link')).path.rstrip('/') or '/') for i in pages.values()}
@@ -215,11 +215,11 @@ why='<h1>Why Study SOC</h1>\n'
 for slug,heading,anchor in [('about','About Sociology','about-sociology'),('undergraduate','Undergraduate Study','undergraduate-study'),('graduate','Graduate Study','graduate-study')]:
  body=clean(slug);body=re.sub(r'<h1\b[^>]*>.*?</h1>','',body,flags=re.S)
  why+='<h2 id="'+anchor+'">'+heading+'</h2>\n'+body+'\n'
-write('/about-soc/why-study-soc.html','Why Study SOC',why,['about','undergraduate','graduate'])
+write('/about/why-study-soc.html','Why Study SOC',why,['about','undergraduate','graduate'])
 areas='<h1>Research Areas</h1>\n<p>Explore the Department of Sociology’s five research areas.</p>\n'+linked_list([(title,M[slug][0]) for slug,name,title in AREAS])
-write('/about-soc/research-areas/','Research Areas',areas)
+write('/about/research-areas/','Research Areas',areas)
 news='<h1>News and Events</h1>\n<p>Department news and event announcements are shared on our Twitter/X account.</p>\n<p><a href="https://x.com/UHM_Sociology">Follow @UHM_Sociology on X</a></p>\n<p>The department’s news and events feed will appear here. Feed integration is pending.</p>\n<p>Email <a href="mailto:socdept@hawaii.edu">socdept@hawaii.edu</a> to join the events email list.</p>'
-write('/about-soc/news-events.html','News and Events',news,['news','events'])
+write('/about/news-events.html','News and Events',news,['news','events'])
 # Preserve supplemental source material as sections rather than additional navigation pages.
 bodies['scholarships-and-funding']+='\n<h2 id="additional-undergraduate-funding">Additional Undergraduate Funding</h2>\n'+without_h1(clean('undergraduate-funding'))
 bodies['graduate-funding']+='\n<h2 id="department-travel-funds">Department Travel Funds</h2>\n'+without_h1(clean('department-travel-funds'))
@@ -238,7 +238,7 @@ for slug,(url,title) in M.items():
  write(url,title,bodies[slug],sources)
 faculty='<h1>Faculty</h1>\n<p>From both local and global vantage points, our faculty provide students with a broad foundation in theory and methods of sociological research.</p>\n'+linked_list([(name,M[slug][0]) for name,slug in FACULTY])
 write('/faculty/','Faculty',faculty,['faculty'])
-write('/about-soc/soc-courses.html','Courses','<h1>Courses</h1>\n<p>Find Sociology class availability, course descriptions, and catalog information.</p>\n{% include "layouts/content/course-resources.njk" %}')
+write('/about/soc-courses.html','Courses','<h1>Courses</h1>\n<p>Find Sociology class availability, course descriptions, and catalog information.</p>\n{% include "layouts/content/course-resources.njk" %}')
 privacy='---\nlayout: shell.njk\ntitle: "Privacy Policy"\ndescription: "How College of Social Sciences websites use Google Analytics and visitor information, and how to manage your privacy choices."\npermalink: "/privacy.html"\n---\n{% include "pages/privacy.njk" %}\n'
 (ROOT/'src/privacy.html').write_text(privacy);all_urls.append('/privacy.html')
 # Remove only scaffold pages that are not in the approved output set.

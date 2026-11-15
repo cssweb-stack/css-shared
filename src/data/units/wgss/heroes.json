@@ -7,13 +7,13 @@
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/about-wgss/alumni.html": {
+    "/about/alumni.html": {
       "image": "/media/heroes/students/29.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/about-wgss/colloquia.html": {
+    "/about/colloquia.html": {
       "image": "/media/heroes/students/09.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
@@ -85,7 +85,7 @@
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/about-wgss/why-study-wgss.html": {
+    "/about/why-study-wgss.html": {
       "image": "/media/heroes/students/62.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",

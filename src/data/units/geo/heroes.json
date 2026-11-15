@@ -9,23 +9,23 @@
       "location": "Honolulu, Oʻahu, Hawaiʻi",
       "alt": "Satellite imagery of Honolulu, Oʻahu, Hawaiʻi"
     },
-    "/about-geo/why-study-geo.html": {
+    "/about/why-study-geo.html": {
       "image": "/media/heroes/hanalei-kauai.webp",
       "location": "Hanalei, Kauaʻi, Hawaiʻi",
       "position": "center bottom",
       "alt": "Satellite imagery of Hanalei, Kauaʻi, Hawaiʻi"
     },
-    "/about-geo/areas-of-study.html": {
+    "/about/areas-of-study.html": {
       "image": "/media/heroes/chiang-mai-thailand.webp",
       "location": "Chiang Mai, Thailand",
       "alt": "Satellite imagery of Chiang Mai, Thailand"
     },
-    "/about-geo/lecture-series.html": {
+    "/about/lecture-series.html": {
       "image": "/media/heroes/kaneohe-oahu.webp",
       "location": "Kāneʻohe Bay, Oʻahu, Hawaiʻi",
       "alt": "Satellite imagery of Kāneʻohe Bay, Oʻahu, Hawaiʻi"
     },
-    "/about-geo/department-news.html": {
+    "/about/department-news.html": {
       "image": "/media/heroes/hong-kong-china.webp",
       "location": "Hong Kong, China",
       "alt": "Satellite imagery of Hong Kong, China"
@@ -106,7 +106,7 @@
       "location": "Papeʻete, Tahiti, French Polynesia",
       "alt": "Satellite imagery of Papeʻete, Tahiti, French Polynesia"
     },
-    "/about-geo/geo-courses.html": {
+    "/about/geo-courses.html": {
       "image": "/media/heroes/kahului-maui-hawaii.webp",
       "location": "Kahului, Maui, Hawaiʻi",
       "alt": "Satellite imagery of Kahului, Maui, Hawaiʻi"

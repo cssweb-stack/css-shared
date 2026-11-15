@@ -1,0 +1,31 @@
+{
+  "redirects": [
+    {
+      "from": "/about-geo/areas-of-study.html",
+      "to": "/about/areas-of-study.html",
+      "label": "Areas Of Study"
+    },
+    {
+      "from": "/about-geo/why-study-geo.html",
+      "to": "/about/why-study-geo.html",
+      "label": "Why Study Geo"
+    },
+    {
+      "from": "/about-geo/geo-courses.html",
+      "to": "/about/geo-courses.html",
+      "label": "Geo Courses"
+    },
+    {
+      "from": "/about-geo/department-news.html",
+      "to": "/about/department-news.html",
+      "label": "Department News"
+    },
+    {
+      "from": "/about-geo/lecture-series.html",
+      "to": "/about/lecture-series.html",
+      "label": "Lecture Series"
+    }
+  ],
+  "retired": [],
+  "unresolved": []
+}

@@ -1,0 +1,46 @@
+{
+  "redirects": [
+    {
+      "from": "/about-pols/why-study-pols.html",
+      "to": "/about/why-study-pols.html",
+      "label": "Why Study Pols"
+    },
+    {
+      "from": "/about-pols/specializations/",
+      "to": "/about/specializations/",
+      "label": "Specializations"
+    },
+    {
+      "from": "/about-pols/specializations/indigenous-politics.html",
+      "to": "/about/specializations/indigenous-politics.html",
+      "label": "Indigenous Politics"
+    },
+    {
+      "from": "/about-pols/specializations/law-and-policy.html",
+      "to": "/about/specializations/law-and-policy.html",
+      "label": "Law And Policy"
+    },
+    {
+      "from": "/about-pols/specializations/political-theory.html",
+      "to": "/about/specializations/political-theory.html",
+      "label": "Political Theory"
+    },
+    {
+      "from": "/about-pols/specializations/comparative-politics.html",
+      "to": "/about/specializations/comparative-politics.html",
+      "label": "Comparative Politics"
+    },
+    {
+      "from": "/about-pols/specializations/international-relations.html",
+      "to": "/about/specializations/international-relations.html",
+      "label": "International Relations"
+    },
+    {
+      "from": "/about-pols/specializations/alternative-futures.html",
+      "to": "/about/specializations/alternative-futures.html",
+      "label": "Alternative Futures"
+    }
+  ],
+  "retired": [],
+  "unresolved": []
+}

@@ -2,6 +2,22 @@
 
 Updated November 14, 2026 (Pacific/Honolulu).
 
+## November 14: Review startup restored to Eleventy model
+
+- Replaced custom Python server/launcher with standard npm clean/build/dev and Eleventy --serve --port=8090. Python now only prepares content under ignored _generated; Eleventy renders 23 HTML pages and copies CSS/media. Installed cached dependencies with the same Eleventy/Nunjucks setup as unit sites; removed scripts/dev.py. Startup callback visibly prints actual localhost URL after listening.
+- Tested Eleventy on temporary port 8091 because the user-owned old Python server still holds 8090: all 23 pages generated, HTTP 200, explicit Local server: http://localhost:8091/ output confirmed. Agent test server stopped. User must Ctrl+C their old server then run go for standard 8090 startup. Supersedes previous custom-server fixes. Local only, not committed/pushed/deployed.
+
+## November 14: ES editorial gaps corrected and review claims qualified
+
+- Courses H1/front-matter title expanded from ES Courses to Ethnic Studies Courses; concise searchTitle Courses remains intentional. Shared associated-faculty template now uses colon-space before descriptions, replacing literal hyphens; optional links use semicolon instead of em dash. Other consumers receive this template correction on rebuild.
+- Added ES verifier assertions for exact full-subject Courses H1 and colon separators for all 13 associated faculty descriptions. Prior text/SEO reports now explicitly acknowledge the coverage gaps: mechanical clean scans and zero SEO errors did not enforce these rules. Earlier accessibility and code evidence retained with scope qualifications. Local only, not pushed/deployed.
+
+## November 14: About folder standardized across sites
+
+- Renamed suffixed About folders in SOC, GEO, POLS, PSY, ANTH and WGSS to about. ES already corrected; PUBA already uses about. SSRI/SCI/UHERO/style-guide have no About folder to rename. Updated active source paths/permalinks, navigation, heroes, original redirect destinations, current URL inventories, approved title inventories and migration scripts. Historical migration reports and original preservation snapshots retained unchanged.
+- Added 37 direct redirects from the previous suffixed paths (SOC 9, GEO 5, POLS 8, PSY 1, ANTH 11, WGSS 3). GEO’s older build now invokes the existing shared redirect generator. No template/CSS redesign.
+- Six clean builds passed; all 37 redirect files and target pages checked. SOC full verification passed (60 content pages, 73 redirects); shared check passed (857 files). Review rebuilt. Local edits only, not committed/pushed/deployed.
+
 ## November 14: ES About folder shortened
 
 - Renamed ../es/src/about-es to about; updated navigation, hero mappings, permalinks, current URL inventory, editorial mapping and title inventory. Original preserved-content snapshot untouched; verifier maps its old keys. Added four old about-es URL redirects directly to new pages, alongside updated original WordPress destinations. Clean ES build and verification passed: 29 pages, 31 redirects, nine bios, 21 preserved bodies. Review rebuilt. Local only, not committed/pushed/deployed.

@@ -8,25 +8,25 @@
     "children": [
       {
         "label": "Why Study ANTH",
-        "url": "/about-anth/why-study-anth.html",
+        "url": "/about/why-study-anth.html",
         "icon": "question-circle",
         "iconColor": null
       },
       {
         "label": "Subfields & Specializations",
-        "url": "/about-anth/subfields-specializations/",
+        "url": "/about/subfields-specializations/",
         "iconColor": null,
         "icon": "layers"
       },
       {
         "label": "Colloquia",
-        "url": "/about-anth/colloquia.html",
+        "url": "/about/colloquia.html",
         "iconColor": null,
         "icon": "calendar3"
       },
       {
         "label": "Department News",
-        "url": "/about-anth/department-news.html",
+        "url": "/about/department-news.html",
         "iconColor": null,
         "icon": "newspaper"
       }

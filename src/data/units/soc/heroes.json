@@ -1,19 +1,19 @@
 {
   "defaultHero": "/media/heroes/students/61.webp",
   "pages": {
-    "/about-soc/why-study-soc.html": {
+    "/about/why-study-soc.html": {
       "image": "/media/heroes/students/14.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/about-soc/research-areas/": {
+    "/about/research-areas/": {
       "image": "/media/heroes/students/52.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/about-soc/news-events.html": {
+    "/about/news-events.html": {
       "image": "/media/heroes/students/05.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
@@ -25,7 +25,7 @@
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/about-soc/history.html": {
+    "/about/history.html": {
       "image": "/media/heroes/students/56.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
@@ -127,31 +127,31 @@
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/about-soc/research-areas/asia-pacific-hawaii-regional-global-contexts.html": {
+    "/about/research-areas/asia-pacific-hawaii-regional-global-contexts.html": {
       "image": "/media/heroes/students/43.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/about-soc/research-areas/nationalism-globalization-sustainability.html": {
+    "/about/research-areas/nationalism-globalization-sustainability.html": {
       "image": "/media/heroes/students/20.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/about-soc/research-areas/health-aging-medical-sociology.html": {
+    "/about/research-areas/health-aging-medical-sociology.html": {
       "image": "/media/heroes/students/49.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/about-soc/research-areas/race-ethnicity-gender-class.html": {
+    "/about/research-areas/race-ethnicity-gender-class.html": {
       "image": "/media/heroes/students/04.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/about-soc/research-areas/crime-law-social-control.html": {
+    "/about/research-areas/crime-law-social-control.html": {
       "image": "/media/heroes/students/13.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",

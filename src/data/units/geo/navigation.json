@@ -8,25 +8,25 @@
 "children": [
 {
 "label": "Why Study GEO",
-"url": "/about-geo/why-study-geo.html",
+"url": "/about/why-study-geo.html",
 "iconColor": null,
 "icon": "question-circle"
 },
 {
 "label": "Areas of Study",
-"url": "/about-geo/areas-of-study.html",
+"url": "/about/areas-of-study.html",
 "iconColor": null,
 "icon": "layers"
 },
 {
 "label": "Lecture Series",
-"url": "/about-geo/lecture-series.html",
+"url": "/about/lecture-series.html",
 "iconColor": null,
 "icon": "calendar3"
 },
 {
 "label": "Department News",
-"url": "/about-geo/department-news.html",
+"url": "/about/department-news.html",
 "iconColor": null,
 "icon": "newspaper"
 }
@@ -34,7 +34,7 @@
 },
 {
 "label": "Courses",
-"url": "/about-geo/geo-courses.html"
+"url": "/about/geo-courses.html"
 },
 {
 "label": "Undergraduate",

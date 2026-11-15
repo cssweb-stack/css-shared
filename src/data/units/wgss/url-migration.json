@@ -1,0 +1,21 @@
+{
+  "redirects": [
+    {
+      "from": "/about-wgss/colloquia.html",
+      "to": "/about/colloquia.html",
+      "label": "Colloquia"
+    },
+    {
+      "from": "/about-wgss/why-study-wgss.html",
+      "to": "/about/why-study-wgss.html",
+      "label": "Why Study Wgss"
+    },
+    {
+      "from": "/about-wgss/alumni.html",
+      "to": "/about/alumni.html",
+      "label": "Alumni"
+    }
+  ],
+  "retired": [],
+  "unresolved": []
+}

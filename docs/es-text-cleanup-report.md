@@ -1,6 +1,6 @@
 # Ethnic Studies text and code cleanup
 
-November 14, 2026. Complete locally for the authorized editorial and formatting pass. No required user decision remains: the user supplied the catalog titles for ES 318 and ES 370.
+November 14, 2026. Initial editorial and formatting pass completed locally, with two coverage gaps found afterward. No required user decision remains: the user supplied the catalog titles for ES 318 and ES 370.
 
 ## Scope and editorial review
 
@@ -59,3 +59,9 @@ The new report-only-by-default `scripts/code-cleanup.py` asserts parsed source-e
 Evidence: [text counts and preservation](../exports/es/ES-text-cleanup-2026-11-14.json), [code formatting](../exports/es/ES-code-cleanup-2026-11-14.json).
 
 Changes are local in `../es` and `css-shared`. Not committed, pushed or deployed by this pass.
+
+## Follow-up: editorial coverage gaps
+
+The initial pass left the Courses H1 as ES Courses and retained a shared-template hyphen between associated faculty names/contact details and research descriptions. Neither was an approved exception. The source-formatting pass covered unit pages and the ES policy appendix, not all shared templates; the SEO audit recorded the H1 without rejecting its acronym. Zero proposed mechanical text patches did not establish full editorial consistency.
+
+Corrected Courses to Ethnic Studies Courses and changed the shared associated-faculty description separator to colon-space. Added rendered-output assertions to the ES verifier for that H1 and all 13 associated-faculty descriptions. The shared template correction applies to its other consuming sites when rebuilt. Earlier reports remain evidence of checks actually run, not proof every editorial rule was enforced.

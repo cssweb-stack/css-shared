@@ -17,7 +17,7 @@ pages={i.findtext('w:post_name','',NS):i for i in items if i.findtext('w:post_ty
 def raw(s):return pages[s].findtext('c:encoded','',NS)
 core=['monisha-das-gupta','kathy-ferguson','l-ayu-saraswati','mire-koikari','lani-teves','s-heijin-lee','lisa-m-vallin']
 M={'home':('/','Women, Gender and Sexuality Studies at the University of Hawaiʻi'),
- 'alumni':('/about-wgss/alumni.html','Alumni'),'colloquia':('/about-wgss/colloquia.html','Colloquia'),
+ 'alumni':('/about/alumni.html','Alumni'),'colloquia':('/about/colloquia.html','Colloquia'),
  'certificate-requirements':('/undergraduate/certificate.html','WGSS Certificate'),
  'queer-studies-certificate':('/undergraduate/queer-studies.html','Queer Studies Certificate'),
  'ba-requirements':('/undergraduate/major-ba/','Major (BA)'),
@@ -28,7 +28,7 @@ M={'home':('/','Women, Gender and Sexuality Studies at the University of Hawaiʻ
  'wgss-graduate-certificate':('/graduate/graduate-certificate.html','WGSS Graduate Certificate'),
  'faculty':('/faculty/','Faculty'), 'give-a-gift':('/support-wgss.html','Support WGSS'),
  'contact':('/contact.html','Contact WGSS'), 'scholarships':('/funding-sources.html','Funding Sources')}
-why='/about-wgss/why-study-wgss.html';outcomes='/undergraduate/student-learning-outcomes.html';applications='/graduate/applications-admissions.html'
+why='/about/why-study-wgss.html';outcomes='/undergraduate/student-learning-outcomes.html';applications='/graduate/applications-admissions.html'
 links={urlsplit(pages[s].findtext('link')).path.rstrip('/') or '/':dest for s,(dest,_) in M.items()}
 for s in ['about','undergraduate','graduate','jobs-prospects']:links[urlsplit(pages[s].findtext('link')).path.rstrip('/')]=why
 for s in core+['meda-chesney-lind']:links['/'+s]='/faculty/'+s+'.html'

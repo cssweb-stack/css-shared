@@ -1,0 +1,11 @@
+{
+  "redirects": [
+    {
+      "from": "/about-psy/why-study-psy.html",
+      "to": "/about/why-study-psy.html",
+      "label": "Why Study Psy"
+    }
+  ],
+  "retired": [],
+  "unresolved": []
+}
