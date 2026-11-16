@@ -28,5 +28,6 @@
   "titleSuffix": "Ethnic Studies | UH Mānoa",
   "canonicalSections": [
     "/"
-  ]
+  ],
+  "sidebarLeftLayouts": true
 }

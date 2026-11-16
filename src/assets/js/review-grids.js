@@ -11,7 +11,9 @@ const children = [...layout.children].filter(child => getComputedStyle(child).di
 const firstTop = children[0]?.getBoundingClientRect().top;
 const firstRow = children.filter(child => Math.abs(child.getBoundingClientRect().top - firstTop) < 2);
 const width = layout.getBoundingClientRect().width;
-let columns = firstRow.map(child => `${Math.round(child.getBoundingClientRect().width / width * 100)}%`).join(' / ');
+const standardSidebar = ['left', 'right'].some(side => ['sm', 'med', 'large'].some(size => layout.classList.contains(`sidebar-${side}-${size}`)));
+const trackWidth = standardSidebar ? width - (parseFloat(layoutStyle.columnGap) || 0) * Math.max(firstRow.length - 1, 0) : width;
+let columns = firstRow.map(child => `${Math.round(child.getBoundingClientRect().width / trackWidth * 100)}%`).join(' / ');
 let horizontal = layoutStyle.columnGap;
 let vertical = layoutStyle.rowGap;
 if (layout.classList.contains('row')) {

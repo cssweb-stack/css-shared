@@ -28,5 +28,6 @@
   "canonicalSections": [
     "/"
   ],
-  "titleSuffix": "Sociology | UH Mānoa"
+  "titleSuffix": "Sociology | UH Mānoa",
+  "sidebarLeftLayouts": true
 }

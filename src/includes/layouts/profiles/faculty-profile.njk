@@ -3,11 +3,13 @@ layout: shell.njk
 ---
 <div class="page-section">
 <div class="container content-section">
-<div class="row gy-4 gx-0 gx-md-5 profile-page">
-<div class="col-12 col-md-4 profile-sidebar">
+<div class="{% if site.sidebarLeftLayouts %}sidebar-left-med profile-page{% else %}row gy-4 gx-0 gx-md-5 profile-page{% endif %}">
+<div class="{% if not site.sidebarLeftLayouts %}col-12 col-md-4 {% endif %}profile-sidebar">
 {% include "layouts/profiles/profile-sidebar.njk" %}
 </div>
-<div class="col-12 col-md-8 profile-biography">{{ content | safe }}</div>
+<div class="{% if not site.sidebarLeftLayouts %}col-12 col-md-8 {% endif %}profile-biography">
+{{ content | safe }}
+</div>
 </div>
 </div>
 </div>

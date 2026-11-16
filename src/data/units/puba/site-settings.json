@@ -29,5 +29,6 @@
   "canonicalSections": [
     "/"
   ],
-  "titleSuffix": "Public Administration | UH Mānoa"
+  "titleSuffix": "Public Administration | UH Mānoa",
+  "sidebarLeftLayouts": true
 }

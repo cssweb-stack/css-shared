@@ -197,7 +197,7 @@ margin-top: 1.5rem;
 margin-bottom: 0;
 }
 
-/* Keep contact text readable before enabling the narrow desktop sidebar. */
+/* Legacy Bootstrap profile geometry. Standard sidebar tracks live in layout.css. */
 @media (min-width: 768px) {
 .profile-sidebar {
 padding-right: calc(var(--bs-gutter-x) * 0.5);
@@ -354,6 +354,10 @@ display: flex;
 flex-direction: column;
 }
 
+.unit-contact:is([class*="sidebar-left-"], [class*="sidebar-right-"]) > .unit-contact-map {
+align-self: stretch;
+}
+
 .unit-contact .map-embed {
 flex: 1;
 height: auto;
@@ -379,8 +383,13 @@ border: 0;
 
 
 @media (min-width: 1600px) {
-.unit-contact > .unit-contact-office { width: 20%; }
-.unit-contact > .unit-contact-map { width: 80%; }
+.unit-contact:not([class*="sidebar-left-"], [class*="sidebar-right-"]) > .unit-contact-office {
+width: 20%;
+}
+
+.unit-contact:not([class*="sidebar-left-"], [class*="sidebar-right-"]) > .unit-contact-map {
+width: 80%;
+}
 }
 
 /* Profile contact links/icons: shared by person, building, and bio cards. */
@@ -457,11 +466,11 @@ margin: 0;
 }
 
 @media (min-width: 1600px) {
-.graduate-student > .student-photo-column {
+.graduate-student:not([class*="sidebar-left-"], [class*="sidebar-right-"]) > .student-photo-column {
 width: 20%;
 }
 
-.graduate-student > .student-details-column {
+.graduate-student:not([class*="sidebar-left-"], [class*="sidebar-right-"]) > .student-details-column {
 width: 80%;
 }
 }

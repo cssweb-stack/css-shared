@@ -1,12 +1,26 @@
-{% macro imageTextRow(src, width=600, height=600, alt="", reverse=false, href="", imageClass="photo-style", leadImage=none, landscape=false, tile=none, wide=false) %}
+{% macro imageTextRow(src, width=600, height=600, alt="", reverse=false, href="", imageClass="photo-style", leadImage=none, landscape=false, tile=none, wide=false, sidebarClass="") %}
 {% set rowContent = caller() %}
+{% set standardSidebar = sidebarClass or (site.sidebarLeftLayouts and not reverse) %}
+{% if standardSidebar %}
+{% set selectedSidebar = "sidebar-left-sm" %}
+{% if wide %}
+{% set selectedSidebar = "sidebar-left-large" %}
+{% elif landscape %}
+{% set selectedSidebar = "sidebar-left-med" %}
+{% endif %}
+{% if sidebarClass %}
+{% set selectedSidebar = sidebarClass %}
+{% endif %}
+<div class="{{ selectedSidebar | escape }} image-text-row">
+{% else %}
 <div class="row gy-4 gx-0 gx-md-5 image-text-row{% if reverse %} image-text-row--reverse{% endif %}{% if landscape %} image-text-row--landscape{% endif %}{% if wide %} image-text-row--wide{% endif %}">
+{% endif %}
 {% if reverse %}
-<div class="col-12 col-md-8 col-lg-9 image-text-content">
+<div class="{% if not standardSidebar %}col-12 col-md-8 col-lg-9 {% endif %}image-text-content">
 {{ rowContent | safe }}
 </div>
 {% endif %}
-<div class="col-12 col-md-4 col-lg-3 image-text-media">
+<div class="{% if not standardSidebar %}col-12 col-md-4 col-lg-3 {% endif %}image-text-media">
 {% if leadImage %}<img class="photo-style image-text-lead-photo" src="{{ leadImage.src | url }}" alt="{{ leadImage.alt | default('') | escape }}" width="{{ leadImage.width }}" height="{{ leadImage.height }}" loading="lazy" decoding="async">{% endif %}
 {% if href %}<a class="image-text-media-link" href="{{ href | url | escape }}">{% endif %}
 {% if tile %}
@@ -20,7 +34,7 @@
 {% if href %}</a>{% endif %}
 </div>
 {% if not reverse %}
-<div class="col-12 col-md-8 col-lg-9 image-text-content">
+<div class="{% if not standardSidebar %}col-12 col-md-8 col-lg-9 {% endif %}image-text-content">
 {{ rowContent | safe }}
 </div>
 {% endif %}

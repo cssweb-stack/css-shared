@@ -29,5 +29,6 @@
   "titleSuffix": "Anthropology | UH Mānoa",
   "canonicalSections": [
     "/"
-  ]
+  ],
+  "sidebarLeftLayouts": true
 }

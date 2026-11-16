@@ -1,10 +1,10 @@
 <div class="graduate-student-directory">
 {% for student in students %}
-<article class="row gy-4 gx-0 gx-md-5 graduate-student" aria-labelledby="student-heading-{{ loop.index }}">
-<div class="col-12 col-md-4 student-photo-column">
+<article class="{% if site.sidebarLeftLayouts %}sidebar-left-med graduate-student{% else %}row gy-4 gx-0 gx-md-5 graduate-student{% endif %}" aria-labelledby="student-heading-{{ loop.index }}">
+<div class="{% if not site.sidebarLeftLayouts %}col-12 col-md-4 {% endif %}student-photo-column">
 <img class="photo-style" src="{{ student.photo | url }}" alt="{{ student.name | escape }}" width="{{ student.photoWidth | default(212) }}" height="{{ student.photoHeight | default(212) }}" loading="lazy" decoding="async">
 </div>
-<div class="col-12 col-md-8 student-details-column">
+<div class="{% if not site.sidebarLeftLayouts %}col-12 col-md-8 {% endif %}student-details-column">
 <h2 class="profile-name" id="student-heading-{{ loop.index }}">{{ student.name | escape }}</h2>
 {% if student.program or student.studyArea %}
 <div class="profile-titles">

@@ -29,5 +29,6 @@
       "opacity": 0.33
     }
   },
-  "titleSuffix": "SSRI | UH Mānoa"
+  "titleSuffix": "SSRI | UH Mānoa",
+  "sidebarLeftLayouts": true
 }
