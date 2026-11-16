@@ -10,8 +10,10 @@ with consistent responsive spacing. Preserve that behavior while identifying
 accidental differences; do not treat every existing variation as intentional.
 
 Review's `/grids.html` displays the current arrangements in one place. Its colored
-cells use production classes and shared CSS, and image/text rows call the existing
-production macro. No specimen CSS defines columns, grid gaps or breakpoints.
+cells use production classes and shared CSS. All sidebar examples use the same
+user-supplied Sidebar and Content area paragraphs, including arrangements that
+normally contain images, maps or resources. Their column classes remain intact;
+the image/text macro is intentionally not used for these text-only specimens. No specimen CSS defines columns, grid gaps or breakpoints.
 Seven items exercise incomplete card/tile rows. Nested program-button examples
 retain their sidebar context. Headings identify patterns; expandable details list
 the consuming pages. A small script reads current widths and gaps without changing

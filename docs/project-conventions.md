@@ -285,6 +285,11 @@ remain in profile.css, but the cleanup should consolidate its column geometry
 into the shared general layout rules. This is the cleanup direction, not a claim
 that the CSS migration is already complete. The tab labels organize review;
 they do not approve final CSS class names or breakpoint/gap values.
+Sidebar review specimens use the same user-supplied paragraph in every narrow
+Sidebar column and the same supplied paragraph in every larger Content area.
+Use those two labels regardless of real page contents (images, maps, people,
+resources or text). Present sidebar examples by left/right arrangement; retain
+current geometry and source references until consolidation is authorized.
 See [Grid review](shared/grid-system-review.md).
 
 ## Shared five-column tile grid

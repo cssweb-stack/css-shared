@@ -2,6 +2,12 @@
 
 Updated November 16, 2026 (Pacific/Honolulu).
 
+## November 16: Sidebar specimens simplified to identical text
+
+- Review's12 sidebar examples now use the exact user-supplied paragraph in every narrow column (Sidebar) and the exact second paragraph in every larger column (Content area). Includes image/map/resource variants; removed their content-specific specimen names/images and display labels. Columns retain their production classes/proportions/gaps/flow, with generic left/right headings and existing usage references. No grid merge or production layout change.
+- Placeholder text lives in ../review/data/grid-placeholder.json and is watched during development. Review build, source syntax and whitespace checks pass. Browser checks verify both exact paragraphs/labels and no images in all12 sidebar examples, with no page overflow at375/820/1800px. No server started, commit, push or deployment. Push Review and start a fresh manual publish run to update the live page; shared changes are documentation only.
+- Pending design notes, not implemented rules: user dislikes16px profile gutters on iPad and prefers48px as an adjustable starting point. Small/Large sidebar variants were proposed; exact proportions/names and mergers remain under discussion. User reports Review is now live.
+
 ## November 16: Review deployment checkout failure corrected locally
 
 - User's first Review deployment failed cloning SCI before build/deploy. Confirmed SCI's public remote is inaccessible anonymously and its local checkout has no origin; WGSS is publicly accessible. This was an overstrict workflow assumption, not a Review render error. No credentials or repository visibility changed.
