@@ -35,8 +35,10 @@ Shared-source validation on pushes and pull requests remains separate.
 Review also publishes manually through its single Build and publish Review
 workflow. Its GitHub repository is cssweb-stack/review and its project address
 is https://cssweb-stack.github.io/review/. Local development retains root paths;
-publishing builds with SITE_PATH_PREFIX=/review/. Review checks out the ten unit
-sources and builds the five reviewed sites before generating its inventory. Push
+publishing builds with SITE_PATH_PREFIX=/review/. Review requires the five reviewed unit
+sources (ANTH, ES, PUBA, SOC, SSRI) and builds them before generating its inventory.
+Other unit sources are optional; unavailable repositories produce a warning and
+are omitted from the listings. This supersedes requiring all ten repositories. Push
 required css-shared and unit changes before manually publishing Review.
 
 

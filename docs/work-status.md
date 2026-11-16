@@ -2,6 +2,12 @@
 
 Updated November 16, 2026 (Pacific/Honolulu).
 
+## November 16: Review deployment checkout failure corrected locally
+
+- User's first Review deployment failed cloning SCI before build/deploy. Confirmed SCI's public remote is inaccessible anonymously and its local checkout has no origin; WGSS is publicly accessible. This was an overstrict workflow assumption, not a Review render error. No credentials or repository visibility changed.
+- Review checkout now requires ANTH/ES/PUBA/SOC/SSRI first; GEO/POLS/PSY/SCI/WGSS are optional and unavailable sources produce explicit warnings. Source-revision summary also tolerates missing optional checkouts. Existing generator/navigation already omit absent sibling sources. Updated the accepted publishing rule and Review README; all-ten requirement superseded.
+- bash syntax/whitespace pass. Simulated SCI failure succeeds while required SOC failure remains fatal. Isolated generation with only the five required sites passes:218 pages,28 grid signatures. No broad layout/browser rerun for this checkout-only correction. Local changes in Review and shared documentation; no commit/push/deployment. Next: commit/push Review, then start a NEW Build and publish Review run on main (rerunning the old failed run uses its old workflow revision).
+
 ## November 16: Review GitHub repository and manual publishing prepared
 
 - Initialized ../review on main and connected origin to https://github.com/cssweb-stack/review.git after confirming the remote was empty. No commits or pushes performed; source is ready for GitHub Desktop. If Add Local Repository was opened before initialization, cancel/reopen it and select the same review folder.
