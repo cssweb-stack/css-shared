@@ -2,6 +2,17 @@
 
 Updated November 15, 2026 (Pacific/Honolulu).
 
+## November 15: Live PUBA Siteimprove connection-error diagnosis
+
+- User screenshot reports Connection error, zero pages, site ID46178811157 for https://cssweb-stack.github.io/puba/. System curl confirms live homepage HTTP200 both normally and using documented SiteCheck-sitecrawl by Siteimprove.com user agent; root robots.txt returns404 (no robots file blocking crawl). This does not test Siteimprove IP/network access.
+- Live response still shows earlier Education for Public Service search title, not the latest acronym homepage title. noindex/nofollow remains present intentionally. No code changes or indexing changes made. Python urllib failed local certificate trust, so system curl used successfully; do not attribute that local Python failure to the website certificate.
+- Siteimprove official connection-error guidance directs Customer Support investigation. Need their failed request timestamp, exact URL and network/TLS/HTTP result to identify source; no proven hosting/IP block from this test.
+
+## November 15: Five homepage heading/title updates
+
+- Applied approved descriptive H1s to SSRI, PUBA, SOC, ANTH and ES homepages. Full subject at University of Hawaiʻi at Mānoa; SSRI uses at UH Mānoa. Homepage HTML/social titles now Full Unit Name (ACRONYM) | UH Mānoa through explicit homepage seoTitle. Removed obsolete slogan searchTitle fields; no optional tagline added.
+- Compared each source body: only H1 changed; protected Anthropology statement and all other copy intact. All five builds passed; rendered headings/title/social synchronization verified. These homepage edits and convention/handoff changes are local/uncommitted for the user’s GitHub Desktop workflow. Red helper lines remain off, indexing disabled; no push or deployment.
+
 ## November 15: Red helper lines disabled on all five sites
 
 - User will handle pushing in GitHub Desktop; no further push attempts. Set layoutGuides:false for SSRI, SOC and ES; PUBA and ANTH were already false. All five rebuilt successfully; shared builder excludes diagnostics.css when false. No content or indexing changes.

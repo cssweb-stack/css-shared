@@ -1457,3 +1457,7 @@ Agreed November 15, 2026: SSRI, PUBA, SOC, ANTH and ES are ready for final folde
 ## PUBA preview naming refinement
 
 Approved November15,2026: use support.html and about/news.html without redundant PUBA filename suffixes, matching courses.html. Update references and existing legacy redirect destinations; do not create redirects from these unestablished preview filenames. Courses H1 is Public Administration (PUBA) Courses; Faculty H1 is Public Administration Faculty; admissions H1/search title is Graduate Applications & Admissions. Certificate search titles retain Graduate Certificate in their full names. Support/News H1s spell out Public Administration; established search-title unit suffix remains unchanged. Scope is PUBA; no other site renames implied.
+
+## Descriptive homepage headings and acronym search titles
+
+Approved November15,2026 for SSRI, PUBA, SOC, ANTH and ES: homepage H1 identifies the unit at the University of Hawaiʻi at Mānoa; SSRI uses Social Science Research Institute at UH Mānoa to keep its long name manageable. Homepage HTML title is Full Unit Name (ACRONYM) | UH Mānoa, using a homepage-only seoTitle override so the ordinary subpage suffix is not duplicated. These replace the earlier slogan-led homepage H1/search titles and the shorter Anthropology university heading. Body statements remain protected and unchanged. Taglines are optional and require unit approval; none added automatically. All other page headings/titles remain as approved. Scope is five homepages, not every page on each site.
