@@ -1,0 +1,41 @@
+{
+  "archaeology": {
+    "facultySlugs": [
+      "james-m-bayman",
+      "patrick-v-kirch",
+      "christian-e-peterson",
+      "seth-quintus",
+      "miriam-stark"
+    ]
+  },
+  "biological-anthropology": {
+    "facultySlugs": [
+      "christopher-j-bae"
+    ]
+  },
+  "cultural-anthropology": {
+    "facultySlugs": [
+      "jan-brunson",
+      "alex-golub",
+      "jonathan-padwe",
+      "eirik-saethre",
+      "ty-p-kawika-tengan"
+    ]
+  },
+  "environmental-anthropology": {
+    "facultySlugs": [
+      "christopher-j-bae",
+      "patrick-v-kirch",
+      "jonathan-padwe",
+      "christian-e-peterson",
+      "seth-quintus",
+      "miriam-stark"
+    ]
+  },
+  "medical-anthropology": {
+    "facultySlugs": [
+      "jan-brunson",
+      "eirik-saethre"
+    ]
+  }
+}

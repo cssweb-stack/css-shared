@@ -24,7 +24,7 @@
 <h2 id="profile-websites-heading">Online</h2>
 <ul class="profile-supplemental-links">
 {% for website in websites %}
-<li><a class="website-link" href="{{ website.url | escape }}"><span class="special-text-icon" aria-hidden="true">{% include "media/icons/globe.svg" %}</span><span>{{ website.label | escape }}<span class="visually-hidden"> — {{ person.name | escape }}</span></span></a></li>
+<li><a class="website-link" href="{{ website.url | escape }}"><span>{{ website.label | escape }}<span class="visually-hidden"> — {{ person.name | escape }}</span></span></a></li>
 {% endfor %}
 </ul>
 </section>

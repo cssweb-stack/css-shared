@@ -1,7 +1,7 @@
 """Prepare or apply conservative flush-left HTML/Nunjucks source formatting.
 
 Never formats generated output. Default is report-only. Rendered preservation
-must still be checked after applying/building, as required by docs/code-cleanup.md.
+must still be checked after applying/building, as required by docs/rules/code-cleanup.md.
 """
 from pathlib import Path
 from html.parser import HTMLParser
@@ -17,7 +17,7 @@ class Events(HTMLParser):
         if text:self.events.append(['text',text])
 def events(s):
     p=Events();p.feed(s);return p.events
-def format_source(old):
+def _format_source_base(old):
     protected={}
     def protect(m):
         key=f'CODECLEANUPPROTECTED{len(protected)}TOKEN';protected[key]=m[0];return key
@@ -40,6 +40,29 @@ def format_source(old):
     for key,value in protected.items():s=s.replace(key,value)
     assert events(old)==events(s),'Formatting changed source structure, attributes or non-whitespace text'
     return s
+def format_source(old):
+ inline={}
+ def hold(match):
+  def save(t):
+   key=f'INLINEINSTRUCTIONTOKEN{len(inline)}END';inline[key]=t[0];return key
+  return re.sub(r'{%.*?%}',save,match[0],flags=re.S)
+ held=re.sub(r'<(p|h[1-6]|li)\b[^>]*>(?:(?!<(?:ul|ol)\b).)*?</\1>',hold,old,flags=re.S)
+ s=_format_source_base(held)
+ for key,value in inline.items():s=s.replace(key,value)
+ # Whitespace cleanup only in text, never attributes or template expressions.
+ parts=re.split(r'(<[^>]+>|{{.*?}}|{%.*?%})',s,flags=re.S)
+ for i,part in enumerate(parts):
+  if not part.startswith(('<','{{','{%')):
+   part=part.replace('\u00a0',' ')
+   part=re.sub(r'&nbsp;|&#160;|&#x[aA]0;',' ',part)
+   part=re.sub(r'[ \t]{2,}',' ',part)
+   part=re.sub(r'[ \t]+([.,;:!?])',r'\1',part)
+   parts[i]=part
+ s=''.join(parts)
+ # Spaces just inside block closing tags are not meaningful word separators.
+ s=re.sub(r'[ \t]+(</(?:p|li|h[1-6])>)',r'\1',s)
+ s='\n'.join(l.lstrip().rstrip() for l in s.splitlines() if l.strip())+'\n'
+ return s
 if __name__=='__main__':
     cli=argparse.ArgumentParser();cli.add_argument('unit');cli.add_argument('--apply',action='store_true');cli.add_argument('--output',type=Path);args=cli.parse_args()
     if not re.fullmatch(r'[a-z0-9-]+',args.unit):cli.error('Invalid unit')

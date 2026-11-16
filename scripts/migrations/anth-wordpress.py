@@ -60,13 +60,13 @@ M = {
     'undergraduate-funding': ('/undergraduate/funding-sources.html','Funding Sources'),
     'undergraduate-mentoring-program': ('/undergraduate/ump.html','Undergraduate Mentoring Program (UMP)'),
     'ausa': ('/undergraduate/ausa.html','Anthropology Undergraduate Student Association (AUSA)'),
-    'ma': ('/graduate/master-ma.html','Master’s (MA)'),
-    'phd': ('/graduate/doctorate-phd.html','Doctorate (PhD)'),
+    'ma': ('/graduate/master-ma/','Master’s (MA)'),
+    'phd': ('/graduate/doctorate-phd/','Doctorate (PhD)'),
     'graduate-students': ('/graduate/current-cohort.html','Current ANTH MA and PhD Students'),
     'graduate-funding': ('/graduate/funding-sources.html','Funding Sources'),
     'applications-admissions': ('/graduate/applications-admissions.html','Applications and Admissions'),
     'agsa': ('/graduate/agsa.html','Anthropology Graduate Student Association (AGSA)'),
-    'directory': ('/faculty/core-faculty.html','Core Faculty'),
+    'directory': ('/faculty/','Anthropology Faculty'),
     'give-a-gift': ('/support-anth.html','Support ANTH'),
     'contact': ('/contact.html','Contact ANTH'),
     'lambda-alpha': ('/lambda-alpha.html','Lambda Alpha'),
@@ -80,7 +80,7 @@ for s in ['practical-experience-internships','networking','field-schools']: link
 for s,_ in associated: links[urlsplit(pages[s].findtext('link')).path.rstrip('/')] = '/faculty/associated-faculty.html'
 for s,item in people_source.items():
     links[urlsplit(item.findtext('link')).path.rstrip('/')] = '/faculty/' + s + '.html' if s in core_slugs else '/contact.html' if any(c.attrib.get('nicename') == 'staff' for c in item.findall('category')) else '/faculty/associated-faculty.html'
-links.update({'/privacy-policy':'/privacy.html','/faculty':'/faculty/core-faculty.html'})
+links.update({'/privacy-policy':'/privacy.html','/faculty':'/faculty/'})
 unresolved, image_inventory = set(), set()
 def link(value):
     v = html.unescape(value).strip(); u = urlsplit(v)

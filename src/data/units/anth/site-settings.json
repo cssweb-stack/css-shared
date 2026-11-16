@@ -1,7 +1,7 @@
 {
   "policiesProceduresUrl": "/policies-procedures.html",
   "indexingEnabled": false,
-  "layoutGuides": true,
+  "layoutGuides": false,
   "stylesheet": "/anth.css",
   "url": "https://anthropology.manoa.hawaii.edu",
   "openGraph": {
@@ -25,5 +25,9 @@
       "color": "var(--uh-green)",
       "opacity": 0.33
     }
-  }
+  },
+  "titleSuffix": "Anthropology | UH Mānoa",
+  "canonicalSections": [
+    "/"
+  ]
 }

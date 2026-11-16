@@ -6,7 +6,12 @@ margin-block: 1.5rem;
 }
 
 /* Reusable image-and-text rows; keep page content in the calling HTML file. */
-.image-text-row + .image-text-row,
+/* Bootstrap adds the column gutter below each row's top edge.
+   Subtract it here so the visible gap remains one shared 3rem interval. */
+.image-text-row + .image-text-row {
+margin-top: calc(3rem - var(--bs-gutter-y, 0px));
+}
+
 .image-text-item + .image-text-item {
 margin-top: 3rem;
 }
@@ -60,6 +65,14 @@ width: 20%;
 
 .image-text-row--landscape:not(.image-text-row--reverse) > .image-text-content {
 width: 80%;
+}
+
+.image-text-row--wide > .image-text-media {
+width: 25%;
+}
+
+.image-text-row--wide > .image-text-content {
+width: 75%;
 }
 }
 
@@ -179,8 +192,8 @@ margin-bottom: var(--layout-stack-gap);
 }
 }
 
-/* All primary Bootstrap columns share the same content-edge normalization. */
-.content-section > .row > [class*="col-"] > :last-child {
+/* Trim only the final row at the section edge; earlier rows retain heading gaps. */
+.content-section > .row:last-child > [class*="col-"] > :last-child {
 margin-bottom: 0;
 }
 

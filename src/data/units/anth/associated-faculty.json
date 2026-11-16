@@ -124,7 +124,8 @@
           "name": "C.K. Work, PhD",
           "description": "sociocultural anthropology, anthropology of religion, development, and the anthropocene, Southeast Asian state formation, political economies of subsistence animists, interdimensional communication systems and rituals in Southeast Asia and Austronesia, Climate Change politics"
         }
-      ]
+      ],
+      "dividerBefore": true
     },
     {
       "title": "Cooperating Graduate Faculty",
@@ -189,7 +190,8 @@
           "name": "J. A. Swift, PhD",
           "description": "environmental archaeology, Polynesia, zooarchaeology, biomolecular methods, anthropocene"
         }
-      ]
+      ],
+      "dividerBefore": true
     }
   ]
 }

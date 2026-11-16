@@ -2,6 +2,1099 @@
 
 Updated November 15, 2026 (Pacific/Honolulu).
 
+## November 15: Approved repository push in progress
+
+- User authorized pushing the completed work, starting with css-shared, followed by SSRI, PUBA, SOC, ANTH and ES. Shared validation passed (898 files/13 unit records); local site build/accessibility/SEO evidence recorded above. Deployment workflows remain manual; pushing does not itself publish the five sites.
+- Preparing current reviewed source, shared assets, reorganized documentation and evidence for commit. Excluding Python cache and the open Excel temporary lock file; actual user-edited workbook retained. No deployment or indexing enablement requested in this push step. Remote synchronization will be verified after push.
+
+## November 15: Final five-site SEO checks completed
+
+- Checked218 current content pages: SSRI16, PUBA31, SOC60, ANTH82, ES29. All five metadata audits now report zero errors: unique nonplaceholder titles/descriptions, one H1, language, configured suffix, production canonical URLs, synchronized Open Graph/Twitter fields and existing shared social images.
+- ANTH initially had80 placeholder descriptions plus duplicate-description error and missing canonical configuration. Added page-specific descriptions in local front matter and canonicalSections:["/"] using existing renderer. All page bodies, protected statements, biographies, outcomes and policy wording unchanged by source comparison. Rebuilt ANTH successfully; formatter zero changes. Full outcome search title retained as approved despite length note.
+- Reviewed informational title/H1 notes: approved shorter title prefixes with unit suffix, degree abbreviations, 404 wording and descriptive outcomes search title. No further heading changes. Local link/asset/fragment checks pass across all218 pages with zero missing targets.
+- Indexing remains disabled on all five and every content page retains noindex. No robots.txt crawl block; no preview sitemap generated/submitted and no Google indexing request. Canonicals point to configured production domains, not preview URLs. This is local prelaunch technical SEO validation, not external ranking research or a live crawl.
+- Evidence: exports/seo/{ssri,puba,soc,anth,es}-2026-11-15.json plus corresponding *-links-2026-11-15.json. Next: user-authorized push/manual publication and Siteimprove scan coverage confirmation. Nothing committed, pushed or deployed during this task.
+
+## November 15: Final five-site accessibility pass completed
+
+- Sequential all-page browser audits: SSRI16, PUBA31, SOC60, ANTH82 and ES29 content pages (218 total), each at320/1800px. All pages pass H1/main/lang/alt-attribute/duplicate-ID structure checks and horizontal overflow checks. SSRI/PUBA/SOC/ES have zero confirmed axe violations.
+- ANTH flagged one landmark-unique issue on emeriti page at both widths: repeated Online regions shared the same accessible name. Shared profile-card supplemental section now references the person-name heading plus Online heading. Visible content unchanged. Only ANTH currently enables directoryShowOnline. Rebuilt ANTH; targeted emeriti recheck passes at both widths; no other ANTH violations. Formatter reports zero changes.
+- Every unit passes homepage keyboard skip-link/main focus transfer, desktop dropdown open/Escape, open mobile navigation/search axe scans, and homepage increased-text-spacing overflow spot check. These are representative interaction checks, not every interactive state on every page.
+- Evidence: exports/accessibility/{ssri,puba,soc,anth,es}-2026-11-15.json and anth-recheck-2026-11-15.json. Original ANTH baseline retains the detected issue; separate recheck proves resolution. axe WCAG A/AA tags through2.2 plus best practices in headless Chrome. Redirect documents excluded. Contrast incompletes remain manual items; external maps/social/analytics blocked. No exhaustive alt-description, screen-reader, PDF or third-party interface review and no legal-conformance/100-percent-score claim. Development helpers hidden only within audit; saved settings unchanged.
+- Next: final SEO and publication/Siteimprove coverage checks. Local only; no commit, push or deployment.
+
+## November 15: Anthropology folder cleanup completed
+
+- Quick source/root inventory found only disposable Finder metadata; removed six .DS_Store files including generated output. No abandoned source pages, empty source folders or duplicate review templates identified; migration reference evidence retained.
+- npm clean/build passed (82 content/36 redirects). Verified old anth-courses.html, support-anth.html and undergraduate/minor-anth.html outputs absent and current home/courses/support/minor present. Local only; no commit, push or deployment.
+
+## November 15: Four-site folder cleanup completed
+
+- Removed disposable Finder .DS_Store files outside dependency/Git internals in SSRI, ES, SOC and PUBA; removed empty source directories including SOC undergraduate/advising-support. Archived PUBA src/hero-review.njk to exports/cleanup/2026-11-15/puba-old-hero-review.tar.gz, then removed the obsolete duplicate review source.
+- Ran npm clean then build on all four sites successfully: SSRI16/10 redirects, ES29/31, SOC60/73, PUBA31/26. Verified obsolete renamed support/certificate/news outputs and PUBA hero-review.html are absent; all four homepages present. Reference evidence, dependencies and required source retained. Local only; no commit, push or deployment.
+
+## November 15: SOC and PUBA development-folder inventory
+
+- Read-only sweep excluding Git/dependency internals. SOC:60 HTML sources, Finder metadata, empty src/undergraduate/advising-support folder and stale _site/support-soc.html output. Keep reference (~7MB): documented migration evidence, not live source or junk.
+- PUBA:31 HTML sources plus src/hero-review.njk, an older standalone development hero-review page now duplicating centralized Review functionality. Candidate to archive, not removed. Finder metadata and stale _site/support-puba.html plus _site/about/puba-news.html output also found.
+- Nothing moved/deleted or bundled. Clean builds before publication should remove obsolete generated URLs; no build/deployment run during this inventory. Reported candidates to user.
+
+## November 15: SSRI and ES development-folder inventory
+
+- Read-only sweep of both repositories excluding dependency/Git internals:16 SSRI and29 ES source pages, root files/scripts/reference dependencies and empty/temp-file candidates. No empty source folders or obvious abandoned source pages found. Dynamic shared navigation/profile/footer references mean literal-link absence alone was not treated as unused content.
+- Found Finder .DS_Store metadata in both roots, .github and src (plus SSRI generated output). ES _site still contains obsolete support-es.html and undergraduate/certificate-es.html output from recent source renames; these are build leftovers, not source pages. A future clean build should remove these before publication.
+- ES reference folder (~852KB) retains original export/migration evidence; verify-site.py actively reads two JSON files, so do not move the whole folder as junk. node_modules, _site and .shared-state.json are normal development/build artifacts. Nothing moved/deleted or bundled; reported small candidates to user. No build or deployment performed.
+
+## November 15: Anthropology approved naming refinements
+
+- All page search-title suffixes now Anthropology | UH Mānoa. Renamed anth-courses.html → courses.html, undergraduate/minor-anth.html → undergraduate/minor.html and support-anth.html → support.html; updated source references, navigation, hero keys, unit includes and existing redirect destinations. No new redirects.
+- Support H1 spells out Anthropology; Subfields & Specializations and Policies & Procedures use approved ampersands. Outcomes search title expanded to BA Student Learning Outcomes & Institutional Learning Objectives; short H1 and outcome copy retained. Homepage authored wording unchanged, internal paths updated only.
+- ANTH build passed (82 content/36 redirects); rendered sample titles, new paths and short outcomes H1 verified; formatter zero changes. Local only; no commit, push or deployment. Review refreshes on its next build.
+
+## November 15: Sociology approved naming refinements
+
+- Applied approved Courses, Faculty, Support, News & Events, current graduate cohort and MA/PhD Requirements & Progress heading/title changes. Renamed support-soc.html → support.html; updated navigation, hero key and existing legacy redirect destination. Degree subnavigation now uses matching Requirements & Progress labels. No new redirects; other page wording preserved.
+- SOC build passed (60 content/73 redirects); formatter zero changes. Local only; no commit, push or deployment. Review headings refresh on next Review build.
+
+## November 15: ES approved naming refinements
+
+- Courses H1 now Ethnic Studies (ES) Courses; Support H1 now Support Ethnic Studies. Renamed support-es.html → support.html and undergraduate/certificate-es.html → undergraduate/certificate.html; updated internal references, navigation, hero keys and existing legacy redirect destinations. News H1/search title now News & Updates. No new redirects.
+- ES build passed (29 content/31 redirects); rendered headings and certificate output verified; formatter zero changes. Protected history and outcomes sources unchanged. Local only; no commit, push or deployment. Review data refreshes on its next build.
+
+## November 15: PUBA headings, titles and shorter preview paths
+
+- Applied seven approved H1/search-title alignments: Courses, Faculty, Graduate Applications & Admissions, both graduate certificates, Support and News. Renamed support-puba.html → support.html and about/puba-news.html → about/news.html; updated navigation, hero keys and existing legacy redirect destination. No new redirects; existing26 retained. Associated Faculty and other pages unchanged in wording.
+- PUBA build passed (32 content/26 redirects), seven rendered headings/titles verified; formatter zero changes. Review heading/hero data should be regenerated on its next build. Local only; no commit, push or deployment.
+
+## Next review: five completed sites
+
+Scope: SSRI, PUBA, SOC, ANTH and ES. User considers current content presentable; avoid further open-ended polishing.
+
+1. Clean each site folder: check obsolete development pages, empty folders and unused relics. Verify references before removing anything; preserve required source, assets, redirects and user work.
+2. Run accessibility checks and resolve findings, retaining protected content/data.
+3. Run final SEO checks, including preview indexing controls, titles, headings, links, canonicals and sitemap configuration.
+4. Push and manually publish for Siteimprove scanning; confirm scan coverage and address concrete findings, aiming as close to100 as practical without claiming automated scores prove full compliance.
+
+These are review previews, not a search launch: do not submit to Google or request indexing. Preserve crawler access needed for Siteimprove while keeping search indexing disabled. User may later unpublish until the meeting; no unpublish action requested yet. Pending work only; no push, deployment or scan performed for this plan.
+
+## November 15: Anthropology language check
+
+- Reviewed82 page sources. Corrected clear grammar, institutional third-person voice, generic capitalization, university shorthand and known Hawaiian spelling; added missing generic graduate-role Contact links. User approved NTH488 → ANTH488. No factual refresh, date/credit/eligibility changes or inquiry rerouting.
+- Homepage statement, faculty biographies, BA outcomes page and graduate learning-outcome blocks preserved. Source checks across82 pages confirm numeric values, IDs and existing link destinations retained. Dated donor narratives and ambiguous policy wording left intact.
+- ANTH build passed (82 content/36 redirects); formatter reports zero changes remaining. Local only; no commit, push or deployment.
+
+## November 15: PUBA deadline clarification
+
+- User confirmed April30 and November1 are two annual deadlines. Corrected prior unresolved-date note and convention; no page date or admission-season edits. Documentation only, no build required. Local only; no commit, push or deployment.
+
+## November 15: PUBA language check with accreditation protection
+
+- Reviewed32 HTML/Nunjucks sources. Ten ordinary pages received small voice, grammar, known Mānoa spelling, label-colon, generic capitalization and prose-dash corrections. User approved Supports students to complete Wood scholarship sentence. No new factual claims, numerical changes, course requirement changes or inquiry rerouting.
+- Both NASPAA pages, all13 tables, alumni-network page, mission/values page, MPA learning outcomes, testimonials and faculty biographies are byte-identical to pre-task sources. All existing links, IDs and numeric values preserved. User subsequently confirmed April30 and November1 are the two annual deadlines; both retained. No unresolved date conflict.
+- PUBA build passed (32 content/26 redirects); protected-source/table and link/number checks passed. Formatter reports zero changes. No separate report, accreditation-data update, SEO or accessibility claim. Local only; no commit, push or deployment.
+
+## November 15: Sociology language check
+
+- Reviewed60 local page sources, treating faculty biographies, course titles and learning-outcome content as protected. Twenty pages changed for clear grammar (criteria are, course definitions, thesis defense against), generic capitalization, consistent explanatory label colons, time notation, known Mānoa spelling, and18 missing graduate-chair Contact links. Academic thresholds, dates, numeric values, existing destinations and non-link structure preserved by source comparison. Existing user README/major-page work retained.
+- Biographies and BA SLO page byte-identical; MA/PhD SLO bullets not rewritten. Conflicting historical course titles/proper scholarship-name spellings left as source, with no factual refresh. No edits to Anthropology/PUBA or accreditation content.
+- SOC build passed (60 content/73 redirects). Formatter reports zero changes remaining; protected source and links/numbers/structure checks passed. No separate report, SEO or accessibility pass claimed. Local only; no commit, push or deployment.
+
+## November 15: Ethnic Studies language check
+
+- Reviewed29 local page sources, ES-specific policy statements and displayed unit data. Seven pages received small generic-subject capitalization, sentence-label case, time notation, requirement punctuation and repetition corrections. Certificate delivery options condensed without changing modes; BAM junior-year timing/grade conditions retained. No course titles, credit values, dates, links, IDs, role assignments or contact routing changed.
+- User declined SLO copy edits: entire learning-outcomes page unchanged; protected exception recorded. Our History, Our Way and faculty pages byte-identical to task baseline, preserving existing user history edit. Three unit-authored policy statements left untouched. No factual refresh or shared policy/privacy rewrite performed.
+- ES build passed (29 content/31 redirects). Checks confirm links/IDs/numeric values preserved and protected pages unchanged. Formatter reports zero remaining changes. No separate report. Local only; no commit, push or deployment.
+
+## November 15: SSRI language check
+
+- Reviewed16 local pages and SSRI-owned displayed unit text, preserving common policy/privacy bodies. Edited9 pages for institutional third-person voice, known Hawaiian spelling, obvious grammar/capitalization, meteorological typo and consistent service-label emphasis. Applied user-approved HCRI scientists ending and comma separating Sociology from Urban & Regional Planning in coverage data. No contact routing, URLs, IDs, numerical values or dates changed.
+- User explicitly preserved October2020 boilerplate. Both Jack Barile and Greg Chun biographies unchanged, including dated biographical claims pending their owners’ updates. Historic OENAS project titles and other factual claims not revalidated. Separate unresolved observation: OENAS calls a link a national American Evaluation Association directory but href points to h-pea.org/directory; left untouched for link review.
+- SSRI build passed; source checks confirm links/IDs/numbers preserved and boilerplate/biographies byte-identical. Formatter reports zero changes needed. No separate report generated, no SEO/accessibility pass claimed. Local only; no commit, push or deployment.
+
+## November 15: PUBA code formatting pass
+
+- Reviewed32 editable HTML/Nunjucks source files;26 formatted. No local CSS files. Existing README edit preserved. PUBA build passed (32 content/26 redirects);58 rendered pages preserve tag/attribute structure and normalized wording. Repeat formatter zero changes. Grade C → A for scoped source formatting. Shared generic templates/CSS not swept; no standalone report. Local only; no commit, push or deployment.
+
+## November 15: SSRI code formatting pass
+
+- Reviewed16 local HTML pages;12 formatted. No local CSS/Nunjucks files. Existing fiscal content edit preserved. Build passed; repeat formatter zero changes. Compared26 rendered HTML pages: wording/links/structure preserved after accounting for old Jack output’s two globe icons, already removed by earlier approved shared-template change and now refreshed. Grade C → A for scoped formatting. Shared generic CSS/templates not swept; no standalone report. Local only; no commit, push or deployment.
+
+## November 15: Ethnic Studies code formatting check
+
+- Reviewed29 local HTML pages and ES-specific policies include (30 files). Formatter found no changes needed; no source files modified. No local CSS/Nunjucks to sweep. ES build passed (29 content pages/31 redirects). Grade A → A, already clean under scoped formatter. Shared generic templates/CSS excluded. Local verification only; no commit, push or deployment.
+
+## November 15: Sociology code formatting pass
+
+- Reviewed60 editable HTML pages; only homepage required formatting. No local CSS/Nunjucks or SOC-specific shared includes to format. Existing unrelated README/major-page edits preserved. SOC build passed (60 content/73 redirects);133 rendered HTML pages retain identical tag/attribute structure and normalized wording. Repeat formatter reports zero changes. Grade A− → A: nearly clean already. Shared generic CSS/templates not swept; no standalone report created. Local only; no commit, push or deployment.
+
+## November 15: Sociology nationalism hero
+
+- Nationalism, Globalization and Sustainability now uses general featured51, previously unused in SOC. Replaces48 now fixed for Courses. SOC build passed; rendered path verified. Review rebuild passed. Local only; no commit, push or deployment.
+
+## November 15: Final Anthropology duplicate check
+
+- Hero registry checked: shared images occur only within established MA, PhD, funding, BAM, applied MA and experiential sections, plus the accepted current/pre-2022 BA pair. No unrelated accidental duplicate assignments found. Faculty universal image reuse remains intentional. Review updated to place both BA pages adjacent in primary group, current first; usage tooltip corrected to unit-wide. No hero changes. Review rebuild passed. Local only; no commit, push or deployment.
+
+## November 15: Cultural and faculty directory heroes
+
+- Cultural Anthropology now featured61 as requested. Emeriti uses general supporting30 and Associated uses general supporting32, both unused before assignment; avoided recently displaced07/09. ANTH build passed; three rendered paths verified. Review rebuild passed. Local only; no commit, push or deployment.
+
+## November 15: Organization/cultural supporting replacements
+
+- With no unused featured images available, assigned previously unused supporting graduate02 to AGSA, general21 to AUSA and general23 to Cultural Anthropology. Removed their 07/09/14 assignments without deleting pool assets. ANTH build passed; three rendered paths verified. Review rebuild passed. Local only; no commit, push or deployment.
+
+## November 15: Fixed hero correction
+
+- User clarified Home17 and Courses48 for ANTH, ES and SOC. Contact41 and Support22 unchanged. Updated existing convention to supersede Home48. All three builds passed; six rendered Home/Courses paths verified. Review rebuild passed. Local only; no commit, push or deployment.
+
+## November 15: Fixed home/contact/support heroes locked
+
+- ANTH, ES and SOC Home48, Contact41, Support22 assigned in shared unit hero records. Convention locks these against future random reassignment; GEO explicitly excluded and other units unchanged. Only three specified assignments implemented despite spoken five. Three site builds passed; nine rendered paths verified. Review rebuild passed. Local only; no commit, push or deployment.
+
+## November 15: Honors hero and Review count correction
+
+- Replaced Honors60 with previously unused general featured20; faculty landing retains60. Fixed Review hero counts to count all unit page groups together instead of separately by display section. This resolves missed cross-section duplicates and supersedes category-only counts. ANTH build passed; Honors rendered path verified. Review rebuild passed. Local only; no commit, push or deployment.
+
+## November 15: Three Anthropology hero swaps
+
+- Courses48 ↔ advising36; both current/pre-2022 BA24 ↔ honors60; Colloquia31 ↔ environmental anthropology01. Faculty landing60 unchanged. Preserved BA shared-degree image. ANTH build passed; seven rendered paths verified. Review rebuild passed. Local only; no commit, push or deployment.
+
+## November 15: UMP and medical subfield supporting heroes
+
+- UMP uses general supporting18; Medical Anthropology subfield replaces graduate38 with general supporting19. Both selected images were unused in ANTH before the change. Medical minor and Applied Cultural graduate38 unchanged. ANTH build passed; rendered paths verified. Review rebuild passed. Local only; no commit, push or deployment.
+
+## November 15: Undergraduate supporting hero replacements
+
+- Undergraduate funding uses general supporting08 and major student learning outcomes uses general supporting12. Both were unused in current ANTH assignments before selection; selected separately to avoid new duplication. ANTH build passed; rendered paths verified. Review rebuild passed. Local only; no commit, push or deployment.
+
+## November 15: Anthropology homepage/BAM hero choices
+
+- Homepage uses general featured17; all four BAM pages use general featured55, per explicit assignment. ANTH build passed; homepage and four BAM rendered paths verified. Review rebuild passed. Local only; no commit, push or deployment.
+
+## November 15: Applied Cultural graduate hero
+
+- All three Applied Cultural Anthropology pages now use graduate/supporting/38.webp as requested. ANTH build passed; three rendered assignments verified. Review rebuild passed. Local only; no commit, push or deployment.
+
+## November 15: Anthropology code formatting completed
+
+- Reviewed 82 local HTML pages and 3 ANTH-specific shared includes; formatted 52 of 85 files. Flush-left/no blank lines, structural/list lines, single-line paragraphs/headings and inline whitespace corrected. No local CSS files exist; global shared CSS and shared generic templates not swept. Updated existing formatter to honor current inline-template and whitespace rules rather than perpetuating obsolete behavior.
+- ANTH build passed (82 content pages/36 redirects). Compared 118 rendered HTML files before/after: identical tag/attribute structure and normalized wording, including links and IDs. All 85 source signatures preserved; repeat formatter reports zero changes. No browser visual audit claimed. Formatting grade C → A for this scoped source pass (52 files needed correction before; no remaining formatter deviations after). No standalone report created. Local only; no commit, push or deployment.
+
+## November 15: Formatting default and brief grades
+
+- Code Formatting explicitly applies at creation/import/edit time and to generators of editable source, with affected-file check before completion. Cleanup feedback defaults to evidence-based before/after grade or already clean, build status and material exceptions; no separate report unless requested. Updated conventions. Review build passed; rendered rules verified. No site formatting sweep performed. Local only; no commit, push or deployment.
+
+## November 15: Language & Writing Q&A applied
+
+- Reorganized language sheet into six approved sections. Strategic institutional naming, contextual degree terms without search assumptions, Hawaiian spelling scope, sentence-case questions, matching nav/H1 ampersands and approved cleanup/intro scope now explicit. Uncertain facts/policies require questions. Updated obsolete UH Manoa shorthand convention to UH Mānoa. Review build passed; six rendered sections and key rule verified. Rules only; no unit content changes. Local only; no commit, push or deployment.
+
+## November 15: Whitespace rules added
+
+- Code Formatting now explicitly covers accidental double spaces, nonbreaking spaces, trailing spaces before closing tags and spaces before punctuation, preserving meaningful word separation and whitespace-sensitive content. Language sheet refers to this subsection; ownership recorded in conventions. Review build passed; rendered whitespace section verified. Rules only; no site cleanup performed. Local only; no commit, push or deployment.
+
+## November 15: Rule conflict resolution made explicit
+
+- Added approved flag/resolve/update-at-source requirement to Code Formatting and Language & Writing, plus general conventions. Historical records must be marked superseded rather than competing current instructions. Review build passed; both rendered rule pages contain the requirement. Read language sheet fresh for next Q&A; retained user’s UH Mānoa spelling edit. No audit of all older rule sources claimed. Local only; no commit, push or deployment.
+
+## November 15: Code Formatting Q&A consolidated
+
+- Rewrote canonical code-cleanup.md from user-approved Q&A into four sections: HTML & Templates, CSS, Preserve Existing Behavior, Verification. Explained soft wrap versus actual Returns, nested lists, inline template exception and grouped CSS selectors; added examples. Removed duplicates/typos and superseded CSS exclusion. Recorded accepted clarification in conventions. Review build passed; rendered sections and key rules verified. No website source formatting sweep performed. Local only; no commit, push or deployment.
+
+## November 15: Language & Writing rule sheet
+
+- Added editable docs/rules/language-writing.md for agreed pronouns, protected voice, Hawaiian spelling, names/acronyms, course notation, separators, punctuation, headings, lists, emphasis and links. Linked index/conventions; text-cleanup.md remains review procedure. Review Rules submenu in shared shell displays both sheets. New page reads/watches the source document directly, like Code Formatting. Review build passed (30 pages); rendered language content and Code Formatting submenu link verified. Existing Code Formatting document untouched. Local only; no commit, push or deployment.
+
+## November 15: Anthropology unused development pages removed
+
+- Full content-page incoming-link sweep identified only the unused combined funding overview and graduate student-organizations landing. Removed those two source/compiled pages, obsolete funding navigation data and hero entries, and now-empty source funding folder. Audience funding pages and all organization details retained. ANTH build passed (82 content pages/36 redirects); rendered links do not reference removed routes; no empty source folders remain. Review rebuild passed. Existing reviewed Excel workbook preserved. Local only; no commit, push or deployment.
+
+## November 15: Anthropology general featured hero upgrades
+
+- Used seven unused general featured images: minor25, medical minor26, contact41, advising48, subfields overview04, archaeology39, experiential pages47. Ten pages upgraded because existing four-page experiential grouping shares a hero. All graduate routes and assignments unchanged (asserted against pre-edit data). No new duplicate assignments between unrelated groups. Remaining general supporting pages: Colloquia, AUSA, Lambda Alpha; no unused general featured images remain. ANTH build passed. Review rebuild passed to show swaps. Local only; no commit, push or deployment.
+
+## November 15: Anthropology Review heroes refreshed
+
+- Rebuilt Review from current unit sources and hero assignments. Review build passed; Anthropology output includes relocated applied MA paths, custom archaeology hero and latest BA/MA headings. Local only; no commit, push or deployment.
+
+## November 15: Main BA final text and hierarchy
+
+- H1/local title now Bachelor of Arts in Anthropology; tightened generic intro closing sentence. Gray begins Requirements H2 and 37-credit sentence, followed by Required Courses H3 without divider. Applied approved footnote spacing, toward, unquoted fit and third-person registration instruction. Credit/course/grade/petition rules retained. This supersedes the earlier two-H2 main BA treatment; historical BA page unchanged in this task. ANTH build passed; headings, credit total, key policy values and approved copy edits verified. Local only; no commit, push or deployment.
+
+## November 15: Anthropology minor approved text edits
+
+- Applied four approved edits: lowercase minor in opening prose, department’s instead of our courses, Required Courses H3, third-person college-advisor note. Asterisk and following space retained on both minor pages. ANTH build passed; all four rendered edits and asterisk verified. Local only; no commit, push or deployment.
+
+## November 15: Medical minor course categories
+
+- Required Courses H3 now holds ANTH 301 and the theory/methods category requirements. Eligible Courses H3 precedes the original ten-course list, no longer nested under a requirement bullet. Original remaining-credit sentence, course restrictions and grades retained. ANTH build passed; three required items, ten eligible courses and balanced lists verified. Supersedes previously deferred heading proposal after user approval. Local only; no commit, push or deployment.
+
+## November 15: Medical minor approved text edits
+
+- Applied three approved edits: generic academic terms lowercase, fields such as phrasing, and third-person advisor note. Course list/heading structure and HSL wording retained; proposed Eligible Courses H3 not applied. ANTH build passed; rendered wording and unchanged heading verified. Local only; no commit, push or deployment.
+
+## November 15: Why Study Anthropology rebuilt
+
+- New Why Study Anthropology? H1/title and Why Study ANTH? dropdown. Added content-grounded intro. Full-width gray keeps original undergraduate/graduate descriptions with four shared blue undergraduate and four purple graduate program tiles, stacking responsively. Removed old courses/opportunities/graduate-student lists and Degree Offerings headings. Below gray retains honor society, undergraduate/graduate associations and adds UMP under Student Organizations & Mentoring. Honors remains in Undergraduate menu. No custom CSS. ANTH build passed; eight distinct tile destinations exist, headings/menu punctuation and removed clutter verified. No browser visual review. Local only; no commit, push or deployment.
+
+## November 15: Anthropology homepage protected statement layout
+
+- Original H1/intro in white, We extend the concept of kuleana and original list in full-width gray, closing Kuleana paragraph in white below. Removed empty Department News heading. Preserved all wording and emphasis, tidying inline whitespace only. Protected voice recorded in conventions; tentative image idea not implemented. ANTH build passed; section order and news removal verified. Local only; no commit, push or deployment.
+
+## November 15: Undergraduate funding sections
+
+- Removed section navigation and redundant Opportunities heading. Intro in own white section; original Jocelyn Armstrong award content in full-width gray under H2. University Scholarships and University Research & Travel Funding are H2s below gray with divider before second. Source research/travel scope retained rather than relabeling as teaching. ANTH build passed; nav removal and headings verified. Local only; no commit, push or deployment.
+
+## November 15: Mentoring text review approved
+
+- Applied three approved edits: clear mutual-benefit sentence, honors theses correction, concise participation sentence using undergraduate email list. Meeting frequency and assessment requirement unchanged. ANTH build passed; rendered edits verified. Local only; no commit, push or deployment.
+
+## November 15: Undergraduate mentoring structure
+
+- H1 and original intro in white section; Mentoring Activities H2 opens full-width gray containing original meeting description, six bullets and semester assessment requirement. How to Participate replaces Next Steps in white below. ANTH build passed; headings and list verified. Original substantive wording retained. Local only; no commit, push or deployment.
+
+## November 15: Undergraduate menu order and mentoring location
+
+- Funding Sources now follows Experiential Learning; Advising & Support is last. Honors unchanged and approved by user. Mentoring page exists at undergraduate/ump.html and is linked from Why Study Anthropology under ANTH Opportunities; no mentoring page edits. ANTH build passed. Local only; no commit, push or deployment.
+
+## November 15: Both BA requirement pages simplified
+
+- Removed redundant first requirements H2 on current and pre-Fall-2022 BA pages. Required Credit Hours and Required Courses are H2s, divider above second only; legacy IDs preserved. Current BA earlier-requirements link now second intro bullet. Academic requirements unchanged. ANTH build passed; both heading pairs and intro link placement verified. Local only; no commit, push or deployment.
+
+## November 15: Earlier BA italics removed
+
+- Removed remaining italics from pre-Fall-2022 BA course notes; wording retained. ANTH build passed; rendered page contains no em/i elements. Local only; no commit, push or deployment.
+
+## November 15: Earlier BA requirements headings
+
+- Required Credit Hours and Required Courses now plain H3s, title case without colons; 37 is its own paragraph. Existing BA return link and requirements retained. ANTH build passed; rendered headings/value verified. Local only; no commit, push or deployment.
+
+## November 15: Applied Cultural coursework intro compressed
+
+- Combined redundant opening and effective-date paragraphs into one sentence matching Applied Archaeology treatment, retaining Fall 2015 applicability. ANTH build passed; rendered intro verified. Local only; no commit, push or deployment.
+
+## November 15: Field schools note and nav contrast
+
+- Removed field-school department review note at user request; source descriptions retained. ANTH build passed; rendered note absent. Calculated shared nav blue #0a58ca on #f7f7f7 at 6.01:1, above WCAG AA normal-text minimum 4.5:1. Contrast calculation only, not a full accessibility/conformance audit. Local only; no commit, push or deployment.
+
+## November 15: Generic gendered pronouns removed
+
+- PhD outcomes use their (two instances); exams use they do not. Corrected adjacent he student typo to the student. Named-person pronouns retained. ANTH build passed; source search confirms no his or her, he or she or him or her phrases remain. Local only; no commit, push or deployment.
+
+## November 15: Professional organizations and pronoun search
+
+- Networking heading changed to Professional Organizations; ANTH build passed and heading verified. Read-only source search found generic his or her twice in PhD overview outcomes and he or she once in PhD comprehensive exams. Pronouns about named individuals also occur in bios, donor histories and supplied medical caption; retained. No pronoun edits made in this search task. Local only; no commit, push or deployment.
+
+## November 15: Internship subsection hierarchy
+
+- Removed course-name emphasis and newline before period from intro. Time Commitment now H3 without preceding divider, remaining within ANTH 379 requirements. ANTH build passed; rendered heading, divider removal and intro punctuation verified. Local only; no commit, push or deployment.
+
+## November 15: Experiential Learning title alignment
+
+- Four H1/local titles now Experiential Learning: plus exact nav topic. Independent Study removes unrelated opening sentence and course-name italics, fixes spacing before period, and labels gray section ANTH 399 Requirements. Requirement list unchanged. ANTH build passed; four rendered H1s and targeted cleanup verified. Local only; no commit, push or deployment.
+
+## November 15: Lambda Alpha structure
+
+- Intro in own white section; removed Details heading. Full-width gray contains four H2 groups (undergraduate membership, graduate membership, cost, graduation), dividers except first. Membership Contacts replaces Next Steps in white below, retaining two original contacts. Personal Kerton email vs program inbox inconsistency left for department clarification; no routing changes made. ANTH build passed; headings, separators and both email addresses verified. Local only; no commit, push or deployment.
+
+## November 15: Student organization order and AUSA structure
+
+- Why Study organizations now honor society, undergraduate, graduate per explicit user order. AUSA has complete plain-text intro without user-reported dead external link; original four opportunity bullets in full-width gray under Opportunities H2; email contact below. AGSA unchanged and approved by user. ANTH build passed; ordering, heading and dead-link removal verified. Local only; no commit, push or deployment.
+
+## November 15: Applied Archaeology overview and intro
+
+- Overview H1/local title now Applied Archaeology: Overview. Combined coursework intro and effective-date paragraphs into one concise sentence retaining Fall 2024 applicability. Advising/completion unchanged. ANTH build passed; rendered H1 and combined intro verified. Local only; no commit, push or deployment.
+
+## November 15: Applied Archaeology custom hero
+
+- Assigned supplied media/heroes/anth/applied-archaeology.webp to all three applied archaeology pages, retaining crop settings and adding accurate image description. ANTH build passed; all three rendered hero paths verified. Local only; no commit, push or deployment.
+
+## November 15: MA alternative tracks bullet
+
+- Separated final overview sentence into its own bullet below intro, preserving both applied-track links and removing the space before the period. ANTH build passed; rendered bullet and punctuation verified. Local only; no commit, push or deployment.
+
+## November 15: Anthropology guides temporarily off
+
+- Set ANTH layoutGuides false for user visual review. ANTH build passed. Other sites unchanged; restore when requested. Local only; no commit, push or deployment.
+
+## November 15: Ann Dunham scholarship list
+
+- Broke three inline numbered study areas out of the second scholarship paragraph into an ordered list. Original wording retained; following fund-use sentence now a separate paragraph. ANTH build passed; three rendered items and remaining fund-use text verified. Local only; no commit, push or deployment.
+
+## November 15: Graduate funding heading alignment
+
+- Removed funding nav introduction on all six pages. H1/local titles now Graduate Funding: followed by exact nav topic: Overview & Residency, Achievement Scholarships, Travel Awards, Research & Writing, Assistantships & Apprenticeships, Named Awards. URLs/body copy retained. ANTH build passed; six rendered H1s and nav introduction removal verified. Local only; no commit, push or deployment.
+
+## November 15: PhD heading/navigation alignment
+
+- Removed PhD nav intro; nav labels now Overview, First Year, Advising, Committees & Candidacy, Requirements & Progress, Exams, Dissertation, Publication, Research & Meetings. Eight H1/local titles use Anthropology PhD: plus exact nav label. User clarification pending whether spoken final label Wrap means changing Research & Meetings; retained existing final label until answered. ANTH build passed; eight rendered headings and nav intro removal verified. Filenames/body copy unchanged. Local only; no commit, push or deployment.
+
+## November 15: MA Plan B italics
+
+- Removed italics from final-examination form name, retaining italics on four journal titles only; OR between journal titles is plain text. Tidied inline link/list source line breaks. Existing Plan B (Papers) title/nav retained; Scholarly Papers already labels content. ANTH build passed; rendered italic elements verified as journal titles only. User approved Plan A page. Local only; no commit, push or deployment.
+
+## November 15: MA requirements readability
+
+- Simplified gray headings to Degree Requirements and Course Requirements. Converted the opening general requirements paragraphs into nine bullets with original wording, thresholds and links retained. H1/nav remain Requirements & Progress per locked pattern; lower content unchanged. ANTH build passed; headings and rendered nine-item list verified. Local only; no commit, push or deployment.
+
+## November 15: Student organizations on Why Study Anthropology
+
+- Added a grouped Student Organizations section linking AGSA, AUSA and Lambda Alpha with brief source-based descriptions; removed their scattered duplicate links on that page. Removed Graduate dropdown Student Organizations item, leaving eight entries. Organization detail pages and former graduate organizations landing retained. Updated accepted navigation convention to supersede nine-item decision. ANTH build passed; three section links, remaining graduate-study content and eight-item nav verified. Local only; no commit, push or deployment.
+
+## November 15: Applied MA tracks moved to Graduate
+
+- Moved both three-page applied MA tracks into graduate/applied-archaeology and graduate/applied-cultural-anthropology. Updated current ANTH source links, nav, hero keys, existing redirect targets/fragments; added six redirects from former About page routes. Graduate dropdown now nine items with separate funding and organizations. No academic content changed. Review classifier updated for new paths. ANTH build passed (84 pages/36 redirects); all six new pages and old-route redirect outputs verified. Local only; no commit, push or deployment.
+
+## November 15: MA Plan A/B labels refined
+
+- Nav labels and matching H1/local titles use Plan A (Thesis) and Plan B (Papers), leaving one colon after Anthropology MA. Updated accepted convention. ANTH build passed; both rendered H1s verified. Local only; no commit, push or deployment.
+
+## November 15: Anthropology MA navigation locked
+
+- Standardized seven MA nav labels in requested order; each H1/local title now Anthropology MA: plus the exact nav label. Removed MA nav introduction through its data setting. Filenames, URLs and policy copy unchanged. Accepted scope/pattern recorded in conventions. ANTH build passed; all seven rendered H1s and absence of nav intro verified. Local only; no commit, push or deployment.
+
+## November 15: Applied Cultural outcomes resolved
+
+- User approved using the six outcomes supported by supplied MA Plan B (Applied Cultural) Evaluation Rubric DOCX. Removed nine-item duplicate and review notes; corrected outcome two to rubric wording. Other five outcomes retained. Rubric link now uses standard info treatment; legacy anchors retained. ANTH build passed; six outcomes, corrected wording and info treatment verified. Supersedes earlier duplicate-outcome confirmation flags. Local only; no commit, push or deployment.
+
+## November 15: Applied track callouts on all pages
+
+- Added matching coordinator/application callout above course widgets on coursework and advising/completion pages in both applied tracks; overview callouts retained. Cultural overview H1/title now Applied Cultural Anthropology: Overview. ANTH build passed; all six pages have exactly one callout with the correct coordinator; revised H1 verified. Local only; no commit, push or deployment.
+
+## November 15: Applied Cultural coursework readability
+
+- Gray heading shortened to Requirements. Opening requirements split into five bullets with credit, grade and enrollment rules retained. All six subsections use H3; shortened Other Courses heading and retained its advisor/interest qualification in prose. ANTH build passed; list count and heading hierarchy verified. Local only; no commit, push or deployment.
+
+## November 15: Applied Cultural overview placement
+
+- Moved original About the Applied Program paragraph into intro; moved Fall 2015 effective date to coursework intro, removing only the obsolete positional word above. Replaced Next Steps with matching large info callout linking Ty P. Kāwika Tengan and Applications & Admissions above course widgets. Both outcome lists and review notes retained for later review. ANTH build passed; placements, callout and two outcome lists verified. Local only; no commit, push or deployment.
+
+## November 15: Applied Archaeology date and contact links
+
+- Moved the original Fall 2024 curriculum effective-date sentence from overview to coursework intro. Scanned all three track pages; linked all three graduate specialist mentions to Contact. Committee chair references remain unlinked because they refer to individual student committees, not the graduate chair. Existing James Bayman profile link retained. ANTH build passed; date placement and three rendered Contact links verified. Local only; no commit, push or deployment.
+
+## November 15: Applied Archaeology overview placement
+
+- Moved original About the Applied Program paragraphs into the white intro, retaining wording, effective date and legacy anchor. Replaced Next Steps with one large info callout linking James Bayman and Applications & Admissions immediately above course widgets. ANTH build passed; intro placement, callout links and removal of old heading verified. Local only; no commit, push or deployment.
+
+## November 15: Applied Archaeology program faculty
+
+- Rubric link uses standard info treatment. Moved five program faculty into shared profile cards in a three-column desktop grid below gray, followed by Affiliate Faculty H2 and the original two listings. About the Applied Program content retained in place. ANTH build passed; five rendered cards, grid sizing and info treatment verified. Local only; no commit, push or deployment.
+
+## November 15: Applied Archaeology outcome completed
+
+- Restored final outcome using user-supplied wording: Practice archaeology in a fashion that is professionally ethical and culturally informed. Removed the missing-ending review note. This resolves the earlier incomplete-outcome flag. ANTH build passed; rendered sentence and note removal verified. Local only; no commit, push or deployment.
+
+## November 15: Applied Archaeology coursework readability
+
+- Converted the first requirements paragraph into six bullets, preserving wording, numeric requirements and residency link. ANTH build passed; rendered six-item list verified. Local only; no commit, push or deployment.
+
+## November 15: Medical anthropology minor final review
+
+- Changed Minor Requirements H2 to Requirements only. ANTH build passed; rendered heading verified. User approved the rest of this page. Local only; no commit, push or deployment.
+
+## November 15: Anthropology minor final review
+
+- Changed Minor Requirements H2 to Requirements only. All other page content retained. ANTH build passed; rendered heading verified. User approved the rest of this page. Local only; no commit, push or deployment.
+
+## November 15: Medical Anthropology photo
+
+- Renamed supplied photo to nicu-counseling-nepal.webp without changing bytes. Added single image above courses in gray at the same gallery column sizing, with supplied caption and descriptive alt text. ANTH build passed; caption, placement, alt text and copied asset verified. Local only; no commit, push or deployment.
+
+## November 15: Environmental Anthropology photos
+
+- Renamed four supplied images to concise lowercase hyphenated filenames without changing image bytes. Added matching four-column responsive gallery above courses in gray, with supplied captions and descriptive nonempty alt text. ANTH build passed; rendered order, four captions, alt text and copied assets verified. Local only; no commit, push or deployment.
+
+## November 15: Cultural Anthropology photos
+
+- Renamed four supplied WebPs to lowercase hyphenated person names, preserving file bytes. Added captioned four-column desktop gallery above courses in gray, matching Archaeology responsive sizing; captions retain requested order. ANTH build passed; four captions, ordering and copied assets verified. Local only; no commit, push or deployment.
+
+## November 15: Biological Anthropology photos
+
+- Added both supplied 430×242 images and exact captions above Related Courses in gray, using the same responsive four-column desktop sizing as Archaeology. Existing lowercase filenames retained; alt descriptions included. ANTH build passed; rendered order, column class and copied assets verified. Local only; no commit, push or deployment.
+
+## November 15: BAM FAQ GRE cleanup
+
+- Removed the highlighted non-BAM GRE requirement sentence and department review note at the user’s request. Retained the BAM no-GRE answer. ANTH build passed; rendered removal verified. Local only; no commit, push or deployment.
+
+## November 15: Archaeology fieldwork photo row
+
+- Renamed4 supplied430x242 WebPs to lowercase concise hyphenated filenames, preserving byte hashes. Added standard Bootstrap4-column desktop/2-column tablet/1-column mobile figure row above Related Courses in gray, in requested caption order. Native dimensions, alt descriptions and supplied captions included; no new CSS. Courses/faculty unchanged.
+- ANTH build passed;4 captions, intended ordering, responsive column classes and gallery-before-courses placement verified. Local only; no commit, push or deployment.
+
+## November 15: Shared heading/row spacing repaired
+
+- Scoped primary-column last-child margin trimming to final section row, preserving H2 bottom margin when a heading-only row precedes content. Consecutive image rows subtract Bootstrap gutter from3rem margin so visible spacing stays3rem rather than72px. No unit-specific CSS added; article-wrapper spacing unchanged.
+- ANTH build/shared checks passed. Chrome1800/390 on subfield landing verified both H2 bottom margins and heading/image gaps16px, consecutive visible row gap48px, no horizontal overflow. Local only; no commit, push or deployment.
+
+## November 15: AGSA intro acronym repetition removed
+
+- Intro starts AGSA is because full name/acronym already defined in H1. ANTH build passed; rendered opening verified. Local only; no commit, push or deployment.
+
+## November 15: AGSA page hierarchy
+
+- Intro now identifies AGSA/Department/College/University in own white section. Gray section has Goals with2 original numbered items, Activities and Campus Events with original activity bullets, and Officer Elections (replacing Next Steps), separated by HRs. Existing election text retained.
+- ANTH build passed; original goals/activity lists,3 H2s/2 dividers and institutional intro verified. Local only; no commit, push or deployment.
+
+## November 15: Student organization media
+
+- Replaced AGSA placeholder with shared blue tile/people icon and Lambda placeholder with user-provided750x750 lambda-alpha.webp logo. Shared imageTextRow tile now supports optional icon, default mortarboard unchanged for existing degree tiles.
+- ANTH build and shared checks passed; rendered blue AGSA tile/logo and absence of placeholders verified. Local only; no commit, push or deployment.
+
+## November 15: Graduate student organizations landing
+
+- Added graduate/student-organizations.html using Sociology’s intro/gray image-row pattern, with linked AGSA and Lambda Alpha descriptions based on existing source pages. Alphabetical AGSA then Lambda; temp.jpg placeholders pending logos. Graduate dropdown includes Student Organizations after Current Cohort. Existing AGSA detail and root Lambda Alpha pages retained; new page temporarily reuses AGSA hero pending selection.
+- ANTH build (84 content pages) and shared checks passed; two rows, both destinations and menu entry verified. Review build passed; new page verified in hero inventory. Existing Excel checklist not overwritten (new page added after generation). Local only; no commit, push or deployment.
+
+## November 15: BAM double-counted course notation
+
+- Changed exactly6 double-counted ANTH course listings from hyphen to colon-space notation. Titles/credit policy unchanged. ANTH build passed;6 rendered listings verified. Local only; no commit, push or deployment.
+
+## November 15: Graduate applications ampersand naming
+
+- Graduate application H1/title now Graduate Applications & Admissions. Matching named links updated in BAM application/FAQ review note. Existing main-nav Applications & Admissions retained. ANTH build passed; rendered H1 and BAM reference verified. Local only; no commit, push or deployment.
+
+## November 15: BAM application bullets streamlined
+
+- Admission Requirements now Students must lead-in with four parallel bullets; junior credit definition nested under ANTH300 requirement. Final How to Apply bullet links Graduate Applications and Admissions; dual university/department material requirement nested beneath it. Existing advising/January15 instructions retained; FAQ reference links to its actual page.
+- ANTH build passed; required GPA/course grade/deadline retained, nested list balance and rendered lead-in/procedure link verified. Local only; no commit, push or deployment.
+
+## November 15: Eirik Saethre sidebar awards
+
+- Moved3 college/university teaching awards from bio content to central people awards data; existing shared sidebar displays them below Publications without links. Original award names/years retained; other biography text unchanged.
+- ANTH build passed; rendered3 plain-text sidebar awards, placement after Publications and removed body award block verified. Local only; no commit, push or deployment.
+
+## November 15: Simple Anthropology page-review workbook
+
+- Created exports/anth/anth-page-review.xlsx: one sheet, exactly2 visible columns (Old Page/New Page), matched pages first, old-without-match section, then new-without-old-page-match section. Page names only; names hyperlink to old live pages/new localhost8089 pages. No additional report columns.
+- Used saved Nov11 page/student exports plus latest Nov15 faculty export (latest contains people/attachments only), migration inventory and current redirects to resolve changed routes.91 published old page/person/student entries match current destinations; no unmatched old entries;32 current pages have no standalone old-page counterpart. All83 current pages represented. New split pages appear in new-page section; consolidated old records may share a new destination. This is a review checklist, not final WordPress redirect approval.
+- XLSX ZIP/XML validated; two-column schema and current destination coverage verified. No site edits in this task; workbook local, not committed/pushed/deployed.
+
+## November 15: Root experiential learning pages created
+
+- Split original undergraduate page into /experiential-learning/ (Independent Study), internships.html, networking.html and field-schools.html. Shared four-button nav above intro, open gray detail sections, existing source text/links/eligibility preserved. Field-school info note requests current availability and degree-level eligibility confirmation; original descriptions retained. Undergraduate menu/source links updated; Graduate menu unchanged. Existing hero reused across4 pages pending selection. Old route/8 section fragments redirect to corresponding new destinations. Source snapshot saved in ../anth/reference.
+- ANTH build (83 content pages/30 redirects) and shared checks passed. All original substantive paragraphs/list items,4 navigation placements and unchanged Graduate menu verified. Review build passed;4 entries verified in Experiential Learning Pages group. Local only; no commit, push or deployment.
+
+## November 15: Wider subfield images
+
+- Added opt-in wide=true to existing shared imageTextRow macro/CSS (25/75 desktop); enabled for7 Anthropology landing rows. Default course/reverse/landscape layouts unchanged. Documented reusable variant.
+- ANTH build/shared checks passed. Local Chrome verified25/75 at1800px and100/100 stacked columns at390px, no horizontal overflow. Local only; no commit, push or deployment.
+
+## November 15: Subfields/specializations image-row landing
+
+- Renamed7 user-provided WebPs to lowercase/hyphenated filenames with byte hashes preserved; all400x215. Landing intro now own section; full-width gray holds Subfields H2 +3 image-left rows, then HR/Specializations H2 +4 rows. Existing shared imageTextRow macro and source descriptions/links retained. Decorative row images use empty alt alongside linked descriptive headings.
+- ANTH build passed; seven rows, original paragraphs, two headings and lowercase assets verified. Chrome desktop/mobile check run for row count, broken images and horizontal overflow. Local only; no commit, push or deployment.
+
+## November 15: Applied MA tracks split into three pages each
+
+- Applied Archaeology and Applied Cultural Anthropology now each have overview index, coursework.html and advising-completion.html within their existing About subfield directory. Shared three-button navigation above intro; original paragraphs/lists, outcomes, faculty listing and coordinator/application contacts retained. Former subsection headings promoted to H2; coursework sublabels plain H3. Existing track hero reused across each set; course widgets retained. Original source snapshots in ../anth/reference. Old URLs and original About-acronym redirects/section fragments now target corresponding new pages; contextual links updated.
+- Visible Department review notes preserve both Cultural outcome lists for reconciliation and flag Archaeology’s incomplete final outcome. No unsupported policy reconciliation performed.
+- ANTH build (80 content pages/29 redirects) and shared checks passed; all substantive source paragraphs/list items, section anchors and navigation placement verified across6 pages. Review build passed;3 entries verified in each separate applied-track hero group. Local only; no commit, push or deployment.
+
+## November 15: Five Anthropology subfield/specialization layouts
+
+- Archaeology, Biological, Cultural, Environmental and Medical Anthropology now have own intro sections, full-width gray Related Courses with existing list-columns-two class, and white Research Area Faculty contact-style people grids. New ANTH research-areas.json stores central people slugs using existing loader; no new person copies or CSS. Removed Barry Rolett only from Archaeology/Environmental membership, retaining retired profile data. Alphabetical faculty rosters:5/1/5/6/2 respectively.
+- ANTH build and shared checks passed. Original intro/course text and rendered card counts verified. Chrome1440/390 checks on all5 pages: two course columns on desktop, single on mobile, no horizontal overflow. Local only; no commit, push or deployment.
+
+## November 15: Honors track layout
+
+- Intro heading/paragraph/benefits list now own white section; full-width gray Coursework H2 contains5 existing H3 course groups, followed by retained Next Steps requirements. Removed manual ANTH Courses block, italic markup and link-punctuation gaps. Concise white info callout links Honors Program and Anthropology Undergraduate Advising for major advisor meeting; existing course widgets retained.
+- ANTH build passed; balanced wrappers,5 H3s, no italics, retained honors/major obligations and callout verified. Local only; no commit, push or deployment.
+
+## November 15: BAM hero review group
+
+- Grouped all4 Anthropology /undergraduate/bam/ pages under BAM Pages in hero review. Existing preview layout/assignments unchanged. Review build passed;4 entries verified together. Local only; no commit, push or deployment.
+
+## November 15: BAM application advising route
+
+- Meeting instruction now uses unlinked major advisor wording with parenthetical see Anthropology Undergraduate Advising (page name linked); removed direct STAR appointment link. Removed em/i markup from application page, retaining underlying course/eligibility text.
+- ANTH build passed; advising reference/no direct appointment link and no italic markup verified. Local only; no commit, push or deployment.
+
+## November 15: BAM overview/requirements/FAQ headings
+
+- Overview H1/title now Anthropology BA/MA Pathway (BAM); Notes plain H3 without colon. Removed duplicate requirements body heading;6 detail sections now H2s with5 HRs, original anchor retained on Minimum Credits. FAQ6 questions remain H2s with5 HRs. No HR before first H2; body policy unchanged.
+- ANTH build passed; overview title/Notes and6-heading/5-divider counts on requirements and FAQ verified. Local only; no commit, push or deployment.
+
+## November 15: Anthropology BAM split
+
+- Replaced undergraduate/anth-bam.html with undergraduate/bam/index.html plus admission-application.html, requirements-progress.html and frequently-asked-questions.html. Shared four-button nav above intro on each, gray open content, concise undergraduate-advising callout and existing course widgets. Original program policy paragraphs/list items retained; removed redundant manual courses/Next Steps blocks. Same existing BAM hero copied to all4 pages. Old route/5 section fragments redirect to matching pages/anchors; main nav/source links updated.
+- Added visible Department review info note immediately after FAQ GRE answer: contradicts graduate admissions GRE-not-required statement. Existing answer retained pending confirmation; note must be resolved before publication.
+- ANTH build (76 content pages/27 redirects) and shared checks passed. Original policy paragraphs/list items, navigation placement,4 callouts and visible flag verified. Review build passed; all4 BAM paths verified in hero inventory. Local only; no commit, push or deployment.
+
+## November 15: BA reference links separated from intros
+
+- SOC concentrations and SLO reference sentences now two bullets below BA overview; ANTH SLO reference sentence now one bullet below BA overview. Original sentence wording, destinations and ANTH legacy anchor retained; no new anthropology concentration link invented.
+- SOC and ANTH builds passed; rendered intro lists verified at2/1 items respectively. Local only; no commit, push or deployment.
+
+## November 15: Outcomes title shortened
+
+- BA outcomes H1/title now SLOs & ILOs; full terms remain in opening sentence. ANTH build passed; rendered H1 verified. Local only; no commit, push or deployment.
+
+## November 15: BA outcomes single-section layout
+
+- Promoted existing full SLO/ILO heading to H1/title retaining anchor. Opening sentence links Anthropology BA directly; removed extra return sentence and gray section. Four original outcomes follow intro unchanged. Classification as both SLO/ILO remains source wording, not independently confirmed.
+- ANTH build passed; one white section, no H2, linked BA and4 outcomes verified. Local only; no commit, push or deployment.
+
+## November 15: BA requirements labels simplified
+
+- Main gray heading now BA Requirements; earlier-cohort note retained. Required Credit Hours and Required Courses are plain H3s, with37 in separate paragraph. Removed all em/i markup from this BA source, retaining underlying course details.
+- ANTH build passed; no italic markup and rendered H2/H3/credit count verified. Local only; no commit, push or deployment.
+
+## November 15: BA earlier requirements and outcomes separated
+
+- Created undergraduate/major/requirements-before-fall-2022.html and student-learning-outcomes.html using Sociology linked-reference pattern with Anthropology’s distinct cutoff (before Fall2022, not Sociology’s Fall2022-and-earlier). Moved original earlier requirements and all4 outcomes unchanged. BA intro links outcomes; current requirements contain earlier-cohort info link. Kept former BA fragment IDs on reference links and reused BA hero for both pages.
+- ANTH build passed (73 content pages); original earlier-course list/outcome list, balanced wrappers and main-page reference links verified. Review rebuilt for new pages. Local only; no commit, push or deployment.
+
+## November 15: Anthropology BA page structure
+
+- Intro now own white section. Removed Program Details wrapper heading; both requirement cohorts and full SLO section now H2 sections in full-width gray, with HRs between. Removed duplicate ANTH Courses and Next Steps blocks; concise major-advising info callout on white above existing course widgets. Requirement/SLO copy and lists retained.
+- ANTH build passed; balanced wrappers, original3 requirement/outcome lists, removed redundant headings and major callout verified. Local only; no commit, push or deployment.
+
+## November 15: Medical anthropology minor structure
+
+- H1/title now Minor in Medical Anthropology; both original intro paragraphs remain in own section. Minor Requirements in full-width gray, Coursework Must Include plain H3. Removed duplicate manual ANTH Courses/Next Steps blocks; same concise undergraduate-advising info callout on white above existing course widgets. Requirement copy/course list retained.
+- ANTH build passed; balanced wrappers, retained course list, H3 and rendered callout verified. Local only; no commit, push or deployment.
+
+## November 15: Minor callout shortened
+
+- Shortened advising callout to Visit Anthropology Undergraduate Advising for next steps or questions about the minor. Link/style unchanged; no forced nowrap, so mobile can wrap. ANTH build passed; rendered wording verified. Local only; no commit, push or deployment.
+
+## November 15: Minor advising callout
+
+- Replaced Next Steps paragraphs/appointment link with standard large info-icon callout directing questions to Anthropology Undergraduate Advising. White section remains immediately above course widgets; requirements unchanged. ANTH build passed; rendered callout and removal of Next Steps verified. Local only; no commit, push or deployment.
+
+## November 15: Anthropology minor structure
+
+- H1/title now Minor in Anthropology. Intro in own white section, Minor Requirements in full-width gray, existing Next Steps/advising on white. Removed duplicate manual ANTH Courses block; existing course planning/resources widgets retained. Requirements/advising copy unchanged.
+- ANTH build passed; balanced wrappers, section order, descriptive H1 and retained advising link verified. Local only; no commit, push or deployment.
+
+## November 15: Undergraduate funding move and degree nav placement
+
+- Undergraduate funding source now undergraduate/funding.html; copy retained. Main Undergraduate menu points directly there; hero, source links and legacy redirects updated, former /funding/undergraduate/ redirected. Moved navigation sections above intro on all15 ANTH MA/PhD pages, retaining existing standard wrappers and all content. Sociology nav placement unchanged.
+- ANTH build passed;15 rendered navigation-before-H1 checks, undergraduate award content and direct menu target verified. Review build passed and updated undergraduate path verified. Local only; no commit, push or deployment.
+
+## November 15: Graduate funding moved under Graduate
+
+- Moved6 funding sources to graduate/funding, updated source links/menu/buttons/heroes and legacy redirect targets. Added6 redirects from former /funding/graduate/ routes. Shared42 hero retained. Review grouping updated and rebuilt. Undergraduate/root funding pages not relocated in this pass. Accepted structure record superseded.
+- ANTH and Review builds passed;6 new source/rendered pages,6 hero entries and6 Review group entries verified. Local only; no commit, push or deployment.
+
+## November 15: Faculty landing hero
+
+- ANTH faculty landing /faculty/ now uses general featured60.webp. Faculty bios unchanged. ANTH and Review builds passed; rendered hero verified. Local only; no commit, push or deployment.
+
+## November 15: Other graduate hero selections
+
+- ANTH Current Cohort uses graduate supporting14.webp; Applications and Admissions28.webp; Degrees Awarded34.webp. Other assignments unchanged. ANTH and Review builds passed; rendered assignments and review paths verified. Local only; no commit, push or deployment.
+
+## November 15: Review includes Anthropology404
+
+- Rebuilt Review after ANTH404 addition; verified /404.html appears in Anthropology hero review Privacy and Policies group. Review build passed. Local only; no commit, push or deployment.
+
+## November 15: Anthropology standard404 added
+
+- Added root404.html using shared not-found template and unit quick links Home, Faculty, Contact in requested order. Universal Saunders02 hero applies; no new navigation item.
+- ANTH build passed (71 content pages); rendered links, universal hero, noindex and no canonical verified. Hosting404 status not tested/deployed. Local only; no commit, push or deployment.
+
+## November 15: Graduate funding hero selected
+
+- Assigned graduate featured42.webp to all6 Anthropology graduate funding pages. Other funding/MA/PhD assignments unchanged. ANTH and Review builds passed;6 data assignments and6 review labels verified. Local only; no commit, push or deployment.
+
+## November 15: Anthropology graduate hero groups separated
+
+- Review ANTH hero page now has adjacent MA Pages, PhD Pages and Graduate Funding Pages sections, then Other Graduate Pages. Non-graduate funding remains separate. Existing image displays/labels unchanged; no assignments changed.
+- Review build passed;7 MA,8 PhD and6 graduate funding entries verified in their sections. Local only; no commit, push or deployment.
+
+## November 15: Anthropology hero review refreshed for funding
+
+- Review generator now groups ANTH /funding/ pages under Funding Pages, preserving existing hero metadata/display and other categories. Rebuilt Review from current70 ANTH pages so eight funding destinations appear together for shared-image selection.
+- Review build passed; Funding Pages heading and all eight paths verified in rendered heroes/anth.html. Local only; no commit, push or deployment. No hero reassignment yet.
+
+## November 15: Named award heading hierarchy
+
+- Retained Ben Finney and Ann Dunham Soetoro H2 award titles; all former strong sublabels now plain H3s. Moved Marti submission instruction after Finney timeline as closing sentence before next award. Original text/link destinations retained.
+- ANTH build passed; H2/H3 hierarchy, no strong markup, closing position and existing destinations verified. Local only; no commit, push or deployment.
+
+## November 15: Direct graduate funding overview restored
+
+- Graduate funding index restored as Graduate Funding H1 with broad opportunity overview and gray residency section. First graduate funding button now Overview & Residency. Graduate main-menu entry goes directly to /funding/graduate/; undergraduate entry remains /funding/. Former residency filename redirects to index residency anchor; other topic paths unchanged. Supersedes standalone residency landing identity.
+- ANTH build passed; rendered H1/nav/gray section and direct menu destination verified. Local only; no commit, push or deployment.
+
+## November 15: Assistantship link punctuation
+
+- Removed2 source whitespace gaps between closing links and punctuation. ANTH build passed; rendered page has no link-to-punctuation whitespace. Local only; no commit, push or deployment.
+
+## November 15: Assistantships intro/eligibility split and hierarchy
+
+- H1/title now GA Teaching Assistantships and Apprenticeships. Original overview before To be eligible moved into intro; eligibility/restrictions/enrollment remain first in gray under Eligibility H2 with original anchor. Teaching Assistantships, Duties, Criteria, Conditions, Closing Date and Teaching Apprenticeships are H2s with dividers. Salary and minimum/desirable qualifications are plain H3s. Removed heading-label colons/strong markup.
+- ANTH build passed; intro/eligibility placement,7 H2s/3 H3s/6 dividers, unchanged lists and link destinations verified. Local only; no commit, push or deployment. Current position counts/recruitment claims retained pending department review.
+
+## November 15: Research/writing award subheadings
+
+- Retained broad intro and3 H2 award titles. Converted9 former strong paragraph labels to plain H3s (eligibility, fund use, MA/PhD awards, Application Deadline). Added missing periods to final April20 and online-application bullets; no award criteria changed.
+- ANTH build passed;9 H3s/no strong markup and rendered punctuation verified. Local only; no commit, push or deployment.
+
+## November 15: Travel recommendation punctuation
+
+- Removed source newline/space between recommendation-form link and period; browser had collapsed newline to visible space. ANTH build passed and rendered adjacency verified. Local only; no commit, push or deployment.
+
+## November 15: Travel awards first-heading divider corrected
+
+- Removed HR above first H2 (Eligibility); retained dividers above Application Deadline and Completion. Supersedes previous three-divider treatment. ANTH build passed. Local only; no commit, push or deployment.
+
+## November 15: Travel awards intro and headings
+
+- Original travel-award overview moved into intro in place of generated summary. Removed duplicate gray award title; Eligibility, Application Deadline and Completion are plain H2s with HRs above each, retaining old award anchor on Eligibility. Award details/lists unchanged.
+- ANTH build passed; original lists, intro placement, three headings and three dividers verified. Local only; no commit, push or deployment.
+
+## November 15: Residency page identity corrected
+
+- Renamed graduate funding index source/URL to funding/graduate/residency-tuition-purposes.html. H1/title now Residency for Tuition Purposes; removed generic funding intro/redundant H2 and retained residency text/anchor. Funding links, nav, hero and legacy fragment targets updated; former graduate directory URL redirects directly to renamed page. Supersedes graduate index page identity.
+- ANTH build passed; renamed rendered H1 verified. Local only; no commit, push or deployment.
+
+## November 15: Residency consolidated into intro section
+
+- Moved graduate funding residency heading/paragraph into existing white intro section and removed gray section. Navigation, residency anchor/text/link unchanged. ANTH build passed; no gray wrapper, balanced columns and rendered residency verified. Local only; no commit, push or deployment.
+
+## November 15: Achievement scholarships source intro and headings
+
+- Replaced generated short intro with original award overview paragraph, moved out of gray unchanged. Gray now starts Eligibility H2 retaining anchor; Fund Use and Application Deadline H2s with HRs above. Removed redundant gray title/former strong labels.
+- ANTH build passed; original lists unchanged, overview placement and three plain H2s/two dividers verified. Local only; no commit, push or deployment.
+
+## November 15: Funding navigation above intro trial
+
+- Moved existing graduate funding navigation section before H1/intro on all six pages. Standard section/container/row/column retained; headings, copy and gray content unchanged. Trial scoped to graduate funding; MA/PhD unchanged pending review.
+- ANTH build passed; rendered navigation-before-H1-before-gray order verified on six pages. Local only; no commit, push or deployment.
+
+## November 15: Graduate funding starts with residency
+
+- Removed residency block from main Funding overview; retained on graduate index (H1 now Graduate Funding). Graduate navigation now starts Residency followed by five funding topics; Funding Home removed. Main overview retains two image rows and common resources. Supersedes prior shared-residency overview placement.
+- ANTH build passed; six nav items/order and residency placement verified. Local only; no commit, push or deployment.
+
+## November 15: Funding overview visual layout
+
+- Removed overview button navigation. Gray section now contains shared residency information followed by two standard image-left rows linking Undergraduate/Graduate Funding with brief blurbs. Existing temp.jpg placeholders have meaningful linked-image labels. Common Resources on white links existing STAR and Financial Aid sources with eligibility caveat. Audience pages/details unchanged.
+- ANTH build passed; no overview subnav, two image rows and intended section order verified. Local only; no commit, push or deployment. Final row images and dated external funding links remain for later review.
+
+## November 15: Graduate funding split into six pages
+
+- Graduate index now overview/residency, with five topic pages: Achievement Scholarships, Travel Awards, Research & Writing Awards, Assistantships & Apprenticeships, Named Awards. One shared fundingGraduate button navigation connects all six plus Funding Home. Each page has broad intro and standard gray detail section; original award copy, eligibility, amounts, deadlines and links retained. Existing graduate hero reused throughout.
+- Updated legacy funding-section redirects to each specific award page/anchor. ANTH build and shared checks passed; all original links/list items retained and nine original section anchors resolve across six pages. Local only; no commit, push or deployment. Finney Summer2022 and current recruitment figures remain flagged for later department review, not silently revised.
+
+## November 15: Anthropology funding home and audience folders
+
+- Created funding/index.html overview plus funding/undergraduate/index.html and funding/graduate/index.html. Existing audience-specific copy moved intact apart from page titles/layout navigation; long graduate material not yet subdivided. Shared funding buttons connect all3 pages; both main menu funding links point to /funding/. Original hero assignments moved; overview reuses undergraduate funding hero pending review.
+- Old funding URLs/section fragments redirect directly to corresponding audience pages; contextual source links updated. ANTH build and shared checks passed;3 destinations/nav and2 old-route redirects verified. Local only; no commit, push or deployment. Next: review graduate topic subdivisions and shared/crossover opportunities; no eligibility inferred.
+
+## November 15: Sociology degree navigation context
+
+- Added MA/PhD navigation intros to SOC data; shared optional intro paragraph now has subnav-intro class, also applying to ANTH. No extra CSS styling added. SOC shared annual-review return navigation remains separate.
+- SOC and ANTH builds passed; correct class/text verified across26 MA/PhD pages. Local only; no commit, push or deployment.
+
+## November 15: Degree navigation context
+
+- ANTH MA/PhD navigation data now provides brief Explore the key components of the MA/PhD program sentence. Shared navigation include renders optional intro directly above buttons; other units unchanged without intro data.
+- ANTH build and shared checks passed; correct sentence appears once above navigation on all15 program pages. Local only; no commit, push or deployment. GEO manual-only workflow remains local/unpushed; remote schedule verified still active this turn.
+
+## November 15: Graduate inquiries replace contact grids
+
+- Admissions, MA overview and PhD overview now reuse units/anth/graduate-contact.njk: white section below gray, large info icon and anthprog email. Standard mt-0 utility removes redundant top margin from callout; no new CSS override. Removed MA/PhD people-contact blocks without changing people/contact-page data. Supersedes graduate-chair/staff routing proposal for these overview pages.
+- ANTH build and shared validation passed; all three rendered pages have exactly one margin-reset callout and no Graduate Program Contacts heading. Local only; no commit, push or deployment.
+
+## November 15: GRE applicant voice
+
+- Changed optional GRE-score bullet to third person: Applicants with valid scores may submit them in their application. No other copy changed. ANTH build passed and rendered sentence verified. Local only; no commit, push or deployment.
+
+## November 15: Department nested application bullets corrected
+
+- Both application sections now use Prospective students must lead-in. Department has four main bullets: application, GRE, English proficiency, three recommendations. Nested bullets contain optional scores/writing sample, proficiency link and required recommender form. Questions paragraph/callout unchanged. Supersedes prior application sentence outside list.
+- ANTH build passed; matching lead-ins and four-list/eight-item department structure verified. Local only; no commit, push or deployment.
+
+## November 15: Department application flow
+
+- Replaced redundant department lead-in with application sentence, followed by GRE/language/recommendation bullets. Questions guidance now friendly paragraph below list. Review BOTH reminder moved into second deadline-area bullet as Students must complete all application requirements below. Existing callout unchanged.
+- ANTH build passed; rendered reminder, application sentence and questions paragraph verified. Local only; no commit, push or deployment.
+
+## November 15: Graduate Division application wording
+
+- Shortened link to Graduate Division online application; two bullets now cover application and fee. Moved questions guidance into friendly Please direct paragraph below list, retaining requirements link. Other sections/callout unchanged.
+- ANTH build passed; two-item list and rendered questions sentence verified. Local only; no commit, push or deployment.
+
+## November 15: Admissions shared-inquiry callout trial
+
+- Moved general-inquiry sentence into standard white section below gray. Reused large smile callout styling with info-circle SVG instead of smile icon. Shared anthprog address/text retained; MA/PhD people sections unchanged pending review.
+- ANTH build passed; rendered callout verified. Local only; no commit, push or deployment.
+
+## November 15: Admissions application lists
+
+- Added HR before Graduate Division H3, three Division bullets and five Department bullets with brief lead-ins. Consolidated link punctuation; replaced verbose application link labels with descriptive subjects. Deadline, optional GRE/writing-sample language, English exemption, three-letter requirement and all destinations retained. Review BOTH reminder retained pending explicit removal decision.
+- ANTH build passed; list sizes, original destinations, deadline/letter count and no link-to-punctuation whitespace verified. Local only; no commit, push or deployment.
+
+## November 15: Graduate applications structure
+
+- H1/title now Graduate Applications and Admissions. Intro/deadline remain white; full-width gray starts Application Requirements H2 and approved dual-requirements sentence adapted to Anthropology. Plain Graduate Division/Department H3s preserve anchors; HR above Department. Other application paragraphs, deadline and links retained.
+- ANTH build passed; balanced wrappers, section order, H1 and unchanged application paragraphs/link destinations verified. Local only; no commit, push or deployment.
+
+## November 15: MA/PhD capitalization and contact-only final pass
+
+- Scanned all15 MA/PhD source pages; updated8 for generic department/PhD program/candidacy/fall/regulation capitalization, UHM to UH Manoa and remaining graduate chair/specialist Contact links. Preserved headings, official unit/classification names and linked form titles. No spelling, policy or broader prose rewrite.
+- ANTH build passed; parser verified no unlinked graduate chair/specialist references across15 pages. Numeric content and all existing non-Contact destinations unchanged. Local only; no commit, push or deployment.
+
+## November 15: Standalone PhD outcomes removed
+
+- Deleted standalone outcomes source, PhD nav item and hero assignment. Overview outcomes retained. Former page URL and old monolith fragment now redirect directly to overview outcomes anchor. Supersedes retained comparison-page status.
+- ANTH build passed:64 content pages/16 redirects; source/nav removal, overview outcomes and generated redirect target verified. Local only; no commit, push or deployment.
+
+## November 15: PhD research/meeting policies
+
+- Matched MA Research & Meeting Policies H1/title and Research & Meetings nav. Added PhD intro, reordered IRB first/remote meetings second with HR between, and changed UHM heading to UH Manoa. All original policy paragraphs/list items retained. Recorded short university-reference preference.
+- ANTH build passed; rendered order/naming and unchanged policy paragraphs/list items verified. Local only; no commit, push or deployment.
+
+## November 15: Dissertation by publication structure
+
+- Added broad intro; gray H2 now Guidelines retaining anchor, followed by sentence-case guidelines lead-in. Linked final guideline subject instead of displaying raw URL; all12 guidelines retained.
+- ANTH build passed; intro/heading/lead-in and descriptive link verified; first11 guideline items unchanged. Local only; no commit, push or deployment.
+
+## November 15: Dissertation page structure
+
+- Added broad intro, HRs above second/third H2s, and lowercased generic all but dissertation wording. No graduate chair/specialist mentions requiring Contact links; official Graduate Division/form titles retained.
+- ANTH build passed; intro, two dividers, original links and otherwise unchanged policy paragraphs verified. Local only; no commit, push or deployment.
+
+## November 15: Comprehensive exams capitalization/contact check
+
+- Lowercased and linked both graduate chair references to Contact. Other body capitals are proper names/acronyms or sentence starts; retained. No specialist mentions on this page.
+- ANTH build passed; two contact links and otherwise unchanged visible wording verified. Local only; no commit, push or deployment.
+
+## November 15: Comprehensive exams structure
+
+- Moved original opening paragraph under H1. Gray starts Bibliographies (Reading Lists) H2 retaining anchor, followed by Written Examination and Oral Examination plain H2s with HRs above. Removed redundant body title and former strong subheadings; policy paragraphs unchanged.
+- ANTH build passed; three-heading hierarchy, two dividers, intro ordering and all original substantive paragraphs verified. Local only; no commit, push or deployment.
+
+## November 15: PhD external-MA qualifier and contacts
+
+- Moved external-MA qualification into Course Requirements H2 parentheses in sentence case, removing separate colon-led paragraph. Normalized generic candidacy/ABD and requirement-label capitalization; linked graduate chair, specialist and chair-of-program references to Contact. Supersedes previous separate qualification sentence.
+- ANTH build passed; rendered heading, four contact links, numeric content and original link destinations verified. Local only; no commit, push or deployment.
+
+## November 15: PhD requirements hierarchy
+
+- Added broad intro. Gray starts General Requirements H2 retaining anchor; Residency Requirements, Course Requirements, Additional Requirements and Advancement to Candidacy are plain H2s with HRs above. Preserved external-MA applicability as sentence immediately under Course Requirements. Detail paragraphs/lists unchanged.
+- ANTH build passed; five-heading order, four dividers, qualification and unchanged body requirements verified. Local only; no commit, push or deployment.
+
+## November 15: PhD advising capitalization and contact links
+
+- Added approved Cooperating Graduate Faculty Exceptions and Advisor Requests H3s, splitting interim-advisor paragraph at existing sentence boundary. Normalized generic department/role/study-plan capitalization and list starts; retained official faculty classifications, Admissions Committee and University Representative. All graduate chair/specialist references now link to Contact.
+- ANTH build passed; rendered H3s, role-link count, numeric content and existing link destinations verified. Local only; no commit, push or deployment.
+
+## November 15: PhD advising structure
+
+- Added broad intro; PhD nav now includes Committees. Advising H2; Interim Advisor, Initial Advising Meeting, Changing Advisors plain H3s; PhD Committee and Candidacy Conference H2s with HRs above. Body detail copy unchanged.
+- Suggested (not inserted): Cooperating Graduate Faculty Exceptions and Advisor Requests H3s, as on MA page. First would require splitting existing interim-advisor paragraph.
+- ANTH build passed; unchanged detail paragraphs, intro, nav wording and two dividers verified. Local only; no commit, push or deployment.
+
+## November 15: PhD first-year structure
+
+- Matched approved MA structure: broad intro adapted to PhD, Orientation H2 preserving anchor, HR before First-Year Student Requirements H2, and three unnumbered/plain H3s with library name spelled out. All detail paragraphs and links retained.
+- ANTH build passed; intro/headings/divider and unchanged requirement paragraphs verified. Local only; no commit, push or deployment.
+
+## November 15: Program contact outer column
+
+- Standalone shared advising/contact widget now uses standard row/col-12 inside its container, enclosing heading, intro and both people. Existing diagnostic column outline applies; embedded usage unchanged.
+- ANTH build and shared checks passed; rendered PhD contact wrapper verified. Local only; no commit, push or deployment.
+
+## November 15: PhD overview SLO hybrid approved
+
+- Replaced duplicate competencies/outcomes display with Student Learning Outcomes, “For PhD in Anthropology:” and five bullets matching MA presentation. First outcome parenthetical now uses approved competencies list: archaeology, biological anthropology, or cultural anthropology. Other outcome wording retained. Old competencies anchor retained. Separate outcomes page/nav still exists pending consolidation.
+- ANTH build passed; rendered heading, intro, parenthetical and five source bullets verified. Local only; no commit, push or deployment.
+
+## November 15: PhD overview comparison and contacts
+
+- Copied original PhD learning-outcomes heading/list below Program Competencies in gray with HR between. Both lists unchanged for comparison; separate outcomes source/nav retained pending decision. Removed Program Details heading and redundant ANTH Courses/Next Steps body blocks. Added existing Graduate Program Contacts component on white above course planning/resources.
+- ANTH build passed; both original lists, ordering, removed blocks and rendered Jan/Marti contact section verified. Local only; no commit, push or deployment.
+
+## November 15: Cohort spacing unified
+
+- Shared student-details column now uses one flex gap from profile-name-gap (0.5rem), with direct-child margins reset together. Equal name/program/interests spacing; tighter email/advisor gap. Scoped to student directory, preserving faculty styling and contact target size.
+- ANTH build and shared validation passed. Local Chrome measured all three gaps at8px at1440px and390px, with no horizontal overflow. Local only; no commit, push or deployment.
+
+## November 15: Research before meeting policies
+
+- Reordered MA policy sections and intro to match title: IRB research first, remote meetings second, with HR between. Policy content/anchors retained. ANTH build passed; rendered section order verified. Local only; no commit, push or deployment.
+
+## November 15: MA research/meeting page structure
+
+- H1/title now Research & Meeting Policies; compact MA nav label Research & Meetings. Added broad intro and HR before IRB H2. Existing policy paragraphs, anchors and URLs unchanged; PhD navigation unchanged.
+- ANTH build passed and rendered naming verified. Local only; no commit, push or deployment.
+
+## November 15: Plan B introduction
+
+- Added brief Plan B intro above navigation. Confirmed content-page intro requirement in project conventions for creation/restructuring. ANTH build passed; rendered sentence verified. Local only; no commit, push or deployment.
+
+## November 15: MA Plan B structure
+
+- H1/title now Plan B: Scholarly Papers Requirements. Gray starts Course Requirements H2 with legacy anchor; Scholarly Papers and Final Examination Meeting are H2s with HRs above. Removed strong markup from former subheadings; requirements, three-paper obligation and links unchanged.
+- ANTH build passed; rendered headings/dividers and unchanged substantive paragraphs/links verified. Local only; no commit, push or deployment.
+
+## November 15: Course designation info treatment
+
+- Applied existing info/icon-text paragraph classes to the MA requirements course-designation guide sentence; wording/link unchanged. ANTH build passed and rendered markup verified. Local only; no commit, push or deployment.
+
+## November 15: MA Plan A structure
+
+- H1/title now Plan A: Thesis Requirements with one brief intro. Removed redundant gray heading; Coursework Requirements retains its legacy anchor. Advancement to Thesis and Final Examination Meeting and Submission of Thesis are plain H2s with HRs above. No strong markup remains on this page.
+- ANTH build passed; rendered headings, two dividers, existing links and substantive requirement paragraphs/list items verified. Local only; no commit, push or deployment.
+
+## November 15: MA requirements introduction
+
+- Added one broad intro sentence for both MA tracks above degree navigation. Requirements unchanged. ANTH build passed and rendered sentence verified. Local only; no commit, push or deployment.
+
+## November 15: Approved MA advising-page cleanup
+
+- Added exception/request H3s; renamed Committee Membership and Plan A Forms; split committee selection, approval and changes into three paragraphs. Normalized generic capitalization, linked six chair/specialist references to Contact, and corrected approved grammar/list capitalization. Official classifications, forms, criteria and obligations retained.
+- Both overlapping candidacy-approval statements remain for department confirmation; applicability of the unqualified sentence to Plan A is unresolved.
+- ANTH build passed; rendered headings, links, numeric content and retained approval statements checked. Local only; no commit, push or deployment.
+
+## November 15: Approved MA requirements cleanup
+
+- Renamed general/departmental requirements H2s, normalized body capitalization, linked all six chair/specialist mentions to Contact, and split elective permission from the course-substitution process. Preserved focus-area wording and PhD progression wording apart from approved capitalization/link markup.
+- ANTH build passed; numeric tokens, repeated focus wording and progression text verified unchanged; rendered heading and paragraph split checked. Local only; no commit, push or deployment.
+
+## November 15: Approved MA elective heading
+
+- Added Elective Courses & Course Substitutions H3 above the existing elective/petition paragraph. Paragraph and anchor unchanged. ANTH build and rendered heading verified. Local only; no commit, push or deployment.
+
+## November 15: Graduate program contacts distinguished from advisors
+
+- ANTH MA shared contact block now Graduate Program Contacts. Intro directs coursework/research/degree planning to assigned faculty advisor. Jan's blurb covers program policies/academic procedures; Marti's covers applications/forms/administrative processes. Official identities/titles, photos and contact details retained; existing component/layout reused. Supersedes earlier Graduate Advising label.
+- ANTH build passed; rendered heading/assigned-advisor explanation/Jan guidance verified and former heading absent. Local only, no commit/push/deployment.
+
+## November 15: MA requirements hierarchy clarified
+
+- H1/front matter now Degree Requirements & Progress (Plans A & B). Gray body starts General Course Requirements H2; Course Requirements, Additional Requirements and Progression to the PhD Program are H2s with HRs above. Moved original elective/petition note into Course Requirements and kept its former ID on the paragraph; applied-MA progression caution preserved.
+- ANTH build passed; headings/dividers/note position verified. Local only, no commit/push/deployment.
+
+## November 15: MA advising introduction
+
+- Added one broad sentence on faculty/committee guidance supporting MA studies and candidacy to the page intro. Detail sections unchanged. ANTH build passed and rendered sentence verified. Local only, no commit/push/deployment.
+
+## November 15: MA advising/committee heading hierarchy
+
+- MA nav now includes full Advising, Committees & Candidacy label. Body Advising H2; Interim Advisor, Initial Advisory Meeting, Changing Advisors, Eligible Persons and Plan A Only are plain H3s. HRs above Three-Person Committee and Candidacy Conference H2s. Original detail copy/IDs retained; PhD not changed.
+- ANTH build passed and rendered nav/headings/dividers verified. Local only, no commit/push/deployment.
+
+## November 15: MA first-year introduction made concise
+
+- Replaced detailed two-sentence overview with user-approved general sentence about shared activities/responsibilities supporting the graduate community. Detail sections unchanged. Recorded concise/nonduplicative intro principle. ANTH build passed and rendered sentence verified. Local only, no commit/push/deployment.
+
+## November 15: Course widgets on all Anthropology MA/PhD pages
+
+- Added existing shared course-resources include in standard white bottom section to14 subpages; retained two overview widgets,16 total. Unit catalog-courses already selects ANTH and shared Anthropology entity694. Existing pattern uses main course descriptions plus ANTH filter guidance, not an automatically filtered search URL.
+- ANTH build passed; all16 rendered pages have exactly one widget, ANTH prefix guidance and the Anthropology catalog URL below gray. External catalog fetch returned403, so no external availability verification claimed. Local only, no commit/push/deployment.
+
+## November 15: Anthropology MA first-year structure clarified
+
+- Added brief source-based two-sentence overview. Removed duplicate First-Year Students body heading; Orientation and First-Year Student Requirements now H2s with one HR between. Colloquium, Special Events Room Maintenance and spelled-out Anthropology Graduate Reading Library Monitoring are H3s without added HRs or numbering. Preserved legacy anchor on Orientation and existing obligation details.
+- ANTH build passed; heading hierarchy/HR/anchor verified. Current status of lounge/library/refreshment obligations remains unverified for department review; no new policy invented. Local only, no commit/push/deployment.
+
+## November 15: MA outcomes heading and rubric link simplified
+
+- ANTH MA overview H2 now Student Learning Outcomes, retaining its legacy anchor and following MA/Plan A or B context. Rubric link uses shared info/icon-text paragraph styling; label/URL and outcomes unchanged. ANTH build passed and rendered heading/icon markup verified. Local only, no commit/push/deployment.
+
+## November 15: Sociology helper lines re-enabled
+
+- Set SOC site-settings layoutGuides true for requested local cross-check. SOC build passed; diagnostic styles included in generated stylesheet. Other units unchanged. Local only, no commit/push/deployment.
+
+## November 15: Advising grid diagnostic outlines
+
+- Shared advising grid was already the standard component; diagnostics selectors omitted its CSS-grid classes. Added advising-person card and nested photo/details cells to existing red-shadow/foreground-overlay rules. No production layout or dimensions changed; same common diagnostics toggle controls visibility.
+- ANTH/SOC builds and shared checks passed. Live Chrome verified six red foreground outlines across two advisors and four inner photo/text columns, with pointer-events none. Local only, no commit/push/deployment.
+
+## November 15: Anthropology MA overview outcomes/advising integrated
+
+- Alternative terminal-track note moved to end of single intro paragraph. Original MA outcomes/rubric moved unchanged into gray. Removed Program Details heading, duplicate ANTH Courses list and Next Steps copy per user. Added standard shared Graduate Advising block on white above existing resources, selecting Graduate Chair Jan Brunson and Graduate Specialist/Support Marti Kerton from central people records with role-specific guidance text.
+- Removed standalone MA learning-outcomes source/nav/hero entry; seven MA nav items remain. Old outcomes route and original monolithic SLO fragment redirect directly to preserved overview anchor. Review refreshed. PhD/SOC overview refinements and careful PhD competency/SLO comparison remain pending, not silently applied.
+- ANTH build passed (65 pages/15 redirects), shared checks passed. Outcomes block matches original text/rubric apart from heading level/whitespace. Verified intro/nav/outcomes/advisors/resources order; live Chrome1440/390 confirms two correct advisors on white, seven nav items/no overflow and outcomes URL redirect. Local only, no commit/push/deployment.
+
+## November 15: Anthropology PhD split into nine preserved-copy pages
+
+- Created ../anth/src/graduate/doctorate-phd/index.html plus first-year, advising-candidacy, requirements, comprehensive-exams, dissertation, dissertation-by-publication, research-policies and learning-outcomes. Shared sections/nav and Featured57 hero on every page. Original source saved in ../anth/reference/doctorate-phd-before-page-split.html. Competencies remain overview; original SLOs kept separately, no academic copy rewritten.
+- Updated main nav, source links, hero mappings and migration generator. Old PhD URL/15 section anchors now direct to new destinations. Review refreshed. MA pages retain54 and existing structure.
+- Verified59 paragraphs,70 list items,21 hrefs,15 section IDs and both resource includes preserved. ANTH build passed (66 pages/14 redirects), shared checks passed. Nine rendered pages verified for one H1/complete nav/57; live Chrome1440 nav one row,390 stacks/no overflow, old exam fragment redirects. Local only, no commit/push/deployment. Next: user page-by-page MA/PhD review and introductions/copy refinements when authorized.
+
+## November 15: Anthropology MA split into eight preserved-copy pages
+
+- Created ../anth/src/graduate/master-ma/index.html plus first-year, advising-candidacy, requirements, thesis, scholarly-papers, research-policies and learning-outcomes. Current shared sections/navigation; overview retains original intro/applied-track note/course links/Next Steps/resource includes. Original full source saved in ../anth/reference/master-ma-before-page-split.html. No copy rewrite; dated/repeated wording intentionally preserved.
+- Updated ANTH main nav, two source links, migration generator and hero mappings. Every MA page uses graduate Featured54; existing PhD page now uses approved57, but PhD content/folder split is not done. Old MA URL redirects to overview, with all12 source section IDs mapped to their new destinations. Review refreshed.
+- Verified67 paragraphs,27 source hrefs,12 anchors and both resource includes preserved. ANTH build passed (58 pages/13 redirects), shared checks passed. Every MA rendered page has54, one H1 and eight-item nav. Live Chrome1440 nav one row;390 stacks with no overflow. Legacy Plan A anchor redirects to thesis correctly. Local only, no commit/push/deployment. Next: user review, then PhD structural planning; later copy/voice review remains separate.
+
+## November 15: Degree-recipient headings link directly to records
+
+- Linked Anthropology MA/PhD H2s to their respective supplied spreadsheets and removed redundant View… action paragraphs. Copy and purple tiles unchanged. ANTH build passed; two heading links and removed duplicate labels verified. Local only, no commit/push/deployment.
+
+## November 15: Anthropology degree records use purple tiles
+
+- Replaced MA/PhD temporary media with existing purple program-tile styling, mortarboard icon and MA/PhD labels. Added optional tile data to current shared imageTextRow; default image behavior unchanged, no new CSS. Copy/links/layout retained.
+- ANTH build passed; two purple labeled tiles and retained sheet URLs verified, no placeholder images on this page. Local only, no commit/push/deployment.
+
+## November 15: Graduate Degrees Awarded heading clarified
+
+- ANTH Degrees Awarded H1/front-matter title now Graduate Degrees Awarded; navigation remains Degrees Awarded. ANTH build passed and rendered H1 verified. Local only, no commit/push/deployment.
+
+## November 15: Anthropology graduate research copy drafted from workbooks
+
+- Read both supplied MA/PhD XLSX workbooks, including research titles across their chronology and PhD subfield labels. Replaced three Degrees Awarded placeholders with complementary page/MA/PhD paragraphs grounded in those records. MA records since1930 explicitly include thesis/non-thesis recipients; PhD since1967. Kept URLs, structure and temporary images.
+- Source rationale retained in docs/units/anth/anth-degrees-awarded.md. ANTH build passed; three paragraphs, dates and unchanged spreadsheet links verified. Local only, no commit/push/deployment.
+
+## November 15: Anthropology degree-record links added
+
+- Added user-supplied MA/PhD spreadsheet links to respective Degrees Awarded rows. No research copy generated or spreadsheet contents read; placeholders retained pending next supplied content. ANTH build passed and both rendered URLs verified. Local only, no commit/push/deployment.
+
+## November 15: Anthropology Degrees Awarded scaffold
+
+- Reviewed Geography's concept only; ANTH now has its own brief intro and full-width gray section with two current shared imageTextRow blocks for MA and PhD recipients. Temporary square images and explicit Anthropology description/link placeholders; no GEO dates, research claims, descriptions, old layout or spreadsheet links copied. GEO untouched.
+- ANTH build passed; two shared rows, degree headings and gray section verified. Await user-supplied descriptions/record links/images. Local only, no commit/push/deployment.
+
+## November 15: Anthropology included in Page Headings review
+
+- Added ANTH to existing Review headings report alongside SSRI/SOC/ES/PUBA, preserving existing unit order/layout and three-line entries. Recorded current-cohort heading pattern for authorized future unit reviews.
+- Review build passed; ANTH section and current cohort/course/faculty index labels/paths verified. Local only, no commit/push/deployment.
+
+## November 15: Anthropology current cohort heading
+
+- Updated only cohort H1/front-matter title to Current Anthropology MA & PhD Students. ANTH build passed and rendered H1 verified; prose/directory unchanged. Local only, no commit/push/deployment.
+
+## November 15: Anthropology course heading named
+
+- ANTH course page H1/front-matter title now Anthropology (ANTH) Courses. Recorded Subject (CODE) Courses pattern for future authorized edits; other sites, navigation and URL unchanged. ANTH build passed and rendered H1 verified. Local only, no commit/push/deployment.
+
+## November 15: Anthropology website labels approved
+
+- All eight existing ANTH website labels now Website per user approval; added Miriam Stark's supplied https://miriamstark3.wordpress.com/ as Website. Other URLs retained; no scholarly-resource labels changed.
+- ANTH build passed; all website labels checked and Miriam rendered link verified. Local only, no commit/push/deployment.
+
+## November 15: Profile website globe removed; ANTH labels inventoried
+
+- Removed globe markup from shared profile-sidebar Online website links across units; email/telephone icons and labels/URLs retained. ANTH build/shared checks passed; Elizabeth rendered Online section has no SVG and retains existing name label/email. Other units consume change on rebuild; no deployment.
+- Eight ANTH website labels for review: Elizabeth Agey, Jan Brunson, Alex Golub, Jonathan Padwe and Christian E. Peterson each use their own names; Alan Howard, Barry V. Rolett and Leslie Sponsel already use Website. No labels changed pending user approval. Local only, no commit/push/deployment.
+
+## November 15: Terry Hunt listing labeled
+
+- ANTH emeriti page now displays its name-only member under Additional Emeriti (H3) as a list item below the Emeritus cards. No invented biography/contact/photo. ANTH build passed; heading/name item verified. Local only, no commit/push/deployment.
+
+## November 15: Profile resource spacing uses original Publications baseline
+
+- Corrected preceding spacing choice: removed44px minimum/padding from scoped supplemental list anchors; Online and Publications now share unpadded inline-flex links and the same heading selector. Global website link styles outside supplemental sections unchanged.
+- ANTH build passed. Live Chrome1440/390px measured visible first-link text13px beneath both heading boxes, exactly matching original Publications inline-link baseline; headings both18px/500, link padding0. Supersedes prior44px padded target choice. Local only, no commit/push/deployment.
+
+## November 15: Profile Online/Publications spacing unified
+
+- Root cause: website icon link had44px inline-flex target and4px/6px padding; plain publication links lacked that geometry. Shared profile-supplemental list anchors now use the same geometry; supplemental H2/H3/H4 headings share one existing type/spacing rule, preserving semantic heading levels. No global website icon or general body-link changes.
+- ANTH build/shared checks passed. Live Chrome Alex Golub profile measured at1440/390px: both headings18px/500, both heading-to-link boxes10px, both link padding4px6px and height44px. Previously Publication gap13px/height21px versus Online10px/44px. Local only, no commit/push/deployment.
+
+## November 15: Terry Hunt name-only; card Online headings
+
+- Terry Hunt marked directoryNameOnly in central ANTH people record, with placeholder/contact fields removed; shown as plain name below Emeritus portrait grid. Existing membership retained. Nine supplied portrait cards remain.
+- Opt-in card online-resource sections now have Online heading (H4 beneath person H3/group H2), using existing supplemental styling and preserving URLs. No heading for people without resources.
+- ANTH build passed; verified nine cards, Terry plain-name placement/no placeholder, eight Online headings. Local only, no commit/push/deployment.
+
+## November 15: Anthropology other-faculty portraits connected
+
+- Renamed nine new faculty-other WebPs to lowercase hyphenated names, preserving image bytes. Updated central ANTH people records to those portraits with measured native dimensions. Terry Hunt remains the sole temporary portrait; no supplied file for him.
+- ANTH build passed; all nine portrait references/copied assets verified and one intended placeholder remains. Local only, no commit/push/deployment.
+
+## November 15: Anthropology emeritus/retired portrait grids
+
+- Reused shared people grid/profile cards for Emeritus8 and Retired2, with shared temporary500x500 portrait for all10; no photo downloads. Central people.json now owns those records, excluded from active faculty/contact lists and with explicit null bio URLs. Emeriti group membership uses memberSlugs resolved by optional shared loader; In Memoriam remains original8-person text list with links.
+- Restored nine people's available email/website/scholarly/social URLs from supplied November15 WordPress export, without fetching external pages or importing bios. Terry Hunt retains prior name-only information. Repeated titles remain omitted per previous instruction. Scoped directoryShowOnline option renders those links; card-name H3 option sits beneath group H2s. No new CSS.
+- ANTH build and shared checks passed; verified10 cards/placeholders, all imported online URLs, no empty links, three sections,13 active faculty cards unchanged. Initial card-link array concatenation rendered blank links; corrected to nested array loops and rechecked before completion. Local only, no commit/push/deployment.
+
+## November 15: Anthropology emeritus/retired groups separated
+
+- H1/front matter now Anthropology Emeriti & Retired Faculty, matching nav ampersand. Existing18 people retained in Emeritus8, Retired2 (Barry V. Rolett/Ann Sakaguchi per user), Emeriti In Memoriam8; HRs between groups. Removed repeated rank/status descriptions from living lists; names/emails retained, emeritus names alpha by surname. Memorial details/links retained with approved name/research-interest em dash.
+- ANTH build passed; H1, group order, roster counts, retired membership and removed repeated titles verified. Local only, no commit/push/deployment.
+
+## November 15: Anthropology associated names use em dash
+
+- Added an explicit facultyDescriptionSeparator on ANTH associated page and optional shared-template parameter, defaulting to the existing colon elsewhere. ANTH now displays name/contact — research interests; retained text, HRs and links. Updated text-cleanup checklist and superseded earlier deferral in conventions so future reviews preserve this approved exception.
+- ANTH build passed; rendered em-dash separator count covers every description. Local only, no commit/push/deployment.
+
+## November 15: Anthropology associated faculty separators
+
+- Added dividerBefore to every ANTH associated-faculty group after the first, using existing shared HR support. ANTH build passed; rendered HR count matches section transitions. No other formatting or punctuation changed.
+- Recorded approved spaced-em-dash preference for directory name/research-interest separators as a scoped exception, for the future prose-formatting rule page; course colon rule retained. Local only, no commit/push/deployment.
+
+## November 15: Anthropology faculty landing renamed
+
+- Renamed ../anth/src/faculty/core-faculty.html to faculty/index.html, permalink /faculty/, H1/front-matter title Anthropology Faculty and navigation label Faculty. Updated hero mapping, migration generator and Review landing sort; retained introductory copy and existing hero. Added direct old core-faculty.html redirect; other units and research-area subheadings unchanged.
+- ANTH build initially rejected stale output at old URL; removed only that generated former page, rebuilt successfully with12 redirects. Verified new index/H1, old redirect and refreshed Review label. Local only, no commit/push/deployment.
+
+## November 15: Anthropology contact heading/grid cleanup
+
+- Removed visible Key Contacts heading from ../anth/src/contact.html. Kept existing shared map/office grid and people grid; removed redundant outer row/col around self-contained people grid, retaining its gray section. Source formatting normalized locally; contact prose otherwise preserved.
+- ANTH build passed; rendered heading absent and map/people grids present. Local only, no commit/push/deployment.
+
+## November 15: Support Anthropology structure aligned
+
+- ../anth/src/support-anth.html now separates intro and right-side Foundation logo in existing reverse imageTextRow, then Additional Funds in full-width page-section--gray with standard container/row/column. Contributions sentence is its own non-italic appreciation paragraph using existing smiley style. Six fund entries/text/links preserved apart from source whitespace; no broad copy/formatting sweep.
+- ANTH build passed (51 pages/11 redirects); rendered shared grid, appreciation markup and gray funds placement verified. An accidental npm run build in shared reported no script before running the correct successful ANTH build. Local only, no commit/push/deployment.
+
+## November 15: Graduate image pool visible in hero labels
+
+- Review unit hero entries now label graduate-pool images Graduate Featured or Graduate Supporting based on image path. General-pool labels remain Featured/Supporting, existing colors/weights retained. Assignments/grouping unchanged.
+- Review built29 pages; pool/label matching checked for ANTH/SOC/ES/PUBA and live ANTH labels verified. Local only, no commit/push/deployment.
+
+## November 15: Anthropology hero review grouped by page priority
+
+- ANTH-only order: General: Primary Pages12, Secondary Pages15, Graduate Pages6, Faculty Landing Pages3, Faculty Profile Pages13, Privacy and Policies2. Home first then alphabetical; undergraduate degree overview pages primary, MA/PhD and other graduate pages graduate; AGSA explicitly secondary per user example. Existing final faculty/universal groups retained. ANTH has no current404 source page, so universal group contains existing privacy/policies only; no department page invented during this grouping-only task.
+- Review build passed; all51 hero entry HTML fragments match the pre-change baseline exactly, including image, name, link, count and Featured/Supporting markers. All entries appear once; live group order verified. Other units' grouping code unchanged. Local Review script/shared handoff only, no commit/push/deployment.
+
+## November 15: Review secondary navigation uses standard section wrappers
+
+- Corrected shared Review shell: secondary nav now has its own page-section > container content-section > row > col-12 inside site-main, before the separate H1/content section. Reuses normal spacing and diagnostics; no new CSS. Supersedes prior placement outside main.
+- Review build passed; actual localhost ANTH page DOM verified for all standard wrapper ancestors. Applies through shared shell to all Review section navigation. Local only, no commit/push/deployment.
+
+## November 15: Review secondary navigation moved above content
+
+- Shared Review shell now places its existing secondary button navigation immediately below the primary header/navigation and outside main page content, before H1. Applies to Heroes, Redirects/404s and Rules, with exactly one secondary nav per section page. ANTH added to current-review group; alphabetic first group ANTH/ES/PUBA/SOC/SSRI, existing gap before remaining units retained.
+- Review built29 pages; checked five representative generated routes for primary/secondary/H1 order and unit group order. Actual localhost8090 ANTH Heroes and Code Formatting pages verified. No server restart or document-content changes. Local only, no commit/push/deployment.
+
+## November 15: Documentation organized by purpose and unit
+
+- Moved66 existing documents into docs/rules, docs/units/UNIT, docs/shared, docs/reports and docs/templates. Root now contains only README.md (plain-English map), project-conventions.md and work-status.md. Unit report/migration filenames retained; no document deleted. Code Formatting source is now docs/rules/code-cleanup.md; its content was not rewritten for this organization task.
+- Updated Markdown links and explicit paths in shared working instructions, scripts, consuming SOC/PUBA READMEs and Review reader/watch target. Historical records remain records; this is not a claim that all older instruction conflicts were audited or resolved. Existing Rules categories have not been expanded.
+- Shared validation passed; all local Markdown document links resolved. Review built29 pages. Isolated local server rendered relocated rules; touching the moved file triggered its watcher and a0.28s rebuild without changing contents. Temporary server stopped. Local changes only, not committed/pushed/deployed. Review server already running before this configuration move needs one normal go restart to load the relocated reader/watch target; ordinary document saves thereafter use the established watcher.
+
+## November 15: Rules renderer reads fresh source on every render
+
+- Replaced codeFormattingRules global data with a readRuleDocument filter in ../review/eleventy.config.js; generated Rules template invokes this read-only filter directly for docs/rules/code-cleanup.md, then existing Markdown rendering. Source content is not cached in global page data. Removed only the fixed Code Formatting H1 from rendered body, not arbitrary first lines. No document content changes retained.
+- Tested two consecutive append/remove cycles of invisible unique comments against the actual local HTTP page with the server running; all four updates appeared without restart/manual build (watch rebuilds0.45–0.88s). Removed only each test marker, never restored an old whole-file snapshot. Source SHA256 matched before/after. Stopped server, ran exact go clean/dev again, verified source hash unchanged and Rules HTTP page correct with no markers.
+- Temporary verification server stopped afterward; port8090 left for user terminal go. Local runtime/doc handoff changes only, no commit/push/deploy. No recovery search performed. These tests establish current behavior, not the cause or recovery of previously reported missing edits.
+
+## November 15: Review terminal ownership restored
+
+- Identified agent-started Review process still listening on8090 after prior watch tests; this was separate from the user's Terminal session. Stopped that confirmed process. No startup-command change was needed: user's existing go alias is npm run clean && npm run dev, and Review dev is Eleventy serve on8090.
+- Ran the exact alias in a foreground interactive zsh/PTTY: clean/build succeeded, printed Local server: http://localhost:8090/, Rules page HTTP200. Sent Ctrl-C to that foreground session and confirmed no listener remained on8090. Did not claim to test macOS Terminal Command-Q itself. Port deliberately left free for user go; no background test server retained.
+- No runtime files changed this turn. Shared handoff/build rules updated locally; no commit/push/deployment.
+
+## November 15: Review rules save-and-refresh repaired
+
+- Rules now render docs/rules/code-cleanup.md at Eleventy build time through the existing Eleventy Render plugin; removed generated Markdown snapshot, replacing it with a template calling renderContent. Shared watch targets now consistently use sibling-relative paths, correcting the observed missed document/config updates from the earlier absolute-path setup.
+- Restarted only the confirmed Review server on8090. Verified a document save while it stayed running: watcher logged css-shared/docs/rules/code-cleanup.md and rebuilt in0.46s; HTTP page showed new text without manual build/restart. Removed temporary probe and verified a second automatic HTTP update. Document restored byte-for-byte to its pre-test contents. Review still uses npm dev/Eleventy on8090; no new server or dependencies.
+- Local only; no commit/push/deployment. Editable source remains docs/rules/code-cleanup.md; generated Review files are output, not editable rule sources.
+
+## November 15: Review Rules and Code Formatting
+
+- Added Rules as the last shared Review primary-nav item at /rules.html, with the existing button submenu linking to /rules/code-formatting.html. Kept all image galleries and existing nav items. Review generator renders shared docs/rules/code-cleanup.md directly through Eleventy's Markdown support; no duplicated rule content. Watches the document for local updates.
+- Consolidated formatting instructions in docs/rules/code-cleanup.md with plain-English rules, an example, preservation exceptions and verification expectations. Project conventions now point there instead of repeating the list; AGENTS.md explicitly requires it for HTML/Nunjucks formatting. This does not consolidate accessibility/SEO/voice rules yet or run a site-wide formatting sweep.
+- Review built29 pages. Actual local Rules and Code Formatting routes, active submenu, retained image nav and escaped example verified; desktop/mobile Chrome layout checked. Local only, not committed/pushed/deployed. Review remains outside Git.
+
+## November 15: SSRI fiscal service label aligned
+
+- Fiscal & Compliance now replaces Fiscal/Compliance in ../ssri/src/support/fiscal-compliance.html H1/front matter, shared SSRI navigation and current migration label. Existing searchTitle already matched. Formal FOCUS name and page URL unchanged; OENAS official conjunction retained.
+- SSRI build passed; rendered H1/title/navigation and retained formal office name verified. Review refreshed. An unnecessary shared npm run build attempt reported no build script; shared is a source repository, and consuming SSRI build succeeded. Local only; no commit/push/deployment.
+
+## November 15: Review headings expanded without bullets
+
+- ../review/scripts/build.py now lists each page in three lines: linked actual H1, visible source folder/HTML filename, actual rendered head title. Removed list bullets and indentation; shared review.css applies the former small-path text size consistently to all three lines. Existing unit columns/order retained.
+- Review build passed (27 pages); output and actual localhost:8090/headings.html both verified136 entries,136 paths and136 head titles, no missing titles. Local only; no commit/push/deployment. Review is not a Git repository.
+
 ## November 15: Unit publishing changed to manual-only
 
 - Removed push and hourly schedule triggers from all ten ../UNIT/.github/workflows/deploy.yml files (ANTH/ES/GEO/POLS/PSY/PUBA/SCI/SOC/SSRI/WGSS). workflow_dispatch remains; deployment jobs and local development commands are unchanged. Shared validation workflow is unchanged.
@@ -230,7 +1323,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
 
 ## November 14: Plain-English website build rules recorded
 
-- Added docs/website-build-rules.md covering established Eleventy/go workflow, actual startup URL, explicit .html filenames, no unnecessary per-page folders, about/root Courses conventions, editable source ownership, shared reuse and concrete route verification. Retained intentional existing section-index exceptions. Linked from project conventions and AGENTS.md so future build/routing work must read it. No website code changed in this task; documentation checked for consistency with the agreed workflow. Local only, not committed/pushed/deployed.
+- Added docs/rules/website-build-rules.md covering established Eleventy/go workflow, actual startup URL, explicit .html filenames, no unnecessary per-page folders, about/root Courses conventions, editable source ownership, shared reuse and concrete route verification. Retained intentional existing section-index exceptions. Linked from project conventions and AGENTS.md so future build/routing work must read it. No website code changed in this task; documentation checked for consistency with the agreed workflow. Local only, not committed/pushed/deployed.
 
 ## November 14: Review explicit HTML routes repaired
 
@@ -291,7 +1384,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
 - Code: new report-only-by-default scripts/code-cleanup.py reviewed 28 unit HTML/Nunjucks sources and formatted 12. All 27 rendered outputs preserve tags/attributes/text through formatting. Rescan proposes zero edits. Original exports/snapshots/workbooks unchanged. Updated text-cleanup tool to stop obsolete em-dash rewriting; ES reference/editorial-text-replacements.json explicitly records authorized narrative replacements for the preservation verifier.
 - Accessibility: Chrome/axe 4.14.0, zero violations on 27 mobile pages and eight representative desktop pages. H1/main/alt/eager-image checks, keyboard/skip/disclosure states, eight mobile text-spacing cases and seven tablet/small-desktop reflow pages passed. Color contrast/frame rules retain incomplete results; external maps, full screen-reader/zoom testing and comprehensive Siteimprove review remain outside this pass. No shared accessibility fix was needed.
 - SEO: replaced 25 placeholder descriptions; all 27 approved titles/social metadata checked; self-canonicals use existing production ES origin. Audit zero errors, ten intentional title/H1 wording notes. Preview indexing remains off and guides remain on for review. No live-search/rank claims.
-- Final ES build/27-page verifier, shared 850-file checker, text/code rescans, registry-link scan and whitespace checks passed. Reports: docs/es-text-cleanup-report.md and docs/es-final-review-2026-11-14.md; measured evidence under exports/es, exports/accessibility and exports/seo.
+- Final ES build/27-page verifier, shared 850-file checker, text/code rescans, registry-link scan and whitespace checks passed. Reports: docs/units/es/es-text-cleanup-report.md and docs/units/es/es-final-review-2026-11-14.md; measured evidence under exports/es, exports/accessibility and exports/seo.
 - Local ../es and css-shared changes only, not committed/pushed/deployed. Preserve unrelated edits and user Excel lock file. Next release tasks: hero approval/review tool, old/new URL mapping/custom 404/redirects, publishing decisions, then live checks/Siteimprove. Do not claim those launch tasks complete.
 
 ## November 14: ES Courses final supplied photos
@@ -718,7 +1811,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
 
 ## November 14: Source formatting rule and pending cleanup
 
-- Recorded shared HTML/Nunjucks formatting rules in project-conventions.md and new code-cleanup.md: flush-left with no indentation or blank source lines; structural tags on separate lines; ul/ol wrappers and each li on consecutive separate lines. Public GitHub readability and future manual editing are explicit reasons. Preserve inline word spacing, whitespace-sensitive content, front matter and template semantics.
+- Recorded shared HTML/Nunjucks formatting rules in project-conventions.md and new rules/code-cleanup.md: flush-left with no indentation or blank source lines; structural tags on separate lines; ul/ol wrappers and each li on consecutive separate lines. Public GitHub readability and future manual editing are explicit reasons. Preserve inline word spacing, whitespace-sensitive content, front matter and template semantics.
 - Added the separate code-cleanup pass to final-review guidance in text-cleanup.md. SOC sweep remains pending the user's review phase (requested for roughly 20 minutes later); no sweep, scheduling, page edits or builds performed for this documentation task. Local documentation changes only, not committed/pushed/deployed.
 
 ## November 14: Emeritus and affiliate faculty restored
@@ -800,7 +1893,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
 - Old URLs: 2 unchanged, 40 moved proposals, 8 merged proposals, 7 undecided.
   All 57 originals and 59 current pages accounted for; all nonblank proposed paths/
   anchors resolve. SOC build, workbook ZIP/XML/rows/dropdown/360 hyperlink checks
-  and both whitespace checks passed. Report docs/soc-page-review.md; machine plan,
+  and both whitespace checks passed. Report docs/units/soc/soc-page-review.md; machine plan,
   CSV, workbook data and validation in exports/soc. Not a fresh factual-content,
   text/voice, accessibility or SEO audit; live preview freshness not verified.
 - User reviews workbook first. New 404/redirect edits deferred; existing eight
@@ -861,7 +1954,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   Punishment and Society definition between the other two explanations, at user
   direction. Generic field context supported by SAGE handbook description;
   not attributed to department source text or additional faculty capabilities.
-  Retained capitalization. Notes in docs/soc-research-descriptions.md.
+  Retained capitalization. Notes in docs/units/soc/soc-research-descriptions.md.
 - SOC build and whitespace checks passed. Courses, faculty intro and memberships
   unchanged. Local soc/css-shared notes only; no commit, push or deployment.
   Department review of edited description remains pending.
@@ -878,7 +1971,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   intentional/contextual or Roman numeral/name false positives. Verified tags,
   attributes/links/templates/numbers unchanged on seven edited pages and preserved
   biography/quote content against baseline. Shared and whitespace checks pass.
-- Report docs/soc-voice-review.md; after evidence in exports/voice. No new browser,
+- Report docs/units/soc/soc-voice-review.md; after evidence in exports/voice. No new browser,
   accessibility or SEO audit. Local soc/css-shared changes only; no commit/push/
   deployment. Commit/push both and rerun SOC deployment when ready; course-title
   discrepancies and remaining research-review statements still await decisions.
@@ -892,7 +1985,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   clearest paragraph-level alignment. No website copy changed.
 - Separated personal faculty biographies, shared Privacy, procedural guidance,
   external title and retained review quote; excluded Roman-I/name false positives.
-  Report docs/soc-voice-review.md; evidence exports/voice/soc-voice-2026-11-14.json.
+  Report docs/units/soc/soc-voice-review.md; evidence exports/voice/soc-voice-2026-11-14.json.
   Voice review already belongs in text cleanup; documented dedicated scan option
   and contextual/manual limitations. Course-format check remains in checklist.
 - Diff whitespace check passed. Read-only website task; no build/accessibility/
@@ -944,7 +2037,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   60 credit counts from all five research-area lists; academic credits retained.
 - Rescan finds no confirmed missing named-course colons. Combined-lab, cross-list
   and Alpha notation retained; conflicting academic titles unchanged for review.
-  Report: docs/soc-course-format-review.md. No new course names/codes inferred.
+  Report: docs/units/soc/soc-course-format-review.md. No new course names/codes inferred.
 - SOC build/shared checks and whitespace checks pass. Verified HTML structure,
   attributes/links/template code and academic credit annotations unchanged.
   No browser rerun for text-only changes. Prior shared/site work preserved.
@@ -960,7 +2053,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
 - Separate issues: variant titles for same codes, lab/cross-list/Alpha notation,
   inconsistent credit display, BAM trailing commas and S0C typo in Honors prose.
   No academic titles or credits verified/changed; scan is not exhaustive of all
-  prose/tables/shared JSON. Report: docs/soc-course-format-review.md.
+  prose/tables/shared JSON. Report: docs/units/soc/soc-course-format-review.md.
 - Recorded SUBJECT NUMBER: Course Title convention and added report-only course
   review to text-cleanup checklist/template. No SOC edits for this scan; no build
   needed. Shared docs local only, no commit/push/deploy. Next: punctuation cleanup
@@ -1028,7 +2121,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   alphabetical landing order, third-person long paragraphs and no prose dashes.
   Course sections and subsequent faculty-grid markup byte-identical to pre-reset
   sources. No new browser pass for this text-only revision; prior layout checks
-  remain documented below. Review guide: docs/soc-research-descriptions.md.
+  remain documented below. Review guide: docs/units/soc/soc-research-descriptions.md.
 - Local only in soc/css-shared; no commit, push or deployment. Prior unrelated
   work preserved. User review of new descriptions and retained claims is next.
   Commit/push both repositories and rerun SOC deployment after copy is settled.
@@ -1076,7 +2169,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
 - Shared grid-five uses one below 768px, three from 768–1399.98px, five from
   1400px. Middle-range centering rules are isolated to prevent implicit mobile
   columns. Shared photo-tile CSS reuses framing, interaction and grids; no local
-  styles or Sociology-specific selectors. docs/photo-tiles.md documents reuse.
+  styles or Sociology-specific selectors. docs/shared/photo-tiles.md documents reuse.
 - Labels use one 0.5rem padding control, two-line minimum bands, 400 weight,
   stable rem sizing and 80% black background (worst-case white-text contrast
   12.63:1). Final review found 200% text clipping with outer aspect ratio; square
@@ -1153,7 +2246,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   /soc/ image path, returning HTML (HTTP 200), while correct GitHub image returns
   JPEG (HTTP 200), matching local export. Added SITE_ORIGIN to SOC deploy build;
   all 59 prefix-build social page/image URLs verified correct. Not deployed yet.
-- Report: `docs/soc-seo-audit.md`; before/after/prefix/live evidence in exports/seo.
+- Report: `docs/units/soc/soc-seo-audit.md`; before/after/prefix/live evidence in exports/seo.
 - Tomorrow: final text/accessibility/SEO sweeps after edits and Le Lin’s reply;
   recheck deployed social tags, URL migration/custom 404/live HTTP behavior, fix
   stale migration verifier inventory, and retain manual contrast/map follow-up.
@@ -1171,7 +2264,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   and three open-state axe checks passed. Text spacing passed on eight pages;
   768/1200px reflow passed on seven representative pages. Both timeline tables
   retain scoped column headers and valid accessible labels.
-- Report: `docs/soc-accessibility-audit.md`; measured evidence under
+- Report: `docs/units/soc/soc-accessibility-audit.md`; measured evidence under
   `exports/accessibility/soc*-2026-11-13.json`. Axe contrast remains incomplete
   in 118 scans; external map/frame review incomplete in two. No full screen-reader
   session, comprehensive conformance claim or Siteimprove run.
@@ -1197,7 +2290,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   references resolve; quarantine not published and confirmed ignored by Git.
   Moved-file SHA-256 hashes verified; both repositories’ diff whitespace checks pass.
 - Inventory: `exports/soc/folder-cleanup-2026-11-13.json`; topic notes in
-  `docs/soc-migration.md`. Stale full verifier remains as previously reported;
+  `docs/units/soc/soc-migration.md`. Stale full verifier remains as previously reported;
   no accessibility/SEO/live Open Graph scan performed in this folder task.
 - Local changes in soc and css-shared; prior text report/artifacts preserved.
   No commit, push or deployment. Commit/push both repositories and rerun SOC
@@ -1208,7 +2301,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
 - Scanned 59 current HTML sources and 15 shared SOC JSON files; standard tool
   proposed zero mechanical patches and found zero heading wrappers. Saved measured
   findings and text extracted from all 67 rendered HTML pages (eight redirects).
-- Report: `docs/soc-text-scan-2026-11-13.md`. Flags two missing inline spaces,
+- Report: `docs/units/soc/soc-text-scan-2026-11-13.md`. Flags two missing inline spaces,
   Le Lin’s apparently truncated sentence, prime/missing diacritics, one repeated
   research topic, TMS wording, and voice/degree/department naming for review.
   No source copy edited; naming suggestions are not accepted conventions.
@@ -1349,7 +2442,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   Employment. Merged Hörmann descriptions into one concise departmental entry,
   preserving core award/history facts and dedicated-page link; removed old copy.
 - Old undergraduate source now retains only Specialized Funded Programs and its
-  intro (six entries pending review). See soc-funding-consolidation.md for details.
+  intro (six entries pending review). See units/soc/soc-funding-consolidation.md for details.
 - Local soc/css-shared edits only; no builds/tests, commit, push or deployment.
 
 ## November 13: Graduate funding landing page retired
@@ -1381,7 +2474,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   Financial Aid Services entries as separately authorized.
 - Mixed/unclear audience material remains on the old undergraduate page for review
   (including JASC/FLAS/Boren, Native Hawaiian programs, and alternate Hörmann copy).
-  See soc-funding-consolidation.md for exact moved/remaining topics.
+  See units/soc/soc-funding-consolidation.md for exact moved/remaining topics.
 - Dated 2023 paper-award copy retained for review; no eligibility/deadline audit.
   Both old pages/navigation remain. Local soc/css-shared edits only; no builds/tests,
   commit, push or deployment. Next: classify remaining shared material and move
@@ -1393,7 +2486,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   Departmental Funding Sources, General Funding Resources. Moved shared/broad
   material out of both old pages; consolidated near-identical departmental Hörmann
   and residency copies, retaining WUE and original prose. Both FAS summaries remain
-  for review. See soc-funding-consolidation.md for moved/remaining inventory.
+  for review. See units/soc/soc-funding-consolidation.md for moved/remaining inventory.
 - Old undergraduate/graduate pages remain with their unmoved material. Navigation
   and old URLs unchanged; full merge/retirement deliberately deferred per steering.
   Added the new page’s hero assignment. No eligibility audit or substantive rewrite.
@@ -1595,7 +2688,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   supplied catalog.manoa.hawaii.edu program URL. Visible wording unchanged.
   Research browser encountered the destination’s JS/anti-bot screen, so its
   program content was not independently verified.
-- Recorded a Sociology-only department/degree naming inventory in text-cleanup.md
+- Recorded a Sociology-only department/degree naming inventory in rules/text-cleanup.md
   and the SOC cleanup report. Context-specific recommendations require review;
   no canonical naming or bulk changes adopted, and inventory not yet run.
 - Reviewed Graduation Requirements prose: consistent third-person voice; some
@@ -1950,7 +3043,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
 ## November 13: Sociology TMS check recorded
 
 - Added a Sociology-only cleanup item: spell out Theory, Methods, and Statistics
-  or define TMS on first use on each page. Recorded in text-cleanup.md and the
+  or define TMS on first use on each page. Recorded in rules/text-cleanup.md and the
   SOC cleanup report; no site-wide scan or content changes performed this turn.
 - Local css-shared documentation only; no tests, commit, push or deployment.
 
@@ -1972,7 +3065,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
 
 - Split ../soc/src/graduate/doctorate-phd.html into doctorate-phd/index.html plus
   requirements, timeline, qualifying-review, comprehensive-exam and dissertation.
-  See soc-phd-pages.md for the content map and migration details.
+  See units/soc/soc-phd-pages.md for the content map and migration details.
 - Preserved substantive prose; added short intros, plain H3s, gray content bands,
   shared PhD navigation ending in the existing Annual Review, and separate white
   course-resource sections. Timeline retains all twelve semesters in the shared
@@ -2257,7 +3350,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
 
 ## November 13: Voice check added to text-cleanup checklist
 
-- Added report-only pronoun/voice review to text-cleanup.md and its report template:
+- Added report-only pronoun/voice review to rules/text-cleanup.md and its report template:
   flag mixed institutional voice, distinguish intentional biographies/quotations,
   and consult before any rewrite. No website copy or cleanup script changed.
 - Documentation only; no builds/checks, commit, push or deployment. Applies to
@@ -2333,7 +3426,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
 - Preserved links/attributes (except intro), tables, templates, original exports,
   and existing local layout edits. Eight visible missing-diacritic candidates
   left for optional editorial review; permalink watchlist false positive ignored.
-- Report: soc-text-cleanup-report.md; findings: exports/soc/text-cleanup-2026-11-12.json.
+- Report: units/soc/soc-text-cleanup-report.md; findings: exports/soc/text-cleanup-2026-11-12.json.
   No build, visual audit, broad checks or second scan, per user workflow.
 - Local soc/css-shared edits only; no commit/push/deployment.
 
@@ -2539,7 +3632,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   builds passed 2,980 internal-reference checks. News landing + 54 posts deferred;
   Academic Program and GCERT Public Service Leadership still unresolved. Preserve
   existing WordPress archive access for any production switch.
-- Reports: puba-accessibility-audit.md, puba-seo-audit.md, puba-url-comparison.md;
+- Reports: units/puba/puba-accessibility-audit.md, units/puba/puba-seo-audit.md, units/puba/puba-url-comparison.md;
   measured evidence under exports/accessibility, exports/seo, exports/launch.
 - Local changes in css-shared and ../puba only; no commit, push or deployment.
   Existing unrelated edits/workbook annotations preserved. Await destination:
@@ -3098,7 +4191,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   required. User's page-by-page review is next; SEO/accessibility/URL audit later.
 - Verified identical HTML structure/attributes/templates, unchanged table markup;
   second pass zero mechanical findings. Shared check and PUBA 30-page build passed.
-- Report: puba-text-cleanup-report.md; measured JSON in exports/puba.
+- Report: units/puba/puba-text-cleanup-report.md; measured JSON in exports/puba.
 - Repositories: puba and css-shared (documentation). Local only, no push/deploy.
 
 ## November 12: SSRI social preview origin corrected
@@ -3228,7 +4321,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   unchanged. Added self-canonical coverage via existing canonicalSections ["/"].
 - Shared seo-audit.py checks built metadata, duplicates, canonical/social tags
   and H1 alignment; optional --launch catches disabled indexing. Reusable process
-  docs/seo-review.md; report docs/ssri-seo-audit.md; metadata exports/seo/ssri-2026-11-12.json.
+  docs/rules/seo-review.md; report docs/units/ssri/ssri-seo-audit.md; metadata exports/seo/ssri-2026-11-12.json.
 - Checker: 14 pages, zero errors, one reviewed title-length note. SSRI build and
   shared checks pass. Indexing deliberately remains off until launch. Next is
   original-URL comparison and shared 404 page when user supplies the URL export.
@@ -3238,7 +4331,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
 
 - Completed red-flag accessibility review; scope narrowed with user: Siteimprove
   owns comprehensive scans, focused shared fixes are authorized. Audit report:
-  docs/ssri-accessibility-audit.md; compact evidence exports/accessibility/ssri-2026-11-12.json.
+  docs/units/ssri/ssri-accessibility-audit.md; compact evidence exports/accessibility/ssri-2026-11-12.json.
 - Fixed shared desktop dropdown visibility/aria/Escape behavior, including hover
   dismissal. Bootstrap owns visible state; shared JS adds pointer hover and Escape
   handling. Fixed mobile Search text contrast (4.37 to 15.71:1) using dark text.
@@ -3318,7 +4411,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   SSRI scan: 10 recommended missing ʻokina occurrences, three context-dependent
   names/titles and two additional ʻāina lookalikes. HCRI research landing heading
   and alt/aria labels confirmed missing; shared support and UHERO labels also
-  flagged. Report: docs/ssri-diacritics-review.md. No content changed in this review;
+  flagged. Report: docs/units/ssri/ssri-diacritics-review.md. No content changed in this review;
   shared checks pass. This update: css-shared only; prior SSRI edits preserved.
 
 - Standard SSRI text cleanup complete: 24 incorrect Hawaiʻi ʻokina characters
@@ -3327,7 +4420,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   mechanical fixes proposed. Repeat scan zero patches; attributes/links/tables,
   template/code text and prior intro removal independently verified unchanged.
   SSRI build (14 pages) and shared checks pass. Optional ʻāina quote/dash-label
-  observations retained in docs/ssri-text-cleanup-report.md; no user action needed.
+  observations retained in docs/units/ssri/ssri-text-cleanup-report.md; no user action needed.
   Repositories: ssri and css-shared (report/handoff only); local changes only.
 
 - Removed all 11 intro class instances from SSRI's opening paragraphs. Text and
@@ -3441,7 +4534,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   SCI Open Graph settings. Contact information, roles, 37 publication links and
   four unlinked awards imported. Affiliations support multiple programs/roles.
 - All biography words retained; sole normalized comparison difference is a
-  removed space before a comma in Andrew Wertheimer's text. See sci-migration.md
+  removed space before a comma in Andrew Wertheimer's text. See units/sci/sci-migration.md
   and ../sci/reference/migration-report.json for source review, deferred links,
   Rich's two exported titles and Ava's Google Sites edit URL needing a public URL.
 - Local and isolated /sci/ builds/verification pass (33 pages). WGSS regression
@@ -3462,7 +4555,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   with href, not the div wrapper used by unlinked people such as Ayu or staff.
   Directory/bio opt-out remains intact. Repository changed: css-shared only.
 - Reran standard text cleanup after Associated Faculty import: zero proposed
-  changes. Updated wgss-text-cleanup-report.md with this follow-up and clear
+  changes. Updated units/wgss/wgss-text-cleanup-report.md with this follow-up and clear
   distinction from initial correction counts. Shared/current WGSS checks pass;
   no source rebuild needed. Repository changed: css-shared (report/handoff only).
 - Supplied associated-faculty DOCX imported centrally: 65 Affiliate Faculty,
@@ -3494,7 +4587,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
 - Six Alumni videos plus one Home video preserved in a shared responsive macro
   with API/origin parameters. Live GA4/GTM tracking still requires production check.
 - Standard cleanup corrected 31 NBSPs, 2 ʻokina variants, 1 university name,
-  2 repeated spaces and 3 empty paragraphs. Report in wgss-text-cleanup-report.md;
+  2 repeated spaces and 3 empty paragraphs. Report in units/wgss/wgss-text-cleanup-report.md;
   no required user decisions. Original source and URLs preserved during cleanup.
 - Shared checks, local 28-page verification, isolated /wgss/ prefix verification,
   252 source paragraph/list comparisons and repeat zero-change cleanup scan passed.
@@ -3512,7 +4605,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   cleanup for [UNIT].” Reports explicitly distinguish informational observations
   from required decisions. Documentation only; css-shared changed.
 - Detailed cleanup findings, before/after examples, intentional exclusions and
-  validation are saved in docs/anth-text-cleanup-report.md. User wants a findings
+  validation are saved in docs/units/anth/anth-text-cleanup-report.md. User wants a findings
   report at the end of future cleanup sweeps as well.
 - Standard text cleanup completed on 34 ANTH HTML/shared-data files plus the
   shared policies body ANTH renders: 312 accidental NBSPs replaced, 37 Hawaiʻi
@@ -3521,7 +4614,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   No invisible characters or empty paragraphs required removal. HTML attributes
   compared before/after; URLs and original exports unchanged. Source table
   structure preserved. Ambiguous sentence hyphens left for editorial review.
-- Added reusable text-cleanup.md checklist and house style. Repositories changed:
+- Added reusable rules/text-cleanup.md checklist and house style. Repositories changed:
   anth and css-shared. Shared checks pass; local ANTH preview rebuilt/verified.
 - ANTH Courses now uses the four supplied shared courses/course-01.webp through
   course-04.webp top to bottom, actual dimensions 600×600. Decorative empty alt
@@ -3850,7 +4943,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
 - Root and `/es/` builds, shared checks, and 26-page verification passed, including 22
   preserved content bodies and all local links/assets/anchors. Draft only; no
   commit, push, or deployment. Local ES Git repository initialized on main;
-  GitHub remote not supplied. See docs/es-migration.md.
+  GitHub remote not supplied. See docs/units/es/es-migration.md.
 - The shared audit exposed imported POLS body mailto links incorrectly rewritten
   as website URLs. Corrected only those imported links and the one-time importer;
   faculty/student JSON contact links were already correct. POLS rebuilt and verified.
@@ -3877,7 +4970,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
   were present in those inputs. URL inventory and source export in pols/reference.
 - Draft indexing disabled. Open Graph temporarily uses shared PSY image. Review
   current cohort and temporary portraits before launch. No commit/push/deployment.
-  See `docs/pols-migration.md`; local POLS Git repository initialized on main;
+  See `docs/units/pols/pols-migration.md`; local POLS Git repository initialized on main;
   GitHub remote has not been supplied. Root-path local build restored.
 
 ## Latest completed task: SSRI Jack Barile bio
@@ -3988,7 +5081,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
 - All four builds and existing PSY/SOC checks passed; shared checks passed.
   Checked 51 common layouts, one H1/portrait each, supplied sidebar data, and
   unchanged GEO hero records. No browser visual QA, commit, push or deployment.
-- Canonical rules: `docs/faculty-profiles.md` and project conventions. Earlier
+- Canonical rules: `docs/shared/faculty-profiles.md` and project conventions. Earlier
   handoff entries below describe historical steps; portrait-only rules are obsolete.
 
 ## Earlier completed task: SOC faculty directory details
@@ -4052,7 +5145,7 @@ Updated November 15, 2026 (Pacific/Honolulu).
 - Four builds and PSY/SOC existing checks passed, shared checks passed. Verified all
   51 portraits are ordered correctly, styled, linked to existing pages, and backed
   by existing images. Browser visual review not performed. No push/deployment.
-- Editing/reference notes: `docs/faculty-directories.md`. If changing a portrait,
+- Editing/reference notes: `docs/shared/faculty-directories.md`. If changing a portrait,
   name, or URL, update both the page metadata and its explicit directory record.
 
 ## Earlier completed task: PUBA portrait filenames and profile layout
@@ -4183,7 +5276,7 @@ consideration; no current settings or assets changed. Recorded in conventions.
 ## Current task: Sociology draft
 
 - Built `../soc` using the reviewed Navigation Review/SOC workbook and user walkthrough.
-  Detailed accepted structure and source handling: `docs/soc-migration.md`.
+  Detailed accepted structure and source handling: `docs/units/soc/soc-migration.md`.
 - 50 pages, including 14 individual faculty profiles; agreed folder/index structure,
   three-page Why Study merge, non-navigation graduate/root pages, and X feed placeholder.
 - All pages have local metadata and individually adjustable placeholder hero assignments.

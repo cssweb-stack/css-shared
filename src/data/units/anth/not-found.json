@@ -1,0 +1,16 @@
+{
+  "quickLinks": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Faculty",
+      "url": "/faculty/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact.html"
+    }
+  ]
+}

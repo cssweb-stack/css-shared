@@ -153,7 +153,7 @@ margin-top: 0;
 }
 
 /* Match the .25rem inset inside linked email/phone text below its divider. */
-.site-main .profile-supplemental-section h2 {
+.site-main .profile-supplemental-section > :is(h2, h3, h4) {
 font-size: 1.125rem;
 margin: 0 0 0.625rem;
 padding-top: 0.25rem;
@@ -166,6 +166,16 @@ gap: 0.5rem;
 list-style: none;
 padding: 0;
 margin: 0;
+}
+
+/* Match the original publication-list text spacing for all resource links. */
+.site-main .profile-supplemental-links > li > a {
+display: inline-flex;
+align-items: center;
+vertical-align: top;
+min-width: 0;
+min-height: 0;
+padding: 0;
 }
 
 .site-main .profile-supplemental-links li,
@@ -435,6 +445,17 @@ justify-content: flex-start;
 }
 
 /* One graduate-student record per standard sidebar/content row. */
+.student-details-column {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: var(--profile-name-gap);
+}
+
+.site-main .student-details-column > :is(.profile-name, .profile-titles, .profile-detail, .profile-email, .profile-contact-divider) {
+margin: 0;
+}
+
 @media (min-width: 1600px) {
 .graduate-student > .student-photo-column {
 width: 20%;

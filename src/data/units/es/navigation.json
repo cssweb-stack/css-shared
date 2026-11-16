@@ -41,7 +41,7 @@
     "children": [
       {
         "label": "Certificate",
-        "url": "/undergraduate/certificate-es.html",
+        "url": "/undergraduate/certificate.html",
         "iconColor": null,
         "icon": "award"
       },
@@ -88,7 +88,7 @@
   },
   {
     "label": "Support ES",
-    "url": "/support-es.html"
+    "url": "/support.html"
   },
   {
     "label": "Contact",

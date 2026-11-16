@@ -17,12 +17,12 @@
     },
     {
       "from": "/give-a-gift/",
-      "to": "/support-es.html",
+      "to": "/support.html",
       "label": "Give a Gift"
     },
     {
       "from": "/undergraduate-certificate/",
-      "to": "/undergraduate/certificate-es.html",
+      "to": "/undergraduate/certificate.html",
       "label": "Undergraduate Certificate"
     },
     {

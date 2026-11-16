@@ -32,7 +32,7 @@
       },
       {
         "label": "PUBA News",
-        "url": "/about/puba-news.html",
+        "url": "/about/news.html",
         "iconColor": null,
         "icon": "newspaper"
       }
@@ -99,7 +99,7 @@
   },
   {
     "label": "Support PUBA",
-    "url": "/support-puba.html"
+    "url": "/support.html"
   },
   {
     "label": "Contact",

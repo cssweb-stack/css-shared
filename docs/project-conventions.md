@@ -3,9 +3,19 @@
 Established November 10, 2026 (Pacific/Honolulu). These are working agreements,
 not a claim that every older file has already been migrated.
 
+## Documentation organization
+
+Agreed November 15, 2026: keep current rule documents in docs/rules, unit records
+in docs/units/UNIT, shared technical explanations in docs/shared, cross-site
+reports in docs/reports and report forms in docs/templates. docs/README.md is the
+human-readable index. Keep this agreements file and work-status.md at docs root
+as stable entry points. Unit review/migration reports are records, not competing
+general formatting rules. Moving documents does not itself resolve all historical
+instruction conflicts; consolidate those explicitly when reviewing each rule set.
+
 ## Website construction and startup
 
-The accepted [website build rules](website-build-rules.md) govern folder structure,
+The accepted [website build rules](rules/website-build-rules.md) govern folder structure,
 explicit HTML addresses, editable sources, shared components, startup and route
 verification. Review pages use `/heroes/es.html`, never an automatically created
 `/heroes/es/index.html`. Existing intentional section indexes remain exceptions;
@@ -79,19 +89,13 @@ Graduate Division pages or modify other units during a unit-specific task.
 These are outbound-link corrections, not redirects installed on UH's servers.
 Five Graduate Division mappings supplied November 14, 2026 are recorded there.
 
-HTML/Nunjucks source formatting across consuming sites and shared templates:
-use flush-left source lines with no indentation and no blank lines from top to
-bottom. Keep formatting minimal and predictable: these public repositories must
-be readable and professional, and individual elements must be easy to locate
-for future manual editing. Structural
-opening and closing tags each start on their own line. In lists, opening ul/ol,
-each li, and closing ul/ol occupy separate consecutive lines; a simple li and its
-closing tag stay together. Do not join the first/last li to its list wrapper.
-Keep inline links/emphasis within their text line so formatting does not change
-word spacing. Preserve meaningful whitespace in pre/code, scripts, styles and
-template literals, and preserve front-matter values. Formatting does not change
-rendered spacing or authorize copy/layout edits. Include a separate source code
-cleanup pass in final review; see code-cleanup.md. Confirmed November 14, 2026.
+HTML/Nunjucks source formatting is governed by [Code Formatting](rules/code-cleanup.md).
+That document is the single authoritative formatting rule set, displayed directly
+on Review at /rules/code-formatting.html. It replaces the former duplicate rule
+list here. Read it before editing or reviewing HTML/Nunjucks source. Update that
+same document when a rule changes; do not maintain competing formatting lists.
+The Rules section was requested November 15, 2026; other review categories remain
+separate and have not yet been consolidated there.
 
 Course names in website prose and lists use SUBJECT NUMBER: Course Title, for
 example SOC 300: Principles of Sociological Inquiry. Keep a space between subject
@@ -145,7 +149,7 @@ replace placeholders with custom copy unless requested. Geography's existing
 rendered descriptions are preserved, including its faculty descriptions.
 An explicitly requested SEO review authorizes replacing those placeholders with
 unique summaries grounded in each page's content. Keep metadata in local HTML;
-use the shared seo-audit.py checker and docs/seo-review.md procedure. Do not
+use the shared seo-audit.py checker and docs/rules/seo-review.md procedure. Do not
 enable indexing merely because the local metadata audit passes; launch is a
 separate check after URLs/404 and publishing are settled.
 
@@ -164,7 +168,7 @@ permalink /404.html and isNotFound:true. The shell forces noindex and omits
 canonical output for this error page. Unit quick/recovery links belong in shared
 not-found.json. Populate real old-to-new links after URL comparison; no invented
 redirect files or destinations. Verify actual HTTP 404 on the host. See
-docs/not-found-pages.md for the 20/80 design and adoption instructions.
+docs/shared/not-found-pages.md for the 20/80 design and adoption instructions.
 
 Existing GEO pages may use `base.njk` and the profile layout; other current pages
 use `shell.njk`. Shared layouts remain reusable. The metadata agreement does not
@@ -308,13 +312,13 @@ reserves two text lines plus uniform padding controlled by one variable,
 trial. Bands align at equal height when labels occupy up to two lines; longer
 labels can expand at narrow widths or increased text size rather than clip.
 Avoid container-relative label font sizing: changing tile padding previously
-enlarged labels. See photo-tiles.md for reusable markup and controls.
+enlarged labels. See shared/photo-tiles.md for reusable markup and controls.
 This supersedes the initial full-photo dark overlay and opaque label band to retain image color
 and brightness. Reuse the shared
 five-column grid and tile styles used by Geography rather than local copies.
 
 Sociology follows the reviewed hierarchy and content merges in
-[`soc-migration.md`](soc-migration.md). Treat that approved walkthrough as the
+[`units/soc/soc-migration.md`](units/soc/soc-migration.md). Treat that approved walkthrough as the
 reference when refining SOC. On November 14, 2026, the user authorized trying
 the official X timeline for `@UHM_Sociology` on News and Events, superseding the
 placeholder-only restriction. Keep a direct account link available. This is a
@@ -492,7 +496,7 @@ for both directory cards and bios. No `profilePhoto` metadata duplication. The
 single shared `resolveFacultyPerson` function resolves records; missing records
 fail the build. Put biography sections in the page body, without a duplicate H1,
 portrait, or contact block. GEO's satellite hero assignments remain intact.
-See `faculty-profiles.md` for the exact editing contract and completed migration.
+See `shared/faculty-profiles.md` for the exact editing contract and completed migration.
 
 Navigation labels always use `&` instead of the standalone word `and`, across
 all units. Preserve that compact convention when importing or editing navigation;
@@ -502,13 +506,21 @@ People can appear in a directory without an individual bio: set their shared
 record's `url` to null and omit the bio page. Keep the name/photo unlinked;
 never infer a URL over an explicit null. WGSS Ayu is an intentional example.
 “Standard text cleanup” means the scoped, source-preserving checklist in
-`text-cleanup.md`, followed by a unit-specific `text-cleanup-report-template.md`
+`rules/text-cleanup.md`, followed by a unit-specific `templates/text-cleanup-report-template.md`
 report with measured counts, examples, verification and explicit action-needed status.
 Superseded November 14, 2026: the former spaced-em-dash house style no longer
 applies. Do not use dashes to separate clauses or introduce explanations in
 new or revised website prose across any unit. Use sentences, commas, colons or
 parentheses instead. Preserve technical hyphens in URLs/code and legitimate
 compound words and ranges; do not sweep retained source-comparison copy.
+Exception approved November 15, 2026: associated-faculty directory entries should
+use a spaced em dash between a person’s name/contact details and research
+interests, rather than a colon. This supersedes the generic colon/no-dash rule
+for that directory-entry context only. Course references retain colon-space.
+Record this distinction in the future prose-formatting rule page; the current
+ANTH initially requested HR separators only; subsequently approved applying the
+spaced em dash to its associated-faculty page now. Preserve it during later
+reviews. This does not authorize a global punctuation sweep.
 Spell out University of Hawaiʻi at Mānoa in new or revised prose rather than
 abbreviating it to UH Mānoa. Preserve Hawaiian diacritics. Present study options
 from smaller to larger: minor, BA, MA, PhD. Why Study SOC's new opening is one
@@ -527,7 +539,7 @@ Flag ambiguous dash, quote, wording and encoding choices instead of guessing.
 ANTH explicitly uses eight undergraduate dropdown entries, keeping Advising &
 Support and Funding Sources separate. Its course-planning spreadsheets are an
 ANTH-only resource row above the common course buttons; no extra HTML landing
-pages are invented for those external spreadsheets. See `anth-migration.md`.
+pages are invented for those external spreadsheets. See `units/anth/anth-migration.md`.
 ANTH faculty navigation has Core Faculty, Associated Faculty (Adjunct, Affiliate,
 Cooperating), and Emeriti and Retired Faculty (including In Memoriam). Use the
 same shared grouped-list renderer rather than separate visual templates.
@@ -542,7 +554,7 @@ text sizes until separately adjusted. Individual bio portrait sizing remains
 controlled by the shared responsive rule below. Initial PSY/SOC/PUBA grids
 show linked portraits above the existing text lists; GEO retains existing card
 details within the same grid. This directory include is distinct from the bio
-page layout. See `faculty-directories.md` for editing and verification details.
+page layout. See `shared/faculty-directories.md` for editing and verification details.
 
 People and office/contact layouts respond to content fit, not device labels.
 Graduate-student rows, individual bios, and office/map use 20/80 at 1600px+,
@@ -557,7 +569,7 @@ Decorative image/content rows have a distinct shared `image-text-row.njk` macro:
 2/10 at 1600px+, 25/75 at 992–1599px, 33/67 at 768–991px, stacked below 768px with
 75%-width left-aligned images. Keep prose in the calling HTML page, not in the
 macro or new JSON. Request these as “shared image-and-text rows, like POLS Courses.”
-See `image-text-rows.md` for usage. This supersedes the previously deferred course-row work.
+See `shared/image-text-rows.md` for usage. This supersedes the previously deferred course-row work.
 The same macro's reverse option places text left and image right, as on Support
 POLS: 75/25 from 992px upward, 67/33 at 768–991px, then text before image on
 mobile. The reverse variant keeps its larger sidebar even on the widest screens.
@@ -643,7 +655,7 @@ After accessibility and SEO review, compare old/current URLs. Shared per-unit
 url-migration.json generates instant redirect files only in build output for
 confirmed moves/merges. No dummy source pages. Retired pages use the custom 404;
 unresolved pages require a decision. Preserve clean sources and document mappings.
-See url-migration-audit.md for deployment-prefix behavior and verification.
+See shared/url-migration-audit.md for deployment-prefix behavior and verification.
 
 404 pages show general quick links, not lists of moved pages already handled by
 generated redirects. This supersedes the initial SSRI recovery-list design.
@@ -820,7 +832,7 @@ All identity typography is owned by one block and its named tokens at the top of
 src/css/profile.css, used by the same profile-identity.njk for contact cards,
 faculty directories and individual bios. Do not add later duplicate rules, local
 unit overrides or inline formatting for these title/role classes. See the measured
-profile audit in docs/profile-style-audit.md.
+profile audit in docs/reports/profile-style-audit.md.
 
 ## Maximum regular-copy weight: 600 (November 12, 2026)
 
@@ -934,7 +946,7 @@ top of each page only; retain aria-current without a visible “current” label
 At the bottom use the unit’s standard course-resources include, without Back to
 top links or a repeated degree-navigation block. Preserve old MA URL
 and section bookmarks through the shared generated-redirect mechanism. Details:
-docs/soc-ma-pages.md.
+docs/units/soc/soc-ma-pages.md.
 
 Degree page navigation does not show the word “current”; retain aria-current on
 the selected item. A future button navigation treatment is only proposed, not
@@ -1137,13 +1149,15 @@ The intermediate seoTitle full-university overrides were applied to four ES, fiv
 
 Agreed November 14, 2026: SEO review must explicitly assess the complete page-title inventory, semantic labels, unit/campus suffix consistency and excessive repetition/length, not only the presence of metadata. Supply a plain proposed title list when requested and obtain the user's review before applying it. Audit configured suffixes mechanically after building. Maintain concise unit labels (Sociology, Ethnic Studies, Public Administration), UH Mānoa campus branding, and Page name first. Policies & Procedures and Graduate Applications & Admissions use ampersands; research-area names retain their conjunctions. SOC's approved Asia title is shortened to Asia, Pacific, and Hawaiʻi while its full H1 stays unchanged.
 
+Agreed November 15, 2026: SSRI uses Fiscal & Compliance consistently for its service-page H1, navigation and HTML title, replacing Fiscal/Compliance. Preserve the full Fiscal Office and Compliance Unit Services (FOCUS) name in its introduction. OENAS retains and in its official name.
+
 SSRI title inventory approved and applied November 14, 2026 with SSRI | UH Mānoa suffix. Retain recognizable program acronyms alongside names (HAM, HCRI, OENAS); use TASI/PHIDC alone where expanded names are impractically long. This is a deliberate page-title recognition exception to omitting unused acronyms in body prose, not evidence of measured search demand.
 
 PUBA title inventory approved and applied November 14, 2026 with Public Administration | UH Mānoa suffix. Certificate HTML titles use Public Policy Certificate and Nonprofit Management Certificate while their H1s retain the full Graduate Certificate in… credential names. The program overview retains Master of Public Administration (MPA).
 
 ## Content heading scale and unit identity
 
-Agreed November 14, 2026: keep the unit identity and page heading visually distinct. Unit branding retains its responsive 24–32px/600 style. Shared content H1/H2/H3/H4 use 28/24/20/18px at weight 500 (rem equivalents), with H1/H2 reduced to 26/22px below 576px. Body remains 18px/400. This supersedes previous generic H1 32/30/28px and H2 20.4px/600 defaults. Keep existing line-height/margins and intentional component styles. Implement centrally in src/css/typography.css, not page overrides. Hierarchical heading markup remains semantic; no fixed numeric heading ratio is required by this design. See docs/typography.md for rationale and measured checks.
+Agreed November 14, 2026: keep the unit identity and page heading visually distinct. Unit branding retains its responsive 24–32px/600 style. Shared content H1/H2/H3/H4 use 28/24/20/18px at weight 500 (rem equivalents), with H1/H2 reduced to 26/22px below 576px. Body remains 18px/400. This supersedes previous generic H1 32/30/28px and H2 20.4px/600 defaults. Keep existing line-height/margins and intentional component styles. Implement centrally in src/css/typography.css, not page overrides. Hierarchical heading markup remains semantic; no fixed numeric heading ratio is required by this design. See docs/shared/typography.md for rationale and measured checks.
 
 ## ES course-group descriptive labels
 
@@ -1182,3 +1196,264 @@ Review hero inspection groups repeated main-page images together before Single U
 Universal hero assignments for all consuming websites use `/media/heroes/saunders-mural/`: Policies and Procedures → `03.webp`; Privacy Policy → `06.webp`; 404 → `02.webp`; faculty biography pages → `07.webp`. Common page-heroes.json owns these settings and overrides unit choices. Faculty bios are identified by personSlug; faculty landing and associated-directory page selections remain independent and unchanged. This supersedes the earlier Hawaiʻi Hall assignments and distinct per-person mural assignments. Confirmed November 14, 2026.
 
 The shared student hero bank is split into `students/graduate/` (images used on SOC graduate pages at the user’s approved first split) and `students/general/` (all other remaining images). Keep the numeric filenames. This is step one only: featured/supporting classification is deferred. Update references and nested-folder discovery when moving assets. Review Extra Student Images shows the bank images Sociology has not selected, not a claim they are unused by every site. Confirmed November 14, 2026.
+
+## Review secondary navigation placement
+
+Agreed November 15, 2026: Review section button navigation belongs directly below
+the primary navigation, above the page H1 in its own standard page-section,
+container content-section, row and column inside site-main. This clarifies and
+supersedes the initial placement outside main. Apply
+the same placement to Rules and the unit review sections, without a second copy
+below the heading. ANTH is now in the current-review group alongside ES, PUBA,
+SOC and SSRI; preserve alphabetical ordering and the gap before remaining units.
+
+## Profile website links without globe icons
+
+Agreed November 15, 2026: remove the globe icon from Online website links in the
+shared profile sidebar across units. Retain email and telephone icons. Preserve
+website labels and URLs pending review: a person-name label can become Website
+when approved, but meaningful labels such as Website/CV and Lab Website must not
+be flattened automatically. ANTH website-label inventory is presented for user
+review before changing its labels. This is a profile-resource change, not a
+removal of unrelated navigation or content icons.
+
+## Course-page heading pattern
+
+Agreed November 15, 2026: course overview pages use Subject (COURSE CODE) Courses
+for the H1 and page name, e.g. Anthropology (ANTH) Courses. Keep the navigation
+label Courses. Apply to Anthropology now; other units change only when authorized.
+This is a page-heading convention, separate from SUBJECT NUMBER: Course Title
+for individual course references.
+
+## Current student cohort headings
+
+Agreed November 15, 2026: current-cohort H1s identify Current, the full subject
+and the actual degree levels, e.g. Current Anthropology MA & PhD Students. Apply
+to other units during their authorized page review; do not invent programs or
+force MA/PhD labels on units with different credentials. Keep actual H1, source
+path and HTML title visible in Review Page Headings as units enter review.
+
+## Anthropology graduate program sections
+
+Agreed November 15, 2026: split ANTH graduate programs into readable pages under
+/graduate/master-ma/ and /graduate/doctorate-phd/.
+Each program uses the shared degree navigation on every page and a consistent
+hero: MA students/graduate/featured/54.webp; PhD students/graduate/featured/57.webp.
+Its content determines the page divisions, not Sociology’s program requirements.
+The MA split is structural only: retain all source wording and links, including
+awkward, dated or repeated language, until an authorized copy review. Preserve
+old page/section links with direct fragment-aware redirects. The subsequent PhD split was authorized and completed November 15 using the
+same preservation approach; all of its pages use the approved57 hero.
+
+## Graduate program overview structure
+
+Agreed November 15, 2026: program overview pages orient students with the program
+introduction, common degree navigation, learning outcomes in a full-width gray
+section, appropriate graduate program contacts/support on white, then existing
+course resources.
+Detailed policies/requirements belong on linked subpages. Do not duplicate a
+course-link list already supplied by the resource widgets or keep generic Next
+Steps copy when the advising block provides the contacts. ANTH MA now implements
+this: alternative terminal-track note closes its intro, original outcomes/rubric
+move into gray, and Jan Brunson/Marti Kerton use the shared advising widget.
+No separate MA outcomes nav item/page remains; legacy links redirect to the
+overview anchor. This supersedes the initial preserved-copy eight-page MA
+arrangement, which was a structural first pass. PhD and Sociology refinements
+remain separate authorized tasks; do not automatically deduplicate their text.
+
+## Concise page introductions
+
+Agreed November 15, 2026: introductory sentences should describe the page’s
+overall purpose rather than repeat a list of sections or obligations below.
+Use the fewest words needed, and avoid unnecessary specifics that create a
+second place to maintain when detailed content changes. Scope the introduction
+accurately; do not replace required detailed instructions with vague prose.
+
+## Graduate contacts versus assigned advisors
+
+Clarified November 15, 2026 for Anthropology: the graduate chair and graduate
+specialist are Graduate Program Contacts, not the assigned faculty advising
+team. Students work with their assigned faculty advisor on coursework, research
+and degree planning. Overview contacts provide program-level policy/procedural
+guidance and administrative support, with distinct role descriptions. This
+supersedes the initial Graduate Advising label and coursework-advising blurb on
+the ANTH MA overview. Do not infer advising duties from a leadership or staff
+title when writing other units; use their own documented responsibilities.
+
+## Introductory text on content pages
+
+Confirmed November 15, 2026: include a brief introductory sentence or paragraph
+with each content page H1, before navigation or detailed sections. Describe the
+page broadly without repeating its section list or adding unsupported claims.
+Apply this during page creation and restructuring rather than waiting for review.
+
+## Short university reference
+
+Updated November 15, 2026 in the Language & Writing Q&A: use UH Mānoa rather
+than UHM in ordinary copy, with correct diacritics. This supersedes the earlier
+UH Manoa shorthand. Use University of Hawaiʻi at Mānoa for formal identification;
+place unit, campus and college names strategically rather than repeating all names
+on every page. Preserve protected source statements and approved homepage welcomes.
+
+## Anthropology graduate inquiry routing
+
+Agreed November 15, 2026: MA/PhD overviews and graduate applications use the
+shared anthprog@hawaii.edu inquiry callout rather than individual chair/staff
+contact grids. This supersedes the earlier Graduate Program Contacts proposal
+on those pages and preserves the department’s shared-inbox routing. Individual
+people and academic-advising policy references remain on their appropriate pages.
+
+## Anthropology funding structure
+
+Updated November 15, 2026: graduate funding lives under /graduate/funding/
+with an index and topic pages. Graduate navigation links directly to that index.
+This supersedes the earlier /funding/graduate/ location and shared-landing
+routing for graduate students. Undergraduate funding remains a single page
+pending its next review; retain explicit award eligibility.
+
+## Anthropology experiential learning placement
+
+Agreed November 15, 2026: use root /experiential-learning/ for Independent
+Study (index), Internships, Networking and Field Schools. Undergraduate menu
+links to the section. Do not add a Graduate menu link at this time; root-level
+placement allows a future shared-audience link without an undergraduate URL.
+Preserve source eligibility and flag field-school availability/eligibility for
+department confirmation rather than inferring active graduate offerings.
+
+## Anthropology MA navigation and page headings
+
+Agreed November 15, 2026: Anthropology MA pages use this navigation order and
+wording: Overview; First Year; Advising, Committees & Candidacy; Requirements &
+Progress; Plan A (Thesis); Plan B (Papers); Research & Meetings. Each page H1 and
+local title use Anthropology MA: followed by its exact navigation label. This
+provides program context while keeping the current topic consistent. Remove the
+explanatory sentence above this MA navigation. Scope is Anthropology MA only;
+filenames and URLs remain unchanged pending a separate decision. Supersedes the
+earlier MA navigation intro and inconsistent topic headings.
+
+MA naming refinement November 15: use parentheses for Thesis and Papers so the
+Anthropology MA prefix remains the only colon in each H1. This supersedes the
+initial Plan A: Thesis and Plan B: Papers labels.
+
+## Anthropology applied MA track locations
+
+Agreed November 15, 2026: both applied MA tracks belong under Graduate, at
+/graduate/applied-archaeology/ and /graduate/applied-cultural-anthropology/,
+including coursework and advising/completion subpages. Graduate dropdown has eight
+destinations; Funding remains directly linked and Student Organizations is grouped
+on Why Study Anthropology, including AUSA, AGSA and Lambda Alpha.
+Subfields & Specializations retains links to these tracks. Redirect former About
+locations and preserve fragment destinations. This supersedes their About placement.
+
+November 15 refinement: eight Graduate items supersedes the earlier nine-item
+decision to fit the user’s publishing constraint. Organization detail pages remain
+available; their common discovery section is Why Study Anthropology.
+
+Anthropology undergraduate navigation order, November 15: Funding Sources follows
+Experiential Learning; Advising & Support is the final undergraduate dropdown item.
+Keep this support destination last when adjusting this menu.
+
+## Anthropology homepage protected voice
+
+Agreed November 15, 2026: Anthropology homepage institutional statement, kuleana
+list and closing paragraph are protected unit-authored voice. Preserve wording
+and first person; do not rewrite or standardize in later text/voice passes. Layout
+and source whitespace may be cleaned without changing meaning. Department News
+heading removed from homepage by request. Image placement remains undecided.
+
+## Language rule sheet
+
+November 15, 2026: docs/rules/language-writing.md consolidates accepted language
+agreement topics in plain English and is displayed directly on Review as Language
+& Writing. Use it for language edits; text-cleanup.md remains the review procedure.
+Specific current unit exceptions and approved academic wording remain protected.
+
+## Code Formatting clarification after user review
+
+Confirmed November 15, 2026 through batched Q&A: the canonical Code Formatting
+sheet covers HTML/Nunjucks and CSS. HTML remains flush left with no blank lines;
+complete paragraphs/headings/simple list items each occupy one source line, with
+editor soft wrap allowed. Nested list wrappers and parent closing li use separate
+lines. Sentence-level template expressions remain inline; standalone instructions
+get separate lines. CSS is flush left with one selector/declaration per line,
+opening brace after final selector, closing braces alone and one blank line
+between blocks. Other file types retain existing formats. The rewritten sheet
+removes duplicate bullets and supersedes its former claim that CSS was excluded.
+
+## Resolving conflicting rule sources
+
+Approved November 15, 2026: flag conflicting instructions rather than silently
+combining them. Apply the canonical current rule sheet; consult the user if the
+accepted decision is unclear. After resolution, remove or update the obsolete
+instruction where it originated. Preserve historical records as history, clearly
+marked as superseded, rather than leaving them as competing current directions.
+This applies to formatting, language and other maintained rule sets.
+
+November 15 whitespace clarification: Code Formatting owns accidental double
+spaces, nonbreaking spaces, trailing spaces before closing tags and spaces before
+punctuation. Preserve intentional nonbreaking spaces, word separation around
+inline markup and whitespace-sensitive content. Language & Writing refers to
+that subsection rather than maintaining a second mechanical whitespace checklist.
+
+## Language & Writing Q&A decisions
+
+Confirmed November 15, 2026: the canonical language sheet now reflects strategic
+institutional naming, known Hawaiian diacritics across visible text/metadata,
+short-heading title case and full-question sentence case, and matching ampersand
+choices between nav labels and H1 topics. Obvious language corrections and missing
+broad intros are authorized during requested cleanup; uncertain facts, academic
+policy or implications require questions. Degree naming remains contextual, not a
+new blanket H1 formula or a claim about search demand; current approved titles
+remain until separately reviewed. Supersedes the earlier sheet’s blanket heading
+title-case instruction. No portfolio-wide content changes authorized by this Q&A.
+
+## Formatting by default and concise cleanup feedback
+
+Agreed November 15, 2026: follow canonical Code Formatting rules when creating,
+importing, generating editable source or editing files, not only on final review.
+Check affected source before declaring completion; source generators must follow
+the same format. Raw exports, historical snapshots and generated build output stay
+excluded. Requested cleanup feedback defaults to a brief evidence-based before/
+after formatting grade (or already clean), build status and material exceptions.
+Do not generate a separate report unless requested or imply unrelated audits passed.
+Internal work-status handoffs remain required; they do not replace concise feedback.
+
+## Fixed academic-unit home, contact and support heroes
+
+Locked November 15, 2026: Anthropology, Ethnic Studies and Sociology use general
+featured17 for Home, general featured48 for Courses, general featured41 for Contact
+and general supporting22 for Support. These shared unit heroes.json assignments are fixed choices: preserve
+across future image allocation and refreshes rather than randomizing them. Same
+image across these units is intentional. Geography is explicitly excluded; PUBA,
+SSRI and other units are not opted in. User mentioned five choices but specified
+only three initially, then clarified Courses as the fourth; do not invent a fifth. These assignments supersede
+prior Home/Contact/Support choices for the three named units only.
+
+Correction November 15: Home17 and Courses48 supersede the mistaken Home48
+assignment. Contact41 and Support22 remain unchanged for ANTH, ES and SOC.
+
+## Ethnic Studies learning outcomes preservation
+
+Confirmed November 15, 2026 during language review: preserve all six ES student
+learning outcomes exactly, including existing italics and punctuation. User
+declined proposed copy edits. This is a specific exception to general cleanup
+rules; do not reapply those changes in later passes without authorization.
+
+## PUBA accreditation protection
+
+Confirmed November 15, 2026: PUBA NASPAA accreditation content, data and its
+presentation are protected from ordinary language cleanup. Do not alter either
+naspaa page, accreditation tables or reported data without explicit authorization.
+The language pass also preserves mission/values, constitutions, learning outcomes,
+biographies and testimonials in their intended voice. Flag uncertain requirements
+rather than guessing. User confirmed two annual application deadlines: April 30
+and November 1. Preserve both, including existing program-specific admission
+seasons; this is not an unresolved date conflict.
+
+## Five-site final review and preview publication
+
+Agreed November 15, 2026: SSRI, PUBA, SOC, ANTH and ES are ready for final folder cleanup, accessibility and SEO checks, then manual publication for Siteimprove scanning. Preview publication is not permission to launch search indexing: keep indexing disabled, allow the access required by the scanner, and do not submit these previews to Google. Prioritize concrete review findings over further open-ended content polishing. Unpublishing until the meeting is an option, not an instruction to unpublish now.
+
+## PUBA preview naming refinement
+
+Approved November15,2026: use support.html and about/news.html without redundant PUBA filename suffixes, matching courses.html. Update references and existing legacy redirect destinations; do not create redirects from these unestablished preview filenames. Courses H1 is Public Administration (PUBA) Courses; Faculty H1 is Public Administration Faculty; admissions H1/search title is Graduate Applications & Admissions. Certificate search titles retain Graduate Certificate in their full names. Support/News H1s spell out Public Administration; established search-title unit suffix remains unchanged. Scope is PUBA; no other site renames implied.

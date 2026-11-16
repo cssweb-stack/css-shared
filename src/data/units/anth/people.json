@@ -82,7 +82,7 @@
     ],
     "websites": [
       {
-        "label": "Jan Brunson",
+        "label": "Website",
         "url": "https://janbrunsonphd.com/"
       }
     ],
@@ -122,7 +122,7 @@
     ],
     "websites": [
       {
-        "label": "Alex Golub",
+        "label": "Website",
         "url": "https://alex.golub.name/"
       }
     ]
@@ -192,7 +192,7 @@
     ],
     "websites": [
       {
-        "label": "Jonathan Padwe",
+        "label": "Website",
         "url": "https://www.meatradio.com/"
       }
     ],
@@ -236,7 +236,7 @@
     ],
     "websites": [
       {
-        "label": "Christian E. Peterson",
+        "label": "Website",
         "url": "https://eresonis.github.io/"
       }
     ]
@@ -298,6 +298,20 @@
       {
         "label": "ORCID",
         "url": "https://orcid.org/0000-0001-8616-4281"
+      }
+    ],
+    "awards": [
+      {
+        "name": "Chancellor's Citation for Meritorious Teaching",
+        "year": "2012"
+      },
+      {
+        "name": "College of Social Sciences Award for Excellence in Teaching",
+        "year": "2019"
+      },
+      {
+        "name": "Board of Regents Medal for Excellence in Teaching",
+        "year": "2026"
       }
     ]
   },
@@ -365,6 +379,12 @@
         "name": "Chancellor's Citation for Meritorious Teaching",
         "year": "2016"
       }
+    ],
+    "websites": [
+      {
+        "label": "Website",
+        "url": "https://miriamstark3.wordpress.com/"
+      }
     ]
   },
   {
@@ -392,7 +412,7 @@
     ],
     "websites": [
       {
-        "label": "Elizabeth Agey",
+        "label": "Website",
         "url": "http://www.anthroliz.com"
       }
     ]
@@ -458,5 +478,238 @@
     "photoHeight": 333,
     "phone": "(808) 956-8415",
     "phoneHref": "+18089568415"
+  },
+  {
+    "name": "Michael Graves",
+    "lastName": "Graves",
+    "slug": "michael-graves",
+    "type": "faculty",
+    "showInFacultyDirectory": false,
+    "showInKeyContacts": false,
+    "title": "",
+    "roles": [],
+    "email": "mwgraves@unm.edu",
+    "photo": "/media/units/anth/faculty-other/michael-graves.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "url": null,
+    "publicationProfiles": [
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Michael_Graves4"
+      }
+    ]
+  },
+  {
+    "name": "P. Bion Griffin",
+    "lastName": "Griffin",
+    "slug": "p-bion-griffin",
+    "type": "faculty",
+    "showInFacultyDirectory": false,
+    "showInKeyContacts": false,
+    "title": "",
+    "roles": [],
+    "email": "griffin@hawaii.edu",
+    "photo": "/media/units/anth/faculty-other/p-bion-griffin.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "url": null,
+    "publicationProfiles": [
+      {
+        "label": "Academia.edu",
+        "url": "https://manoa-hawaii.academia.edu/BionGriffin"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Bion_Griffin"
+      }
+    ]
+  },
+  {
+    "name": "Alan Howard",
+    "lastName": "Howard",
+    "slug": "alan-howard",
+    "type": "faculty",
+    "showInFacultyDirectory": false,
+    "showInKeyContacts": false,
+    "title": "",
+    "roles": [],
+    "email": "ahoward@hawaii.edu",
+    "photo": "/media/units/anth/faculty-other/alan-howard.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "url": null,
+    "websites": [
+      {
+        "label": "Website",
+        "url": "https://alanhowardanthro.net/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=O7gMc5AAAAAJ&hl=en"
+      }
+    ]
+  },
+  {
+    "name": "Terry L. Hunt",
+    "lastName": "Hunt",
+    "slug": "terry-l-hunt",
+    "type": "faculty",
+    "showInFacultyDirectory": false,
+    "showInKeyContacts": false,
+    "title": "",
+    "roles": [],
+    "url": null,
+    "directoryNameOnly": true
+  },
+  {
+    "name": "Michael Pietrusewsky",
+    "lastName": "Pietrusewsky",
+    "slug": "michael-pietrusewsky",
+    "type": "faculty",
+    "showInFacultyDirectory": false,
+    "showInKeyContacts": false,
+    "title": "",
+    "roles": [],
+    "email": "mikep@hawaii.edu",
+    "photo": "/media/units/anth/faculty-other/michael-pietrusewsky.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "url": null,
+    "publicationProfiles": [
+      {
+        "label": "Academia.edu",
+        "url": "https://manoa-hawaii.academia.edu/MichaelPietrusewsky"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=i2gfnJcAAAAJ&hl=en"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Michael_Pietrusewsky"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/pietrusewsky/"
+      }
+    ]
+  },
+  {
+    "name": "Leslie Sponsel",
+    "lastName": "Sponsel",
+    "slug": "leslie-sponsel",
+    "type": "faculty",
+    "showInFacultyDirectory": false,
+    "showInKeyContacts": false,
+    "title": "",
+    "roles": [],
+    "email": "sponsel@hawaii.edu",
+    "photo": "/media/units/anth/faculty-other/leslie-sponsel.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "url": null,
+    "websites": [
+      {
+        "label": "Website",
+        "url": "https://spiritualecology.info/"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Sponsel%2C+Leslie+E.&btnG="
+      }
+    ]
+  },
+  {
+    "name": "Geoffrey White",
+    "lastName": "White",
+    "slug": "geoffrey-white",
+    "type": "faculty",
+    "showInFacultyDirectory": false,
+    "showInKeyContacts": false,
+    "title": "",
+    "roles": [],
+    "email": "white@hawaii.edu",
+    "photo": "/media/units/anth/faculty-other/geoffrey-white.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "url": null,
+    "publicationProfiles": [
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Geoffrey_White3"
+      }
+    ]
+  },
+  {
+    "name": "Christine Yano",
+    "lastName": "Yano",
+    "slug": "christine-yano",
+    "type": "faculty",
+    "showInFacultyDirectory": false,
+    "showInKeyContacts": false,
+    "title": "",
+    "roles": [],
+    "email": "cryano@hawaii.edu",
+    "photo": "/media/units/anth/faculty-other/christine-yano.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "url": null
+  },
+  {
+    "name": "Barry V. Rolett",
+    "lastName": "Rolett",
+    "slug": "barry-v-rolett",
+    "type": "faculty",
+    "showInFacultyDirectory": false,
+    "showInKeyContacts": false,
+    "title": "",
+    "roles": [],
+    "email": "rolett@hawaii.edu",
+    "photo": "/media/units/anth/faculty-other/barry-v-rolett.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "url": null,
+    "websites": [
+      {
+        "label": "Website",
+        "url": "https://www.afargo.org/contact"
+      }
+    ],
+    "publicationProfiles": [
+      {
+        "label": "Academia.edu",
+        "url": "https://manoa-hawaii.academia.edu/BarryRolett"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=v-Oxr84AAAAJ&hl=en&oi=ao"
+      }
+    ]
+  },
+  {
+    "name": "Ann Sakaguchi",
+    "lastName": "Sakaguchi",
+    "slug": "ann-sakaguchi",
+    "type": "faculty",
+    "showInFacultyDirectory": false,
+    "showInKeyContacts": false,
+    "title": "",
+    "roles": [],
+    "email": "annsakag@hawaii.edu",
+    "photo": "/media/units/anth/faculty-other/ann-sakaguchi.webp",
+    "photoWidth": 333,
+    "photoHeight": 333,
+    "url": null,
+    "publicationProfiles": [
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Ann_Sakaguchi"
+      }
+    ]
   }
 ]

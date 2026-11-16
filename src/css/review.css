@@ -36,3 +36,12 @@ max-width: 100%;
 width: auto;
 height: auto;
 }
+
+.review-heading-entry {
+font-size: 0.875em;
+overflow-wrap: anywhere;
+}
+.review-heading-entry > a,
+.review-heading-entry > span {
+font-size: inherit;
+}

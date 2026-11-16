@@ -1,60 +1,28 @@
 {
   "groups": [
     {
-      "title": "Emeritus and Retired Faculty",
-      "members": [
-        {
-          "name": "Terry L. Hunt"
-        },
-        {
-          "name": "Barry V. Rolett",
-          "email": "rolett@hawaii.edu",
-          "description": "Professor"
-        },
-        {
-          "name": "Ann Sakaguchi",
-          "email": "annsakag@hawaii.edu",
-          "description": "Specialist"
-        },
-        {
-          "name": "Michael Graves",
-          "email": "mwgraves@unm.edu",
-          "description": "Professor Emeritus"
-        },
-        {
-          "name": "P. Bion Griffin",
-          "email": "griffin@hawaii.edu",
-          "description": "Professor Emeritus"
-        },
-        {
-          "name": "Alan Howard",
-          "email": "ahoward@hawaii.edu",
-          "description": "Professor Emeritus"
-        },
-        {
-          "name": "Michael Pietrusewsky",
-          "email": "mikep@hawaii.edu",
-          "description": "Professor Emeritus"
-        },
-        {
-          "name": "Leslie Sponsel",
-          "email": "sponsel@hawaii.edu",
-          "description": "Professor Emeritus"
-        },
-        {
-          "name": "Geoffrey White",
-          "email": "white@hawaii.edu",
-          "description": "Professor Emeritus"
-        },
-        {
-          "name": "Christine Yano",
-          "email": "cryano@hawaii.edu",
-          "description": "Professor Emeritus"
-        }
+      "title": "Emeritus",
+      "memberSlugs": [
+        "michael-graves",
+        "p-bion-griffin",
+        "alan-howard",
+        "terry-l-hunt",
+        "michael-pietrusewsky",
+        "leslie-sponsel",
+        "geoffrey-white",
+        "christine-yano"
       ]
     },
     {
-      "title": "Emeriti (In Memoriam)",
+      "title": "Retired",
+      "dividerBefore": true,
+      "memberSlugs": [
+        "barry-v-rolett",
+        "ann-sakaguchi"
+      ]
+    },
+    {
+      "title": "Emeriti In Memoriam",
       "members": [
         {
           "name": "Andrew R. Arno (PhD, Harvard University, 1974)",
@@ -98,7 +66,8 @@
           "name": "Takie S. Lebra (PhD, University of Pittsburgh, 1967)",
           "description": "Culture and Self, Communication, Gender, Career, Elite, Japan"
         }
-      ]
+      ],
+      "dividerBefore": true
     }
   ]
 }

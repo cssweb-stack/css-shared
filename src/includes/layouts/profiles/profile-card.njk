@@ -1,4 +1,18 @@
 <article class="profile-card" aria-labelledby="{{ profileIdentityPrefix | default('faculty') | escape }}-{{ person.slug | escape }}">
 {% set profileView = "directory" %}
 {% include "layouts/profiles/profile-identity.njk" %}
+{% if directoryShowOnline %}
+{% if person.websites | length or person.publicationProfiles | length %}
+<section class="profile-supplemental-section" aria-labelledby="{{ profileIdentityPrefix | default('faculty') | escape }}-{{ person.slug | escape }} {{ person.slug | escape }}-online">
+<h4 id="{{ person.slug | escape }}-online">Online</h4>
+<ul class="profile-supplemental-links">
+{% for links in [person.websites | default([]), person.publicationProfiles | default([])] %}
+{% for link in links %}
+<li><a href="{{ link.url | escape }}">{{ link.label | escape }}<span class="visually-hidden"> — {{ person.name | escape }}</span></a></li>
+{% endfor %}
+{% endfor %}
+</ul>
+</section>
+{% endif %}
+{% endif %}
 </article>

@@ -1,0 +1,86 @@
+# Toggle layout diagnostics
+
+Normal production styling has diagnostics OFF. Diagnostics are currently ON
+for header proofreading at the user’s request; comment out the import before
+publishing the normal presentation.
+
+At the bottom of `src/css/common.css`, enable proofreading by changing:
+
+```css
+/* @import url("./diagnostics.css"); */
+```
+
+to:
+
+```css
+@import url("./diagnostics.css");
+```
+
+Comment it again to switch off. Local dev rebuilds after common.css changes;
+refresh the page. Published sites require rebuilding/deploying their consumers.
+One switch applies to every site using the shared stylesheet. No page edits,
+JavaScript, user-facing controls or special build flags are required.
+
+The rules live only in `src/css/diagnostics.css`:
+
+All helper lines are 3px thick. Container guides are pink; column guides are red.
+
+- Header inners: pink side guides.
+- Page parent and section outers: no helper lines.
+- Content inners: pink on all four sides.
+- Footer inner containers: pink on all four sides.
+- Grid columns: red on all four sides.
+- Main-content Bootstrap columns and program/photo tiles draw the same red guide on a foreground ::after layer because images and surfaces obscure parent inset shadows. Column positioning anchors the overlay without adding spacing; the overlay ignores pointer events. Its rule exists only in diagnostics.css.
+- Redundant footer row parents are excluded.
+- No diagnostic background fills; existing page backgrounds show through.
+
+Helper lines use inset box shadows rather than real borders. Enabling them does
+not add box dimensions, alter padding/margins, or move text. Borders, dividers and
+photo frames that are part of the actual design remain in their component files.
+The regular section bottom margin remains in layout.css, independent of this
+switch. Diagnostic CSS must never introduce spacing or structural rules.
+
+Validation: shared checker and SSRI/GEO/style-guide builds passed. Chrome
+checked seven representative pages at phone/tablet/desktop widths (21 cases):
+normal main/content/footer containers had no diagnostic borders; toggling the
+helper stylesheet on and off moved/resized zero elements. Measurements:
+`exports/diagnostics-toggle-2026-11-08.json`.
+
+PUBA and SSRI page sources explicitly contain their section/container/row/column
+structure and use `shell.njk`. The shell does not add content wrappers.
+
+## Content-edge overlap correction — November 9, 2026
+
+Removed cap-height and alphabetic-baseline text trimming from first headings and
+last paragraphs, both directly inside content sections and inside primary
+Bootstrap columns. Those trims placed the top ink at the box edge and allowed
+descenders below it; 3px inset guides made the overlap visible. Normal line boxes
+now provide top/bottom clearance without adding diagnostic padding or changing
+helper geometry.
+
+Chrome checked MPA and Associated Faculty at 375, 820, and 1440px. Text cleared
+both inset guide edges in all six cases. Measurements are recorded in
+`exports/puba-content-edges-2026-11-09.json`. The shared checker passed.
+
+## GEO Pages artifact lookup failure — November 10, 2026
+
+Run `42910774688` (push, first attempt) built and uploaded successfully, but Deploy
+failed while looking up `github-pages`. The public Actions API confirmed one
+non-expired artifact named `github-pages` (ID `13808095367`) for that exact run.
+The installed upload-pages-artifact@v3 uses upload-artifact@v4, so do not replace
+it merely because the error mentions upload-artifact v4. A transient artifact
+visibility/service problem is suspected, not confirmed. Recommend re-running all
+jobs to produce a fresh artifact; investigate upload/deploy logs if it recurs.
+No workflow edits, rerun, push, or deployment performed during this diagnosis.
+Node20 deprecation messages were warnings; the failed step was artifact lookup.
+
+## Sociology preview release, November 14
+
+SOC sets site-settings.json layoutGuides to false, using the existing per-unit
+build switch. Its built stylesheet excludes diagnostics; the shared import
+remains available for other units. This does not alter layout geometry.
+
+The shared advising widget uses CSS-grid classes advising-grid/advising-person,
+not Bootstrap row/col wrappers. Diagnostics outline each advisor and its inner
+photo/details columns with the same red foreground overlay. These guides do
+not add real borders or change grid widths, gaps or link interactions.

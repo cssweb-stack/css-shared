@@ -31,7 +31,7 @@
       "alt": "UH Students",
       "credit": false
     },
-    "/about/puba-news.html": {
+    "/about/news.html": {
       "image": "/media/heroes/puba/06.webp",
       "position": "center center",
       "alt": "Saunders Hall mural",
@@ -103,7 +103,7 @@
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/support-puba.html": {
+    "/support.html": {
       "image": "/media/heroes/puba/14.webp",
       "position": "center center",
       "alt": "PUBA Students",

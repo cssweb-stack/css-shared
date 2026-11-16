@@ -1,6 +1,6 @@
 """Prepare a standard text-cleanup patch and measured findings for one unit.
 
-Review proposed edits against docs/text-cleanup.md before applying. Original exports,
+Review proposed edits against docs/rules/text-cleanup.md before applying. Original exports,
 URLs/attributes, template expressions and preformatted text are not modified.
 """
 from pathlib import Path

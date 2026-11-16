@@ -1,0 +1,1078 @@
+{
+  "unit": "anth",
+  "pages": 82,
+  "mode": "prelaunch",
+  "indexingEnabled": false,
+  "errors": [],
+  "notes": [
+    "/404.html: Review title/H1 wording alignment",
+    "/undergraduate/major/student-learning-outcomes.html: Review title/H1 wording alignment",
+    "/undergraduate/major/student-learning-outcomes.html: Long rendered title; review meaning, do not truncate to an arbitrary limit"
+  ],
+  "pageMetadata": [
+    {
+      "url": "/404.html",
+      "title": "Page Not Found | Anthropology | UH Mānoa",
+      "titleLength": 40,
+      "h1": "404 Page Not Found",
+      "description": "Find the Anthropology homepage, faculty and contact information at the University of Hawaiʻi at Mānoa.",
+      "descriptionLength": 102,
+      "titleMatchesH1": false,
+      "canonical": [],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/colloquia.html",
+      "title": "Colloquia | Anthropology | UH Mānoa",
+      "titleLength": 35,
+      "h1": "Colloquia",
+      "description": "Find anthropology colloquia at UH Mānoa, with speaker, topic, location and event details from the Department of Anthropology.",
+      "descriptionLength": 125,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/about/colloquia.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/department-news.html",
+      "title": "Department News | Anthropology | UH Mānoa",
+      "titleLength": 41,
+      "h1": "Department News",
+      "description": "Find department news and updates from Anthropology at the University of Hawaiʻi at Mānoa.",
+      "descriptionLength": 89,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/about/department-news.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/subfields-specializations/archaeology.html",
+      "title": "Archaeology | Anthropology | UH Mānoa",
+      "titleLength": 37,
+      "h1": "Archaeology",
+      "description": "Explore archaeology at UH Mānoa, including the field’s research focus, related anthropology courses and faculty working in the area.",
+      "descriptionLength": 132,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/about/subfields-specializations/archaeology.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/subfields-specializations/biological-anthropology.html",
+      "title": "Biological Anthropology | Anthropology | UH Mānoa",
+      "titleLength": 49,
+      "h1": "Biological Anthropology",
+      "description": "Explore biological anthropology at UH Mānoa, including the field’s research focus, related anthropology courses and faculty working in the area.",
+      "descriptionLength": 144,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/about/subfields-specializations/biological-anthropology.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/subfields-specializations/cultural-anthropology.html",
+      "title": "Cultural Anthropology | Anthropology | UH Mānoa",
+      "titleLength": 47,
+      "h1": "Cultural Anthropology",
+      "description": "Explore cultural anthropology at UH Mānoa, including the field’s research focus, related anthropology courses and faculty working in the area.",
+      "descriptionLength": 142,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/about/subfields-specializations/cultural-anthropology.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/subfields-specializations/environmental-anthropology.html",
+      "title": "Environmental Anthropology | Anthropology | UH Mānoa",
+      "titleLength": 52,
+      "h1": "Environmental Anthropology",
+      "description": "Explore environmental anthropology at UH Mānoa, including the field’s research focus, related anthropology courses and faculty working in the area.",
+      "descriptionLength": 147,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/about/subfields-specializations/environmental-anthropology.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/subfields-specializations/",
+      "title": "Subfields & Specializations | Anthropology | UH Mānoa",
+      "titleLength": 53,
+      "h1": "Subfields & Specializations",
+      "description": "Explore anthropology subfields and specializations at UH Mānoa, including archaeology, biological, cultural, environmental and medical anthropology.",
+      "descriptionLength": 148,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/about/subfields-specializations/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/subfields-specializations/medical-anthropology.html",
+      "title": "Medical Anthropology | Anthropology | UH Mānoa",
+      "titleLength": 46,
+      "h1": "Medical Anthropology",
+      "description": "Explore medical anthropology at UH Mānoa, including the field’s research focus, related anthropology courses and faculty working in the area.",
+      "descriptionLength": 141,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/about/subfields-specializations/medical-anthropology.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/why-study-anth.html",
+      "title": "Why Study Anthropology? | Anthropology | UH Mānoa",
+      "titleLength": 49,
+      "h1": "Why Study Anthropology?",
+      "description": "Explore undergraduate and graduate anthropology programs at UH Mānoa, along with student organizations and mentoring opportunities.",
+      "descriptionLength": 131,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/about/why-study-anth.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/contact.html",
+      "title": "Contact ANTH | Anthropology | UH Mānoa",
+      "titleLength": 38,
+      "h1": "Contact ANTH",
+      "description": "Contact the UH Mānoa Department of Anthropology and find office hours, location and department administrative contacts.",
+      "descriptionLength": 119,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/contact.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/courses.html",
+      "title": "Anthropology (ANTH) Courses | Anthropology | UH Mānoa",
+      "titleLength": 53,
+      "h1": "Anthropology (ANTH) Courses",
+      "description": "Explore Anthropology (ANTH) courses at UH Mānoa, from introductory undergraduate study to graduate research and dissertation work.",
+      "descriptionLength": 130,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/courses.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/experiential-learning/field-schools.html",
+      "title": "Experiential Learning: Field Schools | Anthropology | UH Mānoa",
+      "titleLength": 62,
+      "h1": "Experiential Learning: Field Schools",
+      "description": "Explore anthropology field school opportunities connected to UH Mānoa, including ethnographic and archaeological field research.",
+      "descriptionLength": 128,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/experiential-learning/field-schools.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/experiential-learning/",
+      "title": "Experiential Learning: Independent Study | Anthropology | UH Mānoa",
+      "titleLength": 66,
+      "h1": "Experiential Learning: Independent Study",
+      "description": "Review independent study through ANTH 399 at UH Mānoa, including faculty supervision, registration, credit limits and project completion.",
+      "descriptionLength": 137,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/experiential-learning/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/experiential-learning/internships.html",
+      "title": "Experiential Learning: Internships | Anthropology | UH Mānoa",
+      "titleLength": 60,
+      "h1": "Experiential Learning: Internships",
+      "description": "Explore anthropology internships through ANTH 379 at UH Mānoa, including eligibility, time commitments and additional internship opportunities.",
+      "descriptionLength": 143,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/experiential-learning/internships.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/experiential-learning/networking.html",
+      "title": "Experiential Learning: Networking | Anthropology | UH Mānoa",
+      "titleLength": 59,
+      "h1": "Experiential Learning: Networking",
+      "description": "Find professional anthropology organizations and networking opportunities for students at UH Mānoa.",
+      "descriptionLength": 99,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/experiential-learning/networking.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/alex-golub.html",
+      "title": "Alex Golub | Anthropology | UH Mānoa",
+      "titleLength": 36,
+      "h1": "Alex Golub",
+      "description": "Explore Alex Golub’s Anthropology faculty profile at UH Mānoa, including their background, research, teaching and available contact information.",
+      "descriptionLength": 144,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/faculty/alex-golub.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/associated-faculty.html",
+      "title": "Associated Faculty | Anthropology | UH Mānoa",
+      "titleLength": 44,
+      "h1": "Associated Faculty",
+      "description": "Find associated anthropology faculty at UH Mānoa, organized by affiliation and research interests.",
+      "descriptionLength": 98,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/faculty/associated-faculty.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/christian-e-peterson.html",
+      "title": "Christian E. Peterson | Anthropology | UH Mānoa",
+      "titleLength": 47,
+      "h1": "Christian E. Peterson",
+      "description": "Explore Christian E. Peterson’s Anthropology faculty profile at UH Mānoa, including their background, research, teaching and available contact information.",
+      "descriptionLength": 155,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/faculty/christian-e-peterson.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/christopher-j-bae.html",
+      "title": "Christopher J. Bae | Anthropology | UH Mānoa",
+      "titleLength": 44,
+      "h1": "Christopher J. Bae",
+      "description": "Explore Christopher J. Bae’s Anthropology faculty profile at UH Mānoa, including their background, research, teaching and available contact information.",
+      "descriptionLength": 152,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/faculty/christopher-j-bae.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/eirik-saethre.html",
+      "title": "Eirik Saethre | Anthropology | UH Mānoa",
+      "titleLength": 39,
+      "h1": "Eirik Saethre",
+      "description": "Explore Eirik Saethre’s Anthropology faculty profile at UH Mānoa, including their background, research, teaching and available contact information.",
+      "descriptionLength": 147,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/faculty/eirik-saethre.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/elizabeth-agey.html",
+      "title": "Elizabeth Agey | Anthropology | UH Mānoa",
+      "titleLength": 40,
+      "h1": "Elizabeth Agey",
+      "description": "Explore Elizabeth Agey’s Anthropology faculty profile at UH Mānoa, including their background, research, teaching and available contact information.",
+      "descriptionLength": 148,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/faculty/elizabeth-agey.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/emeriti-faculty.html",
+      "title": "Anthropology Emeriti & Retired Faculty | Anthropology | UH Mānoa",
+      "titleLength": 64,
+      "h1": "Anthropology Emeriti & Retired Faculty",
+      "description": "Meet Anthropology emeriti and retired faculty at UH Mānoa, find their online resources and view the department’s in memoriam listing.",
+      "descriptionLength": 133,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/faculty/emeriti-faculty.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/",
+      "title": "Anthropology Faculty | Anthropology | UH Mānoa",
+      "titleLength": 46,
+      "h1": "Anthropology Faculty",
+      "description": "Meet UH Mānoa Anthropology faculty and explore their research interests, biographies, teaching and contact information.",
+      "descriptionLength": 119,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/faculty/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/james-m-bayman.html",
+      "title": "James M. Bayman | Anthropology | UH Mānoa",
+      "titleLength": 41,
+      "h1": "James M. Bayman",
+      "description": "Explore James M. Bayman’s Anthropology faculty profile at UH Mānoa, including their background, research, teaching and available contact information.",
+      "descriptionLength": 149,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/faculty/james-m-bayman.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/jan-brunson.html",
+      "title": "Jan Brunson | Anthropology | UH Mānoa",
+      "titleLength": 37,
+      "h1": "Jan Brunson",
+      "description": "Explore Jan Brunson’s Anthropology faculty profile at UH Mānoa, including their background, research, teaching and available contact information.",
+      "descriptionLength": 145,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/faculty/jan-brunson.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/jonathan-padwe.html",
+      "title": "Jonathan Padwe | Anthropology | UH Mānoa",
+      "titleLength": 40,
+      "h1": "Jonathan Padwe",
+      "description": "Explore Jonathan Padwe’s Anthropology faculty profile at UH Mānoa, including their background, research, teaching and available contact information.",
+      "descriptionLength": 148,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/faculty/jonathan-padwe.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/miriam-stark.html",
+      "title": "Miriam Stark | Anthropology | UH Mānoa",
+      "titleLength": 38,
+      "h1": "Miriam Stark",
+      "description": "Explore Miriam Stark’s Anthropology faculty profile at UH Mānoa, including their background, research, teaching and available contact information.",
+      "descriptionLength": 146,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/faculty/miriam-stark.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/patrick-v-kirch.html",
+      "title": "Patrick V. Kirch | Anthropology | UH Mānoa",
+      "titleLength": 42,
+      "h1": "Patrick V. Kirch",
+      "description": "Explore Patrick V. Kirch’s Anthropology faculty profile at UH Mānoa, including their background, research, teaching and available contact information.",
+      "descriptionLength": 150,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/faculty/patrick-v-kirch.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/seth-quintus.html",
+      "title": "Seth Quintus | Anthropology | UH Mānoa",
+      "titleLength": 38,
+      "h1": "Seth Quintus",
+      "description": "Explore Seth Quintus’s Anthropology faculty profile at UH Mānoa, including their background, research, teaching and available contact information.",
+      "descriptionLength": 146,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/faculty/seth-quintus.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/summer-moore.html",
+      "title": "Summer Moore | Anthropology | UH Mānoa",
+      "titleLength": 38,
+      "h1": "Summer Moore",
+      "description": "Explore Summer Moore’s Anthropology faculty profile at UH Mānoa, including their background, research, teaching and available contact information.",
+      "descriptionLength": 146,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/faculty/summer-moore.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/ty-p-kawika-tengan.html",
+      "title": "Ty P. Kāwika Tengan | Anthropology | UH Mānoa",
+      "titleLength": 45,
+      "h1": "Ty P. Kāwika Tengan",
+      "description": "Explore Ty P. Kāwika Tengan’s Anthropology faculty profile at UH Mānoa, including their background, research, teaching and available contact information.",
+      "descriptionLength": 153,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/faculty/ty-p-kawika-tengan.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/agsa.html",
+      "title": "Anthropology Graduate Student Association (AGSA) | Anthropology | UH Mānoa",
+      "titleLength": 74,
+      "h1": "Anthropology Graduate Student Association (AGSA)",
+      "description": "Learn about the Anthropology Graduate Student Association (AGSA) at UH Mānoa, including its goals, activities and officer elections.",
+      "descriptionLength": 132,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/agsa.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/applications-admissions.html",
+      "title": "Graduate Applications & Admissions | Anthropology | UH Mānoa",
+      "titleLength": 60,
+      "h1": "Graduate Applications & Admissions",
+      "description": "Review UH Mānoa Anthropology graduate application requirements, deadlines, recommendation forms and Graduate Division application guidance.",
+      "descriptionLength": 139,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/applications-admissions.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/applied-archaeology/advising-completion.html",
+      "title": "Applied Archaeology: Advising & Completion | Anthropology | UH Mānoa",
+      "titleLength": 68,
+      "h1": "Applied Archaeology: Advising & Completion",
+      "description": "Review advising, committee meetings and completion requirements for the Applied Archaeology MA track in Anthropology at UH Mānoa.",
+      "descriptionLength": 129,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/applied-archaeology/advising-completion.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/applied-archaeology/coursework.html",
+      "title": "Applied Archaeology: Coursework Requirements | Anthropology | UH Mānoa",
+      "titleLength": 70,
+      "h1": "Applied Archaeology: Coursework Requirements",
+      "description": "Review required coursework, credits and elective options for the Applied Archaeology MA track in Anthropology at UH Mānoa.",
+      "descriptionLength": 122,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/applied-archaeology/coursework.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/applied-archaeology/",
+      "title": "Applied Archaeology: Overview | Anthropology | UH Mānoa",
+      "titleLength": 55,
+      "h1": "Applied Archaeology: Overview",
+      "description": "Review program focus and student learning outcomes for the Applied Archaeology MA track in Anthropology at UH Mānoa.",
+      "descriptionLength": 116,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/applied-archaeology/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/applied-cultural-anthropology/advising-completion.html",
+      "title": "Applied Cultural Anthropology: Advising & Completion | Anthropology | UH Mānoa",
+      "titleLength": 78,
+      "h1": "Applied Cultural Anthropology: Advising & Completion",
+      "description": "Review advising, committee meetings and completion requirements for the Applied Cultural Anthropology MA track in Anthropology at UH Mānoa.",
+      "descriptionLength": 139,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/applied-cultural-anthropology/advising-completion.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/applied-cultural-anthropology/coursework.html",
+      "title": "Applied Cultural Anthropology: Coursework Requirements | Anthropology | UH Mānoa",
+      "titleLength": 80,
+      "h1": "Applied Cultural Anthropology: Coursework Requirements",
+      "description": "Review required coursework, credits and elective options for the Applied Cultural Anthropology MA track in Anthropology at UH Mānoa.",
+      "descriptionLength": 132,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/applied-cultural-anthropology/coursework.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/applied-cultural-anthropology/",
+      "title": "Applied Cultural Anthropology: Overview | Anthropology | UH Mānoa",
+      "titleLength": 65,
+      "h1": "Applied Cultural Anthropology: Overview",
+      "description": "Review program focus and student learning outcomes for the Applied Cultural Anthropology MA track in Anthropology at UH Mānoa.",
+      "descriptionLength": 126,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/applied-cultural-anthropology/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/current-cohort.html",
+      "title": "Current Anthropology MA & PhD Students | Anthropology | UH Mānoa",
+      "titleLength": 64,
+      "h1": "Current Anthropology MA & PhD Students",
+      "description": "Meet current Anthropology MA and PhD students at UH Mānoa and explore their research interests and faculty advisors.",
+      "descriptionLength": 116,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/current-cohort.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/degrees-awarded.html",
+      "title": "Graduate Degrees Awarded | Anthropology | UH Mānoa",
+      "titleLength": 50,
+      "h1": "Graduate Degrees Awarded",
+      "description": "Graduate degree records and research from Anthropology master's and doctoral students at the University of Hawaiʻi at Mānoa.",
+      "descriptionLength": 124,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/degrees-awarded.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/doctorate-phd/advising-candidacy.html",
+      "title": "Anthropology PhD: Advising, Committees & Candidacy | Anthropology | UH Mānoa",
+      "titleLength": 76,
+      "h1": "Anthropology PhD: Advising, Committees & Candidacy",
+      "description": "Review Anthropology PhD advising, doctoral committee formation and candidacy conference procedures at UH Mānoa.",
+      "descriptionLength": 111,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/doctorate-phd/advising-candidacy.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/doctorate-phd/comprehensive-exams.html",
+      "title": "Anthropology PhD: Exams | Anthropology | UH Mānoa",
+      "titleLength": 49,
+      "h1": "Anthropology PhD: Exams",
+      "description": "Review Anthropology PhD comprehensive examinations at UH Mānoa, including reading lists, written examination formats and oral examination procedures.",
+      "descriptionLength": 149,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/doctorate-phd/comprehensive-exams.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/doctorate-phd/dissertation-by-publication.html",
+      "title": "Anthropology PhD: Publication | Anthropology | UH Mānoa",
+      "titleLength": 55,
+      "h1": "Anthropology PhD: Publication",
+      "description": "Review UH Mānoa Anthropology guidelines for the dissertation by publication option, including articles, authorship and committee approval.",
+      "descriptionLength": 138,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/doctorate-phd/dissertation-by-publication.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/doctorate-phd/dissertation.html",
+      "title": "Anthropology PhD: Dissertation | Anthropology | UH Mānoa",
+      "titleLength": 56,
+      "h1": "Anthropology PhD: Dissertation",
+      "description": "Review Anthropology PhD dissertation requirements at UH Mānoa, including proposal defense, examination timing and final submission.",
+      "descriptionLength": 131,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/doctorate-phd/dissertation.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/doctorate-phd/first-year.html",
+      "title": "Anthropology PhD: First Year | Anthropology | UH Mānoa",
+      "titleLength": 54,
+      "h1": "Anthropology PhD: First Year",
+      "description": "Review shared activities and responsibilities for first-year Anthropology PhD students at UH Mānoa, including orientation and colloquia.",
+      "descriptionLength": 136,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/doctorate-phd/first-year.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/doctorate-phd/",
+      "title": "Anthropology PhD: Overview | Anthropology | UH Mānoa",
+      "titleLength": 52,
+      "h1": "Anthropology PhD: Overview",
+      "description": "Explore the Anthropology PhD at UH Mānoa, including student learning outcomes and links to doctoral requirements, examinations and dissertation policies.",
+      "descriptionLength": 153,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/doctorate-phd/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/doctorate-phd/requirements.html",
+      "title": "Anthropology PhD: Requirements & Progress | Anthropology | UH Mānoa",
+      "titleLength": 67,
+      "h1": "Anthropology PhD: Requirements & Progress",
+      "description": "Review Anthropology PhD requirements at UH Mānoa, including residency, coursework, progress reporting and advancement to candidacy.",
+      "descriptionLength": 131,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/doctorate-phd/requirements.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/doctorate-phd/research-policies.html",
+      "title": "Anthropology PhD: Research & Meetings | Anthropology | UH Mānoa",
+      "titleLength": 63,
+      "h1": "Anthropology PhD: Research & Meetings",
+      "description": "Review research approval requirements and remote committee meeting policies for Anthropology PhD students at UH Mānoa.",
+      "descriptionLength": 118,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/doctorate-phd/research-policies.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/funding/achievement-scholarships.html",
+      "title": "Graduate Funding: Achievement Scholarships | Anthropology | UH Mānoa",
+      "titleLength": 68,
+      "h1": "Graduate Funding: Achievement Scholarships",
+      "description": "Review UH Mānoa Anthropology graduate achievement scholarships, including eligibility, covered expenses and application deadlines.",
+      "descriptionLength": 130,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/funding/achievement-scholarships.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/funding/assistantships-apprenticeships.html",
+      "title": "Graduate Funding: Assistantships & Apprenticeships | Anthropology | UH Mānoa",
+      "titleLength": 76,
+      "h1": "Graduate Funding: Assistantships & Apprenticeships",
+      "description": "Review Anthropology graduate teaching assistantships and apprenticeships at UH Mānoa, including eligibility, duties and application requirements.",
+      "descriptionLength": 145,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/funding/assistantships-apprenticeships.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/funding/",
+      "title": "Graduate Funding: Overview & Residency | Anthropology | UH Mānoa",
+      "titleLength": 64,
+      "h1": "Graduate Funding: Overview & Residency",
+      "description": "Explore graduate anthropology funding at UH Mānoa and learn where to find residency requirements for tuition purposes.",
+      "descriptionLength": 118,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/funding/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/funding/named-awards.html",
+      "title": "Graduate Funding: Named Awards | Anthropology | UH Mānoa",
+      "titleLength": 56,
+      "h1": "Graduate Funding: Named Awards",
+      "description": "Explore the Ben Finney and Ann Dunham Soetoro awards supporting anthropology graduate study and research at UH Mānoa.",
+      "descriptionLength": 117,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/funding/named-awards.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/funding/research-writing-awards.html",
+      "title": "Graduate Funding: Research & Writing | Anthropology | UH Mānoa",
+      "titleLength": 62,
+      "h1": "Graduate Funding: Research & Writing",
+      "description": "Explore UH Mānoa Anthropology graduate research and writing awards, including dissertation support and Richard W. Lieban scholarships.",
+      "descriptionLength": 134,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/funding/research-writing-awards.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/funding/travel-awards.html",
+      "title": "Graduate Funding: Travel Awards | Anthropology | UH Mānoa",
+      "titleLength": 57,
+      "h1": "Graduate Funding: Travel Awards",
+      "description": "Review Anthropology graduate travel awards at UH Mānoa, including eligibility, application deadlines and requirements after travel.",
+      "descriptionLength": 131,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/funding/travel-awards.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/master-ma/advising-candidacy.html",
+      "title": "Anthropology MA: Advising, Committees & Candidacy | Anthropology | UH Mānoa",
+      "titleLength": 75,
+      "h1": "Anthropology MA: Advising, Committees & Candidacy",
+      "description": "Review Anthropology MA advising, committee membership and candidacy procedures at UH Mānoa, including Plan A and Plan B forms.",
+      "descriptionLength": 126,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/master-ma/advising-candidacy.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/master-ma/first-year.html",
+      "title": "Anthropology MA: First Year | Anthropology | UH Mānoa",
+      "titleLength": 53,
+      "h1": "Anthropology MA: First Year",
+      "description": "Review shared activities and responsibilities for first-year Anthropology MA students at UH Mānoa, including orientation and colloquia.",
+      "descriptionLength": 135,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/master-ma/first-year.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/master-ma/",
+      "title": "Anthropology MA: Overview | Anthropology | UH Mānoa",
+      "titleLength": 51,
+      "h1": "Anthropology MA: Overview",
+      "description": "Explore the MA in Anthropology at UH Mānoa, including program learning outcomes, degree tracks and links to requirements and policies.",
+      "descriptionLength": 134,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/master-ma/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/master-ma/requirements.html",
+      "title": "Anthropology MA: Requirements & Progress | Anthropology | UH Mānoa",
+      "titleLength": 66,
+      "h1": "Anthropology MA: Requirements & Progress",
+      "description": "Review Anthropology MA degree and course requirements at UH Mānoa, including electives, progress reporting and progression to doctoral study.",
+      "descriptionLength": 141,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/master-ma/requirements.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/master-ma/research-policies.html",
+      "title": "Anthropology MA: Research & Meetings | Anthropology | UH Mānoa",
+      "titleLength": 62,
+      "h1": "Anthropology MA: Research & Meetings",
+      "description": "Review research approval requirements and remote committee meeting policies for Anthropology MA students at UH Mānoa.",
+      "descriptionLength": 117,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/master-ma/research-policies.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/master-ma/scholarly-papers.html",
+      "title": "Anthropology MA: Plan B (Papers) | Anthropology | UH Mānoa",
+      "titleLength": 58,
+      "h1": "Anthropology MA: Plan B (Papers)",
+      "description": "Review Anthropology MA Plan B requirements at UH Mānoa, including graduate coursework, three scholarly papers and the final examination meeting.",
+      "descriptionLength": 144,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/master-ma/scholarly-papers.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/graduate/master-ma/thesis.html",
+      "title": "Anthropology MA: Plan A (Thesis) | Anthropology | UH Mānoa",
+      "titleLength": 58,
+      "h1": "Anthropology MA: Plan A (Thesis)",
+      "description": "Review Anthropology MA Plan A thesis requirements at UH Mānoa, including coursework, advancement, examination and thesis submission.",
+      "descriptionLength": 132,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/graduate/master-ma/thesis.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/",
+      "title": "Anthropology at the University of Hawaiʻi | Anthropology | UH Mānoa",
+      "titleLength": 67,
+      "h1": "Anthropology at the University of Hawaiʻi",
+      "description": "Explore anthropology at UH Mānoa, where relationships with land, communities and cultural practice shape research, teaching and student learning.",
+      "descriptionLength": 145,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/lambda-alpha.html",
+      "title": "Lambda Alpha | Anthropology | UH Mānoa",
+      "titleLength": 38,
+      "h1": "Lambda Alpha",
+      "description": "Review Lambda Alpha anthropology honor society membership at UH Mānoa, including undergraduate and graduate eligibility, fees and graduation recognition.",
+      "descriptionLength": 153,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/lambda-alpha.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/policies-procedures.html",
+      "title": "Policies & Procedures | Anthropology | UH Mānoa",
+      "titleLength": 47,
+      "h1": "Policies & Procedures",
+      "description": "Find policies and procedures for the UH Mānoa Department of Anthropology, including university guidance and department statements.",
+      "descriptionLength": 130,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/policies-procedures.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/privacy.html",
+      "title": "Privacy Policy | Anthropology | UH Mānoa",
+      "titleLength": 40,
+      "h1": "Privacy Policy",
+      "description": "Read the UH Mānoa Anthropology website privacy policy, including information about website data and external services.",
+      "descriptionLength": 118,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/privacy.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/support.html",
+      "title": "Support Anthropology | Anthropology | UH Mānoa",
+      "titleLength": 46,
+      "h1": "Support Anthropology",
+      "description": "Support anthropology at UH Mānoa through funds for student scholarships, research, community engagement and department activities.",
+      "descriptionLength": 130,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/support.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/advising-support.html",
+      "title": "Advising & Support | Anthropology | UH Mānoa",
+      "titleLength": 44,
+      "h1": "Advising & Support",
+      "description": "Find undergraduate anthropology advising at UH Mānoa, including major and college advising, degree planning and support resources.",
+      "descriptionLength": 130,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/undergraduate/advising-support.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/ausa.html",
+      "title": "Anthropology Undergraduate Student Association (AUSA) | Anthropology | UH Mānoa",
+      "titleLength": 79,
+      "h1": "Anthropology Undergraduate Student Association (AUSA)",
+      "description": "Learn about the Anthropology Undergraduate Student Association (AUSA) at UH Mānoa and its student activities and opportunities.",
+      "descriptionLength": 127,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/undergraduate/ausa.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/bam/admission-application.html",
+      "title": "BAM Admission & Application | Anthropology | UH Mānoa",
+      "titleLength": 53,
+      "h1": "BAM Admission & Application",
+      "description": "Review admission and application requirements for the Anthropology BA/MA pathway at UH Mānoa, including eligibility and advising.",
+      "descriptionLength": 129,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/undergraduate/bam/admission-application.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/bam/frequently-asked-questions.html",
+      "title": "BAM Frequently Asked Questions | Anthropology | UH Mānoa",
+      "titleLength": 56,
+      "h1": "BAM Frequently Asked Questions",
+      "description": "Find answers to common questions about the Anthropology BA/MA pathway at UH Mānoa, including admission, degree options and program requirements.",
+      "descriptionLength": 144,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/undergraduate/bam/frequently-asked-questions.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/bam/",
+      "title": "Anthropology BA/MA Pathway (BAM) | Anthropology | UH Mānoa",
+      "titleLength": 58,
+      "h1": "Anthropology BA/MA Pathway (BAM)",
+      "description": "Explore the Anthropology combined BA/MA pathway at UH Mānoa, including degree options and the use of shared undergraduate and graduate coursework.",
+      "descriptionLength": 146,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/undergraduate/bam/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/bam/requirements-progress.html",
+      "title": "BAM Degree Requirements & Progress | Anthropology | UH Mānoa",
+      "titleLength": 60,
+      "h1": "BAM Degree Requirements & Progress",
+      "description": "Review Anthropology BA/MA pathway degree requirements at UH Mānoa, including credit totals, double-counted courses and enrollment.",
+      "descriptionLength": 130,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/undergraduate/bam/requirements-progress.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/funding.html",
+      "title": "Undergraduate Funding | Anthropology | UH Mānoa",
+      "titleLength": 47,
+      "h1": "Undergraduate Funding",
+      "description": "Explore undergraduate anthropology funding at UH Mānoa, including the Joycelyn Armstrong Merit Award and university scholarship resources.",
+      "descriptionLength": 138,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/undergraduate/funding.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/honors-track.html",
+      "title": "Honors Track | Anthropology | UH Mānoa",
+      "titleLength": 38,
+      "h1": "Honors Track",
+      "description": "Review the Anthropology honors track at UH Mānoa, including coursework groups and guidance for working with Honors and major advisors.",
+      "descriptionLength": 134,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/undergraduate/honors-track.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/major/requirements-before-fall-2022.html",
+      "title": "BA Requirements: Before Fall 2022 | Anthropology | UH Mānoa",
+      "titleLength": 59,
+      "h1": "BA Requirements: Before Fall 2022",
+      "description": "Review Anthropology BA credit and course requirements for students who declared the major before fall 2022 at UH Mānoa.",
+      "descriptionLength": 119,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/undergraduate/major/requirements-before-fall-2022.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/major/student-learning-outcomes.html",
+      "title": "BA Student Learning Outcomes & Institutional Learning Objectives | Anthropology | UH Mānoa",
+      "titleLength": 90,
+      "h1": "SLOs & ILOs",
+      "description": "Read the student learning outcomes and institutional learning objectives associated with the Anthropology BA at UH Mānoa.",
+      "descriptionLength": 121,
+      "titleMatchesH1": false,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/undergraduate/major/student-learning-outcomes.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/major-ba.html",
+      "title": "Bachelor of Arts in Anthropology | Anthropology | UH Mānoa",
+      "titleLength": 58,
+      "h1": "Bachelor of Arts in Anthropology",
+      "description": "Explore the Bachelor of Arts in Anthropology at UH Mānoa, including credit requirements, required courses and links to learning outcomes and advising.",
+      "descriptionLength": 150,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/undergraduate/major-ba.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/medical-anthropology-minor.html",
+      "title": "Minor in Medical Anthropology | Anthropology | UH Mānoa",
+      "titleLength": 55,
+      "h1": "Minor in Medical Anthropology",
+      "description": "Explore the minor in medical anthropology at UH Mānoa, including required courses, eligible electives and undergraduate advising.",
+      "descriptionLength": 129,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/undergraduate/medical-anthropology-minor.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/minor.html",
+      "title": "Minor in Anthropology | Anthropology | UH Mānoa",
+      "titleLength": 47,
+      "h1": "Minor in Anthropology",
+      "description": "Explore the minor in anthropology at UH Mānoa, including required coursework, elective options and undergraduate advising.",
+      "descriptionLength": 122,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/undergraduate/minor.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/ump.html",
+      "title": "Undergraduate Mentoring Program (UMP) | Anthropology | UH Mānoa",
+      "titleLength": 63,
+      "h1": "Undergraduate Mentoring Program (UMP)",
+      "description": "Learn about the Anthropology Undergraduate Mentoring Program at UH Mānoa, including mentor activities and how students can participate.",
+      "descriptionLength": 135,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://anthropology.manoa.hawaii.edu/undergraduate/ump.html"
+      ],
+      "robots": "noindex, nofollow"
+    }
+  ]
+}

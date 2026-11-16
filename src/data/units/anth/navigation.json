@@ -7,7 +7,7 @@
     "label": "About",
     "children": [
       {
-        "label": "Why Study ANTH",
+        "label": "Why Study ANTH?",
         "url": "/about/why-study-anth.html",
         "icon": "question-circle",
         "iconColor": null
@@ -34,14 +34,14 @@
   },
   {
     "label": "Courses",
-    "url": "/anth-courses.html"
+    "url": "/courses.html"
   },
   {
     "label": "Undergraduate",
     "children": [
       {
         "label": "Minor",
-        "url": "/undergraduate/minor-anth.html",
+        "url": "/undergraduate/minor.html",
         "iconColor": null,
         "icon": "book"
       },
@@ -59,7 +59,7 @@
       },
       {
         "label": "BA/MA Pathway (BAM)",
-        "url": "/undergraduate/anth-bam.html",
+        "url": "/undergraduate/bam/",
         "iconColor": null,
         "icon": "signpost-2"
       },
@@ -71,21 +71,21 @@
       },
       {
         "label": "Experiential Learning",
-        "url": "/undergraduate/experiential-learning.html",
+        "url": "/experiential-learning/",
         "icon": "door-open",
         "iconColor": null
+      },
+      {
+        "label": "Funding Sources",
+        "url": "/undergraduate/funding.html",
+        "iconColor": null,
+        "icon": "cash-coin"
       },
       {
         "label": "Advising & Support",
         "url": "/undergraduate/advising-support.html",
         "iconColor": null,
         "icon": "compass"
-      },
-      {
-        "label": "Funding Sources",
-        "url": "/undergraduate/funding-sources.html",
-        "iconColor": null,
-        "icon": "cash-coin"
       }
     ]
   },
@@ -94,13 +94,25 @@
     "children": [
       {
         "label": "Master’s (MA)",
-        "url": "/graduate/master-ma.html",
+        "url": "/graduate/master-ma/",
         "iconColor": null,
         "icon": "mortarboard"
       },
       {
+        "label": "Applied Archaeology (MA)",
+        "url": "/graduate/applied-archaeology/",
+        "icon": "mortarboard",
+        "iconColor": null
+      },
+      {
+        "label": "Applied Cultural Anthropology (MA)",
+        "url": "/graduate/applied-cultural-anthropology/",
+        "icon": "mortarboard",
+        "iconColor": null
+      },
+      {
         "label": "Doctorate (PhD)",
-        "url": "/graduate/doctorate-phd.html",
+        "url": "/graduate/doctorate-phd/",
         "iconColor": null,
         "icon": "mortarboard"
       },
@@ -118,7 +130,7 @@
       },
       {
         "label": "Funding Sources",
-        "url": "/graduate/funding-sources.html",
+        "url": "/graduate/funding/",
         "iconColor": null,
         "icon": "cash-coin"
       },
@@ -134,8 +146,8 @@
     "label": "Faculty",
     "children": [
       {
-        "label": "Core Faculty",
-        "url": "/faculty/core-faculty.html",
+        "label": "Faculty",
+        "url": "/faculty/",
         "iconColor": null,
         "icon": "people"
       },
@@ -155,7 +167,7 @@
   },
   {
     "label": "Support ANTH",
-    "url": "/support-anth.html"
+    "url": "/support.html"
   },
   {
     "label": "Contact",

@@ -1,0 +1,396 @@
+{
+  "unit": "es",
+  "pages": 29,
+  "mode": "prelaunch",
+  "indexingEnabled": false,
+  "errors": [],
+  "notes": [
+    "/404.html: Review title/H1 wording alignment",
+    "/about/ethnic-studies-student-association.html: Review title/H1 wording alignment",
+    "/contact.html: Review title/H1 wording alignment",
+    "/courses.html: Review title/H1 wording alignment",
+    "/faculty/: Review title/H1 wording alignment",
+    "/undergraduate/bam.html: Review title/H1 wording alignment",
+    "/undergraduate/certificate.html: Review title/H1 wording alignment",
+    "/undergraduate/double-majors.html: Review title/H1 wording alignment",
+    "/undergraduate/major-ba.html: Review title/H1 wording alignment",
+    "/undergraduate/student-learning-outcomes.html: Review title/H1 wording alignment"
+  ],
+  "pageMetadata": [
+    {
+      "url": "/404.html",
+      "title": "Page Not Found | Ethnic Studies | UH Mānoa",
+      "titleLength": 42,
+      "h1": "404 Page Not Found",
+      "description": "Find Ethnic Studies programs, faculty, course information, and department contacts at the University of Hawaiʻi at Mānoa.",
+      "descriptionLength": 121,
+      "titleMatchesH1": false,
+      "canonical": [],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/ethnic-studies-student-association.html",
+      "title": "Ethnic Studies Student Association | Ethnic Studies | UH Mānoa",
+      "titleLength": 62,
+      "h1": "Ethnic Studies Student Association (ESSA)",
+      "description": "The Ethnic Studies Student Association at UH Mānoa connects culture, identity, social justice, and creative expression through student and community activities.",
+      "descriptionLength": 160,
+      "titleMatchesH1": false,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/about/ethnic-studies-student-association.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/island-connections.html",
+      "title": "Island Connections | Ethnic Studies | UH Mānoa",
+      "titleLength": 46,
+      "h1": "Island Connections",
+      "description": "Island Connections examines local and global issues affecting Hawaiʻi. Broadcast information, a show archive, and YouTube episodes are available here.",
+      "descriptionLength": 150,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/about/island-connections.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/our-history-our-way.html",
+      "title": "Our History, Our Way | Ethnic Studies | UH Mānoa",
+      "titleLength": 48,
+      "h1": "Our History, Our Way",
+      "description": "Ethnic Studies at UH Mānoa emerged from the social movements of the 1960s and Hawaiʻi’s land struggles, connecting scholarship with community service.",
+      "descriptionLength": 150,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/about/our-history-our-way.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/about/why-study-es.html",
+      "title": "Why Study Ethnic Studies? | Ethnic Studies | UH Mānoa",
+      "titleLength": 53,
+      "h1": "Why Study Ethnic Studies?",
+      "description": "Ethnic Studies students develop critical thinking, research, and community engagement skills for work in education, public service, business, and nonprofit organizations.",
+      "descriptionLength": 170,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/about/why-study-es.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/center-for-oral-history.html",
+      "title": "Center for Oral History | Ethnic Studies | UH Mānoa",
+      "titleLength": 51,
+      "h1": "Center for Oral History",
+      "description": "The Center for Oral History preserves Hawaiʻi’s community histories through interviews, publications, research materials, and training in oral history methods.",
+      "descriptionLength": 159,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/center-for-oral-history.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/contact.html",
+      "title": "Contact | Ethnic Studies | UH Mānoa",
+      "titleLength": 35,
+      "h1": "Contact ES",
+      "description": "Contact the UH Mānoa Department of Ethnic Studies for office hours, George Hall directions, undergraduate advising, and key faculty and staff contacts.",
+      "descriptionLength": 151,
+      "titleMatchesH1": false,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/contact.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/courses.html",
+      "title": "Courses | Ethnic Studies | UH Mānoa",
+      "titleLength": 35,
+      "h1": "Ethnic Studies (ES) Courses",
+      "description": "Ethnic Studies course information covers lower- and upper-division study, class availability, course descriptions, and catalog resources at UH Mānoa.",
+      "descriptionLength": 149,
+      "titleMatchesH1": false,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/courses.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/department-news.html",
+      "title": "News & Updates | Ethnic Studies | UH Mānoa",
+      "titleLength": 42,
+      "h1": "News & Updates",
+      "description": "Instagram updates and profile links from the Department of Ethnic Studies at the University of Hawaiʻi at Mānoa.",
+      "descriptionLength": 112,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/department-news.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/associated.html",
+      "title": "Associated Faculty | Ethnic Studies | UH Mānoa",
+      "titleLength": 46,
+      "h1": "Associated Faculty",
+      "description": "Associated Ethnic Studies faculty at UH Mānoa contribute expertise across disciplines. Listings include emeritus, retired, and affiliate faculty.",
+      "descriptionLength": 145,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/faculty/associated.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/ethan-caldwell.html",
+      "title": "Ethan Caldwell | Ethnic Studies | UH Mānoa",
+      "titleLength": 42,
+      "h1": "Ethan Caldwell",
+      "description": "Ethan Caldwell studies the Black diaspora, Black-Asian relations, mixed race, militarism, and visual culture in Ethnic Studies at UH Mānoa.",
+      "descriptionLength": 139,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/faculty/ethan-caldwell.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/",
+      "title": "Faculty | Ethnic Studies | UH Mānoa",
+      "titleLength": 35,
+      "h1": "Ethnic Studies Faculty",
+      "description": "Ethnic Studies faculty at UH Mānoa connect research, teaching, and community engagement across race, class, gender, indigeneity, identity, and social justice.",
+      "descriptionLength": 158,
+      "titleMatchesH1": false,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/faculty/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/kyle-kajihiro.html",
+      "title": "Kyle Kajihiro | Ethnic Studies | UH Mānoa",
+      "titleLength": 41,
+      "h1": "Kyle Kajihiro",
+      "description": "Kyle Kajihiro studies imperialism, militarization, Indigenous movements, and social and environmental justice in Ethnic Studies at UH Mānoa.",
+      "descriptionLength": 140,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/faculty/kyle-kajihiro.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/m-kunmi-yu-danico.html",
+      "title": "M. Kunmi Yu Danico | Ethnic Studies | UH Mānoa",
+      "titleLength": 46,
+      "h1": "M. Kunmi Yu Danico",
+      "description": "M. Kunmi Yu Danico studies Asian American identities, oral history, and social justice and directs the Center for Oral History at UH Mānoa.",
+      "descriptionLength": 139,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/faculty/m-kunmi-yu-danico.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/maile-arvin.html",
+      "title": "Maile Arvin | Ethnic Studies | UH Mānoa",
+      "titleLength": 39,
+      "h1": "Maile Arvin",
+      "description": "Maile Arvin studies race, gender, settler colonialism, Indigenous feminisms, and histories of incarceration in Ethnic Studies at UH Mānoa.",
+      "descriptionLength": 138,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/faculty/maile-arvin.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/monisha-das-gupta.html",
+      "title": "Monisha Das Gupta | Ethnic Studies | UH Mānoa",
+      "titleLength": 45,
+      "h1": "Monisha Das Gupta",
+      "description": "Monisha Das Gupta studies migration, transnational feminism, labor, and movements for racial and migrant justice in Ethnic Studies at UH Mānoa.",
+      "descriptionLength": 143,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/faculty/monisha-das-gupta.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/roderick-n-labrador.html",
+      "title": "Roderick Labrador | Ethnic Studies | UH Mānoa",
+      "titleLength": 45,
+      "h1": "Roderick Labrador",
+      "description": "Roderick Labrador studies Filipino identities, culture, diaspora, education, and hip hop in Ethnic Studies at UH Mānoa.",
+      "descriptionLength": 119,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/faculty/roderick-n-labrador.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/ryan-moran.html",
+      "title": "Ryan Moran | Ethnic Studies | UH Mānoa",
+      "titleLength": 38,
+      "h1": "Ryan Moran",
+      "description": "Ryan Moran studies science, capitalism, empire, race, and community in Japan and the Asia-Pacific region in Ethnic Studies at UH Mānoa.",
+      "descriptionLength": 135,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/faculty/ryan-moran.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/ty-p-kawika-tengan.html",
+      "title": "Ty P. Kāwika Tengan | Ethnic Studies | UH Mānoa",
+      "titleLength": 47,
+      "h1": "Ty P. Kāwika Tengan",
+      "description": "Ty P. Kāwika Tengan studies Hawaiian culture, Indigenous research, masculinities, sovereignty, and community engagement at UH Mānoa.",
+      "descriptionLength": 132,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/faculty/ty-p-kawika-tengan.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/faculty/ulla-hasager.html",
+      "title": "Ulla Hasager | Ethnic Studies | UH Mānoa",
+      "titleLength": 40,
+      "h1": "Ulla Hasager",
+      "description": "Ulla Hasager connects anthropology, sustainability, civic engagement, and community-based learning in Ethnic Studies at UH Mānoa.",
+      "descriptionLength": 129,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/faculty/ulla-hasager.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/",
+      "title": "What World Do You Want to Make? | Ethnic Studies | UH Mānoa",
+      "titleLength": 59,
+      "h1": "ES: What World Do You Want to Make?",
+      "description": "Ethnic Studies at UH Mānoa connects race, identity, and social justice with undergraduate study, community engagement, and pathways to graduate education.",
+      "descriptionLength": 154,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/policies-procedures.html",
+      "title": "Policies & Procedures | Ethnic Studies | UH Mānoa",
+      "titleLength": 49,
+      "h1": "Policies & Procedures",
+      "description": "University policies and procedures covering academic integrity, conduct, equal opportunity, student records, and responsibilities at UH Mānoa.",
+      "descriptionLength": 142,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/policies-procedures.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/privacy.html",
+      "title": "Privacy Policy | Ethnic Studies | UH Mānoa",
+      "titleLength": 42,
+      "h1": "Privacy Policy",
+      "description": "How College of Social Sciences websites use Google Analytics and visitor information, including cookies, privacy choices, and policy contacts.",
+      "descriptionLength": 142,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/privacy.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/support.html",
+      "title": "Support Ethnic Studies | Ethnic Studies | UH Mānoa",
+      "titleLength": 50,
+      "h1": "Support Ethnic Studies",
+      "description": "Support Ethnic Studies at UH Mānoa through funds for community engagement, student opportunities, scholarship, and social justice research and teaching.",
+      "descriptionLength": 152,
+      "titleMatchesH1": true,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/support.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/bam.html",
+      "title": "Bachelor’s/Master’s Pathways (BAM) | Ethnic Studies | UH Mānoa",
+      "titleLength": 62,
+      "h1": "Combined Bachelor’s and Master’s Pathways in Ethnic Studies (BAM)",
+      "description": "Combined Ethnic Studies pathways at UH Mānoa connect undergraduate study with graduate programs in education and public administration through shared coursework.",
+      "descriptionLength": 161,
+      "titleMatchesH1": false,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/undergraduate/bam.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/certificate.html",
+      "title": "Undergraduate Certificate | Ethnic Studies | UH Mānoa",
+      "titleLength": 53,
+      "h1": "Undergraduate Certificate in Ethnic Studies",
+      "description": "The 15-credit Undergraduate Certificate in Ethnic Studies at UH Mānoa includes introductory and elective courses, online options, and undergraduate advising.",
+      "descriptionLength": 157,
+      "titleMatchesH1": false,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/undergraduate/certificate.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/double-majors.html",
+      "title": "Double Majors | Ethnic Studies | UH Mānoa",
+      "titleLength": 41,
+      "h1": "Double Majors in Ethnic Studies",
+      "description": "Ethnic Studies at UH Mānoa can complement a second major across the social sciences, humanities, and other fields. Undergraduate advisors help plan coursework.",
+      "descriptionLength": 159,
+      "titleMatchesH1": false,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/undergraduate/double-majors.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/major-ba.html",
+      "title": "BA in Ethnic Studies | Ethnic Studies | UH Mānoa",
+      "titleLength": 48,
+      "h1": "Bachelor of Arts in Ethnic Studies",
+      "description": "The Bachelor of Arts in Ethnic Studies at UH Mānoa includes 30 major credits, introductory courses, electives, learning outcomes, and undergraduate advising.",
+      "descriptionLength": 157,
+      "titleMatchesH1": false,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/undergraduate/major-ba.html"
+      ],
+      "robots": "noindex, nofollow"
+    },
+    {
+      "url": "/undergraduate/student-learning-outcomes.html",
+      "title": "BA Student Learning Outcomes | Ethnic Studies | UH Mānoa",
+      "titleLength": 56,
+      "h1": "Student Learning Outcomes",
+      "description": "Review Ethnic Studies student learning outcomes in core concepts, Hawaiʻi’s history, critical analysis, community connections, and civic engagement at UH Mānoa.",
+      "descriptionLength": 160,
+      "titleMatchesH1": false,
+      "canonical": [
+        "https://ethnicstudies.manoa.hawaii.edu/undergraduate/student-learning-outcomes.html"
+      ],
+      "robots": "noindex, nofollow"
+    }
+  ]
+}

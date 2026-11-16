@@ -14,7 +14,7 @@
       "credit": false
     },
     "/": {
-      "image": "/media/heroes/students/general/featured/48.webp",
+      "image": "/media/heroes/students/general/featured/17.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
@@ -43,7 +43,7 @@
       "alt": "Department of Ethnic Studies at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/undergraduate/certificate-es.html": {
+    "/undergraduate/certificate.html": {
       "image": "/media/heroes/students/general/featured/55.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
@@ -73,20 +73,20 @@
       "alt": "Department of Ethnic Studies at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/support-es.html": {
-      "image": "/media/heroes/students/general/featured/60.webp",
+    "/support.html": {
+      "image": "/media/heroes/students/general/supporting/22.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/contact.html": {
-      "image": "/media/heroes/students/general/featured/26.webp",
+      "image": "/media/heroes/students/general/featured/41.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/courses.html": {
-      "image": "/media/heroes/students/general/featured/24.webp",
+      "image": "/media/heroes/students/general/featured/48.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false

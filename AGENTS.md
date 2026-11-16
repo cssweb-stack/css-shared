@@ -1,9 +1,11 @@
 # Working agreements
 
 Before changing this repository or a consuming site, read:
+- `docs/README.md` for the documentation map and the distinction between current rules and records.
 - `docs/project-conventions.md` for accepted rules and their rationale.
 - `docs/work-status.md` for the latest handoff, verification, and remaining work.
-- `docs/website-build-rules.md` before changing routes, folders, builds or local servers.
+- `docs/rules/website-build-rules.md` before changing routes, folders, builds or local servers.
+- `docs/rules/code-cleanup.md` before editing or reviewing HTML/Nunjucks formatting; it is the single formatting rule set shown on Review.
 - Relevant existing topic documentation under `docs/`.
 
 Keep these records current as part of the work, without waiting for a separate request.

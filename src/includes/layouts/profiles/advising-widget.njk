@@ -4,6 +4,8 @@
 {% if not advisingEmbedded %}
 <div class="page-section">
 <div class="container content-section">
+<div class="row gx-0 gx-sm-5 gx-lg-5">
+<div class="col-12">
 {% endif %}
 <h2>{{ selectedAdvising.heading | escape }}</h2>
 {% if selectedAdvising.intro %}
@@ -36,6 +38,8 @@
 {% endfor %}
 </div>
 {% if not advisingEmbedded %}
+</div>
+</div>
 </div>
 </div>
 {% endif %}

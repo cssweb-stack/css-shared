@@ -26,15 +26,27 @@
 {% include "layouts/branding/header/unit-nav.njk" %}
 </header>
 <main id="main-content" class="site-main" tabindex="-1">
+{% if reviewSection %}
+<div class="page-section">
+<div class="container content-section">
+<div class="row gx-0 gx-sm-5 gx-lg-5">
+<div class="col-12">
+{% if reviewSection == "rules" %}
+{% set degreeNavigation = {label: "Rules", pages: [{label: "Code Formatting", url: "/rules/code-formatting.html"}, {label: "Language & Writing", url: "/rules/language-writing.html"}]} %}
+{% else %}
+{% set degreeNavigation = reviewNavigation[reviewSection] %}
+{% endif %}
+{% include "layouts/content/degree-navigation.njk" %}
+</div>
+</div>
+</div>
+</div>
+{% endif %}
 <div class="page-section">
 <div class="container content-section">
 <div class="row gx-0 gx-sm-5 gx-lg-5">
 <div class="col-12">
 <h1>{{ title | escape }}</h1>
-{% if reviewSection %}
-{% set degreeNavigation = reviewNavigation[reviewSection] %}
-{% include "layouts/content/degree-navigation.njk" %}
-{% endif %}
 {{ content | safe }}
 </div>
 </div>

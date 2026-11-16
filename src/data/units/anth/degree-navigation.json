@@ -1,0 +1,177 @@
+{
+  "ma": {
+    "label": "Anthropology MA",
+    "pages": [
+      {
+        "label": "Overview",
+        "url": "/graduate/master-ma/"
+      },
+      {
+        "label": "First Year",
+        "url": "/graduate/master-ma/first-year.html"
+      },
+      {
+        "label": "Advising, Committees & Candidacy",
+        "url": "/graduate/master-ma/advising-candidacy.html"
+      },
+      {
+        "label": "Requirements & Progress",
+        "url": "/graduate/master-ma/requirements.html"
+      },
+      {
+        "label": "Plan A (Thesis)",
+        "url": "/graduate/master-ma/thesis.html"
+      },
+      {
+        "label": "Plan B (Papers)",
+        "url": "/graduate/master-ma/scholarly-papers.html"
+      },
+      {
+        "label": "Research & Meetings",
+        "url": "/graduate/master-ma/research-policies.html"
+      }
+    ]
+  },
+  "phd": {
+    "label": "Anthropology PhD",
+    "pages": [
+      {
+        "label": "Overview",
+        "url": "/graduate/doctorate-phd/"
+      },
+      {
+        "label": "First Year",
+        "url": "/graduate/doctorate-phd/first-year.html"
+      },
+      {
+        "label": "Advising, Committees & Candidacy",
+        "url": "/graduate/doctorate-phd/advising-candidacy.html"
+      },
+      {
+        "label": "Requirements & Progress",
+        "url": "/graduate/doctorate-phd/requirements.html"
+      },
+      {
+        "label": "Exams",
+        "url": "/graduate/doctorate-phd/comprehensive-exams.html"
+      },
+      {
+        "label": "Dissertation",
+        "url": "/graduate/doctorate-phd/dissertation.html"
+      },
+      {
+        "label": "Publication",
+        "url": "/graduate/doctorate-phd/dissertation-by-publication.html"
+      },
+      {
+        "label": "Research & Meetings",
+        "url": "/graduate/doctorate-phd/research-policies.html"
+      }
+    ]
+  },
+  "fundingGraduate": {
+    "label": "Anthropology graduate funding",
+    "pages": [
+      {
+        "label": "Overview & Residency",
+        "url": "/graduate/funding/"
+      },
+      {
+        "label": "Achievement Scholarships",
+        "url": "/graduate/funding/achievement-scholarships.html"
+      },
+      {
+        "label": "Travel Awards",
+        "url": "/graduate/funding/travel-awards.html"
+      },
+      {
+        "label": "Research & Writing",
+        "url": "/graduate/funding/research-writing-awards.html"
+      },
+      {
+        "label": "Assistantships & Apprenticeships",
+        "url": "/graduate/funding/assistantships-apprenticeships.html"
+      },
+      {
+        "label": "Named Awards",
+        "url": "/graduate/funding/named-awards.html"
+      }
+    ]
+  },
+  "bam": {
+    "label": "Anthropology BAM",
+    "pages": [
+      {
+        "label": "BAM Overview",
+        "url": "/undergraduate/bam/"
+      },
+      {
+        "label": "Admission & Application",
+        "url": "/undergraduate/bam/admission-application.html"
+      },
+      {
+        "label": "Requirements & Progress",
+        "url": "/undergraduate/bam/requirements-progress.html"
+      },
+      {
+        "label": "FAQs",
+        "url": "/undergraduate/bam/frequently-asked-questions.html"
+      }
+    ]
+  },
+  "appliedArchaeology": {
+    "label": "Applied Archaeology MA track",
+    "pages": [
+      {
+        "label": "Overview",
+        "url": "/graduate/applied-archaeology/"
+      },
+      {
+        "label": "Coursework Requirements",
+        "url": "/graduate/applied-archaeology/coursework.html"
+      },
+      {
+        "label": "Advising & Completion",
+        "url": "/graduate/applied-archaeology/advising-completion.html"
+      }
+    ]
+  },
+  "appliedCultural": {
+    "label": "Applied Cultural Anthropology MA track",
+    "pages": [
+      {
+        "label": "Overview",
+        "url": "/graduate/applied-cultural-anthropology/"
+      },
+      {
+        "label": "Coursework Requirements",
+        "url": "/graduate/applied-cultural-anthropology/coursework.html"
+      },
+      {
+        "label": "Advising & Completion",
+        "url": "/graduate/applied-cultural-anthropology/advising-completion.html"
+      }
+    ]
+  },
+  "experiential": {
+    "label": "Anthropology experiential learning",
+    "pages": [
+      {
+        "label": "Independent Study",
+        "url": "/experiential-learning/"
+      },
+      {
+        "label": "Internships",
+        "url": "/experiential-learning/internships.html"
+      },
+      {
+        "label": "Networking",
+        "url": "/experiential-learning/networking.html"
+      },
+      {
+        "label": "Field Schools",
+        "url": "/experiential-learning/field-schools.html"
+      }
+    ]
+  }
+}

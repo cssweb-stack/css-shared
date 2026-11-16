@@ -1,0 +1,18 @@
+{
+  "heading": "Graduate Program Contacts",
+  "intro": "Students work with their assigned faculty advisor on coursework, research and degree planning. The contacts below provide program-level guidance and administrative support.",
+  "people": [
+    {
+      "source": "people",
+      "matchRole": "Graduate Chair",
+      "role": "Graduate Chair",
+      "description": "For questions about graduate program policies and academic procedures."
+    },
+    {
+      "source": "people",
+      "slug": "marti-kerton",
+      "role": "Graduate Program Support",
+      "description": "For assistance with graduate applications, forms and administrative processes."
+    }
+  ]
+}

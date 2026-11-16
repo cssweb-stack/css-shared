@@ -27,6 +27,19 @@ if (records.faculty || records.staff) throw new Error('Use people.json alone; re
 records.faculty = records.people.filter(person => person.showInFacultyDirectory === true);
 records.key_contacts = records.people.filter(person => person.showInKeyContacts === true);
 }
+// Optional emeritus/retired card groups reference the same central people array.
+if (records.emeriti_faculty?.groups) {
+records.emeriti_faculty.groups = records.emeriti_faculty.groups.map(group => {
+if (!group.memberSlugs) return group;
+if (!Array.isArray(group.memberSlugs) || new Set(group.memberSlugs).size !== group.memberSlugs.length) throw new Error('Invalid emeritus/retired membership');
+const members = group.memberSlugs.map(slug => {
+const matches = (records.people || []).filter(person => person.slug === slug);
+if (matches.length !== 1) throw new Error(`Expected one emeritus/retired person: ${slug}`);
+return matches[0];
+});
+return { ...group, members };
+});
+}
 // Optional unit research-area membership references the same central people.
 if (records.research_areas) {
 records.research_areas = Object.fromEntries(Object.entries(records.research_areas).map(([slug, area]) => {
