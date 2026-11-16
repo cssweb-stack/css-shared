@@ -2,6 +2,11 @@
 
 Updated November 15, 2026 (Pacific/Honolulu).
 
+## November 15: Red helper lines disabled on all five sites
+
+- User will handle pushing in GitHub Desktop; no further push attempts. Set layoutGuides:false for SSRI, SOC and ES; PUBA and ANTH were already false. All five rebuilt successfully; shared builder excludes diagnostics.css when false. No content or indexing changes.
+- These latest shared settings and this handoff are local, uncommitted changes for GitHub Desktop. Earlier prepared commits remain local and unpushed; no deployment performed.
+
 ## November 15: Approved push blocked by GitHub authentication
 
 - User authorized css-shared first, then the five sites. Shared work committed as6eab057. Push to origin main failed: could not read Username for https://github.com: Device not configured. No usable GitHub credentials in this execution session; gh is unavailable. Remote fetch works for public repositories, but does not establish write authentication. Nothing pushed or deployed.

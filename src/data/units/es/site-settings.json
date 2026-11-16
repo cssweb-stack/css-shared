@@ -1,6 +1,6 @@
 {
   "indexingEnabled": false,
-  "layoutGuides": true,
+  "layoutGuides": false,
   "stylesheet": "/es.css",
   "url": "https://ethnicstudies.manoa.hawaii.edu",
   "openGraph": {
