@@ -1,6 +1,12 @@
 # Current work handoff
 
-Updated November 15, 2026 (Pacific/Honolulu).
+Updated November 16, 2026 (Pacific/Honolulu).
+
+## November 16: ES grid review inventory
+
+- Reviewed all 29 local ES HTML page sources, shared includes/profile layout and existing rendered main-content markup. All 29 use row/column wrappers; 23 have multi-column content layouts, including advising/resource grids and the 404 recovery layout. Six use full-width single-column content only: Why Study ES, News & Updates, Associated Faculty, Policies & Procedures, Privacy Policy and Student Learning Outcomes. Shared header/footer excluded from this distinction.
+- Follow-up inventory records responsive splits and configured horizontal/vertical gutters, grouping nine profiles as Faculty Bio. Notable existing variation: profile-page horizontal gutters are 1rem at768–991px versus3rem at992px+; advising uses nested1.5rem/3rem gaps; course-resource buttons use1rem and a60rem container threshold. These are current values, not newly approved gap rules.
+- Returned page checklist for tablet gap review. No spacing changes, new gap agreement, build, browser/iPad verification, commit, push or deployment. ES Git status was clean; unrelated shared workbook changes preserved.
 
 ## November 15: Live PUBA Siteimprove connection-error diagnosis
 
