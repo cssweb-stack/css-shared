@@ -30,5 +30,6 @@
     }
   },
   "titleSuffix": "SSRI | UH Mānoa",
-  "sidebarLeftLayouts": true
+  "sidebarLeftLayouts": true,
+  "portraitCardGrid": true
 }

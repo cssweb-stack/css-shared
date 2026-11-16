@@ -30,5 +30,6 @@
     "/"
   ],
   "titleSuffix": "Public Administration | UH Mānoa",
-  "sidebarLeftLayouts": true
+  "sidebarLeftLayouts": true,
+  "portraitCardGrid": true
 }

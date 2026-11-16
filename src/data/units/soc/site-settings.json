@@ -29,5 +29,6 @@
     "/"
   ],
   "titleSuffix": "Sociology | UH Mānoa",
-  "sidebarLeftLayouts": true
+  "sidebarLeftLayouts": true,
+  "portraitCardGrid": true
 }

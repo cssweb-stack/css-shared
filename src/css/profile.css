@@ -53,6 +53,8 @@ grid-template-rows: subgrid;
 .program-directors-grid { --program-director-columns: 5; }
 }
 
+.portrait-card-grid .profile-link,
+.portrait-card-grid .profile-directory-photo,
 .faculty-portrait-grid .profile-link,
 .faculty-portrait-grid .profile-directory-photo {
 width: 100%;
@@ -252,6 +254,7 @@ flex-basis: 100%;
 max-width: none;
 }
 
+.portrait-card-grid .profile-directory-photo,
 .faculty-portrait-grid .profile-directory-photo,
 .profile-sidebar .profile-photo,
 .profile-sidebar .sidebar-media,

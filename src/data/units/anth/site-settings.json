@@ -30,5 +30,6 @@
   "canonicalSections": [
     "/"
   ],
-  "sidebarLeftLayouts": true
+  "sidebarLeftLayouts": true,
+  "portraitCardGrid": true
 }

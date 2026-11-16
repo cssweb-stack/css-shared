@@ -25,6 +25,7 @@ columns = `${style.columnCount === 'auto' ? 1 : style.columnCount} flowing colum
 vertical = 'list spacing';
 }
 if (layout.classList.contains('grid-five')) columns = `${firstRow.length} tiles across`;
+if (layout.classList.contains('portrait-card-grid')) columns = `${firstRow.length} cards across`;
 const pixels = value => value.endsWith('rem') ? `${parseFloat(value) * parseFloat(getComputedStyle(document.documentElement).fontSize)}px` : value;
 reading.textContent = `${innerWidth}px viewport · ${columns || 'Stacked'} · gap H ${pixels(horizontal)}, V ${pixels(vertical)}`;
 }

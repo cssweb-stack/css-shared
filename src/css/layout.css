@@ -96,6 +96,7 @@ margin-inline: 0;
 --layout-stack-gap: 1.5rem;
 --sidebar-block-gap: 1.5rem;
 --sidebar-layout-gap: 33px;
+--portrait-card-grid-gap: 33px;
 }
 
 /* From sm upward, rows extend outward by 1.5rem per side.
@@ -655,5 +656,45 @@ grid-template-columns: minmax(0, var(--sidebar-content-track)) minmax(0, var(--s
 .sidebar-right-large {
 --sidebar-narrow-track: var(--sidebar-wide-narrow);
 --sidebar-content-track: var(--sidebar-wide-content);
+}
+}
+
+/* Portrait Card Grid. */
+.portrait-card-grid {
+display: grid;
+grid-template-columns: minmax(0, 1fr);
+gap: var(--portrait-card-grid-gap);
+align-items: start;
+}
+
+.portrait-card-grid > * {
+min-width: 0;
+max-width: none;
+width: auto;
+padding: 0;
+margin: 0;
+}
+
+@media (min-width: 768px) {
+.portrait-card-grid {
+grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+}
+
+@media (min-width: 992px) {
+.portrait-card-grid {
+grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+}
+
+@media (min-width: 1200px) {
+.portrait-card-grid {
+grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+}
+
+@media (min-width: 1600px) {
+.portrait-card-grid {
+grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 }
