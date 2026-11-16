@@ -1,2 +1,5 @@
 node_modules/
 .DS_Store
+
+# Private working notes and audit evidence; never website input.
+.local-notes/
