@@ -45,3 +45,70 @@ overflow-wrap: anywhere;
 .review-heading-entry > span {
 font-size: inherit;
 }
+
+/* Specimen surfaces only. Production classes own columns, gaps and breakpoints. */
+.review-grid-example {
+margin-block: 2rem 4rem;
+}
+
+.review-grid-reading {
+font-size: 0.875rem;
+color: var(--dark-gray);
+}
+
+.review-grid-cell {
+min-height: 7rem;
+padding: 1rem;
+background: #dcebe7;
+color: #024731;
+border: 1px solid #639b87;
+overflow-wrap: anywhere;
+}
+
+.review-grid-cell > p {
+margin: 0;
+}
+
+.review-grid-cell > p:first-child {
+font-weight: 600;
+}
+
+.review-grid-example details {
+margin-top: 1rem;
+}
+
+.review-grid-example code {
+overflow-wrap: anywhere;
+}
+
+.review-grid-tabs {
+display: flex;
+flex-wrap: wrap;
+gap: 0.5rem;
+margin-block: 1.5rem;
+}
+
+.review-grid-tabs[hidden] {
+display: none;
+}
+
+.review-grid-tabs > button {
+min-height: 44px;
+padding: 0.625rem 1rem;
+border: 1px solid var(--uh-green);
+border-radius: 0.25rem;
+background: var(--white);
+color: var(--uh-green);
+font: inherit;
+cursor: pointer;
+}
+
+.review-grid-tabs > [aria-selected="true"] {
+background: var(--uh-green);
+color: var(--white);
+}
+
+.review-grid-tabs > button:focus-visible {
+outline: 3px solid currentColor;
+outline-offset: 3px;
+}

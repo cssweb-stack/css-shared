@@ -5,6 +5,7 @@
 - [Language & Writing](rules/language-writing.md): the editable language rule sheet displayed on Review.
 - [Code Formatting](rules/code-cleanup.md): the editable text displayed on the Review website.
 - [Project Conventions](project-conventions.md): accepted agreements across the websites and links to the relevant rules.
+- [Grid Review](shared/grid-system-review.md): five-site inventory, Review specimens and proposed consolidation.
 - [Work Status](work-status.md): the latest changes, checks and unfinished work.
 
 ## Folders

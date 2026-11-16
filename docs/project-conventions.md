@@ -32,6 +32,14 @@ changes are on GitHub. A shared push alone does not refresh published sites.
 A daily schedule may be considered later; it is not enabled or agreed now.
 Shared-source validation on pushes and pull requests remains separate.
 
+Review also publishes manually through its single Build and publish Review
+workflow. Its GitHub repository is cssweb-stack/review and its project address
+is https://cssweb-stack.github.io/review/. Local development retains root paths;
+publishing builds with SITE_PATH_PREFIX=/review/. Review checks out the ten unit
+sources and builds the five reviewed sites before generating its inventory. Push
+required css-shared and unit changes before manually publishing Review.
+
+
 ## Scope and ownership
 
 Across college websites, order comparable items alphabetically by their displayed
@@ -251,6 +259,31 @@ synced. On the receiving machine, fetch/pull the relevant repositories without
 clobbering local changes, then read `AGENTS.md` and the handoff. Shared and site
 changes may need to travel together. A shared-source CI configuration pinned to a
 remote ref also needs the corresponding shared changes available remotely.
+
+## Shared grid review and standardization
+
+Agreed November 16, 2026: use SSRI, PUBA, ES, ANTH and SOC as the initial
+inventory for one cohesive, named responsive grid system. The user is generally
+satisfied with current layouts; start with a faithful visual baseline rather than
+changing proportions or gaps speculatively. Review's `/grids.html` is the common
+specimen page, using production shared CSS/components and simple labeled cells,
+with source-page references. Consolidate equivalent arrangements after reviewing
+the proposed specification. Exact new gaps, breakpoints and family names remain
+unapproved. Keep useful content-driven exceptions explicit; do not retain
+unexplained per-page differences. Clarified November 16: this review and
+standardization cover general visual page layouts only. Responsive data tables
+(including NASPAA requirements) and record directories are separate systems;
+exclude them from `/grids.html` and handle their rules independently. Portrait/card
+grids and ordinary contact-page columns remain general layouts. This supersedes
+the initial inclusion of directory/table specimens on that page.
+Review grouping agreed November 16: show common patterns first within four tabs:
+Sidebars, Equal Columns, Cards & Tiles, and Combined Layouts. Faculty bios belong
+to Sidebars; portrait directories belong to Cards & Tiles. Profile appearance may
+remain in profile.css, but the cleanup should consolidate its column geometry
+into the shared general layout rules. This is the cleanup direction, not a claim
+that the CSS migration is already complete. The tab labels organize review;
+they do not approve final CSS class names or breakpoint/gap values.
+See [Grid review](shared/grid-system-review.md).
 
 ## Shared five-column tile grid
 
