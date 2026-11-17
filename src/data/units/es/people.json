@@ -23,7 +23,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": true
+    "showInKeyContacts": true,
+    "researchInterests": "African American studies, the Black diaspora in East Asia, comparative Black-Asian relations, mixed race studies, militarism, empire, and visual media culture"
   },
   {
     "name": "Monisha Das Gupta",
@@ -49,7 +50,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": true
+    "showInKeyContacts": true,
+    "researchInterests": "Asian America, race and gender politics, U.S. immigration policies, social movements"
   },
   {
     "name": "Roderick Labrador",
@@ -76,7 +78,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Filipino culture, history and politics in Hawaiʻi and the U.S., culture, race, ethnicity, class, diaspora, hip hop"
   },
   {
     "name": "Ty P. Kāwika Tengan",
@@ -105,7 +108,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Indigenous theory and methodology, Hawaiʻi and the Pacific, militarism, masculinity studies, gender and oral history"
   },
   {
     "name": "Ulla Hasager",
@@ -125,7 +129,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": true
+    "showInKeyContacts": true,
+    "researchInterests": "Anthropology, Hawaiʻi and the Pacific"
   },
   {
     "name": "Kyle Kajihiro",
@@ -142,7 +147,8 @@
     "phoneHref": "+18089563484",
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Japanese and Okinawan diasporas, imperialism, demilitarization, social and political movements"
   },
   {
     "name": "M. Kunmi Yu Danico",
@@ -162,7 +168,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": true
+    "showInKeyContacts": true,
+    "researchInterests": "Korean and Asian diasporas, oral history, social justice, culture, identity, and representation"
   },
   {
     "name": "Maile Arvin",
@@ -189,7 +196,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Indigeneity, settler colonialism, race, gender and sexuality, Indigenous feminisms, U.S. history, incarceration"
   },
   {
     "name": "Ryan Moran",
@@ -206,7 +214,8 @@
     "phoneHref": "+18089567139",
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Science, empire power, social domination, race, capitalism, community, Japan, labor, gender, the body"
   },
   {
     "name": "ʻAnoʻilani Aga",

@@ -1,0 +1,41 @@
+{
+  "catalogId": "4",
+  "pages": {
+    "/undergraduate/bam.html": [
+      {
+        "label": "Political Science, BA/MA",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1795"
+      }
+    ],
+    "/undergraduate/major-ba.html": [
+      {
+        "label": "Political Science, BA",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1794"
+      }
+    ],
+    "/graduate/master-ma/": [
+      {
+        "label": "Political Science, MA",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1933"
+      }
+    ],
+    "/graduate/doctorate-phd/": [
+      {
+        "label": "Political Science, PhD",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1934"
+      }
+    ],
+    "/undergraduate/certificate-law-society.html": [
+      {
+        "label": "Law and Society, Undergraduate Certificate",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1885"
+      }
+    ],
+    "/undergraduate/minor.html": [
+      {
+        "label": "Political Science, Minor",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1796"
+      }
+    ]
+  }
+}

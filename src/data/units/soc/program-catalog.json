@@ -1,0 +1,39 @@
+{
+  "catalogId": "4",
+  "pages": {
+    "/undergraduate/major/": [
+      {
+        "label": "Sociology, BA",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1842"
+      }
+    ],
+    "/undergraduate/bam.html": [
+      {
+        "label": "Sociology (Plan A), BA/MA",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1843"
+      },
+      {
+        "label": "Sociology (Plan B), BA/MA",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=2105"
+      }
+    ],
+    "/graduate/master-ma/": [
+      {
+        "label": "Sociology, MA",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=2026"
+      }
+    ],
+    "/graduate/doctorate-phd/": [
+      {
+        "label": "Sociology, PhD",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=2027"
+      }
+    ],
+    "/undergraduate/minor/": [
+      {
+        "label": "Sociology, Minor",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1844"
+      }
+    ]
+  }
+}

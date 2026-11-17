@@ -1,0 +1,23 @@
+{
+  "catalogId": "4",
+  "pages": {
+    "/masters-mpa/": [
+      {
+        "label": "Public Administration, MPA",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=2015"
+      }
+    ],
+    "/graduate-certificate/nonprofit-management.html": [
+      {
+        "label": "Nonprofit Management, Graduate Certificate",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1804"
+      }
+    ],
+    "/graduate-certificate/public-policy.html": [
+      {
+        "label": "Public Policy, Graduate Certificate",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=2085"
+      }
+    ]
+  }
+}

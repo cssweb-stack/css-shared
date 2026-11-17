@@ -1,0 +1,17 @@
+{% set programCatalogLinks = program_catalog.pages[page.url] %}
+{% if programCatalogLinks | length %}
+<div class="page-section">
+<div class="container content-section">
+<div class="row gx-0 gx-sm-5 gx-lg-5">
+<div class="col-12">
+<h2>UH Mānoa Catalog</h2>
+<ul>
+{% for link in programCatalogLinks %}
+<li><a href="{{ link.url | escape }}">{{ link.label | escape }}</a></li>
+{% endfor %}
+</ul>
+</div>
+</div>
+</div>
+</div>
+{% endif %}

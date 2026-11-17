@@ -1,0 +1,35 @@
+{
+  "catalogId": "4",
+  "pages": {
+    "/undergraduate/major-ba.html": [
+      {
+        "label": "Ethnic Studies, BA",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1735"
+      }
+    ],
+    "/undergraduate/certificate.html": [
+      {
+        "label": "Ethnic Studies, Undergraduate Certificate",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1740"
+      }
+    ],
+    "/undergraduate/bam.html": [
+      {
+        "label": "Ethnic Studies, BA/Educational Administration, MEd (Non-Thesis)",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1736"
+      },
+      {
+        "label": "Ethnic Studies, BA/Educational Administration, MEd (Thesis)",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1737"
+      },
+      {
+        "label": "Ethnic Studies, BA/Educational Foundations, MEd (Non-Thesis)",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1738"
+      },
+      {
+        "label": "Ethnic Studies, BA/Educational Foundations, MEd (Thesis)",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1739"
+      }
+    ]
+  }
+}

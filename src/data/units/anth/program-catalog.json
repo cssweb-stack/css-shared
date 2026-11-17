@@ -1,0 +1,53 @@
+{
+  "catalogId": "4",
+  "pages": {
+    "/undergraduate/major-ba.html": [
+      {
+        "label": "Anthropology, BA",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1630"
+      }
+    ],
+    "/graduate/applied-archaeology/": [
+      {
+        "label": "Anthropology, Applied Archaeology Track, MA",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1919"
+      }
+    ],
+    "/graduate/applied-cultural-anthropology/": [
+      {
+        "label": "Anthropology, Applied Cultural Anthropology Track, MA",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1920"
+      }
+    ],
+    "/graduate/master-ma/": [
+      {
+        "label": "Anthropology, MA",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1918"
+      }
+    ],
+    "/graduate/doctorate-phd/": [
+      {
+        "label": "Anthropology, PhD",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1921"
+      }
+    ],
+    "/undergraduate/minor.html": [
+      {
+        "label": "Anthropology, Minor",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1632"
+      }
+    ],
+    "/undergraduate/medical-anthropology-minor.html": [
+      {
+        "label": "Medical Anthropology, Minor",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1907"
+      }
+    ],
+    "/undergraduate/bam/": [
+      {
+        "label": "Anthropology, BA/MA",
+        "url": "https://catalog.manoa.hawaii.edu/preview_program.php?catoid=4&poid=1631"
+      }
+    ]
+  }
+}
