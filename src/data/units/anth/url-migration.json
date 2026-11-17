@@ -12,7 +12,7 @@
     },
     {
       "from": "/about-anth/department-news.html",
-      "to": "/about/department-news.html",
+      "to": "/news/",
       "label": "Department News"
     },
     {
@@ -289,8 +289,106 @@
       "from": "/about/subfields-specializations/applied-cultural-anthropology/advising-completion.html",
       "to": "/graduate/applied-cultural-anthropology/advising-completion.html",
       "label": "Applied MA track moved to Graduate"
+    },
+    {
+      "from": "/pulama-lima-receives-phd-in-molokai-ceremony/",
+      "to": "/news/pulama-lima-molokai-phd.html",
+      "label": "Pūlama Lima Receives PhD in Molokaʻi Ceremony"
+    },
+    {
+      "from": "/the-2024-uh-archaeology-field-school/",
+      "to": "/news/archaeology-field-school-2024.html",
+      "label": "The 2024 UH Archaeology Field School"
+    },
+    {
+      "from": "/doctoral-research-on-contemporary-kava-practices-in-hawai%ca%bbi/",
+      "to": "/news/ulise-funaki-kava-research.html",
+      "label": "Doctoral Research on Contemporary Kava Practices in Hawaiʻi"
+    },
+    {
+      "from": "/yi-yu-lai-wins-prestigious-award/",
+      "to": "/news/yi-yu-lai-paper-prize.html",
+      "label": "Yi-Yu Lai Wins Prestigious Award"
+    },
+    {
+      "from": "/seth-quintus-wins-teaching-award/",
+      "to": "/news/seth-quintus-teaching-award.html",
+      "label": "Seth Quintus Wins Teaching Award"
+    },
+    {
+      "from": "/chris-bae-publishes-book-on-asian-paleoanthropology/",
+      "to": "/news/chris-bae-paleoanthropology-book.html",
+      "label": "Chris Bae Publishes Book on Asian Paleoanthropology"
+    },
+    {
+      "from": "/congratulations-to-our-recent-ma-and-phd-graduates/",
+      "to": "/news/graduates-2023-2024.html",
+      "label": "Congratulations to Our Recent MA and PhD Graduates"
+    },
+    {
+      "from": "/message-from-the-chair/",
+      "to": "/news/chair-message-2024.html",
+      "label": "Message from the Chair"
+    },
+    {
+      "from": "/groundbreaking-discoveries-in-human-evolution/",
+      "to": "/news/human-evolution-discoveries.html",
+      "label": "Groundbreaking Discoveries in Human Evolution"
+    },
+    {
+      "from": "/kamakana-c-ferreira/",
+      "to": "/news/kamakana-ferreira-repatriation.html",
+      "label": "Honoring the Work of Kamakana C. Ferreira: A Leader in Repatriation and Cultural Preservation"
+    },
+    {
+      "from": "/jan-brunson-fulbright/",
+      "to": "/news/jan-brunson-fulbright-nepal.html",
+      "label": "Jan Brunson Awarded Fulbright U.S. Scholar Award for Research in Nepal"
+    },
+    {
+      "from": "/remixing-identity-deirdre-clydes-anthropological-journey-through-anime-fandom/",
+      "to": "/news/deirdre-clyde-anime-research.html",
+      "label": "Remixing Identity: Deirdre Clyde’s Anthropological Journey Through Anime Fandom"
+    },
+    {
+      "from": "/from-students-to-stewards-a-historic-gift-of-gratitude/",
+      "to": "/news/dewey-bilmes-endowment.html",
+      "label": "From Students to Stewards: A Historic Gift of Gratitude"
+    },
+    {
+      "from": "/spring-2025-undergraduates/",
+      "to": "/news/graduates-spring-2025.html",
+      "label": "Celebrating Our Spring 2025 Anthropology Graduates"
+    },
+    {
+      "from": "/guido-carlo-pigliasco/",
+      "to": "/news/guido-pigliasco-law-culture.html",
+      "label": "Guido Carlo Pigliasco: Law, Culture, and the Pacific"
+    },
+    {
+      "from": "/eirik-saethre-regents-medal/",
+      "to": "/news/eirik-saethre-regents-medal.html",
+      "label": "Celebrating Excellence in Teaching: Professor Eirik Saethre Receives Regents’ Medal"
     }
   ],
   "retired": [],
-  "unresolved": []
+  "unresolved": [],
+  "queryRedirects": {
+    "1028": "/news/pulama-lima-molokai-phd.html",
+    "1054": "/news/archaeology-field-school-2024.html",
+    "1062": "/news/ulise-funaki-kava-research.html",
+    "1066": "/news/yi-yu-lai-paper-prize.html",
+    "1069": "/news/seth-quintus-teaching-award.html",
+    "1071": "/news/chris-bae-paleoanthropology-book.html",
+    "1076": "/news/graduates-2023-2024.html",
+    "1081": "/news/chair-message-2024.html",
+    "1612": "/news/human-evolution-discoveries.html",
+    "1629": "/news/kamakana-ferreira-repatriation.html",
+    "1675": "/news/jan-brunson-fulbright-nepal.html",
+    "1686": "/news/deirdre-clyde-anime-research.html",
+    "1714": "/news/dewey-bilmes-endowment.html",
+    "1659": "/news/graduates-spring-2025.html",
+    "1795": "/news/guido-pigliasco-law-culture.html",
+    "1832": "/news/eirik-saethre-regents-medal.html"
+  }
 }

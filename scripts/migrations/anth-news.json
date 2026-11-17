@@ -1,0 +1,28 @@
+{
+  "unit": "anth",
+  "hostname": "anthropology.manoa.hawaii.edu",
+  "xml": "departmentofanthropology.WordPress.2026-11-17.xml",
+  "backup": "CSSDepartmentofAnthropology-111626-backup.zip",
+  "oldIndex": "/about/department-news.html",
+  "slugs": {
+    "1028": "pulama-lima-molokai-phd",
+    "1054": "archaeology-field-school-2024",
+    "1062": "ulise-funaki-kava-research",
+    "1066": "yi-yu-lai-paper-prize",
+    "1069": "seth-quintus-teaching-award",
+    "1071": "chris-bae-paleoanthropology-book",
+    "1076": "graduates-2023-2024",
+    "1081": "chair-message-2024",
+    "1612": "human-evolution-discoveries",
+    "1629": "kamakana-ferreira-repatriation",
+    "1659": "graduates-spring-2025",
+    "1675": "jan-brunson-fulbright-nepal",
+    "1686": "deirdre-clyde-anime-research",
+    "1714": "dewey-bilmes-endowment",
+    "1795": "guido-pigliasco-law-culture",
+    "1832": "eirik-saethre-regents-medal"
+  },
+  "imageNames": {
+    "20180731-152930": "deirdre-clyde-japantown"
+  }
+}

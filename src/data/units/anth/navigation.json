@@ -26,7 +26,7 @@
       },
       {
         "label": "Department News",
-        "url": "/about/department-news.html",
+        "url": "/news/",
         "iconColor": null,
         "icon": "newspaper"
       }
