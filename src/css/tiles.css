@@ -4,7 +4,7 @@ position: relative;
 isolation: isolate;
 overflow: hidden;
 box-sizing: border-box;
-aspect-ratio: 1;
+aspect-ratio: var(--tile-aspect-ratio, 1);
 background: var(--tile-color);
 color: var(--tile-text, var(--white));
 }
@@ -236,4 +236,34 @@ opacity: 0.75;
 height: auto;
 aspect-ratio: 1;
 fill: currentColor;
+}
+
+/* Optional landscape program tiles. */
+.program-tile.tile-landscape {
+--tile-aspect-ratio: 16 / 9;
+grid-template-columns: minmax(0, 1fr);
+}
+
+.tile-landscape .program-tile-icon {
+width: clamp(1rem, 8cqi, 2rem);
+height: clamp(1rem, 8cqi, 2rem);
+margin-bottom: 2cqi;
+}
+
+.tile-landscape .program-tile-title {
+max-width: 100%;
+font-size: clamp(1.25rem, 12cqi, 3rem);
+line-height: 1.15;
+white-space: normal;
+overflow-wrap: anywhere;
+}
+
+.tile-landscape .program-tile-title:not(:last-child) {
+margin-bottom: 2cqi;
+}
+
+.tile-landscape .program-tile-label {
+min-height: 0;
+font-size: clamp(.75rem, 5cqi, 1.25rem);
+line-height: 1.25;
 }

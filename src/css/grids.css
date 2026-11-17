@@ -23,6 +23,17 @@ padding: 0;
 margin: 0;
 }
 
+/* Match the shell gutters on outer full-width wrappers. */
+@media (min-width: 576px) {
+.content-section > .row.grid-one {
+margin-inline: -1.5rem;
+}
+
+.content-section > .row.grid-one > .col-12 {
+padding-inline: 1.5rem;
+}
+}
+
 @media (min-width: 768px) {
 .grid-two,
 .grid-three,

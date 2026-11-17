@@ -1,4 +1,5 @@
 {
+  "layoutGuides": true,
   "indexingEnabled": false,
   "openGraph": {
     "image": "/media/open-graph/durp.jpg",

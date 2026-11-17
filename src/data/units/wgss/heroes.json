@@ -43,12 +43,6 @@
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/undergraduate/major-ba-online.html": {
-      "image": "/media/heroes/students/general/supporting/08.webp",
-      "position": "center center",
-      "alt": "Students at the University of Hawaiʻi at Mānoa",
-      "credit": false
-    },
     "/undergraduate/double-majors.html": {
       "image": "/media/heroes/students/general/supporting/44.webp",
       "position": "center center",
@@ -103,7 +97,7 @@
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/wgss-courses.html": {
+    "/courses.html": {
       "image": "/media/heroes/students/general/featured/48.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",

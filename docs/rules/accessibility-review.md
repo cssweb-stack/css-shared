@@ -45,6 +45,14 @@ checks, not competing rules or proof that the current site passes.
    consumer. Report actual coverage and remaining decisions. Do not declare an
    untested first run complete because an automated score is high.
 
+## Known deferred component
+
+User decision, November 17, 2026: homepage academic-program/degree tiles are
+known unfinished across all sites. Exclude their layout, clipping and text-sizing
+remediation from current review passes; record the known limitation without
+reinvestigating or blocking the unit review. Resume tile work only when the user
+explicitly requests it. This is a development deferral, not an accessibility pass.
+
 ## Page structure and accessible names
 
 - Use meaningful native HTML elements for navigation, main content, articles,

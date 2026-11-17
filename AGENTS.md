@@ -34,9 +34,10 @@ Update the authoritative sheet when an agreed rule changes, including removals;
 replace superseded wording and update references rather than adding competing rules.
 
 
-Before editing, read the applicable current rule sheets listed above. Identify the
-specific rules that govern the requested change; do not rely on memory or a prior
-review. Apply those rules while doing the work, not as optional cleanup afterward.
+Before editing, consult the applicable current rule sheets listed above. Reuse rules
+already read in this active session unless they changed or the task enters a new
+category. Identify and apply the specific rules governing the requested change;
+a prior review is not proof that new edits satisfy them.
 
 Before saying done, compare the actual edited sources and rendered result against
 those specific rules. A successful build or automated check is not evidence that
@@ -56,7 +57,31 @@ When a missed agreement is discovered, correct the implementation and strengthen
 the applicable existing rule or this procedure in the same task. Do not substitute
 an acknowledgment, another note, or repeated technical validation for the fix.
 
+## Decision questions
+
+Ask one distinct decision per question. Do not combine unrelated claims or edits
+into a single yes/no choice, even when they appear on the same page.
+
 ## Fast path for small edits
+
+This section takes precedence over routine startup, rendered-check and note-taking
+requirements for consecutive small edits in the same active session.
+
+- Read only relevant rule sections not already read this session. Do not reload
+large convention logs, historical reports or the entire handoff for each edit.
+On a fresh session, read the latest relevant handoff entries first; search older
+records only when a specific unanswered question requires them.
+- Simple copy edits and switches between existing grid classes use this fast path.
+Edit the requested source and inspect its narrow diff; do not launch an audit,
+browser session, separate build or Review refresh without a concrete reason.
+- Batch independent file reads in one tool call. Keep output limited to relevant
+lines or diffs; do not dump whole logs to find a small rule.
+- Do not create per-edit notes, reports or checklist entries. Batch routine notes
+at a substantial task, explicit handoff or publishing checkpoint.
+- Complete straightforward edits directly. Omit plan recaps and repeated progress
+messages; give a short result. Required tool-start commentary stays one sentence.
+- Full code, language, accessibility, SEO and redirect reviews still follow their
+complete category procedures when requested. Speed does not waive those reviews.
 
 A small text, label or heading edit is not a new audit. Reuse applicable rules
 already read in the active session. Edit the requested source and any directly

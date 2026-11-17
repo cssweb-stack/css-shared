@@ -1,29 +1,134 @@
 {
   "redirects": [
     {
-      "from": "/about-wgss/colloquia.html",
+      "from": "/about/",
+      "to": "/about/department-overview.html",
+      "label": "About"
+    },
+    {
+      "from": "/undergraduate/",
+      "to": "/about/why-study-wgss.html#undergraduate-study",
+      "label": "Undergraduate"
+    },
+    {
+      "from": "/graduate/",
+      "to": "/graduate/applications-admissions.html",
+      "label": "Graduate"
+    },
+    {
+      "from": "/faculty/",
+      "to": "/faculty/core-faculty.html",
+      "label": "Faculty"
+    },
+    {
+      "from": "/contact/",
+      "to": "/contact.html",
+      "label": "Contact"
+    },
+    {
+      "from": "/kathy-ferguson/",
+      "to": "/faculty/kathy-ferguson.html",
+      "label": "Kathy Ferguson"
+    },
+    {
+      "from": "/meda-chesney-lind/",
+      "to": "/faculty/associated-faculty.html",
+      "label": "Meda Chesney Lind"
+    },
+    {
+      "from": "/give-a-gift/",
+      "to": "/support.html",
+      "label": "Give a Gift"
+    },
+    {
+      "from": "/privacy-policy/",
+      "to": "/privacy.html",
+      "label": "Privacy Policy"
+    },
+    {
+      "from": "/monisha-das-gupta/",
+      "to": "/faculty/monisha-das-gupta.html",
+      "label": "Monisha Das Gupta"
+    },
+    {
+      "from": "/mire-koikari/",
+      "to": "/faculty/mire-koikari.html",
+      "label": "Mire Koikari"
+    },
+    {
+      "from": "/wgss-graduate-certificate/",
+      "to": "/graduate/graduate-certificate.html",
+      "label": "WGSS Graduate Certificate"
+    },
+    {
+      "from": "/ba-requirements/",
+      "to": "/undergraduate/major-ba/",
+      "label": "BA Requirements"
+    },
+    {
+      "from": "/certificate-requirements/",
+      "to": "/undergraduate/certificate.html",
+      "label": "Certificate Requirements"
+    },
+    {
+      "from": "/design-courses/",
+      "to": "/undergraduate/major-ba/transnational-courses.html",
+      "label": "Design Courses"
+    },
+    {
+      "from": "/colloquia/",
       "to": "/about/colloquia.html",
       "label": "Colloquia"
     },
     {
-      "from": "/about-wgss/why-study-wgss.html",
-      "to": "/about/why-study-wgss.html",
-      "label": "Why Study Wgss"
+      "from": "/scholarships/",
+      "to": "/funding-sources.html",
+      "label": "Scholarships"
     },
     {
-      "from": "/about-wgss/alumni.html",
+      "from": "/online-ba-requirements/",
+      "to": "/undergraduate/major-ba/#fully-online",
+      "label": "Online BA Requirements"
+    },
+    {
+      "from": "/alumni/",
       "to": "/about/alumni.html",
       "label": "Alumni"
     },
     {
-      "from": "/faculty/meda-chesney-lind.html",
-      "to": "/faculty/associated-faculty.html",
-      "label": "Meda Chesney Lind: associated faculty"
+      "from": "/honors-track/",
+      "to": "/undergraduate/honors-track.html",
+      "label": "Honors Track"
     },
     {
-      "from": "/support-wgss.html",
-      "to": "/support.html",
-      "label": "Support WGSS"
+      "from": "/lani-teves/",
+      "to": "/faculty/lani-teves.html",
+      "label": "Lani Teves"
+    },
+    {
+      "from": "/double-major/",
+      "to": "/undergraduate/double-majors.html",
+      "label": "Double Major"
+    },
+    {
+      "from": "/jobs-prospects/",
+      "to": "/about/job-prospects.html",
+      "label": "Jobs Prospects"
+    },
+    {
+      "from": "/queer-studies-certificate/",
+      "to": "/undergraduate/queer-studies.html",
+      "label": "Queer Studies Certificate"
+    },
+    {
+      "from": "/s-heijin-lee/",
+      "to": "/faculty/s-heijin-lee.html",
+      "label": "S. Heijin Lee"
+    },
+    {
+      "from": "/lisa-m-vallin/",
+      "to": "/faculty/lisa-m-vallin.html",
+      "label": "Lisa M. Vallin"
     }
   ],
   "retired": [],

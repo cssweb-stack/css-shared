@@ -40,7 +40,7 @@
   },
   {
     "label": "Courses",
-    "url": "/wgss-courses.html"
+    "url": "/courses.html"
   },
   {
     "label": "Undergraduate",
@@ -58,14 +58,8 @@
         "icon": "award"
       },
       {
-        "label": "Major (BA)",
+        "label": "Major (BA, Fully Online Option)",
         "url": "/undergraduate/major-ba/",
-        "iconColor": null,
-        "icon": "mortarboard"
-      },
-      {
-        "label": "Online BA Degree Completion",
-        "url": "/undergraduate/major-ba-online.html",
         "iconColor": null,
         "icon": "mortarboard"
       },
@@ -80,6 +74,12 @@
         "url": "/undergraduate/honors-track.html",
         "iconColor": null,
         "icon": "star"
+      },
+      {
+        "label": "Funding Sources",
+        "url": "/funding-sources.html",
+        "icon": "cash-coin",
+        "iconColor": null
       },
       {
         "label": "Advising & Support",
@@ -97,6 +97,12 @@
         "url": "/graduate/graduate-certificate.html",
         "iconColor": null,
         "icon": "award"
+      },
+      {
+        "label": "Funding Sources",
+        "url": "/funding-sources.html",
+        "icon": "cash-coin",
+        "iconColor": null
       },
       {
         "label": "Applications & Admissions",

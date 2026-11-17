@@ -1,4 +1,5 @@
 {
+  "layoutGuides": true,
 "stylesheet": "/style-guide.css",
 "hero": {
 "enabled": false

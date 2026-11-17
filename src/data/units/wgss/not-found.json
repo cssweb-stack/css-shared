@@ -1,0 +1,20 @@
+{
+  "quickLinks": [
+    {
+      "label": "WGSS homepage",
+      "url": "/"
+    },
+    {
+      "label": "Undergraduate advising and support",
+      "url": "/undergraduate/advising-support.html"
+    },
+    {
+      "label": "Graduate certificate",
+      "url": "/graduate/graduate-certificate.html"
+    },
+    {
+      "label": "Contact WGSS",
+      "url": "/contact.html"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "policiesProceduresUrl": "/policies-procedures.html",
   "indexingEnabled": false,
-  "layoutGuides": false,
+  "layoutGuides": true,
   "stylesheet": "/anth.css",
   "url": "https://anthropology.manoa.hawaii.edu",
   "openGraph": {
