@@ -68,8 +68,8 @@ text-decoration-line: underline;
 }
 
 .site-footer a:focus-visible {
-outline: 2px solid currentColor;
-outline-offset: 3px;
+outline: var(--focus-outline-width) solid currentColor;
+outline-offset: var(--focus-outline-offset);
 }
 
 /* 3. Bootstrap layout hooks, local controls and shared dividers */
@@ -278,8 +278,8 @@ min-height: 24px;
 }
 
 .site-footer .footer-contact-meta a:focus-visible {
-outline: 2px solid currentColor;
-outline-offset: 4px;
+outline: var(--focus-outline-width) solid currentColor;
+outline-offset: var(--focus-outline-offset);
 }
 
 /* 7. Optional social accounts */

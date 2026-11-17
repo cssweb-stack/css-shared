@@ -4,7 +4,7 @@
 {% endif %}
 <section aria-labelledby="associated-group-{{ loop.index }}">
 <h2 id="associated-group-{{ loop.index }}">{{ group.title | escape }}</h2>
-<ul>
+<ul{% if group.listClass %} class="{{ group.listClass | escape }}"{% endif %}>
 {% for member in group.members %}
 <li>{{ member.name | escape }}{% if member.email %} (<a href="mailto:{{ member.email | escape }}">{{ member.email | escape }}</a>){% endif %}{% if member.description %}{{ facultyDescriptionSeparator | default(": ") | escape }}{{ member.description | escape }}{% endif %}{% if member.links | length %}; {% for link in member.links %}<a href="{{ link.url | url | escape }}">{{ link.label | escape }}</a>{% if not loop.last %} · {% endif %}{% endfor %}{% endif %}</li>
 {% endfor %}

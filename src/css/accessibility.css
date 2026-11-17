@@ -1,6 +1,11 @@
 /* Shared interaction focus; typography.css owns text fundamentals only. */
+:root {
+--focus-outline-width: 2px;
+--focus-outline-offset: 3px;
+}
+
 :focus-visible {
-outline: 3px solid var(--link-color);
-outline-offset: 2px;
+outline: var(--focus-outline-width) solid var(--link-color);
+outline-offset: var(--focus-outline-offset);
 }
 

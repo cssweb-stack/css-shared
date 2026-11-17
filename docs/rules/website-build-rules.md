@@ -75,3 +75,7 @@ After changing routes or the build setup:
 Record an agreed change here or in its relevant topic rule, replacing the previous
 instruction rather than keeping conflicting versions. Do not treat an experiment
 or a framework default as an approved exception.
+
+## Academic-program course resources
+
+Every academic-program page, including degree, minor, certificate, combined-pathway and program subpages, ends with its unit’s shared course-resources widget directly above the footer. Use `layouts/content/course-resources.njk` inside the standard page-section/container/row/col-12 wrapper. The course widget always has its own dedicated container. Put advising/application callouts in a separate section/container above it. Keep catalog sections and other content before it. Check this when creating pages and during final review; ask if program scope is unclear.

@@ -109,6 +109,6 @@ color: var(--white);
 }
 
 .review-grid-tabs > button:focus-visible {
-outline: 3px solid currentColor;
-outline-offset: 3px;
+outline: var(--focus-outline-width) solid currentColor;
+outline-offset: var(--focus-outline-offset);
 }

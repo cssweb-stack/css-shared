@@ -14,6 +14,16 @@
       "from": "/about-wgss/alumni.html",
       "to": "/about/alumni.html",
       "label": "Alumni"
+    },
+    {
+      "from": "/faculty/meda-chesney-lind.html",
+      "to": "/faculty/associated-faculty.html",
+      "label": "Meda Chesney Lind: associated faculty"
+    },
+    {
+      "from": "/support-wgss.html",
+      "to": "/support.html",
+      "label": "Support WGSS"
     }
   ],
   "retired": [],

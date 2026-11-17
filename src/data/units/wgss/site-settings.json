@@ -24,5 +24,7 @@
       "color": "var(--uh-green)",
       "opacity": 0.33
     }
-  }
+  },
+  "sidebarLeftLayouts": true,
+  "portraitCardGrid": true
 }

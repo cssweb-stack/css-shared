@@ -189,8 +189,8 @@ color: var(--white);
 }
 
 .button:focus-visible {
-outline: 3px solid var(--button-color);
-outline-offset: 3px;
+outline: var(--focus-outline-width) solid var(--button-color);
+outline-offset: var(--focus-outline-offset);
 }
 
 .button > svg,

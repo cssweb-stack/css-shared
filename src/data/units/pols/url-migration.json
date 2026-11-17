@@ -117,7 +117,7 @@
     },
     {
       "from": "/give-a-gift/",
-      "to": "/support-pols.html",
+      "to": "/support.html",
       "label": "Give a Gift"
     },
     {
@@ -380,6 +380,11 @@
       "from": "/undergraduate-slos/",
       "to": "/undergraduate/student-learning-outcomes.html",
       "label": "Undergraduate SLOs"
+    },
+    {
+      "from": "/support-pols.html",
+      "to": "/support.html",
+      "label": "Support POLS"
     }
   ],
   "retired": [

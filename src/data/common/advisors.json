@@ -48,5 +48,17 @@
     "photo": "/media/shared/advisors/jennifer-oshiro.webp",
     "photoWidth": 215,
     "photoHeight": 215
+  },
+  {
+    "slug": "aj-simpao",
+    "name": "AJ Simpao",
+    "title": "Academic Advisor",
+    "office": "Saunders Hall 311",
+    "phone": "(808) 956-9021",
+    "phoneHref": "+18089569021",
+    "email": "ajsimpao@hawaii.edu",
+    "photo": "/media/shared/advisors/aj-simpao.webp",
+    "photoWidth": 215,
+    "photoHeight": 215
   }
 ]

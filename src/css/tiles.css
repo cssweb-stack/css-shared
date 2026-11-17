@@ -58,8 +58,8 @@ text-decoration-line: none;
 }
 
 .program-tile:focus-visible {
-outline: 3px solid var(--black);
-outline-offset: 3px;
+outline: var(--focus-outline-width) solid var(--black);
+outline-offset: var(--focus-outline-offset);
 }
 
 /* Homepage Program Tiles: Hover and Reduced Motion */

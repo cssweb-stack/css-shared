@@ -2,7 +2,7 @@
   "defaultHero": "/media/heroes/students/general/featured/41.webp",
   "pages": {
     "/": {
-      "image": "/media/heroes/students/general/supporting/30.webp",
+      "image": "/media/heroes/students/general/featured/17.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
@@ -67,14 +67,14 @@
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
-    "/support-wgss.html": {
-      "image": "/media/heroes/students/general/supporting/35.webp",
+    "/support.html": {
+      "image": "/media/heroes/students/general/supporting/22.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/contact.html": {
-      "image": "/media/heroes/students/general/supporting/18.webp",
+      "image": "/media/heroes/students/general/featured/41.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
@@ -104,7 +104,7 @@
       "credit": false
     },
     "/wgss-courses.html": {
-      "image": "/media/heroes/students/general/supporting/37.webp",
+      "image": "/media/heroes/students/general/featured/48.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
@@ -116,13 +116,31 @@
       "credit": false
     },
     "/faculty/core-faculty.html": {
-      "image": "/media/heroes/students/general/supporting/32.webp",
+      "image": "/media/heroes/students/general/featured/60.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false
     },
     "/faculty/associated-faculty.html": {
       "image": "/media/heroes/students/graduate/supporting/02.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/undergraduate/advising-support.html": {
+      "image": "/media/heroes/students/general/featured/41.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/about/department-overview.html": {
+      "image": "/media/heroes/students/general/supporting/62.webp",
+      "position": "center center",
+      "alt": "Students at the University of Hawaiʻi at Mānoa",
+      "credit": false
+    },
+    "/about/job-prospects.html": {
+      "image": "/media/heroes/students/general/supporting/62.webp",
       "position": "center center",
       "alt": "Students at the University of Hawaiʻi at Mānoa",
       "credit": false

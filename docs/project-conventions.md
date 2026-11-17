@@ -50,12 +50,15 @@ the reason in the relevant documentation. Academic-program tiles are an accepted
 exception: minor, BA, BAM, MA, PhD follow academic progression. SOC homepage
 research-area tiles use alphabetical order. Confirmed November 14, 2026.
 
-Accessibility reviews here focus on major red flags and shared fixes; Siteimprove
-provides the comprehensive scan. Do not routinely repeat exhaustive viewport
-cross-products when a targeted check will answer the question. The user explicitly
-authorizes verified shared accessibility corrections that benefit all sites;
-recheck the affected interaction and a representative consuming site. Keep
-manual-review limitations separate from confirmed failures and automated passes.
+Accessibility reviews follow `docs/rules/accessibility-review.md`, consolidated
+November17 with selected GitHub guidance. Siteimprove is the broad automated scan,
+not a substitute for keyboard, screen-reader, zoom/reflow and content review.
+Preserve targeted verification and the stopping rule. Clear low-impact fixes within
+an authorized review may proceed; significant changes to approved layout, behavior,
+heading structure, branding, content or shared contracts require a concrete user
+decision first. On first use, review the checklist against current rules/components
+before edits and identify conflicts. This supersedes the earlier blanket shared-fix
+authorization. Report manual coverage, incomplete checks and failures distinctly.
 
 SCI may be migrated in phases. Its first phase covers people and a grouped
 directory only, using central people/program data and the existing shared cards
@@ -1501,3 +1504,19 @@ Approved November15,2026: use support.html and about/news.html without redundant
 ## Descriptive homepage headings and acronym search titles
 
 Approved November15,2026 for SSRI, PUBA, SOC, ANTH and ES: homepage H1 identifies the unit at the University of Hawaiʻi at Mānoa; SSRI uses Social Science Research Institute at UH Mānoa to keep its long name manageable. Homepage HTML title is Full Unit Name (ACRONYM) | UH Mānoa, using a homepage-only seoTitle override so the ordinary subpage suffix is not duplicated. These replace the earlier slogan-led homepage H1/search titles and the shorter Anthropology university heading. Body statements remain protected and unchanged. Taglines are optional and require unit approval; none added automatically. All other page headings/titles remain as approved. Scope is five homepages, not every page on each site.
+
+## Contact-page naming
+
+Approved November 16, 2026: every unit contact page uses “Contact [full unit name]” for its visible H1, for example Contact Anthropology, Contact Sociology and Contact Political Science. Use the recognizable full subject/program name without an acronym or unnecessary Department of prefix; retain School of where it identifies the unit. Navigation stays Contact. Frontmatter titles may retain the concise Contact [ACRONYM] wording. Preserve existing short searchTitle overrides and established unit/campus suffixes. The full-name requirement applies to the visible H1, not the title metadata. This applies to all existing and future contact pages and supersedes the inherited Contact ANTH/SOC/POLS/etc. headings. Check the H1 and title together during SEO review; existing shorthand is not evidence of approval.
+
+## Academic-program course widget
+
+Approved November 16, 2026: every academic-program page includes the unit’s shared course-resources widget as its final page-content section, directly above the footer. Applies to undergraduate and graduate degrees, minors, certificates, combined pathways, and every academic subpage within MA/PhD or other program sections, not only their landing pages. Use layouts/content/course-resources.njk with the standard page-section/container/row/col-12 wrapper and the unit’s central course data; never duplicate buttons or invent a separate widget. Place program catalog links and any other page sections before this final widget. The course widget always has its own dedicated container. Advising/application callouts belong in a separate section/container above it, never inside the course widget’s container. Check this during page creation and final review; ask only when a page’s academic-program scope is genuinely unclear. This supersedes the earlier “other degree pages can be aligned as reviewed” deferral.
+
+## Support-page naming and review scope
+
+Confirmed November17: donation/support pages use Support [full subject/unit name] for the visible H1 and /support.html for their ordinary source filename/route. Check both during page creation and SEO/title/route review; update navigation, hero mappings, internal links and legacy redirect targets together when renaming. Preserve established search-title choices unless separately requested: ANTH, ES, PUBA and SOC are accepted as they stand, including their full-name titles. Applied H1/route corrections to POLS and WGSS only; GEO and PSY are explicitly deferred, SCI not included in this correction. Do not turn this into a portfolio-wide rename without authorization.
+
+## Consistent focus and image-purpose review
+
+Approved November17: shared focus outlines use2px width and3px offset via central accessibility.css variables, componentcolors adapted forcontrast. This supersedes3pxwidth defaults, not the requirement to checkvisibility. Every accessibility review must assess imagepurpose and altquality, including reasoned decorative/redundant emptyalt decisions, not merely altattribute presence. See canonical accessibility-review.md. PiSigmaAlpha linkedlogo retains its accurateorganizationname alt.

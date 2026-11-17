@@ -3,6 +3,7 @@
 ## Start here
 
 - [Language & Writing](rules/language-writing.md): the editable language rule sheet displayed on Review.
+- [Accessibility Review](rules/accessibility-review.md): the current manual/automated run sheet, first-run safeguards and significant-change decisions.
 - [Code Formatting](rules/code-cleanup.md): the editable text displayed on the Review website.
 - [Project Conventions](project-conventions.md): accepted agreements across the websites and links to the relevant rules.
 - [Grid Review](shared/grid-system-review.md): five-site inventory, Review specimens and proposed consolidation.
@@ -16,6 +17,6 @@
 - **reports/**: shared-system audits and past validation results. A past pass does not certify today's site.
 - **templates/**: reusable report forms.
 
-The Code Formatting page reads rules/code-cleanup.md directly. Edit that file; do not edit Review's generated pages. Only existing rule sets have been filed here. Accessibility and voice instructions have not yet been consolidated into their own approved rule pages.
+The Code Formatting page reads rules/code-cleanup.md directly. Edit that file; do not edit Review's generated pages. Only existing rule sets have been filed here. Accessibility instructions are consolidated in rules/accessibility-review.md; older accessibility audits remain historical records. Voice instructions have not yet been consolidated into their own approved rule page.
 
 If a record conflicts with an accepted current rule, flag and resolve the conflict. Do not silently treat an old report as a new instruction or assume this folder reorganization resolved every older wording conflict.

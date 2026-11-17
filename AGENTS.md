@@ -11,6 +11,7 @@ baseline at `<path>`:
 - `docs/work-status.md`: current handoff, verification and remaining work.
 - `docs/rules/website-build-rules.md`: before routes, folders, builds or servers.
 - Relevant topic documentation under `docs/`.
+- `docs/rules/accessibility-review.md` before accessibility reviews or accessibility-related changes; follow its first-run and significant-change decision safeguards.
 
 Always read the tracked `docs/rules/code-cleanup.md` before editing or reviewing
 HTML/Nunjucks/CSS formatting. It is the live rule sheet displayed on Review.

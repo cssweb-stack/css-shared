@@ -263,7 +263,8 @@
           "name": "Ming-Bao Yue",
           "description": "East Asian Languages and Literatures"
         }
-      ]
+      ],
+      "listClass": "list-columns-two"
     },
     {
       "title": "Cooperating Graduate Faculty",
@@ -300,7 +301,8 @@
           "name": "Andrew Reilly",
           "description": "Fashion, Design and Merchandising"
         }
-      ]
+      ],
+      "dividerBefore": true
     },
     {
       "title": "Lecturers",
@@ -350,28 +352,22 @@
         {
           "name": "Vera Zambonelli"
         }
-      ]
+      ],
+      "dividerBefore": true
     },
     {
       "title": "Emeriti Faculty",
       "members": [
         {
           "name": "Meda Chesney Lind",
-          "description": "Professor Emeritus",
-          "email": "meda@hawaii.edu",
-          "links": [
-            {
-              "label": "Biography",
-              "url": "/faculty/meda-chesney-lind.html"
-            }
-          ]
+          "email": "meda@hawaii.edu"
         },
         {
           "name": "Ruth Dawson",
-          "description": "Professor Emeritus",
           "email": "dawson@hawaii.edu"
         }
-      ]
+      ],
+      "dividerBefore": true
     }
   ]
 }

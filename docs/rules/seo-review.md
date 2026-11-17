@@ -22,6 +22,14 @@ before starting. “Quick” means focused work, not omitted editorial work.
    - Use page searchTitle for a concise search label while retaining a descriptive
      visible H1 where appropriate. Navigation can be shorter; the subject,
      credential and option must remain consistent across all representations.
+   - Contact-page visible H1s use Contact [full unit name], never an acronym.
+     Titles may retain Contact [ACRONYM] to stay concise; preserve existing short
+     searchTitle overrides and unit/campus suffixes. Navigation stays Contact.
+     Check every unit contact page; the H1 and title need not be identical.
+   - Donation/support pages use Support [full unit name] in the H1 and
+     /support.html as the ordinary filename/route. Preserve approved title choices;
+     check navigation, internal links, hero mappings and redirects together.
+     Respect explicitly deferred sites; do not rename their routes during review.
    - When an approved program/option name changes, update navigation, H1,
      frontmatter title, searchTitle and overview references in the same task.
      Check the whole family, not just the page currently open.

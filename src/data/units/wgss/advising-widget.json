@@ -1,0 +1,23 @@
+{
+  "heading": "Advising Contacts",
+  "people": [
+    {
+      "source": "people",
+      "slug": "lisa-m-vallin",
+      "role": "Undergraduate Chair",
+      "description": "For guidance on WGSS programs, course planning and declaring a major or certificate."
+    },
+    {
+      "source": "shared-advisors",
+      "slug": "dawn-nishida",
+      "role": "General Education Advisor",
+      "description": "For help with general education requirements."
+    },
+    {
+      "source": "shared-advisors",
+      "slug": "aj-simpao",
+      "role": "Online Program Advisor",
+      "description": "For guidance on the fully online BA degree completion program."
+    }
+  ]
+}

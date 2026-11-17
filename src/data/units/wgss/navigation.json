@@ -7,9 +7,21 @@
     "label": "About",
     "children": [
       {
-        "label": "Why Study WGSS",
+        "label": "Why Study WGSS?",
         "url": "/about/why-study-wgss.html",
         "icon": "question-circle",
+        "iconColor": null
+      },
+      {
+        "label": "Department Overview",
+        "url": "/about/department-overview.html",
+        "icon": "info-circle",
+        "iconColor": null
+      },
+      {
+        "label": "Job Prospects",
+        "url": "/about/job-prospects.html",
+        "icon": "briefcase",
         "iconColor": null
       },
       {
@@ -52,7 +64,7 @@
         "icon": "mortarboard"
       },
       {
-        "label": "Major (BA) Online",
+        "label": "Online BA Degree Completion",
         "url": "/undergraduate/major-ba-online.html",
         "iconColor": null,
         "icon": "mortarboard"
@@ -68,6 +80,12 @@
         "url": "/undergraduate/honors-track.html",
         "iconColor": null,
         "icon": "star"
+      },
+      {
+        "label": "Advising & Support",
+        "url": "/undergraduate/advising-support.html",
+        "icon": "info-circle",
+        "iconColor": null
       }
     ]
   },
@@ -107,7 +125,7 @@
   },
   {
     "label": "Support WGSS",
-    "url": "/support-wgss.html"
+    "url": "/support.html"
   },
   {
     "label": "Contact",
