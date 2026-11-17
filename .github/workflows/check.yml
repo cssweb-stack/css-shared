@@ -1,6 +1,5 @@
 name: Check shared files
 on:
-  push:
   pull_request:
   workflow_dispatch:
 permissions:
