@@ -180,8 +180,15 @@ GitHub CLI is available for agent-managed commits, pushes and manual workflow
 runs when the user requests uploading/publishing. GitHub Desktop is optional.
 Before publishing, inspect the affected repositories and changes, preserve unrelated
 work, use meaningful commit messages, push required shared and unit sources first,
-then dispatch the selected site workflows and Review last when affected. Check
-workflow results and report failures or incomplete publication explicitly.
+then dispatch the selected site workflows and Review last when affected.
+
+Default handoff is immediate after the pushes are confirmed and requested workflow
+dispatches are accepted. Report uploads complete and publishing started; do not
+wait for builds, repeatedly poll statuses or inspect live pages unless the user
+explicitly requests monitoring or deployment troubleshooting. A failure to push
+or dispatch is part of this task and must be reported. Background workflow
+completion is separate: never call a merely started deployment published. This
+supersedes waiting for every deployment and live-page check during routine uploads.
 
 Authentication setup alone does not authorize uploading pending changes. Do not
 turn manual development publishing into automatic triggers. Never print or store

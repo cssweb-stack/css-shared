@@ -48,13 +48,26 @@ For page creation, renaming and SEO reviews, read website-build-rules.md and
 seo-review.md and compare source filename, permalink, visible H1, rendered title,
 navigation and internal references together. Standard main Courses is courses.html,
 without a unit prefix. Development-only renames get no redirects; actual legacy
-public URLs retain their approved mappings. Update shared mappings and regenerate
-Review when its listings are affected. Distinguish local results from published
+public URLs retain their approved mappings. Update shared mappings when needed. Queue affected Review listings for the next
+review/publishing checkpoint; do not regenerate Review after each small text edit. Distinguish local results from published
 results; do not report Review as updated without rebuilding it.
 
 When a missed agreement is discovered, correct the implementation and strengthen
 the applicable existing rule or this procedure in the same task. Do not substitute
 an acknowledgment, another note, or repeated technical validation for the fix.
+
+## Fast path for small edits
+
+A small text, label or heading edit is not a new audit. Reuse applicable rules
+already read in the active session. Edit the requested source and any directly
+coupled metadata, then inspect the narrow diff. Let the user's running development
+watcher rebuild the preview; do not start a server or run separate builds merely
+for a simple text replacement. Do not refactor surrounding code or expand scope.
+Batch Review regeneration and build checks at the next requested review or upload
+checkpoint. Build immediately only for changed template logic, routes, structure,
+CSS/behavior, or a concrete failure that requires it. Never claim an unperformed
+build or a queued Review refresh is complete. Keep the response and routine notes
+brief; batch handoff bookkeeping across consecutive small edits.
 
 ## Source document intake
 

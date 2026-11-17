@@ -55,3 +55,13 @@ These rules guide writing and reviewing university websites. Improve clarity and
 - Report what was actually checked and any unresolved questions. Do not claim a whole-site language, accessibility or SEO pass after reviewing a few pages.
 - This sheet owns language decisions. Code Formatting owns source formatting and mechanical whitespace. SEO review checks how approved terminology appears in titles and headings; Website Construction governs paths. Those procedures must not invent competing naming rules.
 - If another document conflicts with this sheet, flag the conflict rather than silently combining instructions. Resolve unclear decisions with the user. After resolution, remove or update the obsolete instruction at its source. Preserve historical records as history, clearly marked as superseded.
+
+## Homepage H1 naming
+
+Use the full subject or unit name and identify the Mānoa campus. Approved November
+17: SSRI uses “Social Science Research Institute at UH Mānoa” and WGSS uses
+“Women, Gender, and Sexuality Studies at UH Mānoa” because their names are long.
+PUBA, Sociology, Political Science, Ethnic Studies and Anthropology use
+“[Full subject name] at the University of Hawaiʻi at Mānoa.” Do not drop the campus
+name. These are visible homepage H1 choices; search-title patterns remain governed
+by SEO review. Keep local frontmatter title wording aligned when updating the H1.
