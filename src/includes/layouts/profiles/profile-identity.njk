@@ -1,18 +1,38 @@
 {% set profileUrl = person.url %}
-{% if person.url is not defined and person.type != "staff" %}{% set profileUrl = site.facultyBasePath + person.slug + '.html' %}{% endif %}
+{% if person.url is not defined and person.type != "staff" %}
+{% set profileUrl = site.facultyBasePath + person.slug + '.html' %}
+{% endif %}
 {% if profileView == "directory" %}
-{% if profileUrl %}<a class="profile-link" href="{{ profileUrl | url }}">{% else %}<div class="profile-link">{% endif %}
-{% if person.photo %}<img class="profile-directory-photo photo-style" src="{{ person.photo | url }}" alt="" width="{{ person.photoWidth | default(400) }}" height="{{ person.photoHeight | default(400) }}" loading="lazy" decoding="async">{% endif %}
-<{{ profileNameTag | default("h2") }} id="{{ profileIdentityPrefix | default('faculty') | escape }}-{{ person.slug | escape }}" class="profile-name">{{ person.name | escape }}</{{ profileNameTag | default("h2") }}>
-{% if profileUrl %}</a>{% else %}</div>{% endif %}
+{% if profileUrl %}
+<a class="profile-link" href="{{ profileUrl | url }}">
 {% else %}
-{% if person.photo %}<img class="profile-photo photo-style" src="{{ person.photo | url }}" alt="{{ person.name | escape }}" width="{{ person.photoWidth | default(400) }}" height="{{ person.photoHeight | default(400) }}" decoding="async">{% endif %}
+<div class="profile-link">
+{% endif %}
+{% if person.photo %}
+<img class="profile-directory-photo photo-style" src="{{ person.photo | url }}" alt="" width="{{ person.photoWidth | default(400) }}" height="{{ person.photoHeight | default(400) }}" loading="lazy" decoding="async">
+{% endif %}
+<{{ profileNameTag | default("h2") }} id="{{ profileIdentityPrefix | default('faculty') | escape }}-{{ person.slug | escape }}" class="profile-name">{{ person.name | escape }}</{{ profileNameTag | default("h2") }}>
+{% if profileUrl %}
+</a>
+{% else %}
+</div>
+{% endif %}
+{% else %}
+{% if person.photo %}
+<img class="profile-photo photo-style" src="{{ person.photo | url }}" alt="{{ person.name | escape }}" width="{{ person.photoWidth | default(400) }}" height="{{ person.photoHeight | default(400) }}" decoding="async">
+{% endif %}
 <h1 class="profile-name">{{ person.name | escape }}</h1>
 {% endif %}
-{% if person.title or person.roles | length %}<div class="profile-titles">
-{% if person.title %}<p class="profile-job-title">{{ person.title | escape }}</p>{% endif %}
-{% if person.roles | length %}
-{% for role in person.roles %}<p class="profile-admin-title">{{ role | escape }}</p>{% endfor %}
+{% if person.title or person.roles | length %}
+<div class="profile-titles">
+{% if person.title %}
+<p class="profile-job-title">{{ person.title | escape }}</p>
 {% endif %}
-</div>{% endif %}
+{% if person.roles | length %}
+{% for role in person.roles %}
+<p class="profile-admin-title">{{ role | escape }}</p>
+{% endfor %}
+{% endif %}
+</div>
+{% endif %}
 {% include "layouts/profiles/profile-contact.njk" %}

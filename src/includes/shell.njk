@@ -3,7 +3,9 @@
 <head>
 <meta charset="utf-8">
 {% include "analytics.njk" -%}
-{% if isNotFound or isPolicyDraft or not site.indexingEnabled %}<meta name="robots" content="noindex, nofollow">{% endif %}
+{% if isNotFound or isPolicyDraft or not site.indexingEnabled %}
+<meta name="robots" content="noindex, nofollow">
+{% endif %}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preload" href="{{ '/assets/fonts/InterVariable.woff2' | url }}" as="font" type="font/woff2" crossorigin>
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/media/branding/favicon/apple-touch-icon.png' | url }}">
@@ -45,12 +47,16 @@
 {% include "layouts/branding/header/unit-name.njk" -%}
 {% include "layouts/branding/header/unit-nav.njk" -%}
 </header>
-{% if site.hero.enabled != false or common['page-heroes'].pages[page.url] or (personSlug and common['page-heroes'].facultyBio) %}{% include "layouts/hero/hero.njk" %}{% endif -%}
+{% if site.hero.enabled != false or common['page-heroes'].pages[page.url] or (personSlug and common['page-heroes'].facultyBio) %}
+{% include "layouts/hero/hero.njk" %}
+{% endif -%}
 {# One universal content parent; site-main owns page-edge spacing. #}
 <main id="main-content" class="site-main" tabindex="-1">
 {{ content | safe }}
 </main>
-{% if site.hero.enabled != false %}{% include "layouts/hero/hero-attribution.njk" %}{% endif -%}
+{% if site.hero.enabled != false %}
+{% include "layouts/hero/hero-attribution.njk" %}
+{% endif -%}
 {% include "layouts/branding/footer/footer.njk" -%}
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
 <script src="{{ "/assets/js/site.js" | url }}" defer></script>

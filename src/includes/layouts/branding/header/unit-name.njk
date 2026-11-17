@@ -1,5 +1,6 @@
 {% set headerIdPrefix = headerId + "-" if headerId else "" %}
-<div class="unit-name"><div class="container unit-name-inner">
+<div class="unit-name">
+<div class="container unit-name-inner">
 <div class="row gx-0 gx-sm-5 gx-lg-5">
 <div class="col-12">
 <div class="unit-name-row">
@@ -15,12 +16,15 @@
 <button class="unit-icon-button unit-menu-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#{{ headerIdPrefix }}unitNavigation" aria-controls="{{ headerIdPrefix }}unitNavigation" aria-expanded="false" aria-label="Toggle unit navigation">{% include "media/icons/list.svg" %}</button>
 </div>
 </div>
-<div class="collapse mobile-search" id="{{ headerIdPrefix }}mobileSearch"><form role="search" autocomplete="off" action="https://www.google.com/search" method="get" class="mobile-search-form">
+<div class="collapse mobile-search" id="{{ headerIdPrefix }}mobileSearch">
+<form role="search" autocomplete="off" action="https://www.google.com/search" method="get" class="mobile-search-form">
 <label class="visually-hidden" for="{{ headerIdPrefix }}unit-search-mobile">Search {{ site.search.label | default(site.shortName) | escape }} website</label>
 <input id="{{ headerIdPrefix }}unit-search-mobile" class="form-control" type="search" autocomplete="off" name="q" placeholder="Search {{ site.shortName | escape }}" required>
 <input type="hidden" name="sitesearch" value="{{ site.search.domain | escape }}">
 <button class="btn btn-outline-secondary" type="submit">Search</button>
-</form></div>
+</form>
 </div>
 </div>
-</div></div>
+</div>
+</div>
+</div>

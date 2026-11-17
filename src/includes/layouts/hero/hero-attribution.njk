@@ -1,8 +1,14 @@
 {# Full-width imagery credit immediately above the footer. #}
 {% set assignedHero = common['page-heroes'].pages[page.url] %}
-{% if not assignedHero and personSlug %}{% set assignedHero = common['page-heroes'].facultyBio %}{% endif %}
-{% if not assignedHero %}{% set assignedHero = heroes.pages[page.url] %}{% endif %}
-{% if not assignedHero %}{% set assignedHero = faculty_heroes.pages[page.url] %}{% endif %}
+{% if not assignedHero and personSlug %}
+{% set assignedHero = common['page-heroes'].facultyBio %}
+{% endif %}
+{% if not assignedHero %}
+{% set assignedHero = heroes.pages[page.url] %}
+{% endif %}
+{% if not assignedHero %}
+{% set assignedHero = faculty_heroes.pages[page.url] %}
+{% endif %}
 {% set heroCredit = assignedHero.credit | default(heroes.credit, true) %}
 {% if assignedHero and assignedHero.credit != false and site.hero.showAttribution != false and heroCredit.source and heroCredit.url %}
 <aside class="hero-attribution" aria-label="Banner photo credit">

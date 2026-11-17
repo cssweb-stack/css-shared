@@ -8,8 +8,12 @@
 <section aria-labelledby="event-title-{{ loop.index }}">
 <h2 id="event-title-{{ loop.index }}">{{ lecture.title | escape }}</h2>
 <ul>
-{% if lecture.speaker %}<li class="lecture-speaker">{{ lecture.speaker | escape }}</li>{% endif %}
-{% if lecture.affiliation %}<li>{{ lecture.affiliation | escape }}</li>{% endif %}
+{% if lecture.speaker %}
+<li class="lecture-speaker">{{ lecture.speaker | escape }}</li>
+{% endif %}
+{% if lecture.affiliation %}
+<li>{{ lecture.affiliation | escape }}</li>
+{% endif %}
 <li><time datetime="{{ date.iso | escape }}">{{ date.full | escape }}</time></li>
 </ul>
 </section>

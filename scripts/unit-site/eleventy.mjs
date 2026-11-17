@@ -6,6 +6,7 @@ import { createSharedSource } from './shared-source.mjs';
 import { generateRedirects } from './url-migration.mjs';
 import { configurePrivacy } from './privacy.mjs';
 import { resolveFacultyPerson } from './faculty-profiles.mjs';
+import { formatGeneratedHtml } from './html-format.mjs';
 export function configureUnitSite(eleventyConfig, project) {
 const require = createRequire(path.join(project, 'package.json'));
 const { build } = require('esbuild');
@@ -22,6 +23,9 @@ const sharedDir = path.join(sharedRoot, 'src');
 const sharedIncludes = path.join(sharedDir, 'includes');
 const environment = new nunjucks.Environment(new nunjucks.FileSystemLoader([sharedIncludes, sharedDir, path.join(sourceDir, 'includes')], { noCache: true }), { autoescape: false });
 eleventyConfig.setLibrary('njk', environment);
+eleventyConfig.addTransform('formatGeneratedHtml', function(content) {
+return this.page.outputPath?.endsWith('.html') ? formatGeneratedHtml(content) : content;
+});
 configurePrivacy(eleventyConfig, project);
 const eventDate = createRequire(import.meta.url)(path.join(sharedIncludes, 'layouts/events/event-date.cjs'));
 eleventyConfig.addFilter('eventDate', eventDate);

@@ -21,8 +21,12 @@
 </div>
 {% endif %}
 <div class="{% if not standardSidebar %}col-12 col-md-4 col-lg-3 {% endif %}image-text-media">
-{% if leadImage %}<img class="photo-style image-text-lead-photo" src="{{ leadImage.src | url }}" alt="{{ leadImage.alt | default('') | escape }}" width="{{ leadImage.width }}" height="{{ leadImage.height }}" loading="lazy" decoding="async">{% endif %}
-{% if href %}<a class="image-text-media-link" href="{{ href | url | escape }}">{% endif %}
+{% if leadImage %}
+<img class="photo-style image-text-lead-photo" src="{{ leadImage.src | url }}" alt="{{ leadImage.alt | default('') | escape }}" width="{{ leadImage.width }}" height="{{ leadImage.height }}" loading="lazy" decoding="async">
+{% endif %}
+{% if href %}
+<a class="image-text-media-link" href="{{ href | url | escape }}">
+{% endif %}
 {% if tile %}
 <div class="program-tile tile-style {{ tile.color | default('tile-purple') | escape }}" aria-hidden="true">
 <span class="program-tile-icon">{% include "media/icons/" + (tile.icon | default("mortarboard")) + ".svg" %}</span>
@@ -31,7 +35,9 @@
 {% else %}
 <img class="{{ imageClass | escape }}" src="{{ src | url }}" alt="{{ alt | escape }}" width="{{ width }}" height="{{ height }}" loading="lazy" decoding="async">
 {% endif %}
-{% if href %}</a>{% endif %}
+{% if href %}
+</a>
+{% endif %}
 </div>
 {% if not reverse %}
 <div class="{% if not standardSidebar %}col-12 col-md-8 col-lg-9 {% endif %}image-text-content">

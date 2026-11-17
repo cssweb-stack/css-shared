@@ -32,7 +32,7 @@ def _format_source_base(old):
             if not part.startswith(('<','{{','{%')):parts[i]=re.sub(r'\s+',' ',part)
         return m[1]+''.join(parts).strip()+m[3]
     s=re.sub(r'(?s)(<(?:p|li|h[1-6])\b[^>]*>)(.*?)(</(?:p|li|h[1-6])\s*>)',compact,s)
-    s=re.sub(r'(?i)(</?(?:div|section|article|aside|main|nav|header|footer|ul|ol|table|thead|tbody|tfoot|tr|figure|blockquote)\b[^>]*>)',r'\n\1\n',s)
+    s=re.sub(r'(?i)(</?(?:div|section|article|aside|main|nav|header|footer|form|address|ul|ol|table|thead|tbody|tfoot|tr|figure|blockquote)\b[^>]*>)',r'\n\1\n',s)
     s=re.sub(r'(?i)(<(?:li|p|h[1-6]|hr|img)\b)',r'\n\1',s)
     s=re.sub(r'(?i)(</(?:li|p|h[1-6])\s*>)',r'\1\n',s)
     s=re.sub(r'({%.*?%})',r'\n\1\n',s,flags=re.S)
@@ -63,16 +63,32 @@ def format_source(old):
  s=re.sub(r'[ \t]+(</(?:p|li|h[1-6])>)',r'\1',s)
  s='\n'.join(l.lstrip().rstrip() for l in s.splitlines() if l.strip())+'\n'
  return s
+def format_template_source(old):
+ protected={};control={}
+ def hold(m):
+  key=f'PRESERVEDREGION{len(protected)}END';protected[key]=m[0];return key
+ s=re.sub(r'(?s)\A---\n.*?\n---|<(script|style|pre|textarea|code)\b[^>]*>.*?</\1\s*>|{%\s*raw\s*%}.*?{%\s*endraw\s*%}|{%\s*set\s+\w+\s*%}.*?{%\s*endset\s*%}|{#.*?#}',hold,old)
+ def token(m):
+  key=f'TEMPLATECONTROL{len(control)}END' if m[0].startswith('{%') else f'TEMPLATEVALUE{len(control)}END';control[key]=m[0];return key
+ s=re.sub(r'{{.*?}}|{%.*?%}',token,s,flags=re.S);s=format_source(s)
+ # Standalone control instructions each occupy a line. Inline controls remain inline.
+ s=re.sub(r'(?m)^((?:TEMPLATECONTROL\d+END)+)(?=<)',lambda m:'\n'.join(re.findall(r'TEMPLATECONTROL\d+END',m[1]))+'\n',s)
+ s=re.sub(r'(?m)^(?:TEMPLATECONTROL\d+END){2,}$',lambda m:'\n'.join(re.findall(r'TEMPLATECONTROL\d+END',m[0])),s)
+ s=re.sub(r'(?m)(?<=>)((?:TEMPLATECONTROL\d+END)+)$',lambda m:'\n'+'\n'.join(re.findall(r'TEMPLATECONTROL\d+END',m[1])),s)
+ for key,value in control.items():s=s.replace(key,value)
+ for key,value in protected.items():s=s.replace(key,value)
+ return s
+
 if __name__=='__main__':
     cli=argparse.ArgumentParser();cli.add_argument('unit');cli.add_argument('--apply',action='store_true');cli.add_argument('--output',type=Path);args=cli.parse_args()
     if not re.fullmatch(r'[a-z0-9-]+',args.unit):cli.error('Invalid unit')
-    source=ROOT.parent/args.unit/'src'
+    source=ROOT/'src/includes' if args.unit=='shared' else ROOT.parent/args.unit/'src'
     if not source.is_dir():cli.error('Unit source not found')
     paths=sorted([*source.rglob('*.html'),*source.rglob('*.njk')]);unit_includes=ROOT/'src/includes/units'/args.unit
     if unit_includes.exists():paths+=sorted(unit_includes.rglob('*.njk'))
     changed=[]
     for p in paths:
-        old=p.read_text();new=format_source(old)
+        old=p.read_text();new=format_template_source(old) if p.is_relative_to(ROOT/'src/includes') else format_source(old)
         if old!=new:
             changed.append(str(p.relative_to(ROOT.parent)))
             if args.apply:p.write_text(new)

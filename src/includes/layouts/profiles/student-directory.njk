@@ -15,16 +15,14 @@
 <p class="profile-detail student-research">{{ student.research | escape }}</p>
 {% endif %}
 {% set advisors = student.advisors | default([], true) %}
-{% if student.email or advisors | length %}<hr class="profile-contact-divider">{% endif %}
+{% if student.email or advisors | length %}
+<hr class="profile-contact-divider">
+{% endif %}
 {% if student.email %}
-<p class="profile-email"><a class="profile-contact-link" href="mailto:{{ student.email | escape }}">
-<span class="profile-contact-icon" aria-hidden="true">{% include "media/icons/envelope.svg" %}</span>
-<span><span class="visually-hidden">Email: </span>{{ student.email | escape }}</span>
-</a></p>
+<p class="profile-email"><a class="profile-contact-link" href="mailto:{{ student.email | escape }}"> <span class="profile-contact-icon" aria-hidden="true">{% include "media/icons/envelope.svg" %}</span> <span><span class="visually-hidden">Email: </span>{{ student.email | escape }}</span> </a></p>
 {% endif %}
 {% if advisors | length %}
-<p class="profile-detail student-advisors"><span>{% if advisors | length > 1 %}Advisors{% else %}Advisor{% endif %}:</span>
-{% for advisor in advisors %}{% if advisor.url %}<a href="{{ advisor.url | url | escape }}">{{ advisor.name | escape }}</a>{% else %}{{ advisor.name | escape }}{% endif %}{% if not loop.last %}{% if loop.revindex0 == 1 %} and {% else %}, {% endif %}{% endif %}{% endfor %}</p>
+<p class="profile-detail student-advisors"><span>{% if advisors | length > 1 %}Advisors{% else %}Advisor{% endif %}:</span> {% for advisor in advisors %}{% if advisor.url %}<a href="{{ advisor.url | url | escape }}">{{ advisor.name | escape }}</a>{% else %}{{ advisor.name | escape }}{% endif %}{% if not loop.last %}{% if loop.revindex0 == 1 %} and {% else %}, {% endif %}{% endif %}{% endfor %}</p>
 {% endif %}
 </div>
 </article>

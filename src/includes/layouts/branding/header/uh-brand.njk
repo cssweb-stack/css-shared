@@ -3,9 +3,7 @@
 <div class="container">
 <div class="row gx-0 gx-sm-5 gx-lg-5">
 <div class="col-12">
-
 <nav class="navbar navbar-expand-xl navbar-dark" aria-label="University of Hawaiʻi navigation">
-
 <!-- University Logo -->
 <a class="navbar-brand" href="{{ uh.header.logo.url | escape }}">
 <img
@@ -13,19 +11,15 @@ src="{{ uh.header.logo.src | url }}"
 alt="{{ uh.header.logo.alt | escape }}"
 class="uh-brand-logo">
 </a>
-
 <!-- Desktop university links; collapsed layouts use UH links in the unit menu. -->
 <div class="navbar-collapse d-none d-xl-flex" id="{{ headerIdPrefix }}uhBrandNav">
 <ul class="navbar-nav">
-
 {% for link in uh.header.navigation %}
 <li class="nav-item"><a class="nav-link" href="{{ link.url | escape }}">{{ link.label | escape }}</a></li>
 {% endfor %}
 </ul>
 </div>
-
 </nav>
-
 </div>
 </div>
 </div>

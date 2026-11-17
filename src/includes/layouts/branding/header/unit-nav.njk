@@ -24,13 +24,10 @@ aria-expanded="false">{% if item.icon %}<span class="nav-main-icon"{% if item.ic
 </a>
 </li>
 {% endfor -%}
-
 </ul>
 </li>
 {% else -%}
-<li class="nav-item">
-<a class="nav-link" href="{{ item.url | url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{% if item.icon %}<span class="nav-main-icon"{% if item.iconColor %} style="--nav-icon-color: {{ item.iconColor | navIconColor }}"{% endif %} aria-hidden="true">{% include "media/icons/" + item.icon + ".svg" %}</span>{% endif %}{{ item.label | escape }}</a>
-</li>
+<li class="nav-item"><a class="nav-link" href="{{ item.url | url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{% if item.icon %}<span class="nav-main-icon"{% if item.iconColor %} style="--nav-icon-color: {{ item.iconColor | navIconColor }}"{% endif %} aria-hidden="true">{% include "media/icons/" + item.icon + ".svg" %}</span>{% endif %}{{ item.label | escape }}</a></li>
 {% endif -%}
 {% endfor -%}
 {# Same university data as the green bar, presented within the collapsed menu. #}

@@ -10,8 +10,12 @@ preserves descriptions, links, and other event information before the date. #}
 </div>
 <div class="event-content">
 <h{{ headingLevel }} id="{{ id | escape }}" class="event-title">{{ item.title | escape }}</h{{ headingLevel }}>
-{% if item.speaker %}<p class="event-speaker">{{ item.speaker | escape }}</p>{% endif %}
-{% if item.affiliation %}<p class="event-affiliation">{{ item.affiliation | escape }}</p>{% endif %}
+{% if item.speaker %}
+<p class="event-speaker">{{ item.speaker | escape }}</p>
+{% endif %}
+{% if item.affiliation %}
+<p class="event-affiliation">{{ item.affiliation | escape }}</p>
+{% endif %}
 {% if caller %}{{ caller() }}{% endif %}
 <p class="event-date"><span class="action-chevron" aria-hidden="true"></span><time datetime="{{ date.iso | escape }}">{{ date.full | escape }}</time></p>
 </div>

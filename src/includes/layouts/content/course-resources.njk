@@ -1,6 +1,8 @@
 {% from "layouts/content/button.njk" import button %}
 {% set unitCatalog = catalog_courses.catalog %}
-{% if catalog_courses.catalogKey %}{% set unitCatalog = common["uh-catalog"][catalog_courses.catalogKey] %}{% endif %}
+{% if catalog_courses.catalogKey %}
+{% set unitCatalog = common["uh-catalog"][catalog_courses.catalogKey] %}
+{% endif %}
 <nav class="course-resources{% if unitCatalog %} course-resources--three{% else %} course-resources--two{% endif %}" aria-label="{{ site.shortName | escape }} course resources">
 <div class="row g-3 course-resource-grid">
 <div class="col-12">
@@ -16,5 +18,7 @@
 {% endif %}
 </div>
 {% set coursePrefix = courseResourcesPrefix | default(catalog_courses.prefix) %}
-{% if coursePrefix %}<p class="info course-resources-note"><span>For course descriptions, filter by prefix <strong>{{ coursePrefix | escape }}</strong>.</span></p>{% endif %}
+{% if coursePrefix %}
+<p class="info course-resources-note"><span>For course descriptions, filter by prefix <strong>{{ coursePrefix | escape }}</strong>.</span></p>
+{% endif %}
 </nav>

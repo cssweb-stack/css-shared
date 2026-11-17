@@ -1,6 +1,6 @@
 # Code Formatting
 
-These rules cover editable HTML, Nunjucks templates and CSS across our websites. Code should be flush left, predictable and easy to edit by hand. This file is the single source displayed on Review; edit the rules here, not in generated pages.
+These rules cover editable HTML, Nunjucks templates and CSS, plus generated HTML across our websites. Code should be flush left, predictable and easy to edit by hand. This file is the single source displayed on Review; edit the rules here, not in generated pages.
 
 ## HTML & Templates
 
@@ -64,14 +64,15 @@ display: flex;
 - Keep text, links, attributes, classes, IDs, element order and page settings unchanged. A formatting pass does not authorize rewriting content, adding markup or changing layout.
 - In CSS, preserve selectors, values, declaration order and rule order. Formatting must not change the cascade or appearance.
 - Preserve meaningful whitespace inside preformatted text, code samples, scripts, styles and template strings. Do not remove whitespace where it changes content or behavior.
-- Work on editable sources. Do not reformat generated output, exports, third-party code or historical snapshots.
+- Fix editable sources and shared generation code. Generated HTML must not accumulate blank lines from template instructions, loops, conditions or includes. Apply this centrally during generation, never by hand-editing built files. Raw exports, third-party code and historical snapshots remain unchanged.
 - This sheet defines HTML/Nunjucks and CSS formatting only. JavaScript, JSON and Markdown keep their existing formats.
 
 ## Verification
 
 - These rules are the default when creating, importing, generating or editing source files. Read this sheet before the work; do not postpone formatting until a final cleanup. Keep raw exports and historical snapshots unchanged, but format the editable source created from them.
-- Check the affected files against these rules before marking a task complete. Fix formatting introduced by the current work and build/check the affected site as appropriate. Generators that produce editable source must produce this format; generated build output remains excluded.
-- Include a separate code-formatting check in final site reviews to catch older exceptions.
+- Check the affected files against these rules before marking a task complete. Fix formatting introduced by the current work and build/check the affected site as appropriate. Generators that produce editable source must produce this format. Generated HTML must also satisfy the no-blank-lines rule outside whitespace-sensitive content. Preserve embedded scripts, styles, preformatted text and textarea values exactly; their meaningful whitespace remains protected.
+- Review all shared HTML/Nunjucks templates when checking shared formatting, not only the templates reached by one page. This includes shells, headers, footers, heroes, macros, profiles, shared pages and unit-specific includes. Use `python3 scripts/code-cleanup.py shared` to review that scope, with `--apply` to apply conservative formatting. Review template logic and whitespace-sensitive regions as well as the formatter results.
+- Include a separate code-formatting check in final site reviews to catch older exceptions. Inspect rendered HTML as well as editable source; do not grade generated HTML as clean without reading it. Confirm template-only lines do not produce empty output lines.
 - Build the affected site after cleanup. Verify that rendered wording, links, structure, spacing and layout remain unchanged, especially around inline links and templates.
 - Default user feedback for a requested formatting cleanup is a brief before/after grade against this sheet, with build status and material exceptions. If no improvement was needed, say already clean. Base grades on actual checks; when a full pass is not verified, say so rather than inventing a grade. No separate report file unless requested.
 - Formatting grades cover formatting only, not content, accessibility, SEO or overall functionality. Do not claim an entire site is clean after checking a few files.

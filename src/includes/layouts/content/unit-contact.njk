@@ -12,7 +12,9 @@
 <div class="profile-contact">
 <address class="contact-address">
 {% if site.address | length %}
-{% for line in site.address %}<p>{{ line | escape }}</p>{% endfor %}
+{% for line in site.address %}
+<p>{{ line | escape }}</p>
+{% endfor %}
 {% endif %}
 </address>
 {{ contactLinks(site.email.label, site.email.contactHref | default(site.email.href), site.phone.label, site.phone.href) }}

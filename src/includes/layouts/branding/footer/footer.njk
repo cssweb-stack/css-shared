@@ -5,12 +5,13 @@
 {# Support older grouped unit overrides while rendering one continuous list. #}
 {% if site.footer.columns and not site.footer.links %}
 {% set footerLinks = [] %}
-{% for column in site.footer.columns %}{% set footerLinks = footerLinks.concat(column) %}{% endfor %}
+{% for column in site.footer.columns %}
+{% set footerLinks = footerLinks.concat(column) %}
+{% endfor %}
 {% endif %}
 {% set footerDesktopBackground = site.footer.background.desktopTablet | default(uh.footer.background.desktopTablet) %}
 {% set footerMobileBackground = site.footer.background.mobile | default(uh.footer.background.mobile) %}
 <footer class="site-footer" style="--footer-background-desktop: url('{{ footerDesktopBackground | url | escape }}'); --footer-background-mobile: url('{{ footerMobileBackground | url | escape }}');">
-
 {# Upper footer: one unit column and three university-link columns. #}
 <div class="container footer-inner">
 <div class="row footer-grid gx-0 gx-sm-5 gx-lg-5">
@@ -30,69 +31,43 @@
 <p><a href="{{ common.links.university.url | escape }}">{{ common.links.university.label | escape }}</a></p>
 </div>
 {% if site.address | length %}
-<address class="footer-address">{% for line in site.address %}<p>{{ line | escape }}</p>{% endfor %}</address>
+<address class="footer-address">
+{% for line in site.address %}
+<p>{{ line | escape }}</p>
+{% endfor %}
+</address>
 {% endif %}
 </div>
 <address class="col-12 col-sm-6 col-lg-12 footer-contact">
 {% if site.phone or site.email %}
 <div class="footer-contact-links">
 {% if site.phone %}
-<p class="footer-phone">
-<a class="footer-contact-link" href="{{ site.phone.href | escape }}">
-<span aria-hidden="true">{% include "media/icons/telephone.svg" %}</span>
-<span>{{ site.phone.label | escape }}</span>
-</a>
-</p>
+<p class="footer-phone"><a class="footer-contact-link" href="{{ site.phone.href | escape }}"> <span aria-hidden="true">{% include "media/icons/telephone.svg" %}</span> <span>{{ site.phone.label | escape }}</span> </a></p>
 {% endif %}
-
 {% if site.email %}
-<p class="footer-email">
-<a class="footer-contact-link" href="{{ site.email.href | escape }}">
-<span aria-hidden="true">{% include "media/icons/envelope.svg" %}</span>
-<span>{{ site.email.label | escape }}</span>
-</a>
-</p>
+<p class="footer-email"><a class="footer-contact-link" href="{{ site.email.href | escape }}"> <span aria-hidden="true">{% include "media/icons/envelope.svg" %}</span> <span>{{ site.email.label | escape }}</span> </a></p>
 {% endif %}
-
 </div>
 {% endif %}
-
 {# Count populated entries, not the eight available platform slots. #}
 {% set footerSocialLinks = social.links | default([], true) %}
 {% set footerSocialCount = 0 %}
 {% for link in footerSocialLinks %}
-{% if (link.url | default('', true) | trim) and link.icon %}{% set footerSocialCount = footerSocialCount + 1 %}{% endif %}
+{% if (link.url | default('', true) | trim) and link.icon %}
+{% set footerSocialCount = footerSocialCount + 1 %}
+{% endif %}
 {% endfor %}
 {% if footerSocialCount %}
 <ul class="footer-social-bar" aria-label="{{ site.shortName | default(site.name, true) | escape }} social media">
 {% for link in footerSocialLinks | sort(false, false, 'label') %}
 {% if (link.url | default('', true) | trim) and link.icon %}
-<li class="footer-social-item">
-<a class="footer-social-link" href="{{ link.url | trim | escape }}" aria-label="{{ site.shortName | default(site.name, true) | escape }} on {{ link.label | escape }}">
-<span class="footer-social-icon" aria-hidden="true">{% include "media/icons/" + link.icon + ".svg" %}</span>
-</a>
-</li>
+<li class="footer-social-item"><a class="footer-social-link" href="{{ link.url | trim | escape }}" aria-label="{{ site.shortName | default(site.name, true) | escape }} on {{ link.label | escape }}"> <span class="footer-social-icon" aria-hidden="true">{% include "media/icons/" + link.icon + ".svg" %}</span> </a></li>
 {% endif %}
 {% endfor %}
 </ul>
 {% endif %}
-
 {% if footerWebmaster or footerPrivacy or site.policiesProceduresUrl %}
-<p class="footer-contact-meta">
-{% if footerWebmaster %}
-<a href="mailto:{{ footerWebmaster.email | escape }}">{{ footerWebmaster.label | escape }}</a>
-{% endif %}
-{% if footerWebmaster and footerPrivacy %}
-<span aria-hidden="true">&middot;</span>
-{% endif %}
-{% if footerPrivacy %}
-<a href="{{ footerPrivacy.url | url }}">{{ footerPrivacy.label | escape }}</a>
-{% endif %}
-{% if site.policiesProceduresUrl %}
-{% if footerWebmaster or footerPrivacy %}<span aria-hidden="true">&middot;</span>{% endif %}
-<a href="{{ site.policiesProceduresUrl | url | escape }}">Policies &amp; Procedures</a>
-{% endif %}
-</p>
+<p class="footer-contact-meta">{% if footerWebmaster %} <a href="mailto:{{ footerWebmaster.email | escape }}">{{ footerWebmaster.label | escape }}</a> {% endif %} {% if footerWebmaster and footerPrivacy %} <span aria-hidden="true">&middot;</span> {% endif %} {% if footerPrivacy %} <a href="{{ footerPrivacy.url | url }}">{{ footerPrivacy.label | escape }}</a> {% endif %} {% if site.policiesProceduresUrl %} {% if footerWebmaster or footerPrivacy %}<span aria-hidden="true">&middot;</span>{% endif %} <a href="{{ site.policiesProceduresUrl | url | escape }}">Policies &amp; Procedures</a> {% endif %}</p>
 {% endif %}
 </address>
 </div>
@@ -113,8 +88,6 @@
 </nav>
 </div>
 </div>
-
 {# Shared subfooter. #}
 {% include "layouts/branding/footer/subfooter.njk" %}
-
 </footer>

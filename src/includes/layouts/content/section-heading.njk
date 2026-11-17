@@ -1,4 +1,6 @@
 {% macro sectionHeading(label, id="", divider=true) %}
-{% if site.mainContentDividers and divider %}<hr class="section-divider">{% endif %}
+{% if site.mainContentDividers and divider %}
+<hr class="section-divider">
+{% endif %}
 <h2{% if id %} id="{{ id | escape }}"{% endif %}>{{ label | escape }}</h2>
 {% endmacro %}
