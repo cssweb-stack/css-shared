@@ -154,9 +154,9 @@ heropages['/faculty/']=heropages['/testimonials.html'].copy();heropages['/facult
 data=SHARED/'src/data/units/puba'
 (data/'heroes.json').write_text(json.dumps({'defaultHero':heropages['/']['image'],'pages':heropages},ensure_ascii=False,indent=2)+'\n')
 manifest={'source':source.name,'sourceSha256':hashlib.sha256(source.read_bytes()).hexdigest(),'pages':report,'heroes':[{'source':u,'destination':p} for u,p in heroassets.items()], 'legacyLinks':sorted(set(retained)),'excluded':['academic-program','gcert-public-service-leadership'],'deferred':['policies-and-procedures','faculty profile components','inline images'],'directorySplit':{'core':'/faculty/','associated':'/faculty/associated.html','contactProfilesDeferred':['Helen H. Yu','Sarah Amend']}}
-(SHARED/'exports/puba-migration-2026-11-09.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+(SHARED.parent / 'CSS-Exports' / 'puba-migration-2026-11-09.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 # Keep original source and deferred text outside published src.
-archive=SHARED/'exports/puba';archive.mkdir(exist_ok=True)
+archive=SHARED.parent / 'CSS-Exports' / 'puba';archive.mkdir(exist_ok=True)
 (archive/'directory.html').write_text(directory+'\n')
 (archive/'policies-and-procedures.html').write_text(clean(pages['policies-and-procedures'])+'\n')
 print(json.dumps({'migrated':len(report),'heroes':len(heroassets),'legacyLinks':sorted(set(retained))},ensure_ascii=False,indent=2))

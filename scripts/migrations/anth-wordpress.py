@@ -13,7 +13,7 @@ ROOT = Path.cwd()
 SITE = ROOT.parent / 'anth'
 UNIT = ROOT / 'src/data/units/anth'
 NS = {'w': 'http://wordpress.org/export/1.2/', 'c': 'http://purl.org/rss/1.0/modules/content/'}
-sources = [ROOT / 'exports/anth' / ('departmentofanthropology.WordPress.2026-11-11' + suffix + '.xml') for suffix in ['', ' (1)', ' (2)']]
+sources = [ROOT.parent / 'CSS-Exports' / 'anth' / ('departmentofanthropology.WordPress.2026-11-11' + suffix + '.xml') for suffix in ['', ' (1)', ' (2)']]
 items = [i for source in sources for i in E.parse(source).findall('./channel/item')]
 def records(kind):
     return {i.findtext('w:post_name', '', NS): i for i in items if i.findtext('w:post_type', '', NS) == kind and i.findtext('w:status', '', NS) == 'publish'}
@@ -24,7 +24,7 @@ def text(s): return re.sub(r'\s+', ' ', html.unescape(re.sub('<[^>]+>', ' ', s))
 def slugify(s): return re.sub('[^a-z0-9]+', '-', unicodedata.normalize('NFKD', s.replace('ʻ','').replace('’','')).encode('ascii','ignore').decode().lower()).strip('-')
 
 # Read both workbook passes; ANTH second-pass core roster is authoritative.
-with ZipFile(ROOT / 'exports/unit-navigation-review.xlsx') as z:
+with ZipFile(ROOT.parent / 'CSS-Exports' / 'unit-navigation-review.xlsx') as z:
     n = {'m': 'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}
     strings = [''.join(t.text or '' for t in si.iter('{' + n['m'] + '}t')) for si in E.fromstring(z.read('xl/sharedStrings.xml'))]
     rels = {r.attrib['Id']: r.attrib['Target'] for r in E.fromstring(z.read('xl/_rels/workbook.xml.rels'))}
@@ -209,7 +209,7 @@ for slug,title in associated:
             if any(c.attrib.get('nicename')=='former' for c in item.findall('category')):
                 m=meta(item);members.append({'name':item.findtext('title'),**({'email':m['email']} if m.get('email') else {}),'description':m.get('title','')})
     groups.append({'title':title,'members':members})
-    add(ROOT/'exports/anth'/('associated-'+slug+'.html'),body+'\n')
+    add(ROOT.parent / 'CSS-Exports' / 'anth'/('associated-'+slug+'.html'),body+'\n')
 data('associated-faculty.json',{'groups':groups})
 
 resource_include='{% include "units/anth/course-planning.njk" %}\n{% include "layouts/content/course-resources.njk" %}'
@@ -265,9 +265,9 @@ add(ROOT/'src/includes/units/anth/course-planning.njk','''{% from "layouts/conte
 ''')
 
 # Policy sources remain attributed; do not imply differing unit wording is identical.
-puba=(ROOT/'exports/puba/policies-and-procedures.html').read_text()
+puba=(ROOT.parent / 'CSS-Exports' / 'puba/policies-and-procedures.html').read_text()
 anth_policy=no_h1(clean(raw('policies-procedures')))
-add(ROOT/'exports/anth/policies-and-procedures.html','<h1>Policies and Procedures</h1>\n'+anth_policy+'\n')
+add(ROOT.parent / 'CSS-Exports' / 'anth/policies-and-procedures.html','<h1>Policies and Procedures</h1>\n'+anth_policy+'\n')
 policy=section('<h1>Policies and Procedures</h1><p>University policies and procedures collected from Public Administration and Anthropology. Unit-specific wording is retained below.</p>')+section('<h2>Public Administration</h2>'+re.sub(r'<h2\b','<h3',re.sub(r'</h2>','</h3>',no_h1(puba))))+section('<h2>Anthropology</h2>'+re.sub(r'<h([2-5])\b',lambda m:'<h'+str(int(m[1])+1),re.sub(r'</h([2-5])>',lambda m:'</h'+str(int(m[1])+1)+'>',anth_policy)))
 add(ROOT/'src/includes/pages/policies-procedures.njk',policy)
 

@@ -1,5 +1,9 @@
 # Shared 404 page
 
+The authoritative review procedure is [404s & Redirects](../rules/redirects-404s.md).
+This document describes the component and historical implementation checks; maintain
+classification, retirement, verification and decision rules in that procedure.
+
 Use `pages/not-found.njk` with the shared shell. SSRI is the first consumer;
 other units can adopt the same template without copying its layout or CSS.
 
@@ -28,7 +32,7 @@ remains in the unit repository. Shared content/layout is in the include and
   navigation/search guidance, and unordered recovery/helpful links.
 - Standard unit header, navigation, hero and footer retained. No new nav item.
 
-## Unit links and URL comparison
+## Unit recovery-link configuration
 
 `not-found.json` contains `quickLinks` with helpful primary destinations:
 
@@ -37,13 +41,12 @@ remains in the unit repository. Shared content/layout is in the include and
 ```
 
 SSRI has four quick links. Moved-page lists were removed after introducing shared
-build-generated redirects. Confirmed moves belong in url-migration.json; unknown
-or retired URLs receive this 404. No manually maintained redirect source pages.
+build-generated redirects. For mapping and retirement decisions, follow the authoritative 404/redirect procedure.
 See [URL Migration Audit](url-migration-audit.md) and the saved
 [SSRI comparison](../units/ssri/ssri-url-comparison.md). Historical RTRF FY2019 redirects to the user-confirmed Looker Studio replacement.
 The fallback for an unconfigured unit is a working homepage link.
 
-## Hosting and SEO
+## Hosting implementation
 
 The output must be root `404.html`; [GitHub Pages supports this custom error-page
 convention](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site).
@@ -55,7 +58,7 @@ omits canonical output. Do not canonicalize missing URLs to the homepage. The
 shared SEO checker recognizes /404.html as an intentional error page rather than
 treating its noindex/no-canonical state as a normal-page launch failure.
 
-SSRI verification: local missing nested URL returned HTTP 404 with the custom
+Historical SSRI verification (not a certification of current sites): local missing nested URL returned HTTP 404 with the custom
 body; noindex and no canonical confirmed. Three viewport checks (1800, 1100,
 390px) confirmed column proportions, Inter 900, cool accent, text fit and no
 horizontal overflow. New 404 main content passed targeted axe checks. SSRI now

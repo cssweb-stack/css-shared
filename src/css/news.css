@@ -3,11 +3,11 @@
 padding-bottom: 2rem;
 }
 
-.news-feed-grid {
+.news-feed-grid:not(.grid-three) {
 display: grid;
 grid-template-columns: repeat(3, minmax(0, 1fr));
 align-items: start;
-gap: 1.5rem;
+gap: var(--grid-gap);
 }
 
 .news-feed-grid:empty,
@@ -176,13 +176,13 @@ text-align: center;
 
 /* Responsive */
 @media (max-width: 991.98px) {
-.news-feed-grid {
+.news-feed-grid:not(.grid-three) {
 grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 }
 
 @media (max-width: 575.98px) {
-.news-feed-grid {
+.news-feed-grid:not(.grid-three) {
 grid-template-columns: minmax(0, 1fr);
 }
 }
@@ -198,14 +198,7 @@ background: var(--news-media-surface);
 }
 
 .news-post-images {
-display: grid;
-grid-template-columns: repeat(2, minmax(0, 1fr));
-gap: 0.5rem;
 margin-top: 1rem;
-}
-
-.news-post-images[data-count="1"] {
-grid-template-columns: minmax(0, 1fr);
 }
 
 .news-post-image-link {
@@ -231,4 +224,78 @@ height: auto;
 max-height: 14rem;
 object-fit: contain;
 background: var(--light-gray);
+}
+
+/* Shared article and local news views. */
+.news-article-body {
+display: flow-root;
+}
+
+.news-article-feature {
+width: 20%;
+float: right;
+margin: 0 0 var(--sidebar-layout-gap) var(--sidebar-layout-gap);
+}
+
+.news-article-feature img,
+.news-inline-figure img {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.news-article-feature figcaption,
+.news-inline-figure figcaption {
+font-size: 1rem;
+line-height: 1.5;
+margin-top: .5rem;
+}
+
+.news-inline-figure {
+max-width: 48rem;
+margin: 1.5rem 0;
+}
+
+.news-latest-grid .news-thumbnail {
+display: block;
+}
+
+.news-latest-grid img {
+display: block;
+width: 100%;
+aspect-ratio: 1;
+object-fit: cover;
+margin-bottom: 1rem;
+}
+
+.site-main .news-latest-grid h3 {
+font-size: var(--content-body-font-size);
+font-weight: 400;
+margin: 0;
+}
+
+.news-latest-more {
+font-size: var(--content-body-font-size);
+font-weight: 400;
+}
+
+@media (min-width: 992px) and (max-width: 1599.98px) {
+.news-article-feature {
+width: 25%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+.news-article-feature {
+width: 33%;
+}
+}
+
+@media (max-width: 767.98px) {
+.news-article-feature {
+float: none;
+width: 100%;
+max-width: 36rem;
+margin: 0 auto var(--sidebar-layout-gap);
+}
 }

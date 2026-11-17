@@ -2,6 +2,10 @@
 
 ## Start here
 
+- [404s & Redirects](rules/redirects-404s.md): the authoritative legacy-URL classification, mapping, retirement and review procedure.
+- [Website Build Rules](rules/website-build-rules.md): authoritative file naming, routes, folders and local build conventions.
+- [SEO Review](rules/seo-review.md): page-by-page title, heading, metadata and search review.
+
 - [Language & Writing](rules/language-writing.md): the editable language rule sheet displayed on Review.
 - [Accessibility Review](rules/accessibility-review.md): the current manual/automated run sheet, first-run safeguards and significant-change decisions.
 - [Code Formatting](rules/code-cleanup.md): the editable text displayed on the Review website.
@@ -20,3 +24,10 @@
 The Code Formatting page reads rules/code-cleanup.md directly. Edit that file; do not edit Review's generated pages. Only existing rule sets have been filed here. Accessibility instructions are consolidated in rules/accessibility-review.md; older accessibility audits remain historical records. Voice instructions have not yet been consolidated into their own approved rule page.
 
 If a record conflicts with an accepted current rule, flag and resolve the conflict. Do not silently treat an old report as a new instruction or assume this folder reorganization resolved every older wording conflict.
+
+## Source documents
+
+Original supplied archives and reference documents live outside this repository in
+`../CSS-Exports/`, grouped by unit. See the Permanent source archives section of
+[Website Build Rules](rules/website-build-rules.md). Earlier records mentioning
+`css-shared/exports` describe the former location, superseded November 17, 2026.

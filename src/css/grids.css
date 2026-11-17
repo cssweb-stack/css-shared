@@ -1,0 +1,63 @@
+/* Equal columns; contents own their presentation. */
+:is(.grid-one, .grid-two, .grid-three, .grid-four, .grid-five, .grid-six) {
+display: grid;
+grid-template-columns: repeat(var(--grid-columns, 1), minmax(0, 1fr));
+gap: var(--grid-gap);
+align-items: start;
+min-width: 0;
+--grid-columns: 1;
+--bs-gutter-x: 0;
+--bs-gutter-y: 0;
+}
+
+.row:is(.grid-one, .grid-two, .grid-three, .grid-four, .grid-five, .grid-six) {
+margin: 0;
+}
+
+:is(.grid-one, .grid-two, .grid-three, .grid-four, .grid-five, .grid-six) > * {
+box-sizing: border-box;
+min-width: 0;
+max-width: 100%;
+width: auto;
+padding: 0;
+margin: 0;
+}
+
+@media (min-width: 768px) {
+.grid-two,
+.grid-three,
+.grid-four,
+.grid-five,
+.grid-six {
+--grid-columns: 2;
+}
+}
+
+@media (min-width: 992px) {
+.grid-three,
+.grid-four,
+.grid-five,
+.grid-six {
+--grid-columns: 3;
+}
+}
+
+@media (min-width: 1200px) {
+.grid-four,
+.grid-five,
+.grid-six {
+--grid-columns: 4;
+}
+}
+
+@media (min-width: 1400px) {
+.grid-five {
+--grid-columns: 5;
+}
+}
+
+@media (min-width: 1600px) {
+.grid-six {
+--grid-columns: 6;
+}
+}

@@ -4,9 +4,9 @@
 {% if advising.intro %}
 <p>{{ advising.intro | escape }}</p>
 {% endif %}
-<div class="grid-advisors">
+<div class="grid-two">
 {% for advisor in advising.people %}
-<div>
+<div class="sidebar-left-med">
 {% if advisor.photo %}
 <img class="photo-style" src="{{ advisor.photo | url }}" alt="{{ advisor.name | escape }}" width="112" height="112" loading="lazy" decoding="async">
 {% endif %}

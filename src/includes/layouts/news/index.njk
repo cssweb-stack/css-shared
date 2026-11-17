@@ -1,0 +1,16 @@
+{% from "layouts/content/image-text-row.njk" import imageTextRow %}
+<div class="page-section page-section--gray">
+<div class="container content-section">
+<div class="row gx-0 gx-sm-5 gx-lg-5">
+<div class="col-12">
+{% for post in collections.unitNews %}
+{% call imageTextRow(post.data.newsImage.src, post.data.newsImage.width, post.data.newsImage.height, post.data.newsImage.alt, false, post.url, 'photo-style', sidebarClass="sidebar-left-med") %}
+<h2><a href="{{ post.url | url }}">{{ post.data.title | escape }}</a></h2>
+<p><time datetime="{{ post.data.published | escape }}">{{ post.data.published | newsDate }}</time></p>
+<p>{{ post.inputPath | newsOpening | safe }}</p>
+{% endcall %}
+{% endfor %}
+</div>
+</div>
+</div>
+</div>

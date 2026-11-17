@@ -1,0 +1,13 @@
+{% if url_migration.queryRedirects and page.url == '/' %}
+<script>
+(() => {
+const targets = {
+{% for id, target in url_migration.queryRedirects -%}
+"{{ id }}": "{{ target | url }}"{% if not loop.last %},{% endif %}
+{% endfor -%}
+};
+const id = new URLSearchParams(window.location.search).get('p');
+if (id && Object.prototype.hasOwnProperty.call(targets, id)) window.location.replace(targets[id] + window.location.hash);
+})();
+</script>
+{% endif %}

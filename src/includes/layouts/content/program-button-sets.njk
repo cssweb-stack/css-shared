@@ -1,5 +1,5 @@
 {% from "layouts/content/button.njk" import button %}
-<div class="program-button-sets{% if stackButtonSets %} program-button-sets--stacked{% endif %}">
+<div class="{% if site.equalColumnGrids %}grid-one{% else %}program-button-sets{% if stackButtonSets %} program-button-sets--stacked{% endif %}{% endif %}">
 <div class="button-set">
 {{ button("Contact PUBA", "mailto:pubadmin@hawaii.edu", "teal", "envelope") }}
 <p>To discuss the {{ programLabel | escape }}!</p>

@@ -12,7 +12,7 @@
 <p>{{ selectedAdvising.intro | escape }}</p>
 <hr>
 {% endif %}
-<div class="advising-grid">
+<div class="{% if site.equalColumnGrids %}grid-two{% else %}advising-grid{% endif %}">
 {% for person in selectedAdvising.people %}
 <section class="advising-person" aria-labelledby="advisor-{{ person.slug | escape }}">
 <div class="advising-photo">

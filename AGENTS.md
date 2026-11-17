@@ -16,6 +16,54 @@ baseline at `<path>`:
 Always read the tracked `docs/rules/code-cleanup.md` before editing or reviewing
 HTML/Nunjucks/CSS formatting. It is the live rule sheet displayed on Review.
 
+## Required rule check for every task
+
+Use this category map to select the current rule sheets before starting:
+
+| Category | Required rule sheet |
+| --- | --- |
+| SEO | `docs/rules/seo-review.md` |
+| Accessibility | `docs/rules/accessibility-review.md` |
+| File naming and routes | `docs/rules/website-build-rules.md` |
+| Code formatting | `docs/rules/code-cleanup.md` |
+| Text editing | `docs/rules/language-writing.md` and `docs/rules/text-cleanup.md` |
+| 404s and redirects | `docs/rules/redirects-404s.md` |
+
+The read, apply, check and maintain procedure below applies to every category.
+Update the authoritative sheet when an agreed rule changes, including removals;
+replace superseded wording and update references rather than adding competing rules.
+
+
+Before editing, read the applicable current rule sheets listed above. Identify the
+specific rules that govern the requested change; do not rely on memory or a prior
+review. Apply those rules while doing the work, not as optional cleanup afterward.
+
+Before saying done, compare the actual edited sources and rendered result against
+those specific rules. A successful build or automated check is not evidence that
+naming, wording or layout agreements were applied. Fix clear violations within the
+authorized scope. State any unchecked requirement or unresolved decision explicitly;
+do not claim the whole task is complete while required work remains.
+
+For page creation, renaming and SEO reviews, read website-build-rules.md and
+seo-review.md and compare source filename, permalink, visible H1, rendered title,
+navigation and internal references together. Standard main Courses is courses.html,
+without a unit prefix. Development-only renames get no redirects; actual legacy
+public URLs retain their approved mappings. Update shared mappings and regenerate
+Review when its listings are affected. Distinguish local results from published
+results; do not report Review as updated without rebuilding it.
+
+When a missed agreement is discovered, correct the implementation and strengthen
+the applicable existing rule or this procedure in the same task. Do not substitute
+an acknowledgment, another note, or repeated technical validation for the fix.
+
+## Source document intake
+
+Original site backups, WordPress XML, catalog PDFs and supplied reference/course
+documents belong in `../CSS-Exports/<unit>/`, outside website repositories. Read
+the Permanent source archives section of website-build-rules.md before intake.
+Verify copies and preserve originals. Normal builds must not depend on the archive;
+never claim external backup protection merely because the local archive exists.
+
 ## Keep routine notes out of GitHub Desktop
 
 User decision, November 16, 2026: routine note-taking must not make css-shared

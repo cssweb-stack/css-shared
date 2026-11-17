@@ -7,6 +7,7 @@ import { generateRedirects } from './url-migration.mjs';
 import { configurePrivacy } from './privacy.mjs';
 import { resolveFacultyPerson } from './faculty-profiles.mjs';
 import { formatGeneratedHtml } from './html-format.mjs';
+import { configureNews } from './news.mjs';
 export function configureUnitSite(eleventyConfig, project) {
 const require = createRequire(path.join(project, 'package.json'));
 const { build } = require('esbuild');
@@ -14,6 +15,7 @@ const nunjucks = require('nunjucks');
 const { checkShared, loadUnit, loadUH, loadCommon } = createSharedSource(project);
 const sourceDir = path.join(project, 'src');
 const settings = loadUnit().site;
+configureNews(eleventyConfig, loadUnit().news_settings);
 const stylesheet = settings.stylesheet || '/unit.css';
 if (!/^\/[a-z0-9-]+\.css$/.test(stylesheet)) throw new Error('Unit stylesheet must be a root-level CSS filename.');
 eleventyConfig.setServerOptions({ domDiff: false });

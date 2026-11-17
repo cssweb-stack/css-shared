@@ -10,7 +10,7 @@ import json,re,html,csv,io,hashlib,random
 from wordpress_html import clean_html,no_h1,text
 
 ROOT=Path.cwd();SITE=ROOT.parent/'wgss';UNIT=ROOT/'src/data/units/wgss'
-SOURCE=ROOT/'exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml'
+SOURCE=ROOT.parent / 'CSS-Exports' / 'wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml'
 NS={'w':'http://wordpress.org/export/1.2/','c':'http://purl.org/rss/1.0/modules/content/'}
 items=E.parse(SOURCE).findall('./channel/item')
 pages={i.findtext('w:post_name','',NS):i for i in items if i.findtext('w:post_type','',NS)=='page' and i.findtext('w:status','',NS)=='publish'}

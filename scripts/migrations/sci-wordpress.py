@@ -11,7 +11,7 @@ from wordpress_html import clean_html, no_h1, text
 ROOT = Path(__file__).resolve().parents[2]
 SITE = ROOT.parent / 'sci'
 UNIT = ROOT / 'src/data/units/sci'
-SOURCE = ROOT / 'exports/sci/communicationandinformationsci.WordPress.2026-11-12.xml'
+SOURCE = ROOT.parent / 'CSS-Exports' / 'sci/communicationandinformationsci.WordPress.2026-11-12.xml'
 NS = {'w': 'http://wordpress.org/export/1.2/', 'c': 'http://purl.org/rss/1.0/modules/content/'}
 items = E.parse(SOURCE).findall('./channel/item')
 all_pages = [i for i in items if i.findtext('w:post_type', '', NS) == 'page']
@@ -105,7 +105,7 @@ page('/directory/', 'School Directory', section('<h1>School Directory</h1>' + ju
 page('/', 'School of Communication and Information', section('<h1>School of Communication and Information</h1><p><a href="{{ \'/directory/\' | url }}">Explore the school directory</a>.</p>'))
 page('/privacy.html', 'Privacy Policy', '{% include "pages/privacy.njk" %}')
 # Preserve the complete proposed navigation for the later full-site phase.
-add(ROOT / 'exports/sci/navigation-before-people-phase.json', (UNIT / 'navigation.json').read_text())
+add(ROOT.parent / 'CSS-Exports' / 'sci/navigation-before-people-phase.json', (UNIT / 'navigation.json').read_text())
 data('navigation.json', [{'label': 'Home', 'url': '/'}, {'label': 'School Directory', 'url': '/directory/'}])
 settings = json.loads((ROOT / 'src/data/units/wgss/site-settings.json').read_text())
 settings.update(stylesheet='/sci.css', url='https://sci.manoa.hawaii.edu', openGraph=json.loads((UNIT / 'site-settings.json').read_text())['openGraph'])

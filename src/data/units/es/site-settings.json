@@ -30,5 +30,6 @@
     "/"
   ],
   "sidebarLeftLayouts": true,
-  "portraitCardGrid": true
+  "portraitCardGrid": true,
+  "equalColumnGrids": true
 }

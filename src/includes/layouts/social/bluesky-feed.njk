@@ -1,7 +1,7 @@
 {% if social.bluesky.enabled and social.bluesky.actor %}
 <section class="department-news" data-bluesky-feed data-bluesky-actor="{{ social.bluesky.actor | escape }}" data-bluesky-limit="{{ social.bluesky.limit | default(12) }}" aria-label="Latest department updates">
 <p class="news-feed-status" role="status" aria-live="polite" hidden></p>
-<div class="news-feed-grid" aria-busy="false">
+<div class="{% if site.equalColumnGrids %}grid-three {% endif %}news-feed-grid" aria-busy="false">
 </div>
 <button class="news-feed-retry button button-blue button-outline" type="button" hidden>Try loading the updates again</button>
 <noscript>

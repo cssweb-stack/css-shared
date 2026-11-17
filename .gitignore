@@ -3,3 +3,6 @@ node_modules/
 
 # Private working notes and audit evidence; never website input.
 .local-notes/
+
+# Source archives belong in sibling CSS-Exports, never this repository.
+/exports/

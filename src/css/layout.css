@@ -93,10 +93,10 @@ margin-inline: 0;
 --layout-gutter: clamp(1rem, 4vw, 3rem);
 --layout-content-spacing: 3rem;
 --layout-section-spacing: 3rem;
---layout-stack-gap: 1.5rem;
---sidebar-block-gap: 1.5rem;
---sidebar-layout-gap: 33px;
---portrait-card-grid-gap: 33px;
+--layout-stack-gap: var(--grid-gap);
+--sidebar-block-gap: var(--grid-gap);
+--grid-gap: 33px;
+--sidebar-layout-gap: var(--grid-gap);
 }
 
 /* From sm upward, rows extend outward by 1.5rem per side.
@@ -179,8 +179,6 @@ margin-bottom: var(--layout-section-spacing);
 margin-top: 0;
 }
 
-
-
 /* Keep normal text line boxes at both section edges. Cap/baseline trimming
    lets glyphs meet or extend beyond the container and its helper guides. */
 
@@ -198,8 +196,6 @@ margin-bottom: var(--layout-stack-gap);
 .content-section > .row:last-child > [class*="col-"] > :last-child {
 margin-bottom: 0;
 }
-
-
 
 /* Tablet: separate wrapped resources with the shared content divider. */
 @media (min-width: 576px) and (max-width: 991.98px) {
@@ -249,13 +245,13 @@ margin-bottom: 2.25rem;
 .grid-welcome {
 display: grid;
 grid-template-columns: minmax(0, 1.8fr) minmax(0, 1fr);
-gap: 3rem;
+gap: var(--grid-gap);
 align-items: start;
 }
 
 @media (max-width: 1199.98px) {
 .grid-welcome {
-gap: 2rem;
+gap: var(--grid-gap);
 }
 }
 
@@ -267,61 +263,7 @@ grid-template-columns: minmax(0, 1fr);
 
 @media (max-width: 575.98px) {
 .grid-welcome {
-gap: 1.5rem;
-}
-}
-
-/* Existing reusable grids share child sizing; Bootstrap owns primary page rows. */
-.grid-two > *,
-.grid-four > *,
-.grid-profile > *,
-.grid-standard > *,
-.grid-compact > *,
-.grid-three > * {
-box-sizing: border-box;
-min-width: 0;
-max-width: 100%;
-}
-
-/* Two-Column Grid */
-.grid-two {
-display: grid;
-grid-template-columns: repeat(2, minmax(0, 1fr));
-gap: 1.5rem;
-}
-
-@media (max-width: 767.98px) {
-.grid-two {
-grid-template-columns: minmax(0, 1fr);
-}
-}
-
-.grid-two > .video-embed {
-width: 100%;
-margin-block: 0;
-}
-
-/* Four-Column Grid */
-.grid-four {
-display: grid;
-grid-template-columns: repeat(4, minmax(0, 1fr));
-gap: 1.5rem;
-}
-
-.grid-four > * {
-overflow-wrap: anywhere;
-overflow: auto;
-}
-
-@media (max-width: 991.98px) {
-.grid-four {
-grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-}
-
-@media (max-width: 575.98px) {
-.grid-four {
-grid-template-columns: minmax(0, 1fr);
+gap: var(--grid-gap);
 }
 }
 
@@ -329,8 +271,8 @@ grid-template-columns: minmax(0, 1fr);
 .grid-profile {
 display: grid;
 grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
-column-gap: 1.5rem;
-row-gap: 2.25rem;
+column-gap: var(--grid-gap);
+row-gap: var(--grid-gap);
 }
 
 .grid-profile > * {
@@ -348,8 +290,8 @@ grid-template-columns: minmax(0, 1fr);
 .grid-standard {
 display: grid;
 grid-template-columns: minmax(0, 1.7fr) minmax(0, 8.3fr);
-column-gap: 1.5rem;
-row-gap: 3rem;
+column-gap: var(--grid-gap);
+row-gap: var(--grid-gap);
 }
 
 .grid-standard > * {
@@ -367,8 +309,8 @@ grid-template-columns: minmax(0, 1fr);
 .grid-compact {
 display: grid;
 grid-template-columns: minmax(0, 1.5fr) minmax(0, 8.5fr);
-column-gap: 1.5rem;
-row-gap: 2.25rem;
+column-gap: var(--grid-gap);
+row-gap: var(--grid-gap);
 }
 
 .grid-compact > * {
@@ -382,97 +324,11 @@ grid-template-columns: minmax(0, 1fr);
 }
 }
 
-/* Three */
-.grid-three {
-display: grid;
-grid-template-columns: repeat(3, minmax(0, 1fr));
-gap: 1.5rem;
-}
-
-.grid-three > * {
-overflow-wrap: anywhere;
-overflow: auto;
-}
-
-@media (max-width: 767.98px) {
-.grid-three {
-grid-template-columns: minmax(0, 1fr);
-}
-}
-
-/* Advisors */
-.grid-advisors {
-display: grid;
-grid-template-columns: repeat(2, minmax(0, 1fr));
-gap: 1.5rem;
-}
-
-.grid-advisors > * {
-display: grid;
-grid-template-columns: minmax(0, 2fr) minmax(0, 8fr);
-align-items: start;
-column-gap: 1.25rem;
-min-width: 0;
-}
-
-.grid-advisors > * > * {
-min-width: 0;
-max-width: 100%;
-overflow-wrap: anywhere;
-}
-
-@media (max-width: 767.98px) {
-.grid-advisors {
-grid-template-columns: minmax(0, 1fr);
-}
-}
-
-/* Shared five / three / one tile grid.
-   Centering placement exists only in the three-column range, so it cannot
-   create implicit columns on mobile. */
-.grid-five {
-display: grid;
-grid-template-columns: minmax(0, 1fr);
-gap: 1.5rem;
-}
-
-.grid-five > * {
-min-width: 0;
-}
-
-@media (min-width: 768px) and (max-width: 1399.98px) {
-.grid-five {
-grid-template-columns: repeat(6, minmax(0, 1fr));
-}
-
-.grid-five > * {
-grid-column: span 2;
-}
-
-.grid-five > :nth-last-child(2):nth-child(3n + 1) {
-grid-column: 2 / span 2;
-}
-
-.grid-five > :last-child:nth-child(3n + 2) {
-grid-column: 4 / span 2;
-}
-
-.grid-five > :last-child:nth-child(3n + 1) {
-grid-column: 3 / span 2;
-}
-}
-
-@media (min-width: 1400px) {
-.grid-five {
-grid-template-columns: repeat(5, minmax(0, 1fr));
-}
-}
-
 /* Flow lists down two equal desktop columns, as with footer link lists. */
 @media (min-width: 992px) {
 .list-columns-two {
 column-count: 2;
-column-gap: 3rem;
+column-gap: var(--grid-gap);
 }
 
 .list-columns-two > li {
@@ -501,36 +357,6 @@ margin-bottom: 0;
 margin-bottom: 0;
 }
 
-/* Center incomplete rows while retaining four-column card widths. */
-@media (min-width: 992px) {
-.grid-four.grid-centered {
-grid-template-columns: repeat(8, minmax(0, 1fr));
-}
-.grid-four.grid-centered > * {
-grid-column: span 2;
-}
-.grid-four.grid-centered > :nth-last-child(3):nth-child(4n + 1) {
-grid-column: 2 / span 2;
-}
-.grid-four.grid-centered > :nth-last-child(2):nth-child(4n + 1) {
-grid-column: 3 / span 2;
-}
-.grid-four.grid-centered > :last-child:nth-child(4n + 1) {
-grid-column: 4 / span 2;
-}
-}
-@media (min-width: 576px) and (max-width: 991.98px) {
-.grid-four.grid-centered {
-grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-.grid-four.grid-centered > * {
-grid-column: span 2;
-}
-.grid-four.grid-centered > :last-child:nth-child(2n + 1) {
-grid-column: 2 / span 2;
-}
-}
-
 /* One spacing owner for stacked sidebar blocks, independent of inner content. */
 .sidebar-stack {
 display: grid;
@@ -551,10 +377,10 @@ margin-top: 0;
 .advising-grid,
 .advising-person {
 display: grid;
-gap: 1.5rem;
+gap: var(--grid-gap);
 align-items: start;
 }
-.advising-grid { gap: 3rem; }
+.advising-grid { gap: var(--grid-gap); }
 .advising-person,
 .advising-photo,
 .advising-details { min-width: 0; }
@@ -661,68 +487,5 @@ grid-template-columns: minmax(0, var(--sidebar-content-track)) minmax(0, var(--s
 .sidebar-right-large {
 --sidebar-narrow-track: var(--sidebar-wide-narrow);
 --sidebar-content-track: var(--sidebar-wide-content);
-}
-}
-
-/* Portrait Card Grid. */
-.portrait-card-grid {
-display: grid;
-grid-template-columns: minmax(0, 1fr);
-gap: var(--portrait-card-grid-gap);
-align-items: start;
-}
-
-.portrait-card-grid > * {
-min-width: 0;
-max-width: none;
-width: auto;
-padding: 0;
-margin: 0;
-}
-
-@media (min-width: 768px) {
-.portrait-card-grid {
-grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-}
-
-@media (min-width: 992px) {
-.portrait-card-grid {
-grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-}
-
-@media (min-width: 1200px) {
-.portrait-card-grid {
-grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-}
-
-@media (min-width: 1600px) {
-.portrait-card-grid {
-grid-template-columns: repeat(5, minmax(0, 1fr));
-}
-}
-
-/* Six equal program tiles. */
-.grid-six {
-display: grid;
-grid-template-columns: minmax(0, 1fr);
-gap: 1.5rem;
-}
-
-.grid-six > * {
-min-width: 0;
-}
-
-@media (min-width: 768px) {
-.grid-six {
-grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-}
-
-@media (min-width: 1400px) {
-.grid-six {
-grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 }

@@ -4,7 +4,7 @@
 {% set unitCatalog = common["uh-catalog"][catalog_courses.catalogKey] %}
 {% endif %}
 <nav class="course-resources{% if unitCatalog %} course-resources--three{% else %} course-resources--two{% endif %}" aria-label="{{ site.shortName | escape }} course resources">
-<div class="row g-3 course-resource-grid">
+<div class="{% if site.equalColumnGrids %}{% if unitCatalog %}grid-three{% else %}grid-two{% endif %}{% else %}row g-3{% endif %} course-resource-grid">
 <div class="col-12">
 {{ button(common.links.classAvailability.label, common.links.classAvailability.url, "teal", "list-check") }}
 </div>

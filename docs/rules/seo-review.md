@@ -33,8 +33,14 @@ before starting. “Quick” means focused work, not omitted editorial work.
    - When an approved program/option name changes, update navigation, H1,
      frontmatter title, searchTitle and overview references in the same task.
      Check the whole family, not just the page currently open.
-   - Review filenames for clarity and consistency, but do not rename routes
-     without approval and redirect planning. Report genuine route concerns.
+   - Check every source filename and permalink against `website-build-rules.md`,
+     including root `courses.html` without a unit prefix and root `support.html`.
+     Apply already-approved naming corrections and update navigation, links, hero
+     mappings and current route records together. Do not create redirects for
+     development-only names on non-indexed previews; preserve actual legacy public
+     URL mappings. Ask about genuinely unapproved route changes.
+   - Before claiming completion, compare the actual source and rendered route list
+     with these naming rules; metadata presence alone does not cover filenames.
    - Read the complete final rendered title list before handoff. Long titles are
      prompts for editorial judgment, not automatic truncation failures. Preserve
      useful specificity, research-area names and personal names. Use familiar
@@ -71,7 +77,8 @@ before starting. “Quick” means focused work, not omitted editorial work.
    ```
 
    This additionally catches disabled indexing. Keep indexing off while previewing.
-   Check the custom 404 separately for its HTTP status and indexing behavior.
+   Follow [404s & Redirects](redirects-404s.md) for the custom 404, legacy mappings
+   and their HTTP-status checks.
 
 Completion means the page reading, title/heading review and description editing
 are finished, the rendered results have been inspected, and any unresolved

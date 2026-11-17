@@ -1,0 +1,21 @@
+<div class="page-section">
+<div class="container content-section">
+<div class="row grid-one">
+<div class="col-12">
+<h2>Latest News <span class="news-latest-more">(<a href="{{ news_settings.indexUrl | url }}">More {{ site.shortName | escape }} News</a>)</span></h2>
+<div class="grid-five news-latest-grid">
+{% for post in collections.unitNews %}
+{% if loop.index <= news_settings.latestLimit %}
+<article>
+<a class="news-thumbnail" href="{{ post.url | url }}">
+<img class="photo-style" src="{{ post.data.newsImage.src | url }}" alt="" width="{{ post.data.newsImage.width }}" height="{{ post.data.newsImage.height }}" loading="lazy" decoding="async">
+<h3>{{ post.data.title | escape }}</h3>
+</a>
+</article>
+{% endif %}
+{% endfor %}
+</div>
+</div>
+</div>
+</div>
+</div>

@@ -1,13 +1,14 @@
 {# Hero assignments are supplied by the selected unit configuration. #}
-{% set assignedHero = common['page-heroes'].pages[page.url] %}
+{% set heroAssignmentUrl = news_settings.indexUrl if isNewsArticle else page.url %}
+{% set assignedHero = common['page-heroes'].pages[heroAssignmentUrl] %}
 {% if not assignedHero and personSlug %}
 {% set assignedHero = common['page-heroes'].facultyBio %}
 {% endif %}
 {% if not assignedHero %}
-{% set assignedHero = heroes.pages[page.url] %}
+{% set assignedHero = heroes.pages[heroAssignmentUrl] %}
 {% endif %}
 {% if not assignedHero %}
-{% set assignedHero = faculty_heroes.pages[page.url] %}
+{% set assignedHero = faculty_heroes.pages[heroAssignmentUrl] %}
 {% endif %}
 {% set compactHero = site.hero.variant == 'compact' %}
 {% set heightStyle %}{% for viewport in ['desktop', 'tablet', 'mobile'] %}{% if site.hero.height[viewport] is defined %}--hero-height-{{ viewport }}: {{ site.hero.height[viewport] }}px;{% endif %}{% endfor %}{% endset %}

@@ -32,7 +32,7 @@
       },
       {
         "label": "PUBA News",
-        "url": "/about/news.html",
+        "url": "/news/",
         "iconColor": null,
         "icon": "newspaper"
       }

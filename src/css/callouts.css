@@ -58,13 +58,13 @@ container-type: inline-size;
 }
 
 @container course-resources (min-width: 60rem) {
-.course-resources--three > .course-resource-grid > .col-12 {
+.course-resources--three > .row.course-resource-grid > .col-12 {
 width: 33.33333333%;
 }
 }
 
 @container course-resources (min-width: 40rem) {
-.course-resources--two > .course-resource-grid > .col-12 {
+.course-resources--two > .row.course-resource-grid > .col-12 {
 width: 50%;
 }
 }

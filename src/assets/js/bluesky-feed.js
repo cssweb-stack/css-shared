@@ -90,7 +90,7 @@ return img;
 
 function renderImages(container, images, url) {
 if (!Array.isArray(images)) return;
-const group = element('div', 'news-post-images');
+const group = element('div', 'news-post-images ' + (images.length === 1 ? 'grid-one' : 'grid-two'));
 group.dataset.count = String(Math.min(images.length, 4));
 images.slice(0, 4).forEach((item, index) => {
 const img = image(item.thumb || item.fullsize, item.alt, 'news-post-image');

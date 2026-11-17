@@ -130,50 +130,300 @@
       "from": "/janet-jock/",
       "to": "/faculty/janet-jock.html",
       "label": "Janet Jock"
+    },
+    {
+      "from": "/call-to-support-future-puba-students/",
+      "to": "/news/support-future-puba-students.html",
+      "label": "Call to Support Future PUBA Students"
+    },
+    {
+      "from": "/faculty-highlights-spring-2022/",
+      "to": "/news/faculty-highlights-spring-2022.html",
+      "label": "Faculty Highlights - Spring 2022"
+    },
+    {
+      "from": "/alumni-spotlight-shannon-mark-mpa-20/",
+      "to": "/news/alumni-shannon-mark.html",
+      "label": "Alumni Spotlight - Shannon Mark (MPA '20)"
+    },
+    {
+      "from": "/alumni-spotlight-radiant-cordero-mpa-16/",
+      "to": "/news/alumni-radiant-cordero.html",
+      "label": "Alumni Spotlight - Radiant Cordero (MPA '16)"
+    },
+    {
+      "from": "/student-bio-mary-janell-murro/",
+      "to": "/news/student-mary-janell-murro.html",
+      "label": "Student Bio - Mary Janell Murro"
+    },
+    {
+      "from": "/student-bio-samuel-kippen/",
+      "to": "/news/student-samuel-kippen.html",
+      "label": "Student Bio - Samuel Kippen"
+    },
+    {
+      "from": "/newly-elected-paso-officers-hit-the-ground-running/",
+      "to": "/news/paso-officers-2021-2022.html",
+      "label": "Newly Elected PASO Officers Hit the Ground Running"
+    },
+    {
+      "from": "/american-society-of-public-administration-conference/",
+      "to": "/news/aspa-conference-2022.html",
+      "label": "American Society of Public Administration Conference"
+    },
+    {
+      "from": "/public-affairs-88/",
+      "to": "/news/public-affairs-ranking-88.html",
+      "label": "Public Affairs #88"
+    },
+    {
+      "from": "/aloha-from-the-program-director/",
+      "to": "/news/morgen-johansen-program-welcome.html",
+      "label": "Aloha, from the Program Director"
+    },
+    {
+      "from": "/news-from-the-scholarship-committee/",
+      "to": "/news/scholarship-committee-news.html",
+      "label": "News from the Scholarship Committee"
+    },
+    {
+      "from": "/alumni-spotlight-kenika-lorenzo-elarco/",
+      "to": "/news/alumni-kenika-lorenzo-elarco.html",
+      "label": "Alumni Spotlight – Kenika Lorenzo-Elarco"
+    },
+    {
+      "from": "/alumni-spotlight-rachele-lamosao/",
+      "to": "/news/alumni-rachele-lamosao.html",
+      "label": "Alumni Spotlight – Rachele Lamosao"
+    },
+    {
+      "from": "/student-bio-sharon-baillie/",
+      "to": "/news/student-sharon-baillie.html",
+      "label": "Student Bio - Sharon Baillie"
+    },
+    {
+      "from": "/student-bio-moises-ayala/",
+      "to": "/news/student-moises-ayala.html",
+      "label": "Student Bio - Moises Ayala"
+    },
+    {
+      "from": "/paso-an-exciting-year-in-review/",
+      "to": "/news/paso-year-review-2023.html",
+      "label": "PASO - An Exciting Year in Review"
+    },
+    {
+      "from": "/mpa-graduates-co-author-impactful-capstone-publication/",
+      "to": "/news/graduates-marshall-islands-publication.html",
+      "label": "MPA Graduates Co-Author Impactful Capstone Publication"
+    },
+    {
+      "from": "/insightful-publication-from-mpa-graduates-23/",
+      "to": "/news/graduates-palau-climate-publication.html",
+      "label": "Insightful Publication from MPA Graduates ‘23"
+    },
+    {
+      "from": "/alumni-spotlight-brendan-kinoshita/",
+      "to": "/news/alumni-brendan-kinoshita.html",
+      "label": "Alumni Spotlight – Brendan Kinoshita"
+    },
+    {
+      "from": "/student-bio-jordyn-ryan/",
+      "to": "/news/student-jordyn-ryan.html",
+      "label": "Student Bio – Jordyn Ryan"
+    },
+    {
+      "from": "/student-bio-andrew-phomsouvanh/",
+      "to": "/news/student-andrew-phomsouvanh.html",
+      "label": "Student Bio - Andrew Phomsouvanh"
+    },
+    {
+      "from": "/paso-event-reflection-maunalua-bay/",
+      "to": "/news/paso-maunalua-bay.html",
+      "label": "PASO Event Reflection - Maunalua Bay"
+    },
+    {
+      "from": "/puba-in-the-community-helen-yu-naspaa/",
+      "to": "/news/helen-yu-naspaa-community.html",
+      "label": "PUBA in the Community - Helen Yu, NASPAA"
+    },
+    {
+      "from": "/paso-event-reflection-speaker-series-public-policy-climate-change/",
+      "to": "/news/paso-policy-climate-change.html",
+      "label": "PASO Event Reflection - Speaker Series: Public Policy & Climate Change"
+    },
+    {
+      "from": "/student-bio-chetsada-changmai/",
+      "to": "/news/student-chetsada-changmai.html",
+      "label": "Student Bio - Chetsada Changmai"
+    },
+    {
+      "from": "/new-puba-faculty-publication/",
+      "to": "/news/faculty-policing-publication.html",
+      "label": "New PUBA Faculty Publication"
+    },
+    {
+      "from": "/aloha-from-the-outgoing-director/",
+      "to": "/news/morgen-johansen-outgoing-director.html",
+      "label": "Aloha from the Outgoing Director, Dr. Morgen Johansen"
+    },
+    {
+      "from": "/aloha-from-the-new-interim-program-director-dr-helen-yu/",
+      "to": "/news/helen-yu-interim-director.html",
+      "label": "Aloha, from the New Interim Program Director, Dr. Helen Yu"
+    },
+    {
+      "from": "/faculty-highlights-winter-2024/",
+      "to": "/news/faculty-highlights-winter-2024.html",
+      "label": "Recent Highlights from PUBA Faculty, Winter 2024"
+    },
+    {
+      "from": "/former-puba-faculty-dr-david-lee-speaks-on-the-role-of-nonprofits-in-the-refugee-resettlement-process/",
+      "to": "/news/david-lee-refugee-resettlement.html",
+      "label": "Former PUBA Faculty, Dr. David Lee, Speaks on the Role of Nonprofits in the Refugee Resettlement Process"
+    },
+    {
+      "from": "/2024-american-society-of-public-administration-aspa-conference/",
+      "to": "/news/aspa-conference-2024.html",
+      "label": "2024 American Society of Public Administration (ASPA) Conference"
+    },
+    {
+      "from": "/alumni-spotlight-roy-takumi-appointed-as-chair-of-the-hawaii-state-board-of-education/",
+      "to": "/news/roy-takumi-education-chair.html",
+      "label": "Alumni Spotlight - Roy Takumi Appointed as Chair of the Hawai‘i State Board of Education"
+    },
+    {
+      "from": "/welcome-to-the-fall-2024-semester-from-the-director-dr-helen-yu/",
+      "to": "/news/director-welcome-fall-2024.html",
+      "label": "Welcome to the Fall 2024 Semester from the Director, Dr. Helen Yu"
+    },
+    {
+      "from": "/alumni-spotlight-daniel-koge/",
+      "to": "/news/alumni-daniel-koge.html",
+      "label": "Alumni Spotlight - Daniel Koge"
+    },
+    {
+      "from": "/dr-kelly-leroux-visits-puba-and-discusses-nonprofit-efforts-to-increase-voter-participation/",
+      "to": "/news/kelly-leroux-voter-participation.html",
+      "label": "Dr. Kelly LeRoux Visits PUBA and Discusses Nonprofit Efforts to Increase Voter Participation"
+    },
+    {
+      "from": "/2024-hawaii-alliance-of-nonprofit-organizations-hano-conference/",
+      "to": "/news/hano-conference-2024.html",
+      "label": "2024 Hawai’i Alliance of Nonprofit Organizations (HANO) Conference"
+    },
+    {
+      "from": "/puba-students-present-mock-testimony-at-the-capitol/",
+      "to": "/news/students-capitol-mock-testimony.html",
+      "label": "PUBA Students Present Mock Testimony at the Capitol"
+    },
+    {
+      "from": "/welcome-spring-2025/",
+      "to": "/news/director-welcome-spring-2025.html",
+      "label": "Welcome to the Spring 2025 Semester from the Director, Dr. Helen H. Yu"
+    },
+    {
+      "from": "/kamakani-konia/",
+      "to": "/news/kamakani-konia-arts-director.html",
+      "label": "Student Spotlight - Kamakani Konia Appointed as SFCA Art in Public Places Program Director"
+    },
+    {
+      "from": "/paso-event-reflection-speaker-series-nonprofit-responses-to-natural-disasters/",
+      "to": "/news/paso-nonprofit-disaster-responses.html",
+      "label": "PASO Event Reflection - Speaker Series: Nonprofit Responses to Natural Disasters"
+    },
+    {
+      "from": "/public-affairs-82/",
+      "to": "/news/public-affairs-ranking-82.html",
+      "label": "Public Affairs #82"
+    },
+    {
+      "from": "/laurel-a-johnston/",
+      "to": "/news/laurel-johnston-state-budget.html",
+      "label": "Former Director of Finance for the State of Hawai‘i, Laurel A. Johnston, Visits PUBA and Discusses State Executive Budget Processes"
+    },
+    {
+      "from": "/welcome-to-the-fall-2025-semester-from-the-director-dr-helen-h-yu/",
+      "to": "/news/director-welcome-fall-2025.html",
+      "label": "Welcome to the Fall 2025 Semester from the Director, Dr. Helen H. Yu"
+    },
+    {
+      "from": "/2025-hawaii-alliance-of-nonprofit-organizations-hano-conference/",
+      "to": "/news/hano-conference-2025.html",
+      "label": "2025 Hawaiʻi Alliance of Nonprofit Organizations (HANO) Conference"
+    },
+    {
+      "from": "/uh-president-wendy-hensel-visits-puba-to-discuss-leadership-and-organizational-change/",
+      "to": "/news/wendy-hensel-leadership-visit.html",
+      "label": "UH President Wendy Hensel Visits PUBA to Discuss Leadership and Organizational Change"
+    },
+    {
+      "from": "/how-public-policy-can-reduce-systemic-inequities/",
+      "to": "/news/paso-inclusive-policy-design.html",
+      "label": "PASO Event Reflection – Speaker Series | Inclusive Policy Design: How Public Policy Can Reduce Systemic Inequities"
+    },
+    {
+      "from": "/green-fee-advisory-council/",
+      "to": "/news/carmela-resuma-green-fees.html",
+      "label": "Green Fee Advisory Council in Hawai‘i: Learning from Carmela Resuma"
+    },
+    {
+      "from": "/welcome-to-the-spring-2026-semester/",
+      "to": "/news/director-welcome-spring-2026.html",
+      "label": "Welcome to the Spring 2026 Semester from the Director, Dr. Helen H. Yu"
+    },
+    {
+      "from": "/dr-helen-h-yu-ranked/",
+      "to": "/news/helen-yu-researcher-ranking.html",
+      "label": "Dr. Helen H. Yu Ranked in Global Top 0.05% of Researchers"
+    },
+    {
+      "from": "/puba-alum-cheryl-bellisario-shares-insights-on-housing-policy-in-hawai%ca%bbi/",
+      "to": "/news/cheryl-bellisario-housing-policy.html",
+      "label": "PUBA Alum Cheryl Bellisario Shares Insights on Housing Policy in Hawaiʻi"
+    },
+    {
+      "from": "/nonprofits-and-human-rights/",
+      "to": "/news/paso-nonprofits-human-rights.html",
+      "label": "PASO Event Reflection – Speaker Series | Nonprofits and Human Rights"
+    },
+    {
+      "from": "/2026-naspaa-student-simulation-competition/",
+      "to": "/news/naspaa-simulation-2026.html",
+      "label": "2026 NASPAA Student Simulation Competition"
+    },
+    {
+      "from": "/welcome-to-the-fall-2026/",
+      "to": "/news/director-welcome-fall-2026.html",
+      "label": "Welcome to the Fall 2026 Semester from the Director, Dr. Helen H. Yu"
+    },
+    {
+      "from": "/student-spotlight-seungwoo-back/",
+      "to": "/news/student-spotlight-seungwoo-back.html",
+      "label": "Student Spotlight - Seungwoo Back"
+    },
+    {
+      "from": "/about/news.html",
+      "to": "/news/",
+      "label": "PUBA News"
+    },
+    {
+      "from": "/students/newly-elected-paso-officers-hit-the-ground-running/",
+      "to": "/news/paso-officers-2021-2022.html",
+      "label": "PUBA news archive"
+    },
+    {
+      "from": "/department/american-society-of-public-administration-conference/",
+      "to": "/news/aspa-conference-2022.html",
+      "label": "PUBA news archive"
+    },
+    {
+      "from": "/faculty-news/faculty-highlights-spring-2022/",
+      "to": "/news/faculty-highlights-spring-2022.html",
+      "label": "PUBA news archive"
     }
   ],
   "retired": [],
   "unresolved": [
-    {
-      "from": "/aloha-from-the-program-director/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/american-society-of-public-administration-conference/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/student-bio-samuel-kippen/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/student-bio-mary-janell-murro/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/alumni-spotlight-radiant-cordero-mpa-16/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/alumni-spotlight-shannon-mark-mpa-20/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/newly-elected-paso-officers-hit-the-ground-running/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/faculty-highlights-spring-2022/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/call-to-support-future-puba-students/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/public-affairs-88/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
     {
       "from": "/academic-program/",
       "note": "Previously excluded during import. Confirm whether this overview should map to an existing program page or retire."
@@ -181,186 +431,62 @@
     {
       "from": "/gcert-public-service-leadership/",
       "note": "Previously excluded certificate. Confirm program status before choosing replacement or 404."
-    },
-    {
-      "from": "/news/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/student-bio-sharon-baillie/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/student-bio-moises-ayala/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/alumni-spotlight-rachele-lamosao/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/alumni-spotlight-kenika-lorenzo-elarco/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/paso-an-exciting-year-in-review/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/mpa-graduates-co-author-impactful-capstone-publication/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/news-from-the-scholarship-committee/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/insightful-publication-from-mpa-graduates-23/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/alumni-spotlight-brendan-kinoshita/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/student-bio-jordyn-ryan/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/student-bio-andrew-phomsouvanh/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/paso-event-reflection-maunalua-bay/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/puba-in-the-community-helen-yu-naspaa/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/student-bio-chetsada-changmai/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/new-puba-faculty-publication/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/aloha-from-the-new-interim-program-director-dr-helen-yu/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/former-puba-faculty-dr-david-lee-speaks-on-the-role-of-nonprofits-in-the-refugee-resettlement-process/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/aloha-from-the-outgoing-director/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/faculty-highlights-winter-2024/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/paso-event-reflection-speaker-series-public-policy-climate-change/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/2024-american-society-of-public-administration-aspa-conference/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/alumni-spotlight-roy-takumi-appointed-as-chair-of-the-hawaii-state-board-of-education/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/welcome-to-the-fall-2024-semester-from-the-director-dr-helen-yu/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/alumni-spotlight-daniel-koge/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/dr-kelly-leroux-visits-puba-and-discusses-nonprofit-efforts-to-increase-voter-participation/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/2024-hawaii-alliance-of-nonprofit-organizations-hano-conference/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/puba-students-present-mock-testimony-at-the-capitol/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/welcome-spring-2025/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/kamakani-konia/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/paso-event-reflection-speaker-series-nonprofit-responses-to-natural-disasters/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/public-affairs-82/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/laurel-a-johnston/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/welcome-to-the-fall-2025-semester-from-the-director-dr-helen-h-yu/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/2025-hawaii-alliance-of-nonprofit-organizations-hano-conference/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/uh-president-wendy-hensel-visits-puba-to-discuss-leadership-and-organizational-change/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/how-public-policy-can-reduce-systemic-inequities/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/green-fee-advisory-council/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/welcome-to-the-spring-2026-semester/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/dr-helen-h-yu-ranked/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/puba-alum-cheryl-bellisario-shares-insights-on-housing-policy-in-hawai%ca%bbi/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/nonprofits-and-human-rights/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/2026-naspaa-student-simulation-competition/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/welcome-to-the-fall-2026/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
-    },
-    {
-      "from": "/student-spotlight-seungwoo-back/",
-      "note": "News migration explicitly deferred. Preserve original WordPress archive until migrated; do not declare retired or redirect to an empty news landing."
     }
-  ]
+  ],
+  "queryRedirects": {
+    "607": "/news/support-future-puba-students.html",
+    "605": "/news/faculty-highlights-spring-2022.html",
+    "566": "/news/alumni-shannon-mark.html",
+    "564": "/news/alumni-radiant-cordero.html",
+    "557": "/news/student-mary-janell-murro.html",
+    "554": "/news/student-samuel-kippen.html",
+    "579": "/news/paso-officers-2021-2022.html",
+    "548": "/news/aspa-conference-2022.html",
+    "612": "/news/public-affairs-ranking-88.html",
+    "546": "/news/morgen-johansen-program-welcome.html",
+    "1413": "/news/scholarship-committee-news.html",
+    "1330": "/news/alumni-kenika-lorenzo-elarco.html",
+    "1327": "/news/alumni-rachele-lamosao.html",
+    "1317": "/news/student-sharon-baillie.html",
+    "1324": "/news/student-moises-ayala.html",
+    "1339": "/news/paso-year-review-2023.html",
+    "1405": "/news/graduates-marshall-islands-publication.html",
+    "1557": "/news/graduates-palau-climate-publication.html",
+    "1607": "/news/alumni-brendan-kinoshita.html",
+    "1614": "/news/student-jordyn-ryan.html",
+    "1636": "/news/student-andrew-phomsouvanh.html",
+    "1641": "/news/paso-maunalua-bay.html",
+    "1714": "/news/helen-yu-naspaa-community.html",
+    "2267": "/news/paso-policy-climate-change.html",
+    "1717": "/news/student-chetsada-changmai.html",
+    "1720": "/news/faculty-policing-publication.html",
+    "2236": "/news/morgen-johansen-outgoing-director.html",
+    "2135": "/news/helen-yu-interim-director.html",
+    "2239": "/news/faculty-highlights-winter-2024.html",
+    "2224": "/news/david-lee-refugee-resettlement.html",
+    "2280": "/news/aspa-conference-2024.html",
+    "2283": "/news/roy-takumi-education-chair.html",
+    "2343": "/news/director-welcome-fall-2024.html",
+    "2351": "/news/alumni-daniel-koge.html",
+    "2355": "/news/kelly-leroux-voter-participation.html",
+    "2360": "/news/hano-conference-2024.html",
+    "2366": "/news/students-capitol-mock-testimony.html",
+    "2406": "/news/director-welcome-spring-2025.html",
+    "2439": "/news/kamakani-konia-arts-director.html",
+    "2451": "/news/paso-nonprofit-disaster-responses.html",
+    "2458": "/news/public-affairs-ranking-82.html",
+    "2461": "/news/laurel-johnston-state-budget.html",
+    "2511": "/news/director-welcome-fall-2025.html",
+    "2516": "/news/hano-conference-2025.html",
+    "2520": "/news/wendy-hensel-leadership-visit.html",
+    "2619": "/news/paso-inclusive-policy-design.html",
+    "2634": "/news/carmela-resuma-green-fees.html",
+    "2650": "/news/director-welcome-spring-2026.html",
+    "2657": "/news/helen-yu-researcher-ranking.html",
+    "2664": "/news/cheryl-bellisario-housing-policy.html",
+    "2668": "/news/paso-nonprofits-human-rights.html",
+    "2673": "/news/naspaa-simulation-2026.html",
+    "2737": "/news/director-welcome-fall-2026.html",
+    "2748": "/news/student-spotlight-seungwoo-back.html"
+  }
 }

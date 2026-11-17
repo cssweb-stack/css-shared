@@ -1,13 +1,14 @@
 {# Full-width imagery credit immediately above the footer. #}
-{% set assignedHero = common['page-heroes'].pages[page.url] %}
+{% set heroAssignmentUrl = news_settings.indexUrl if isNewsArticle else page.url %}
+{% set assignedHero = common['page-heroes'].pages[heroAssignmentUrl] %}
 {% if not assignedHero and personSlug %}
 {% set assignedHero = common['page-heroes'].facultyBio %}
 {% endif %}
 {% if not assignedHero %}
-{% set assignedHero = heroes.pages[page.url] %}
+{% set assignedHero = heroes.pages[heroAssignmentUrl] %}
 {% endif %}
 {% if not assignedHero %}
-{% set assignedHero = faculty_heroes.pages[page.url] %}
+{% set assignedHero = faculty_heroes.pages[heroAssignmentUrl] %}
 {% endif %}
 {% set heroCredit = assignedHero.credit | default(heroes.credit, true) %}
 {% if assignedHero and assignedHero.credit != false and site.hero.showAttribution != false and heroCredit.source and heroCredit.url %}

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+{% include "layouts/news/legacy-query.njk" %}
 {% include "analytics.njk" -%}
 {% if isNotFound or isPolicyDraft or not site.indexingEnabled %}
 <meta name="robots" content="noindex, nofollow">
@@ -17,22 +18,26 @@
 {% endif -%}
 {% set documentTitle = seoTitle | default((searchTitle | default(title | default(site.name))) + " | " + (site.titleSuffix | default(site.name))) %}
 <title>{{ documentTitle | escape }}</title>
+{% set socialImage = newsImage.src | default(site.openGraph.image) %}
 {% if site.openGraph.image and site.url %}
-<meta property="og:type" content="website">
+<meta property="og:type" content="{% if newsImage %}article{% else %}website{% endif %}">
+{% if published %}
+<meta property="article:published_time" content="{{ published | escape }}">
+{% endif %}
 <meta property="og:site_name" content="{{ site.name | escape }}">
 <meta property="og:title" content="{{ documentTitle | escape }}">
 <meta property="og:description" content="{{ description | default(site.name) | escape }}">
 <meta property="og:url" content="{{ page.url | socialUrl | escape }}">
-<meta property="og:image" content="{{ site.openGraph.image | socialUrl | escape }}">
-<meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:width" content="{{ site.openGraph.width }}">
-<meta property="og:image:height" content="{{ site.openGraph.height }}">
-<meta property="og:image:alt" content="{{ site.openGraph.alt | escape }}">
+<meta property="og:image" content="{{ socialImage | socialUrl | escape }}">
+<meta property="og:image:type" content="{% if newsImage %}image/webp{% else %}image/jpeg{% endif %}">
+<meta property="og:image:width" content="{{ newsImage.width | default(site.openGraph.width) }}">
+<meta property="og:image:height" content="{{ newsImage.height | default(site.openGraph.height) }}">
+<meta property="og:image:alt" content="{{ newsImage.alt | default(site.openGraph.alt) | escape }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ documentTitle | escape }}">
 <meta name="twitter:description" content="{{ description | default(site.name) | escape }}">
-<meta name="twitter:image" content="{{ site.openGraph.image | socialUrl | escape }}">
-<meta name="twitter:image:alt" content="{{ site.openGraph.alt | escape }}">
+<meta name="twitter:image" content="{{ socialImage | socialUrl | escape }}">
+<meta name="twitter:image:alt" content="{{ newsImage.alt | default(site.openGraph.alt) | escape }}">
 {% endif %}
 {% if site.searchConsoleVerificationToken %}
 <meta name="google-site-verification" content="{{ site.searchConsoleVerificationToken | escape }}">
@@ -47,14 +52,14 @@
 {% include "layouts/branding/header/unit-name.njk" -%}
 {% include "layouts/branding/header/unit-nav.njk" -%}
 </header>
-{% if site.hero.enabled != false or common['page-heroes'].pages[page.url] or (personSlug and common['page-heroes'].facultyBio) %}
+{% if not hideHero and (site.hero.enabled != false or common['page-heroes'].pages[page.url] or (personSlug and common['page-heroes'].facultyBio)) %}
 {% include "layouts/hero/hero.njk" %}
 {% endif -%}
 {# One universal content parent; site-main owns page-edge spacing. #}
 <main id="main-content" class="site-main" tabindex="-1">
 {{ content | safe }}
 </main>
-{% if site.hero.enabled != false %}
+{% if not hideHero and site.hero.enabled != false %}
 {% include "layouts/hero/hero-attribution.njk" %}
 {% endif -%}
 {% include "layouts/branding/footer/footer.njk" -%}

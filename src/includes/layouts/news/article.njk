@@ -1,0 +1,28 @@
+---
+layout: shell.njk
+isNewsArticle: true
+---
+<div class="page-section">
+<div class="container content-section">
+<div class="row grid-one">
+<div class="col-12">
+<article class="news-article">
+<header>
+<h1>{{ title | escape }}</h1>
+<p><time datetime="{{ published | escape }}">{{ published | newsDate }}</time> | <a href="{{ news_settings.indexUrl | url }}">More {{ site.shortName | escape }} News</a></p>
+</header>
+<hr>
+<div class="news-article-body">
+<figure class="news-article-feature">
+<img class="photo-style" src="{{ newsImage.src | url }}" alt="{{ newsImage.alt | escape }}" width="{{ newsImage.width }}" height="{{ newsImage.height }}" decoding="async">
+{% if newsImage.caption %}
+<figcaption>{{ newsImage.caption | escape }}</figcaption>
+{% endif %}
+</figure>
+{{ content | safe }}
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>

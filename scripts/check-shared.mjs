@@ -2,6 +2,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 const root = fileURLToPath(new URL('../src/', import.meta.url));
+const retiredExports = fileURLToPath(new URL('../exports/', import.meta.url));
+if (fs.existsSync(retiredExports)) throw new Error('Source archives belong in ../CSS-Exports, not css-shared/exports.');
 let count = 0;
 function files(dir) {
 return fs.readdirSync(dir, { withFileTypes: true }).flatMap(entry => {
@@ -24,6 +26,7 @@ if (file.endsWith('.css') && !name.startsWith('css/_uh-reference/')) {
 const css = fs.readFileSync(file, 'utf8').replace(/\/\*[\s\S]*?\*\//g, '');
 // Enforce component ownership before styles reach consuming sites.
 for (const [, selector, body] of css.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
+if (/\.grid-(?:one|two|three|four|five|six)\b/.test(selector.replace(/:not\([^)]*\)/g, '')) && /(?:^|;)\s*(?:grid-template-columns|gap|column-gap|row-gap)\s*:/.test(body) && name !== 'css/grids.css') throw new Error(`Equal-column layout belongs in grids.css: ${name}: ${selector.trim()}`);
 if (/\.(?:profile-[\w-]+|faculty-portrait-grid|program-directors-grid|program-office-photo|office-card|unit-contact(?:-[\w-]+)?|map-embed|contact-address|contact-links|advisor-name)\b/.test(selector) && name !== 'css/profile.css' && name !== 'css/diagnostics.css' && !(name === 'css/sidebar.css' && selector.trim() === '.site-main .sidebar-group > .contact-address')) throw new Error(`Profile styles belong in profile.css: ${name}: ${selector.trim()}`);
 if (/\.(?:graduate-student(?:-[\w-]+)?|student-photo-column|student-details-column)\b/.test(selector) && name !== 'css/profile.css' && name !== 'css/diagnostics.css') throw new Error(`Graduate-student profile styles belong in profile.css: ${name}`);
 if (name === 'css/profile.css' && /\.sidebar-group\b/.test(selector)) throw new Error('Generic sidebar rules belong in sidebar.css.');
