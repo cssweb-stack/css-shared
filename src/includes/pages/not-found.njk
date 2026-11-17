@@ -1,6 +1,8 @@
 {% set recovery = not_found | default({}) %}
 <div class="page-section">
 <div class="container content-section">
+<div class="row gx-0 gx-sm-5 gx-lg-5">
+<div class="col-12">
 <div class="{% if site.sidebarLeftLayouts %}sidebar-left-med profile-page not-found-grid{% else %}row gy-4 gx-0 gx-md-5 profile-page not-found-grid{% endif %}">
 <div class="{% if not site.sidebarLeftLayouts %}col-12 col-md-4 {% endif %}profile-sidebar not-found-code-column">
 <p class="not-found-code" aria-hidden="true">404</p>
@@ -15,6 +17,8 @@
 <li><a href="{{ '/' | url }}">{{ site.shortName | default(site.name) | escape }} homepage</a></li>
 {% endfor %}
 </ul>
+</div>
+</div>
 </div>
 </div>
 </div>

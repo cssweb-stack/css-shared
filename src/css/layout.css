@@ -698,3 +698,26 @@ grid-template-columns: repeat(4, minmax(0, 1fr));
 grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 }
+
+/* Six equal program tiles. */
+.grid-six {
+display: grid;
+grid-template-columns: minmax(0, 1fr);
+gap: 1.5rem;
+}
+
+.grid-six > * {
+min-width: 0;
+}
+
+@media (min-width: 768px) {
+.grid-six {
+grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+}
+
+@media (min-width: 1400px) {
+.grid-six {
+grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+}

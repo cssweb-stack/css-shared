@@ -26,6 +26,7 @@ configurePrivacy(eleventyConfig, project);
 const eventDate = createRequire(import.meta.url)(path.join(sharedIncludes, 'layouts/events/event-date.cjs'));
 eleventyConfig.addFilter('eventDate', eventDate);
 eleventyConfig.addFilter('peopleForProgram', (people, programId) => (people || []).filter(person => (person.programs || []).includes(programId)));
+eleventyConfig.addFilter('peopleBySlugs', (people, slugs) => (people || []).filter(person => (slugs || []).includes(person.slug)));
 eleventyConfig.addFilter('peopleOfType', (people, type) => (people || []).filter(person => person.type === type));
 eleventyConfig.addFilter('contactFaculty', people => people.filter(person => person.contactOrder).sort((a, b) => a.contactOrder - b.contactOrder));
 eleventyConfig.addFilter('telephone', value => {

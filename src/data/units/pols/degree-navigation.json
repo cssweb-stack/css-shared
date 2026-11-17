@@ -1,0 +1,56 @@
+{
+  "ma": {
+    "label": "Political Science MA",
+    "pages": [
+      {
+        "label": "Overview",
+        "url": "/graduate/master-ma/"
+      },
+      {
+        "label": "Requirements",
+        "url": "/graduate/master-ma/requirements.html"
+      },
+      {
+        "label": "Thesis",
+        "url": "/graduate/master-ma/thesis.html"
+      },
+      {
+        "label": "Event",
+        "url": "/graduate/master-ma/ma-event.html"
+      },
+      {
+        "label": "Advising & Progress",
+        "url": "/graduate/master-ma/advising-progress.html"
+      }
+    ]
+  },
+  "phd": {
+    "label": "Political Science PhD",
+    "pages": [
+      {
+        "label": "Overview",
+        "url": "/graduate/doctorate-phd/"
+      },
+      {
+        "label": "Requirements",
+        "url": "/graduate/doctorate-phd/requirements.html"
+      },
+      {
+        "label": "Advising & Committees",
+        "url": "/graduate/doctorate-phd/advising-committees.html"
+      },
+      {
+        "label": "Proposal & Exams",
+        "url": "/graduate/doctorate-phd/proposal-exams.html"
+      },
+      {
+        "label": "Dissertation",
+        "url": "/graduate/doctorate-phd/dissertation.html"
+      },
+      {
+        "label": "Timeline",
+        "url": "/graduate/doctorate-phd/timeline.html"
+      }
+    ]
+  }
+}

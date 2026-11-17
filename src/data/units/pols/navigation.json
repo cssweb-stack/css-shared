@@ -7,7 +7,7 @@
     "label": "About",
     "children": [
       {
-        "label": "Why Study POLS",
+        "label": "Why Study POLS?",
         "url": "/about/why-study-pols.html",
         "icon": "question-circle",
         "iconColor": null
@@ -58,6 +58,12 @@
         "iconColor": null
       },
       {
+        "label": "Pi Sigma Alpha",
+        "url": "/pi-sigma-alpha.html",
+        "icon": "award",
+        "iconColor": null
+      },
+      {
         "label": "Internships & Scholarships",
         "url": "/undergraduate/internships-scholarships/",
         "icon": "door-open",
@@ -68,12 +74,6 @@
         "url": "/undergraduate/advising-support.html",
         "icon": "compass",
         "iconColor": null
-      },
-      {
-        "label": "Student Learning Outcomes",
-        "url": "/undergraduate/student-learning-outcomes.html",
-        "icon": "list-check",
-        "iconColor": null
       }
     ]
   },
@@ -82,13 +82,13 @@
     "children": [
       {
         "label": "Master’s (MA)",
-        "url": "/graduate/master-ma.html",
+        "url": "/graduate/master-ma/",
         "icon": "mortarboard",
         "iconColor": null
       },
       {
         "label": "Doctorate (PhD)",
-        "url": "/graduate/doctorate-phd.html",
+        "url": "/graduate/doctorate-phd/",
         "icon": "mortarboard",
         "iconColor": null
       },
@@ -111,8 +111,14 @@
         "iconColor": null
       },
       {
-        "label": "Student Learning Outcomes",
-        "url": "/graduate/student-learning-outcomes.html",
+        "label": "Pi Sigma Alpha",
+        "url": "/pi-sigma-alpha.html",
+        "icon": "award",
+        "iconColor": null
+      },
+      {
+        "label": "Applications & Admissions",
+        "url": "/graduate/applications-admissions.html",
         "icon": "list-check",
         "iconColor": null
       }

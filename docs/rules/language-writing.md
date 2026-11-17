@@ -32,7 +32,7 @@ These rules guide writing and reviewing university websites. Improve clarity and
 - Preserve course titles, suffixes, cross-listings, topic markers, credits and restrictions. Code-only references such as ANTH 399 do not need an invented title or colon. Check conflicting titles against an approved source rather than guessing.
 - Use a spaced em dash for directory entries: Name — Research interests. Do not substitute a hyphen or colon.
 - Run-in explanatory labels use sentence case, bold and a colon: **Save money:** Explanation. Do not alternate between label-period, label-dash and italic-label treatments for equivalent items.
-- Do not introduce prose dashes unnecessarily. Preserve meaningful hyphens, numeric ranges and protected wording. E komo mai — Welcome to… is an approved exception.
+- Do not introduce em dashes or en dashes as prose punctuation. Use commas, parentheses or separate sentences instead. This is a prohibition, not a preference to use fewer dashes. Preserve meaningful hyphens, numeric ranges and protected wording. Explicitly approved structured Name — Description separators remain a distinct listing format.
 - Use & in concise navigation labels and headings where approved; use and in ordinary prose. Preserve official organization names. For the same page topic, keep the approved & or and choice consistent between navigation and H1, including the topic after any program prefix. Do not silently expand & to and in the H1. Keep local page-title wording aligned unless an approved search-title exception applies.
 - Keep punctuation beside the preceding word or link. Code Formatting’s Whitespace subsection governs accidental double spaces, nonbreaking spaces, spaces around inline tags and spaces before punctuation.
 - Preserve meaningful footnote markers. Use a space after a leading asterisk: * This applies…
@@ -43,6 +43,7 @@ These rules guide writing and reviewing university websites. Improve clarity and
 - Use real headings rather than bold paragraphs pretending to be headings. Shared CSS controls heading size and weight. Do not put bold or italic tags inside headings.
 - Avoid repeating the H1 as the next content heading. Use a useful subsection label or begin the content directly.
 - Use bullets or numbered lists when prose contains separate requirements or steps. Preserve qualifications, exceptions, totals, dates and obligations.
+- Review leading “Note:” labels during cleanup. Remove them when the sentence stands on its own, especially for requirements, limits and eligibility conditions. State the information directly while preserving its meaning; retain the label when it usefully distinguishes a genuine aside.
 - Keep italics limited and purposeful. Preserve journal titles and protected emphasis; remove unnecessary italics during an authorized edit. Use bold sparingly for useful labels, not whole paragraphs.
 
 ## Links & Review

@@ -8,7 +8,7 @@
     "photoHeight": 500,
     "url": "/faculty/noenoe-silva.html",
     "title": "Professor",
-  "roles": [],
+    "roles": [],
     "office": "Saunders 640C",
     "phone": "(808) 956-8030",
     "phoneHref": "+18089568030",
@@ -25,7 +25,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Hawaiian politics, Indigenous politics"
   },
   {
     "name": "Carolyn Stephenson",
@@ -48,7 +49,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "International relations; international organization; international environmental politics; international security; peace studies, conflict resolution"
   },
   {
     "name": "Dean Saranillio",
@@ -74,7 +76,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": true
+    "showInKeyContacts": true,
+    "researchInterests": "Settler colonialism, labor, militarism, empire"
   },
   {
     "name": "Debbie Samaniego",
@@ -97,7 +100,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "International relations, migration and borders, decolonial and post colonial theory and Latin America"
   },
   {
     "name": "Felix Mantz",
@@ -120,7 +124,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "International political economy, political ecology, anti/decolonial studies, Africa and MesoAmerica"
   },
   {
     "name": "Kathy Ferguson",
@@ -163,7 +168,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Feminist theory and methods; political theory"
   },
   {
     "name": "Nicole Sunday Grove",
@@ -198,7 +204,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "International relations, gender and sexuality, political theory, media, Middle East politics"
   },
   {
     "name": "Nevzat Soguk",
@@ -215,7 +222,8 @@
     "email": "nevzat@hawaii.edu",
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "International relations theory, comparative politics; international organization; international migration and diasporas, human rights, Middle East"
   },
   {
     "name": "Lawrence Nitz",
@@ -238,7 +246,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "American government; methodology; political economy; public policy; research methods; topics in political theory"
   },
   {
     "name": "Jamaica Heolimeleikalani Osorio",
@@ -263,7 +272,11 @@
     "showInKeyContacts": true,
     "roles": [
       "Undergraduate Chair"
-    ]
+    ],
+    "roleEmails": {
+      "Undergraduate Chair": "polungrd@hawaii.edu"
+    },
+    "researchInterests": "Kanaka Maoli moʻolelo, politics and history; Indigenous theory and politics; ʻŌlelo Hawaiʻi; and translation theory"
   },
   {
     "name": "Noelani Goodyear-Kaʻōpua",
@@ -302,7 +315,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Hawaiian politics, Indigenous politics, politics of education and culture"
   },
   {
     "name": "Debora Halbert",
@@ -329,7 +343,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Public policy, political futures, law and politics, and politics of intellectual property"
   },
   {
     "name": "Sankaran Krishna",
@@ -358,7 +373,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Comparative politics, international political economy, South Asian Studies, and postcolonial studies"
   },
   {
     "name": "Kate Zhou",
@@ -375,7 +391,8 @@
     "email": "katezhou@hawaii.edu",
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Comparative politics; Chinese & Asian politics; women and development, and public policy"
   },
   {
     "name": "Ehito Kimura",
@@ -404,7 +421,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Comparative politics, political change, Southeast Asia"
   },
   {
     "name": "Katharina Heyer",
@@ -431,7 +449,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Law and society, disability politics, comparative law, social movement and civil rights"
   },
   {
     "name": "Jonathan Goldberg-Hiller",
@@ -461,7 +480,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": true
+    "showInKeyContacts": true,
+    "researchInterests": "Law and society, law and philosophy, sexuality politics, Indigenous politics"
   },
   {
     "name": "Jairus Grove",
@@ -496,7 +516,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Critical war studies, complexity theory and system theory"
   },
   {
     "name": "Laurie Onizuka",

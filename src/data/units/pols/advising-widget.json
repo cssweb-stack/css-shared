@@ -1,0 +1,18 @@
+{
+  "heading": "Key Contacts",
+  "people": [
+    {
+      "source": "people",
+      "matchRole": "Undergraduate Chair",
+      "role": "Undergraduate Chair",
+      "description": "For guidance on undergraduate Political Science programs, course planning and faculty mentor assignments.",
+      "showPhone": false
+    },
+    {
+      "source": "shared-advisors",
+      "slug": "jennifer-oshiro",
+      "role": "General Education Advisor",
+      "description": "For guidance on general education requirements."
+    }
+  ]
+}

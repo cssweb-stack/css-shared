@@ -24,5 +24,11 @@
       "color": "var(--uh-green)",
       "opacity": 0.33
     }
-  }
+  },
+  "sidebarLeftLayouts": true,
+  "portraitCardGrid": true,
+  "titleSuffix": "Political Science | UH Mānoa",
+  "canonicalSections": [
+    "/"
+  ]
 }

@@ -128,7 +128,7 @@ mask-image: url("../media/icons/telephone.svg");
 .site-main .smile {
 display: flex;
 gap: 1rem;
-font-size: 1.5rem;
+font-size: 1rem;
 margin-top: 2.25rem;
 margin-bottom: 2.25rem;
 }

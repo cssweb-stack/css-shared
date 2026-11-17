@@ -20,7 +20,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Social theory, economic development, comparative sociology (Asia)"
   },
   {
     "name": "Jennifer Darrah",
@@ -52,7 +53,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": true
+    "showInKeyContacts": true,
+    "researchInterests": "Urban sociology, race/ethnicity, housing policy, sociological theory"
   },
   {
     "name": "Katherine Irwin",
@@ -75,7 +77,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Criminology, deviance and social control, qualitative methodology"
   },
   {
     "name": "David Johnson",
@@ -92,7 +95,8 @@
     "phoneHref": "+18089568462",
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Criminology, comparative sociology (Japan), law and society"
   },
   {
     "name": "Aya Kimura",
@@ -131,7 +135,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Science and technology studies, agrifood studies, environmental sociology, gender, social movements, comparative sociology (Asia)"
   },
   {
     "name": "Le Lin",
@@ -154,7 +159,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Economic and organizational sociology, professions, education, medical sociology, comparative sociology (China)"
   },
   {
     "name": "Krysia Mossakowski",
@@ -187,7 +193,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Medical sociology, stress and mental health, life course and aging, social psychology, social epidemiology, race/ethnicity"
   },
   {
     "name": "Eunjeong Paek",
@@ -216,7 +223,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Inequality, gender, work, family, social policy"
   },
   {
     "name": "Ashley Rubin",
@@ -254,7 +262,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": true
+    "showInKeyContacts": true,
+    "researchInterests": "Law, punishment, organizations, and methods"
   },
   {
     "name": "Nandita Sharma",
@@ -277,7 +286,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Race/ethnic/minority relations, theory/migration and immigration"
   },
   {
     "name": "Manfred B. Steger",
@@ -303,7 +313,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": true
+    "showInKeyContacts": true,
+    "researchInterests": "Globalization, social theory, social change, political sociology, economy and society, sociology of religion"
   },
   {
     "name": "Yue Sun",
@@ -355,7 +366,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Political sociology, social movements, class politics, globalization, East Asia"
   },
   {
     "name": "Wei Zhang",
@@ -391,7 +403,8 @@
     ],
     "type": "faculty",
     "showInFacultyDirectory": true,
-    "showInKeyContacts": false
+    "showInKeyContacts": false,
+    "researchInterests": "Medical sociology, social epidemiology, research methods"
   },
   {
     "name": "Lisa Nhomi-Koza",

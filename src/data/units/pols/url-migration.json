@@ -1,19 +1,29 @@
 {
   "redirects": [
     {
-      "from": "/about-pols/why-study-pols.html",
-      "to": "/about/why-study-pols.html",
-      "label": "Why Study Pols"
-    },
-    {
       "from": "/about-pols/specializations/",
       "to": "/about/specializations/",
       "label": "Specializations"
     },
     {
+      "from": "/about-pols/specializations/alternative-futures.html",
+      "to": "/about/specializations/alternative-futures.html",
+      "label": "Alternative Futures"
+    },
+    {
+      "from": "/about-pols/specializations/comparative-politics.html",
+      "to": "/about/specializations/comparative-politics.html",
+      "label": "Comparative Politics"
+    },
+    {
       "from": "/about-pols/specializations/indigenous-politics.html",
       "to": "/about/specializations/indigenous-politics.html",
       "label": "Indigenous Politics"
+    },
+    {
+      "from": "/about-pols/specializations/international-relations.html",
+      "to": "/about/specializations/international-relations.html",
+      "label": "International Relations"
     },
     {
       "from": "/about-pols/specializations/law-and-policy.html",
@@ -26,21 +36,366 @@
       "label": "Political Theory"
     },
     {
-      "from": "/about-pols/specializations/comparative-politics.html",
+      "from": "/about-pols/why-study-pols.html",
+      "to": "/about/why-study-pols.html",
+      "label": "Why Study Pols"
+    },
+    {
+      "from": "/about/",
+      "to": "/about/why-study-pols.html",
+      "label": "About"
+    },
+    {
+      "from": "/alternative-futures/",
+      "to": "/about/specializations/alternative-futures.html",
+      "label": "Alternative Futures"
+    },
+    {
+      "from": "/applications-admissions/",
+      "to": "/graduate/applications-admissions.html",
+      "label": "Applications and Admissions"
+    },
+    {
+      "from": "/bam/",
+      "to": "/undergraduate/bam.html",
+      "label": "BAM"
+    },
+    {
+      "from": "/carolyn-stephenson/",
+      "to": "/faculty/carolyn-stephenson.html",
+      "label": "Carolyn Stephenson"
+    },
+    {
+      "from": "/certificate-in-law-and-society/",
+      "to": "/undergraduate/certificate-law-society.html",
+      "label": "Certificate in Law and Society"
+    },
+    {
+      "from": "/community-internships/",
+      "to": "/undergraduate/internships-scholarships/community-internships.html",
+      "label": "Community Internships"
+    },
+    {
+      "from": "/comparative-politics/",
       "to": "/about/specializations/comparative-politics.html",
       "label": "Comparative Politics"
     },
     {
-      "from": "/about-pols/specializations/international-relations.html",
+      "from": "/contact/",
+      "to": "/contact.html",
+      "label": "Contact"
+    },
+    {
+      "from": "/dean-saranillio/",
+      "to": "/faculty/dean-saranillio.html",
+      "label": "Dean Saranillio"
+    },
+    {
+      "from": "/debbie-samaniego/",
+      "to": "/faculty/debbie-samaniego.html",
+      "label": "Debbie Samaniego"
+    },
+    {
+      "from": "/debora-halbert/",
+      "to": "/faculty/debora-halbert.html",
+      "label": "Debora Halbert"
+    },
+    {
+      "from": "/ehito-kimura/",
+      "to": "/faculty/ehito-kimura.html",
+      "label": "Ehito Kimura"
+    },
+    {
+      "from": "/felix-mantz/",
+      "to": "/faculty/felix-mantz.html",
+      "label": "Felix Mantz"
+    },
+    {
+      "from": "/funding-opportunities/",
+      "to": "/graduate/funding-sources.html",
+      "label": "Funding Opportunities"
+    },
+    {
+      "from": "/give-a-gift/",
+      "to": "/support-pols.html",
+      "label": "Give a Gift"
+    },
+    {
+      "from": "/graduate-program/",
+      "to": "/about/why-study-pols.html",
+      "label": "Graduate Program"
+    },
+    {
+      "from": "/graduate-slos/",
+      "to": "/graduate/student-learning-outcomes.html",
+      "label": "Graduate SLOs"
+    },
+    {
+      "from": "/graduate-students/",
+      "to": "/graduate/current-cohort.html",
+      "label": "Graduate Students"
+    },
+    {
+      "from": "/graduate/doctorate-phd.html",
+      "to": "/graduate/doctorate-phd/",
+      "label": "Political Science PHD",
+      "fragmentTargets": {
+        "section-4": "/graduate/doctorate-phd/proposal-exams.html#section-4",
+        "fl-accordion--label-4": "/graduate/doctorate-phd/proposal-exams.html#section-4",
+        "section-5": "/graduate/doctorate-phd/proposal-exams.html#section-5",
+        "fl-accordion--label-5": "/graduate/doctorate-phd/proposal-exams.html#section-5",
+        "section-9": "/graduate/doctorate-phd/timeline.html#section-9",
+        "fl-accordion--label-9": "/graduate/doctorate-phd/timeline.html#section-9",
+        "section-7": "/graduate/doctorate-phd/dissertation.html#section-7",
+        "fl-accordion--label-7": "/graduate/doctorate-phd/dissertation.html#section-7",
+        "section-8": "/graduate/doctorate-phd/dissertation.html#section-8",
+        "fl-accordion--label-8": "/graduate/doctorate-phd/dissertation.html#section-8",
+        "section-1": "/graduate/doctorate-phd/advising-committees.html#section-1",
+        "fl-accordion--label-1": "/graduate/doctorate-phd/advising-committees.html#section-1",
+        "section-3": "/graduate/doctorate-phd/advising-committees.html#section-3",
+        "fl-accordion--label-3": "/graduate/doctorate-phd/advising-committees.html#section-3",
+        "section-2": "/graduate/doctorate-phd/requirements.html#section-2",
+        "fl-accordion--label-2": "/graduate/doctorate-phd/requirements.html#section-2",
+        "section-0": "/graduate/doctorate-phd/requirements.html#section-0",
+        "fl-accordion--label-0": "/graduate/doctorate-phd/requirements.html#section-0",
+        "section-6": "/graduate/doctorate-phd/requirements.html#section-6",
+        "fl-accordion--label-6": "/graduate/doctorate-phd/requirements.html#section-6"
+      }
+    },
+    {
+      "from": "/graduate/master-ma.html",
+      "to": "/graduate/master-ma/",
+      "label": "Political Science MA",
+      "fragmentTargets": {
+        "section-0": "/graduate/master-ma/advising-progress.html#section-0",
+        "fl-accordion--label-0": "/graduate/master-ma/advising-progress.html#section-0",
+        "section-1": "/graduate/master-ma/advising-progress.html#section-1",
+        "fl-accordion--label-1": "/graduate/master-ma/advising-progress.html#section-1",
+        "section-3": "/graduate/master-ma/thesis.html#section-3",
+        "fl-accordion--label-3": "/graduate/master-ma/thesis.html#section-3",
+        "section-4": "/graduate/master-ma/thesis.html#section-4",
+        "fl-accordion--label-4": "/graduate/master-ma/thesis.html#section-4",
+        "section-5": "/graduate/master-ma/ma-event.html#section-5",
+        "fl-accordion--label-5": "/graduate/master-ma/ma-event.html#section-5",
+        "section-6": "/graduate/master-ma/ma-event.html#section-6",
+        "fl-accordion--label-6": "/graduate/master-ma/ma-event.html#section-6",
+        "section-2": "/graduate/master-ma/requirements.html#section-2",
+        "fl-accordion--label-2": "/graduate/master-ma/requirements.html#section-2"
+      }
+    },
+    {
+      "from": "/honors-track/",
+      "to": "/undergraduate/honors-track.html",
+      "label": "Honors Track"
+    },
+    {
+      "from": "/indigenous-politics/",
+      "to": "/about/specializations/indigenous-politics.html",
+      "label": "Indigenous Politics"
+    },
+    {
+      "from": "/international-relations/",
       "to": "/about/specializations/international-relations.html",
       "label": "International Relations"
     },
     {
-      "from": "/about-pols/specializations/alternative-futures.html",
-      "to": "/about/specializations/alternative-futures.html",
-      "label": "Alternative Futures"
+      "from": "/internships-and-scholarships/",
+      "to": "/undergraduate/internships-scholarships/",
+      "label": "Internships and Scholarships"
+    },
+    {
+      "from": "/jairus-grove/",
+      "to": "/faculty/jairus-grove.html",
+      "label": "Jairus Grove"
+    },
+    {
+      "from": "/jamaica-osorio/",
+      "to": "/faculty/jamaica-osorio.html",
+      "label": "Jamaica Osorio"
+    },
+    {
+      "from": "/jonathan-goldberg-hiller/",
+      "to": "/faculty/jonathan-goldberg-hiller.html",
+      "label": "Jonathan Goldberg-Hiller"
+    },
+    {
+      "from": "/kate-zhou/",
+      "to": "/faculty/kate-zhou.html",
+      "label": "Kate Zhou"
+    },
+    {
+      "from": "/katharina-heyer/",
+      "to": "/faculty/katharina-heyer.html",
+      "label": "Katharina Heyer"
+    },
+    {
+      "from": "/kathy-ferguson/",
+      "to": "/faculty/kathy-ferguson.html",
+      "label": "Kathy Ferguson"
+    },
+    {
+      "from": "/law-and-policy/",
+      "to": "/about/specializations/law-and-policy.html",
+      "label": "Law and Policy"
+    },
+    {
+      "from": "/lawrence-nitz/",
+      "to": "/faculty/lawrence-nitz.html",
+      "label": "Lawrence Nitz"
+    },
+    {
+      "from": "/ma-program/",
+      "to": "/graduate/master-ma/",
+      "label": "MA Program",
+      "fragmentTargets": {
+        "section-0": "/graduate/master-ma/advising-progress.html#section-0",
+        "fl-accordion--label-0": "/graduate/master-ma/advising-progress.html#section-0",
+        "section-1": "/graduate/master-ma/advising-progress.html#section-1",
+        "fl-accordion--label-1": "/graduate/master-ma/advising-progress.html#section-1",
+        "section-3": "/graduate/master-ma/thesis.html#section-3",
+        "fl-accordion--label-3": "/graduate/master-ma/thesis.html#section-3",
+        "section-4": "/graduate/master-ma/thesis.html#section-4",
+        "fl-accordion--label-4": "/graduate/master-ma/thesis.html#section-4",
+        "section-5": "/graduate/master-ma/ma-event.html#section-5",
+        "fl-accordion--label-5": "/graduate/master-ma/ma-event.html#section-5",
+        "section-6": "/graduate/master-ma/ma-event.html#section-6",
+        "fl-accordion--label-6": "/graduate/master-ma/ma-event.html#section-6",
+        "section-2": "/graduate/master-ma/requirements.html#section-2",
+        "fl-accordion--label-2": "/graduate/master-ma/requirements.html#section-2"
+      }
+    },
+    {
+      "from": "/major/",
+      "to": "/undergraduate/major-ba.html",
+      "label": "Major"
+    },
+    {
+      "from": "/manfred-henningsen/",
+      "to": "/faculty/#emeritus-faculty",
+      "label": "Manfred Henningsen"
+    },
+    {
+      "from": "/michael-shapiro/",
+      "to": "/faculty/#emeritus-faculty",
+      "label": "Michael Shapiro"
+    },
+    {
+      "from": "/minor/",
+      "to": "/undergraduate/minor.html",
+      "label": "Minor"
+    },
+    {
+      "from": "/nevzat-soguk/",
+      "to": "/faculty/nevzat-soguk.html",
+      "label": "Nevzat Soguk"
+    },
+    {
+      "from": "/news/",
+      "to": "/news.html",
+      "label": "News"
+    },
+    {
+      "from": "/nicole-sunday-grove/",
+      "to": "/faculty/nicole-sunday-grove.html",
+      "label": "Nicole Sunday Grove"
+    },
+    {
+      "from": "/noelani-goodyear-kaopua/",
+      "to": "/faculty/noelani-goodyear-kaopua.html",
+      "label": "Noelani Goodyear-Kaʻōpua"
+    },
+    {
+      "from": "/noenoe-silva/",
+      "to": "/faculty/noenoe-silva.html",
+      "label": "Noenoe Silva"
+    },
+    {
+      "from": "/phd-program/",
+      "to": "/graduate/doctorate-phd/",
+      "label": "PhD Program",
+      "fragmentTargets": {
+        "section-4": "/graduate/doctorate-phd/proposal-exams.html#section-4",
+        "fl-accordion--label-4": "/graduate/doctorate-phd/proposal-exams.html#section-4",
+        "section-5": "/graduate/doctorate-phd/proposal-exams.html#section-5",
+        "fl-accordion--label-5": "/graduate/doctorate-phd/proposal-exams.html#section-5",
+        "section-9": "/graduate/doctorate-phd/timeline.html#section-9",
+        "fl-accordion--label-9": "/graduate/doctorate-phd/timeline.html#section-9",
+        "section-7": "/graduate/doctorate-phd/dissertation.html#section-7",
+        "fl-accordion--label-7": "/graduate/doctorate-phd/dissertation.html#section-7",
+        "section-8": "/graduate/doctorate-phd/dissertation.html#section-8",
+        "fl-accordion--label-8": "/graduate/doctorate-phd/dissertation.html#section-8",
+        "section-1": "/graduate/doctorate-phd/advising-committees.html#section-1",
+        "fl-accordion--label-1": "/graduate/doctorate-phd/advising-committees.html#section-1",
+        "section-3": "/graduate/doctorate-phd/advising-committees.html#section-3",
+        "fl-accordion--label-3": "/graduate/doctorate-phd/advising-committees.html#section-3",
+        "section-2": "/graduate/doctorate-phd/requirements.html#section-2",
+        "fl-accordion--label-2": "/graduate/doctorate-phd/requirements.html#section-2",
+        "section-0": "/graduate/doctorate-phd/requirements.html#section-0",
+        "fl-accordion--label-0": "/graduate/doctorate-phd/requirements.html#section-0",
+        "section-6": "/graduate/doctorate-phd/requirements.html#section-6",
+        "fl-accordion--label-6": "/graduate/doctorate-phd/requirements.html#section-6"
+      }
+    },
+    {
+      "from": "/pi-sigma-alpha/",
+      "to": "/pi-sigma-alpha.html",
+      "label": "Pi Sigma Alpha"
+    },
+    {
+      "from": "/political-theory/",
+      "to": "/about/specializations/political-theory.html",
+      "label": "Political Theory"
+    },
+    {
+      "from": "/privacy-policy/",
+      "to": "/privacy.html",
+      "label": "Privacy Policy"
+    },
+    {
+      "from": "/richard-chadwick/",
+      "to": "/faculty/#emeritus-faculty",
+      "label": "Richard Chadwick"
+    },
+    {
+      "from": "/sankaran-krishna/",
+      "to": "/faculty/sankaran-krishna.html",
+      "label": "Sankaran Krishna"
+    },
+    {
+      "from": "/specializations/",
+      "to": "/about/specializations/",
+      "label": "Specializations"
+    },
+    {
+      "from": "/teaching-opportunities/",
+      "to": "/graduate/teaching-opportunities.html",
+      "label": "Teaching Opportunities"
+    },
+    {
+      "from": "/undergraduate-advising/",
+      "to": "/undergraduate/advising-support.html",
+      "label": "Undergraduate Advising"
+    },
+    {
+      "from": "/undergraduate-program/",
+      "to": "/about/why-study-pols.html",
+      "label": "Undergraduate Program"
+    },
+    {
+      "from": "/undergraduate-slos/",
+      "to": "/undergraduate/student-learning-outcomes.html",
+      "label": "Undergraduate SLOs"
     }
   ],
-  "retired": [],
+  "retired": [
+    {
+      "from": "/colloquia.html",
+      "label": "Colloquia"
+    },
+    {
+      "from": "/colloquia/",
+      "label": "Legacy Colloquia"
+    }
+  ],
   "unresolved": []
 }

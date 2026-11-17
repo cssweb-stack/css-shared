@@ -36,5 +36,17 @@
     "phone": "(808) 956-0658",
     "phoneHref": "+18089560658",
     "email": "nishidad@hawaii.edu"
+  },
+  {
+    "slug": "jennifer-oshiro",
+    "name": "Jennifer Oshiro",
+    "title": "Academic Advisor",
+    "office": "Saunders Hall 604",
+    "phone": "(808) 956-0664",
+    "phoneHref": "+18089560664",
+    "email": "joshiro@hawaii.edu",
+    "photo": "/media/shared/advisors/jennifer-oshiro.webp",
+    "photoWidth": 215,
+    "photoHeight": 215
   }
 ]

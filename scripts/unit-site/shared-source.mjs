@@ -82,7 +82,7 @@ const matches = (source || []).filter(person => reference.matchRole
 ? person.roles?.includes(reference.matchRole)
 : person.slug === reference.slug);
 if (matches.length !== 1) throw new Error(`Expected one advising widget person: ${reference.source}/${reference.matchRole || reference.slug}`);
-return { ...matches[0], advisingRole: reference.role, advisingDescription: reference.description };
+return { ...matches[0], email: matches[0].roleEmails?.[reference.role] || matches[0].email, phone: reference.showPhone === false ? undefined : matches[0].phone, advisingRole: reference.role, advisingDescription: reference.description };
 }),
 });
 records.advising_widget = {
