@@ -179,7 +179,10 @@ heroes independently. Shared hero and attribution rendering use the same lookup.
 GitHub CLI is available for agent-managed commits, pushes and manual workflow
 runs when the user requests uploading/publishing. GitHub Desktop is optional.
 Before publishing, inspect the affected repositories and changes, preserve unrelated
-work, use meaningful commit messages, push required shared and unit sources first,
+work, and run `npm run check` once in css-shared when shared inputs changed.
+This required preflight catches the same shared contract failures that block every
+consumer workflow; a successful unit build does not substitute for it. Then
+use meaningful commit messages, push required shared and unit sources first,
 then dispatch the selected site workflows and Review last when affected.
 
 Default handoff is immediate after the pushes are confirmed and requested workflow

@@ -253,7 +253,7 @@ margin-bottom: 2cqi;
 .tile-landscape .program-tile-title {
 max-width: 100%;
 font-size: clamp(1.25rem, 12cqi, 3rem);
-line-height: 1.15;
+line-height: 1.5;
 white-space: normal;
 overflow-wrap: anywhere;
 }
@@ -265,5 +265,5 @@ margin-bottom: 2cqi;
 .tile-landscape .program-tile-label {
 min-height: 0;
 font-size: clamp(.75rem, 5cqi, 1.25rem);
-line-height: 1.25;
+line-height: 1.5;
 }
