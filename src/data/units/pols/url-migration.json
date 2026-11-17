@@ -290,11 +290,6 @@
       "label": "Nevzat Soguk"
     },
     {
-      "from": "/news/",
-      "to": "/news.html",
-      "label": "News"
-    },
-    {
       "from": "/nicole-sunday-grove/",
       "to": "/faculty/nicole-sunday-grove.html",
       "label": "Nicole Sunday Grove"
@@ -395,6 +390,14 @@
     {
       "from": "/colloquia/",
       "label": "Legacy Colloquia"
+    },
+    {
+      "from": "/news/",
+      "label": "Legacy News"
+    },
+    {
+      "from": "/news.html",
+      "label": "News"
     }
   ],
   "unresolved": []
