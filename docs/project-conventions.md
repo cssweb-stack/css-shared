@@ -1563,3 +1563,7 @@ The universal --grid-gap value is 33px at 992px and above, 27px at 768–991px, 
 ## Smile paragraph top spacing (November 18, 2026)
 
 Shared smile paragraphs add no top margin; preceding normal paragraph spacing supplies separation. This supersedes their former 2.25rem top margin. Icon sizing and bottom spacing remain unchanged.
+
+## Paragraph-to-grid spacing (November 18, 2026)
+
+A paragraph immediately followed by a shared equal/sidebar grid uses --grid-gap for its bottom margin: 33px desktop, 27px tablet, 21px mobile. Normal paragraph-to-paragraph spacing is unchanged. The shared rule belongs in grids.css; do not add per-page spacer elements or duplicate margin overrides for this relationship.

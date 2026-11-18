@@ -1,5 +1,13 @@
 # Current work handoff
 
+## November 18: Shared paragraph-to-grid spacing
+
+Added one shared grids.css rule assigning the responsive grid gap to paragraphs immediately before equal/sidebar grids. Normal prose spacing unchanged; no page-specific classes/spacers. Preparing shared upload and established-site publishing.
+
+## November 18: GIS Certificate source meaning restored
+
+Replaced three GIS Certificate overview/required/optional paragraphs using supplied source text. Preserved employer demand, relevant majors, all seven data activities, 16 credits/five upper-division courses/one-credit practicum, GIS/image-interpretation disciplinary core, integrative capstone, breadth/significant specialty depth, advanced remote sensing/data analytics and single equivalent three-credit non-GEO petition rule. Smoothed prose without new claims. Local only; broader GEO changes remain unuploaded.
+
 ## November 18: Removed extra gap above smile paragraphs
 
 Shared special-text.css smile top margin changed from 2.25rem to zero, fixing excessive spacing after GEO homepage/Courses intros and other consumers. Normal preceding paragraph margin remains; icon/bottom spacing unchanged. Preparing shared upload and established-site publishing. GEO Courses invitation and homepage source edits remain local.

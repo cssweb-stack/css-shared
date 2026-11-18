@@ -23,6 +23,14 @@ padding: 0;
 margin: 0;
 }
 
+/* Separate introductory prose from a following shared grid by one grid gap. */
+.site-main p:has(+ :is(.grid-one, .grid-two, .grid-three, .grid-four, .grid-five, .grid-six,
+.grid-welcome, .grid-profile, .grid-standard, .grid-compact,
+.sidebar-left-exsm, .sidebar-left-sm, .sidebar-left-med, .sidebar-left-large,
+.sidebar-right-exsm, .sidebar-right-sm, .sidebar-right-med, .sidebar-right-large)) {
+margin-bottom: var(--grid-gap);
+}
+
 /* Match the shell gutters on outer full-width wrappers. */
 @media (min-width: 576px) {
 .content-section > .row.grid-one {
