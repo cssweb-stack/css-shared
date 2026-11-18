@@ -1526,3 +1526,8 @@ Approved November17: shared focus outlines use2px width and3px offset via centra
 November 17: remove colored callout treatments as GEO pages are reviewed; use standard intro/content sections and shared grids instead. Preserve underlying content unless removal is requested. The restrained treatment supports consistency with university branding. Do not introduce new colored callouts during this cleanup.
 
 November 17: Courses H1s and local title metadata use Full Unit Name (ACRONYM) Courses. See the Courses page heading rule in website-build-rules.md; acronym-only H1s are superseded. Search titles retain the established short Courses plus unit suffix.
+
+November 17: accepted extra-small sidebar class suffix exsm, initially 12.5/87.5
+on desktop, with shared 33px gap and existing tablet/mobile behavior. Includes
+left/right mirrors. This supersedes the previous three-size-only agreement. GEO
+lecture rows use the new left extra-small size for visual review.

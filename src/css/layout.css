@@ -400,6 +400,14 @@ scroll-margin-top: calc(var(--sticky-header-height, 16rem) + 1rem);
 }
 
 /* Standard sidebars: sizes set wide tracks; direction only sets column order. */
+.sidebar-left-exsm,
+.sidebar-right-exsm {
+--sidebar-wide-narrow: 12.5fr;
+--sidebar-wide-content: 87.5fr;
+--sidebar-desktop-narrow: 12.5fr;
+--sidebar-desktop-content: 87.5fr;
+}
+
 .sidebar-left-sm,
 .sidebar-right-sm {
 --sidebar-wide-narrow: 17fr;
@@ -418,9 +426,11 @@ scroll-margin-top: calc(var(--sticky-header-height, 16rem) + 1rem);
 --sidebar-wide-content: 75fr;
 }
 
+.sidebar-left-exsm,
 .sidebar-left-sm,
 .sidebar-left-med,
 .sidebar-left-large,
+.sidebar-right-exsm,
 .sidebar-right-sm,
 .sidebar-right-med,
 .sidebar-right-large {
@@ -436,7 +446,8 @@ margin: 0;
 --bs-gutter-y: 0;
 }
 
-.site-main :is(.sidebar-left-sm, .sidebar-left-med, .sidebar-left-large, .sidebar-right-sm, .sidebar-right-med, .sidebar-right-large) > * {
+.site-main :is(.sidebar-left-exsm,
+.sidebar-left-sm, .sidebar-left-med, .sidebar-left-large, .sidebar-right-exsm, .sidebar-right-sm, .sidebar-right-med, .sidebar-right-large) > * {
 width: auto;
 max-width: none;
 min-width: 0;
@@ -444,21 +455,26 @@ padding: 0;
 margin: 0;
 }
 
-.site-main :is(.sidebar-left-sm, .sidebar-left-med, .sidebar-left-large, .sidebar-right-sm, .sidebar-right-med, .sidebar-right-large) > * > :last-child {
+.site-main :is(.sidebar-left-exsm,
+.sidebar-left-sm, .sidebar-left-med, .sidebar-left-large, .sidebar-right-exsm, .sidebar-right-sm, .sidebar-right-med, .sidebar-right-large) > * > :last-child {
 margin-bottom: 0;
 }
 
-.site-main :is(.sidebar-left-sm, .sidebar-left-med, .sidebar-left-large, .sidebar-right-sm, .sidebar-right-med, .sidebar-right-large) + :is(.sidebar-left-sm, .sidebar-left-med, .sidebar-left-large, .sidebar-right-sm, .sidebar-right-med, .sidebar-right-large) {
+.site-main :is(.sidebar-left-exsm,
+.sidebar-left-sm, .sidebar-left-med, .sidebar-left-large, .sidebar-right-exsm, .sidebar-right-sm, .sidebar-right-med, .sidebar-right-large) + :is(.sidebar-left-exsm,
+.sidebar-left-sm, .sidebar-left-med, .sidebar-left-large, .sidebar-right-exsm, .sidebar-right-sm, .sidebar-right-med, .sidebar-right-large) {
 margin-top: var(--sidebar-layout-gap);
 }
 
 @media (min-width: 768px) {
+.sidebar-left-exsm,
 .sidebar-left-sm,
 .sidebar-left-med,
 .sidebar-left-large {
 grid-template-columns: minmax(0, var(--sidebar-narrow-track)) minmax(0, var(--sidebar-content-track));
 }
 
+.sidebar-right-exsm,
 .sidebar-right-sm,
 .sidebar-right-med,
 .sidebar-right-large {
@@ -467,21 +483,25 @@ grid-template-columns: minmax(0, var(--sidebar-content-track)) minmax(0, var(--s
 }
 
 @media (min-width: 992px) {
+.sidebar-left-exsm,
 .sidebar-left-sm,
 .sidebar-left-med,
 .sidebar-left-large,
+.sidebar-right-exsm,
 .sidebar-right-sm,
 .sidebar-right-med,
 .sidebar-right-large {
---sidebar-narrow-track: 25fr;
---sidebar-content-track: 75fr;
+--sidebar-narrow-track: var(--sidebar-desktop-narrow, 25fr);
+--sidebar-content-track: var(--sidebar-desktop-content, 75fr);
 }
 }
 
 @media (min-width: 1600px) {
+.sidebar-left-exsm,
 .sidebar-left-sm,
 .sidebar-left-med,
 .sidebar-left-large,
+.sidebar-right-exsm,
 .sidebar-right-sm,
 .sidebar-right-med,
 .sidebar-right-large {

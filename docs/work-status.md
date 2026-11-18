@@ -1,5 +1,20 @@
 # Current work handoff
 
+## November 17: WGSS colloquia match GEO event layout
+
+Four existing colloquia now use standard sidebar-left-exsm rows with blue calendar/date tiles, shared calendar icon, H2 event titles and preserved speaker/time/location details. No year invented for source dates without one; David Khalili remains the heading where no talk title was supplied. Intro separated from schedule. WGSS build passed; four rows and speakers checked. Local shared and WGSS changes pending requested upload.
+
+
+## November 17: Extra-small sidebar added
+
+Added shared left/right exsm variants at 12.5/87.5 desktop (992px+), retaining 33/67 tablet and mobile stacking plus universal 33px gaps. GEO lecture-list rows now use sidebar-left-exsm; red guides include both mirrors. Recorded supersession of the three-size limit. GEO build passed; no other site layouts opted in. Local only, not uploaded.
+
+
+## November 17: GEO lecture schedule grid corrected
+
+Shared lecture-list include now wraps each calendar/date and lecture-details pair in sidebar-left-sm, replacing retired grid-compact. Standard outer row/col-12 wrapper remains on GEO page, with shared 33px spacing/progression. GEO build passed and rendered old grid absent. Also completed requested separate intro/gray sections on Why Study and Areas of Study; Why Study menu/H1 use question marks. Local shared/GEO changes remain pending upload.
+
+
 ## November 17: Courses filenames and head titles checked
 
 All seven units with Courses pages now use src/courses.html and /courses.html. Moved GEO out of About; updated its navigation, homepage link, hero key and real legacy redirect destination, with no development redirect added. GEO now uses searchTitle Courses and Geography and Environment | UH Mānoa suffix. Rendered the shared title-template expression for all seven: Courses | configured unit | UH Mānoa; H1s use Full Unit Name (ACRONYM) Courses. GEO build passed and stale old built file removed. Local only, not uploaded.

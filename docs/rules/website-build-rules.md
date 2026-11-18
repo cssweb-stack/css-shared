@@ -212,3 +212,11 @@ title metadata aligned with that H1; searchTitle may remain Courses with the
 configured unit suffix. Check actual rendered H1 text, including title-variable
 headings, during creation and naming/SEO review. This supersedes acronym-only
 Courses headings. Units without a Courses page do not need one invented.
+
+## Extra-small sidebars
+
+November 17: add sidebar-left-exsm and its mirrored sidebar-right-exsm to the
+shared sidebar family. Start at 12.5/87.5 on desktop (992px and wider), with
+existing 33/67 tablet proportions and mobile stacking. Gap remains 33px. This
+explicitly supersedes the earlier limit of three sidebar sizes. GEO lecture
+schedule uses sidebar-left-exsm; proportions are adjustable centrally after review.

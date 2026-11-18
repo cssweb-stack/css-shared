@@ -1,6 +1,7 @@
-<div class="grid-compact grid-spaced">
+<div>
 {% for lecture in events %}
 {% set date = lecture.date | eventDate %}
+<div class="sidebar-left-exsm">
 <div class="event-date-box tile-style tile-blue" aria-hidden="true">
 <span class="event-calendar-icon" aria-hidden="true">{% include "media/icons/calendar3.svg" %}</span>
 <span class="event-compact-date">{{ date.compact | escape }}</span>
@@ -17,5 +18,6 @@
 <li><time datetime="{{ date.iso | escape }}">{{ date.full | escape }}</time></li>
 </ul>
 </section>
+</div>
 {% endfor %}
 </div>

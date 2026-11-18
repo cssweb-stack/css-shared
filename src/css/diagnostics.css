@@ -34,8 +34,8 @@ box-shadow: inset 0 0 0 3px pink;
 .site-main :is(.grid-one, .grid-welcome, .grid-two, .grid-three, .grid-four, .grid-five,
 .grid-profile, .grid-standard, .grid-compact, .grid-six) > *,
 .site-main :is(.advising-grid, .advising-person,
-.sidebar-left-sm, .sidebar-left-med, .sidebar-left-large,
-.sidebar-right-sm, .sidebar-right-med, .sidebar-right-large,
+.sidebar-left-exsm, .sidebar-left-sm, .sidebar-left-med, .sidebar-left-large,
+.sidebar-right-exsm, .sidebar-right-sm, .sidebar-right-med, .sidebar-right-large,
 .portrait-card-grid) > * {
 box-shadow: inset 0 0 0 3px red;
 }
@@ -46,8 +46,8 @@ box-shadow: inset 0 0 0 3px red;
 .site-main .row > :is(.col, [class*="col-"]),
 .site-main :is(.grid-one, .grid-two, .grid-three, .grid-four, .grid-five, .grid-six) > *,
 .site-main :is(.advising-grid, .advising-person,
-.sidebar-left-sm, .sidebar-left-med, .sidebar-left-large,
-.sidebar-right-sm, .sidebar-right-med, .sidebar-right-large,
+.sidebar-left-exsm, .sidebar-left-sm, .sidebar-left-med, .sidebar-left-large,
+.sidebar-right-exsm, .sidebar-right-sm, .sidebar-right-med, .sidebar-right-large,
 .portrait-card-grid) > * {
 position: relative;
 }
@@ -56,8 +56,8 @@ position: relative;
 .site-main :is(.grid-one, .grid-two, .grid-three, .grid-four, .grid-five, .grid-six) > *::after,
 .site-main .program-tile::after,
 .site-main :is(.advising-grid, .advising-person,
-.sidebar-left-sm, .sidebar-left-med, .sidebar-left-large,
-.sidebar-right-sm, .sidebar-right-med, .sidebar-right-large,
+.sidebar-left-exsm, .sidebar-left-sm, .sidebar-left-med, .sidebar-left-large,
+.sidebar-right-exsm, .sidebar-right-sm, .sidebar-right-med, .sidebar-right-large,
 .portrait-card-grid) > *::after {
 content: "";
 position: absolute;
