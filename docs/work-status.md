@@ -1,5 +1,9 @@
 # Current work handoff
 
+## November 18: Bulk upload and publishing started
+
+Committed and pushed shared changes at ef1848b and all pending updates for geo d29baf9; anth 6b1ec2b; es 2a8bf09; pols d5a7067; puba f487f45; soc f97a957; wgss 85aa627; ssri 2b096c2. Started deploy.yml for GEO, ANTH, ES, POLS, PUBA, SOC, WGSS and SSRI after shared push succeeded. WGSS/SSRI had no unit-source changes but were republished for shared updates. GEO checklist included in requested bulk upload. Workflow completion/deployment not monitored, per agreed process. Earlier local-only entries are included in this batch.
+
 ## November 18: Separate program catalog sections retired
 
 Removed program-catalog include from 25 program pages across ANTH (8), ES (3), POLS (6), PUBA (3), SOC (5). Retained JSON as reference. Shared widget already labels catalog button with unit acronym and see Programs. Updated conventions/build/widget documentation to supersede separate sections. Builds passed for all eight established sites (GEO build preceding this pass); rendered output confirmed new labels and no standalone UH Mānoa Catalog H2 sections. Local only, not uploaded.
