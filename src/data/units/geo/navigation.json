@@ -68,6 +68,12 @@
         "url": "/undergraduate/geo-sust-bam.html",
         "iconColor": null,
         "icon": "signpost-2"
+      },
+      {
+        "label": "Advising & Support",
+        "url": "/undergraduate/advising-support.html",
+        "iconColor": null,
+        "icon": "people"
       }
     ]
   },
@@ -76,13 +82,13 @@
     "children": [
       {
         "label": "Master’s (MA)",
-        "url": "/graduate/masters-ma.html",
+        "url": "/graduate/master-ma/",
         "iconColor": null,
         "icon": "mortarboard"
       },
       {
         "label": "Doctorate (PhD)",
-        "url": "/graduate/doctorate-phd.html",
+        "url": "/graduate/doctorate-phd/",
         "iconColor": null,
         "icon": "mortarboard"
       },
@@ -103,6 +109,12 @@
         "url": "/graduate/funding-sources.html",
         "iconColor": null,
         "icon": "cash-coin"
+      },
+      {
+        "label": "Applications & Admissions",
+        "url": "/graduate/applications-admissions.html",
+        "iconColor": null,
+        "icon": "mortarboard"
       }
     ]
   },

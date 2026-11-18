@@ -1,7 +1,7 @@
 # Academic course resources
 
 `src/includes/layouts/content/course-resources.njk` renders the gray rounded panel
-with Class Availability, Course Descriptions, and UH Mānoa Catalog buttons. Links are
+with Class Availability, Course Descriptions, and unit-acronym Catalog (see Programs) buttons. Links are
 read directly from JSON; the former `site.courseResources` assembly is retired.
 
 - Shared Class Availability and Course Descriptions URLs: `src/data/common/links.json`.
@@ -61,3 +61,5 @@ records have labels; records without a separate unit abbreviation use their
 existing program name in parentheses. Original names and destination URLs stay
 unchanged. A direct legacy unit catalog record without a label falls back to
 `UH Mānoa Catalog (<unit short name>)`.
+
+November 18: the catalog button is the single standard catalog entry point; separate program-sheet link sections are retired to minimize annual link maintenance. Catalog destinations are unchanged.

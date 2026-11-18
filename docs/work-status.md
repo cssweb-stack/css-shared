@@ -1,5 +1,133 @@
 # Current work handoff
 
+## November 18: Separate program catalog sections retired
+
+Removed program-catalog include from 25 program pages across ANTH (8), ES (3), POLS (6), PUBA (3), SOC (5). Retained JSON as reference. Shared widget already labels catalog button with unit acronym and see Programs. Updated conventions/build/widget documentation to supersede separate sections. Builds passed for all eight established sites (GEO build preceding this pass); rendered output confirmed new labels and no standalone UH Mānoa Catalog H2 sections. Local only, not uploaded.
+
+## November 18: Course widget catalog label clarified
+
+Shared course-resource catalog button now uses unit acronym plus Catalog (see Programs); destination unchanged. Applies to all consumers on rebuild. Local only, not uploaded.
+
+## November 18: Shared stacking tables consolidated
+
+All content-table variants now share one below-1200px labeled row-stacking implementation in tables.css; removed separate completion/responsive behavior. Moved directory CSS into same stylesheet, retaining directory semantic articles and contact-specific tracks, sharing record color/padding/gap tokens. Added consistent labels/value wrappers and explicit table roles to existing GEO/POLS/SOC/PUBA tables and shared inquiries template. Removed forced double breaks in GEO MA timeline. Builds passed for GEO, POLS, SOC, PUBA, SSRI; Chrome checked 36 page/viewport combinations at 390/820/1440 with no table-cell overflow, missing labels or directory-field overlap. Local only; no commits, uploads or workflow runs. Other pending GEO/advisor work preserved.
+
+## November 18: MA timeline caption and spacing
+
+Removed duplicate sentence above table; caption now names GEO MA program and uses existing caption-bottom utility. Removed table’s 3rem bottom margin with existing mb-0 utility, leaving footnote immediately below. Cross-checked all five semester/summer rows against supplied MA handbook: courses, thesis milestones and form references match. Local only, not uploaded.
+
+## November 18: GEO Degrees Awarded lecture-style tiles
+
+Replaced imageTextRow program tiles with existing lecture sidebar-left-exsm/date-badge treatment, labels MA/PhD, blue/purple respectively. Noninteractive badges have no program-tile hover movement; linked recipient headings and descriptions unchanged. Local only, not uploaded.
+
+## November 18: Graduate admissions intro consolidated
+
+Merged introductory preparation paragraphs into one, preserving related-field eligibility, no undergraduate geography degree requirement, possible foundational coursework, faculty/research fit and Graduate Chair contact. Deadline bullet stays separate. Changed Ready to Apply H3 to Application Requirements H2. Local only, not uploaded.
+
+## November 18: Ready to Apply blocks merged
+
+Confirmed both blocks match except writing-sample requirement. Kept one block with nested MA optional/PhD required bullets under Writing sample; removed duplicate lower block including repeated application links/deadline prose. Local only, not uploaded.
+
+## November 18: Graduate admissions preparation paragraphs moved
+
+Moved both MA Exploring paragraphs and PhD Exploring paragraph intact to intro above deadline bullet. Removed MA/PhD Applications and Exploring headings plus dividers above Ready to Apply. Both Ready to Apply blocks retained unchanged for comparison/merge next. Local only, not uploaded.
+
+## November 18: Graduate admissions opening deduplicated
+
+Moved original prospective-student paragraph and fall January 15 deadline bullet into intro without merging. Removed Applying for Graduate Study heading, numbered application/upload sections and associated lists/divider. Retained both MA/PhD Exploring/Ready to Apply blocks for next consolidation. Local only, not uploaded.
+
+## November 18: Undergraduate advising GIS scope narrowed
+
+Removed duplicate GEO 492 academic/practicum requirements from Advising & Support; those remain on GIS Certificate. Retained application appointment and final-semester approval/submission steps on advising. Checked exact paragraph removal and certificate retention. Local only, not uploaded.
+
+## November 18: BAM advising referrals separated
+
+On both BAM pages, removed other-pathway cross-link sentence and moved existing info-styled Advising & Support referral into its own page section between admissions and the separate final course widget. Text otherwise unchanged. Local only, not uploaded.
+
+## November 18: BAM grids use lecture proportions
+
+Both GEO BAM pages now use shared sidebar-left-exsm and existing lecture badge/icon treatment for their three course sections. Preserved icons, colors and all content; calendar sizing/opacity/mobile badge width reused without new CSS or grid variants. Local only, not uploaded.
+
+## November 18: GEO advising program sections consolidated
+
+Removed Plan Your Studies overview/list. Gray content now follows certificate, minor/major declaration, then BAM pathways. Embedded program links in relevant descriptions, retained GIS application/completion and declaration guidance, added linked BAM paragraph directing undergraduate/graduate questions to existing chairs. Advisor group and final course widget unchanged. Local only, not uploaded.
+
+## November 18: Sustainability BAM returned to department source
+
+Reorganized SUST BA/GEO MA into matching intro, gray advantages/general requirements/three-part course grid, white admissions/advising/related-pathway sentence and separate course widget. Used published bam-interdisciplinary WordPress export only for program facts: restored original five specialization choices and contacts; removed catalog-derived GEO 415 option, GEO 692 requirement, extra graduate policies, coordinator instructions and sample-plan link absent from source. Retained original credit totals, gateway/core role, shared-course substitutions, GPA timing and admissions facts. Local only, not committed or uploaded.
+
+## November 18: GEO BAM source-only content alignment
+
+Aligned BA/MA page to original department WordPress BAM text: restored GPA timing, ninth-semester graduate start, continuous-enrollment/leave conditions, BA-not-conferred consequence, graduate leave eligibility and original sample-plan destination. Removed additional university/coordinator restrictions, admission caveats and unsupported time estimates; simplified intro and restored specialization credit value/GEO 696 wording. Source supports existing three-part course grid, retained. Approved advising/related-program links retained. Local only, not committed or uploaded.
+
+## November 18: GEO BAM closing sections simplified
+
+Replaced expanded admissions narrative with original March 15 application/fee/materials and sixth/seventh-semester admission/shared-coursework facts. Retained existing sample-plan link. Added standard info referral to Advising & Support and reduced related BAM block to one linked sentence. Course widget remains separate above footer. Local only, not committed or uploaded; full source-fidelity comparison remains next.
+
+## November 18: GEO BAM section order
+
+Moved existing policies block into gray band as General Requirements between BAM Advantages and Courses and Credits; removed its callout styling. Applications and Admissions stays below gray with callout styling removed. Existing wording retained for the upcoming source-fidelity review; related-pathway block remains after admissions and widget stays in its own final section. Local only, not committed or uploaded.
+
+## November 18: GEO BA/MA BAM layout first pass
+
+Separated H1/existing intro into white intro, removed tagline and BAM at a Glance, and started gray band with plain BAM Advantages followed by Courses and Credits with its existing three-part grid. Policies, admissions and related-pathway block retained unchanged below gray for next review. Course widget moved to its own final section. No copy rewrite in this pass. Local only, not committed or uploaded.
+
+## November 18: Program advising funnel established
+
+Recorded universal program-page next-step routing: dedicated appropriate Advising & Support first, Contact fallback only if absent. GIS elective petition chair link now targets Undergraduate Advising & Support; removed duplicate bottom application section/form link, retaining application steps/form on Advising & Support. Added shared info-styled referral in own section before course widget; scholarship stays on GIS page. Academic requirements unchanged. Local only, not uploaded.
+
+## November 18: GIS course descriptions aligned with supplied current site
+
+Compared all ten GIS Certificate course descriptions with user-supplied source and replaced drifted text with faithful smoothing. Restored database/IT foundations (388), cartographic design topics (375), satellite resolution/mapping scales (470), resource management/decision making (471), web services/geodatabase skills (476), big-data exploration/mining (487), social/natural/environmental applications plus lab/projects (489). Preserved remaining source details in 370/492/472. Advising GIS practicum paragraph now directly states source project/supervisor/report requirements, removing added before-you-begin instructions. Application/completion steps map to supplied application form. Restored certificate minimum C grade and six-credit double-count/ten-unique-credit rule from supplied form in certificate coursework section; these had been lost with At a Glance removal. Local only, not uploaded.
+
+## November 18: GEO advising heading and practicum provenance
+
+Advisor group heading generalized to GEO Advising & Support. Confirmed faculty-supervisor and detailed-report requirements in original GIS Certificate WordPress XML, GEO 492 description, from supplied November 17 export. Advice to discuss arrangements before beginning is added practical guidance, not a quoted source rule. Local only, not uploaded.
+
+## November 18: GEO undergraduate advising page organized
+
+Replaced duplicated major/minor planning sections with program-wide intro, five linked undergraduate/BAM options, general planning guidance, major/minor declaration process with existing form/Registrar links, and GIS application/practicum/completion guidance. Advisors moved below gray on white. GEO advising data now role-orders Hong (undergraduate), Mary (graduate BAM questions), Dawn (general education/overall planning), reusing existing records. Shared advisor template/layout unchanged. Course widget remains separate final section. Local only, not uploaded.
+
+## November 18: Advisor typography matches profiles
+
+Mapped undergraduate-advisors.njk name/title/role markup to shared profile-name/profile-titles classes; email uses existing contactLinks macro inside profile-contact, including divider and accessible email label. Removed advisor-name font override. Existing data/order, capped portraits and stacking unchanged. Local only, not uploaded.
+
+## November 18: Advisor pairs stack before emails wrap
+
+Shared advisor group stacks below 1200px. From 768px each pair uses a capped 200px photo track plus flexible text; on phones photo/text stack. Image cap remains 200px even when shared 66% mobile setting applies, using optional shared max-width token. GEO build passed; Chrome at 390/768/820/1199/1200/1600 confirmed caps, expected stacking, no email wrapping or overflow. Hong/Dawn content unchanged. Local only, not uploaded.
+
+## November 18: Shared undergraduate advisor grid repaired
+
+Replaced broken direct-image sidebar layout in undergraduate-advisors.njk with outer grid-two and nested grid-two per advisor. Wrapped/constrained images to cells; adopted shared email-link component, central mobile 66% photo setting. Hong/Dawn data/order unchanged. GEO build passed; local Chrome at 390/768/820/1200/1600 confirmed no photo/text overlap, no card/page overflow and responsive stacking. Narrow tablet emails may wrap. Currently GEO is the only consumer found. Local only, not uploaded.
+
+## November 18: GEO BA outcomes link added
+
+Added one plain sentence linking Student Learning Outcomes below final BA specialization grid inside gray section. Departmental wording avoids claiming exclusive BA scope; no extra H2 or icon and no Minor link added. Local only, not uploaded.
+
+## November 18: GEO learning outcomes scope corrected
+
+Removed BA/major attribution from outcomes intro, gray lead-in and meta description because original source does not identify a specific program. Text now refers generally to departmental geography knowledge/skills; literal numbered outcomes and approved bold labels unchanged. No BA-page outcomes section added. Local only, not uploaded.
+
+## November 18: GEO undergraduate outcomes exact-text layout
+
+Separated H1/first intro sentence, gray Learning Outcomes H2/existing lead-in/numbered list, and final course-widget section. Removed tagline. Replaced outcome markup with user-supplied literal wording/punctuation; labels subsequently changed from italic to bold at user request; removed previously added period after item 3 geospatial sub-bullet, preserved supplied nonbreaking space in advanced geospatial phrase. No outcome rewriting. Saved block compared exactly to supplied literal markup. Local only, not uploaded.
+
+## November 18: GEO BA specialization lists split evenly
+
+All five upper-division specialization course lists now use shared grid-two with balanced ul columns, stacking on mobile. Kept Human/Environmental/Geospatial/Asia Pacific/Directed Studies ordering and all course entries; Core Courses remains one full-width list. Shared list indentation applies. Local only, not uploaded.
+
+## November 18: GEO BA overall credit requirement restored
+
+Gray section now starts with Requirements H2 and explicit at-least-31-credit statement. Renamed Core Course Requirements to Core Courses (19 credits); specialization heading retains 12-credit minimum without repeating it in paragraph. Preserved six credits at 400 level and source specialization guidance. Removed accent spans from both headings, retained normal dividers. Local only, not uploaded.
+
+## November 18: GEO BA specialization paragraph source-aligned
+
+Revised specialization lead to explicitly require at least 12 credits from listed courses, including at least six at 400 level, and preserve encouragement toward three geographic fields or appropriate specialization in individual interests. Removed added blanket three-credit-course claim and advising instruction from this paragraph. Existing H2/course lists unchanged. Local only, not uploaded.
+
+## November 18: GEO major/minor advising links broadened
+
+Both bottom advising referrals now cover course selection, degree planning, general education requirements and declaring a major/minor. Used shared smile layout with warm info-circle icon and existing fs-5 utility for larger text; no new CSS. Links remain above separate course-widget sections. Local only, not uploaded.
+
 ## November 18: List markers inside grid cells
 
 Shared equal/sidebar grid child reset removed padding from direct ul/ol cells, leaving markers outside their boundaries. Restored 2rem inline-start list padding centrally; explicit unstyled/inline lists exempt. GEO Minor course content unchanged. Preparing shared upload and established-site publishing; GEO Minor source remains local.

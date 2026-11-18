@@ -1,0 +1,64 @@
+{
+  "ma": {
+    "label": "Geography and Environment MA",
+    "pages": [
+      {
+        "label": "Overview",
+        "url": "/graduate/master-ma/"
+      },
+      {
+        "label": "Requirements",
+        "url": "/graduate/master-ma/requirements.html"
+      },
+      {
+        "label": "Enrollment & Standing",
+        "url": "/graduate/master-ma/enrollment-standing.html"
+      },
+      {
+        "label": "Progress Guide",
+        "url": "/graduate/master-ma/progress-guide.html"
+      },
+      {
+        "label": "Thesis & Defense",
+        "url": "/graduate/master-ma/thesis-defense.html"
+      },
+      {
+        "label": "Timeline",
+        "url": "/graduate/master-ma/timeline.html"
+      }
+    ]
+  },
+  "phd": {
+    "label": "Geography and Environment PhD",
+    "pages": [
+      {
+        "label": "Overview",
+        "url": "/graduate/doctorate-phd/"
+      },
+      {
+        "label": "Requirements",
+        "url": "/graduate/doctorate-phd/requirements.html"
+      },
+      {
+        "label": "Advising & Committees",
+        "url": "/graduate/doctorate-phd/advising-committees.html"
+      },
+      {
+        "label": "Enrollment & Standing",
+        "url": "/graduate/doctorate-phd/enrollment-standing.html"
+      },
+      {
+        "label": "Progress Guide",
+        "url": "/graduate/doctorate-phd/progress-guide.html"
+      },
+      {
+        "label": "Exams & Proposal",
+        "url": "/graduate/doctorate-phd/exams-proposal.html"
+      },
+      {
+        "label": "Dissertation & Defense",
+        "url": "/graduate/doctorate-phd/dissertation-defense.html"
+      }
+    ]
+  }
+}

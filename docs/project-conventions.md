@@ -1511,7 +1511,7 @@ Approved November 16, 2026: every unit contact page uses “Contact [full unit n
 
 ## Academic-program course widget
 
-Approved November 16, 2026: every academic-program page includes the unit’s shared course-resources widget as its final page-content section, directly above the footer. Applies to undergraduate and graduate degrees, minors, certificates, combined pathways, and every academic subpage within MA/PhD or other program sections, not only their landing pages. Use layouts/content/course-resources.njk with the standard page-section/container/row/col-12 wrapper and the unit’s central course data; never duplicate buttons or invent a separate widget. Place program catalog links and any other page sections before this final widget. The course widget always has its own dedicated container. Advising/application callouts belong in a separate section/container above it, never inside the course widget’s container. Check this during page creation and final review; ask only when a page’s academic-program scope is genuinely unclear. This supersedes the earlier “other degree pages can be aligned as reviewed” deferral.
+Approved November 16, 2026: every academic-program page includes the unit’s shared course-resources widget as its final page-content section, directly above the footer. Applies to undergraduate and graduate degrees, minors, certificates, combined pathways, and every academic subpage within MA/PhD or other program sections, not only their landing pages. Use layouts/content/course-resources.njk with the standard page-section/container/row/col-12 wrapper and the unit’s central course data; never duplicate buttons or invent a separate widget. Place other page sections before this final widget. Separate program-catalog sections are retired; use the widget catalog link as agreed November 18. The course widget always has its own dedicated container. Advising/application callouts belong in a separate section/container above it, never inside the course widget’s container. Check this during page creation and final review; ask only when a page’s academic-program scope is genuinely unclear. This supersedes the earlier “other degree pages can be aligned as reviewed” deferral.
 
 ## Support-page naming and review scope
 
@@ -1571,3 +1571,27 @@ A paragraph immediately followed by a shared equal/sidebar grid uses --grid-gap 
 ## Lists as grid cells (November 18, 2026)
 
 Native ul/ol elements used directly as shared grid cells retain 2rem inline-start padding so markers stay within cell boundaries and wrapped text aligns naturally. Shared grid child resets must not strip this indentation. Explicit list-unstyled/list-inline treatments are exempt. Fix the shared rule rather than padding individual course lists.
+
+## Unlabeled student learning outcomes (November 18, 2026)
+
+When supplied learning outcomes do not explicitly identify a degree/program, keep introductions and metadata program-neutral. Do not infer scope from course references or from our own rewritten introductory text. Preserve the actual outcomes; record uncertain scope for department review rather than labeling them BA/MA/etc. GEO outcomes currently remain unlabeled by program.
+
+## Shared undergraduate advisor pairs (November 18, 2026)
+
+Undergraduate-advisors.njk uses grid-two for the advisor group, stacking below 1200px. Each advisor pair uses grid-two with a photo track capped at 200px from 768px upward and flexible remaining text space; below 768px photo and text stack. This supersedes the initial nested 50/50 inner layout, which cramped emails. Dedicated image wrappers constrain portraits to 200px; mobile uses the shared 66% width subject to that cap. Existing data/order retained and shared contact-link treatment used. Gaps inherit the universal grid token; no new grid family.
+
+## Advisor identity/contact styling (November 18, 2026)
+
+Shared advisor rows use profile-name, profile-titles/job/admin-title and profile-contact styles plus the existing contactLinks macro. Names, title sizes/weights, contact dividers/icons and email treatment therefore share the same controls as directory/profile displays. Do not introduce advisor-specific identity typography; layout may differ without duplicating text/contact styles. Keep supplied advisor data unchanged.
+
+## Program next steps funnel through advising (November 18, 2026)
+
+Degree/certificate pages explain their programs and academic requirements. When a relevant dedicated Advising & Support page exists, direct next-step inquiries, application/declaration/completion processes and who-to-contact guidance there; do not send those inquiries to the general Contact page or duplicate the workflow on every program page. When no dedicated advising page exists, use Contact as the fallback. Keep a concise advising referral above the separate final course-widget section. Applies to majors, minors, certificates and other academic pathways, using the appropriate undergraduate/graduate advising destination. Academic requirements remain on program pages; do not remove them as administrative duplication. Existing GIS application process/form is centralized on GEO Advising & Support.
+
+## Shared stacking tables and directories
+
+November 18: tables and record directories use one shared stylesheet, src/css/tables.css. Content tables stack each body row into labeled fields below 1200px, retaining native table/header semantics and explicit roles when display changes. All td cells carry a content-table-label (matching column header, aria-hidden) and a content-table-value wrapper preserving inline text/link flow. Desktop width modifiers affect columns, not separate stacking implementations. Directory templates retain their semantic articles and contact-specific tablet/desktop column arrangements in that same stylesheet; common record colors, padding and gap tokens are centralized there. Supersedes separate completion-rate/responsive-table stacking rules and people-directory.css. No duplicated mobile content or JavaScript required.
+
+## Single catalog entry point
+
+November 18: use the shared course widget’s unit-acronym Catalog (see Programs) button as the standard catalog entry point. Remove standalone program-catalog sections from ANTH, ES, POLS, PUBA and SOC. Keep existing program-catalog JSON only as reference, not a maintained public link list. This supersedes adding direct catalog program-sheet links on individual program pages; fewer annual catalog links reduce manual maintenance. Keep unrelated editorial catalog links unless separately reviewed.

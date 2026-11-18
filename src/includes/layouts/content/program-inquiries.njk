@@ -1,15 +1,27 @@
 {% if contact_inquiries.entries | length %}
 <h2>{{ contact_inquiries.heading | default("Program Inquiries") | escape }}</h2>
-<table class="content-table" aria-label="{{ contact_inquiries.heading | default('Program Inquiries') | escape }}">
-<thead>
-<tr>
-<th scope="col">Inquiry</th><th scope="col">Email</th>
+<table class="content-table" aria-label="{{ contact_inquiries.heading | default('Program Inquiries') | escape }}" role="table">
+<thead role="rowgroup">
+<tr role="row">
+<th scope="col" role="columnheader">Inquiry</th>
+<th scope="col" role="columnheader">Email</th>
 </tr>
 </thead>
-<tbody>
+<tbody role="rowgroup">
 {% for inquiry in contact_inquiries.entries %}
-<tr>
-<td>{{ inquiry.label | escape }}</td><td><a href="mailto:{{ inquiry.email | escape }}">{{ inquiry.email | escape }}</a></td>
+<tr role="row">
+<td role="cell">
+<span class="content-table-label" aria-hidden="true">Inquiry</span>
+<div class="content-table-value">
+{{ inquiry.label | escape }}
+</div>
+</td>
+<td role="cell">
+<span class="content-table-label" aria-hidden="true">Email</span>
+<div class="content-table-value">
+<a href="mailto:{{ inquiry.email | escape }}">{{ inquiry.email | escape }}</a>
+</div>
+</td>
 </tr>
 {% endfor %}
 </tbody>

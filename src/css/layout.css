@@ -533,6 +533,7 @@ grid-template-columns: minmax(0, var(--sidebar-content-track)) minmax(0, var(--s
 @media (max-width: 767.98px) {
 .site-main :is(.portrait-card-grid, .faculty-portrait-grid) .profile-directory-photo,
 .site-main .profile-sidebar .profile-photo,
+.site-main .advisor-photo > img,
 .site-main .profile-sidebar .sidebar-media,
 .site-main .unit-contact-office .office-card > img,
 .site-main .image-text-media > img,
@@ -540,7 +541,7 @@ grid-template-columns: minmax(0, var(--sidebar-content-track)) minmax(0, var(--s
 .site-main :is(.sidebar-left-exsm, .sidebar-left-sm, .sidebar-left-med, .sidebar-left-large, .sidebar-right-exsm, .sidebar-right-sm, .sidebar-right-med, .sidebar-right-large) > img.photo-style,
 .site-main :is(.sidebar-left-exsm, .sidebar-left-sm, .sidebar-left-med, .sidebar-left-large, .sidebar-right-exsm, .sidebar-right-sm, .sidebar-right-med, .sidebar-right-large) > div:not(.image-text-content) > img.photo-style {
 width: var(--mobile-supporting-image-width);
-max-width: var(--mobile-supporting-image-width);
+max-width: min(var(--mobile-supporting-image-width), var(--supporting-image-max-width, 100%));
 height: auto;
 margin-inline: 0;
 }

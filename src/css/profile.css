@@ -411,9 +411,28 @@ color: var(--icons);
 fill: currentColor;
 }
 
-/* Advising */
-.site-main .advisor-name {
-font-size: 1.14rem;
+/* Advising: compact portraits and full-width pairs before contact text gets cramped. */
+.advisor-photo {
+--supporting-image-max-width: 200px;
+}
+
+.advisor-photo > img {
+display: block;
+width: 100%;
+max-width: var(--supporting-image-max-width);
+height: auto;
+}
+
+@media (min-width: 768px) {
+.advisor-pair {
+grid-template-columns: minmax(0, 200px) minmax(0, 1fr);
+}
+}
+
+@media (max-width: 1199.98px) {
+.undergraduate-advisors-grid {
+--grid-columns: 1;
+}
 }
 
 

@@ -92,7 +92,7 @@ or a framework default as an approved exception.
 
 ## Academic-program course resources
 
-Every academic-program page, including degree, minor, certificate, combined-pathway and program subpages, ends with its unit’s shared course-resources widget directly above the footer. Use `layouts/content/course-resources.njk` inside the standard page-section/container/row/col-12 wrapper. The course widget always has its own dedicated container. Put advising/application callouts in a separate section/container above it. Keep catalog sections and other content before it. Check this when creating pages and during final review; ask if program scope is unclear.
+Every academic-program page, including degree, minor, certificate, combined-pathway and program subpages, ends with its unit’s shared course-resources widget directly above the footer. Use `layouts/content/course-resources.njk` inside the standard page-section/container/row/col-12 wrapper. The course widget always has its own dedicated container. Put advising/application callouts in a separate section/container above it. Keep other content before it. Do not add separate program-catalog sections; the shared widget’s unit-acronym Catalog (see Programs) button is the standard entry point. Check this when creating pages and during final review; ask if program scope is unclear.
 
 ## Permanent source archives
 
@@ -220,3 +220,9 @@ shared sidebar family. Start at 12.5/87.5 on desktop (992px and wider), with
 existing 33/67 tablet proportions and mobile stacking. Gap remains 33px. This
 explicitly supersedes the earlier limit of three sidebar sizes. GEO lecture
 schedule uses sidebar-left-exsm; proportions are adjustable centrally after review.
+
+## Numbered guides
+
+Preserve a numbered progress guide as one continuous sequence on one page. Do not
+split its steps across topical pages unless the user explicitly requests that split.
+Topic navigation does not justify breaking an existing procedural sequence.

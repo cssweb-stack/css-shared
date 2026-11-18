@@ -1,25 +1,34 @@
+{% from "layouts/profiles/contact-links.njk" import contactLinks %}
 {% if advising.people | length %}
 <section class="grid-spaced" aria-labelledby="undergraduate-advising-heading">
 <h2 id="undergraduate-advising-heading">{{ site.shortName | escape }} {{ advising.heading | default('Undergraduate Advising') | escape }}</h2>
 {% if advising.intro %}
 <p>{{ advising.intro | escape }}</p>
 {% endif %}
-<div class="grid-two">
+<div class="grid-two undergraduate-advisors-grid">
 {% for advisor in advising.people %}
-<div class="sidebar-left-med">
+<div class="grid-two advisor-pair">
 {% if advisor.photo %}
+<div class="advisor-photo">
 <img class="photo-style" src="{{ advisor.photo | url }}" alt="{{ advisor.name | escape }}" width="112" height="112" loading="lazy" decoding="async">
+</div>
 {% endif %}
 <div>
-<h3 class="advisor-name">{% if advisor.url %}<a href="{{ advisor.url | url }}">{{ advisor.name | escape }}</a>{% else %}{{ advisor.name | escape }}{% endif %}</h3>
+<h3 class="profile-name">{% if advisor.url %}<a href="{{ advisor.url | url }}">{{ advisor.name | escape }}</a>{% else %}{{ advisor.name | escape }}{% endif %}</h3>
+{% if advisor.title or advisor.role %}
+<div class="profile-titles">
 {% if advisor.title %}
-<p><strong>{{ advisor.title | escape }}</strong></p>
+<p class="profile-job-title">{{ advisor.title | escape }}</p>
 {% endif %}
 {% if advisor.role %}
-<p><strong>{{ advisor.role | escape }}</strong></p>
+<p class="profile-admin-title">{{ advisor.role | escape }}</p>
+{% endif %}
+</div>
 {% endif %}
 {% if advisor.email %}
-<p><a href="mailto:{{ advisor.email | escape }}"><span aria-hidden="true">{% include "media/icons/envelope.svg" %}</span><span>{{ advisor.email | escape }}</span></a></p>
+<address class="profile-contact">
+{{ contactLinks(advisor.email, "mailto:" + advisor.email) }}
+</address>
 {% endif %}
 </div>
 </div>

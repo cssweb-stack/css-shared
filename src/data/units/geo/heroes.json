@@ -55,12 +55,12 @@
       "location": "Bali, Indonesia",
       "alt": "Satellite imagery of Bali, Indonesia"
     },
-    "/graduate/master-ma.html": {
+    "/graduate/master-ma/": {
       "image": "/media/heroes/geo/hana-maui.webp",
       "location": "Hāna, Maui, Hawaiʻi",
       "alt": "Satellite imagery of Hāna, Maui, Hawaiʻi"
     },
-    "/graduate/doctorate-phd.html": {
+    "/graduate/doctorate-phd/": {
       "image": "/media/heroes/geo/tokyo-japan.webp",
       "location": "Tokyo, Japan",
       "alt": "Satellite imagery of Tokyo, Japan"
@@ -115,6 +115,71 @@
       "image": "/media/heroes/geo/kahului-maui-hawaii.webp",
       "location": "Kahului, Maui, Hawaiʻi",
       "alt": "Satellite imagery of Kahului, Maui, Hawaiʻi"
+    },
+    "/graduate/master-ma/requirements.html": {
+      "image": "/media/heroes/geo/hana-maui.webp",
+      "location": "Hāna, Maui, Hawaiʻi",
+      "alt": "Satellite imagery of Hāna, Maui, Hawaiʻi"
+    },
+    "/graduate/master-ma/progress-guide.html": {
+      "image": "/media/heroes/geo/hana-maui.webp",
+      "location": "Hāna, Maui, Hawaiʻi",
+      "alt": "Satellite imagery of Hāna, Maui, Hawaiʻi"
+    },
+    "/graduate/master-ma/thesis-defense.html": {
+      "image": "/media/heroes/geo/hana-maui.webp",
+      "location": "Hāna, Maui, Hawaiʻi",
+      "alt": "Satellite imagery of Hāna, Maui, Hawaiʻi"
+    },
+    "/graduate/master-ma/timeline.html": {
+      "image": "/media/heroes/geo/hana-maui.webp",
+      "location": "Hāna, Maui, Hawaiʻi",
+      "alt": "Satellite imagery of Hāna, Maui, Hawaiʻi"
+    },
+    "/graduate/applications-admissions.html": {
+      "image": "/media/heroes/geo/hana-maui.webp",
+      "location": "Hāna, Maui, Hawaiʻi",
+      "alt": "Satellite imagery of Hāna, Maui, Hawaiʻi"
+    },
+    "/graduate/master-ma/enrollment-standing.html": {
+      "image": "/media/heroes/geo/hana-maui.webp",
+      "location": "Hāna, Maui, Hawaiʻi",
+      "alt": "Satellite imagery of Hāna, Maui, Hawaiʻi"
+    },
+    "/graduate/doctorate-phd/requirements.html": {
+      "image": "/media/heroes/geo/tokyo-japan.webp",
+      "location": "Tokyo, Japan",
+      "alt": "Satellite imagery of Tokyo, Japan"
+    },
+    "/graduate/doctorate-phd/advising-committees.html": {
+      "image": "/media/heroes/geo/tokyo-japan.webp",
+      "location": "Tokyo, Japan",
+      "alt": "Satellite imagery of Tokyo, Japan"
+    },
+    "/graduate/doctorate-phd/enrollment-standing.html": {
+      "image": "/media/heroes/geo/tokyo-japan.webp",
+      "location": "Tokyo, Japan",
+      "alt": "Satellite imagery of Tokyo, Japan"
+    },
+    "/graduate/doctorate-phd/progress-guide.html": {
+      "image": "/media/heroes/geo/tokyo-japan.webp",
+      "location": "Tokyo, Japan",
+      "alt": "Satellite imagery of Tokyo, Japan"
+    },
+    "/graduate/doctorate-phd/exams-proposal.html": {
+      "image": "/media/heroes/geo/tokyo-japan.webp",
+      "location": "Tokyo, Japan",
+      "alt": "Satellite imagery of Tokyo, Japan"
+    },
+    "/graduate/doctorate-phd/dissertation-defense.html": {
+      "image": "/media/heroes/geo/tokyo-japan.webp",
+      "location": "Tokyo, Japan",
+      "alt": "Satellite imagery of Tokyo, Japan"
+    },
+    "/undergraduate/advising-support.html": {
+      "image": "/media/heroes/geo/taipei-taiwan.webp",
+      "location": "Taipei, Taiwan",
+      "alt": "Satellite imagery of Taipei, Taiwan"
     }
   },
   "defaultHero": "/media/heroes/geo/honolulu-oahu.webp"
