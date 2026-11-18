@@ -1,5 +1,9 @@
 # Current work handoff
 
+## November 18: Anthropology Colloquia uses shared date layout
+
+Separated Colloquia H1/contact intro and single listing. Moved event into shared ANTH events.json; date is October 1, 2026, without ordinal suffix. Preserved Dong Hoon Shin name, title/Google document link, 3:00pm and Crawford Hall 115. Shared events template now supports optional title URL/time/location; existing GEO data unchanged. Uses approved extra-small grid/date badge sizing. Preparing shared/ANTH upload and ANTH/GEO publishing because template is shared.
+
 ## November 18: Bounded intermediate extra-small column
 
 Replaced oversized 25% intermediate desktop track with clamp(10rem, 12.5vw, 11rem), flexible remaining column, at 992–1599px. Approved tablet/mobile/full-desktop behavior and date contents unchanged. Grid gap stays 33px. Preparing shared upload and GEO/WGSS publishing.

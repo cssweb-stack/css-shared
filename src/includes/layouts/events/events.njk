@@ -7,7 +7,7 @@
 <span class="event-compact-date">{{ date.compact | escape }}</span>
 </div>
 <section aria-labelledby="event-title-{{ loop.index }}">
-<h2 id="event-title-{{ loop.index }}">{{ lecture.title | escape }}</h2>
+<h2 id="event-title-{{ loop.index }}">{% if lecture.url %}<a href="{{ lecture.url | escape }}">{{ lecture.title | escape }}</a>{% else %}{{ lecture.title | escape }}{% endif %}</h2>
 <ul>
 {% if lecture.speaker %}
 <li class="lecture-speaker">{{ lecture.speaker | escape }}</li>
@@ -15,7 +15,10 @@
 {% if lecture.affiliation %}
 <li>{{ lecture.affiliation | escape }}</li>
 {% endif %}
-<li><time datetime="{{ date.iso | escape }}">{{ date.full | escape }}</time></li>
+<li><time datetime="{{ date.iso | escape }}">{{ date.full | escape }}</time>{% if lecture.time %} at {{ lecture.time | escape }}{% endif %}</li>
+{% if lecture.location %}
+<li>{{ lecture.location | escape }}</li>
+{% endif %}
 </ul>
 </section>
 </div>
