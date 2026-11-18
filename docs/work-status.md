@@ -1,5 +1,9 @@
 # Current work handoff
 
+## November 18: Removed cramped intermediate date layout
+
+Extra-small grids retain 25/75 from 768–1599px, switching to 12.5/87.5 only at 1600px. Date contents use approved larger sizes at all widths from 768px upward. Consolidated date CSS into one component block with mobile geometry and one content breakpoint; removed duplicate tablet/full-desktop overrides. Approved mobile sizes, opacity, weight and gaps retained. Preparing shared upload and GEO/WGSS publishing.
+
 ## November 18: Mobile date contents enlarged proportionally
 
 Mobile date text/icon increased by exactly one-third to calc(0.875rem * 4 / 3) and calc(1rem * 4 / 3). Tile width and spacing unchanged; tablet/full desktop and pending intermediate range unchanged. Prepared for shared upload and GEO/WGSS publishing.

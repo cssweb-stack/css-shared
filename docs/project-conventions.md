@@ -1540,12 +1540,8 @@ News listing photos and headlines share one link across the existing sidebar col
 
 All unit contact pages use a white intro section containing the H1 and opening office-hours paragraph, a separate gray section containing location/contact information and Google Map columns, then people/profile grids below on white. Gray belongs to the map section, not the people. This supersedes earlier contact-page placements of profile grids in gray; retain existing text, map layouts, and profile components.
 
-## Extra-small tablet columns and mobile date badges (November 18, 2026)
+## Extra-small grids and date badges (November 18, 2026)
 
-Extra-small sidebars use 25/75 tracks at 768–991px, superseding their earlier 33/67 tablet split. Other sidebar sizes are unchanged. On mobile, shared event-date badges occupy 27.5% of their stacked grid width (10% larger than the initial 25%) as small squares; their icon/date contents scale to fit. Grid gaps remain 33px. Desktop extra-small proportions remain unchanged pending review.
+Extra-small left/right sidebars use 25/75 tracks from 768px through 1599px, then 12.5/87.5 at 1600px and above. Below 768px they stack. This supersedes the earlier 992px switch to 12.5/87.5; other sidebar sizes are unchanged. Grid gaps remain 33px.
 
-## Fixed date-badge contents (November 18, 2026)
-
-Shared date badges use 0.875rem date text and a 1rem calendar icon on mobile and intermediate desktop widths (992–1599px). At tablet widths (768–991px) and full desktop widths (1600px and above), date text is 1.75rem and the icon is 2rem, superseding the earlier all-sizes-identical starting point. All sizes retain 75% icon opacity and a fixed 0.5rem icon/text gap. These three values are controlled by date-badge custom properties in tiles.css. This supersedes viewport/container-dependent date-text sizing and separate mobile icon spacing; badge/grid dimensions remain independent.
-
-Mobile date contents refined November 18: date text and calendar icon are each one-third larger than their initial 0.875rem/1rem sizes (approximately 18.67px/21.33px at default root). Mobile tile width stays 27.5%; content gap stays 0.5rem. Tablet/full desktop sizes and intermediate desktop remain unchanged. This supersedes the earlier mobile content sizes.
+Shared event-date badges stay square. On mobile their width is 27.5% of the stacked grid, with text calc(0.875rem * 4 / 3) and icon calc(1rem * 4 / 3). At every width from 768px upward, text is 1.75rem and icon 2rem. All sizes use an 0.5rem icon/text gap, white date text at weight 600, and 75% icon opacity. Values live together in tiles.css; tile content remains independent of grid tracks. These consolidated values supersede the intermediate tuning steps recorded in work-status.md.

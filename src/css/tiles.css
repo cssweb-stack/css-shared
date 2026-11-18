@@ -181,10 +181,10 @@ background: linear-gradient(90deg, var(--color-blue) 50%, var(--color-purple) 50
 background: linear-gradient(90deg, var(--color-teal) 50%, var(--color-purple) 50%);
 }
 
-/* Shared date-badge content stays the same at every viewport size. */
+/* Date badges: compact mobile contents, larger tablet/desktop contents. */
 .event-date-box {
---date-text-size: 0.875rem;
---date-icon-size: 1rem;
+--date-text-size: calc(0.875rem * 4 / 3);
+--date-icon-size: calc(1rem * 4 / 3);
 --date-content-gap: 0.5rem;
 display: flex;
 flex-direction: column;
@@ -227,6 +227,21 @@ letter-spacing: 0.04em;
 white-space: nowrap;
 color: inherit;
 text-align: center;
+}
+
+@media (max-width: 767.98px) {
+.site-main .sidebar-left-exsm > .event-date-box,
+.site-main .sidebar-right-exsm > .event-date-box {
+width: 27.5%;
+justify-self: start;
+}
+}
+
+@media (min-width: 768px) {
+.event-date-box {
+--date-text-size: 1.75rem;
+--date-icon-size: 2rem;
+}
 }
 
 /* Shared centered tile content. */
@@ -280,34 +295,4 @@ margin-bottom: 2cqi;
 min-height: 0;
 font-size: clamp(.75rem, 5cqi, 1.25rem);
 line-height: 1.5;
-}
-
-/* Compact date badges keep the shared grid gap when mobile rows stack. */
-@media (max-width: 767.98px) {
-.event-date-box {
---date-text-size: calc(0.875rem * 4 / 3);
---date-icon-size: calc(1rem * 4 / 3);
-}
-
-.site-main .sidebar-left-exsm > .event-date-box,
-.site-main .sidebar-right-exsm > .event-date-box {
-width: 27.5%;
-justify-self: start;
-}
-}
-
-/* Tablet badges use larger contents; mobile and desktop retain their sizes. */
-@media (min-width: 768px) and (max-width: 991.98px) {
-.event-date-box {
---date-text-size: 1.75rem;
---date-icon-size: 2rem;
-}
-}
-
-/* Full desktop date contents match the approved tablet sizes. */
-@media (min-width: 1600px) {
-.event-date-box {
---date-text-size: 1.75rem;
---date-icon-size: 2rem;
-}
 }

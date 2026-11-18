@@ -404,8 +404,8 @@ scroll-margin-top: calc(var(--sticky-header-height, 16rem) + 1rem);
 .sidebar-right-exsm {
 --sidebar-wide-narrow: 12.5fr;
 --sidebar-wide-content: 87.5fr;
---sidebar-desktop-narrow: 12.5fr;
---sidebar-desktop-content: 87.5fr;
+--sidebar-desktop-narrow: 25fr;
+--sidebar-desktop-content: 75fr;
 }
 
 .sidebar-left-sm,
