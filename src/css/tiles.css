@@ -290,3 +290,11 @@ width: 25%;
 justify-self: start;
 }
 }
+
+/* Tablet badges use larger contents; mobile and desktop retain their sizes. */
+@media (min-width: 768px) and (max-width: 991.98px) {
+.event-date-box {
+--date-text-size: 1.75rem;
+--date-icon-size: 2rem;
+}
+}
