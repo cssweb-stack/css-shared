@@ -1546,4 +1546,4 @@ Extra-small sidebars use 25/75 tracks at 768–991px, superseding their earlier 
 
 ## Fixed date-badge contents (November 18, 2026)
 
-Shared date badges use 0.8rem date text (approximately the previous phone size), a 1rem calendar icon, and a fixed 0.375rem icon/text gap at every viewport. These three values are controlled by date-badge custom properties in tiles.css. This supersedes viewport/container-dependent date-text sizing and separate mobile icon spacing; badge/grid dimensions remain independent.
+Shared date badges use 0.875rem date text, a 1rem calendar icon at 75% opacity, and a fixed 0.5rem icon/text gap at every viewport. These three values are controlled by date-badge custom properties in tiles.css. This supersedes viewport/container-dependent date-text sizing and separate mobile icon spacing; badge/grid dimensions remain independent.
