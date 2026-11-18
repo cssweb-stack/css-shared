@@ -76,15 +76,6 @@ width: 75%;
 }
 }
 
-@media (max-width: 767.98px) {
-.image-text-media > img,
-.image-text-media-link {
-width: 75%;
-max-width: 75%;
-margin-inline: 0;
-}
-}
-
 /* Shared shell geometry: all inner containers use these same controls.
    The maximum is the usable content width, excluding the side gutters.
    Keep university-specific dimensions here when the reference is confirmed. */
@@ -96,6 +87,7 @@ margin-inline: 0;
 --layout-stack-gap: var(--grid-gap);
 --sidebar-block-gap: var(--grid-gap);
 --grid-gap: 33px;
+--mobile-supporting-image-width: 66%;
 --sidebar-layout-gap: var(--grid-gap);
 }
 
@@ -521,5 +513,27 @@ grid-template-columns: minmax(0, var(--sidebar-content-track)) minmax(0, var(--s
 .sidebar-right-large {
 --sidebar-narrow-track: var(--sidebar-wide-narrow);
 --sidebar-content-track: var(--sidebar-wide-content);
+}
+}
+
+/* One mobile width for supporting portraits and sidebar photos; text stays full width. */
+@media (max-width: 767.98px) {
+.site-main :is(.portrait-card-grid, .faculty-portrait-grid) .profile-directory-photo,
+.site-main .profile-sidebar .profile-photo,
+.site-main .profile-sidebar .sidebar-media,
+.site-main .unit-contact-office .office-card > img,
+.site-main .image-text-media > img,
+.site-main .image-text-media-link,
+.site-main :is(.sidebar-left-exsm, .sidebar-left-sm, .sidebar-left-med, .sidebar-left-large, .sidebar-right-exsm, .sidebar-right-sm, .sidebar-right-med, .sidebar-right-large) > img.photo-style,
+.site-main :is(.sidebar-left-exsm, .sidebar-left-sm, .sidebar-left-med, .sidebar-left-large, .sidebar-right-exsm, .sidebar-right-sm, .sidebar-right-med, .sidebar-right-large) > div:not(.image-text-content) > img.photo-style {
+width: var(--mobile-supporting-image-width);
+max-width: var(--mobile-supporting-image-width);
+height: auto;
+margin-inline: 0;
+}
+
+.site-main .profile-sidebar .sidebar-media .profile-photo {
+width: 100%;
+max-width: 100%;
 }
 }

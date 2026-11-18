@@ -248,21 +248,10 @@ flex-basis: 100%;
 }
 }
 
-/* Mobile people and office photos stay left-aligned; text uses the whole row. */
+/* Mobile biography content uses the full row; image sizing is shared in layout.css. */
 @media (max-width: 767.98px) {
 .profile-sidebar {
 max-width: none;
-}
-
-.portrait-card-grid .profile-directory-photo,
-.faculty-portrait-grid .profile-directory-photo,
-.profile-sidebar .profile-photo,
-.profile-sidebar .sidebar-media,
-.unit-contact-office .office-card > img {
-width: 75%;
-max-width: 75%;
-height: auto;
-margin-inline: 0;
 }
 }
 
@@ -488,5 +477,27 @@ width: 75%;
 max-width: 75%;
 height: auto;
 margin-inline: 0;
+}
+}
+
+/* Tablet faculty directories use three cards, retaining the shared 33px grid gap. */
+@media (min-width: 768px) and (max-width: 991.98px) {
+.portrait-card-grid {
+--grid-columns: 3;
+}
+
+.faculty-portrait-grid {
+display: grid;
+grid-template-columns: repeat(3, minmax(0, 1fr));
+gap: var(--grid-gap);
+}
+
+.faculty-portrait-grid > .col {
+width: auto;
+min-width: 0;
+}
+
+.program-directors-grid {
+--program-director-columns: 3;
 }
 }

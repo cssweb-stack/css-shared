@@ -1549,3 +1549,9 @@ Shared event-date badges stay square. On mobile their width is 27.5% of the stac
 ## Bounded desktop sidebar sizing (November 18, 2026)
 
 At 992–1599px, shared left/right small tracks use clamp(12rem, 17vw, 15rem), medium clamp(14rem, 20vw, 18rem), and large clamp(16rem, 25vw, 22rem); the content track takes remaining space. This supersedes the common 25/75 intermediate desktop fallback. Full desktop retains 17/83, 20/80 and 25/75 respectively. Tablet/mobile and 33px gaps remain unchanged. Applies to base sidebar geometry independently of its contents; no per-page grid variants.
+
+## Mobile supporting photos and tablet faculty trial (November 18, 2026)
+
+One --mobile-supporting-image-width token in layout.css controls supporting portrait/sidebar image widths at 66% below 768px, left-aligned with full-width text. Applies to faculty cards/profile photos, office photos and supporting photos in shared image-text and left/right sidebar layouts. Does not change date/program tiles, heroes or standalone full-width article images. Size a media wrapper or its image, never both cumulatively. This supersedes former independent 75% mobile photo rules.
+
+Faculty portrait directories use three columns at tablet widths 768–991px as a user-requested trial, preserving 33px gaps and existing typography. Narrow tablet email wrapping is known and awaits visual review; do not silently reduce text size to hide it. Other equal grids retain their standard column rules.

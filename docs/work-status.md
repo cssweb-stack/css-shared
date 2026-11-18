@@ -1,5 +1,9 @@
 # Current work handoff
 
+## November 18: Shared mobile photos and three-column tablet faculty
+
+Centralized mobile supporting-photo width at --mobile-supporting-image-width:66% in layout.css, replacing separate 75% profile/image-text rules and covering direct sidebar photos. Avoided cumulative wrapper/image shrinking. Tablet portrait directories now show three columns (768–991px), including legacy portrait grids/director groups. Chrome checks at 390/768/820/991px confirmed 66% mobile faculty/course photos, three tablet cards, no page overflow. Known tradeoff: GEO emails wrap at 768/820px but fit at 991px; retained trial for user review without shrinking text. Preparing shared upload and established-site publishing.
+
 ## November 18: Bounded desktop widths for all sidebar sizes
 
 Extended bounded intermediate desktop sizing to shared small/medium/large left/right sidebars, replacing 25% fallback. Small 192–240px, medium 224–288px, large 256–352px at default root, with fluid widths between. Full desktop proportions, tablet/mobile and 33px gaps unchanged. Preparing shared upload and established-site publishing; unrelated GEO source work remains local.
