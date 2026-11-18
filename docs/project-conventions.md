@@ -1559,3 +1559,7 @@ Faculty portrait directories use three columns at tablet widths 768–991px as a
 ## Responsive shared grid gap (November 18, 2026)
 
 The universal --grid-gap value is 33px at 992px and above, 27px at 768–991px, and 21px below 768px. This explicitly supersedes the earlier fixed-33px-at-every-width agreement wherever recorded. All equal/sidebar grids consuming this token follow these three ranges; no separate gap at 1600px. Outer page gutters and date icon/text spacing remain separate and unchanged.
+
+## Smile paragraph top spacing (November 18, 2026)
+
+Shared smile paragraphs add no top margin; preceding normal paragraph spacing supplies separation. This supersedes their former 2.25rem top margin. Icon sizing and bottom spacing remain unchanged.

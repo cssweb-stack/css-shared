@@ -1,5 +1,33 @@
 # Current work handoff
 
+## November 18: Removed extra gap above smile paragraphs
+
+Shared special-text.css smile top margin changed from 2.25rem to zero, fixing excessive spacing after GEO homepage/Courses intros and other consumers. Normal preceding paragraph margin remains; icon/bottom spacing unchanged. Preparing shared upload and established-site publishing. GEO Courses invitation and homepage source edits remain local.
+
+## November 18: GEO study-area labels and Courses invitation
+
+Why Study undergraduate themes now use bold title-case labels, spaced en dashes and approved independent descriptions. Courses elective invitation uses existing smile paragraph/emoji-smile icon, wording unchanged. Local only, not uploaded.
+
+## November 18: GEO Why Study headings and image refined
+
+Removed Reasons to Study with Us heading/lead, promoted Undergraduate Studies and Graduate Studies to H2, removed both italicized opening paragraphs, and replaced undergraduate Honolulu/place photo with existing why-study-geo-03.webp. Other content and chair section retained. Local only, not uploaded.
+
+## November 18: GEO Why Study uses original program content
+
+Moved original undergraduate/graduate opening content from comparison block into first two existing image/sidebar rows beneath Reasons to Study with Us. Preserved undergraduate degree links, introductory paragraph and three study themes; preserved two graduate intro paragraphs. Removed former AI-written first/two row descriptions and entire Build Skills/Find Your Community rows. Removed comparison block above H1. Chair row moved to white section below gray, retaining image/name/message without yellow callout. No new copy or images. Local only, not uploaded.
+
+## November 18: Restored GEO undergraduate program introduction
+
+Corrected over-removal from Why Study: restored original Undergraduate Studies two opening paragraphs and three interrelated study themes from WordPress. Graduate opening paragraphs retained. Application instructions stay on Admissions; elective invitation stays on Courses; removed navigation link lists and Find Your Path callout stay removed. No text rewriting. Local only, not uploaded.
+
+## November 18: GEO Why Study imported sections trimmed
+
+Removed imported Undergraduate Studies block; moved elective-course invitation verbatim to Courses intro. Kept two Graduate Studies opening paragraphs; moved original Applying for Graduate Study instructions into Applications & Admissions (MA/PhD blocks intentionally retained for later consolidation), removed remaining imported graduate links/contact tail through Graduate Funding. Deleted entire Find Your Path in GEO callout. Other Why Study content unchanged. Local only; factual/deduplication review remains pending.
+
+## November 18: GEO faculty naming
+
+Faculty dropdown entry changed from Core Faculty to GEO Faculty; directory H1 changed to Geography and Environment Faculty. Route and other metadata unchanged. Local changes prepared for later GEO/shared upload; shared navigation still includes other unuploaded GEO work.
+
 ## November 18: Responsive universal grid gap
 
 Shared --grid-gap now 33px desktop (992px+), 27px tablet (768–991px), 21px mobile (<768px). Existing sidebar/stack gap aliases inherit it; no 1600px gap override. Outer gutters and tile internal spacing unchanged. Supersedes fixed 33px agreement. Preparing shared upload and established-site publishing.
