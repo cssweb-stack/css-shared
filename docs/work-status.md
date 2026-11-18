@@ -1,5 +1,15 @@
 # Current work handoff
 
+## November 17: Homepage news feed link semantics
+
+Changed shared latest-news card titles from empty-section H3s to linked paragraphs with news-latest-title styling, preserving body-size appearance and Latest News H2. Applies to ANTH/PUBA consumers. ANTH build passed and five rendered paragraph titles confirmed. ANTH YouTube article edits also remain local pending upload. No Siteimprove rescan performed.
+
+
+## November 17: GEO homepage simplified
+
+Removed At a Glance sidebar. Homepage H1 is Geography and Environment at UH Mānoa, with standard E komo mai opening naming the department, college and full university. Academic Programs through existing buttons now occupy gray section; two videos sit below in standard grid-two and row/col-12 wrapper. Removed Discover GEO heading and extra video link; retained ranking notice and existing program content. GEO build passed; two embeds and section structure checked. Local only, not uploaded.
+
+
 ## November 17: GEO publishing failure corrected
 
 GitHub failed because GEO local CSS hardcoded the sibling css-shared path, absent in the Actions checkout. Replaced it with a shared contour-pattern token and standard local unit.css entry. GEO now delegates Eleventy/shared-source/settings to the same shared bootstrap used by ANTH; faculty helper uses that bootstrap too. Publishing workflow now matches established manual build/deploy without validation gate and includes SITE_ORIGIN. Ignored Office lock files. Project-prefix build passed (33 pages); no unprefixed href/src references, profiles/navigation and portable CSS background checked. Fix prepared for shared/GEO upload and GEO republish.

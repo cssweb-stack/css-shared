@@ -9,7 +9,7 @@
 <article>
 <a class="news-thumbnail" href="{{ post.url | url }}">
 <img class="photo-style" src="{{ post.data.newsImage.src | url }}" alt="" width="{{ post.data.newsImage.width }}" height="{{ post.data.newsImage.height }}" loading="lazy" decoding="async">
-<h3>{{ post.data.title | escape }}</h3>
+<p class="news-latest-title">{{ post.data.title | escape }}</p>
 </a>
 </article>
 {% endif %}

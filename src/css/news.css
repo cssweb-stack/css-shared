@@ -265,7 +265,7 @@ object-fit: cover;
 margin-bottom: 1rem;
 }
 
-.site-main .news-latest-grid h3 {
+.site-main .news-latest-grid .news-latest-title {
 font-size: var(--content-body-font-size);
 font-weight: 400;
 margin: 0;
