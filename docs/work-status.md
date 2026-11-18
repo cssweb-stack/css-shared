@@ -1,5 +1,13 @@
 # Current work handoff
 
+## November 18: Compact date badges on tablet/mobile
+
+Shared extra-small sidebar tablet split changed to 25/75 at 768–991px; shared mobile event badges now quarter-width squares with scaled icon/date. Gap remains 33px; desktop proportions and other sidebar sizes unchanged. GEO build passed. Local Chrome checks at 820/390/320px confirmed intended proportions, date fits, no horizontal overflow. Local only, not committed/uploaded.
+
+## November 18: Contact page section colors standardized
+
+GEO, ANTH, POLS and WGSS now separate white H1/office-hours intro, gray map/contact columns, and white people grids. GEO map extracted from intro. Existing copy, profiles and POLS advising callout retained. SSRI/SOC/ES/PUBA unchanged as requested. All four builds passed; section placement checked in each source. Contact-only changes committed and pushed in GEO b73d0f9, ANTH 2d1da44, POLS ca7cd8e and WGSS 85aa627; publishing dispatched November 18. Deployment not monitored. Other GEO work remains local.
+
 ## November 18: News listing photo/headline share one link
 
 Shared news/index.njk now wraps each photo and headline in one link, with empty image alt because headline supplies link name. Date/excerpt stay outside link. Shared sidebar grid retained; nested subgrid aligns content without extra ARIA names or duplicate photo links. Clean flush-left template and standard outer grid wrapper. Applies to ANTH/PUBA listings; homepage feeds unchanged. ANTH build passed; local Chrome checks at 1400/800/390px confirmed one link per row, aligned desktop/tablet columns, mobile stacking and no horizontal overflow. Local only, not committed/pushed/deployed; Siteimprove rescan pending.

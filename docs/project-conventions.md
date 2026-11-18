@@ -1535,3 +1535,11 @@ lecture rows use the new left extra-small size for visual review.
 ## News listing links (November 18, 2026)
 
 News listing photos and headlines share one link across the existing sidebar columns. Use empty image alt when the linked headline supplies the destination name; keep date and excerpt outside the link. This avoids ambiguous person-only image links to different stories and duplicate keyboard stops. Homepage feed layouts remain unchanged.
+
+## Contact page section order (November 18, 2026)
+
+All unit contact pages use a white intro section containing the H1 and opening office-hours paragraph, a separate gray section containing location/contact information and Google Map columns, then people/profile grids below on white. Gray belongs to the map section, not the people. This supersedes earlier contact-page placements of profile grids in gray; retain existing text, map layouts, and profile components.
+
+## Extra-small tablet columns and mobile date badges (November 18, 2026)
+
+Extra-small sidebars use 25/75 tracks at 768–991px, superseding their earlier 33/67 tablet split. Other sidebar sizes are unchanged. On mobile, shared event-date badges occupy 25% of their stacked grid width as small squares; their icon/date contents scale to fit. Grid gaps remain 33px. Desktop extra-small proportions remain unchanged pending review.

@@ -482,6 +482,14 @@ grid-template-columns: minmax(0, var(--sidebar-content-track)) minmax(0, var(--s
 }
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+.sidebar-left-exsm,
+.sidebar-right-exsm {
+--sidebar-narrow-track: 25fr;
+--sidebar-content-track: 75fr;
+}
+}
+
 @media (min-width: 992px) {
 .sidebar-left-exsm,
 .sidebar-left-sm,
