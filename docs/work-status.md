@@ -1,5 +1,49 @@
 # Current work handoff
 
+## November 18: News listing photo/headline share one link
+
+Shared news/index.njk now wraps each photo and headline in one link, with empty image alt because headline supplies link name. Date/excerpt stay outside link. Shared sidebar grid retained; nested subgrid aligns content without extra ARIA names or duplicate photo links. Clean flush-left template and standard outer grid wrapper. Applies to ANTH/PUBA listings; homepage feeds unchanged. ANTH build passed; local Chrome checks at 1400/800/390px confirmed one link per row, aligned desktop/tablet columns, mobile stacking and no horizontal overflow. Local only, not committed/pushed/deployed; Siteimprove rescan pending.
+
+## November 17: Original GEO study text for comparison
+
+Prepended original WordPress Undergraduate Studies and Graduate Studies text/links in gray above existing Why Study page, leaving existing content intact. Source headings nested under H2 section headings; original image files were not imported or sourced. Historical wording/links retained for comparison, not reconciled as current policy. Local only, not uploaded.
+
+## November 17: GEO GIS Certificate structure simplified
+
+Kept H1/intro in separate intro section; removed tagline and Certificate at a Glance. Required/Elective Courses now in gray. GIS Undergraduate Scholarship below gray uses linked H2 and unlinked online-form/login note, without callout. Moved Plan Your GIS Certificate intact to Undergraduate Advising & Support. Course widget remains in its own final section above footer. Local only, not uploaded; factual review remains pending.
+
+## November 17: GEO funding award links and dividers
+
+Linked four department award names to existing application URLs; unlinked Online form/UH login notes follow names. Deadlines moved to ends of descriptions without icons. Short dividers precede each departmental award and subsequent UH System H3s; first UH System item and External Sources unchanged. Local only, not uploaded. Targeted source check confirmed four links converted and External Sources preserved exactly.
+
+## November 17: GEO BA structure simplified
+
+BA H1 and existing intro now have their own intro section; tagline and Major at a Glance removed as requested. Core Course Requirements through Directed Studies moved intact into gray section. Plan Your Major moved intact to Undergraduate Advising & Support, sharing its existing GEO Undergraduate Advising contacts without duplicating them. BA course widget occupies separate final section above footer; advising link added. Academic facts not reconciled in this structural pass; later source comparison remains pending. Local only, not committed or uploaded.
+
+## November 17: GEO Minor and undergraduate advising
+
+Kept original-source comparison above Minor intro; removed tagline and Minor at a Glance. Area Requirements through Geospatial Technologies now occupy gray section. Moved Plan Your Minor and GEO Undergraduate Advising into new undergraduate/advising-support.html, linked last in Undergraduate navigation and from Minor; matching Minor hero. Both pages have separate final course-widget sections. Local only; not committed or uploaded. GEO build completed successfully.
+
+## November 17: GEO PhD handbook split into seven pages
+
+Created graduate/doctorate-phd/ Overview, Requirements, Advising & Committees, Enrollment & Standing, Progress Guide, Exams & Proposal, Dissertation & Defense. Nine numbered guide steps remain together; all source paragraph text/links preserved. Existing overview/application link/student-planning copy retained; old Google-handbook block replaced by actual pages. Main nav/internal links and matching PhD heroes updated. All pages have shared subnav, H1/intro, gray content/dividers and course widget. Preserved/flagged January/October 2020 and COVID wording, repeated exam rules, and source references to obsolete remote-participation procedures; no policy reconciliation. GEO build passed (45 pages); paragraph/link preservation and seven page structures checked. Local only, not uploaded.
+
+
+## November 17: MA Enrollment & Standing separated
+
+Moved Full-Time Enrollment, Annual Review of MA Student Progress and Time Limits intact into graduate/master-ma/enrollment-standing.html. Added page after Requirements in shared MA navigation; normal intro/gray content/dividers/course widget and matching MA hero. Progress Guide contains only its eight numbered steps. GEO build passed; three headings and step sequence checked. Degrees Awarded also now matches ANTH intro/gray/sidebar/link-heading treatment. Local only, not uploaded.
+
+
+## November 17: MA Progress Guide reunited; graduate admissions extracted
+
+Progress Guide now lives at graduate/master-ma/progress-guide.html with all eight numbered steps together, followed by annual review/time limits. Subnav/H1/title/hero mapping updated; separate Thesis & Defense page retains source defense protocols. Moved existing MA and PhD preparation/application blocks into graduate/applications-admissions.html, keeping degree-specific wording and writing-sample distinction; original pages link there. Applications & Admissions is last in Graduate dropdown. No development redirects added. GEO build passed; steps 1–8/order and both writing-sample requirements checked. Local only, not uploaded.
+
+
+## November 17: GEO MA handbook split into web pages
+
+Created five graduate/master-ma pages: Overview, Requirements, Advising & Progress, Thesis & Defense, Timeline. Shared degree navigation appears above each H1/intro; handbook content sits in gray sections, with heading dividers and final course widget. Transposed supplied planning table into semester rows without dropping cell text. Preserved all source paragraph text/links, including dated COVID protocols and doctoral/dissertation wording (flagged, not resolved); retained existing MA overview/admissions copy. Updated main nav, internal links and hero assignments; removed old development MA source/output, no new redirect. GEO build passed and all source paragraphs/five rendered page structures checked. Local only, not uploaded.
+
+
 ## November 17: Homepage news feed link semantics
 
 Changed shared latest-news card titles from empty-section H3s to linked paragraphs with news-latest-title styling, preserving body-size appearance and Latest News H2. Applies to ANTH/PUBA consumers. ANTH build passed and five rendered paragraph titles confirmed. ANTH YouTube article edits also remain local pending upload. No Siteimprove rescan performed.

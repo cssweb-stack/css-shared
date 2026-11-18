@@ -1531,3 +1531,7 @@ November 17: accepted extra-small sidebar class suffix exsm, initially 12.5/87.5
 on desktop, with shared 33px gap and existing tablet/mobile behavior. Includes
 left/right mirrors. This supersedes the previous three-size-only agreement. GEO
 lecture rows use the new left extra-small size for visual review.
+
+## News listing links (November 18, 2026)
+
+News listing photos and headlines share one link across the existing sidebar columns. Use empty image alt when the linked headline supplies the destination name; keep date and excerpt outside the link. This avoids ambiguous person-only image links to different stories and duplicate keyboard stops. Homepage feed layouts remain unchanged.
