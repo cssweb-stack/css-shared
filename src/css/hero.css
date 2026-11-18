@@ -28,6 +28,7 @@ pointer-events: none;
 z-index: 0;
 background-size: cover;
 background-position: var(--hero-position, center center);
+filter: grayscale(var(--hero-grayscale, 0%));
 background-repeat: no-repeat;
 }
 

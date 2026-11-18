@@ -2,7 +2,7 @@
 {% for lecture in events %}
 {% set date = lecture.date | eventDate %}
 <div class="event-date-box tile-style tile-blue" aria-hidden="true">
-<img class="event-calendar-icon" src="{{ '/media/icons/calendar3-white.svg' | url }}" alt="">
+<span class="event-calendar-icon" aria-hidden="true">{% include "media/icons/calendar3.svg" %}</span>
 <span class="event-compact-date">{{ date.compact | escape }}</span>
 </div>
 <section aria-labelledby="event-title-{{ loop.index }}">

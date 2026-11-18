@@ -26,8 +26,12 @@
     "showLocation": true,
     "showAttribution": true,
     "overlay": {
-      "color": "transparent",
-      "opacity": 0
-    }
-  }
+      "color": "var(--uh-green)",
+      "opacity": 0.33
+    },
+    "grayscale": true
+  },
+  "sidebarLeftLayouts": true,
+  "portraitCardGrid": true,
+  "titleSuffix": "Geography and Environment | UH Mānoa"
 }

@@ -3,7 +3,7 @@
 padding-bottom: 2rem;
 }
 
-.news-feed-grid:not(.grid-three) {
+.news-feed-grid:not(:is(.grid-one, .grid-two, .grid-three, .grid-four, .grid-five, .grid-six)) {
 display: grid;
 grid-template-columns: repeat(3, minmax(0, 1fr));
 align-items: start;
@@ -31,43 +31,48 @@ overflow-wrap: anywhere;
 
 .news-post-header {
 margin: 0;
-padding: var(--news-card-padding);
-background: var(--surface-teal);
+padding: 0.75rem var(--news-card-padding);
+background: var(--color-blue);
 border-bottom: 1px solid var(--news-border-color);
 }
 
-.site-main .news-post-author {
-margin: 0 0 0.25rem;
-font-size: 0.9375rem;
-font-weight: 600;
-}
-
-.news-post-author a {
-color: var(--black);
-text-decoration-line: none;
-}
-
-.news-post-author a:hover,
-.news-post-author a:focus-visible {
-text-decoration-line: underline;
-}
-
 .news-post-date {
-font-size: 0.8125rem;
-color: var(--dark-gray);
+display: inline-flex;
+align-items: center;
+gap: 0.5rem;
+font-size: 0.875rem;
+color: var(--white);
 text-decoration-line: none;
 }
 
 .news-post-date:hover,
 .news-post-date:focus-visible {
-color: var(--black);
+color: var(--white);
 text-decoration-line: underline;
+}
+
+.news-post-calendar {
+display: inline-flex;
+opacity: 0.8;
+}
+
+.news-post-calendar svg {
+width: 1em;
+height: 1em;
 }
 
 .site-main .news-post-text {
 margin: 0;
 font-size: 1rem;
 white-space: pre-wrap;
+}
+
+.site-main .news-post-text > p {
+margin: 0;
+}
+
+.site-main .news-post-text > p + p {
+margin-top: 0.5rem;
 }
 
 .site-main .news-post > .news-post-text {
@@ -153,14 +158,6 @@ margin: 0.5rem 0 0;
 }
 
 /* Footer and status */
-.site-main .news-post-footer {
-margin: 0;
-padding: 1rem var(--news-card-padding);
-font-size: 0.875rem;
-background: var(--surface-neutral);
-border-top: 1px solid var(--light-gray);
-}
-
 .site-main .news-feed-status {
 padding: 1rem;
 margin: 0 0 1.5rem;
@@ -176,13 +173,13 @@ text-align: center;
 
 /* Responsive */
 @media (max-width: 991.98px) {
-.news-feed-grid:not(.grid-three) {
+.news-feed-grid:not(:is(.grid-one, .grid-two, .grid-three, .grid-four, .grid-five, .grid-six)) {
 grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 }
 
 @media (max-width: 575.98px) {
-.news-feed-grid:not(.grid-three) {
+.news-feed-grid:not(:is(.grid-one, .grid-two, .grid-three, .grid-four, .grid-five, .grid-six)) {
 grid-template-columns: minmax(0, 1fr);
 }
 }

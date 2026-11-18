@@ -6,7 +6,8 @@
     "photo": "/media/shared/advisors/dawn-nishida.webp",
     "email": "nishidad@hawaii.edu",
     "title": "General Education Advisor",
-    "showOnContact": false
+    "showOnContact": false,
+    "type": "staff"
   },
   {
     "name": "David Olsen",
@@ -17,7 +18,9 @@
     "office": "PSB 312C",
     "email": "dolsen@hawaii.edu",
     "phone": "(808) 956-3526",
-    "phoneHref": "+18089563526"
+    "phoneHref": "+18089563526",
+    "type": "staff",
+    "showOnContact": true
   },
   {
     "name": "Elizabeth Tajima",
@@ -28,6 +31,8 @@
     "office": "Saunders 445C",
     "email": "etajima3@hawaii.edu",
     "phone": "(808) 956-8465",
-    "phoneHref": "+18089568465"
+    "phoneHref": "+18089568465",
+    "type": "staff",
+    "showOnContact": true
   }
 ]

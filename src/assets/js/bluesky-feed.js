@@ -75,6 +75,27 @@ cursor = end;
 container.append(document.createTextNode(decoder.decode(bytes.slice(cursor))));
 }
 
+function postParagraphs(container, text, facets) {
+const content = document.createDocumentFragment();
+richText(content, text, facets);
+let paragraph = element('p');
+container.append(paragraph);
+for (const node of [...content.childNodes]) {
+if (node.nodeType !== Node.TEXT_NODE) {
+paragraph.append(node);
+continue;
+}
+for (const part of node.textContent.split(/(\n(?:[ \t]*\n)+)/)) {
+if (/^\n(?:[ \t]*\n)+$/.test(part)) {
+paragraph = element('p');
+container.append(paragraph);
+} else if (part) {
+paragraph.append(document.createTextNode(part));
+}
+}
+}
+}
+
 function image(src, alt, className) {
 const url = safeURL(src);
 if (!url) return null;
@@ -154,7 +175,7 @@ renderQuote(container, embed.record?.record);
 }
 }
 
-function renderPost(entry) {
+function renderPost(entry, calendarTemplate) {
 const post = entry?.post;
 const url = postURL(post);
 const record = post?.record;
@@ -164,17 +185,21 @@ if (labels.some(label => ['!hide', '!no-unauthenticated'].includes(label.val))) 
 const author = post.author?.displayName || post.author?.handle || 'Bluesky';
 const card = element('article', 'news-post');
 if (entry.reason?.$type === 'app.bsky.feed.defs#reasonRepost') {
-card.append(element('p', 'news-repost-label', 'Reposted by ' + (entry.reason.by?.displayName || entry.reason.by?.handle || 'the department')));
+card.append(element('p', 'news-repost-label', 'Post by ' + author + ' · Reposted by ' + (entry.reason.by?.displayName || entry.reason.by?.handle || 'the department')));
 }
 const header = element('header', 'news-post-header');
-const identity = element('p', 'news-post-author');
-identity.append(link(profileURL(post.author?.did || post.author?.handle || ''), '', author));
-header.append(identity);
 const date = new Date(record.createdAt || post.indexedAt);
 if (Number.isFinite(date.getTime())) {
 const time = element('time', '', dateFormat.format(date));
 time.dateTime = date.toISOString();
 const dateLink = link(url, 'news-post-date');
+dateLink.setAttribute('aria-label', 'View post from ' + dateFormat.format(date) + ' on Bluesky');
+if (calendarTemplate) {
+const icon = element('span', 'news-post-calendar');
+icon.setAttribute('aria-hidden', 'true');
+icon.append(calendarTemplate.content.cloneNode(true));
+dateLink.append(icon);
+}
 dateLink.append(time);
 header.append(dateLink);
 card.setAttribute('aria-label', 'Post by ' + author + ', ' + dateFormat.format(date));
@@ -183,16 +208,11 @@ card.setAttribute('aria-label', 'Post by ' + author);
 }
 card.append(header);
 if (record.text) {
-const copy = element('p', 'news-post-text');
-richText(copy, record.text, record.facets);
+const copy = element('div', 'news-post-text');
+postParagraphs(copy, record.text, record.facets);
 card.append(copy);
 }
 renderEmbed(card, post.embed, url);
-const footer = element('p', 'news-post-footer');
-const permalink = link(url, '', 'View post on Bluesky');
-permalink.setAttribute('aria-label', 'View post by ' + author + (Number.isFinite(date.getTime()) ? ' from ' + dateFormat.format(date) : '') + ' on Bluesky');
-footer.append(permalink);
-card.append(footer);
 return card;
 }
 
@@ -229,7 +249,7 @@ for (const entry of payload.feed) {
 if (count >= limit) break;
 const uri = entry?.post?.uri;
 if (!uri || seen.has(uri)) continue;
-const card = renderPost(entry);
+const card = renderPost(entry, root.querySelector('[data-bluesky-calendar]'));
 if (!card) continue;
 seen.add(uri);
 fragment.append(card);

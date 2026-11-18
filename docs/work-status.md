@@ -1,5 +1,65 @@
 # Current work handoff
 
+## November 17: Courses filenames and head titles checked
+
+All seven units with Courses pages now use src/courses.html and /courses.html. Moved GEO out of About; updated its navigation, homepage link, hero key and real legacy redirect destination, with no development redirect added. GEO now uses searchTitle Courses and Geography and Environment | UH Mānoa suffix. Rendered the shared title-template expression for all seven: Courses | configured unit | UH Mānoa; H1s use Full Unit Name (ACRONYM) Courses. GEO build passed and stale old built file removed. Local only, not uploaded.
+
+
+## November 17: Courses naming corrected across reviewed units
+
+Checked ANTH, ES, GEO, POLS, PUBA, SOC and WGSS Courses sources. Corrected GEO/POLS H1s and local titles to Full Unit Name (ACRONYM) Courses; aligned SOC local title to its already-correct H1. All seven now match, including metadata; SSRI has no Courses page. Recorded exact universal rule in website-build-rules.md. Source checks only for these text edits; no builds or uploads. Existing GEO route remains for its subsequent page review.
+
+
+## November 17: Bluesky card headers simplified
+
+Shared feed cards now use blue headers with white linked date and existing shared calendar icon (80% icon opacity). Removed repeated account-name headers and per-card View post footer; date retains original-post link and repost attribution remains visible. GEO intro links its account and suppresses redundant bottom account button. Other pages retain their bottom account button. JS syntax check passed; GEO build passed before final account-button scope adjustment. Local only, not uploaded.
+
+
+## November 17: GEO Bluesky news layout
+
+Department News heading/paragraph now have a separate intro section; Bluesky feed is in a full-width gray section using shared grid-four. Shared include accepts the selected equal-grid class; legacy feed fallback CSS now yields to every standard equal-grid class. Existing post media grids explain the temporary red image guides; retained guides as requested network-wide. GEO build passed. Local only, not uploaded.
+
+
+## November 17: GEO Lecture Series simplified
+
+Lecture Series Fall 2026 H1 (semester drawn from existing events record), opening paragraph and three logistics bullets now form the intro section. Removed tagline and colored callout; schedule retained in its own following section. Both shared event renderers now inline existing Bootstrap calendar3.svg, replacing missing calendar3-white.svg references and inheriting white tile color. GEO build passed. Local only; shared and GEO pending upload.
+
+
+## November 17: GEO Support opening simplified
+
+Support now opens with full Geography and Environment H1, supplied linked Enrichment Fund paragraph and standard appreciation line, using shared sidebar-right-med (80/20 wide) with UH Foundation logo. Removed old tagline, duplicate fund heading/button and opening student image. Existing chair message retained below in a gray section. GEO build passed. Local only, not uploaded.
+
+
+## November 17: ANTH Contact links corrected
+
+Fixed 40 raw /contact.html links across 14 Anthropology source pages to use the standard url filter. Isolated project-prefix build with /anth/ passed; built scholarly-papers Contact link points to /anth/contact.html and no raw /contact.html href remains in that output. No redirects added. Local only, not uploaded.
+
+
+## November 17: GEO catalog research interests
+
+Added supplied catalog interests to all 10 existing faculty records, using researchInterests displayed at the top of shared biographies and initial capitalization. Personal website links already say Website; Qi Chen lab label retained as SmartRemoteSensing.org. Build and ten rendered interest sections checked. Catalog also names D. Beilman, P. Gupta and K. Suryanata, who have no existing GEO faculty records/pages; no pages created or leadership changes made. Local only, not uploaded.
+
+
+## November 17: GEO heroes toned down
+
+GEO opts into grayscale hero image layers and the standard UH green overlay at 0.33 opacity. Shared hero setting/CSS supports this without changing source image files; fallback heroes use the same layered renderer. Existing image assignments, heights and credits retained. GEO build passed; rendered grayscale/overlay settings confirmed. Local only; css-shared and GEO remain pending upload.
+
+
+## November 17: GEO Contact standardized
+
+Replaced hand-built Contact cards with one shared people-grid containing Qi Chen, Hong Jiang, Mary Mostafanezhad, David Olsen and Elizabeth Tajima, sorted by last name. Central faculty/staff records drive cards; no nonexistent staff biography links. Removed Contact tagline and intro classes across GEO. Restored the Contact opening paragraph without its class after user clarification; other pages retained their paragraphs. Isolated build passed; checked rendered five-card order and staff link behavior, then installed fresh build output after normal output showed a stale version. Local only, not uploaded.
+
+
+## November 17: Geography grids standardized
+
+Converted older image/icon-and-text pairs to sidebar-left-sm, homepage welcome to sidebar-right-large, Areas of Study to grid-three, and Contact portraits to grid-five. Enabled shared portrait and left-sidebar layouts for faculty, student and office components. Retained equal grids and added standard row/col-12 wrappers; all layout gaps use shared 33px rules. No tile redesign or prose changes. GEO build passed and all HTML page text matches Git HEAD. Local only; shared and GEO need uploading when requested. No browser visual review claimed.
+
+
+## November 17: Geography media centralized
+
+Moved all 58 local GEO assets into shared media: 31 satellite heroes, 26 content images grouped by purpose, and the contour background. Updated GEO image/CSS references and shared hero settings; preserved file bytes. GEO build passed; moved media references resolve. Found a separate existing missing calendar3-white.svg reference on Lecture Series, left for site cleanup. Local changes only in css-shared and GEO; not committed, pushed or deployed. Layout/content simplification remains next.
+
+
 Updated November 16, 2026 (Pacific/Honolulu).
 
 ## November 16: Sidebar specimens simplified to identical text

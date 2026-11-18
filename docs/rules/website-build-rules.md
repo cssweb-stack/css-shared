@@ -150,8 +150,8 @@ ordinary inline icon/text spacing or typography margins.
 Review's Equal Columns tab shows exactly one specimen for each count, independent
 of contents, and inventories all seven selected units. Flowing multi-column lists
 retain their reading order and share the 33px column gap; they are text-flow
-formatting, not a seventh equal-grid variant. GEO, SCI and PSY are deferred: do not
-migrate their source pages during this pass. Legacy component fallbacks needed by
+formatting, not a seventh equal-grid variant. GEO joined this standard on November 17 during its authorized grid cleanup. SCI
+and PSY remain deferred: do not migrate their source pages during this pass. Legacy component fallbacks needed by
 unconverted consumers remain separate until those consumers are reviewed.
 
 Responsive progression, authorized November 17: below 768px every grid has one
@@ -202,3 +202,13 @@ credentials in project files or ask the user to paste tokens into chat. Use the
 installed gh authentication flow; verify identity, private-repository access and
 workflow visibility with read-only calls. Keep archive uploads separate from site
 deployment; CSS-Exports has no publishing workflow.
+
+## Courses page heading
+
+Every unit Courses page uses the full academic unit name, its acronym in parentheses,
+and Courses as its H1: Political Science (POLS) Courses, Geography and Environment
+(GEO) Courses, Women, Gender, and Sexuality Studies (WGSS) Courses. Keep local
+title metadata aligned with that H1; searchTitle may remain Courses with the
+configured unit suffix. Check actual rendered H1 text, including title-variable
+headings, during creation and naming/SEO review. This supersedes acronym-only
+Courses headings. Units without a Courses page do not need one invented.

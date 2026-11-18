@@ -22,7 +22,7 @@
     ],
     "websites": [
       {
-        "label": "smartremotesensing.org",
+        "label": "SmartRemoteSensing.org",
         "url": "https://smartremotesensing.org/"
       }
     ],
@@ -39,7 +39,8 @@
         "label": "Academia.edu",
         "url": "https://hawaii.academia.edu/QiChen"
       }
-    ]
+    ],
+    "researchInterests": "Remote sensing, geographic information systems, geostatistics, spatially-explicit modeling"
   },
   {
     "name": "Hong Jiang",
@@ -73,7 +74,8 @@
         "name": "College of Social Sciences Award for Excellence in Teaching",
         "year": "2016"
       }
-    ]
+    ],
+    "researchInterests": "Cultural geography, environment, perception of nature, China"
   },
   {
     "name": "Yuqin Jiang",
@@ -102,7 +104,8 @@
         "label": "ResearchGate",
         "url": "https://www.researchgate.net/profile/Yuqin-Jiang"
       }
-    ]
+    ],
+    "researchInterests": "GIS, spatial data, mobility, smart city"
   },
   {
     "name": "Reece Jones",
@@ -156,7 +159,8 @@
         "name": "College of Social Sciences Award for Excellence in Research",
         "year": "2014"
       }
-    ]
+    ],
+    "researchInterests": "Political geography, globalization, borders, sovereign state system, nationalism, South Asia"
   },
   {
     "name": "Aurora Kagawa-Viviani",
@@ -194,7 +198,8 @@
         "label": "ResearchGate",
         "url": "https://www.researchgate.net/profile/Aurora_Kagawa-Viviani"
       }
-    ]
+    ],
+    "researchInterests": "Ecohydrology, restoration, water resources"
   },
   {
     "name": "Marina Karides",
@@ -238,7 +243,8 @@
         "label": "ResearchGate",
         "url": "https://www.researchgate.net/profile/Marina_Karides/research"
       }
-    ]
+    ],
+    "researchInterests": "Island studies, feminisms, political economy"
   },
   {
     "name": "Camilo Mora",
@@ -272,7 +278,8 @@
         "name": "College of Social Sciences Award for Excellence in Research",
         "year": "2014"
       }
-    ]
+    ],
+    "researchInterests": "Interlinks between biodiversity patterns, processes, threats and human welfare"
   },
   {
     "name": "Mary Mostafanezhad",
@@ -312,7 +319,8 @@
         "name": "Regents’ Medal for Excellence in Teaching",
         "year": "2021"
       }
-    ]
+    ],
+    "researchInterests": "Cultural politics of tourism, politics of consumption, Thailand"
   },
   {
     "name": "Orhon Myadar",
@@ -330,7 +338,8 @@
       "Displacement",
       "Nomadism"
     ],
-    "lastName": "Myadar"
+    "lastName": "Myadar",
+    "researchInterests": "Forced mobility, displacement, nomadism"
   },
   {
     "name": "Brian Szuster",
@@ -361,6 +370,7 @@
         "name": "College of Social Sciences Award for Excellence in Teaching",
         "year": "2010"
       }
-    ]
+    ],
+    "researchInterests": "Coastal resource management, environmental impacts assessment, marine recreation, Thailand"
   }
 ]

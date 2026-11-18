@@ -195,7 +195,7 @@ SOC academic homepage tiles opt into the shared tile-pattern-jigsaw modifier;
 it sets the existing --tile-background variable rather than a separate overlay
 implementation. Preserve the supplied SVG's transparent line geometry; filled
 paths can represent thin outlines and must not be blindly changed to fill=none.
-GEO's legacy local contour-lines.svg stays in place pending its separate cleanup.
+GEO's contour background lives in shared src/media/shared/backgrounds/geo-contour-lines.svg. Geography satellite heroes live in src/media/heroes/geo/; its other images are grouped under src/media/units/geo/ by courses, undergraduate, areas-of-study and general. This supersedes the former local-media exception.
 
 For GitHub Pages preview builds, set SITE_ORIGIN to the GitHub Pages origin and
 SITE_PATH_PREFIX to the project path. Social page/image URLs use that deployment
@@ -230,7 +230,7 @@ Hero and Open Graph controls belong in each unit's
 `css-shared/src/data/units/<unit>/site-settings.json`.
 All units use SSRI's hero overlay as the starting standard: `var(--uh-green)`
 (`#024731`) at opacity `0.33`. This includes the prepared settings for CSS, DURP
-and ECON. Geography keeps its separate satellite-image hero settings unchanged;
+and ECON. Geography retains its satellite images, heights and credits, but now opts into black-and-white image rendering with the same green overlay at 0.33 opacity (November 17);
 the disabled style-guide is excluded. Shared checks enforce matching SSRI overlay
 color/opacity for other units. Preserve each unit's hero height, image assignments,
 crop, attribution and other settings when changing the overlay. Custom unit hero
@@ -1520,3 +1520,9 @@ Confirmed November17: donation/support pages use Support [full subject/unit name
 ## Consistent focus and image-purpose review
 
 Approved November17: shared focus outlines use2px width and3px offset via central accessibility.css variables, componentcolors adapted forcontrast. This supersedes3pxwidth defaults, not the requirement to checkvisibility. Every accessibility review must assess imagepurpose and altquality, including reasoned decorative/redundant emptyalt decisions, not merely altattribute presence. See canonical accessibility-review.md. PiSigmaAlpha linkedlogo retains its accurateorganizationname alt.
+
+## Geography design simplification
+
+November 17: remove colored callout treatments as GEO pages are reviewed; use standard intro/content sections and shared grids instead. Preserve underlying content unless removal is requested. The restrained treatment supports consistency with university branding. Do not introduce new colored callouts during this cleanup.
+
+November 17: Courses H1s and local title metadata use Full Unit Name (ACRONYM) Courses. See the Courses page heading rule in website-build-rules.md; acronym-only H1s are superseded. Search titles retain the established short Courses plus unit suffix.

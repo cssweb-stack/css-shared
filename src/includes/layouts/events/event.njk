@@ -5,7 +5,7 @@ preserves descriptions, links, and other event information before the date. #}
 {% set date = item.date | eventDate %}
 <article class="media-row" aria-labelledby="{{ id | escape }}">
 <div class="event-date-box tile tile-blue media-visual" aria-hidden="true">
-<img class="event-calendar-icon" src="{{ '/media/icons/calendar3-white.svg' | url }}" alt="">
+<span class="event-calendar-icon" aria-hidden="true">{% include "media/icons/calendar3.svg" %}</span>
 <span class="event-compact-date">{{ date.compact | escape }}</span>
 </div>
 <div class="event-content">

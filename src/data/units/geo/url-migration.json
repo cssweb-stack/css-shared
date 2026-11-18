@@ -12,7 +12,7 @@
     },
     {
       "from": "/about-geo/geo-courses.html",
-      "to": "/about/geo-courses.html",
+      "to": "/courses.html",
       "label": "Geo Courses"
     },
     {
