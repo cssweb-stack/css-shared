@@ -284,6 +284,11 @@ line-height: 1.5;
 
 /* Compact date badges keep the shared grid gap when mobile rows stack. */
 @media (max-width: 767.98px) {
+.event-date-box {
+--date-text-size: calc(0.875rem * 4 / 3);
+--date-icon-size: calc(1rem * 4 / 3);
+}
+
 .site-main .sidebar-left-exsm > .event-date-box,
 .site-main .sidebar-right-exsm > .event-date-box {
 width: 27.5%;

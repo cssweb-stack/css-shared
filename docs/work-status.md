@@ -1,5 +1,9 @@
 # Current work handoff
 
+## November 18: Mobile date contents enlarged proportionally
+
+Mobile date text/icon increased by exactly one-third to calc(0.875rem * 4 / 3) and calc(1rem * 4 / 3). Tile width and spacing unchanged; tablet/full desktop and pending intermediate range unchanged. Prepared for shared upload and GEO/WGSS publishing.
+
 ## November 18: Full desktop date contents doubled
 
 At 1600px and above, shared date text is 1.75rem and icon 2rem, matching approved tablet sizes. Mobile and intermediate desktop range unchanged; latter awaits user-directed tuning. Prepared for shared upload and GEO/WGSS publishing.
