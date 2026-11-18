@@ -1567,3 +1567,7 @@ Shared smile paragraphs add no top margin; preceding normal paragraph spacing su
 ## Paragraph-to-grid spacing (November 18, 2026)
 
 A paragraph immediately followed by a shared equal/sidebar grid uses --grid-gap for its bottom margin: 33px desktop, 27px tablet, 21px mobile. Normal paragraph-to-paragraph spacing is unchanged. The shared rule belongs in grids.css; do not add per-page spacer elements or duplicate margin overrides for this relationship.
+
+## Lists as grid cells (November 18, 2026)
+
+Native ul/ol elements used directly as shared grid cells retain 2rem inline-start padding so markers stay within cell boundaries and wrapped text aligns naturally. Shared grid child resets must not strip this indentation. Explicit list-unstyled/list-inline treatments are exempt. Fix the shared rule rather than padding individual course lists.

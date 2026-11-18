@@ -23,6 +23,14 @@ padding: 0;
 margin: 0;
 }
 
+/* Grid resets must retain room for native list markers inside each cell. */
+.site-main :is(.grid-one, .grid-two, .grid-three, .grid-four, .grid-five, .grid-six,
+.grid-welcome, .grid-profile, .grid-standard, .grid-compact,
+.sidebar-left-exsm, .sidebar-left-sm, .sidebar-left-med, .sidebar-left-large,
+.sidebar-right-exsm, .sidebar-right-sm, .sidebar-right-med, .sidebar-right-large) > :is(ul, ol):not(.list-unstyled, .list-inline) {
+padding-inline-start: 2rem;
+}
+
 /* Separate introductory prose from a following shared grid by one grid gap. */
 .site-main p:has(+ :is(.grid-one, .grid-two, .grid-three, .grid-four, .grid-five, .grid-six,
 .grid-welcome, .grid-profile, .grid-standard, .grid-compact,

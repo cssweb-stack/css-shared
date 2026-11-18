@@ -1,5 +1,25 @@
 # Current work handoff
 
+## November 18: List markers inside grid cells
+
+Shared equal/sidebar grid child reset removed padding from direct ul/ol cells, leaving markers outside their boundaries. Restored 2rem inline-start list padding centrally; explicit unstyled/inline lists exempt. GEO Minor course content unchanged. Preparing shared upload and established-site publishing; GEO Minor source remains local.
+
+## November 18: GEO Minor requirements consolidated
+
+Combined source requirement and development lead-in under Requirements H2 in gray, removed duplicate requirement from intro. Retained 15 upper-division geography credits and at least one course per three areas; removed unsupported nine-credit minimum and blanket course-credit claim. Each existing human/environmental/geospatial list now uses shared grid-two with balanced lists and unchanged course entries. Course-list eligibility still awaits source verification. Local only, not uploaded.
+
+## November 18: GEO Minor original requirement moved into intro
+
+H1 changed to Minor in Geography and Environment. Kept approved development intro and added original current-site 15-credit/three-area requirement paragraph immediately beneath, verbatim. Removed top gray comparison block including Minor Requirements heading and old contact lead-in. Remaining area/course content unchanged pending further user review. Local only, not uploaded.
+
+## Planned: linked document accessibility inventory
+
+User requests a future network-wide inventory of Google Drive/Docs links and all linked PDFs, including files hosted elsewhere. Identify document purpose/owner and accessibility status; prioritize student-facing application/process forms for replacement with accessible Kuali workflows where suitable. GIS Certificate Application PDF has user-supplied Acrobat checker failures (tags, language/title, tab order, alternate text, tables); not remediated. Keep functioning links until approved replacements are ready. Survey not started; do not treat all PDFs as proven inaccessible without checking. Kuali replacements require accessible configuration and keyboard/screen-reader review, not platform choice alone.
+
+## November 18: GIS application form restored on certificate page
+
+Added linked GIS Certificate Application H2 and brief planning/completion/submission explanation above GIS Undergraduate Scholarship, below gray course content. Existing Google Drive form URL preserved; advising-page form link retained. Local only, not uploaded.
+
 ## November 18: Shared paragraph-to-grid spacing
 
 Added one shared grids.css rule assigning the responsive grid gap to paragraphs immediately before equal/sidebar grids. Normal prose spacing unchanged; no page-specific classes/spacers. Preparing shared upload and established-site publishing.
