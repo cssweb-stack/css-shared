@@ -1,5 +1,9 @@
 # Current work handoff
 
+## November 18: Responsive universal grid gap
+
+Shared --grid-gap now 33px desktop (992px+), 27px tablet (768–991px), 21px mobile (<768px). Existing sidebar/stack gap aliases inherit it; no 1600px gap override. Outer gutters and tile internal spacing unchanged. Supersedes fixed 33px agreement. Preparing shared upload and established-site publishing.
+
 ## November 18: Shared mobile photos and three-column tablet faculty
 
 Centralized mobile supporting-photo width at --mobile-supporting-image-width:66% in layout.css, replacing separate 75% profile/image-text rules and covering direct sidebar photos. Avoided cumulative wrapper/image shrinking. Tablet portrait directories now show three columns (768–991px), including legacy portrait grids/director groups. Chrome checks at 390/768/820/991px confirmed 66% mobile faculty/course photos, three tablet cards, no page overflow. Known tradeoff: GEO emails wrap at 768/820px but fit at 991px; retained trial for user review without shrinking text. Preparing shared upload and established-site publishing.

@@ -1555,3 +1555,7 @@ At 992–1599px, shared left/right small tracks use clamp(12rem, 17vw, 15rem), m
 One --mobile-supporting-image-width token in layout.css controls supporting portrait/sidebar image widths at 66% below 768px, left-aligned with full-width text. Applies to faculty cards/profile photos, office photos and supporting photos in shared image-text and left/right sidebar layouts. Does not change date/program tiles, heroes or standalone full-width article images. Size a media wrapper or its image, never both cumulatively. This supersedes former independent 75% mobile photo rules.
 
 Faculty portrait directories use three columns at tablet widths 768–991px as a user-requested trial, preserving 33px gaps and existing typography. Narrow tablet email wrapping is known and awaits visual review; do not silently reduce text size to hide it. Other equal grids retain their standard column rules.
+
+## Responsive shared grid gap (November 18, 2026)
+
+The universal --grid-gap value is 33px at 992px and above, 27px at 768–991px, and 21px below 768px. This explicitly supersedes the earlier fixed-33px-at-every-width agreement wherever recorded. All equal/sidebar grids consuming this token follow these three ranges; no separate gap at 1600px. Outer page gutters and date icon/text spacing remain separate and unchanged.
