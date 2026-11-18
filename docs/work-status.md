@@ -1,5 +1,9 @@
 # Current work handoff
 
+## November 18: Bounded intermediate extra-small column
+
+Replaced oversized 25% intermediate desktop track with clamp(10rem, 12.5vw, 11rem), flexible remaining column, at 992–1599px. Approved tablet/mobile/full-desktop behavior and date contents unchanged. Grid gap stays 33px. Preparing shared upload and GEO/WGSS publishing.
+
 ## November 18: Removed cramped intermediate date layout
 
 Extra-small grids retain 25/75 from 768–1599px, switching to 12.5/87.5 only at 1600px. Date contents use approved larger sizes at all widths from 768px upward. Consolidated date CSS into one component block with mobile geometry and one content breakpoint; removed duplicate tablet/full-desktop overrides. Approved mobile sizes, opacity, weight and gaps retained. Preparing shared upload and GEO/WGSS publishing.

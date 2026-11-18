@@ -1542,6 +1542,6 @@ All unit contact pages use a white intro section containing the H1 and opening o
 
 ## Extra-small grids and date badges (November 18, 2026)
 
-Extra-small left/right sidebars use 25/75 tracks from 768px through 1599px, then 12.5/87.5 at 1600px and above. Below 768px they stack. This supersedes the earlier 992px switch to 12.5/87.5; other sidebar sizes are unchanged. Grid gaps remain 33px.
+Extra-small left/right sidebars use 25/75 tracks at 768–991px. At 992–1599px, the narrow track is clamp(10rem, 12.5vw, 11rem), with the other track taking remaining space. At 1600px and above, tracks use 12.5/87.5. Below 768px they stack. Bounded intermediate sizing supersedes both the cramped 12.5% and oversized 25% intermediate layouts. Other sidebar sizes are unchanged. Grid gaps remain 33px.
 
 Shared event-date badges stay square. On mobile their width is 27.5% of the stacked grid, with text calc(0.875rem * 4 / 3) and icon calc(1rem * 4 / 3). At every width from 768px upward, text is 1.75rem and icon 2rem. All sizes use an 0.5rem icon/text gap, white date text at weight 600, and 75% icon opacity. Values live together in tiles.css; tile content remains independent of grid tracks. These consolidated values supersede the intermediate tuning steps recorded in work-status.md.
