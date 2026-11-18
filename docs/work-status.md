@@ -1,5 +1,10 @@
 # Current work handoff
 
+## November 17: GEO publishing failure corrected
+
+GitHub failed because GEO local CSS hardcoded the sibling css-shared path, absent in the Actions checkout. Replaced it with a shared contour-pattern token and standard local unit.css entry. GEO now delegates Eleventy/shared-source/settings to the same shared bootstrap used by ANTH; faculty helper uses that bootstrap too. Publishing workflow now matches established manual build/deploy without validation gate and includes SITE_ORIGIN. Ignored Office lock files. Project-prefix build passed (33 pages); no unprefixed href/src references, profiles/navigation and portable CSS background checked. Fix prepared for shared/GEO upload and GEO republish.
+
+
 ## November 17: WGSS colloquia match GEO event layout
 
 Four existing colloquia now use standard sidebar-left-exsm rows with blue calendar/date tiles, shared calendar icon, H2 event titles and preserved speaker/time/location details. No year invented for source dates without one; David Khalili remains the heading where no talk title was supplied. Intro separated from schedule. WGSS build passed; four rows and speakers checked. Local shared and WGSS changes pending requested upload.

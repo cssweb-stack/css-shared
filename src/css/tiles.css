@@ -1,3 +1,7 @@
+:root {
+--tile-pattern-contour: url("../media/shared/backgrounds/geo-contour-lines.svg");
+}
+
 /* Universal Tile Style */
 .tile-style {
 position: relative;
