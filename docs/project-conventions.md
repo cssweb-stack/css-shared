@@ -1542,7 +1542,7 @@ All unit contact pages use a white intro section containing the H1 and opening o
 
 ## Extra-small tablet columns and mobile date badges (November 18, 2026)
 
-Extra-small sidebars use 25/75 tracks at 768–991px, superseding their earlier 33/67 tablet split. Other sidebar sizes are unchanged. On mobile, shared event-date badges occupy 25% of their stacked grid width as small squares; their icon/date contents scale to fit. Grid gaps remain 33px. Desktop extra-small proportions remain unchanged pending review.
+Extra-small sidebars use 25/75 tracks at 768–991px, superseding their earlier 33/67 tablet split. Other sidebar sizes are unchanged. On mobile, shared event-date badges occupy 27.5% of their stacked grid width (10% larger than the initial 25%) as small squares; their icon/date contents scale to fit. Grid gaps remain 33px. Desktop extra-small proportions remain unchanged pending review.
 
 ## Fixed date-badge contents (November 18, 2026)
 

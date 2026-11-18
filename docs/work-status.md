@@ -1,5 +1,9 @@
 # Current work handoff
 
+## November 18: Mobile date tile enlarged by 10%
+
+Mobile date tile width increased from 25% to 27.5% of its grid width; square height grows proportionally. Icon/text, tablet/desktop behavior and all gaps unchanged. Prepared for shared upload and GEO/WGSS publishing.
+
 ## November 18: Tablet date contents doubled
 
 Tablet-only (768–991px) date text increased to 1.75rem and icon to 2rem, twice mobile sizes. Mobile/desktop content sizes unchanged; 8px content gap, 75% icon opacity, 25/75 tablet tracks and 33px grid gap retained. Prepared for shared upload and GEO/WGSS publishing.
