@@ -1,5 +1,9 @@
 # Current work handoff
 
+## November 18: Bounded desktop widths for all sidebar sizes
+
+Extended bounded intermediate desktop sizing to shared small/medium/large left/right sidebars, replacing 25% fallback. Small 192–240px, medium 224–288px, large 256–352px at default root, with fluid widths between. Full desktop proportions, tablet/mobile and 33px gaps unchanged. Preparing shared upload and established-site publishing; unrelated GEO source work remains local.
+
 ## November 18: Anthropology Colloquia uses shared date layout
 
 Separated Colloquia H1/contact intro and single listing. Moved event into shared ANTH events.json; date is October 1, 2026, without ordinal suffix. Preserved Dong Hoon Shin name, title/Google document link, 3:00pm and Crawford Hall 115. Shared events template now supports optional title URL/time/location; existing GEO data unchanged. Uses approved extra-small grid/date badge sizing. Preparing shared/ANTH upload and ANTH/GEO publishing because template is shared.

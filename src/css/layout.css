@@ -412,18 +412,24 @@ scroll-margin-top: calc(var(--sticky-header-height, 16rem) + 1rem);
 .sidebar-right-sm {
 --sidebar-wide-narrow: 17fr;
 --sidebar-wide-content: 83fr;
+--sidebar-desktop-narrow: clamp(12rem, 17vw, 15rem);
+--sidebar-desktop-content: 1fr;
 }
 
 .sidebar-left-med,
 .sidebar-right-med {
 --sidebar-wide-narrow: 20fr;
 --sidebar-wide-content: 80fr;
+--sidebar-desktop-narrow: clamp(14rem, 20vw, 18rem);
+--sidebar-desktop-content: 1fr;
 }
 
 .sidebar-left-large,
 .sidebar-right-large {
 --sidebar-wide-narrow: 25fr;
 --sidebar-wide-content: 75fr;
+--sidebar-desktop-narrow: clamp(16rem, 25vw, 22rem);
+--sidebar-desktop-content: 1fr;
 }
 
 .sidebar-left-exsm,
