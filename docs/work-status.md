@@ -1,5 +1,9 @@
 # Current work handoff
 
+## November 18: Full desktop date contents doubled
+
+At 1600px and above, shared date text is 1.75rem and icon 2rem, matching approved tablet sizes. Mobile and intermediate desktop range unchanged; latter awaits user-directed tuning. Prepared for shared upload and GEO/WGSS publishing.
+
 ## November 18: Mobile date tile enlarged by 10%
 
 Mobile date tile width increased from 25% to 27.5% of its grid width; square height grows proportionally. Icon/text, tablet/desktop behavior and all gaps unchanged. Prepared for shared upload and GEO/WGSS publishing.

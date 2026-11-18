@@ -298,3 +298,11 @@ justify-self: start;
 --date-icon-size: 2rem;
 }
 }
+
+/* Full desktop date contents match the approved tablet sizes. */
+@media (min-width: 1600px) {
+.event-date-box {
+--date-text-size: 1.75rem;
+--date-icon-size: 2rem;
+}
+}
