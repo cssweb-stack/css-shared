@@ -1,5 +1,9 @@
 # Current work handoff
 
+## November 18: Date-badge contents standardized
+
+Shared date text fixed at 0.8rem, calendar at 1rem, icon/text gap at 0.375rem for all viewport widths. Removed mobile content overrides/container sizing; retained quarter-width mobile badge, tablet proportions and 33px grid gap. Local changes prepared for GEO/WGSS publishing.
+
 ## November 18: Compact date badges on tablet/mobile
 
 Shared extra-small sidebar tablet split changed to 25/75 at 768–991px; shared mobile event badges now quarter-width squares with scaled icon/date. Gap remains 33px; desktop proportions and other sidebar sizes unchanged. GEO build passed. Local Chrome checks at 820/390/320px confirmed intended proportions, date fits, no horizontal overflow. Local only, not committed/uploaded.
