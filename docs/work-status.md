@@ -1,5 +1,9 @@
 # Current work handoff
 
+## November 18: Full upload and publish requested
+
+All eight unit repositories were clean and matched their local origin/main references. Shared remaining rules/handoff committed and pushed as fcd80f0; Review shared-data watch target committed and pushed as deb4633. Publishing successfully requested for anth, es, geo, pols, puba, soc, ssri, wgss and Review. Deployment completion was not monitored, per upload-only agreement. Python cache files excluded. Homepage tiles remain next work. Review watcher configuration uploaded; automatic local refresh was not verified.
+
 ## November 18: POLS final featured allocation
 
 User superseded supporting-only internship/specialization request with remaining featured allocation. Assigned all five unused general featured images: Internships & Scholarships40, Community Internships47, Specializations index51, Pi Sigma Alpha55, Alternative Futures61. Other specialization supporting images retained; graduate/fixed choices unchanged. POLS build and five rendered image paths verified. Shared8aa7099 pushed; POLS/Review publishing started. No deployment monitoring or local full Review rebuild.
