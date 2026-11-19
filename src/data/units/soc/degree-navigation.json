@@ -3,24 +3,24 @@
     "label": "Sociology MA",
     "pages": [
       {
-        "label": "MA Overview",
+        "label": "Overview",
         "url": "/graduate/master-ma/"
       },
       {
         "label": "Requirements & Progress",
-        "url": "/graduate/master-ma/requirements.html"
+        "url": "/graduate/master-ma/requirements-progress.html"
       },
       {
         "label": "Suggested Timeline",
-        "url": "/graduate/master-ma/timeline.html"
+        "url": "/graduate/master-ma/suggested-timeline.html"
       },
       {
-        "label": "Plan A: Thesis",
-        "url": "/graduate/master-ma/thesis.html"
+        "label": "Thesis (Plan A)",
+        "url": "/graduate/master-ma/thesis-plan-a.html"
       },
       {
-        "label": "Plan B: Research Report",
-        "url": "/graduate/master-ma/research-report.html"
+        "label": "Research Report (Plan B)",
+        "url": "/graduate/master-ma/research-report-plan-b.html"
       },
       {
         "label": "Annual Review",
@@ -32,16 +32,16 @@
     "label": "Sociology PhD",
     "pages": [
       {
-        "label": "PhD Overview",
+        "label": "Overview",
         "url": "/graduate/doctorate-phd/"
       },
       {
         "label": "Requirements & Progress",
-        "url": "/graduate/doctorate-phd/requirements.html"
+        "url": "/graduate/doctorate-phd/requirements-progress.html"
       },
       {
         "label": "Suggested Timeline",
-        "url": "/graduate/doctorate-phd/timeline.html"
+        "url": "/graduate/doctorate-phd/suggested-timeline.html"
       },
       {
         "label": "Qualifying Review",

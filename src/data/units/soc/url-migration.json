@@ -6,15 +6,15 @@
       "label": "Master’s (MA)",
       "fragmentTargets": {
         "section-1": "/graduate/master-ma/#section-1",
-        "section-2": "/graduate/master-ma/timeline.html#section-2",
-        "section-3": "/graduate/master-ma/requirements.html#section-3",
+        "section-2": "/graduate/master-ma/suggested-timeline.html#section-2",
+        "section-3": "/graduate/master-ma/requirements-progress.html#section-3",
         "section-4": "/graduate/master-ma/#section-4",
-        "section-5": "/graduate/master-ma/requirements.html#section-5",
-        "section-6": "/graduate/master-ma/requirements.html#section-6",
-        "section-7": "/graduate/master-ma/thesis.html#section-7",
-        "section-8": "/graduate/master-ma/research-report.html#section-8",
+        "section-5": "/graduate/master-ma/requirements-progress.html#section-5",
+        "section-6": "/graduate/master-ma/requirements-progress.html#section-6",
+        "section-7": "/graduate/master-ma/thesis-plan-a.html#section-7",
+        "section-8": "/graduate/master-ma/research-report-plan-b.html#section-8",
         "section-9": "/graduate/master-ma/#section-9",
-        "section-10": "/graduate/master-ma/requirements.html#section-10"
+        "section-10": "/graduate/master-ma/requirements-progress.html#section-10"
       }
     },
     {
@@ -33,16 +33,16 @@
       "label": "Doctorate (PhD)",
       "fragmentTargets": {
         "phd-1": "/graduate/doctorate-phd/#phd-1",
-        "phd-2": "/graduate/doctorate-phd/timeline.html#phd-2",
-        "phd-3": "/graduate/doctorate-phd/requirements.html#phd-3",
-        "phd-4": "/graduate/doctorate-phd/requirements.html#phd-4",
-        "phd-5": "/graduate/doctorate-phd/requirements.html#phd-5",
+        "phd-2": "/graduate/doctorate-phd/suggested-timeline.html#phd-2",
+        "phd-3": "/graduate/doctorate-phd/requirements-progress.html#phd-3",
+        "phd-4": "/graduate/doctorate-phd/requirements-progress.html#phd-4",
+        "phd-5": "/graduate/doctorate-phd/requirements-progress.html#phd-5",
         "phd-6": "/graduate/doctorate-phd/qualifying-review.html#phd-6",
         "phd-7": "/graduate/doctorate-phd/dissertation.html#phd-7",
         "phd-8": "/graduate/doctorate-phd/comprehensive-exam.html#phd-8",
         "phd-9": "/graduate/doctorate-phd/dissertation.html#phd-9",
         "phd-10": "/graduate/doctorate-phd/dissertation.html#phd-10",
-        "phd-11": "/graduate/doctorate-phd/requirements.html#phd-11"
+        "phd-11": "/graduate/doctorate-phd/requirements-progress.html#phd-11"
       }
     },
     {
