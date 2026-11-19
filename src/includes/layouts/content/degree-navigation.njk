@@ -1,7 +1,4 @@
 {# One accessible navigation block, reused on every page of a degree. #}
-{% if degreeNavigation.intro %}
-<p class="subnav-intro">{{ degreeNavigation.intro | escape }}</p>
-{% endif %}
 <nav class="degree-navigation" aria-label="{{ degreeNavigation.label | escape }} pages">
 <ul class="degree-navigation-list">
 {% for item in degreeNavigation.pages %}
