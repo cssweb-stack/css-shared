@@ -153,3 +153,10 @@ grid-column: span 2;
 grid-column: span 4;
 }
 }
+
+@media (width < 1400px) {
+.grid-two.grid-two--wide {
+--grid-columns: 1;
+row-gap: 1rem;
+}
+}

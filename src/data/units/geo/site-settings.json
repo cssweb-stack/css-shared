@@ -1,5 +1,5 @@
 {
-  "layoutGuides": true,
+  "layoutGuides": false,
   "facultyBasePath": "/faculty/",
   "stylesheet": "/geo.css",
   "canonicalSections": [

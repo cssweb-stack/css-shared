@@ -5,9 +5,9 @@
   },
   "pages": {
     "/": {
-      "image": "/media/heroes/geo/honolulu-oahu.webp",
-      "location": "Honolulu, Oʻahu, Hawaiʻi",
-      "alt": "Satellite imagery of Honolulu, Oʻahu, Hawaiʻi"
+      "image": "/media/heroes/geo/north-shore-oahu.webp",
+      "location": "North Shore, Oʻahu, Hawaiʻi",
+      "alt": "Satellite imagery of North Shore, Oʻahu, Hawaiʻi"
     },
     "/about/why-study-geo.html": {
       "image": "/media/heroes/geo/hanalei-kauai.webp",
@@ -46,9 +46,9 @@
       "alt": "Satellite imagery of Manila, Philippines"
     },
     "/undergraduate/geo-bam.html": {
-      "image": "/media/heroes/geo/north-shore-oahu.webp",
-      "location": "North Shore, Oʻahu, Hawaiʻi",
-      "alt": "Satellite imagery of North Shore, Oʻahu, Hawaiʻi"
+      "image": "/media/heroes/geo/honolulu-oahu.webp",
+      "location": "Honolulu, Oʻahu, Hawaiʻi",
+      "alt": "Satellite imagery of Honolulu, Oʻahu, Hawaiʻi"
     },
     "/undergraduate/geo-sust-bam.html": {
       "image": "/media/heroes/geo/bali-indonesia.webp",
