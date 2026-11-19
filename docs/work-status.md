@@ -1,8 +1,48 @@
 # Current work handoff
 
+## November 18: POLS final featured allocation
+
+User superseded supporting-only internship/specialization request with remaining featured allocation. Assigned all five unused general featured images: Internships & Scholarships40, Community Internships47, Specializations index51, Pi Sigma Alpha55, Alternative Futures61. Other specialization supporting images retained; graduate/fixed choices unchanged. POLS build and five rendered image paths verified. Shared8aa7099 pushed; POLS/Review publishing started. No deployment monitoring or local full Review rebuild.
+
+## November 18: POLS undergraduate featured fill
+
+Assigned six unused general featured heroes: Law & Society20, Minor24, BA26, Honors27, Advising31, SLO36. All unique and previously unused within POLS; common hero assets excluded from allocation. No supporting fallback needed. BAM and internships choices unchanged. POLS build and all six rendered image paths verified. Shared847c8f7 pushed; POLS/Review publishing started. No deployment monitoring or local full Review rebuild.
+
+## November 18: POLS internships/Why Study hero choices
+
+Internships & Scholarships main page now unused general supporting23; Community Internships retains supporting01. Why Study POLS now unused general featured10 instead of graduate54. Only two image paths changed. POLS build and both new rendered paths plus unchanged community supporting image verified. Shared0f641e8 pushed; POLS/Review publishing started. No deployment monitoring or local full Review rebuild.
+
+## November 18: POLS specialization heroes use general supporting only
+
+All seven pages including specialization index now use unique general supporting images: index09, Alternative Futures07, Comparative08 retained, Indigenous30 retained, International18, Law19, Political Theory21. Excluded images used elsewhere in POLS and universal image records. POLS build/rendered paths verified. No featured or graduate images in this section. Shared3d68a81 pushed; POLS/Review publishing started. No deployment monitoring or local full Review rebuild.
+
+## November 18: POLS graduate hero bank corrected
+
+All16 graduate routes now use graduate-bank images, verified in data and built output. MA54/PhD57/funding42 preserved; no unused graduate featured remained. Cohort now graduate supporting02, Teaching34; graduate Admissions14 swapped with News general featured39, and graduate SLO28 swapped with undergraduate SLO general supporting13. These two reciprocal swaps avoid new unrelated-page duplicates and remove graduate images from those non-graduate pages. POLS build passed. Shared13ac8b1 committed/pushed; POLS/Review publishing started. Deployment not monitored; no full local Review rebuild for image-only update.
+
+## November 18: Faculty image collisions corrected
+
+Corrected duplicate checker: faculty and fixed/policy images count as comparison references, while their own entries stay unmarked. Ordinary pages colliding with them now get red outlines. Verified actual POLS Alternative Futures/faculty featured60 pair and synthetic fixed/faculty/news scopes. Review5edf07f pushed; publishing dispatched. Full local Review build was started; not waited on at user request. Rules correction remains local; no image assignments changed.
+
+## November 18: WGSS certificate hero replacement
+
+User rejected39 for Undergraduate Certificate. Visually inspected remaining unused general featured55; selected55 as a better group composition. Verified unused within WGSS and rendered after WGSS build. Sharedaa94bc0 pushed; WGSS/Review publishing started. No deployment monitoring; image-only change.
+
+## November 18: WGSS About/undergraduate featured fill
+
+Assigned previously unused general featured images: Alumni20, Colloquia25, Department Overview26, Job Prospects27, Why Study31; Advising36, Certificate39, Double Majors40, Honors47, Queer Studies51. Kept BA61, Transnational24, SLO10 and all fixed/graduate/faculty choices. All ten new assets exist and were unused elsewhere in WGSS; no supporting fallback needed. WGSS build and ten rendered paths passed. Previous WGSS/Review deployment runs confirmed successful; fetched live Review with system curl and verified BA61/Transnational24 already served. Python HTTPS client certificate validation failed locally; system curl succeeded. Shared123d8de committed/pushed; WGSS/Review publishing started. No deployment polling or local Review rebuild for this image-only update.
+
+## November 18: WGSS BA and Transnational Courses heroes
+
+BA landing uses general featured61; Transnational Courses uses general featured24. WGSS build and both rendered paths verified. Shared4e3c8e1 pushed; WGSS/Review publishing started. No deployment monitoring; local Review not rebuilt for image-only update.
+
+## November 18: WGSS graduate hero choices
+
+Graduate Certificate uses graduate featured57; Applications & Admissions uses graduate featured54. Only two image paths changed. WGSS build/rendered paths verified. Shared cdfce01 committed/pushed; WGSS and Review publishing started. No deployment monitoring or local full Review rebuild for this image-only update.
+
 ## November 18: Hero Review grouped consistently and duplicates outlined
 
-Replaced unit-specific single/double/triple-use sorting with one source-folder grouping: Fixed Pages, content/degree sections, faculty landing pages then bios, and privacy/policies/404 last. Added section jump links. News index retained; all article hero images compared with index and only latest sample shown unless mismatches exist. Duplicate outlines mark replaceable ordinary pages, include collisions with fixed images, and exclude faculty/article/policy sections. Fixed Pages protected/unmarked. Counts now refer to displayed entries, not 54 repeated article tiles. No hero assignments changed in this task. Isolated duplicate-scope check passed; final build/publishing results pending.
+Replaced unit-specific single/double/triple-use sorting with one source-folder grouping: Fixed Pages, content/degree sections, faculty landing pages then bios, and privacy/policies/404 last. Added section jump links. News index retained; all article hero images compared with index and only latest sample shown unless mismatches exist. Duplicate outlines mark replaceable ordinary pages, include collisions with fixed images, and exclude faculty/article/policy sections. Fixed Pages protected/unmarked. Counts now refer to displayed entries, not 54 repeated article tiles. No hero assignments changed in this task. Isolated duplicate-scope check and full Review build passed. Verified all ordinary source pages retained, Fixed Pages first, faculty landing before bios, policies/error last, and no duplicate warnings on excluded groups. ANTH16/PUBA54 article images all match their index and render as one sample each. Shared a912491 and Review4cfc140 pushed; Review publishing dispatched. Deployment not monitored.
 
 ## November 18: ES Department News hero corrected to 47
 

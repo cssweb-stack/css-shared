@@ -1709,6 +1709,14 @@ Faculty landing pages precede faculty bios; privacy, policies and 404 come last.
 News shows its index and one representative article after comparing every article
 hero to the index; mismatches remain visible as exceptions. Red image outlines and
 a text label flag duplicate choices among ordinary pages, including collisions
-with fixed images. Fixed Pages are unmarked/protected; faculty, article samples,
-and policy/error pages are excluded from duplicate warnings. Grouping preserves
+with fixed images. Fixed, faculty and policy/error pages are unmarked/protected, but their images
+remain in the comparison so ordinary pages reusing them are flagged. Only news
+article samples are excluded from the comparison because the index represents
+that shared hero. This corrects the initial overly broad faculty exclusion. Grouping preserves
 all existing assignments; it does not impose one bank image on every unit.
+
+Graduate program/resource hero allocation uses students/graduate images only:
+unused graduate featured first, then graduate supporting. Do not fill graduate
+pages with general/undergraduate photos. POLS corrected November18; retained MA54,
+PhD57 and graduate funding42. Reuse within an established degree family remains
+intentional; avoid creating unrelated-page collisions during allocation.
