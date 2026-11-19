@@ -110,3 +110,9 @@ padding-inline: 1.5rem;
 --grid-columns: 6;
 }
 }
+
+@media (width < 768px) {
+.sidebar-stack--two-on-mobile {
+grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+}

@@ -1,6 +1,6 @@
 {
   "indexingEnabled": false,
-  "layoutGuides": true,
+  "layoutGuides": false,
   "canonicalSections": [
     "/"
   ],
