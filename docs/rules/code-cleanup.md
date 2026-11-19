@@ -61,6 +61,9 @@ display: flex;
 
 ## Preserve Existing Behavior
 
+- Preserve the supplied document’s heading hierarchy, section order and parent-child groupings when importing or splitting pages. Read the actual DOCX heading styles/table of contents; text extraction alone is insufficient. Do not redistribute source sections by inferred topic. Map source sections to destination pages before claiming fidelity; retain explicitly approved regroupings.
+- Preserve source list semantics during imports: numbered steps remain ordered lists, lettered substeps remain nested ordered lists with the appropriate marker, and bullets remain unordered lists. DOCX numbering can live in paragraph properties and numbering.xml rather than visible text; inspect those definitions and source nesting rather than flattening extracted paragraphs. Verify item counts, numbering restarts and parent-child relationships against the source. Never convert all lists to bullets by default.
+
 - Keep text, links, attributes, classes, IDs, element order and page settings unchanged. A formatting pass does not authorize rewriting content, adding markup or changing layout.
 - In CSS, preserve selectors, values, declaration order and rule order. Formatting must not change the cascade or appearance.
 - Preserve meaningful whitespace inside preformatted text, code samples, scripts, styles and template strings. Do not remove whitespace where it changes content or behavior.

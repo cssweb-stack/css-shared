@@ -23,13 +23,21 @@ before starting. “Quick” means focused work, not omitted editorial work.
      visible H1 where appropriate. Navigation can be shorter; the subject,
      credential and option must remain consistent across all representations.
    - Contact-page visible H1s use Contact [full unit name], never an acronym.
-     Titles may retain Contact [ACRONYM] to stay concise; preserve existing short
-     searchTitle overrides and unit/campus suffixes. Navigation stays Contact.
+     The search-title page label is Contact; the full unit name is supplied
+     once by the suffix. Navigation stays Contact.
      Check every unit contact page; the H1 and title need not be identical.
    - Donation/support pages use Support [full unit name] in the H1 and
-     /support.html as the ordinary filename/route. Preserve approved title choices;
+     /support.html as the ordinary filename/route. The search-title label is exactly
+     Support; contact pages use exactly Contact. No unit name or acronym before
+     the first pipe on either page. This supersedes earlier support title choices;
      check navigation, internal links, hero mappings and redirects together.
      Respect explicitly deferred sites; do not rename their routes during review.
+   - Graduate degree subpages use Degree: Topic identically in the visible H1
+     and title label before the first pipe. The title suffix supplies the unit.
+     Filenames match Topic in lowercase dash-separated form (ampersands and
+     parentheses omitted); Overview uses index.html. Example: MA: Plan A (Thesis)
+     uses plan-a-thesis.html. Preserve actual program topics, not another unit's
+     curriculum. Update current links/hero keys; create no development redirects.
    - When an approved program/option name changes, update navigation, H1,
      frontmatter title, searchTitle and overview references in the same task.
      Check the whole family, not just the page currently open.
@@ -41,13 +49,46 @@ before starting. “Quick” means focused work, not omitted editorial work.
      URL mappings. Ask about genuinely unapproved route changes.
    - Before claiming completion, compare the actual source and rendered route list
      with these naming rules; metadata presence alone does not cover filenames.
+   - After editing a title, H1 or source filename being reviewed, build the
+     affected unit and rebuild Review before reporting the change visible there.
+     Use Review npm run refresh:headings -- UNIT for title/H1/filename edits; it
+     rebuilds affected unit(s) and naming pages without unrelated inventories.
+     Verify the exact changed value in Review output; source edits alone are not
+     enough because Review reads built HTML.
    - Read the complete final rendered title list before handoff. Long titles are
      prompts for editorial judgment, not automatic truncation failures. Preserve
      useful specificity, research-area names and personal names. Use familiar
      ampersands in compact administrative labels where approved.
-   - Unit site-settings.json owns titleSuffix; searchTitle owns an optional short
-     page label. Remove legacy seoTitle overrides during a reviewed conversion;
-     do not mix patterns. Program titles use the same unit/campus suffix.
+   - Homepage exception: every reviewed unit uses exactly Full Unit Name
+     (ACRONYM) | UH Mānoa, implemented with the existing homepage-only seoTitle
+     override. Never replace it with Home or a repeated acronym suffix. This
+     supersedes the earlier blanket instruction to remove seoTitle overrides.
+   - Locked ordinary-page suffix: | Full Unit Name | UH Mānoa, with one space
+     on either side of each pipe. Never use SSRI/WGSS or another acronym as the
+     unit suffix. Do not add Department of or Program. Social Science Research
+     Institute is the full institute name, not a department/program prefix.
+     Exact names live in src/data/common/title-standards.json; unit settings must
+     match them. searchTitle owns only the page-label segment. The existing
+     read-only SEO checker independently validates settings AND rendered titles,
+     including full name, suffix spacing and campus. Existing pipes inside authored
+     news headlines do not change the final two suffix segments. No unit exception.
+     Homepage-only titles retain their separately approved pattern above.
+   - Final prefix-removal scope, November18: strip the full unit name only when
+     it is a redundant leading prefix in the search-title page label. Do not
+     remove matching words later in titles. Preserve full organization names:
+     Anthropology Graduate Student Association (AGSA), Anthropology Undergraduate
+     Student Association (AUSA), Ethnic Studies Student Association. These exact
+     protected labels are recorded in title-standards.json. This supersedes the
+     earlier anywhere-in-label repetition check. Keep discipline/credential/topic
+     names intact, including Medical Anthropology, Applied Cultural Anthropology,
+     Master of Public Administration and named professional organizations.
+     This changes searchTitle only, not visible H1s or filenames. Why Study uses
+     the separately approved acronym label; do not strip that acronym.
+   - Before editing, compare equivalent pages across the established units on
+     Review (all eight must be listed). Review is evidence, not permission to copy
+     an outlier: apply the accepted majority model and documented rules. If the
+     intended model is unclear, ask before changing it. Verify all eight homepage
+     titles against the exact homepage pattern before declaring SEO complete.
 3. Read and finish every meta description, not just placeholders. Write a unique,
    useful summary grounded in that page's actual content. Replace placeholders,
    generic repeated copy, misleading summaries and needlessly long descriptions;

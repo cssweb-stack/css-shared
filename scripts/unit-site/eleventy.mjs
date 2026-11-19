@@ -112,7 +112,7 @@ return { path: './' + relative + suffix, external: true };
 }]
 });
 });
-eleventyConfig.on('eleventy.after', () => generateRedirects({ project, migration: loadUnit().url_migration, siteUrl: loadUnit().site.url, prefix: process.env.SITE_PATH_PREFIX || '/' }));
+eleventyConfig.on('eleventy.after', () => generateRedirects({ project, enabled: loadCommon()['redirect-policy']?.enabled === true, migration: loadUnit().url_migration, siteUrl: loadUnit().site.url, prefix: process.env.SITE_PATH_PREFIX || '/' }));
 // Publish images/fonts/scripts only; JSON, templates and helper modules stay private to the build.
 for (const root of [sharedDir, sourceDir]) {
 for (const folder of ['assets', 'media']) {

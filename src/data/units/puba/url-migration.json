@@ -402,11 +402,6 @@
       "label": "Student Spotlight - Seungwoo Back"
     },
     {
-      "from": "/about/news.html",
-      "to": "/news/",
-      "label": "PUBA News"
-    },
-    {
       "from": "/students/newly-elected-paso-officers-hit-the-ground-running/",
       "to": "/news/paso-officers-2021-2022.html",
       "label": "PUBA news archive"

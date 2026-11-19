@@ -1,5 +1,213 @@
 # Current work handoff
 
+## November 18: Bulk upload and redirect evidence display
+
+User authorized all pending site updates plus shared rules/data/build changes and Review. Review redirect pages now show the original public URL, saved destination, and source-document filename for every mapping, with generation OFF and destination launch-review status explicit. Original XMLs retained; no regeneration requested or performed. Upload/publishing results to be reported after commands return; no deployment monitoring.
+
+## November 18: Anthropology degree naming normalized
+
+Removed Anthropology prefix from all seven MA/eight PhD H1s and frontmatter titles; retained existing search-title labels. Checked filenames against Topic and corrected ten: both advising-committees-candidacy, requirements-progress and research-meetings; MA plan-a-thesis/plan-b-papers; PhD exams/publication. Updated current source links and shared navigation/hero references, removed stale built filenames. Academic body text verified unchanged except URL substitutions. Redirects remain off; frozen migration mappings not edited (old launch destinations need their separate review). Focused Anthropology/Review rebuild passed in 13.8s; all 15 rendered title/H1/filename triples verified and stale outputs absent. Local only, not uploaded.
+
+## November 18: GEO lecture title simplified
+
+Changed only lecture-series frontmatter title to Lecture Series. H1 and route unchanged. GEO/Review focused rebuild passed; rendered title and Fall 2026 H1 verified. Local only, not uploaded.
+
+## November 18: Political Science degree naming matched to Geography pattern
+
+All five MA and six PhD H1s/frontmatter titles now match the Degree: Topic search label without Political Science prefix. Retained substantive topics/Plan A/Plan B qualifiers. Renamed thesis.html to plan-a-thesis.html and ma-event.html to plan-b-event.html so filenames match the topic; updated current links, navigation and hero keys; removed obsolete built files. No body text or redirect mappings changed. Frozen launch mappings still reference the old destinations in MA fragmentTargets; resolve those during the separately approved launch migration review. Focused POLS/Review rebuild passed in 12.4s; verified all 11 rendered titles/H1s/filenames and Review source paths. Local only, not uploaded.
+
+## November 18: Redirect generation centrally disabled
+
+Added common/redirect-policy.json enabled=false. Shared generator defaults OFF and removes its prior generated files/manifest without emitting redirects. Homepage legacy-query include uses the same flag. Saved original-site mappings unchanged and frozen for launch; explicit user instruction required to re-enable. Development renames must not add mappings/retirements. Ordinary 404 retained. Isolated check verified default-off behavior with an attempted development mapping, cleanup of old generated output and preservation of real content. All eight units rebuilt; full Review rebuilt with disabled-state notice distinguishing saved mappings from active redirects. Local only, not committed/pushed/deployed. Existing running development servers may need restarting to load changed build JavaScript; fresh build processes use the switch.
+
+## November 18: Development redirects removed and source check added
+
+Removed 76 unsupported development redirect sources: ANTH 36, ES 5, GEO 5, POLS 11, PUBA 1, SOC 18; institute/WGSS unchanged. Also removed two POLS development-only retired entries. Retained 293 original-public redirects, including three PUBA category aliases evidenced in original article links and three ES statements evidenced in the preserved original inventory. Added original-public-urls.json with original source document paths/checksums and public paths/post IDs; check-redirect-sources.py validates redirects, retirement/unresolved records and query sources against it. Explicit local rule; no new CI/upload gate. Positive and negative checker tests passed. All eight sites rebuilt; verified every removed redirect output absent and all 293 retained outputs present (decoded Unicode paths included). Full Review rebuild passed and redirect listings checked. No content/H1/route changes or new redirects in this task. Changes local only, not committed/pushed/deployed. Previous audit uncertainty resolved for redirect sources; existing PUBA unresolved original-page destination decisions remain unchanged.
+
+## November 18: Support/Contact titles normalized
+
+Set title/searchTitle labels to exactly Support or Contact on all 15 existing pages across eight reviewed sites. No H1/body/route/redirect changes in this task. Rebuilt all eight units and Review naming pages; verified every rendered browser title uses the exact one-word label and full unit suffix. Recorded rule superseding earlier support title choices. Local builds only; not committed, pushed or published.
+
+## November 18: Redirect source audit — development entries found
+
+Read-only audit of all eight url-migration maps (369 redirects) against available original WordPress exports and institute comparison records. At least 38 existing sources use development routes: ANTH 12, ES 4, GEO 5, POLS 8, SOC 9 (about-unit folders and ANTH core-faculty.html). Additional unmatched sources require historical-source review; absence from an export alone does not establish that a URL is development-only. WGSS all 25 sources match original export; institute ten are documented original moves. No redirect maps changed or uploaded in this audit. Latest six Sociology development renames added no redirects; only existing legacy destinations were updated. Existing development mappings still need removal and remaining unmatched sources need classification before claiming full compliance.
+
+## November 18: Sociology degree naming aligned and uploaded
+
+All five MA and six PhD pages now use Degree: Topic identically for H1/search-title label. Overview remains index.html. Renamed six files to topic slugs: requirements-progress (MA/PhD), suggested-timeline (MA/PhD), thesis-plan-a, research-report-plan-b. Retained meaningful Suggested/Plan A/Plan B qualifiers. Updated navigation, hero keys, crosslinks (including undergraduate BAM) and actual legacy redirect/fragment destinations; no development redirects added. Verified all 11 exact rendered title/H1 pairs, unchanged academic body text after URL substitutions, and no missing local link/image targets. Focused Sociology/Review rebuild passed. Shared mappings pushed e8b0979; Sociology pushed 3d22162. Publishing started: Sociology 44428047027 and Review 44428056783. No deployment monitoring. Other pending units not uploaded.
+
+## November 18: Degree navigation lead-ins removed
+
+Removed Sociology MA/PhD Explore the key components intro fields and removed optional lead-in rendering from shared degree-navigation include. All 11 rendered Sociology MA/PhD pages checked: no lead-in sentence/subnav-intro. Focused Sociology/Review refresh passed. Shared change committed/pushed at 286defa; Sociology publishing dispatch requested, no monitoring. Rule recorded: subnavigation has no explanatory lead-in above it. Other pending work untouched.
+
+## November 18: Review labels/inner scrolling removed and upload
+
+Removed visible Page Title/H1/Source Filename table labels (semantic headers remain visually hidden) and Main Pages group heading from all eight naming pages. Deleted scrolling region wrapper, so the comparison flows with ordinary page scrolling; other folder headings remain. Verified no inner scrolling and no horizontal table overflow at 1440/768/390px. Pushed required shared Review assets/data at d424434 and Review generator/config/workflow at 6ce5bae. Publishing started, run 44426011916; deployment completion not monitored. Other pending unit edits remain unpushed, apart from earlier Sociology push; this upload does not synchronize their source content. Local handoff/rule changes not included in these scoped code commits.
+
+## November 18: Sociology uploaded
+
+Committed and pushed Sociology source updates at 0a6cc40 (MA/PhD navigation above intro and Why Study acronym title). Other repositories not pushed in this request. Publishing workflow started: run 44425360101. Deployment completion not monitored.
+
+## November 18: Sociology MA/PhD navigation above intro
+
+Moved existing shared degree-navigation section ahead of H1/intro on all five MA and six PhD pages. Kept navigation separate from intro and gray content; no preceding HR. Academic text, metadata, links and widgets unchanged. Recorded universal degree-subnavigation placement rule. Sociology plus Review focused refresh passed in 10.9 seconds; verified navigation precedes H1 and no preceding HR on all 11 rendered pages. Local only, not uploaded.
+
+## November 18: GEO graduate H1s shortened and Review refreshed
+
+All six MA and seven PhD sources now use MA: Page Name / PhD: Page Name in frontmatter title and visible H1, without leading unit name. Existing concise searchTitle and full-unit suffix retained. No requirements, routes or source section groups changed. Focused unit-plus-Review refresh passed in 12.8 seconds; all 13 rendered H1s verified and Review no longer contains old full-name prefixes. Explained two exam links cover preparation/requirements versus October2020 procedural protocols for the same comprehensive exams and later proposal/final defense. Navigation wording not changed pending user preference. Local only, not uploaded.
+
+## November 18: Faster naming-review refresh implemented
+
+Added Review refresh:headings command taking affected unit(s): rebuilds their normal Eleventy output, then regenerates/renders only all eight naming pages. build.py/Eleventy support REVIEW_HEADINGS_ONLY while normal full build remains default. Skips unrelated hero/media/grid inventories; no new server, dependencies or CI. Ran command for institute contact edit: 10.6 seconds versus prior Review-only full build 28.1 seconds plus unit build. Verified all eight naming outputs and updated contact H1. Recorded mandatory agent refresh-before-done procedure in conventions, SEO sheet and Review README. Source edit alone still does not change generated output; user should only refresh browser after agent completes command. Local only, not uploaded.
+
+## November 18: Institute contact H1
+
+Changed only the contact H1 to Contact the Social Science Research Institute; recorded grammatical exception. Search title and other page content unchanged. Source replacement verified; institute site and Review rebuilt afterward, with exact new H1 verified in both outputs. Added mandatory affected-unit plus Review rebuild/verification step to SEO sheet after this stale-output correction. Local only, not uploaded.
+
+## November 18: Faculty filename rule resolved and WGSS normalized
+
+User clarified structure: multiple faculty pages use faculty/index.html; a single standalone faculty page uses root faculty.html. No wholesale move to root. Renamed WGSS core-faculty source to faculty/index.html and route /faculty/; updated navigation, hero key, internal references and legacy redirect destinations. Removed old /faculty/ redirect because that public address is now directly served, avoiding a self-loop. No development redirect created. Removed superseded generated core-faculty output. All eight active source/metadata checks found no core-faculty usage; historical legacy from mapping remains separately preserved where applicable. Added folder-versus-standalone checks to existing SEO checker and recorded exact agreed build/convention rule. WGSS and Review builds passed; current faculty directory and Review source filename verified. Local only, not uploaded.
+
+## November 18: Faculty filename audit — path choice pending
+
+Checked eight current sources and shared references: WGSS alone uses active core-faculty.html; six academic directories use faculty/index.html. User requested faculty.html and preventing recurrence. Asked whether to normalize all seven to root faculty.html or rename WGSS alone within faculty folder. No faculty page moved while that route choice is pending. Added active core-faculty filename/reference prohibition to build rules and existing SEO checker, excluding historical migration from fields. Existing ANTH legacy source mapping retained; unreviewed unit outside scope untouched. Local only.
+
+## November 18: Full-width grouped Review headings
+
+All eight per-unit naming tables now fill available width rather than fixed 1440px. Three equal title/H1/source columns remain right-aligned with 15pt gutters. Grouped rows by source folder, including About, Undergraduate, Graduate and MA/PhD subfolders; clear spaced section headers divide groups. Individual faculty profiles and news articles moved into separate final groups, leaving directories/primary content earlier. Verified all eight pages retain all 426 entries, and profile/article groups are separate. Review build passed. Local only, not uploaded. Supersedes fixed-width comparison layout.
+
+## November 18: Review naming comparison replaced with per-site pages
+
+Replaced combined headings.html with headings/<unit>.html for all eight reviewed sites. Added standard shared submenu linking all eight; main Page Headings navigation opens ANTH. Each site has one fixed 1440px-wide comparison table, three equal columns ordered Page Title, H1, Source Filename, right-aligned, with 15pt gutters and horizontal row dividers. Rows use rendered title/H1 paired with actual source path; navigation ordering retained and redirects excluded. Narrow windows scroll the fixed sheet horizontally. Removed obsolete combined output and eight-column styles; production grids/tables unchanged. Review build passed; all eight outputs/submenus and old-route removal checked; Chrome verified 1440px width, equal columns, right alignment and 20px computed gutter (15pt). Local only, not uploaded. This supersedes the earlier eight-sites-side-by-side layout.
+
+## November 18: Final leading-prefix title edits implemented
+
+Removed redundant Anthropology prefix from 18 actual searchTitle labels: faculty/emeriti directories, BAM, and MA/PhD subpages. Preserved visible H1s, three approved association names, all matching words later in labels, homepage titles and Why Study acronym labels. Updated canonical title data/checker to protect exact association names and enforce final leading-prefix-only scope; superseded broader repetition rule. ANTH build passed and all 18 rendered title strings matched expected replacements. Title-specific checks across all eight builds (426 content/error pages) passed; this is not a new full SEO pass. Existing non-title checker findings on article-specific Open Graph images remain separate (checker currently expects unit default image). Review rebuilt. Local only, not uploaded.
+
+## November 18: Why Study titles implemented, not just proposed
+
+Set actual searchTitle on all seven academic Why Study sources to Why Study ACRONYM?. Verified each final rendered title exactly against Why Study ACRONYM? | Full Unit Name | UH Mānoa using source permalink (not legacy redirect outputs). Preserved visible H1s, content, routes and navigation. SSRI has no Why Study source and none created. All seven unit builds and Review rebuild run; shared SEO checker already enforces this rule. Local only, not uploaded. Remaining ordinary page-label repetition is separate unfinished work.
+
+## November 18: Page-label repetition rule recorded and measured
+
+User confirmed no full unit name repeated before the locked suffix; Why Study requires acronym and SSRI never has that page. Updated SEO sheet/conventions and existing checker to flag full-name repetition plus wrong Why Study labels. Read-only inventory of current eight builds found 52 full-name matches (ANTH 34, ES 4, PUBA 5, SOC 8, WGSS 1). Some are meaningful specialty/organization titles needing decisions, not blind deletion. No page labels edited in this step. Suffix/homepage checks remain passing; ordinary page-label standardization is explicitly unfinished. Temporary detailed inventory: title-repetition-current.json under system temporary directory. Local only.
+
+## November 18: Exact unit title suffixes locked
+
+Recorded all eight exact full unit names in src/data/common/title-standards.json and authoritative SEO/convention rules. Updated SSRI/WGSS titleSuffix settings to full names; no Department of/Program prefixes. Homepage-only pattern retained. Existing read-only SEO checker now checks settings against canonical names independently, rendered ordinary-title suffix/full-name/spacing/campus, and exact homepage titles; no new CI/upload gate. SSRI/WGSS builds passed; all eight units (426 built content/error pages) passed targeted suffix/homepage assertions. Negative test confirmed WGSS acronym suffix is rejected, restoring generated file afterward. Existing authored news-headline pipes preserved; only final suffix segments validated. Review rebuilt for updated suffixes. Local only, not uploaded. Page-label family decisions remain separate; this does not claim all page-label repetition resolved or a fresh full SEO review.
+
+## November 18: Review headings eight-column comparison
+
+Made Page Headings full width with eight equal columns and a 15pt (20 CSS px) gutter, as explicitly requested. Scoped Review-only comparison CSS; production grids unchanged. All eight unit sections remain side by side without responsive column collapse. Review build passed and generated full-width wrapper/eight sections verified. Local only, not uploaded.
+
+## November 18: Cross-site title pattern repaired and Review expanded
+
+User confirmed homepage model Full Unit Name (ACRONYM) | UH Mānoa for every reviewed site. Restored exact GEO/POLS/WGSS homepage titles using documented homepage-only seoTitle exception; all eight built homepages verified against literal expected strings. Resolved conflicting SEO-sheet instruction that incorrectly required removal of that exception; added cross-site comparison and homepage-pattern guard to existing read-only SEO checker (no publishing gate). Reviewed full POLS/GEO/WGSS title/H1/source route lists against analogous Review entries: corrected POLS Faculty H1 and Graduate Applications & Admissions naming, WGSS Faculty search title, GEO BA full-name H1. Preserved degree/person/topic-specific labels and deliberate short search titles. Removed obsolete duplicate GEO privacy source with no generated route; current privacy.html retained. Shared checker reports zero errors across GEO 47, POLS 60, WGSS 31 current/error pages. Review headings now includes GEO alongside all seven other completed sites; updated current-unit list and Review checkout/build scope to all eight, so published inventory can include each. Source route/rendered inventory and final Review coverage verification recorded below. Local only; no commits, uploads or publication.
+
+## November 18: Thomas Giambelluca associated listing
+
+Added Thomas Giambelluca alphabetically after Gary Fuller on GEO Associated Faculty, with original-page email thomas@hawaii.edu and three source-based research keywords: Climate Variability and Change, Land–Atmosphere Interactions, Ecohydrology. User requested limiting the original longer list to three. Renamed group Emeriti / Retired Faculty per user instruction without asserting his individual emeritus status. Existing legacy redirect retained. Local only, not uploaded; verified rendered listing through GEO build.
+
+## November 18: GEO 404 decisions resolved
+
+User confirmed Alison Rieser old URL goes to Associated Faculty, and superseded Thomas Giambelluca profile restoration with the same redirect destination. No Thomas profile created. Final mapping: 32 redirects including five pre-existing mappings, seven retired URLs, zero unresolved. GEO and Review rebuilt successfully; both generated faculty redirects and destination verified. Current privacy policy remains intact, with legacy privacy-policy redirect. Local only; no upload or deployment performed. Deployed HTTP behavior remains to be checked after publishing.
+
+## November 18: GEO legacy URL / 404 review — two decisions pending
+
+Compared all 36 published original WordPress pages with current routes and user-marked spreadsheet retirements. Home/faculty unchanged; added 25 confirmed legacy redirects, preserving five existing mappings (30 total); seven user-approved retirements; two unresolved faculty profile decisions requested (Alison Rieser and Thomas Giambelluca). Original undergraduate/graduate introductions map to corresponding Why Study sections with explicit anchors; combined major/minor requirements map to major page. Current privacy.html preserved and old privacy-policy/ redirects there, never retired. Added standard shared 404 with central recovery links, noindex and no canonical. GEO and Review builds passed; verified redirect outputs/final targets/fragments, retired absence, and updated Review classifications. Temporary static HTTP server confirmed privacy 200, old privacy redirect HTML 200, retired and unknown URLs 404; stopped temporary server. This does not establish production/preview status or custom-error-body routing on the deployed host. Static redirects are meta-refresh, not HTTP 301. All changes local, not uploaded. Await two user decisions, then regenerate affected mappings/listing and publish only on request.
+
+## November 18: GEO focused SEO review completed locally
+
+Compared Review headings inventory examples with GEO source routes, navigation, rendered H1/title list and descriptions for all 46 current pages, using page copy reviewed in the language pass. Improved metadata on 17 pages: replaced four generic descriptions, shortened MA/PhD overview descriptions, corrected stale Core Faculty title, removed homepage legacy seoTitle, and used concise searchTitle labels without changing approved visible H1s. Corrected defense/enrollment summaries to match actual scope. Normalized development contact/support sources and routes to contact.html/support.html; updated navigation, hero mappings and internal references, with no development redirects. Production self-canonicals now cover every page; preview noindex remains enabled. GEO build passed; shared SEO checker reports zero errors, with 24 intentional short-title/full-H1 alignment notes reviewed against final title list. Removed stale generated files for replaced development routes; final local link/image target check passed. Social preview metadata/image included in checker coverage. All changes local, not committed/pushed/published. Launch-only indexing, sitemap/Search Console and separate legacy-URL/404 review remain outside this SEO pass. Accessibility deferrals above remain unresolved; SEO completion does not certify accessibility.
+
+## November 18: GEO accessibility checks — remaining coverage explicit
+
+Automated axe WCAG A/AA plus best-practice scan completed on 46 local built content pages: zero reported violations; one H1/main, language, duplicate-ID and desktop overflow checks clean. All 46 passed 320px horizontal reflow check. Browser keyboard checks passed skip-link focus, 2px focus outline, desktop dropdown Enter/ArrowDown/Escape and mobile menu Space/open/close. Six representative pages showed overflow with doubled text and added text spacing. Focused checks on BA, MA timeline and advising identified shared university header navigation extending to 1856px at a 1280px viewport; shared text-resizing work was previously deferred. Homepage program tiles remain excluded by user decision. No accessibility edits or publishing in this pass. Review is not a full accessibility sign-off: actual VoiceOver, external media captions/PDF accessibility and complete contextual image-purpose review remain untested/incomplete. Evidence: temporary geo-accessibility-results.json, geo-accessibility-manual.json and geo-overflow.mjs under system temporary directory. Next: user decision on shared header resize work versus retaining deferral; finish outstanding manual coverage before claiming full review complete.
+
+## November 18: GEO language review
+
+Reviewed current GEO page copy and faculty biographies against language sheet; corrected grammar, repeated words, generic gendered pronouns, source typos, course-list punctuation, ordinary introduction voice, Hawaiian spelling, stale handbook wording, and MA defense thesis/dissertation wording. Preserved literal learning outcomes, biography voice, academic thresholds/qualifications, list hierarchy and attributed chair passages. User approved removing Brian Szuster’s outdated Undergraduate Chair claim; retained his other service. User explicitly retained October 2020 COVID policies for department review. Source course-title variations remain as supplied rather than guessing replacements. Code-format recheck clean except protected outcomes NBSP; GEO build passed. Latest edits local, not uploaded. Remaining policy review includes dated COVID/filing-deadline language and handbook applicability dates; no new university-policy research or changes made.
+
+## November 18: GEO code-formatting review completed
+
+Formatting grade B+ to A. Reviewed 47 GEO HTML/Nunjucks sources and all 60 shared templates; cleaned formatting in 23 GEO files (blank lines, repeated/trailing whitespace), preserving literal outcomes including intentional NBSP. Shared templates already clean. Shared generated-HTML formatter now trims ordinary lines so embedded SVG indentation cannot leak into final code; script/style/pre/textarea contents stay protected. Expanded compact directory CSS rules in tables.css to canonical format. GEO build passed; all 51 generated HTML files checked for blank lines/indentation outside protected blocks, balanced tags and duplicate IDs: no findings. Read generated nested defense protocol markup directly; protected formatter fixture passed. Formatting only, not accessibility/SEO/content certification. Local changes, not committed/uploaded.
+
+## November 18: PhD overview heading aligned with MA
+
+Replaced PhD Handbook H2 with Program Requirements & Responsibilities, retaining applicability paragraph and Academic Objectives immediately after it. Also corrected dissertation closing period and linked-space placement. Latest MA/PhD refinements remain local, not uploaded.
+
+## November 18: Redundant degree heading prefixes removed
+
+Removed Degree Requirements: prefix from remaining MA/PhD H2 headings (Dissertation and comprehensive examination/research preparation). Other heading text/content unchanged. Local only, not uploaded.
+
+## November 18: MA/PhD navigation follows student progression
+
+Both menus now start Overview, Requirements, Progress Guide. MA then Timeline, Enrollment & Standing, Thesis & Defense. PhD then Enrollment & Standing, Exams & Research Preparation, Dissertation, Exam & Defense Protocols. No page content/URLs changed. Recorded student-oriented navigation rule superseding literal source order. Local only, not uploaded.
+
+## November 18: PhD source grouping repaired
+
+Replaced three mixed-topic pages with Dissertation, Exams & Research Preparation (advisor/committee/comprehensive exams/proposal approval together), and Exam & Defense Protocols (entire October 2020 protocol section in source order). Navigation follows source: Overview, Requirements, Dissertation, Exams & Research Preparation, Enrollment & Standing, Progress Guide, Exam & Defense Protocols. Updated hero keys; removed superseded development source/output files without redirects. Approved other pages, form destinations, Graduate Chair referrals and course widgets preserved. Compared 85 source paragraphs/headings against regrouped content ignoring markup/whitespace: none missing. Restored DOCX numbering: oral protocol 10 steps, proposal protocol 9, final defense 6 with lettered sublists. GEO build passed. Local only, not uploaded.
+
+## November 18: Source hierarchy audit after user correction
+
+Read actual heading styles from both supplied DOCX files and compared MA/PhD page headings. MA major groups match source with user-approved Enrollment & Standing grouping, form relocation, timeline transpose and overview rewrite; thesis-credit subsection headings include added web hierarchy. PhD grouping diverges: Dissertation degree requirement paired with final-defense protocol; comprehensive-exam preparation split between advising/exams pages; protocol parent duplicated across two pages. No further page restructuring performed. Canonical import rule now requires source heading/style/TOC mapping rather than inferred topic grouping. PhD structural repair still needed, scoped to actual source hierarchy and explicit user decisions.
+
+## November 18: PhD requirements heading/course formatting
+
+Simplified first H2s to General, Public Lectures, Coursework. Linked lecture reference to local lecture-series page. Applied bold course code/title/credit plus spaced en dash to GEO 692/695, retaining descriptions and remaining requirements. Local only, not uploaded.
+
+## November 18: Graduate planning refers to complete program resources
+
+Rewrote MA/PhD overview planning paragraphs to refer broadly to program resources in top navigation for requirements/procedures/milestones rather than one Requirements page. Retained advisor planning, funding link and course-resource guidance. Local only, not uploaded.
+
+## November 18: Prospective graduate research links
+
+Both MA/PhD overview prospective sections now lead with current cohort and corresponding completed thesis/dissertation topic records before admissions link. Moved doctoral topics out of Current Students; retained funding/course planning there. Used existing cohort route and degree-record URLs. Local only, not uploaded.
+
+## November 18: PhD next steps match MA
+
+Added standard Graduate Chair info referral to all seven PhD pages in own section immediately above separate course widget, linking /contact.html. Overview Plan Your PhD moved below gray and organized as Prospective Students and Current Students with planning/graduation subheadings. Obsolete handbook link label changed to PhD Requirements. Local only, not uploaded.
+
+## November 18: MA Graduate Chair referrals
+
+Added standard info-styled Graduate Chair referral on all six GEO MA pages, each in its own section directly above the separate course widget. Links use existing /contact.html through url filter; no graduate advising page invented. Local only, not uploaded.
+
+## November 18: PhD forms integrated
+
+Removed overview forms block. Added department Academic Plan & Progress Review link in Annual Review; confirmed Synopsis already linked in requirements/advising/annual-review text and committee proposal already linked under Forming the Advisory Committee. Linked bare Graduate Division Form I–IV/2 references and replaced direct university Kuali/remote-participation PDF form links with main Graduate Division forms page throughout PhD pages. Department form destinations retained. Local only, not uploaded.
+
+## November 18: MA overview handbook framing retired
+
+Gray section renamed Program Requirements & Responsibilities; source paragraph now describes website requirements, retaining fall-2017 applicability/prior-entry rules and student responsibility, correcting doctoral to MA student. White next steps organized as Prospective Students (admissions link) and Current Students (coursework/research and graduation). Final widget unchanged. Local only, not uploaded.
+
+## November 18: MA departmental forms linked in context
+
+Moved existing department form links into instructions: Academic Plan & Progress Review in Enrollment & Standing Annual Review, Synopsis in Progress Guide step 3, Proposed Thesis Committee in step 4. Retained supplied destinations/login note. Removed standalone Graduate Program Forms section from MA overview; Graduate Division references already use central forms page. Local only, not uploaded.
+
+## November 18: GEO MA Graduate Division forms centralized
+
+Linked Graduate Division Forms I–IV throughout MA requirements/progress/timeline and redirected existing defense Form 3/4 direct Kuali links to main Graduate Division forms page. Linked credit-transfer petition there in progress guide. Departmental forms unchanged. Recorded destination rule. Local only, not uploaded.
+
+## November 18: MA overview next steps moved
+
+Moved Plan Your MA section below gray into its own white section above course widget. Renamed its obsolete MA Handbook link to MA Requirements (same existing destination). Checked form mentions: Synopsis/committee/progress-review names exist in instructions but are not yet linked there; standalone forms block still present pending relocation decision. Local only, not uploaded.
+
+## November 18: MA core course list styling
+
+Formatted GEO 692/695/696 with bold code, title and lowercase credit count, followed by spaced en dash and original description. Replaced comma after code with standard colon; removed forced line break. No description changes. Local only, not uploaded.
+
+## November 18: MA lecture requirement linked
+
+Renamed Public Lectures to Lecture Series and linked Fall/Spring Lecture Series in MA Requirements to existing lecture-series page. Attendance/participation requirement unchanged. Local only, not uploaded.
+
+## November 18: MA defense list hierarchy restored
+
+Corrected conversion error in MA Thesis & Defense protocols using supplied source screenshot: Master’s Research Defense has six numbered items; Final Defense has six numbered steps with lettered sublists under steps 3 and 4. Retained text and links. Added explicit source-list semantics/DOCX numbering preservation rule to canonical code-cleanup sheet. Local correction after bulk upload; not uploaded. Other handbook lists not certified by this targeted fix.
+
+## November 18: ANTH/WGSS publishing retry
+
+User reported failures in ANTH 44387877905 and WGSS 44387875819. Logs show both failed in deploy-pages artifact lookup (zero github-pages artifacts), despite successful artifact upload; builds did not fail. Restarted just those two deploy.yml workflows. Likely transient artifact visibility issue; no evidence simultaneous-run quota caused it. No workflow/code changes or deployment monitoring.
+
 ## November 18: Bulk upload and publishing started
 
 Committed and pushed shared changes at ef1848b and all pending updates for geo d29baf9; anth 6b1ec2b; es 2a8bf09; pols d5a7067; puba f487f45; soc f97a957; wgss 85aa627; ssri 2b096c2. Started deploy.yml for GEO, ANTH, ES, POLS, PUBA, SOC, WGSS and SSRI after shared push succeeded. WGSS/SSRI had no unit-source changes but were republished for shared updates. GEO checklist included in requested bulk upload. Workflow completion/deployment not monitored, per agreed process. Earlier local-only entries are included in this batch.

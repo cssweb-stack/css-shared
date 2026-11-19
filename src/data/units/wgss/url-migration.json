@@ -16,11 +16,6 @@
       "label": "Graduate"
     },
     {
-      "from": "/faculty/",
-      "to": "/faculty/core-faculty.html",
-      "label": "Faculty"
-    },
-    {
       "from": "/contact/",
       "to": "/contact.html",
       "label": "Contact"

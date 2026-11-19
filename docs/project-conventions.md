@@ -35,10 +35,10 @@ Shared-source validation on pushes and pull requests remains separate.
 Review also publishes manually through its single Build and publish Review
 workflow. Its GitHub repository is cssweb-stack/review and its project address
 is https://cssweb-stack.github.io/review/. Local development retains root paths;
-publishing builds with SITE_PATH_PREFIX=/review/. Review requires the five reviewed unit
-sources (ANTH, ES, PUBA, SOC, SSRI) and builds them before generating its inventory.
+publishing builds with SITE_PATH_PREFIX=/review/. Review requires the eight reviewed unit
+sources (ANTH, ES, GEO, POLS, PUBA, SOC, SSRI, WGSS) and builds them before generating its inventory.
 Other unit sources are optional; unavailable repositories produce a warning and
-are omitted from the listings. This supersedes requiring all ten repositories. Push
+are omitted from the listings. This supersedes the former five/six-unit required scope. Push
 required css-shared and unit changes before manually publishing Review.
 
 
@@ -1503,7 +1503,7 @@ Approved November15,2026: use support.html and about/news.html without redundant
 
 ## Descriptive homepage headings and acronym search titles
 
-Approved November15,2026 for SSRI, PUBA, SOC, ANTH and ES: homepage H1 identifies the unit at the University of Hawaiʻi at Mānoa; SSRI uses Social Science Research Institute at UH Mānoa to keep its long name manageable. Homepage HTML title is Full Unit Name (ACRONYM) | UH Mānoa, using a homepage-only seoTitle override so the ordinary subpage suffix is not duplicated. These replace the earlier slogan-led homepage H1/search titles and the shorter Anthropology university heading. Body statements remain protected and unchanged. Taglines are optional and require unit approval; none added automatically. All other page headings/titles remain as approved. Scope is five homepages, not every page on each site.
+Approved November15,2026, extended November18 to all eight reviewed units (SSRI, PUBA, SOC, ANTH, ES, POLS, GEO, WGSS): homepage H1 identifies the unit at the University of Hawaiʻi at Mānoa; SSRI uses Social Science Research Institute at UH Mānoa to keep its long name manageable. Homepage HTML title is Full Unit Name (ACRONYM) | UH Mānoa, using a homepage-only seoTitle override so the ordinary subpage suffix is not duplicated. These replace the earlier slogan-led homepage H1/search titles and the shorter Anthropology university heading. Body statements remain protected and unchanged. Taglines are optional and require unit approval; none added automatically. All other page headings/titles remain as approved. Scope is all eight homepages. The homepage-only seoTitle exception supersedes blanket removal of seoTitle in the SEO sheet. Compare equivalent pages across Review before editing; do not copy an inconsistent outlier. Review headings must include all eight units, including GEO and WGSS.
 
 ## Contact-page naming
 
@@ -1595,3 +1595,108 @@ November 18: tables and record directories use one shared stylesheet, src/css/ta
 ## Single catalog entry point
 
 November 18: use the shared course widget’s unit-acronym Catalog (see Programs) button as the standard catalog entry point. Remove standalone program-catalog sections from ANTH, ES, POLS, PUBA and SOC. Keep existing program-catalog JSON only as reference, not a maintained public link list. This supersedes adding direct catalog program-sheet links on individual program pages; fewer annual catalog links reduce manual maintenance. Keep unrelated editorial catalog links unless separately reviewed.
+
+## Graduate Division form destinations
+
+November 18: when linking a Graduate Division form, use https://manoa.hawaii.edu/graduate/forms/ rather than a direct Kuali/form endpoint. Link the form name in the instructions so students retrieve it from the central list. Department-owned forms keep their own destinations. Applied to GEO MA pages first; do not claim unreviewed sites are migrated.
+
+## Degree navigation order
+
+November 18: degree navigation follows student use/progression, not literal source-document ordering. Start Overview, Requirements, Progress Guide; then planning/ongoing enrollment, preparation, research and final procedures in logical order. Preserve source section hierarchy inside pages; navigation may differ from document order. Explicitly supersedes source-order navigation chosen during the PhD regrouping.
+
+## Locked search-title unit suffixes
+
+Agreed November18,2026: all eight established sites use exactly Page Label |
+Full Unit Name | UH Mānoa for ordinary titles. Canonical names are Anthropology,
+Ethnic Studies, Geography and Environment, Political Science, Public Administration,
+Sociology, Social Science Research Institute, Women, Gender, and Sexuality Studies.
+Never substitute SSRI/WGSS acronyms or add Department of/Program. This supersedes
+prior abridged-unit suffix exceptions. Exact names are centralized in
+src/data/common/title-standards.json and checked against unit settings and rendered
+HTML by the existing SEO checker. Homepage Full Name (ACRONYM) | UH Mānoa remains
+the separately approved exception. Page-label decisions remain distinct; no full
+unit-name repetition, and Why Study ACRONYM? rather than bare Why Study?.
+This is a local review rule, not a new upload/CI gate.
+
+## Search-title page labels without redundant unit names
+
+Confirmed November18: ordinary search-title labels remove the full unit
+name only when it is a redundant leading prefix. This final scope supersedes
+the earlier anywhere-in-label check; matching words later in titles remain intact. Faculty, Contact, Support, degree/minor labels
+and MA/PhD subpage labels omit that redundant unit name. Visible H1s are separate.
+Why Study labels must be Why Study ACRONYM?, and SSRI must not have a Why Study
+page because it is not an academic unit. Existing shortened title/acronym variants
+are not automatic exceptions. Specialty, credential and proper-name matches must
+be surfaced for user decision rather than losing meaning through blind removal.
+The existing SEO checker reports violations; it is not a new publishing gate.
+
+Final prefix exceptions confirmed November18: retain Anthropology Graduate Student
+Association (AGSA), Anthropology Undergraduate Student Association (AUSA), and
+Ethnic Studies Student Association. Preserve field/degree/proper names; change
+searchTitle, not visible H1s. Why Study acronym labels and homepage titles retain
+their separately approved exact forms.
+
+## Faculty directory filenames follow section structure
+
+Confirmed November18: multiple faculty pages require a faculty folder whose main
+directory is faculty/index.html. A single standalone faculty page belongs at root
+faculty.html. Lowercase filenames; no core-faculty.html or faculty/faculty.html.
+This supersedes the tentative proposal to normalize all directories at root.
+WGSS uses the same faculty/index.html pattern as the other academic sites.
+
+Contact H1 grammatical exception, November18: use Contact the Social Science
+Research Institute. Academic-unit H1s remain Contact Sociology, Contact Political
+Science, etc., without adding Department of. Search-title labels remain Contact.
+
+## Naming-edit handoff includes rendered Review refresh
+
+Confirmed November18: after editing a title/H1/filename while the user reviews
+naming pages, the agent rebuilds affected unit(s) and Review before reporting done.
+Source-only edits are not a visible result. Review refresh:headings command joins
+those steps and skips unrelated hero/grid inventories; full builds remain for
+other Review changes and publishing. User only refreshes the browser. This does
+not introduce a new server or CI/upload gate.
+
+## GEO MA/PhD page headings shortened
+
+Approved November18: GEO graduate program pages use MA: Page Name or PhD: Page
+Name for visible H1 and frontmatter title, omitting Geography and Environment.
+Every heading uses the colon separator. Search titles retain the locked full-unit
+suffix. This supersedes the earlier GEO degree-heading full-name pattern; source
+requirements, navigation grouping and routes are unchanged. Protocols remains the
+procedural page term, distinct from the dissertation proposal document.
+
+Sociology degree naming, November18: follow GEO's Degree: Topic pattern for MA/PhD
+H1s and search-title labels, topic-matching filenames, and index.html for Overview.
+Retain Sociology-specific topics and qualifiers rather than copying GEO content.
+Thesis (Plan A) and Research Report (Plan B) retain the academic option identifiers.
+
+## Support and Contact browser titles — November 18, 2026
+
+Across all eight reviewed sites, the browser title page label is exactly Support
+or Contact, followed by the full-unit-name and UH Mānoa suffix. No unit name or
+acronym appears before the first pipe. This supersedes earlier support title
+choices and incomplete prefix-only normalization. Visible H1s are separate and
+are not changed by this decision. Applies to existing pages; do not invent a
+support page where the navigation uses an external giving destination.
+
+## Original public URLs only — redirect cleanup, November 18, 2026
+
+Development renames never create redirects, retired entries, alias pages, or a
+retained development-route history. Supersedes any earlier practice preserving
+intermediate development URLs. Existing public-site redirects remain. Redirect
+source review uses the original-public-urls inventory with source checksums and
+`python3 scripts/check-redirect-sources.py`; never populate that inventory from
+development routes. The authoritative procedure remains rules/redirects-404s.md.
+
+## Redirect generation disabled — November 18, 2026
+
+The shared redirect-policy enabled flag is false for all consuming sites. Builds
+remove prior generated redirect files and omit query routing. Leave original-site
+mappings saved and frozen for launch; no development rename adds a mapping or
+retirement record. Explicit user approval is required to enable generation. This
+supersedes generating legacy redirects during development; the normal 404 page
+remains. Original-source review is a separate explicitly requested task.
+
+GEO lecture-series browser title is season-independent: Lecture Series | Geography
+and Environment | UH Mānoa. Keep the semester in the visible H1; retain the route.

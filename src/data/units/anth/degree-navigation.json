@@ -12,23 +12,23 @@
       },
       {
         "label": "Advising, Committees & Candidacy",
-        "url": "/graduate/master-ma/advising-candidacy.html"
+        "url": "/graduate/master-ma/advising-committees-candidacy.html"
       },
       {
         "label": "Requirements & Progress",
-        "url": "/graduate/master-ma/requirements.html"
+        "url": "/graduate/master-ma/requirements-progress.html"
       },
       {
         "label": "Plan A (Thesis)",
-        "url": "/graduate/master-ma/thesis.html"
+        "url": "/graduate/master-ma/plan-a-thesis.html"
       },
       {
         "label": "Plan B (Papers)",
-        "url": "/graduate/master-ma/scholarly-papers.html"
+        "url": "/graduate/master-ma/plan-b-papers.html"
       },
       {
         "label": "Research & Meetings",
-        "url": "/graduate/master-ma/research-policies.html"
+        "url": "/graduate/master-ma/research-meetings.html"
       }
     ]
   },
@@ -45,15 +45,15 @@
       },
       {
         "label": "Advising, Committees & Candidacy",
-        "url": "/graduate/doctorate-phd/advising-candidacy.html"
+        "url": "/graduate/doctorate-phd/advising-committees-candidacy.html"
       },
       {
         "label": "Requirements & Progress",
-        "url": "/graduate/doctorate-phd/requirements.html"
+        "url": "/graduate/doctorate-phd/requirements-progress.html"
       },
       {
         "label": "Exams",
-        "url": "/graduate/doctorate-phd/comprehensive-exams.html"
+        "url": "/graduate/doctorate-phd/exams.html"
       },
       {
         "label": "Dissertation",
@@ -61,11 +61,11 @@
       },
       {
         "label": "Publication",
-        "url": "/graduate/doctorate-phd/dissertation-by-publication.html"
+        "url": "/graduate/doctorate-phd/publication.html"
       },
       {
         "label": "Research & Meetings",
-        "url": "/graduate/doctorate-phd/research-policies.html"
+        "url": "/graduate/doctorate-phd/research-meetings.html"
       }
     ]
   },

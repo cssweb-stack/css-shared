@@ -1,46 +1,6 @@
 {
   "redirects": [
     {
-      "from": "/about-pols/specializations/",
-      "to": "/about/specializations/",
-      "label": "Specializations"
-    },
-    {
-      "from": "/about-pols/specializations/alternative-futures.html",
-      "to": "/about/specializations/alternative-futures.html",
-      "label": "Alternative Futures"
-    },
-    {
-      "from": "/about-pols/specializations/comparative-politics.html",
-      "to": "/about/specializations/comparative-politics.html",
-      "label": "Comparative Politics"
-    },
-    {
-      "from": "/about-pols/specializations/indigenous-politics.html",
-      "to": "/about/specializations/indigenous-politics.html",
-      "label": "Indigenous Politics"
-    },
-    {
-      "from": "/about-pols/specializations/international-relations.html",
-      "to": "/about/specializations/international-relations.html",
-      "label": "International Relations"
-    },
-    {
-      "from": "/about-pols/specializations/law-and-policy.html",
-      "to": "/about/specializations/law-and-policy.html",
-      "label": "Law And Policy"
-    },
-    {
-      "from": "/about-pols/specializations/political-theory.html",
-      "to": "/about/specializations/political-theory.html",
-      "label": "Political Theory"
-    },
-    {
-      "from": "/about-pols/why-study-pols.html",
-      "to": "/about/why-study-pols.html",
-      "label": "Why Study Pols"
-    },
-    {
       "from": "/about/",
       "to": "/about/why-study-pols.html",
       "label": "About"
@@ -134,54 +94,6 @@
       "from": "/graduate-students/",
       "to": "/graduate/current-cohort.html",
       "label": "Graduate Students"
-    },
-    {
-      "from": "/graduate/doctorate-phd.html",
-      "to": "/graduate/doctorate-phd/",
-      "label": "Political Science PHD",
-      "fragmentTargets": {
-        "section-4": "/graduate/doctorate-phd/proposal-exams.html#section-4",
-        "fl-accordion--label-4": "/graduate/doctorate-phd/proposal-exams.html#section-4",
-        "section-5": "/graduate/doctorate-phd/proposal-exams.html#section-5",
-        "fl-accordion--label-5": "/graduate/doctorate-phd/proposal-exams.html#section-5",
-        "section-9": "/graduate/doctorate-phd/timeline.html#section-9",
-        "fl-accordion--label-9": "/graduate/doctorate-phd/timeline.html#section-9",
-        "section-7": "/graduate/doctorate-phd/dissertation.html#section-7",
-        "fl-accordion--label-7": "/graduate/doctorate-phd/dissertation.html#section-7",
-        "section-8": "/graduate/doctorate-phd/dissertation.html#section-8",
-        "fl-accordion--label-8": "/graduate/doctorate-phd/dissertation.html#section-8",
-        "section-1": "/graduate/doctorate-phd/advising-committees.html#section-1",
-        "fl-accordion--label-1": "/graduate/doctorate-phd/advising-committees.html#section-1",
-        "section-3": "/graduate/doctorate-phd/advising-committees.html#section-3",
-        "fl-accordion--label-3": "/graduate/doctorate-phd/advising-committees.html#section-3",
-        "section-2": "/graduate/doctorate-phd/requirements.html#section-2",
-        "fl-accordion--label-2": "/graduate/doctorate-phd/requirements.html#section-2",
-        "section-0": "/graduate/doctorate-phd/requirements.html#section-0",
-        "fl-accordion--label-0": "/graduate/doctorate-phd/requirements.html#section-0",
-        "section-6": "/graduate/doctorate-phd/requirements.html#section-6",
-        "fl-accordion--label-6": "/graduate/doctorate-phd/requirements.html#section-6"
-      }
-    },
-    {
-      "from": "/graduate/master-ma.html",
-      "to": "/graduate/master-ma/",
-      "label": "Political Science MA",
-      "fragmentTargets": {
-        "section-0": "/graduate/master-ma/advising-progress.html#section-0",
-        "fl-accordion--label-0": "/graduate/master-ma/advising-progress.html#section-0",
-        "section-1": "/graduate/master-ma/advising-progress.html#section-1",
-        "fl-accordion--label-1": "/graduate/master-ma/advising-progress.html#section-1",
-        "section-3": "/graduate/master-ma/thesis.html#section-3",
-        "fl-accordion--label-3": "/graduate/master-ma/thesis.html#section-3",
-        "section-4": "/graduate/master-ma/thesis.html#section-4",
-        "fl-accordion--label-4": "/graduate/master-ma/thesis.html#section-4",
-        "section-5": "/graduate/master-ma/ma-event.html#section-5",
-        "fl-accordion--label-5": "/graduate/master-ma/ma-event.html#section-5",
-        "section-6": "/graduate/master-ma/ma-event.html#section-6",
-        "fl-accordion--label-6": "/graduate/master-ma/ma-event.html#section-6",
-        "section-2": "/graduate/master-ma/requirements.html#section-2",
-        "fl-accordion--label-2": "/graduate/master-ma/requirements.html#section-2"
-      }
     },
     {
       "from": "/honors-track/",
@@ -380,18 +292,9 @@
       "from": "/undergraduate-slos/",
       "to": "/undergraduate/student-learning-outcomes.html",
       "label": "Undergraduate SLOs"
-    },
-    {
-      "from": "/support-pols.html",
-      "to": "/support.html",
-      "label": "Support POLS"
     }
   ],
   "retired": [
-    {
-      "from": "/colloquia.html",
-      "label": "Colloquia"
-    },
     {
       "from": "/colloquia/",
       "label": "Legacy Colloquia"
@@ -399,10 +302,6 @@
     {
       "from": "/news/",
       "label": "Legacy News"
-    },
-    {
-      "from": "/news.html",
-      "label": "News"
     }
   ],
   "unresolved": []

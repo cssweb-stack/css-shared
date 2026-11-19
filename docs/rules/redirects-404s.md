@@ -5,10 +5,27 @@ Read it before starting this work. Website Build Rules owns current filenames an
 folders; this sheet owns what happens to actual old public addresses. Technical
 implementation notes and past unit reports do not override these rules.
 
+## Development mode: redirect generation OFF
+
+`src/data/common/redirect-policy.json` has `enabled: false`. Shared builds emit no
+redirect pages or legacy query-routing scripts and remove previously generated
+redirect files. Ordinary 404 pages remain. Do not enable redirects without the
+user's explicit instruction. No route-rename task may add mappings, aliases or
+retirement records; update internal links directly. Existing original-site mappings
+are frozen for launch, except when the user explicitly requests an original-source
+migration review. Such a review must use the saved original public-site evidence
+and pass the source checker before any approved enabling of generation.
+This supersedes generating original-site redirects on development previews.
+
 ## Establish the scope
 
 - Use the original public website export and any supplied URL inventory as evidence.
   Preserve source documents unchanged. Identify the selected unit and current routes.
+- Every redirect/retired source must match an original public URL evidenced by the
+  saved XML, original URL export, or an actual link in the original content.
+  `src/data/common/original-public-urls.json` records those paths and source documents
+  with checksums. Never add development aliases to this original-source inventory.
+  Add evidence only from an original public-site source.
 - Separate actual legacy public URLs from development-only filenames. Renaming a
   non-indexed development page does not require a redirect. Do not create mappings
   merely to preserve intermediate development names.
@@ -58,7 +75,11 @@ legacy addresses when the evidence requires them; do not invent blanket handling
 
 ## Check the result and report honestly
 
-1. Read the completed original-to-current comparison. Every original public URL
+1. Run `python3 scripts/check-redirect-sources.py` (or append affected unit IDs)
+   locally before declaring redirect work complete. It rejects unsupported redirect,
+   retired and unresolved sources and unknown legacy query IDs. This is a local
+   review command, not a new upload/CI gate.
+   Read the completed original-to-current comparison. Every original public URL
    needs a classification; list unresolved decisions rather than claiming completion.
 2. Build the affected unit. Inspect changed redirect outputs and final destinations,
    including relevant prefixes, fragments, Unicode or query cases when present.

@@ -251,11 +251,21 @@ grid-template-areas: "name office" "title phone" "title email";
 grid-template-areas: "name office" "title email";
 }
 
-.people-directory-name { grid-area: name; }
-.people-directory-title { grid-area: title; }
-.people-directory-office { grid-area: office; }
-.people-directory-phone { grid-area: phone; }
-.people-directory-email { grid-area: email; }
+.people-directory-name {
+grid-area: name;
+}
+.people-directory-title {
+grid-area: title;
+}
+.people-directory-office {
+grid-area: office;
+}
+.people-directory-phone {
+grid-area: phone;
+}
+.people-directory-email {
+grid-area: email;
+}
 
 .people-directory--service .people-directory-entry {
 grid-template-areas: "name email";
@@ -265,7 +275,9 @@ grid-template-areas: "name email";
 grid-template-areas: "name email" "support support";
 }
 
-.people-directory-support { grid-area: support; }
+.people-directory-support {
+grid-area: support;
+}
 }
 
 /* 3. Desktop: one shared set of column tracks for headings and every row */

@@ -26,10 +26,20 @@ function isExternal(url) {
 }
 
 // Opt-in per unit. Only generated output is written; source pages stay untouched.
-export function generateRedirects({ project, migration, siteUrl, prefix = '/' }) {
+export function generateRedirects({ project, migration, siteUrl, prefix = '/', enabled = false }) {
   const root = path.join(project, '_site');
   const manifest = path.join(project, 'node_modules/.cache/url-migration-generated.json');
   const previous = fs.existsSync(manifest) ? JSON.parse(fs.readFileSync(manifest, 'utf8')) : [];
+  // Redirect publishing stays off during development, including old generated files.
+  if (!enabled) {
+    for (const relative of previous) {
+      outputPath('/' + relative);
+      const file = path.join(root, relative);
+      if (fs.existsSync(file) && fs.readFileSync(file, 'utf8').includes(marker)) fs.unlinkSync(file);
+    }
+    if (fs.existsSync(manifest)) fs.unlinkSync(manifest);
+    return;
+  }
   const redirects = migration?.redirects || [];
   const sources = new Set();
   for (const entry of redirects) {

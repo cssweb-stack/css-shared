@@ -5,5 +5,5 @@ const masked = html.replace(/<(script|style|pre|textarea)\b[^>]*>[\s\S]*?<\/\1\s
 const index = preserved.push(block) - 1;
 return `\uE000${index}\uE001`;
 });
-return masked.split(/\r?\n/).filter(line => /\S/.test(line)).join('\n').replace(/\uE000(\d+)\uE001/g, (_, index) => preserved[Number(index)]) + '\n';
+return masked.split(/\r?\n/).filter(line => /\S/.test(line)).map(line => line.trim()).join('\n').replace(/\uE000(\d+)\uE001/g, (_, index) => preserved[Number(index)]) + '\n';
 }

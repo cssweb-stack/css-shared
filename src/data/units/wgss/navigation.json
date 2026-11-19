@@ -117,7 +117,7 @@
     "children": [
       {
         "label": "Core Faculty",
-        "url": "/faculty/core-faculty.html",
+        "url": "/faculty/",
         "icon": "people",
         "iconColor": null
       },

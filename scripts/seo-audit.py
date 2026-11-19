@@ -15,6 +15,9 @@ project=ROOT.parent/args.unit;unit=ROOT/'src/data/units'/args.unit
 settings=json.loads((unit/'site-settings.json').read_text())
 identity=json.loads((unit/'unit-details.json').read_text())
 origin=settings.get('url','').rstrip('/')
+standards=json.loads((ROOT/'src/data/common/title-standards.json').read_text())
+standard_name=standards['units'].get(args.unit)
+standard_suffix=(standard_name+' | '+standards['campus']) if standard_name else None
 class Page(HTMLParser):
  def __init__(self):
   super().__init__();self.titles=[];self.h1s=[];self.metas=collections.defaultdict(list);self.canonicals=[];self.active=None;self.text=[];self.lang=None
@@ -32,6 +35,30 @@ class Page(HTMLParser):
   if t==self.active:
    (self.titles if t=='title' else self.h1s).append(re.sub(r'\s+',' ',' '.join(self.text)).strip());self.active=None
 errors=[];notes=[];pages=[]
+if standard_suffix and settings.get('titleSuffix')!=standard_suffix:errors.append('Configured titleSuffix must be exactly '+standard_suffix)
+# Check active source naming independently of rendered metadata.
+faculty_sources=list((project/'src/faculty').rglob('*.html'))
+if len(faculty_sources)>1:
+ if not (project/'src/faculty/index.html').exists():errors.append('Multiple faculty pages require faculty/index.html as the section directory')
+ if (project/'src/faculty.html').exists():errors.append('Faculty section directory must not also exist as root faculty.html')
+if len(faculty_sources)==1 and faculty_sources[0].name=='index.html':errors.append('A single standalone faculty page belongs at root faculty.html')
+if (project/'src/faculty/faculty.html').exists():errors.append('Use faculty/index.html, never faculty/faculty.html')
+
+for source in (project/'src').rglob('core-faculty.html'):
+ errors.append(str(source.relative_to(project))+': prohibited active filename core-faculty.html')
+def active_core_references(value, location):
+ if isinstance(value,dict):
+  for key,item in value.items():
+   if key=='from':continue
+   if 'core-faculty.html' in key:errors.append(location+': prohibited active core-faculty.html route')
+   active_core_references(item,location)
+ elif isinstance(value,list):
+  for item in value:active_core_references(item,location)
+ elif isinstance(value,str) and 'core-faculty.html' in value:
+  errors.append(location+': prohibited active core-faculty.html reference')
+for name in ['navigation.json','heroes.json','url-migration.json']:
+ config=unit/name
+ if config.exists():active_core_references(json.loads(config.read_text()),name)
 files=sorted((project/'_site').rglob('*.html'))
 if not files:cli.error('Build the unit first')
 for file in files:
@@ -46,7 +73,20 @@ for file in files:
  title=scan.titles[0] if scan.titles else '';h1=scan.h1s[0] if scan.h1s else '';description=descriptions[0] if descriptions else ''
  suffix=settings.get('titleSuffix',identity['name'])
  base=title.removesuffix(' | '+suffix)
- if settings.get('titleSuffix') and not title.endswith(' | '+suffix):issue('Title missing configured unit/campus suffix')
+ is_reviewed_home=url=='/' and standard_name is not None
+ if is_reviewed_home:
+  expected_home=standard_name+' ('+identity['shortName']+') | '+standards['campus']
+  if title!=expected_home:issue('Homepage title must be exactly '+expected_home)
+ elif standard_suffix:
+  title_parts=title.split(' | ')
+  if len(title_parts)<3 or title_parts[-2:]!=[standard_name,standards['campus']] or not title.endswith(' | '+standard_suffix):issue('Title must end with exactly | '+standard_suffix)
+ elif settings.get('titleSuffix') and not title.endswith(' | '+suffix):issue('Title missing configured unit/campus suffix')
+ if standard_name and not is_reviewed_home:
+  label=title.rsplit(' | ',2)[0]
+  if label.startswith(standard_name+' ') and label not in standards.get('protectedLeadingLabels',[]):issue('Page label starts with redundant unit name')
+  if re.match(r'^Why Study\b',label,re.I):
+   if args.unit=='ssri':issue('SSRI is not an academic unit and must not have a Why Study page')
+   elif label!='Why Study '+identity['shortName']+'?':issue('Why Study label must be exactly Why Study '+identity['shortName']+'?')
  normalize=lambda s:re.sub(r'\s+',' ',s.casefold()).strip()
  shortened=h1.removeprefix(identity['shortName']+': ')
  title_match=normalize(base) in [normalize(h1),normalize(shortened)]

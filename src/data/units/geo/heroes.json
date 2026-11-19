@@ -90,13 +90,13 @@
       "location": "Ulaanbaatar, Mongolia",
       "alt": "Satellite imagery of Ulaanbaatar, Mongolia"
     },
-    "/support-geo/": {
+    "/support.html": {
       "image": "/media/heroes/geo/north-lanai-lanai.webp",
       "location": "Northern Lānaʻi, Hawaiʻi",
       "position": "center top",
       "alt": "Satellite imagery of Northern Lānaʻi, Hawaiʻi"
     },
-    "/contact/": {
+    "/contact.html": {
       "image": "/media/heroes/geo/hagatna-guam.webp",
       "location": "Hagåtña, Guam",
       "alt": "Satellite imagery of Hagåtña, Guam"
@@ -151,7 +151,7 @@
       "location": "Tokyo, Japan",
       "alt": "Satellite imagery of Tokyo, Japan"
     },
-    "/graduate/doctorate-phd/advising-committees.html": {
+    "/graduate/doctorate-phd/exams-research-preparation.html": {
       "image": "/media/heroes/geo/tokyo-japan.webp",
       "location": "Tokyo, Japan",
       "alt": "Satellite imagery of Tokyo, Japan"
@@ -166,12 +166,12 @@
       "location": "Tokyo, Japan",
       "alt": "Satellite imagery of Tokyo, Japan"
     },
-    "/graduate/doctorate-phd/exams-proposal.html": {
+    "/graduate/doctorate-phd/exam-defense-protocols.html": {
       "image": "/media/heroes/geo/tokyo-japan.webp",
       "location": "Tokyo, Japan",
       "alt": "Satellite imagery of Tokyo, Japan"
     },
-    "/graduate/doctorate-phd/dissertation-defense.html": {
+    "/graduate/doctorate-phd/dissertation.html": {
       "image": "/media/heroes/geo/tokyo-japan.webp",
       "location": "Tokyo, Japan",
       "alt": "Satellite imagery of Tokyo, Japan"

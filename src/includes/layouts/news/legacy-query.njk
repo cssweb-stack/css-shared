@@ -1,4 +1,4 @@
-{% if url_migration.queryRedirects and page.url == '/' %}
+{% if common['redirect-policy'].enabled and url_migration.queryRedirects and page.url == '/' %}
 <script>
 (() => {
 const targets = {

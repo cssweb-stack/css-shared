@@ -1,0 +1,2986 @@
+{
+  "anth": {
+    "sourceDocuments": [
+      {
+        "file": "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11 (1).xml",
+        "sha256": "5339008e97624ffbef2f4f926bfede09dd64390148b034edeb3c840c4d3b21b0"
+      },
+      {
+        "file": "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11 (2).xml",
+        "sha256": "b721e0fcbe1de6d342e7f616b995f9b08f300a81a0365cff0266038a4db11465"
+      },
+      {
+        "file": "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+        "sha256": "705d17c5cca4b2014900c892542e08fa2d79c896adf5154ba37a1bbc03dde3d2"
+      },
+      {
+        "file": "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+        "sha256": "3ceedcd0f7bbfd4f755bf6d9ada84b79bc6dc9419e1a3b2cf3160a4b18fe1bc8"
+      },
+      {
+        "file": "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml",
+        "sha256": "913ab871b400cb6477227975bc3a5234272d86e900a4561f2527c3bebab4ec8d"
+      }
+    ],
+    "paths": [
+      {
+        "path": "/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/adjunct-faculty/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/affiliate-graduate-faculty/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/agsa/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/applications-admissions/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/applied-archaeology/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/applied-cultural-anthropology/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/archaeology/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/ausa/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/ba/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/bam/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/biological-anthropology/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/chris-bae-publishes-book-on-asian-paleoanthropology/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/colloquia/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/congratulations-to-our-recent-ma-and-phd-graduates/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/contact/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/cooperating-graduate-faculty/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/cultural-anthropology/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/department-news/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/directory/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/doctoral-research-on-contemporary-kava-practices-in-hawaiʻi/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/eirik-saethre-regents-medal/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/emeriti-faculty-in-memoriam/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/emeritus-retired-faculty/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/environmental-anthropology/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/field-schools/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/from-students-to-stewards-a-historic-gift-of-gratitude/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/give-a-gift/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/graduate-funding/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/graduate-students/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/graduate/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/groundbreaking-discoveries-in-human-evolution/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/guido-carlo-pigliasco/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/honors-track/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/jan-brunson-fulbright/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/kamakana-c-ferreira/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/lambda-alpha/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/ma/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/medical-anthropology/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/message-from-the-chair/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/minor-medical-anthropology/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/minor/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/networking/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/overview/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/phd/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/policies-procedures/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/practical-experience-internships/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/privacy-policy/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/pulama-lima-receives-phd-in-molokai-ceremony/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/remixing-identity-deirdre-clydes-anthropological-journey-through-anime-fandom/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/seth-quintus-wins-teaching-award/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/spring-2025-undergraduates/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/the-2024-uh-archaeology-field-school/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/undergraduate-advising/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/undergraduate-funding/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/undergraduate-mentoring-program/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/undergraduate/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-11.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-15.xml",
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/yi-yu-lai-wins-prestigious-award/",
+        "sources": [
+          "../CSS-Exports/anth/departmentofanthropology.WordPress.2026-11-17.xml"
+        ]
+      }
+    ],
+    "postIds": [
+      "3",
+      "13",
+      "32",
+      "34",
+      "36",
+      "38",
+      "42",
+      "46",
+      "109",
+      "112",
+      "113",
+      "139",
+      "162",
+      "251",
+      "394",
+      "397",
+      "403",
+      "410",
+      "519",
+      "529",
+      "538",
+      "546",
+      "553",
+      "572",
+      "577",
+      "589",
+      "595",
+      "597",
+      "605",
+      "609",
+      "639",
+      "654",
+      "658",
+      "750",
+      "756",
+      "763",
+      "1028",
+      "1054",
+      "1062",
+      "1066",
+      "1069",
+      "1071",
+      "1076",
+      "1081",
+      "1084",
+      "1151",
+      "1153",
+      "1157",
+      "1161",
+      "1187",
+      "1612",
+      "1629",
+      "1659",
+      "1675",
+      "1686",
+      "1714",
+      "1795",
+      "1832"
+    ]
+  },
+  "es": {
+    "sourceDocuments": [
+      {
+        "file": "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml",
+        "sha256": "40216f5a1f9b137a06e3d595b7bb95134d32837445a0295096ba76ed8aa9cb63"
+      },
+      {
+        "file": "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+        "sha256": "efdb376d3b617eaff60ee4c4d0504aa1fd3594916393a6a9134b3797a0129460"
+      }
+    ],
+    "paths": [
+      {
+        "path": "/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/academic-program/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/bachelor-of-arts-ba/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/bachelors-masters-degree-bam/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/center-for-oral-history/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/contact/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/department-news/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/directory/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/double-major/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/essa/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/esteem-for-ethnic-studies/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json"
+        ]
+      },
+      {
+        "path": "/ethan-caldwell/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/give-a-gift/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/honoring-a-living-treasure/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json"
+        ]
+      },
+      {
+        "path": "/island-connections/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/kanaka-ʻoiwi-rapper-sets-sights-on-masters-wins-3rd-na-hoku/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json"
+        ]
+      },
+      {
+        "path": "/kyle-kajihiro/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/m-kunmi-yu-danico/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/maile-arvin/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/major-impact/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json"
+        ]
+      },
+      {
+        "path": "/monisha-das-gupta/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/our-history-our-way/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/perseverance-rewarded/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json"
+        ]
+      },
+      {
+        "path": "/privacy-policy/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/roderick-n-labrador/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/ryan-moran/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/statement-of-solidarity-on-black-lives-matter-and-racial-justice/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json"
+        ]
+      },
+      {
+        "path": "/statement-on-anti-asian-chinese-racism-in-the-time-of-covid-19/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json"
+        ]
+      },
+      {
+        "path": "/statement-on-anti-asian-violence-and-atlanta-shootings/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json"
+        ]
+      },
+      {
+        "path": "/the-best-of-the-best/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json"
+        ]
+      },
+      {
+        "path": "/ty-p-kawika-tengan/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/ulla-hasager/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/undergraduate-certificate/",
+        "sources": [
+          "../CSS-Exports/es/ES-url-migration-2026-11-14.json",
+          "../es/reference/departmentofethnicstudies.WordPress.2026-11-11.xml"
+        ]
+      }
+    ],
+    "postIds": [
+      "3",
+      "13",
+      "32",
+      "34",
+      "36",
+      "51",
+      "53",
+      "58",
+      "239",
+      "415",
+      "437",
+      "443",
+      "476",
+      "923",
+      "1022",
+      "1191",
+      "1301",
+      "1338",
+      "1346",
+      "1546",
+      "1551",
+      "2226",
+      "2243",
+      "2287"
+    ]
+  },
+  "geo": {
+    "sourceDocuments": [
+      {
+        "file": "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml",
+        "sha256": "68f771c7c4589935765aff9fdd47bf44c310ea6e1ad6d7817d1579f098d89a17"
+      }
+    ],
+    "paths": [
+      {
+        "path": "/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/about/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/alison-rieser/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/aurora-kagawa-viviani/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/bam-interdisciplinary/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/bam/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/brian-szuster/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/camilo-mora/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/contact/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/faculty/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/geography-club/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/gis-certificate/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/give-a-gift/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/graduate-funding/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/graduate-program-forms/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/graduate-students/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/graduate/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/hong-jiang/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/major-minor-requirements/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/marina-karides/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/mary-mostafanezhad/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/news/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/orhon-myadar/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/phase2/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/phd-commitee/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/privacy-policy/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/promo-videos/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/public-lectures/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/qi-chen/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/reece-jones/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/social-media-accounts/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/student-awards/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/student-learning-objectives/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/thomas-giambelluca/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/undergraduate/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/yuqin-jiang/",
+        "sources": [
+          "../CSS-Exports/geo/geographyandenvironmentgeo.WordPress.2026-11-17.xml"
+        ]
+      }
+    ],
+    "postIds": [
+      "120",
+      "124",
+      "126",
+      "128",
+      "256",
+      "272",
+      "282",
+      "433",
+      "544",
+      "924",
+      "936",
+      "942",
+      "986",
+      "1001",
+      "1008",
+      "1210",
+      "1267",
+      "1758",
+      "1790",
+      "1859",
+      "2078",
+      "2159",
+      "2199",
+      "2569",
+      "2714",
+      "3134",
+      "3204",
+      "3289",
+      "3392",
+      "3419",
+      "4083",
+      "4105",
+      "4394",
+      "4461",
+      "4594",
+      "4782"
+    ]
+  },
+  "pols": {
+    "sourceDocuments": [
+      {
+        "file": "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+        "sha256": "afcfc5bd6f397f2b356246395bc42021ea3fc207e80b13a1f35e15e6dcacfe99"
+      },
+      {
+        "file": "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml",
+        "sha256": "99fcb1b8a1e8077950a8036f3c100b2409e5de6e8adf6a902a12ec9c92b796b5"
+      }
+    ],
+    "paths": [
+      {
+        "path": "/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/about/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/alternative-futures/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/applications-admissions/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/bam/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/carolyn-stephenson/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/certificate-in-law-and-society/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/colloquia/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/community-internships/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/comparative-politics/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/contact/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/dean-saranillio/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/debbie-samaniego/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/debora-halbert/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/ehito-kimura/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/faculty/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/felix-mantz/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/funding-opportunities/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/give-a-gift/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/graduate-program/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/graduate-slos/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/graduate-students/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/honors-track/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/indigenous-politics/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/international-relations/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/internships-and-scholarships/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/jairus-grove/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/jamaica-osorio/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/jonathan-goldberg-hiller/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/kate-zhou/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/katharina-heyer/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/kathy-ferguson/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/law-and-policy/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/lawrence-nitz/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/ma-program/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/major/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/manfred-henningsen/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/michael-shapiro/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/minor/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/nevzat-soguk/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/news/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/nicole-sunday-grove/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/noelani-goodyear-kaopua/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/noenoe-silva/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/phd-program/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/pi-sigma-alpha/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/political-theory/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/privacy-policy/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/richard-chadwick/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/sankaran-krishna/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/specializations/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/teaching-opportunities/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/undergraduate-advising/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/undergraduate-program/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      },
+      {
+        "path": "/undergraduate-slos/",
+        "sources": [
+          "../CSS-Exports/pols/politicalsciencepols.WordPress.2026-11-17.xml",
+          "../pols/reference/politicalsciencepols.WordPress.2026-11-11.xml"
+        ]
+      }
+    ],
+    "postIds": [
+      "13",
+      "15",
+      "17",
+      "19",
+      "22",
+      "24",
+      "26",
+      "28",
+      "93",
+      "120",
+      "133",
+      "144",
+      "154",
+      "182",
+      "187",
+      "214",
+      "227",
+      "236",
+      "254",
+      "260",
+      "271",
+      "297",
+      "319",
+      "329",
+      "345",
+      "361",
+      "387",
+      "412",
+      "463",
+      "538",
+      "548",
+      "567",
+      "587",
+      "628",
+      "720",
+      "726",
+      "833",
+      "848",
+      "860",
+      "865",
+      "904",
+      "997",
+      "1021",
+      "1026",
+      "1081",
+      "1090",
+      "1101",
+      "1116",
+      "1136",
+      "1145",
+      "1155",
+      "1253",
+      "1693",
+      "1875",
+      "1903"
+    ]
+  },
+  "puba": {
+    "sourceDocuments": [
+      {
+        "file": "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+        "sha256": "e226d71a692724a9e2accccdf2d50f5d9c50a3c7099259e016b35a16ae3a9082"
+      },
+      {
+        "file": "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml",
+        "sha256": "1d0a27e9d2effd49c996019cb8daf41a147655efc3b7b4f4880da497c9e81d58"
+      },
+      {
+        "file": "../CSS-Exports/puba/original-urls-2026-11-12.json",
+        "sha256": "561779254db6bfc4d89a5b5eb230dac9c435f9a73fa724a024fe775b4ddb87b8"
+      }
+    ],
+    "paths": [
+      {
+        "path": "/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/2024-american-society-of-public-administration-aspa-conference/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/2024-hawaii-alliance-of-nonprofit-organizations-hano-conference/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/2025-hawaii-alliance-of-nonprofit-organizations-hano-conference/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/2026-naspaa-student-simulation-competition/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/academic-program/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/advisory-board/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/aloha-from-the-new-interim-program-director-dr-helen-yu/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/aloha-from-the-outgoing-director/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/aloha-from-the-program-director/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/alumni-network/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/alumni-spotlight-brendan-kinoshita/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/alumni-spotlight-daniel-koge/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/alumni-spotlight-kenika-lorenzo-elarco/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/alumni-spotlight-rachele-lamosao/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/alumni-spotlight-radiant-cordero-mpa-16/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/alumni-spotlight-roy-takumi-appointed-as-chair-of-the-hawaii-state-board-of-education/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/alumni-spotlight-shannon-mark-mpa-20/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/american-society-of-public-administration-conference/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/apply-for-admission/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/call-to-support-future-puba-students/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/contact/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/department/american-society-of-public-administration-conference/",
+        "sources": [
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml (original article link)"
+        ]
+      },
+      {
+        "path": "/directory/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/dr-helen-h-yu-ranked/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/dr-kelly-leroux-visits-puba-and-discusses-nonprofit-efforts-to-increase-voter-participation/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/faculty-highlights-spring-2022/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/faculty-highlights-winter-2024/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/faculty-news/faculty-highlights-spring-2022/",
+        "sources": [
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml (original article link)"
+        ]
+      },
+      {
+        "path": "/former-puba-faculty-dr-david-lee-speaks-on-the-role-of-nonprofits-in-the-refugee-resettlement-process/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/funding-opportunities/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/gcert-nonprofit-management/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/gcert-public-policy/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/gcert-public-service-leadership/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/give-a-gift/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/gowun-park/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/green-fee-advisory-council/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/helen-h-yu/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/how-public-policy-can-reduce-systemic-inequities/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/insightful-publication-from-mpa-graduates-23/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/janet-jock/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/kamakani-konia/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/laurel-a-johnston/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/maile-arvin/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/mpa-graduates-co-author-impactful-capstone-publication/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/mpa-learning-outcomes/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/mpa-timelines/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/mpa/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/naspaa-accreditation/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/naspaa-requirements/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/new-puba-faculty-publication/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/newly-elected-paso-officers-hit-the-ground-running/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/news-from-the-scholarship-committee/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/news/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/nonprofits-and-human-rights/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/paso-an-exciting-year-in-review/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/paso-event-reflection-maunalua-bay/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/paso-event-reflection-speaker-series-nonprofit-responses-to-natural-disasters/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/paso-event-reflection-speaker-series-public-policy-climate-change/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/pi-alpha-alpha/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/policies-and-procedures/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/practicum-placements/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/privacy-policy/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/program-overview/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/puba-alum-cheryl-bellisario-shares-insights-on-housing-policy-in-hawaiʻi/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/puba-in-the-community-helen-yu-naspaa/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/puba-students-present-mock-testimony-at-the-capitol/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/public-affairs-82/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/public-affairs-88/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/soyun-jeong/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/steven-w-mumford/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/student-bio-andrew-phomsouvanh/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/student-bio-chetsada-changmai/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/student-bio-jordyn-ryan/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/student-bio-mary-janell-murro/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/student-bio-moises-ayala/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/student-bio-samuel-kippen/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/student-bio-sharon-baillie/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/student-spotlight-seungwoo-back/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/students/newly-elected-paso-officers-hit-the-ground-running/",
+        "sources": [
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml (original article link)"
+        ]
+      },
+      {
+        "path": "/testimonials/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-09.xml",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/uh-president-wendy-hensel-visits-puba-to-discuss-leadership-and-organizational-change/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/welcome-spring-2025/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/welcome-to-the-fall-2024-semester-from-the-director-dr-helen-yu/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/welcome-to-the-fall-2025-semester-from-the-director-dr-helen-h-yu/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/welcome-to-the-fall-2026/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/welcome-to-the-spring-2026-semester/",
+        "sources": [
+          "../CSS-Exports/puba/original-urls-2026-11-12.json",
+          "../CSS-Exports/puba/publicadministrationpuba.WordPress.2026-11-17.xml"
+        ]
+      }
+    ],
+    "postIds": [
+      "13",
+      "32",
+      "34",
+      "39",
+      "47",
+      "49",
+      "65",
+      "70",
+      "73",
+      "83",
+      "104",
+      "206",
+      "266",
+      "275",
+      "307",
+      "398",
+      "546",
+      "548",
+      "554",
+      "557",
+      "564",
+      "566",
+      "579",
+      "605",
+      "607",
+      "612",
+      "827",
+      "852",
+      "899",
+      "1149",
+      "1161",
+      "1210",
+      "1317",
+      "1324",
+      "1327",
+      "1330",
+      "1339",
+      "1405",
+      "1413",
+      "1479",
+      "1557",
+      "1607",
+      "1614",
+      "1636",
+      "1641",
+      "1714",
+      "1717",
+      "1720",
+      "2135",
+      "2148",
+      "2224",
+      "2236",
+      "2239",
+      "2267",
+      "2280",
+      "2283",
+      "2311",
+      "2343",
+      "2351",
+      "2355",
+      "2360",
+      "2366",
+      "2406",
+      "2430",
+      "2439",
+      "2451",
+      "2458",
+      "2461",
+      "2491",
+      "2511",
+      "2516",
+      "2520",
+      "2604",
+      "2619",
+      "2634",
+      "2650",
+      "2657",
+      "2664",
+      "2668",
+      "2673",
+      "2677",
+      "2703",
+      "2737",
+      "2748"
+    ]
+  },
+  "soc": {
+    "sourceDocuments": [
+      {
+        "file": "../soc/reference/sociologysoc.WordPress.2026-11-10.xml",
+        "sha256": "0b9a0e68f71c9902d3387bc362d466278ce395e4ba21968a1cd32bc770c39883"
+      }
+    ],
+    "paths": [
+      {
+        "path": "/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/about/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/academic-planning/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/alpha-kappa-delta/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/annual-review/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/applications-admissions/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/ashley-rubin/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/asia-pacific-hawaii/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/aya-kimura/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/ba-requirements/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/bam/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/colloquia-archive/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/contact/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/course-identification/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/crime-law-social-control/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/david-johnson/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/department-travel-funds/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/eunjeong-paek/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/events/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/faculty/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/give-a-gift/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/graduate-funding/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/graduate-students/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/graduate/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/gssa/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/hagen-koo/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/health-aging-medical-sociology/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/history/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/honors-track/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/hormann-prize/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/jennifer-darrah/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/katherine-irwin/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/krysia-mossakowski/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/le-lin/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/ma-program/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/major-concentrations/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/manfred-b-steger/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/minor-concentrations/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/minor-requirements/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/myungji-yang/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/nandita-sharma/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/nationalism-globalization-sustainability/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/news/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/patricia-steinhoff/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/phd-program/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/privacy-policy/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/race-ethnicity-gender-class/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/sakihara-scholarship/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/scholarships-and-funding/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/student-learning-outcomes/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/sun-ki-chai/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/undergraduate-advising/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/undergraduate-funding/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/undergraduate/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/wei-zhang/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/yean-ju-lee/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      },
+      {
+        "path": "/yue-sun/",
+        "sources": [
+          "../soc/reference/sociologysoc.WordPress.2026-11-10.xml"
+        ]
+      }
+    ],
+    "postIds": [
+      "11",
+      "16",
+      "18",
+      "20",
+      "22",
+      "37",
+      "92",
+      "98",
+      "108",
+      "115",
+      "126",
+      "136",
+      "165",
+      "184",
+      "206",
+      "229",
+      "339",
+      "386",
+      "395",
+      "419",
+      "424",
+      "432",
+      "441",
+      "527",
+      "549",
+      "591",
+      "628",
+      "653",
+      "660",
+      "708",
+      "722",
+      "798",
+      "809",
+      "875",
+      "885",
+      "926",
+      "1022",
+      "1095",
+      "1099",
+      "1110",
+      "1303",
+      "1614",
+      "1721",
+      "1778",
+      "1830",
+      "2002",
+      "2005",
+      "2011",
+      "2017",
+      "2021",
+      "2028",
+      "2032",
+      "2113",
+      "2237",
+      "2256",
+      "2356",
+      "2732"
+    ]
+  },
+  "ssri": {
+    "sourceDocuments": [
+      {
+        "file": "../CSS-Exports/ssri/original-urls-2026-11-12.json",
+        "sha256": "f14ebce9d326efa228273a9bd1191e08cd444e8b6fc0bbb189ec76648c72bdf4"
+      }
+    ],
+    "paths": [
+      {
+        "path": "/",
+        "sources": [
+          "../CSS-Exports/ssri/original-urls-2026-11-12.json"
+        ]
+      },
+      {
+        "path": "/boilerplate/",
+        "sources": [
+          "../CSS-Exports/ssri/original-urls-2026-11-12.json"
+        ]
+      },
+      {
+        "path": "/contact/",
+        "sources": [
+          "../CSS-Exports/ssri/original-urls-2026-11-12.json"
+        ]
+      },
+      {
+        "path": "/directory/",
+        "sources": [
+          "../CSS-Exports/ssri/original-urls-2026-11-12.json"
+        ]
+      },
+      {
+        "path": "/fiscal-compliance/",
+        "sources": [
+          "../CSS-Exports/ssri/original-urls-2026-11-12.json"
+        ]
+      },
+      {
+        "path": "/grant-development/",
+        "sources": [
+          "../CSS-Exports/ssri/original-urls-2026-11-12.json"
+        ]
+      },
+      {
+        "path": "/ham/",
+        "sources": [
+          "../CSS-Exports/ssri/original-urls-2026-11-12.json"
+        ]
+      },
+      {
+        "path": "/hcri/",
+        "sources": [
+          "../CSS-Exports/ssri/original-urls-2026-11-12.json"
+        ]
+      },
+      {
+        "path": "/john-jack-barile/",
+        "sources": [
+          "../CSS-Exports/ssri/original-urls-2026-11-12.json"
+        ]
+      },
+      {
+        "path": "/oenas/",
+        "sources": [
+          "../CSS-Exports/ssri/original-urls-2026-11-12.json"
+        ]
+      },
+      {
+        "path": "/privacy-policy/",
+        "sources": [
+          "../CSS-Exports/ssri/original-urls-2026-11-12.json"
+        ]
+      },
+      {
+        "path": "/research-services/",
+        "sources": [
+          "../CSS-Exports/ssri/original-urls-2026-11-12.json"
+        ]
+      },
+      {
+        "path": "/research/",
+        "sources": [
+          "../CSS-Exports/ssri/original-urls-2026-11-12.json"
+        ]
+      },
+      {
+        "path": "/rtrf-fy2019/",
+        "sources": [
+          "../CSS-Exports/ssri/original-urls-2026-11-12.json"
+        ]
+      },
+      {
+        "path": "/tasi-phidc/",
+        "sources": [
+          "../CSS-Exports/ssri/original-urls-2026-11-12.json"
+        ]
+      }
+    ],
+    "postIds": []
+  },
+  "wgss": {
+    "sourceDocuments": [
+      {
+        "file": "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+        "sha256": "6fa6918c3fdbee9e242a389b239a031bed8d7febd7d3eb8e9ded1d1cb773f59a"
+      },
+      {
+        "file": "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml",
+        "sha256": "b19cf2074eeb258fffca2552838e254516b0b1d2a2f6d60caa22c83c98bd6d90"
+      }
+    ],
+    "paths": [
+      {
+        "path": "/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/about/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/alumni/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/ba-requirements/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/certificate-requirements/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/colloquia/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/contact/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/design-courses/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/double-major/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/faculty/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/give-a-gift/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/graduate/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/honors-track/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/jobs-prospects/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/kathy-ferguson/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/lani-teves/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/lisa-m-vallin/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/meda-chesney-lind/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/mire-koikari/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/monisha-das-gupta/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/online-ba-requirements/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/privacy-policy/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/queer-studies-certificate/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/s-heijin-lee/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/scholarships/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/undergraduate/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      },
+      {
+        "path": "/wgss-graduate-certificate/",
+        "sources": [
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+          "../CSS-Exports/wgss/womengenderandsexualitystudieswgss.WordPress.2026-11-17.xml"
+        ]
+      }
+    ],
+    "postIds": [
+      "7",
+      "27",
+      "29",
+      "31",
+      "33",
+      "35",
+      "88",
+      "98",
+      "122",
+      "133",
+      "154",
+      "163",
+      "218",
+      "260",
+      "419",
+      "456",
+      "535",
+      "647",
+      "665",
+      "708",
+      "732",
+      "891",
+      "1041",
+      "1058",
+      "1082",
+      "1207",
+      "1299"
+    ]
+  }
+}

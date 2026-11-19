@@ -54,6 +54,17 @@ public URLs, not intermediate development routes. This supersedes blanket redire
 planning for every rename.
 Do not create empty folders for sections that do not exist.
 
+November18: core-faculty.html is prohibited as an active faculty-directory source
+filename or route across the eight reviewed sites. Navigation, hero keys, internal
+links and migration destinations must not point there. Historical legacy redirect
+sources are separate records and remain governed by the redirect rule sheet.
+Faculty organization follows content: when there are multiple faculty pages,
+use the faculty folder with faculty/index.html as its main directory. A single
+standalone faculty page uses root faculty.html. Filenames are lowercase. Never
+create faculty/faculty.html or use core-faculty.html. This supersedes the pending
+root/folder choice and any suggestion to move all faculty directories to root.
+
+
 ## Keep editable pages available
 
 Department content pages must have identifiable HTML source files in the site's
@@ -226,3 +237,23 @@ schedule uses sidebar-left-exsm; proportions are adjustable centrally after revi
 Preserve a numbered progress guide as one continuous sequence on one page. Do not
 split its steps across topical pages unless the user explicitly requests that split.
 Topic navigation does not justify breaking an existing procedural sequence.
+
+## Academic degree subnavigation placement
+
+Confirmed November18: degree subnavigation has its own section above the H1 and
+intro section. Do not place it below the introduction or add a divider above it.
+Use the shared degree-navigation include; keep gray content after the intro.
+Do not add lead-in sentences such as Explore the key components above the
+subnavigation; labels already identify the destinations.
+Check the complete MA/PhD page family, not just its overview.
+
+## MA/PhD naming alignment
+
+Approved November18 for GEO and SOC: each degree subpage uses Degree: Topic for
+both H1 and the page-label portion of its search title. The filename is the topic
+in lowercase hyphenated form, omitting ampersands/punctuation. Overview remains
+index.html inside its degree folder. Preserve meaningful qualifiers, including
+Suggested, Plan A and Plan B; align their wording across title, H1, filename and
+navigation. This is naming alignment, not permission to merge/rewrite academic
+requirements. Update internal links, hero mappings, degree navigation and actual
+legacy redirect destinations after renames; do not add development-name redirects.

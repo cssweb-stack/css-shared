@@ -1,31 +1,170 @@
 {
   "redirects": [
     {
-      "from": "/about-geo/areas-of-study.html",
-      "to": "/about/areas-of-study.html",
-      "label": "Areas Of Study"
+      "from": "/undergraduate/",
+      "to": "/about/why-study-geo.html#undergraduate-studies",
+      "label": "Undergraduate Studies"
     },
     {
-      "from": "/about-geo/why-study-geo.html",
-      "to": "/about/why-study-geo.html",
-      "label": "Why Study Geo"
+      "from": "/contact/",
+      "to": "/contact.html",
+      "label": "Contact"
     },
     {
-      "from": "/about-geo/geo-courses.html",
-      "to": "/courses.html",
-      "label": "Geo Courses"
-    },
-    {
-      "from": "/about-geo/department-news.html",
-      "to": "/about/department-news.html",
-      "label": "Department News"
-    },
-    {
-      "from": "/about-geo/lecture-series.html",
+      "from": "/public-lectures/",
       "to": "/about/lecture-series.html",
-      "label": "Lecture Series"
+      "label": "Public Lectures"
+    },
+    {
+      "from": "/hong-jiang/",
+      "to": "/faculty/hong-jiang.html",
+      "label": "Hong Jiang"
+    },
+    {
+      "from": "/give-a-gift/",
+      "to": "/support.html",
+      "label": "Give a Gift"
+    },
+    {
+      "from": "/graduate-students/",
+      "to": "/graduate/current-cohort.html",
+      "label": "Graduate Students"
+    },
+    {
+      "from": "/mary-mostafanezhad/",
+      "to": "/faculty/mary-mostafanezhad.html",
+      "label": "Mary Mostafanezhad"
+    },
+    {
+      "from": "/qi-chen/",
+      "to": "/faculty/qi-chen.html",
+      "label": "Qi Chen"
+    },
+    {
+      "from": "/brian-szuster/",
+      "to": "/faculty/brian-szuster.html",
+      "label": "Brian Szuster"
+    },
+    {
+      "from": "/reece-jones/",
+      "to": "/faculty/reece-jones.html",
+      "label": "Reece Jones"
+    },
+    {
+      "from": "/camilo-mora/",
+      "to": "/faculty/camilo-mora.html",
+      "label": "Camilo Mora"
+    },
+    {
+      "from": "/about/",
+      "to": "/about/areas-of-study.html",
+      "label": "About Geography"
+    },
+    {
+      "from": "/graduate/",
+      "to": "/about/why-study-geo.html#graduate-studies",
+      "label": "Graduate Studies (MA, PhD)"
+    },
+    {
+      "from": "/privacy-policy/",
+      "to": "/privacy.html",
+      "label": "Privacy Policy"
+    },
+    {
+      "from": "/news/",
+      "to": "/about/department-news.html",
+      "label": "Mānoa Geography News"
+    },
+    {
+      "from": "/major-minor-requirements/",
+      "to": "/undergraduate/major-ba.html",
+      "label": "Major and Minor Requirements"
+    },
+    {
+      "from": "/graduate-funding/",
+      "to": "/graduate/funding-sources.html",
+      "label": "Graduate Funding"
+    },
+    {
+      "from": "/student-learning-objectives/",
+      "to": "/undergraduate/student-learning-outcomes.html",
+      "label": "Student Learning Objectives"
+    },
+    {
+      "from": "/gis-certificate/",
+      "to": "/undergraduate/gis-certificate.html",
+      "label": "GIS Certificate"
+    },
+    {
+      "from": "/bam/",
+      "to": "/undergraduate/geo-bam.html",
+      "label": "Bam"
+    },
+    {
+      "from": "/marina-karides/",
+      "to": "/faculty/marina-karides.html",
+      "label": "Marina Karides"
+    },
+    {
+      "from": "/bam-interdisciplinary/",
+      "to": "/undergraduate/geo-sust-bam.html",
+      "label": "Bam - Interdisciplinary"
+    },
+    {
+      "from": "/aurora-kagawa-viviani/",
+      "to": "/faculty/aurora-kagawa-viviani.html",
+      "label": "Aurora Kagawa-Viviani"
+    },
+    {
+      "from": "/orhon-myadar/",
+      "to": "/faculty/orhon-myadar.html",
+      "label": "Orhon Myadar"
+    },
+    {
+      "from": "/yuqin-jiang/",
+      "to": "/faculty/yuqin-jiang.html",
+      "label": "Yuqin Jiang"
+    },
+    {
+      "from": "/alison-rieser/",
+      "to": "/faculty/associated.html",
+      "label": "Alison Rieser"
+    },
+    {
+      "from": "/thomas-giambelluca/",
+      "to": "/faculty/associated.html",
+      "label": "Thomas Giambelluca"
     }
   ],
-  "retired": [],
+  "retired": [
+    {
+      "from": "/graduate-program-forms/",
+      "label": "Graduate Program Forms"
+    },
+    {
+      "from": "/phase2/",
+      "label": "phase2"
+    },
+    {
+      "from": "/social-media-accounts/",
+      "label": "Social Media Accounts"
+    },
+    {
+      "from": "/phd-commitee/",
+      "label": "PhD Commitee"
+    },
+    {
+      "from": "/geography-club/",
+      "label": "Geography Club"
+    },
+    {
+      "from": "/student-awards/",
+      "label": "Student Awards"
+    },
+    {
+      "from": "/promo-videos/",
+      "label": "Promo Videos"
+    }
+  ],
   "unresolved": []
 }
