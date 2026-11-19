@@ -1,8 +1,16 @@
 # Current work handoff
 
+## November 18: Placeholder and Google-link inventories added to Review
+
+Scanned rendered HTML for current source permalinks across all eight reviewed units. Found 6 pages/19 visible temp.jpg occurrences (POLS 2 pages, SOC 2, WGSS 2); inactive WGSS people record placeholder is not displayed. Found 39 distinct Drive/document links on 52 pages, plus 17 Google Forms separated from file/PDF candidates; 16 language-assistance forms are sitewide. Added Review Google Drive Links and Placeholder Images pages and navigation; rebuilds rescan current rendered output. PDF format/accessibility not inferred from URL; file-content inspection remains future work. All eight units render heroes; POLS/WGSS have assignments (home student 17), not missing hero slots. Full Review build passed; verified all 56 Google URLs and 6 placeholder source-page URLs appear. No image assignments/content changed. Publishing results pending commands below; no deployment monitoring.
+
+## November 18: MA summer timeline cells
+
+Added N/A to GEO MA timeline Summer Courses and Forms cells; Thesis Research unchanged. GEO build passed and both rendered N/A values verified. Committed/pushed 76626ed; publishing started (44434925981). Deployment not monitored.
+
 ## November 18: Bulk upload and redirect evidence display
 
-User authorized all pending site updates plus shared rules/data/build changes and Review. Review redirect pages now show the original public URL, saved destination, and source-document filename for every mapping, with generation OFF and destination launch-review status explicit. Original XMLs retained; no regeneration requested or performed. Upload/publishing results to be reported after commands return; no deployment monitoring.
+User authorized all pending site updates plus shared rules/data/build changes and Review. Review redirect pages now show the original public URL, saved destination, and source-document filename for every mapping, with generation OFF and destination launch-review status explicit. Original XMLs retained; no regeneration requested or performed. Pushed shared f625e88 and all eight units (ANTH aed676f, ES 195c407, GEO 95ca5cd, POLS 7982f7b, PUBA c31f94b, SOC 4ed42e3, institute 0697446, WGSS acc1361), plus Review 1e44a41. All nine publishing workflow dispatches requested; command results reported to user. Full Review rebuild passed; all 293 source-evidence rows verified. No deployment monitoring. This result handoff is local after the shared push.
 
 ## November 18: Anthropology degree naming normalized
 
