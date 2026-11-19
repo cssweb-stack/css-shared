@@ -1,0 +1,18 @@
+{
+  "units": {
+    "anth": "Anthropology",
+    "es": "Ethnic Studies",
+    "geo": "Geography and Environment",
+    "pols": "Political Science",
+    "puba": "Public Administration",
+    "soc": "Sociology",
+    "ssri": "Social Science Research Institute",
+    "wgss": "Women, Gender, and Sexuality Studies"
+  },
+  "campus": "UH Mānoa",
+  "protectedLeadingLabels": [
+    "Anthropology Graduate Student Association (AGSA)",
+    "Anthropology Undergraduate Student Association (AUSA)",
+    "Ethnic Studies Student Association"
+  ]
+}

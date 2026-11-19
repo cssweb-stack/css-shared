@@ -43,7 +43,7 @@
 </div>
 {% endif %}
 <div class="page-section">
-<div class="container content-section">
+<div class="{% if reviewSection == 'headings' %}container-fluid review-headings-container{% else %}container{% endif %} content-section">
 <div class="row gx-0 gx-sm-5 gx-lg-5">
 <div class="col-12">
 <h1>{{ title | escape }}</h1>

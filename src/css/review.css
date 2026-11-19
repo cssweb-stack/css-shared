@@ -37,15 +37,6 @@ width: auto;
 height: auto;
 }
 
-.review-heading-entry {
-font-size: 0.875em;
-overflow-wrap: anywhere;
-}
-.review-heading-entry > a,
-.review-heading-entry > span {
-font-size: inherit;
-}
-
 /* Specimen surfaces only. Production classes own columns, gaps and breakpoints. */
 .review-grid-example {
 margin-block: 2rem 4rem;
@@ -111,4 +102,38 @@ color: var(--white);
 .review-grid-tabs > button:focus-visible {
 outline: var(--focus-outline-width) solid currentColor;
 outline-offset: var(--focus-outline-offset);
+}
+
+/* Full-width naming comparison, scoped to Review rather than production tables. */
+.review-headings-container {
+width: 100%;
+max-width: none;
+}
+
+.review-heading-table {
+width: 100%;
+margin-inline: auto;
+table-layout: fixed;
+border-collapse: separate;
+border-spacing: 15pt 0;
+text-align: right;
+}
+
+.review-heading-table :is(th, td) {
+width: 33.333333%;
+padding-block: 1rem;
+border-bottom: 1px solid var(--gray-400, #ccc);
+vertical-align: top;
+overflow-wrap: anywhere;
+}
+
+.review-heading-table .review-heading-group > th {
+width: auto;
+padding-top: 3rem;
+text-align: left;
+border-bottom: 2px solid var(--dark-gray);
+}
+
+.review-heading-group h2 {
+margin: 0;
 }
