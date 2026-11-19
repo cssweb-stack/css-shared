@@ -69,6 +69,17 @@ grid-template-columns: minmax(0, 1fr);
 text-align: center;
 }
 
+.button-stack {
+display: flex;
+flex-direction: column;
+gap: calc(var(--grid-gap) / 4);
+}
+
+.button-stack > .button {
+border-radius: 0.75rem;
+}
+
+.button-stack > .button,
 .button-set .button {
 width: 100%;
 padding-inline: .5rem;

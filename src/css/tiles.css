@@ -1,4 +1,5 @@
 :root {
+--tile-icon-opacity: 0.75;
 --tile-pattern-contour: url("../media/shared/backgrounds/geo-contour-lines.svg");
 }
 
@@ -91,6 +92,10 @@ margin-bottom: 6cqi;
 color: inherit;
 }
 
+.tile-muted-icons .program-tile-icon {
+opacity: var(--tile-icon-opacity);
+}
+
 .program-tile-icon svg {
 display: block;
 width: 100%;
@@ -181,6 +186,22 @@ background: linear-gradient(90deg, var(--color-blue) 50%, var(--color-purple) 50
 background: linear-gradient(90deg, var(--color-teal) 50%, var(--color-purple) 50%);
 }
 
+@media (max-width: 767.98px) {
+.grid-six--three > .program-tile {
+padding: 6%;
+}
+
+.grid-six--three > .program-tile > .program-tile-title {
+font-size: clamp(1.125rem, 16cqi, 2rem);
+white-space: normal;
+overflow-wrap: anywhere;
+}
+
+.grid-six--three > .program-tile > .program-tile-label {
+overflow-wrap: anywhere;
+}
+}
+
 /* Date badges: compact mobile contents, larger tablet/desktop contents. */
 .event-date-box {
 --date-text-size: calc(0.875rem * 4 / 3);
@@ -198,7 +219,7 @@ align-self: start;
 }
 
 .event-calendar-icon {
-opacity: 0.75;
+opacity: var(--tile-icon-opacity);
 display: block;
 flex: none;
 width: var(--date-icon-size);
@@ -261,7 +282,7 @@ font-weight: 600;
 .icon-tile svg {
 display: block;
 width: min(52px, 65%);
-opacity: 0.75;
+opacity: var(--tile-icon-opacity);
 height: auto;
 aspect-ratio: 1;
 fill: currentColor;

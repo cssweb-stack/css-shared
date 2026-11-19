@@ -1,6 +1,6 @@
 {
   "indexingEnabled": false,
-  "layoutGuides": true,
+  "layoutGuides": false,
   "stylesheet": "/pols.css",
   "url": "https://politicalscience.manoa.hawaii.edu",
   "openGraph": {

@@ -88,3 +88,25 @@ padding-inline: 1.5rem;
 --grid-columns: 6;
 }
 }
+
+.grid-six.grid-six--three {
+--grid-columns: 2;
+}
+
+@media (min-width: 768px) {
+.grid-six.grid-six--three {
+--grid-columns: 3;
+}
+}
+
+@media (min-width: 992px) {
+.grid-six.grid-six--three {
+--grid-columns: 4;
+}
+}
+
+@media (min-width: 1200px) {
+.grid-six.grid-six--three {
+--grid-columns: 6;
+}
+}
