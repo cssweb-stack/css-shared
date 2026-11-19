@@ -3,7 +3,7 @@
 <div class="row grid-one">
 <div class="col-12">
 <h2>Latest News <span class="news-latest-more">(<a href="{{ news_settings.indexUrl | url }}">More {{ site.shortName | escape }} News</a>)</span></h2>
-<div class="grid-five news-latest-grid">
+<div class="grid-five grid-two-on-mobile news-latest-grid">
 {% for post in collections.unitNews %}
 {% if loop.index <= news_settings.latestLimit %}
 <article>

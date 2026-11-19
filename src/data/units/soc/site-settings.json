@@ -1,6 +1,6 @@
 {
   "indexingEnabled": false,
-  "layoutGuides": true,
+  "layoutGuides": false,
   "stylesheet": "/soc.css",
   "url": "https://sociology.manoa.hawaii.edu",
   "openGraph": {

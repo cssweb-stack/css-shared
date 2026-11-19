@@ -195,17 +195,17 @@ background: linear-gradient(90deg, var(--color-teal) 50%, var(--color-purple) 50
 }
 
 @media (max-width: 767.98px) {
-:is(.grid-six--three, .grid-four--paired) > .program-tile {
+:is(.grid-six--three, .grid-four--paired, .grid-five--skip-four) > .program-tile:not(.photo-tile) {
 padding: 6%;
 }
 
-:is(.grid-six--three, .grid-four--paired) > .program-tile > .program-tile-title {
+:is(.grid-six--three, .grid-four--paired, .grid-five--skip-four) > .program-tile:not(.photo-tile) > .program-tile-title {
 font-size: clamp(1.125rem, 16cqi, 2rem);
 white-space: normal;
 overflow-wrap: anywhere;
 }
 
-:is(.grid-six--three, .grid-four--paired) > .program-tile > .program-tile-label {
+:is(.grid-six--three, .grid-four--paired, .grid-five--skip-four) > .program-tile:not(.photo-tile) > .program-tile-label {
 overflow-wrap: anywhere;
 }
 }

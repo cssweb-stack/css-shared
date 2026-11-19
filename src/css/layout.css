@@ -529,10 +529,9 @@ grid-template-columns: minmax(0, var(--sidebar-content-track)) minmax(0, var(--s
 }
 }
 
-/* One mobile width for supporting portraits, sidebar photos and home news images. */
+/* One mobile width for supporting portraits and sidebar photos; text stays full width. */
 @media (max-width: 767.98px) {
 .site-main :is(.portrait-card-grid, .faculty-portrait-grid) .profile-directory-photo,
-.site-main .news-latest-grid .news-thumbnail > img,
 .site-main .profile-sidebar .profile-photo,
 .site-main .advisor-photo > img,
 .site-main .profile-sidebar .sidebar-media,

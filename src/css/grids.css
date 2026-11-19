@@ -50,6 +50,13 @@ padding-inline: 1.5rem;
 }
 }
 
+@media (width < 768px) {
+.grid-two-on-mobile,
+.grid-five.grid-five--skip-four {
+--grid-columns: 2;
+}
+}
+
 @media (min-width: 768px) {
 .grid-two,
 .grid-three,
@@ -71,7 +78,7 @@ padding-inline: 1.5rem;
 
 @media (min-width: 1200px) {
 .grid-four,
-.grid-five,
+.grid-five:not(:where(.grid-five--skip-four)),
 .grid-six {
 --grid-columns: 4;
 }
