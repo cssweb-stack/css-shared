@@ -5,51 +5,25 @@ The footer is rendered by `src/includes/layouts/branding/footer/footer.njk`, wit
 by surface, base links, layout, acronym, identity, contact, social, university
 links, languages, and subfooter. Component media rules sit beside their component.
 
-## Ownership of layout and spacing
+## Selectable footer templates
 
-| Responsibility | Owner |
-| --- | --- |
-| Shared max width and outside horizontal padding | `layout.css` → `.container` |
-| Column widths, wrapping, horizontal gutters | Bootstrap row/col classes |
-| Main content page-edge spacing | `layout.css` → `.site-main` / `--layout-content-spacing` |
-| Upper footer top/bottom padding | `footer.css` → `.footer-inner`, using shared `--layout-section-spacing` |
-| Desktop/phone stacked sidebar and footer group gaps | `layout.css` → shared last-excepted column rule, using `--layout-stack-gap: 1.5rem` |
-| Desktop gap before the language row | `footer.css`, using shared `--layout-section-spacing` |
-| Last element's bottom margin in unit-detail columns | Shared normalization in `layout.css` |
-| Phone/tablet divider spacing | `footer.css` → half `--layout-section-spacing`, equal above/below |
-| Identity/contact detail spacing | Footer-local variables on `.footer-unit-column` |
-| Diagnostic overlays | `diagnostics.css`, toggle its import in `common.css` |
+The four-column template is the default for every site using the shared footer.
+Set `site.footerTemplate` to `classic` to select the classic template explicitly.
+Both share unit-details.njk, data and subfooter.
 
-The footer does not redefine container width, Bootstrap column sizing, or page
-content padding. Bootstrap `gx-0 gx-sm-5 gx-lg-5` is used for outer/nested rows:
-zero horizontal gutter below 576px, 3rem from 576px. Continuous list column gaps
-also use 3rem; these are internal list presentation, not another outer grid.
-
-Shared section spacing is 2rem below 576px, 2.25rem at 576–1199.98px, and 3rem at
-1200px+. The stack gap remains 1.5rem at all sizes where groups stack.
-
-## Structure and breakpoints
-
-One main `.container.footer-inner` contains a Bootstrap row:
-
-- Unit block: `col-12 col-lg-3`.
-- University links: `col-12 col-lg-9`.
-- Languages: `col-12`, underneath both.
-
-Within the unit block, acronym uses `col-12 col-sm-12 col-lg-12`;
-identity/address and contact use `col-12 col-sm-6 col-lg-12`. At 576–991.98px,
-the acronym occupies its own row, with identity/contact in equal halves beneath
-and a 1.5rem row gap. This supersedes equal tablet thirds: fixed-size PUBA text
-overflowed its third and overlapped the identity. Phones and desktop retain
-stacked groups with a 1.5rem gap except after the last.
-
-University links are one list: 2 visual columns below 576px, 3 above. Languages
-are one list of 16 links: 2 columns below 576px, 3 at 576–1199.98px, and 8 from
-1200px. Lists flow down each column before the next. All upper-footer text is
-left aligned. Both dividers are visible below 992px and hidden at desktop;
-spacing on each side is 16px on phones and 18px on tablets. Desktop row-gap uses shared section spacing: 2.25rem at 992–1199px and
-3rem from 1200px. The background switches source at 1200px. No 525px/900px special layout
-breakpoints or legacy language-band rules remain.
+The optional footer has one university-link ul and one language ul. On mobile,
+each has two equal columns. The option uses one --footer-gap: 48px for
+column gaps and spacing between major rows, superseding shared responsive gaps
+for this footer option only. University links flow down columns
+using CSS grid auto-flow: column; --footer-link-rows-mobile: 11 gives 11/11.
+From 1200px, department details occupy one of four equal cells and the university
+list spans the other three. --footer-link-rows-desktop: 8 gives 8/8/6 links.
+Those two central CSS variables control the counts without reordering HTML or
+creating separate lists. Adjust counts with the total link count in mind.
+Languages use CSS column flow: two columns below 1200px, eight above (two rows
+for 16 languages). Every second language column aligns with an upper four-column
+edge because both layouts use the same overall width and 48px gap. Source order remains unchanged.
+This supersedes the experimental four separate lists and one-column phone lists.
 
 ## Editable typography and detail groups
 
@@ -122,3 +96,21 @@ found; no footer overflow occurred. SSRI passed all tested acronym widths.
 Existing fixed-acronym limits: ANTH, DURP, ECON, POLS, PUBA and WGSS at 576px;
 WGSS also at 992px. These were identical before/after and were not restyled.
 Results: `exports/footer-cleanup-review-2026-11-08.json`.
+
+## Alternative unit-information grouping
+
+Four-column option groups acronym, identity and college/university links
+in the summary; address, phone/email, social and policy links in the other. These sit
+side-by-side at576–1199px and stack otherwise. Acronym line-height1 and reduced
+summary gap remove excess leading. The shared checker allows line-height 1 only
+for this four-column display acronym. Policy links finish the contact group.
+Classic structure stays unchanged; shared address/policy partials prevent copies.
+
+Latest grouping: policy links follow social links at the bottom. Logical information groups use one --footer-info-gap, equal to the existing
+--footer-unit-identity-gap, between department, parents, address, contact, social
+and policy groups. This supersedes the temporary zero stacked gap. Social icons have a visible Social: label for one
+account, Socials: for multiple; the group is omitted when no accounts exist.
+
+Both optional footer sections sit in one standard Bootstrap row with two stacked
+col-12 wrappers inside the shared container, matching hero-credit/subfooter
+outer alignment. Internal four-column and language-list arrangements stay intact.

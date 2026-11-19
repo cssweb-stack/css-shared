@@ -1,0 +1,7 @@
+{% if site.address | length %}
+<address class="footer-address">
+{% for line in site.address %}
+<p>{{ line | escape }}</p>
+{% endfor %}
+</address>
+{% endif %}

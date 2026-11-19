@@ -32,5 +32,6 @@
   },
   "sidebarLeftLayouts": true,
   "portraitCardGrid": true,
-  "titleSuffix": "Geography and Environment | UH Mānoa"
+  "titleSuffix": "Geography and Environment | UH Mānoa",
+  "footerTemplate": "four-column"
 }

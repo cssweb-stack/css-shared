@@ -1,0 +1,24 @@
+{# Upper footer: one unit column and three university-link columns. #}
+<div class="container footer-inner">
+<div class="row footer-grid gx-0 gx-sm-5 gx-lg-5">
+<div class="col-12 col-lg-3 footer-unit-column">
+{% include "layouts/branding/footer/unit-details.njk" %}
+</div>
+<nav class="col-12 col-lg-9 footer-university-links" aria-label="Footer links">
+<ul class="footer-link-list">
+{% for link in footerLinks %}
+<li><a href="{{ link.url | url | escape }}">{{ link.label | escape }}</a></li>
+{% endfor %}
+</ul>
+</nav>
+<nav class="col-12 footer-language-column" aria-label="{{ uh.languages.heading | escape }}">
+<ul class="footer-languages">
+{% for language in uh.languages.items %}
+<li><a href="{{ language.url | escape }}" lang="{{ language.lang | escape }}">{{ language.label | escape }}</a></li>
+{% endfor %}
+</ul>
+</nav>
+</div>
+</div>
+{# Shared subfooter. #}
+{% include "layouts/branding/footer/subfooter.njk" %}

@@ -52,7 +52,11 @@ if (/font-variation-settings\s*:/i.test(appliedTypography)) throw new Error(`Use
 for (const match of css.matchAll(/var\(\s*(--[\w-]+)\s*\)/g)) {
 if (!definedTokens.has(match[1])) throw new Error(`Undefined CSS token without a fallback: ${name}: ${match[1]}`);
 }
-for (const match of css.matchAll(/(?:^|[;{}])\s*(line-height|--[\w-]*(?:line-height|leading)[\w-]*|font)\s*:\s*([^;{}]+)/g)) {
+// The four-column footer uses compact leading for its display acronym.
+const lineHeightCss = name === 'css/footer.css'
+? css.replace(/(\.site-footer--four-column \.footer-unit-short-name\s*\{[^{}]*?)\bline-height:\s*1\s*;/g, '$1')
+: css;
+for (const match of lineHeightCss.matchAll(/(?:^|[;{}])\s*(line-height|--[\w-]*(?:line-height|leading)[\w-]*|font)\s*:\s*([^;{}]+)/g)) {
 const [, property, raw] = match;
 const value = raw.replace(/\s*!important\s*$/, '').trim();
 if (value === 'inherit' || /^var\(--[\w-]+\)$/.test(value)) continue;

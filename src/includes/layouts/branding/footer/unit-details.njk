@@ -1,0 +1,75 @@
+{% if footerTemplate == "four-column" %}
+<div class="footer-unit-layout-four">
+<div class="footer-unit-summary">
+{% else %}
+<div class="row footer-unit-layout gx-0 gx-sm-5 gx-lg-5">
+{% endif %}
+<div class="col-12 col-sm-12 col-lg-12 footer-unit-acronym">
+{% if site.shortName %}
+<p class="footer-unit-short-name">{{ site.shortName | escape }}</p>
+{% endif %}
+</div>
+<div class="col-12 col-sm-6 col-lg-12 footer-unit-identity">
+<p class="footer-unit-name">{% if site.footerIdentity.prefix %}<span class="footer-unit-prefix">{{ site.footerIdentity.prefix | escape }}</span> {% endif %}{{ site.footerIdentity.name | default(site.name) | escape }}</p>
+<div class="footer-parent-links">
+{% if site.shortName != 'CSS' %}
+<p><a href="{{ common.links.college.url | escape }}">{{ common.links.college.label | escape }}</a></p>
+{% endif %}
+<p><a href="{{ common.links.university.url | escape }}">{{ common.links.university.label | escape }}</a></p>
+</div>
+{% if footerTemplate != "four-column" %}
+{% include "layouts/branding/footer/unit-address.njk" %}
+{% endif %}
+</div>
+{% if footerTemplate == "four-column" %}
+</div>
+{% endif %}
+{% if footerTemplate == "four-column" %}
+<div class="footer-contact">
+{% else %}
+<address class="col-12 col-sm-6 col-lg-12 footer-contact">
+{% endif %}
+{% if footerTemplate == "four-column" %}
+{% include "layouts/branding/footer/unit-address.njk" %}
+{% endif %}
+{% if site.phone or site.email %}
+<div class="footer-contact-links">
+{% if site.phone %}
+<p class="footer-phone"><a class="footer-contact-link" href="{{ site.phone.href | escape }}"> <span aria-hidden="true">{% include "media/icons/telephone.svg" %}</span> <span>{{ site.phone.label | escape }}</span> </a></p>
+{% endif %}
+{% if site.email %}
+<p class="footer-email"><a class="footer-contact-link" href="{{ site.email.href | escape }}"> <span aria-hidden="true">{% include "media/icons/envelope.svg" %}</span> <span>{{ site.email.label | escape }}</span> </a></p>
+{% endif %}
+</div>
+{% endif %}
+{# Count populated entries, not the eight available platform slots. #}
+{% set footerSocialLinks = social.links | default([], true) %}
+{% set footerSocialCount = 0 %}
+{% for link in footerSocialLinks %}
+{% if (link.url | default('', true) | trim) and link.icon %}
+{% set footerSocialCount = footerSocialCount + 1 %}
+{% endif %}
+{% endfor %}
+{% if footerSocialCount %}
+{% if footerTemplate == "four-column" %}
+<div class="footer-social-group">
+<span class="footer-social-label">{% if footerSocialCount == 1 %}Social:{% else %}Socials:{% endif %}</span>
+{% endif %}
+<ul class="footer-social-bar" aria-label="{{ site.shortName | default(site.name, true) | escape }} social media">
+{% for link in footerSocialLinks | sort(false, false, 'label') %}
+{% if (link.url | default('', true) | trim) and link.icon %}
+<li class="footer-social-item"><a class="footer-social-link" href="{{ link.url | trim | escape }}" aria-label="{{ site.shortName | default(site.name, true) | escape }} on {{ link.label | escape }}"> <span class="footer-social-icon" aria-hidden="true">{% include "media/icons/" + link.icon + ".svg" %}</span> </a></li>
+{% endif %}
+{% endfor %}
+</ul>
+{% if footerTemplate == "four-column" %}
+</div>
+{% endif %}
+{% endif %}
+{% include "layouts/branding/footer/unit-policy-links.njk" %}
+{% if footerTemplate == "four-column" %}
+</div>
+{% else %}
+</address>
+{% endif %}
+</div>
