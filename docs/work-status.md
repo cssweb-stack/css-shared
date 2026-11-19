@@ -1,5 +1,9 @@
 # Current work handoff
 
+## November 18: Footer inspection outlines
+
+Added shared diagnostic-only red inset outlines to footer layout/text elements, including individual language items and links. Existing diagnostic import is enabled. No footer grid, breakpoints, sizing or spacing changed. Changes local, not committed or uploaded. GEO build passed; visual resizing review remains with user.
+
 ## November 18: Full upload and publish requested
 
 All eight unit repositories were clean and matched their local origin/main references. Shared remaining rules/handoff committed and pushed as fcd80f0; Review shared-data watch target committed and pushed as deb4633. Publishing successfully requested for anth, es, geo, pols, puba, soc, ssri, wgss and Review. Deployment completion was not monitored, per upload-only agreement. Python cache files excluded. Homepage tiles remain next work. Review watcher configuration uploaded; automatic local refresh was not verified.

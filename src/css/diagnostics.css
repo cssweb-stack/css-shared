@@ -96,3 +96,11 @@ box-shadow: inset 0 0 0 3px red;
 .site-main .program-button-sets > :is(.button-set, .program-sidebar-links) {
 box-shadow: inset 0 0 0 3px red;
 }
+
+/* Footer proofreading: show every layout/text box, including each language link.
+ * Inset outlines do not change sizing, wrapping or spacing. Keep focus visible.
+ */
+.site-footer :is(div, nav, ul, li, p, address, a, span, svg):not(:focus-visible) {
+outline: 3px solid red;
+outline-offset: -3px;
+}
