@@ -67,6 +67,12 @@ padding-inline: 1.5rem;
 }
 }
 
+@media (768px <= width < 1200px) {
+.grid-one-on-tablet {
+--grid-columns: 1;
+}
+}
+
 @media (min-width: 992px) {
 .grid-three,
 .grid-four,

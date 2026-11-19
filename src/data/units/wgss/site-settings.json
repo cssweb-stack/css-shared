@@ -1,6 +1,6 @@
 {
   "indexingEnabled": false,
-  "layoutGuides": true,
+  "layoutGuides": false,
   "stylesheet": "/wgss.css",
   "url": "https://wgss.manoa.hawaii.edu",
   "openGraph": {

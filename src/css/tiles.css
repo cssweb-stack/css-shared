@@ -195,17 +195,17 @@ background: linear-gradient(90deg, var(--color-teal) 50%, var(--color-purple) 50
 }
 
 @media (max-width: 767.98px) {
-:is(.grid-six--three, .grid-four--paired, .grid-five--skip-four) > .program-tile:not(.photo-tile) {
+:is(.grid-six--three, .grid-four--paired, .grid-five--skip-four, .grid-two-on-mobile) > .program-tile:not(.photo-tile) {
 padding: 6%;
 }
 
-:is(.grid-six--three, .grid-four--paired, .grid-five--skip-four) > .program-tile:not(.photo-tile) > .program-tile-title {
+:is(.grid-six--three, .grid-four--paired, .grid-five--skip-four, .grid-two-on-mobile) > .program-tile:not(.photo-tile) > .program-tile-title {
 font-size: clamp(1.125rem, 16cqi, 2rem);
 white-space: normal;
 overflow-wrap: anywhere;
 }
 
-:is(.grid-six--three, .grid-four--paired, .grid-five--skip-four) > .program-tile:not(.photo-tile) > .program-tile-label {
+:is(.grid-six--three, .grid-four--paired, .grid-five--skip-four, .grid-two-on-mobile) > .program-tile:not(.photo-tile) > .program-tile-label {
 overflow-wrap: anywhere;
 }
 }
@@ -296,7 +296,8 @@ aspect-ratio: 1;
 fill: currentColor;
 }
 
-/* Optional landscape program tiles. */
+/* Optional landscape program tiles for tablets and larger screens. */
+@media (min-width: 768px) {
 .program-tile.tile-landscape {
 --tile-aspect-ratio: 16 / 9;
 grid-template-columns: minmax(0, 1fr);
@@ -324,4 +325,43 @@ margin-bottom: 2cqi;
 min-height: 0;
 font-size: clamp(.75rem, 5cqi, 1.25rem);
 line-height: 1.5;
+}
+}
+
+@media (width < 768px) {
+.grid-two-on-mobile > .program-tile.tile-landscape {
+grid-template-columns: minmax(0, 1fr);
+min-height: min-content;
+}
+}
+
+.program-tile-tablet-label {
+display: none;
+}
+
+@media (768px <= width < 1200px) {
+.grid-one-on-tablet > .program-tile.tile-landscape {
+--tile-aspect-ratio: auto;
+grid-template-columns: auto minmax(0, 1fr);
+column-gap: 0.75rem;
+align-items: center;
+justify-items: start;
+padding: 0.5rem 0.75rem;
+text-align: left;
+}
+
+.grid-one-on-tablet > .tile-landscape > .program-tile-icon {
+margin: 0;
+}
+
+.grid-one-on-tablet > .tile-landscape > :is(.program-tile-title, .program-tile-label) {
+display: none;
+}
+
+.grid-one-on-tablet > .tile-landscape > .program-tile-tablet-label {
+display: block;
+font-size: 1.125rem;
+font-weight: 600;
+overflow-wrap: anywhere;
+}
 }
