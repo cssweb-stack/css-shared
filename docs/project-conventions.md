@@ -1700,3 +1700,15 @@ remains. Original-source review is a separate explicitly requested task.
 
 GEO lecture-series browser title is season-independent: Lecture Series | Geography
 and Environment | UH Mānoa. Keep the semester in the visible H1; retain the route.
+
+## Hero Review organization and duplicate cues — November 18, 2026
+
+Every unit hero review starts with Fixed Pages (existing Home, Courses, Contact,
+Support), then groups content by source folder, keeping degree families together.
+Faculty landing pages precede faculty bios; privacy, policies and 404 come last.
+News shows its index and one representative article after comparing every article
+hero to the index; mismatches remain visible as exceptions. Red image outlines and
+a text label flag duplicate choices among ordinary pages, including collisions
+with fixed images. Fixed Pages are unmarked/protected; faculty, article samples,
+and policy/error pages are excluded from duplicate warnings. Grouping preserves
+all existing assignments; it does not impose one bank image on every unit.

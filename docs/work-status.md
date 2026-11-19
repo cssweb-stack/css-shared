@@ -1,8 +1,24 @@
 # Current work handoff
 
+## November 18: Hero Review grouped consistently and duplicates outlined
+
+Replaced unit-specific single/double/triple-use sorting with one source-folder grouping: Fixed Pages, content/degree sections, faculty landing pages then bios, and privacy/policies/404 last. Added section jump links. News index retained; all article hero images compared with index and only latest sample shown unless mismatches exist. Duplicate outlines mark replaceable ordinary pages, include collisions with fixed images, and exclude faculty/article/policy sections. Fixed Pages protected/unmarked. Counts now refer to displayed entries, not 54 repeated article tiles. No hero assignments changed in this task. Isolated duplicate-scope check passed; final build/publishing results pending.
+
+## November 18: ES Department News hero corrected to 47
+
+User superseded Department News25 with general featured47. Verified47 exists and has no other ES hero assignment/default use; BA31 unchanged. ES build/rendered path verified. Shared change committed/pushed 0c7bc46; ES and Review publishing started. No deployment monitoring; local Review not rebuilt for this one-path correction.
+
+## November 18: ES BA/news hero swaps
+
+User chose general featured31 for BA and general featured25 for Department News, replacing protected home17/contact41 duplicates on those pages. Only two hero image paths changed. ES rebuilt and rendered image paths verified. Review rebuild passed and selected images verified. Shared hero change committed/pushed 827e0cc; publishing started for ES 44437902936 and Review 44437906618. Deployment not monitored.
+
+## November 18: Google document inventory deduplicated and form candidates classified
+
+Review now lists each Drive/document once per unit using Google file ID, ignoring URL-sharing parameters. Repeated documents appear first under each unit with expandable source-page links. All 39 documents retained: 19 likely form links/Kuali candidates, 4 uncertain (three rubrics and appointment document), 16 other/reference documents. Classifications inferred from link wording and source context, not downloaded-file verification. Anthropology Plan B Word/PDF links labeled as two versions of the same form. Existing Google Forms stay separate. Full Review build passed; parser verification confirms exact expected document IDs/counts and one listing per unit. Upload/publish requested for Review only; final command result reported to user. No site content changed.
+
 ## November 18: Placeholder and Google-link inventories added to Review
 
-Scanned rendered HTML for current source permalinks across all eight reviewed units. Found 6 pages/19 visible temp.jpg occurrences (POLS 2 pages, SOC 2, WGSS 2); inactive WGSS people record placeholder is not displayed. Found 39 distinct Drive/document links on 52 pages, plus 17 Google Forms separated from file/PDF candidates; 16 language-assistance forms are sitewide. Added Review Google Drive Links and Placeholder Images pages and navigation; rebuilds rescan current rendered output. PDF format/accessibility not inferred from URL; file-content inspection remains future work. All eight units render heroes; POLS/WGSS have assignments (home student 17), not missing hero slots. Full Review build passed; verified all 56 Google URLs and 6 placeholder source-page URLs appear. No image assignments/content changed. Publishing results pending commands below; no deployment monitoring.
+Scanned rendered HTML for current source permalinks across all eight reviewed units. Found 6 pages/19 visible temp.jpg occurrences (POLS 2 pages, SOC 2, WGSS 2); inactive WGSS people record placeholder is not displayed. Found 39 distinct Drive/document links on 52 pages, plus 17 Google Forms separated from file/PDF candidates; 16 language-assistance forms are sitewide. Added Review Google Drive Links and Placeholder Images pages and navigation; rebuilds rescan current rendered output. PDF format/accessibility not inferred from URL; file-content inspection remains future work. All eight units render heroes; POLS/WGSS have assignments (home student 17), not missing hero slots. Full Review build passed; verified all 56 Google URLs and 6 placeholder source-page URLs appear. No image assignments/content changed. Pushed shared navigation/status 6c66fcb and Review 0cc9b0d; Review publishing dispatched successfully. Deployment not monitored.
 
 ## November 18: MA summer timeline cells
 

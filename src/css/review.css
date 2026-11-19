@@ -37,6 +37,11 @@ width: auto;
 height: auto;
 }
 
+.review-hero-image--duplicate {
+outline: 3px solid #c00;
+outline-offset: 3px;
+}
+
 /* Specimen surfaces only. Production classes own columns, gaps and breakpoints. */
 .review-grid-example {
 margin-block: 2rem 4rem;
