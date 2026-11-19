@@ -1,8 +1,12 @@
 # Current work handoff
 
+## November 18: Footer outlines narrowed
+
+Removed the overly broad footer descendant outlines at user correction. Existing shared column guides remain on the main reflowing containers only; individual links, language items, paragraphs and icons no longer have added outlines. No layout changes. Upload/publishing pending.
+
 ## November 18: Footer inspection outlines
 
-Added shared diagnostic-only red inset outlines to footer layout/text elements, including individual language items and links. Existing diagnostic import is enabled. No footer grid, breakpoints, sizing or spacing changed. Changes local, not committed or uploaded. GEO build passed; visual resizing review remains with user.
+Added shared diagnostic-only red inset outlines to footer layout/text elements, including individual language items and links. Existing diagnostic import is enabled. No footer grid, breakpoints, sizing or spacing changed. GEO build passed. Shared f379ed1 committed/pushed; publishing requested successfully for all eight units, not monitored. Visual resizing review remains with user; begin on live GEO. Footer uses Bootstrap 25/75 desktop structure and CSS multicolumn link lists, not the newer content grid classes. List gaps remain 3rem and language columns change at 576/1200px; no layout changes authorized/applied yet.
 
 ## November 18: Full upload and publish requested
 

@@ -31,7 +31,7 @@ All helper lines are 3px thick. Container guides are pink; column guides are red
 - Footer inner containers: pink on all four sides.
 - Grid columns: red on all four sides.
 - Main-content Bootstrap columns and program/photo tiles draw the same red guide on a foreground ::after layer because images and surfaces obscure parent inset shadows. Column positioning anchors the overlay without adding spacing; the overlay ignores pointer events. Its rule exists only in diagnostics.css.
-- Footer inspection temporarily outlines every layout/text box, including each individual language link, with 3px inset red outlines. Keyboard focus outlines remain intact. This supersedes the footer-parent exclusion while reviewing footer wrapping; layout and typography are unchanged.
+- Footer guides mark the main reflowing columns: acronym, identity/address, contact, university links, languages, and subfooter content. Individual text, links, language items and icons are not outlined. Redundant footer row parents are excluded.
 - No diagnostic background fills; existing page backgrounds show through.
 
 Helper lines use inset box shadows rather than real borders. Enabling them does
