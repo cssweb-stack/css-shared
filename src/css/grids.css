@@ -116,3 +116,27 @@ padding-inline: 1.5rem;
 grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 }
+
+.grid-four.grid-four--paired {
+--grid-columns: 2;
+}
+
+@media (min-width: 992px) {
+.grid-four.grid-four--paired {
+--grid-columns: 4;
+}
+}
+
+@media (min-width: 1400px) {
+.grid-one.grid-with-program-intro {
+--grid-columns: 6;
+}
+
+.grid-with-program-intro > :first-child {
+grid-column: span 2;
+}
+
+.grid-with-program-intro > .grid-four {
+grid-column: span 4;
+}
+}

@@ -34,12 +34,20 @@ position: relative;
 z-index: 1;
 }
 
-/* Homepage Program Tiles: Square Layout */
+/* Homepage program tile patterns. */
+.tile-pattern-graph-paper,
 .tile-pattern-jigsaw {
---tile-background: url("../media/shared/backgrounds/jigsaw.svg");
 --tile-background-size: 96px 96px;
 --tile-background-repeat: repeat;
 --tile-background-opacity: 0.1;
+}
+
+.tile-pattern-jigsaw {
+--tile-background: url("../media/shared/backgrounds/jigsaw.svg");
+}
+
+.tile-pattern-graph-paper {
+--tile-background: url("../media/shared/backgrounds/graph-paper.svg");
 }
 
 .program-tile {
@@ -187,17 +195,17 @@ background: linear-gradient(90deg, var(--color-teal) 50%, var(--color-purple) 50
 }
 
 @media (max-width: 767.98px) {
-.grid-six--three > .program-tile {
+:is(.grid-six--three, .grid-four--paired) > .program-tile {
 padding: 6%;
 }
 
-.grid-six--three > .program-tile > .program-tile-title {
+:is(.grid-six--three, .grid-four--paired) > .program-tile > .program-tile-title {
 font-size: clamp(1.125rem, 16cqi, 2rem);
 white-space: normal;
 overflow-wrap: anywhere;
 }
 
-.grid-six--three > .program-tile > .program-tile-label {
+:is(.grid-six--three, .grid-four--paired) > .program-tile > .program-tile-label {
 overflow-wrap: anywhere;
 }
 }
